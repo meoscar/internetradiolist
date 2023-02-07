@@ -8,7 +8,7 @@
       "id": "0",
       "image": "https://i0.wp.com/www.soundnetwork.co.uk/wp-content/uploads/2015/08/pinknoise-logo.png",
       "site": "https://www.internet-radio.com/station/pinknoise/",
-      "source": "https://storage.googleapis.com/uamp/The_Kyoto_Connection_-_Wake_Up/01_-_Intro_-_The_Way_Of_Waking_Up_feat_Alan_Watts.mp3",
+      "source": "http://uk1.internet-radio.com:8004/stream",
       "title": "Pink Noise Radio",
       "totalTrackCount": 1,
       "trackNumber": 1
