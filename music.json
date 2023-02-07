@@ -1,17 +1,17 @@
 {
   "music": [
     {
-      "album": "Pink Noise Radio",
-      "artist": "Pink Noise Radio",
-      "duration": 0,
-      "genre": "pink noise ambient chillout",
-      "id": "0",
-      "image": "https://i0.wp.com/www.soundnetwork.co.uk/wp-content/uploads/2015/08/pinknoise-logo.png",
-      "site": "https://www.internet-radio.com/station/pinknoise/",
+      "id": "wake_up_01",
+      "title": "Intro - The Way Of Waking Up (feat. Alan Watts)",
+      "album": "Wake Up",
+      "artist": "The Kyoto Connection",
+      "genre": "Electronic",
       "source": "https://storage.googleapis.com/uamp/The_Kyoto_Connection_-_Wake_Up/01_-_Intro_-_The_Way_Of_Waking_Up_feat_Alan_Watts.mp3",
-      "title": "Pink Noise Radio",
-      "totalTrackCount": 1,
-      "trackNumber": 1
+      "image": "https://storage.googleapis.com/uamp/The_Kyoto_Connection_-_Wake_Up/art.jpg",
+      "trackNumber": 1,
+      "totalTrackCount": 13,
+      "duration": 90,
+      "site": "http://freemusicarchive.org/music/The_Kyoto_Connection/Wake_Up_1957/"
     },
     {
       "album": "Majestic Jukebox Radio #HIGH QUALITY SOUND",
