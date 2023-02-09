@@ -259,6 +259,19 @@
       "title": "The Disco Palace",
       "totalTrackCount": 1,
       "trackNumber": 1
+    },
+    {
+      "album": "Merge 104.8",
+      "artist": "https://www.internet-radio.com/station/radiomerge/",
+      "duration": 0,
+      "genre": "pop ",
+      "id": "world_radio_20",
+      "image": "https://dpi4fupzvxbqq.cloudfront.net/rfm/uploads/rlogo/300/300_1474271680.jpg",
+      "site": "https://www.internet-radio.com/station/radiomerge/",
+      "source": "http://uk7.internet-radio.com:8040/stream",
+      "title": "Merge 104.8",
+      "totalTrackCount": 1,
+      "trackNumber": 1
     }
   ]
 }
