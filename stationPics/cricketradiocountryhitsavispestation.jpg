@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Suspended</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+  </head>
+
+  <body style="background: linear-gradient(90deg, #9FF 0%, #FFF 100%);">
+    <div class="flex items-center justify-center h-screen">
+      <div class="flex flex-col items-center justify-center max-w-lg">
+        <div class="mb-4">
+          <h1 class="text-5xl font-extrabold text-blue-900">Account Suspended</h1>
+        </div>
+        <h3 class="mb-3 text-2xl font-bold text-center text-gray-700">
+          This Website is Temporarily down<br/>
+          We’ll be back soon!
+        </h3>
+        <p class="text-sm text-center text-gray-600 mt-4">
+          Sorry for the inconvenience
+        </p>
+        <p class="text-sm text-center text-gray-600 mt-32">
+         Website Hosted and Maintained by <a href="https://dsmdesign.co.uk" target="_blank">DSM Design Ltd.</a>
+        </p>
+      </div>
+    </div>
+  </body>
+
+</html>
