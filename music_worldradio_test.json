@@ -14,6 +14,45 @@
       "site":"https://www.icrt.com.tw/"
     },
     {
+      "id":"root_placeholder_category_Pink Noise Radio",
+      "title":"Pink Noise Radio",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk1.internet-radio.com:8004/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics/pinknoiseradio.jpg",
+      "trackNumber":1,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/pinknoise/"
+    },
+    {
+      "id":"root_placeholder_category_https://www.majesticjukeboxradio.com/",
+      "title":"Majestic Jukebox Radio #HIGH QUALITY SOUND",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk3.internet-radio.com:8405/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics/majesticjukeboxradiohighqualitysound.jpg",
+      "trackNumber":2,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/majesticjukebox/"
+    },
+    {
+      "id":"root_placeholder_category_https://www.majesticjukeboxradio.com/",
+      "title":"Dance UK Radio danceradiouk aac+",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk2.internet-radio.com:8024/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics/danceukradiodanceradioukaac.jpg",
+      "trackNumber":3,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/danceradiouk/"
+    },
+    {
       "id":"ontrendstations_Pink Noise Radio",
       "title":"Pink Noise Radio",
       "album":"On Trend",
