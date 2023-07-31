@@ -14,19 +14,6 @@
       "site":"https://www.icrt.com.tw/"
     },
     {
-      "id":"ontrendstations_Radio Paz 810 AM",
-      "title":"Radio Paz 810 AM",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://us2.internet-radio.com:8085/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radiopaz810am.jpg",
-      "trackNumber":1,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/wkvm/"
-    },
-    {
       "id":"ontrendstations_Pink Noise Radio",
       "title":"Pink Noise Radio",
       "album":"On Trend",
@@ -34,10 +21,23 @@
       "genre":"On Trend",
       "source":"http://uk1.internet-radio.com:8004/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/pinknoiseradio.jpg",
-      "trackNumber":2,
+      "trackNumber":1,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/pinknoise/"
+    },
+    {
+      "id":"ontrendstations_https://www.majesticjukeboxradio.com/",
+      "title":"Majestic Jukebox Radio #HIGH QUALITY SOUND",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk3.internet-radio.com:8405/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/majesticjukeboxradiohighqualitysound.jpg",
+      "trackNumber":2,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/majesticjukebox/"
     },
     {
       "id":"ontrendstations_https://www.movedahouse.com",
@@ -53,30 +53,17 @@
       "site":"https://www.internet-radio.com/station/movedahouse/"
     },
     {
-      "id":"ontrendstations_https://www.majesticjukeboxradio.com/",
-      "title":"Majestic Jukebox Radio #HIGH QUALITY SOUND",
+      "id":"ontrendstations_https://brandoclassicradio.com",
+      "title":"brandoclassicotr",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://uk3.internet-radio.com:8405/live",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/majesticjukeboxradiohighqualitysound.jpg",
+      "source":"http://us3.internet-radio.com:8409/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/brandoclassicotr.jpg",
       "trackNumber":4,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/majesticjukebox/"
-    },
-    {
-      "id":"ontrendstations_No Name",
-      "title":"No Name",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://us2.internet-radio.com:8057/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/noname.jpg",
-      "trackNumber":5,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/woro/"
+      "site":"https://www.internet-radio.com/station/brandootr/"
     },
     {
       "id":"ontrendstations_https://www.HotRockRadio.com",
@@ -86,10 +73,62 @@
       "genre":"On Trend",
       "source":"http://uk2.internet-radio.com:8054/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/classicrockmiamisheradio.jpg",
-      "trackNumber":6,
+      "trackNumber":5,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/classicrockmiami/"
+    },
+    {
+      "id":"ontrendstations_https://www.kigoocofm.co.ke",
+      "title":"KigoocoFm Stream",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://us4.internet-radio.com:8093/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/kigoocofmstream.jpg",
+      "trackNumber":6,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/kigoocofm/"
+    },
+    {
+      "id":"ontrendstations_http://www.merge1048.com",
+      "title":"Merge 104.8",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk7.internet-radio.com:8040/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/merge1048.jpg",
+      "trackNumber":7,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/radiomerge/"
+    },
+    {
+      "id":"ontrendstations_No Name",
+      "title":"No Name",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://us2.internet-radio.com:8057/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/noname.jpg",
+      "trackNumber":8,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/woro/"
+    },
+    {
+      "id":"ontrendstations_https://wisal.fm/",
+      "title":"Al Wisal FM",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk7.internet-radio.com:8067/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/alwisalfm.jpg",
+      "trackNumber":9,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/alwisal/"
     },
     {
       "id":"ontrendstations_https://www.danceradiouk.com",
@@ -99,49 +138,10 @@
       "genre":"On Trend",
       "source":"http://uk2.internet-radio.com:8024/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/danceukradiodanceradioukaac.jpg",
-      "trackNumber":7,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/danceradiouk/"
-    },
-    {
-      "id":"ontrendstations_XRDS.fm",
-      "title":"XRDS.fm",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://us1.internet-radio.com:8321/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/xrdsfm.jpg",
-      "trackNumber":8,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/xrds/"
-    },
-    {
-      "id":"ontrendstations_http://www.megatoncaferadio.com",
-      "title":"MEGATON CAFE RADIO",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://us2.internet-radio.com:8443/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/megatoncaferadio.jpg",
-      "trackNumber":9,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/megatoncafe/"
-    },
-    {
-      "id":"ontrendstations_Dengi Kurdsat 96.3",
-      "title":"Dengi Kurdsat 96.3",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://uk3.internet-radio.com:8011/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/dengikurdsat963.jpg",
       "trackNumber":10,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/hawkar/"
+      "site":"https://www.internet-radio.com/station/danceradiouk/"
     },
     {
       "id":"ontrendstations_http://www.easyhitsflorida.com",
@@ -248,30 +248,30 @@
       "site":"https://www.internet-radio.com/station/dougmagicoldies/"
     },
     {
-      "id":"ontrendstations_Heartbeat FM",
-      "title":"Heartbeat FM",
+      "id":"ontrendstations_https://kapital3.net",
+      "title":"Radio Techno Zagreb One",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"https://cast5.magicstreams.gr:8010/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/heartbeatfm.jpg",
+      "source":"http://mercury.reliastream.com:8085/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radiotechnozagrebone.jpg",
       "trackNumber":19,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/heartbeatfm/"
+      "site":"https://www.internet-radio.com/station/radiotechnozagreb/"
     },
     {
-      "id":"ontrendstations_AIRPORT LOUNGE RADIO",
-      "title":"AIRPORT LOUNGE RADIO",
+      "id":"ontrendstations_http://radio-veneziasound.it",
+      "title":"Radio Venezia Sound",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://martina.radiobellissima.it:8240/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/airportloungeradio.jpg",
+      "source":"http://nrf1.newradio.it:9908/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radioveneziasound.jpg",
       "trackNumber":20,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/airportloungeradio/"
+      "site":"https://www.internet-radio.com/station/radioveneziasound/"
     },
     {
       "id":"https://www.majesticjukeboxradio.com",
