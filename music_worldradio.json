@@ -14,6 +14,19 @@
       "site":"https://www.icrt.com.tw/"
     },
     {
+      "id":"ontrendstations_Power 95 Bermuda",
+      "title":"Power 95 Bermuda",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://us3.internet-radio.com:8026/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/power95bermuda.jpg",
+      "trackNumber":1,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/power95/"
+    },
+    {
       "id":"ontrendstations_Radio Paz 810 AM",
       "title":"Radio Paz 810 AM",
       "album":"On Trend",
@@ -21,7 +34,7 @@
       "genre":"On Trend",
       "source":"http://us2.internet-radio.com:8085/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radiopaz810am.jpg",
-      "trackNumber":1,
+      "trackNumber":2,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/wkvm/"
@@ -34,7 +47,7 @@
       "genre":"On Trend",
       "source":"http://uk1.internet-radio.com:8004/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/pinknoiseradio.jpg",
-      "trackNumber":2,
+      "trackNumber":3,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/pinknoise/"
@@ -47,7 +60,7 @@
       "genre":"On Trend",
       "source":"http://uk3.internet-radio.com:8405/live",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/majesticjukeboxradiohighqualitysound.jpg",
-      "trackNumber":3,
+      "trackNumber":4,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/majesticjukebox/"
@@ -60,36 +73,10 @@
       "genre":"On Trend",
       "source":"http://uk2.internet-radio.com:8024/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/danceukradiodanceradioukaac.jpg",
-      "trackNumber":4,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/danceradiouk/"
-    },
-    {
-      "id":"ontrendstations_Rock of Talk",
-      "title":"Rock of Talk",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://uk1.internet-radio.com:15889/live",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/rockoftalk.jpg",
       "trackNumber":5,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/rockoftalk/"
-    },
-    {
-      "id":"ontrendstations_https://www.HotRockRadio.com",
-      "title":"CLASSIC ROCK MIAMI - SHE RADIO",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://uk2.internet-radio.com:8054/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/classicrockmiamisheradio.jpg",
-      "trackNumber":6,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/classicrockmiami/"
+      "site":"https://www.internet-radio.com/station/danceradiouk/"
     },
     {
       "id":"ontrendstations_https://www.movedahouse.com",
@@ -99,10 +86,23 @@
       "genre":"On Trend",
       "source":"http://uk7.internet-radio.com:8000/stream",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/movedahouse.jpg",
-      "trackNumber":7,
+      "trackNumber":6,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/movedahouse/"
+    },
+    {
+      "id":"ontrendstations_https://www.HotRockRadio.com",
+      "title":"CLASSIC ROCK MIAMI - SHE RADIO",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://uk2.internet-radio.com:8054/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/classicrockmiamisheradio.jpg",
+      "trackNumber":7,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/classicrockmiami/"
     },
     {
       "id":"ontrendstations_XRDS.fm",
@@ -118,30 +118,30 @@
       "site":"https://www.internet-radio.com/station/xrds/"
     },
     {
-      "id":"ontrendstations_No Name",
-      "title":"No Name",
+      "id":"ontrendstations_Rock of Talk",
+      "title":"Rock of Talk",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://us2.internet-radio.com:8057/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/noname.jpg",
+      "source":"http://uk1.internet-radio.com:15889/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/rockoftalk.jpg",
       "trackNumber":9,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/woro/"
+      "site":"https://www.internet-radio.com/station/rockoftalk/"
     },
     {
-      "id":"ontrendstations_https://www.theseagull.net/",
-      "title":"The Seagull - Feel Good Variety",
+      "id":"ontrendstations_http://www.megatoncaferadio.com",
+      "title":"MEGATON CAFE RADIO",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://us5.internet-radio.com:8121/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/theseagullfeelgoodvariety.jpg",
+      "source":"http://us2.internet-radio.com:8443/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/megatoncaferadio.jpg",
       "trackNumber":10,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/sunny105/"
+      "site":"https://www.internet-radio.com/station/megatoncafe/"
     },
     {
       "id":"ontrendstations_http://www.easyhitsflorida.com",
@@ -209,6 +209,19 @@
       "site":"https://www.internet-radio.com/station/magic70sdoug/"
     },
     {
+      "id":"ontrendstations_http://www.easyhitsflorida.com",
+      "title":"Easy Hits Florida Ultra",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://airspectrum.cdnstream1.com:8118/1650_256",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/easyhitsfloridaultra.jpg",
+      "trackNumber":16,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/easyhitsultra/"
+    },
+    {
       "id":"ontrendstations_http://www.hionline.eu/jazz",
       "title":"Hi On Line Jazz Radio",
       "album":"On Trend",
@@ -216,7 +229,7 @@
       "genre":"On Trend",
       "source":"http://mediaserv38.live-streams.nl:8006/live",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/hionlinejazzradio.jpg",
-      "trackNumber":16,
+      "trackNumber":17,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/hionlinejazzradio/"
@@ -229,49 +242,36 @@
       "genre":"On Trend",
       "source":"http://airspectrum.cdnstream1.com:8000/1261_192",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/magicoldiesfloridahd.jpg",
-      "trackNumber":17,
+      "trackNumber":18,
       "totalTrackCount":0,
       "duration":0,
       "site":"https://www.internet-radio.com/station/dougmagicoldies/"
     },
     {
-      "id":"ontrendstations_http://www.easyhitsflorida.com",
-      "title":"Easy Hits Florida Ultra",
+      "id":"ontrendstations_",
+      "title":"",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://airspectrum.cdnstream1.com:8118/1650_256",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/easyhitsfloridaultra.jpg",
-      "trackNumber":18,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/easyhitsultra/"
-    },
-    {
-      "id":"ontrendstations_https://fmmoon.com",
-      "title":"FMmoon",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://eu9.fastcast4u.com:3115/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/fmmoon.jpg",
+      "source":"http://94.102.214.158:8006/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/.jpg",
       "trackNumber":19,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/fmmoon/"
+      "site":"https://www.internet-radio.com/station/ illertalfmdaspartyradioausschwa/"
     },
     {
-      "id":"ontrendstations_https://rbv.lu",
-      "title":"Radio Belle Vallee",
+      "id":"ontrendstations_http://www.radioplay.gr",
+      "title":"Radio Play 91.5 Fm Stereo (Gr Xanthi)",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://radio.rbv.lu:8002/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radiobellevallee.jpg",
+      "source":"http://s6.onweb.gr:8058/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radioplay915fmstereogrxanthi.jpg",
       "trackNumber":20,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/radiobellevalle107fm/"
+      "site":"https://www.internet-radio.com/station/radioplay91.5fm/"
     },
     {
       "id":"https://www.majesticjukeboxradio.com",
