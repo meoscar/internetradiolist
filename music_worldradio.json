@@ -14,30 +14,30 @@
       "site":"https://www.icrt.com.tw/"
     },
     {
-      "id":"ontrendstations_Power 95 Bermuda",
-      "title":"Power 95 Bermuda",
+      "id":"ontrendstations_https://www.danceradiouk.com",
+      "title":"Dance UK Radio danceradiouk aac+",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://us3.internet-radio.com:8026/live",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/power95bermuda.jpg",
+      "source":"http://uk2.internet-radio.com:8024/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/danceukradiodanceradioukaac.jpg",
       "trackNumber":1,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/power95/"
+      "site":"https://www.internet-radio.com/station/danceradiouk/"
     },
     {
-      "id":"ontrendstations_Radio Paz 810 AM",
-      "title":"Radio Paz 810 AM",
+      "id":"ontrendstations_https://www.majesticjukeboxradio.com/",
+      "title":"Majestic Jukebox Radio #HIGH QUALITY SOUND",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://us2.internet-radio.com:8085/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radiopaz810am.jpg",
+      "source":"http://uk3.internet-radio.com:8405/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/majesticjukeboxradiohighqualitysound.jpg",
       "trackNumber":2,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/wkvm/"
+      "site":"https://www.internet-radio.com/station/majesticjukebox/"
     },
     {
       "id":"ontrendstations_Pink Noise Radio",
@@ -53,30 +53,30 @@
       "site":"https://www.internet-radio.com/station/pinknoise/"
     },
     {
-      "id":"ontrendstations_https://www.majesticjukeboxradio.com/",
-      "title":"Majestic Jukebox Radio #HIGH QUALITY SOUND",
+      "id":"ontrendstations_https://www.danceradiouk.com",
+      "title":"Box UK Radio danceradiouk",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://uk3.internet-radio.com:8405/live",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/majesticjukeboxradiohighqualitysound.jpg",
+      "source":"http://uk7.internet-radio.com:8226/live",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/boxukradiodanceradiouk.jpg",
       "trackNumber":4,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/majesticjukebox/"
+      "site":"https://www.internet-radio.com/station/danceradioukchatbox/"
     },
     {
-      "id":"ontrendstations_https://www.danceradiouk.com",
-      "title":"Dance UK Radio danceradiouk aac+",
+      "id":"ontrendstations_Dengi Kurdsat 96.3",
+      "title":"Dengi Kurdsat 96.3",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://uk2.internet-radio.com:8024/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/danceukradiodanceradioukaac.jpg",
+      "source":"http://uk3.internet-radio.com:8011/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/dengikurdsat963.jpg",
       "trackNumber":5,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/danceradiouk/"
+      "site":"https://www.internet-radio.com/station/hawkar/"
     },
     {
       "id":"ontrendstations_https://www.movedahouse.com",
@@ -105,43 +105,43 @@
       "site":"https://www.internet-radio.com/station/classicrockmiami/"
     },
     {
-      "id":"ontrendstations_XRDS.fm",
-      "title":"XRDS.fm",
+      "id":"ontrendstations_http://www.merge1048.com",
+      "title":"Merge 104.8",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://us1.internet-radio.com:8321/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/xrdsfm.jpg",
+      "source":"http://uk7.internet-radio.com:8040/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/merge1048.jpg",
       "trackNumber":8,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/xrds/"
+      "site":"https://www.internet-radio.com/station/radiomerge/"
     },
     {
-      "id":"ontrendstations_Rock of Talk",
-      "title":"Rock of Talk",
+      "id":"ontrendstations_https://www.theseagull.net/",
+      "title":"The Seagull - Feel Good Variety",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://uk1.internet-radio.com:15889/live",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/rockoftalk.jpg",
+      "source":"http://us5.internet-radio.com:8121/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/theseagullfeelgoodvariety.jpg",
       "trackNumber":9,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/rockoftalk/"
+      "site":"https://www.internet-radio.com/station/sunny105/"
     },
     {
-      "id":"ontrendstations_http://www.megatoncaferadio.com",
-      "title":"MEGATON CAFE RADIO",
+      "id":"ontrendstations_http://www.danceattack.fm",
+      "title":"Dance Attack FM - The Best EDM",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://us2.internet-radio.com:8443/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/megatoncaferadio.jpg",
+      "source":"http://uk4.internet-radio.com:8049/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/danceattackfmthebestedm.jpg",
       "trackNumber":10,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/megatoncafe/"
+      "site":"https://www.internet-radio.com/station/danceattackfm/"
     },
     {
       "id":"ontrendstations_http://www.easyhitsflorida.com",
@@ -196,6 +196,19 @@
       "site":"https://www.internet-radio.com/station/easyhitsfloridaplus/"
     },
     {
+      "id":"ontrendstations_https://www.magicoldiesflorida.com",
+      "title":"Magic Oldies Florida HD",
+      "album":"On Trend",
+      "artist":"",
+      "genre":"On Trend",
+      "source":"http://airspectrum.cdnstream1.com:8000/1261_192",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/magicoldiesfloridahd.jpg",
+      "trackNumber":15,
+      "totalTrackCount":0,
+      "duration":0,
+      "site":"https://www.internet-radio.com/station/dougmagicoldies/"
+    },
+    {
       "id":"ontrendstations_http://www.MagicOldiesFlorida.com",
       "title":"Magic 70s Florida",
       "album":"On Trend",
@@ -203,23 +216,10 @@
       "genre":"On Trend",
       "source":"http://airspectrum.cdnstream1.com:8012/1605_192",
       "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/magic70sflorida.jpg",
-      "trackNumber":15,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/magic70sdoug/"
-    },
-    {
-      "id":"ontrendstations_http://www.easyhitsflorida.com",
-      "title":"Easy Hits Florida Ultra",
-      "album":"On Trend",
-      "artist":"",
-      "genre":"On Trend",
-      "source":"http://airspectrum.cdnstream1.com:8118/1650_256",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/easyhitsfloridaultra.jpg",
       "trackNumber":16,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/easyhitsultra/"
+      "site":"https://www.internet-radio.com/station/magic70sdoug/"
     },
     {
       "id":"ontrendstations_http://www.hionline.eu/jazz",
@@ -235,43 +235,43 @@
       "site":"https://www.internet-radio.com/station/hionlinejazzradio/"
     },
     {
-      "id":"ontrendstations_https://www.magicoldiesflorida.com",
-      "title":"Magic Oldies Florida HD",
+      "id":"ontrendstations_https://estereoantoniense.com/",
+      "title":"Estereo Antoniense",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://airspectrum.cdnstream1.com:8000/1261_192",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/magicoldiesfloridahd.jpg",
+      "source":"https://streamaccplus.stream:8102/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/estereoantoniense.jpg",
       "trackNumber":18,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/dougmagicoldies/"
+      "site":"https://www.internet-radio.com/station/estereoantoniense/"
     },
     {
-      "id":"ontrendstations_",
-      "title":"",
+      "id":"ontrendstations_http://cleansingmusic.com",
+      "title":"Cleansing 80's",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://94.102.214.158:8006/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/.jpg",
+      "source":"http://thassos.cdnstream.com:8018/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/cleansing80s.jpg",
       "trackNumber":19,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/ illertalfmdaspartyradioausschwa/"
+      "site":"https://www.internet-radio.com/station/cleansing80s/"
     },
     {
-      "id":"ontrendstations_http://www.radioplay.gr",
-      "title":"Radio Play 91.5 Fm Stereo (Gr Xanthi)",
+      "id":"ontrendstations_https://retetop95.it",
+      "title":"Retetop95",
       "album":"On Trend",
       "artist":"",
       "genre":"On Trend",
-      "source":"http://s6.onweb.gr:8058/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/radioplay915fmstereogrxanthi.jpg",
+      "source":"http://nrf1.newradio.it:9774/stream",
+      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/retetop95.jpg",
       "trackNumber":20,
       "totalTrackCount":0,
       "duration":0,
-      "site":"https://www.internet-radio.com/station/radioplay91.5fm/"
+      "site":"https://www.internet-radio.com/station/retetop95/"
     },
     {
       "id":"https://www.majesticjukeboxradio.com",
