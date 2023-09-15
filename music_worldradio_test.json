@@ -1,32 +1,6 @@
 {
   "music":  [
     {
-      "id":"root_placeholder_category_selected for you",
-      "title":"ICRT#TAIWAN",
-      "album":"selected for you",
-      "artist":"",
-      "genre":"selected for you",
-      "source":"https://live.leanstream.co/ICRTFM-MP3?args=tunein_mp3",
-      "image":"https://www.radio.net/images/broadcasts/7d/d9/35166/c300.png",
-      "trackNumber":1,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.icrt.com.tw/"
-    },
-    {
-      "id":"root_placeholder_category_selected for you",
-      "title":"Merge 104.8",
-      "album":"selected for you",
-      "artist":"",
-      "genre":"selected for you",
-      "source":"http://uk7.internet-radio.com:8040/stream",
-      "image":"https://raw.githubusercontent.com/meoscar/internetradiolist/main/stationPics0719/merge1048.jpg",
-      "trackNumber":2,
-      "totalTrackCount":0,
-      "duration":0,
-      "site":"https://www.internet-radio.com/station/radiomerge/"
-    },
-    {
       "id":"https://www.icrt.com.tw/",
       "title":"ICRT#TAIWAN",
       "album":"TAIWAN",
