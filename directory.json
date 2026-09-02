@@ -1,0 +1,767 @@
+[
+ {
+  "name": "RadioMonster.FM - Evergreens",
+  "stream": "https://evergreens.radiomonster.fm:443/ultra.m3u",
+  "genres": [
+   "60s",
+   "70s",
+   "80s",
+   "classic",
+   "oldies",
+   "rock"
+  ],
+  "homepage": "https://www.radiomonster.fm",
+  "listeners": 1029,
+  "bitrate": 320,
+  "needs_resolving": true
+ },
+ {
+  "name": "The Big 80s Station",
+  "stream": "http://158.69.114.190:8024/listen.pls?sid=1",
+  "genres": [
+   "80s",
+   "oldies",
+   "pop",
+   "rock"
+  ],
+  "now_playing": "Psychedelic Furs - Love My Way",
+  "homepage": "http://www.thebig80sstation.com",
+  "listeners": 759,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "LOUNGE-RADIO.COM - swiss made",
+  "stream": "http://nl1.streamhosting.ch:80/lounge64.aac.m3u",
+  "genres": [
+   "ambient",
+   "chillout",
+   "downtempo",
+   "easy",
+   "listening",
+   "lounge"
+  ],
+  "homepage": "https://lounge-radio.com",
+  "listeners": 635,
+  "bitrate": 64,
+  "needs_resolving": true
+ },
+ {
+  "name": "Classic Hits Forest Radio",
+  "stream": "https://c2.prostream365.com:8000/live.m3u",
+  "genres": [
+   "60s",
+   "70s",
+   "80s",
+   "90s",
+   "oldies"
+  ],
+  "listeners": 577,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Psyndora Chillout",
+  "stream": "https://cast.magicstreams.gr:9125/listen.pls?sid=1",
+  "genres": [
+   "ambient",
+   "chillout",
+   "downtempo",
+   "ethnic",
+   "psychill"
+  ],
+  "now_playing": "Reasonandu feat. E-Mantra - Quiet Ocean (PS Version)",
+  "homepage": "https://www.psyndora.com/chill.html",
+  "listeners": 426,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Radio Italo4you",
+  "stream": "http://91.232.4.20:8000/listen.pls?sid=1",
+  "genres": [
+   "80s"
+  ],
+  "page": "https://www.internet-radio.com/station/radioitalo4you/",
+  "now_playing": "Barbara - A Far L'Amore Comincia Tu (12\" Version)",
+  "homepage": "http://www.radioitalo4you.net",
+  "listeners": 405,
+  "bitrate": 256,
+  "needs_resolving": true
+ },
+ {
+  "name": "RadioSuperoldie HIGH",
+  "stream": "http://87.118.86.46:8888/listen.pls?sid=1",
+  "genres": [
+   "60s",
+   "70s",
+   "oldies"
+  ],
+  "now_playing": "Rainer Bertram - Gib mein Herz mir wieder",
+  "homepage": "http://radiosuperoldie.com",
+  "listeners": 364,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "Box UK Radio danceradiouk",
+  "stream": "http://51.75.170.46:6191/listen.pls?sid=1",
+  "genres": [
+   "40",
+   "80s",
+   "90s",
+   "pop",
+   "rock",
+   "top"
+  ],
+  "now_playing": "Stereophonics - Pick A Part That's New",
+  "homepage": "https://boxuk.danceradiouk.com",
+  "listeners": 320,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Back To The 80s Radio",
+  "stream": "http://149.56.185.82:8135/listen.pls",
+  "genres": [
+   "80s"
+  ],
+  "now_playing": "Squeeze - Black Coffee In Bed",
+  "homepage": "http://www.heartbeatradio.us",
+  "listeners": 177,
+  "bitrate": 320,
+  "needs_resolving": true
+ },
+ {
+  "name": "70s 80s DiscoFunk ModernSoul Boogie",
+  "stream": "http://7080discofunk.streamingmedia.it:8020/play.m3u",
+  "genres": [
+   "70s",
+   "80s",
+   "funk"
+  ],
+  "homepage": "https://funky.radio",
+  "listeners": 174,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "80s  Super Dance floor",
+  "stream": "http://5.135.154.66:33604/listen.pls?sid=1",
+  "genres": [
+   "80s"
+  ],
+  "now_playing": "Eddy Huntington- Ussr",
+  "homepage": "https://tunein.com/radio/80s-Super-Dance-floor-s294344/",
+  "listeners": 164,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "70s Great Hits",
+  "stream": "http://176.31.248.14:35508/listen.pls?sid=1",
+  "genres": [
+   "60s",
+   "70s",
+   "80s"
+  ],
+  "now_playing": "70s Great Hits - The Best Of The 70s And More",
+  "homepage": "http://70sGreatHits.com",
+  "listeners": 159,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "SF70s",
+  "stream": "http://live4.rcast.net:8368/listen.pls?sid=1",
+  "genres": [
+   "70s"
+  ],
+  "page": "https://www.internet-radio.com/station/sf70s/",
+  "now_playing": "Climax Blues Band - Couldn't Get It Right",
+  "listeners": 149,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "DIMENSIONE RELAX",
+  "stream": "https://az1.mediacp.eu:443/listen/radiodimensionerelax/listen.pls?sid=1",
+  "genres": [
+   "ambient"
+  ],
+  "page": "https://www.internet-radio.com/station/radiodimensionerelax/",
+  "now_playing": "jean-pierre.saussac - No stress",
+  "homepage": "https://rdastation.it/",
+  "listeners": 127,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Radio Play Emotions - Music for work and relax",
+  "stream": "http://5.39.82.157:8054/listen.pls?sid=1",
+  "genres": [
+   "ambient",
+   "chillout",
+   "house",
+   "lounge",
+   "soft"
+  ],
+  "now_playing": "Claes Rosen - If This World Were Mine (Extended Mix)",
+  "homepage": "https://www.playemotions.it",
+  "listeners": 126,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Synthetic FM The New Italo generation sound",
+  "stream": "http://stream.syntheticfm.com:8030/stream",
+  "genres": [
+   "80s",
+   "disco",
+   "electronic",
+   "generation",
+   "italo",
+   "new",
+   "synthpop"
+  ],
+  "homepage": "https://syntheticfm.com/",
+  "listeners": 116,
+  "bitrate": 320
+ },
+ {
+  "name": "Made in 80",
+  "stream": "http://leswebradios.fr:8002/listen.pls?sid=1",
+  "genres": [
+   "80s"
+  ],
+  "page": "https://www.internet-radio.com/station/madein80/",
+  "now_playing": "Made in 80 - Flash info",
+  "homepage": "https://madein80.fr",
+  "listeners": 116,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "Gdynia Radio",
+  "stream": "http://51.255.8.139:8064/listen.pls?sid=1",
+  "genres": [
+   "80s",
+   "blues",
+   "bossa",
+   "britpop",
+   "jazz",
+   "latin",
+   "lounge",
+   "music",
+   "oldies",
+   "rocknroll",
+   "world"
+  ],
+  "now_playing": "Frank Sinatra - My Way",
+  "homepage": "http://gdyniaradio.com",
+  "listeners": 115,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "NonStopOldies",
+  "stream": "https://shoutcast-new.cdnstream.com:443/listen.pls?sid=117",
+  "genres": [
+   "60s",
+   "70s",
+   "oldies"
+  ],
+  "page": "https://www.internet-radio.com/station/nonstopoldies/",
+  "now_playing": "Aretha Franklin - Spanish Harlem",
+  "homepage": "https://www.nonstopoldies.com",
+  "listeners": 94,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Pink Noise Radio",
+  "stream": "http://uk1.internet-radio.com:8004/listen.pls",
+  "genres": [
+   "ambient",
+   "chillout",
+   "noise",
+   "pink"
+  ],
+  "page": "https://www.internet-radio.com/station/pinknoise/",
+  "now_playing": "Unknown - Pink Noise",
+  "listeners": 92,
+  "bitrate": 64,
+  "needs_resolving": true
+ },
+ {
+  "name": "Pure Classix Radio MP3",
+  "stream": "http://mscp4.live-streams.nl:8140/live.mp3.m3u",
+  "genres": [
+   "70s",
+   "80s"
+  ],
+  "homepage": "https://www.pureclassix.com",
+  "listeners": 87,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "Uturn Radio: Drum and Bass Music",
+  "stream": "http://listen.uturnradio.com:7000/drum_and_bass.m3u",
+  "genres": [
+   "ambient",
+   "and",
+   "bass",
+   "dnb",
+   "drum"
+  ],
+  "homepage": "https://www.uturnradio.com",
+  "listeners": 81,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "98.3 The Seagull - Commercial Free Variety",
+  "stream": "http://us5.internet-radio.com:8121/listen.pls",
+  "genres": [
+   "40",
+   "80s",
+   "classic",
+   "pop",
+   "rock",
+   "top"
+  ],
+  "page": "https://www.internet-radio.com/station/sunny105/",
+  "now_playing": "Panic At The Disco - Hey Look Ma, I Made It",
+  "homepage": "https://www.theseagull.net/",
+  "listeners": 74,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Greatest Hits Non-Stop",
+  "stream": "http://s8.myradiostream.com:58238/listen.pls?sid=1",
+  "genres": [
+   "60s",
+   "70s",
+   "80s",
+   "oldies",
+   "pop",
+   "top40"
+  ],
+  "now_playing": "T'Pau - Heart And Soul",
+  "homepage": "http://greatesthitsnonstop.com",
+  "listeners": 72,
+  "bitrate": 160,
+  "needs_resolving": true
+ },
+ {
+  "name": "RadioSuperoldie MEDIUM",
+  "stream": "http://87.118.86.46:8877/listen.pls?sid=1",
+  "genres": [
+   "60s",
+   "70s",
+   "oldies"
+  ],
+  "now_playing": "Rainer Bertram - Gib mein Herz mir wieder",
+  "homepage": "http://www.radiosuperoldie.com",
+  "listeners": 71,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "CURRAMBERA STEREO",
+  "stream": "http://163.172.77.142:8618/listen.pls?sid=1",
+  "genres": [
+   "70s",
+   "90s",
+   "merengue"
+  ],
+  "now_playing": "EN CASA DE ESTANISLAO - EN CASA DE ESTANISLAO",
+  "homepage": "http://www.curramberastereo.com",
+  "listeners": 71,
+  "bitrate": 96,
+  "needs_resolving": true
+ },
+ {
+  "name": "The Groove",
+  "stream": "http://uk7.internet-radio.com:8352/listen.pls",
+  "genres": [
+   "80s",
+   "disco",
+   "funk",
+   "rnb",
+   "soul"
+  ],
+  "page": "https://www.internet-radio.com/station/simonyates44/",
+  "now_playing": "The S.O.S. Band - Just the Way You Like It",
+  "homepage": "http://www.thegrooveradio.co.uk",
+  "listeners": 66,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Radio Horyzont",
+  "stream": "http://s1.slotex.pl:7328/listen.pls?sid=1",
+  "genres": [
+   "ambient",
+   "chillout",
+   "downtempo"
+  ],
+  "now_playing": "www.radiohoryzont.pl",
+  "homepage": "http://www.radiohoryzont.pl",
+  "listeners": 65,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "RADIO ESTILO LEBLON",
+  "stream": "http://us4.internet-radio.com:8193/listen.pls",
+  "genres": [
+   "ambient",
+   "chillout",
+   "easy",
+   "jazz",
+   "listening",
+   "lounge"
+  ],
+  "page": "https://www.internet-radio.com/station/radioestiloleblon/",
+  "now_playing": "Zebastiang Fishpoon - Im Not In Love",
+  "homepage": "https://www.mixcloud.com/radioestiloleblon/",
+  "listeners": 61,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "psyradio * fm - chillout",
+  "stream": "http://komplex2.psyradio.org:8020/listen.pls?sid=1",
+  "genres": [
+   "ambient",
+   "chillout",
+   "goa"
+  ],
+  "now_playing": "YPREY - WITHOUT YOU",
+  "homepage": "http://psyradio.fm",
+  "listeners": 60,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Pop Lounge Cafe",
+  "stream": "https://poploungecafe.stream.laut.fm/poploungecafe.m3u",
+  "genres": [
+   "ambient",
+   "chillout",
+   "deep",
+   "electronic",
+   "house",
+   "lounge"
+  ],
+  "page": "https://www.internet-radio.com/station/poploungecafe/",
+  "homepage": "https://poploungecafe.com",
+  "listeners": 58,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Ambient Radio .org - Deeply Beautiful Chillout Music - A Heavenly World of Sound",
+  "stream": "http://uk2.internet-radio.com:8171/listen.pls",
+  "genres": [
+   "ambient",
+   "chillout",
+   "downtempo",
+   "lounge",
+   "meditation",
+   "relaxation"
+  ],
+  "page": "https://www.internet-radio.com/station/ambientradio/",
+  "now_playing": "The Orb - Secrets (I Love A Woman In Uniform Mix)",
+  "homepage": "http://AmbientRadio.org",
+  "listeners": 47,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "NATURE RADIO SLEEP",
+  "stream": "https://az1.mediacp.eu:443/listen/natureradiosleep/listen.pls?sid=1",
+  "genres": [
+   "ambient"
+  ],
+  "page": "https://www.internet-radio.com/station/natureradiosleep/",
+  "now_playing": "Out Of Orion (Ox3) - Summer Bullfrogs",
+  "homepage": "https://natureradiosleep.weebly.com/",
+  "listeners": 45,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Zero Beat Zone (MRG.fm)",
+  "stream": "http://62.149.196.16:8800/listen.pls?sid=1",
+  "genres": [
+   "ambient",
+   "experimental",
+   "meditation"
+  ],
+  "now_playing": "Jonn Serrie - Glyder",
+  "homepage": "http://www.mrg.fm/zerobeatzone.html",
+  "listeners": 43,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "GP45s",
+  "stream": "http://198.100.145.185:8772/listen.pls?sid=1",
+  "genres": [
+   "70s",
+   "80s",
+   "pop",
+   "rock"
+  ],
+  "now_playing": "B A Robertson - Bang Bang [hCv]",
+  "homepage": "https://guiltypleasure45s.com/",
+  "listeners": 39,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "Pure Classix Radio",
+  "stream": "http://mscp4.live-streams.nl:8140/flac.ogg.m3u",
+  "genres": [
+   "70s",
+   "80s"
+  ],
+  "homepage": "https://www.pureclassix.com",
+  "listeners": 37,
+  "bitrate": 1411,
+  "needs_resolving": true
+ },
+ {
+  "name": "Box UK Radio danceradiouk",
+  "stream": "http://uk7.internet-radio.com:8226/live.m3u",
+  "genres": [
+   "40",
+   "80s",
+   "90s",
+   "pop",
+   "rock",
+   "top"
+  ],
+  "page": "https://www.internet-radio.com/station/boxradiouk/",
+  "now_playing": "Supergrass - Alright",
+  "homepage": "https://www.danceradiouk.com",
+  "listeners": 37,
+  "bitrate": 48,
+  "needs_resolving": true
+ },
+ {
+  "name": "Ideaal FM",
+  "stream": "http://server-27.stream-server.nl:8564/listen.pls?sid=1",
+  "genres": [
+   "70s",
+   "80s",
+   "90s"
+  ],
+  "now_playing": "Eagle-Eye Cherry - Save Tonight",
+  "homepage": "http://www.ideaal.fm",
+  "listeners": 34,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "PARTY VIBE RADIO : AMBIENT",
+  "stream": "http://www.partyviberadio.com:8056/listen.pls?sid=1",
+  "genres": [
+   "ambient"
+  ],
+  "page": "https://www.internet-radio.com/station/pvc-ambient/",
+  "now_playing": "Chehands - Sun Warmed Stones",
+  "homepage": "http://www.partyvibe.com",
+  "listeners": 33,
+  "bitrate": 320,
+  "needs_resolving": true
+ },
+ {
+  "name": "1 Oldies Paradise",
+  "stream": "http://107.170.166.187:8000/listen.pls?sid=1",
+  "genres": [
+   "60s",
+   "70s",
+   "oldies"
+  ],
+  "now_playing": "Steve Bishop - OLD RECORD CLUB PART 1",
+  "homepage": "http://www.oldiesparadise.com",
+  "listeners": 32,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "KVKVI - Classic Hits  60's, 70's, 80's, 90's",
+  "stream": "http://dc1.serverse.com:7294/listen.pls?sid=1",
+  "genres": [
+   "70s",
+   "80s",
+   "classic",
+   "hits",
+   "oldies",
+   "rock",
+   "soul"
+  ],
+  "page": "https://www.internet-radio.com/station/kvkviradio/",
+  "now_playing": "Madonna - Angel (1985)",
+  "homepage": "http://www.kvkvi.com",
+  "listeners": 31,
+  "bitrate": 160,
+  "needs_resolving": true
+ },
+ {
+  "name": "RADIO MI PIACI",
+  "stream": "http://94.23.67.172:9182/listen.pls?sid=1",
+  "genres": [
+   "70s",
+   "80s",
+   "90s"
+  ],
+  "now_playing": "El Debarge,Switch - Rhythm Of The Night",
+  "homepage": "http://www.radiomipiaci.it",
+  "listeners": 30,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Relaxing Radio 365",
+  "stream": "http://s10.voscast.com:9574/stream",
+  "genres": [
+   "ambient"
+  ],
+  "listeners": 30,
+  "bitrate": 128
+ },
+ {
+  "name": "Joy Radio",
+  "stream": "http://uk5.internet-radio.com:8174/listen.pls",
+  "genres": [
+   "80s",
+   "disco",
+   "funk",
+   "jazz",
+   "rnb",
+   "soul"
+  ],
+  "page": "https://www.internet-radio.com/station/joyradio/",
+  "now_playing": "Barbara Tucker - Beautiful People",
+  "homepage": "http://www.joyradio.co.uk",
+  "listeners": 21,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "Brown Noise Radio",
+  "stream": "http://uk1.internet-radio.com:8280/listen.pls",
+  "genres": [
+   "ambient",
+   "brown",
+   "chillout",
+   "noise"
+  ],
+  "page": "https://www.internet-radio.com/station/brownnoise/",
+  "now_playing": "Unknown - Brown Noise",
+  "listeners": 17,
+  "bitrate": 64,
+  "needs_resolving": true
+ },
+ {
+  "name": "Classics Radio",
+  "stream": "http://uk1.internet-radio.com:8117/live.m3u",
+  "genres": [
+   "70s",
+   "80s",
+   "90s",
+   "dance",
+   "pop",
+   "rock"
+  ],
+  "page": "https://www.internet-radio.com/station/classicsradio/",
+  "now_playing": "Lionel Richie - My Destiny",
+  "homepage": "http://www.classicsradio.eu",
+  "listeners": 11,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "131 Retro Radio",
+  "stream": "http://uk5.internet-radio.com:8222/listen.pls",
+  "genres": [
+   "70s",
+   "80s",
+   "classic",
+   "oldies",
+   "retro",
+   "rock"
+  ],
+  "page": "https://www.internet-radio.com/station/stevehoppitt/",
+  "now_playing": "Neil Young - Birds",
+  "homepage": "https://retroradio.online",
+  "listeners": 6,
+  "bitrate": 128,
+  "needs_resolving": true
+ },
+ {
+  "name": "The Hit Man Radio",
+  "stream": "http://uk2.internet-radio.com:8121/listen.pls",
+  "genres": [
+   "80s",
+   "90s",
+   "dance"
+  ],
+  "page": "https://www.internet-radio.com/station/thehitmanradio/",
+  "now_playing": "Sequal - Tell Him I Called (1988, Watermix Version)",
+  "homepage": "https://thehitmanradio.com/",
+  "listeners": 6,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "Ambiesphere",
+  "stream": "http://uk5.internet-radio.com:8347/listen.pls",
+  "genres": [
+   "ambient",
+   "chillout",
+   "relaxation"
+  ],
+  "page": "https://www.internet-radio.com/station/ambiesphere/",
+  "now_playing": "Ambiesphere - The Ascent",
+  "listeners": 5,
+  "bitrate": 192,
+  "needs_resolving": true
+ },
+ {
+  "name": "White Noise Radio",
+  "stream": "http://uk1.internet-radio.com:8267/listen.pls",
+  "genres": [
+   "ambient",
+   "chillout",
+   "noise",
+   "white"
+  ],
+  "page": "https://www.internet-radio.com/station/whitenoise/",
+  "now_playing": "Unknown - White Noise",
+  "listeners": 3,
+  "bitrate": 64,
+  "needs_resolving": true
+ },
+ {
+  "name": "Real World Sounds",
+  "stream": "http://uk5.internet-radio.com:8260/listen.pls",
+  "genres": [
+   "ambient",
+   "chillout",
+   "nature",
+   "relaxation"
+  ],
+  "page": "https://www.internet-radio.com/station/realworldsounds/",
+  "now_playing": "Real World Sounds - Street Noise",
+  "listeners": 1,
+  "bitrate": 128,
+  "needs_resolving": true
+ }
+]
