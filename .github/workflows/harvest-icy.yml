@@ -8,6 +8,10 @@ name: Ask the stations what they are
 # catalogue the app fetches is not touched by this workflow.
 on:
   workflow_dispatch:
+    inputs:
+      files:
+        description: 'Which files to read (space separated)'
+        default: 'directory.json music_worldradio.json music.json'
   schedule:
     # Weekly. Station metadata changes when an operator edits it, which is rare.
     - cron: '40 4 * * 1'
@@ -18,7 +22,7 @@ permissions:
 jobs:
   harvest:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
 
@@ -27,7 +31,7 @@ jobs:
           python-version: '3.11'
 
       - name: Interrogate every station
-        run: python3 harvest_icy.py | tee harvest.log
+        run: python3 harvest_icy.py ${{ github.event.inputs.files }} | tee harvest.log
 
       - name: Commit the facts
         run: |

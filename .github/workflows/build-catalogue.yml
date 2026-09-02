@@ -1,0 +1,55 @@
+name: Build the catalogue the app downloads
+
+# Joins the crawl, the stream probe and the logos into music_worldradio.json.
+# Dry run by default: it prints what the new catalogue would contain and writes
+# nothing. This is the file every installed copy of the app fetches, so
+# replacing it is a deliberate act, not a side effect of a scheduled job.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Actually replace music_worldradio.json'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Work out the new catalogue
+        run: |
+          if [ "${{ github.event.inputs.apply }}" = "true" ]; then
+            python3 build_catalogue.py --apply
+          else
+            python3 build_catalogue.py
+          fi
+
+      - name: Refuse to publish a broken catalogue
+        if: ${{ github.event.inputs.apply == 'true' }}
+        run: python3 validate_stations.py
+
+      - name: Commit it
+        if: ${{ github.event.inputs.apply == 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add music_worldradio.json
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "Rebuild the catalogue from the crawl and the probe
+
+          Only stations whose stream answered a handshake are included, and
+          logos come from the stations' own sites."
+          git pull --rebase origin main
+          git push

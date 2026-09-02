@@ -37,7 +37,10 @@ FACTS_FILE = "station_facts.json"
 CONNECT_TIMEOUT = 12
 READ_DEADLINE = 25          # a whole station, headers plus one metadata block
 MAX_REDIRECTS = 3
-WORKERS = 24
+# 24 was sized for the 833 streams of the published catalogue. The crawled
+# directory is 2721, and a run where most of them time out at 12s would need
+# most of an hour at that width.
+WORKERS = 48
 
 UA = "Mozilla/5.0 (compatible; icrtradio-catalogue-facts/1.0)"
 
@@ -191,9 +194,11 @@ def main(argv):
             print(f"{name}: not here, skipping")
             continue
         for item in items_of(json.loads(path.read_text(encoding="utf-8"))):
-            url = (item.get("source") or "").strip()
+            # The published catalogue calls them source/title; the crawled
+            # directory calls them stream/name. Same two things.
+            url = (item.get("source") or item.get("stream") or "").strip()
             if url:
-                sources.setdefault(url, item.get("title", ""))
+                sources.setdefault(url, item.get("title") or item.get("name") or "")
 
     print(f"asking {len(sources)} stations, {WORKERS} at a time")
     urls = list(sources)
