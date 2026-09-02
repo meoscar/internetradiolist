@@ -39,6 +39,7 @@ from urllib.parse import urljoin, urlparse
 from PIL import Image
 
 DIRECTORY = "directory.json"
+LOGO_INDEX = "logos.json"
 OUT_DIR = pathlib.Path("logos")
 SIZE = 256
 TIMEOUT = 20
@@ -169,19 +170,33 @@ def main(argv):
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         results = list(pool.map(harvest, with_home))
 
+    # Written to its own file rather than back into directory.json. Two
+    # workflows editing the same file is a merge conflict waiting for the first
+    # time they overlap, and the first time was this one -- the crawl finished
+    # while this was running and the logos never got pushed. A station's logo
+    # keyed by its stream URL composes with the directory instead of racing it.
+    index_file = pathlib.Path(LOGO_INDEX)
+    index = {}
+    if index_file.exists():
+        index = json.loads(index_file.read_text(encoding="utf-8"))
+
     got, reasons = 0, {}
     for station, (slug, note) in zip(with_home, results):
         if slug:
-            station["logo"] = (
-                "https://raw.githubusercontent.com/meoscar/internetradiolist/"
-                f"main/logos/{slug}.webp")
-            station["logo_source"] = note
+            index[station["stream"]] = {
+                "name": station["name"],
+                "logo": ("https://raw.githubusercontent.com/meoscar/"
+                         f"internetradiolist/main/logos/{slug}.webp"),
+                "from": note,
+            }
+            station["logo"] = index[station["stream"]]["logo"]
             got += 1
         else:
             reasons[note] = reasons.get(note, 0) + 1
 
-    path.write_text(json.dumps(stations, indent=1, ensure_ascii=False) + "\n",
-                    encoding="utf-8")
+    index_file.write_text(
+        json.dumps(index, indent=1, ensure_ascii=False, sort_keys=True) + "\n",
+        encoding="utf-8")
 
     print(f"\n{got} logos in {time.time() - started:.0f}s")
     for reason, count in sorted(reasons.items(), key=lambda kv: -kv[1]):
@@ -194,9 +209,10 @@ def main(argv):
                   f"{sum(sizes) // len(sizes) / 1024:.1f} KB each on average")
             print("stationPics0719 for comparison: 746 files, 93 MB, 125 KB each")
 
+    print(f"\n{LOGO_INDEX}: {len(index)} stations have a logo")
     print("\nwhere the first few came from:")
-    for station in [s for s in with_home if s.get("logo")][:8]:
-        print(f"  {station['name'][:34]:34} {station['logo_source'][:80]}")
+    for entry in list(index.values())[:8]:
+        print(f"  {entry['name'][:34]:34} {entry['from'][:80]}")
     return 0
 
 

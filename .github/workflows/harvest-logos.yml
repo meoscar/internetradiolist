@@ -36,7 +36,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add logos directory.json
+          git add logos logos.json
           if git diff --cached --quiet; then
             echo "nothing new"
             exit 0
