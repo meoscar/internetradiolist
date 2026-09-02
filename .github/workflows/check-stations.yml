@@ -55,4 +55,7 @@ jobs:
           Recorded by the nightly stream check. A station is only dropped
           after failing three runs in a row, so a night of downtime does not
           remove it."
+          # These workflows both commit to main, and two of them running
+          # at once loses whichever pushes second.
+          git pull --rebase origin main
           git push
