@@ -192,7 +192,12 @@ def page_links(page, base):
         if not target.startswith(base):
             continue
         rest = target[len(base):]
-        match = re.fullmatch(r"(?:\?page=|page/|p/|)(\d+)/?", rest)
+        # /stations/pop/page2 -- "page" and the number run together, with no
+        # separator and no trailing slash. Two earlier attempts allowed
+        # "?page=N", "page/N" and a bare number, and the site uses none of
+        # those, which is why 200 genres kept returning one page each. Read from
+        # the markup: pop alone has 32 pages.
+        match = re.fullmatch(r"(?:\?page=|page/?|p/?|)(\d+)/?", rest)
         if match:
             found[int(match.group(1))] = target
     return found
