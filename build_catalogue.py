@@ -34,6 +34,11 @@ CATALOGUE = "music_worldradio.json"
 # most specific genre that still has enough stations to be worth opening.
 MIN_BUCKET = 12
 
+# A station whose every genre is rare lands in a category of its own. Sixty
+# folders holding one station each is not a taxonomy, it is scrolling, so
+# anything this small is folded into OTHER after the fact.
+FOLD_UNDER = 5
+
 # The busiest stations, shown as their own row the way the old catalogue did.
 ON_TREND = 20
 
@@ -103,7 +108,14 @@ def main(argv):
 
     # ---- what the crawl found, minus everything that did not answer ----
 
-    crawled = [s for s in directory if s["stream"] in alive]
+    # The crawl keys its stations by stream URL, but resolve_streams.py rewrites
+    # that field afterwards, and two different .pls URLs can resolve to the same
+    # stream. Three stations were listed twice because of it.
+    crawled, crawled_seen = [], set()
+    for station in directory:
+        if station["stream"] in alive and station["stream"] not in crawled_seen:
+            crawled_seen.add(station["stream"])
+            crawled.append(station)
     unmeasured = [s for s in directory if s["stream"] not in facts]
     print(f"{DIRECTORY}: {len(directory)} stations")
     print(f"  {len(crawled):5d}  answered when probed")
@@ -154,6 +166,17 @@ def main(argv):
             "listeners": 0,
             "_image": item.get("image", ""),
         })
+
+    # Fold away the categories too small to be worth opening. This runs after
+    # the carried-over stations have been added, so it judges the buckets the
+    # listener will actually see rather than the crawl's own counts.
+    folded = 0
+    for genre in [g for g, rows in by_genre.items() if len(rows) < FOLD_UNDER]:
+        folded += len(by_genre[genre])
+        by_genre["OTHER"] += by_genre.pop(genre)
+    if folded:
+        print(f"{folded} stations folded into OTHER from categories "
+              f"under {FOLD_UNDER}\n")
 
     # ---- assemble ----
 
