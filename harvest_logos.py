@@ -141,9 +141,18 @@ def harvest(station):
         if image.mode not in ("RGB", "RGBA"):
             image = image.convert("RGBA" if "A" in image.mode else "RGB")
 
+        # Encode first and look at the result. The 48-pixel floor above rejects
+        # an image that is too small to be a logo, but not one that is large and
+        # blank -- a 512x512 transparent spacer passes it, and the first run
+        # produced a 200-byte file that way. WebP of a flat colour is tiny; a
+        # logo is not.
+        buffer = io.BytesIO()
+        square(image).save(buffer, "WEBP", quality=82, method=6)
+        if buffer.tell() < 1024:
+            continue
+
         OUT_DIR.mkdir(exist_ok=True)
-        square(image).save(OUT_DIR / f"{slug}.webp", "WEBP", quality=82,
-                           method=6)
+        (OUT_DIR / f"{slug}.webp").write_bytes(buffer.getvalue())
         return slug, candidate
 
     return None, "no usable image on the page"
