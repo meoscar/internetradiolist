@@ -1,0 +1,54 @@
+name: Check stations
+
+# A catalogue of internet radio rots quietly -- hosts move, stations close --
+# and the listener only finds out by tapping one and watching it spin.
+on:
+  schedule:
+    # 03:20 UTC daily, which is mid-morning in Taiwan.
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+    inputs:
+      drop_dead:
+        description: 'Remove stations that have failed three runs in a row'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Probe every stream
+        run: |
+          if [ "${{ github.event.inputs.drop_dead }}" = "false" ]; then
+            python3 check_stations.py
+          else
+            python3 check_stations.py --drop-dead
+          fi
+
+      - name: Refuse to commit a broken catalogue
+        run: python3 validate_stations.py
+
+      - name: Record what changed
+        run: |
+          if git diff --quiet; then
+            echo "every station answered; nothing to record"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add health.json *.json
+          git commit -m "Retire the stations that stopped answering
+
+          Recorded by the nightly stream check. A station is only dropped
+          after failing three runs in a row, so a night of downtime does not
+          remove it."
+          git push
