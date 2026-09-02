@@ -1,0 +1,227 @@
+{
+ "http://108.161.128.117:8050/u7": {
+  "from": "https://u7radio.org/artbell-big.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/theverybestofartbellu7radioorg.webp",
+  "name": "The Very Best Of Art Bell (U7Radio.org)"
+ },
+ "http://144.217.158.59:5000/stream": {
+  "from": "https://img1.wsimg.com/isteam/ip/a03fc5ad-e0a9-4726-80d4-3fe65da6d855/blob.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/classicrockfloridamusicradio.webp",
+  "name": "Classic Rock Florida Music Radio"
+ },
+ "http://144.217.158.59:5120/stream": {
+  "from": "http://www.smoothjazzflorida.com/app-icons/icon-512.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/smoothjazzfloridaworldwide.webp",
+  "name": "Smooth Jazz Florida Worldwide"
+ },
+ "http://145.239.26.146:7432/;": {
+  "from": "https://discoparty.pl/wp-content/uploads/2023/07/bg-1400x1080-1.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/discopartypldiscopolo.webp",
+  "name": "DiscoParty.pl - Disco Polo"
+ },
+ "http://149.202.22.75:8130/live": {
+  "from": "https://solidgoldgem.co.uk/wp-content/uploads/2021/10/Small-G-Logo-Tiny.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/solidgoldgemam.webp",
+  "name": "Solid Gold Gem AM"
+ },
+ "http://149.56.185.82:8054/1": {
+  "from": "http://trespatinesradio.es/wp-content/uploads/2025/12/Cropped-view-of-handcuffed-woman-sitting-on-bed-in-underwear-1024x683.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/trespatinesradioshow.webp",
+  "name": "Trespatines Radio Show"
+ },
+ "http://157.90.133.87:8470/stream": {
+  "from": "https://djradio.gr/wp-content/uploads/2022/01/DeeJay-Radio-Corfu.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/deejay975corfugreece.webp",
+  "name": "DeeJay 97.5 Corfu Greece"
+ },
+ "http://158.69.114.190:8024/stream": {
+  "from": "https://thebig80sstation.com/wp-content/uploads/2018/06/cropped-The-Big-80s-Station-wide-ne-192x192.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/thebig80sstation.webp",
+  "name": "The Big 80s Station"
+ },
+ "http://193.105.67.24:8010/;": {
+  "from": "https://www.radiorogla.si/wp-content/uploads/2021/08/cropped-RZyWnur1_400x400-192x192.jpeg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioroglatojetadoberobcutek.webp",
+  "name": "Radio Rogla - To je ta dober obcutek"
+ },
+ "http://198.178.123.14:7848/": {
+  "from": "https://img1.wsimg.com/isteam/ip/6b447f57-3234-4216-89fa-80ad555d0385/thumbnails/thumbnail-b1d32deb-6b5f-4d01-b16c-cd864eb8d204.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiotwm.webp",
+  "name": "Radio TWM"
+ },
+ "http://4534.cloudrad.io:8284/live": {
+  "from": "https://www.serenade-radio.com/wp-content/uploads/Favicon-Cinz-370x370.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/serenaderadiouk.webp",
+  "name": "Serenade Radio UK"
+ },
+ "http://49.12.129.103:7016/stream": {
+  "from": "https://www.flowerpowerradio.com/wp-content/uploads/2020/05/icon.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/flowerpowerradiofaroutandgroovytunesfromthe50s60s70s.webp",
+  "name": "Flower Power Radio - Far Out And Groovy Tunes From The 50's 60's & 70's"
+ },
+ "http://51.254.29.39:80/stream": {
+  "from": "http://www.antena1.com.br/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/antena1947fm.webp",
+  "name": "ANTENA1 - 94 7 FM"
+ },
+ "http://51.75.170.46:6191/stream": {
+  "from": "https://boxuk.danceradiouk.com/wp-content/uploads/2025/12/BoxUK-192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/boxukradiodanceradiouk.webp",
+  "name": "Box UK Radio danceradiouk"
+ },
+ "http://51.89.148.171:8022/stream": {
+  "from": "https://danceradiouk.com/wp-content/uploads/2025/07/Danceradiouk-appletouch.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/danceukradiodanceradiouk.webp",
+  "name": "Dance UK Radio danceradiouk"
+ },
+ "http://64.95.243.43:8002/stream": {
+  "from": "https://bestsmoothjazz.com/assets/img/favicons/apple-touch-icon.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bestsmoothjazzuklondonhostrodlucas.webp",
+  "name": "BEST SMOOTH JAZZ  - UK (LONDON) HOST ROD LUCAS"
+ },
+ "http://85.195.88.149:28768/;": {
+  "from": "http://www.radio-osttirol.at/images/favicon/favicon_radio.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioosttirol.webp",
+  "name": "Radio Osttirol"
+ },
+ "http://89.238.227.6:8002/": {
+  "from": "https://www.srr.ro/templates/default/img/social/srr-default.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioromaniaactualitati.webp",
+  "name": "Radio Romania Actualitati"
+ },
+ "http://91.232.4.20:8000/stream": {
+  "from": "https://www.radioitalo4you.net/images/socialitalo4you.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioitalo4you.webp",
+  "name": "Radio Italo4you"
+ },
+ "http://94.130.242.5:8000/stream": {
+  "from": "https://www.partyvibe.com/wp-content/uploads/2016/02/cropped-radio-tower-512-icon-2013105433-300x300.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/partyviberadioreggae.webp",
+  "name": "PARTY VIBE RADIO : REGGAE"
+ },
+ "http://a.fmradiomanele.ro:8054/listen.pls?sid=1": {
+  "from": "https://fmradiomanele.ro/wp-content/uploads/2023/11/logoheader.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomaneleromaniawwwfmradiomanelero.webp",
+  "name": "Radio Manele Romania wWw.FMRadioManele.Ro"
+ },
+ "http://adas.dejavuradio.hu:8178/dejavuradio": {
+  "from": "https://dejavuradio.hu/wp-content/uploads/2024/10/cropped-logosquare-370x370.webp",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dejavurdiszeged.webp",
+  "name": "Deja Vu Rádió Szeged"
+ },
+ "http://cast.magicstreams.gr:9111/stream": {
+  "from": "https://www.psyndora.com/images/300red.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/psyndorapsytrance.webp",
+  "name": "Psyndora Psytrance"
+ },
+ "http://cast.magicstreams.gr:9125/stream": {
+  "from": "https://www.psyndora.com/images/300gold.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/psyndorachillout.webp",
+  "name": "Psyndora Chillout"
+ },
+ "http://classichitsradio.streamingmedia.it:8017/play": {
+  "from": "https://classichits.radio/wp-content/uploads/2022/10/classichitsit.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/classichitsanni708090.webp",
+  "name": "CLASSIC HITS anni 70 80 90"
+ },
+ "http://eu10.fastcast4u.com:8120/;": {
+  "from": "https://www.b4bradio.com/images/apple-touch-icon.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/b4bdiscofunkhd.webp",
+  "name": "B4B DISCO FUNK [HD]"
+ },
+ "http://funkyradio.streamingmedia.it:8001/play.mp3": {
+  "from": "https://funky.radio/wp-content/uploads/2023/09/funky.radio_facebook-thumbnail_1640X856.webp",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/funkyradio.webp",
+  "name": "FUNKY RADIO"
+ },
+ "http://hd.lagrosseradio.info:8000/lagrosseradio-reggae-024.mp3": {
+  "from": "https://cdn1.lagrosseradio.com/wp-content/uploads/2021/10/logo_global_carre_white.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/lagrosseradioreggaedubdancehallrootsfrompariswwwlagrosseradi.webp",
+  "name": "La Grosse Radio Reggae - Dub Dancehall Roots - From Paris - www.LaGrosseRadio.com"
+ },
+ "http://i4.streams.ovh:9000/stream": {
+  "from": "https://musicfactory.gr/wp-content/uploads/2023/06/beautiful-tropical-sunset-scenery-two-sun-beds-royalty-free-image-1595368231.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/musicfactoryathensgreece.webp",
+  "name": "Music Factory | Athens | Greece"
+ },
+ "http://ice37.fluidstream.net:80/rgw.aac": {
+  "from": "http://www.gruen-weiss.at/logo192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiogrnwei.webp",
+  "name": "Radio Grün Weiß"
+ },
+ "http://italianradio.streamingmedia.it:8005/play": {
+  "from": "https://italian.radio/wp-content/uploads/2023/04/play-store.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/italianradioitalianradio.webp",
+  "name": "ITALIAN RADIO - ITALIAN.radio"
+ },
+ "http://janus.shoutca.st:8195/stream": {
+  "from": "https://www.gurbanikirtan247.com/wp-content/uploads/2015/01/gurbani-kirtan-logo.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/gurbanikirtanfm247.webp",
+  "name": "Gurbani Kirtan FM 24/7"
+ },
+ "http://jett.shoutca.st:8020/stream": {
+  "from": "https://shripadradio.weebly.com/uploads/1/4/3/3/143361909/editor/psx-20221008-183451.jpg?1665234544",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/shripadradiostream.webp",
+  "name": "ShripadRadio Stream"
+ },
+ "http://live.coolradio.rs:80/cool128": {
+  "from": "https://coolradio.rs/wp-content/uploads/revslider/cool/logo.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/coolradioserbia.webp",
+  "name": "COOL radio | Serbia"
+ },
+ "http://live.dancemusic.ro:7000/radio.mp3": {
+  "from": "https://dhr.fm/uploads/Heder.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dhrfmdeephouseradiowwwdhrfm.webp",
+  "name": "DHR FM - Deep House Radio (www.dhr.fm)"
+ },
+ "http://mpc1.mediacp.eu:8024/": {
+  "from": "https://www.radiopi.top/wp-content/uploads/2022/01/google-play-badge-fav.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/worldgreekradiopianicathegodofgreekmusic.webp",
+  "name": "World Greek Radio Pianica [The God Of Greek Music]"
+ },
+ "http://nl1.streamhosting.ch:80/lounge64.aac": {
+  "from": "https://lounge-radio.com/images/lounge-radio.com.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/loungeradiocomswissmade.webp",
+  "name": "LOUNGE-RADIO.COM - swiss made"
+ },
+ "http://radioas.radi0.im:8001/stream": {
+  "from": "https://radioas.radi0.im/wp/wp-content/uploads/2021/02/cropped-logo-radio-as-fara-margini-freg-none-192x192.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioaspetrecere2026.webp",
+  "name": "Radio AS petrecere 2026"
+ },
+ "http://s5.voscast.com:8216/stream": {
+  "from": "http://voscast.com/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/nonstophindi.webp",
+  "name": "Non Stop Hindi"
+ },
+ "http://s7.voscast.com:7000/": {
+  "from": "https://cdn-profiles.tunein.com/s130285/images/logog.png?t=1",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/pondendscomradiorealyaadvybez.webp",
+  "name": "PONdENDS.COM | RADIO | REAL YAAD VYBEZ"
+ },
+ "http://streamssl.chilltrax.com:80/live": {
+  "from": "https://www.chilltrax.com/images/android-icon-192x192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/chilltraxtheworldschilloutchannel.webp",
+  "name": "Chilltrax - The World's Chillout Channel"
+ },
+ "https://ic.radiomonster.fm/dance.ultra": {
+  "from": "https://www.radiomonster.fm/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2024/07/webradio_radiomonster_logo_wide.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomonsterfmdance.webp",
+  "name": "RadioMonster.FM - Dance"
+ },
+ "https://ic.radiomonster.fm/evergreens.ultra": {
+  "from": "https://www.radiomonster.fm/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2024/07/webradio_radiomonster_logo_wide.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomonsterfmevergreens.webp",
+  "name": "RadioMonster.FM - Evergreens"
+ },
+ "https://ic.radiomonster.fm/schlager.ultra": {
+  "from": "https://www.radiomonster.fm/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2024/07/webradio_radiomonster_logo_wide.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomonsterfmschlager.webp",
+  "name": "RadioMonster.FM - Schlager"
+ },
+ "https://ic.radiomonster.fm/tophits.ultra": {
+  "from": "https://www.radiomonster.fm/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2024/07/webradio_radiomonster_logo_wide.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomonsterfmtophits.webp",
+  "name": "RadioMonster.FM - Tophits"
+ }
+}
