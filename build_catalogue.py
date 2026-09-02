@@ -29,6 +29,22 @@ FACTS = "station_facts.json"
 LOGOS = "logos.json"
 CATALOGUE = "music_worldradio.json"
 
+# Every row must carry an image, and this is what a station with no logo gets.
+#
+# Not decoration -- a crash. MediaItemFragmentViewModel reads
+# child.description.iconUri!!, and MediaMetadataCompat drops an empty string
+# rather than storing it, so a row with "image": "" arrives with a null
+# iconUri and the non-null assertion kills the app the moment that category is
+# opened. The first build of this catalogue left 1566 rows empty and every
+# installed copy, this version and the last, crashed on it.
+#
+# The app is being fixed too, but a published file reaches phones that will
+# never be updated, so this file has to be safe on its own. A neutral mark is
+# also the honest answer: it says no logo was found, where the folder of
+# image-search results said something false.
+PLACEHOLDER = ("https://raw.githubusercontent.com/meoscar/internetradiolist"
+               "/main/station_placeholder.png")
+
 # A station carries several genres. Filing it under the rarest makes categories
 # of one; filing it under the commonest puts everything in "pop". So take the
 # most specific genre that still has enough stations to be worth opening.
@@ -192,12 +208,11 @@ def main(argv):
                           key=lambda s: -(s.get("listeners") or 0))
         for track, station in enumerate(stations, 1):
             name = station["name"]
-            image = logo_for(station["stream"], name)
-            if not image:
-                # Only a picture the station published counts. What is left of
-                # the old field came from an image search on the station's name
-                # and is as likely to show something else.
-                image = ""
+            # Only a picture the station published counts. What is left of the
+            # old field came from an image search on the station's name and is
+            # as likely to show something else, so the fallback is the neutral
+            # mark rather than that folder.
+            image = logo_for(station["stream"], name) or PLACEHOLDER
             music.append(row(
                 title=name,
                 genre=genre,
@@ -217,7 +232,7 @@ def main(argv):
             title=station["name"],
             genre="On Trend",
             source=station["stream"],
-            image=logo_for(station["stream"], station["name"]),
+            image=logo_for(station["stream"], station["name"]) or PLACEHOLDER,
             site=station.get("page") or "",
             track=track,
             station_id=f"ontrendstations_{station['name']}",
@@ -225,7 +240,8 @@ def main(argv):
 
     # ---- report ----
 
-    with_image = sum(1 for r in music if r["image"])
+    with_image = sum(1 for r in music if r["image"] and r["image"] != PLACEHOLDER)
+    empty = sum(1 for r in music if not r["image"])
     with_site = sum(1 for r in music if r["site"])
     genres = Counter(r["genre"] for r in music)
     text = json.dumps({"music": music}, ensure_ascii=False,
@@ -235,6 +251,9 @@ def main(argv):
           f"(was {len(existing)}), {len(text) / 1024:.0f} KB")
     print(f"  {with_image:5d}  have a logo the station published "
           f"({with_image * 100 // max(len(music), 1)}%)")
+    print(f"  {len(music) - with_image:5d}  show the neutral placeholder")
+    print(f"  {empty:5d}  have no image at all (must be 0; a blank crashes "
+          f"the app)")
     print(f"  {with_site:5d}  have a now-playing page for the backup scrape")
     print(f"  {len(genres):5d}  categories")
     print("\nbiggest categories:")
@@ -244,6 +263,11 @@ def main(argv):
     if smallest:
         print(f"\n{len(smallest)} categories under {MIN_BUCKET} stations: "
               f"{', '.join(sorted(smallest)[:8])}")
+
+    if empty:
+        print(f"\nREFUSING to write: {empty} rows have no image, and the app "
+              f"asserts iconUri is non-null")
+        return 1
 
     if apply_changes:
         pathlib.Path(CATALOGUE).write_text(text, encoding="utf-8")
