@@ -1,0 +1,204 @@
+#!/usr/bin/env python3
+"""Take each station's logo from the station, and make it a thumbnail.
+
+The pictures in stationPics0719 came from scraping an image search for the
+station's name years ago, which is why so many of them show something else
+entirely. They also average 125KB for something drawn at about 50 pixels: 746
+files, 93MB, and a listener scrolling the list downloads megabytes of it.
+
+Broadcasters publish their own branding on their own site, in three places a
+browser already knows to look:
+
+    <meta property="og:image">        the image they chose for sharing
+    <link rel="apple-touch-icon">     usually a clean square mark
+    <link rel="icon">                 the favicon
+
+That is the logo the station picked, not a search result that mentioned its
+name. The crawl has a homepage for 922 of them.
+
+Each one found is fetched, decoded to prove it is an image, squared, resized to
+256 and written as WebP -- about 10KB rather than 125KB. Stations without a
+usable logo get no entry and keep whatever they have; a blank is better than
+another wrong picture.
+
+  python3 harvest_logos.py --limit 40      a sample, to look at
+  python3 harvest_logos.py                 everything with a homepage
+"""
+import argparse
+import html
+import io
+import json
+import pathlib
+import re
+import sys
+import time
+import urllib.request
+from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import urljoin, urlparse
+
+from PIL import Image
+
+DIRECTORY = "directory.json"
+OUT_DIR = pathlib.Path("logos")
+SIZE = 256
+TIMEOUT = 20
+WORKERS = 12
+MAX_IMAGE_BYTES = 8 * 1024 * 1024
+
+UA = "icrtradio-catalogue/1.0 (+https://github.com/meoscar/internetradiolist)"
+
+OG_IMAGE = re.compile(
+    r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.I)
+OG_IMAGE_REVERSED = re.compile(
+    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']', re.I)
+LINK_ICON = re.compile(
+    r'<link[^>]+rel=["\']([^"\']*icon[^"\']*)["\'][^>]*>', re.I)
+HREF = re.compile(r'href=["\']([^"\']+)["\']', re.I)
+SIZES = re.compile(r'sizes=["\'](\d+)x\d+["\']', re.I)
+
+
+def fetch(url, limit=MAX_IMAGE_BYTES):
+    request = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Accept": "*/*", "Accept-Language": "en"})
+    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+        return response.read(limit)
+
+
+def logo_candidates(page, base):
+    """Every logo the page offers, best first."""
+    found = []
+
+    for pattern in (OG_IMAGE, OG_IMAGE_REVERSED):
+        match = pattern.search(page)
+        if match:
+            found.append(urljoin(base, html.unescape(match.group(1))))
+            break
+
+    # An apple-touch-icon is meant to be a square app-sized mark, which is
+    # exactly the shape wanted here. Prefer the largest declared.
+    icons = []
+    for tag in LINK_ICON.finditer(page):
+        whole = tag.group(0)
+        href = HREF.search(whole)
+        if not href:
+            continue
+        size = SIZES.search(whole)
+        weight = int(size.group(1)) if size else (
+            180 if "apple" in tag.group(1).lower() else 32)
+        icons.append((weight, urljoin(base, html.unescape(href.group(1)))))
+    found += [url for _, url in sorted(icons, key=lambda pair: -pair[0])]
+
+    # Every site has this whether it advertises it or not.
+    parts = urlparse(base)
+    found.append(f"{parts.scheme}://{parts.netloc}/favicon.ico")
+
+    seen, ordered = set(), []
+    for url in found:
+        if url not in seen:
+            seen.add(url)
+            ordered.append(url)
+    return ordered
+
+
+def square(image):
+    """Centre-crop to a square, then resize. Logos are usually square already."""
+    width, height = image.size
+    side = min(width, height)
+    left = (width - side) // 2
+    top = (height - side) // 2
+    return image.crop((left, top, left + side, top + side)).resize(
+        (SIZE, SIZE), Image.LANCZOS)
+
+
+def harvest(station):
+    """(slug, note). slug is None when nothing usable was found."""
+    homepage = station.get("homepage") or ""
+    if not homepage.startswith("http"):
+        return None, "no homepage"
+
+    slug = re.sub(r"[^a-z0-9]", "", station["name"].lower())[:60]
+    if not slug:
+        return None, "no usable name"
+
+    try:
+        page = fetch(homepage, 512 * 1024).decode("utf-8", "replace")
+    except Exception as exc:                       # noqa: BLE001
+        return None, f"homepage: {type(exc).__name__}"
+
+    for candidate in logo_candidates(page, homepage):
+        try:
+            raw = fetch(candidate)
+            image = Image.open(io.BytesIO(raw))
+            image.load()
+        except Exception:                          # noqa: BLE001
+            continue
+
+        # A 16x16 favicon upscaled to 256 is a smear. Below 48 is not a logo.
+        if min(image.size) < 48:
+            continue
+
+        if image.mode not in ("RGB", "RGBA"):
+            image = image.convert("RGBA" if "A" in image.mode else "RGB")
+
+        OUT_DIR.mkdir(exist_ok=True)
+        square(image).save(OUT_DIR / f"{slug}.webp", "WEBP", quality=82,
+                           method=6)
+        return slug, candidate
+
+    return None, "no usable image on the page"
+
+
+def main(argv):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--limit", type=int, default=0, help="0 = all")
+    args = parser.parse_args(argv[1:])
+
+    path = pathlib.Path(DIRECTORY)
+    if not path.exists():
+        print(f"{DIRECTORY} is not here; run the crawl first")
+        return 1
+
+    stations = json.loads(path.read_text(encoding="utf-8"))
+    with_home = [s for s in stations if (s.get("homepage") or "").startswith("http")]
+    if args.limit:
+        with_home = with_home[:args.limit]
+
+    print(f"{len(with_home)} of {len(stations)} stations publish a homepage")
+    started = time.time()
+
+    with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+        results = list(pool.map(harvest, with_home))
+
+    got, reasons = 0, {}
+    for station, (slug, note) in zip(with_home, results):
+        if slug:
+            station["logo"] = (
+                "https://raw.githubusercontent.com/meoscar/internetradiolist/"
+                f"main/logos/{slug}.webp")
+            station["logo_source"] = note
+            got += 1
+        else:
+            reasons[note] = reasons.get(note, 0) + 1
+
+    path.write_text(json.dumps(stations, indent=1, ensure_ascii=False) + "\n",
+                    encoding="utf-8")
+
+    print(f"\n{got} logos in {time.time() - started:.0f}s")
+    for reason, count in sorted(reasons.items(), key=lambda kv: -kv[1]):
+        print(f"  {count:4d}  {reason}")
+
+    if OUT_DIR.exists():
+        sizes = [f.stat().st_size for f in OUT_DIR.glob("*.webp")]
+        if sizes:
+            print(f"\n{len(sizes)} files, {sum(sizes) / 1024:.0f} KB total, "
+                  f"{sum(sizes) // len(sizes) / 1024:.1f} KB each on average")
+            print("stationPics0719 for comparison: 746 files, 93 MB, 125 KB each")
+
+    print("\nwhere the first few came from:")
+    for station in [s for s in with_home if s.get("logo")][:8]:
+        print(f"  {station['name'][:34]:34} {station['logo_source'][:80]}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv))
