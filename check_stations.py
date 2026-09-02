@@ -28,6 +28,16 @@ BYTES_WANTED = 8192          # enough to tell a stream from an error page
 WORKERS = 24
 FAILURES_BEFORE_DROP = 3
 
+# Not every failure means the same thing. A refused connection or a name that
+# no longer resolves is the host telling us the station is gone; a timeout or a
+# 503 is a station that may be back tonight. Both used to count one strike each,
+# so a station that had plainly vanished waited the same three days as one
+# having a bad evening. Hard failures count double.
+HARD_FAILURE = ("Connection refused", "Name or service not known",
+                "nodename nor servname", "No address associated",
+                "Temporary failure in name resolution",
+                "HTTP Error 404", "HTTP Error 410")
+
 UA = "Mozilla/5.0 (compatible; icrtradio-catalogue-check/1.0)"
 
 
@@ -59,6 +69,33 @@ def probe(url: str) -> tuple[str, bool, str]:
         return url, False, f"{type(exc).__name__}: {exc}"
 
 
+def seed_from_icy_harvest(urls) -> dict:
+    """Start the counter from what harvest_icy.py already measured.
+
+    Waiting three nights before dropping a station is right when the only
+    evidence is one probe. It is not right when a second, independent tool has
+    already connected to every one of these streams with a different library and
+    come back with the same answer -- 53% alive here, 55% there. So the harvest,
+    where it also failed, counts as one strike already served.
+    """
+    facts_file = pathlib.Path("station_facts.json")
+    if not facts_file.exists():
+        return {}
+
+    facts = json.loads(facts_file.read_text("utf-8"))
+    seeded = {}
+    for url in urls:
+        answer = facts.get(url)
+        if answer and not answer.get("ok"):
+            seeded[url] = {
+                "consecutive_failures": 1,
+                "last": f"icy harvest: {answer.get('error', 'no answer')}",
+            }
+    if seeded:
+        print(f"{len(seeded)} streams start on one strike, from the ICY harvest\n")
+    return seeded
+
+
 def main() -> int:
     drop_dead = "--drop-dead" in sys.argv
 
@@ -80,6 +117,8 @@ def main() -> int:
     health = {}
     if pathlib.Path(HEALTH_FILE).exists():
         health = json.loads(pathlib.Path(HEALTH_FILE).read_text("utf-8"))
+    else:
+        health = seed_from_icy_harvest(urls)
 
     alive, newly_failing, past_limit = 0, [], []
     for url, ok, detail in results:
@@ -88,8 +127,9 @@ def main() -> int:
             alive += 1
             record = {"consecutive_failures": 0, "last": detail}
         else:
+            weight = 2 if any(mark in detail for mark in HARD_FAILURE) else 1
             record = {
-                "consecutive_failures": record.get("consecutive_failures", 0) + 1,
+                "consecutive_failures": record.get("consecutive_failures", 0) + weight,
                 "last": detail,
             }
             newly_failing.append((url, detail, record["consecutive_failures"]))
