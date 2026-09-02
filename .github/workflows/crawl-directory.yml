@@ -12,10 +12,10 @@ on:
         default: '4000'
       max_genres:
         description: 'Genres to walk, 0 for all'
-        default: '25'
+        default: '0'
       pages_per_genre:
         description: 'Listing pages per genre'
-        default: '0'
+        default: '25'
   schedule:
     - cron: '10 5 * * 2'
 
