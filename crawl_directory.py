@@ -138,8 +138,19 @@ def parse_rows(page, genre_hint):
 
         genres = GENRES.search(chunk)
         if genres:
-            words = [w for w in text_of(genres.group(1)).split() if w]
-            station["genres"] = sorted({g.lower() for g in [genre_hint] + words if g})
+            block = genres.group(1)
+            # The indexed genres are links, and several are two words --
+            # "easy listening", "drum and bass". Splitting the rendered text on
+            # whitespace turned those into "easy" and "listening", so take the
+            # slug out of the href and leave only the unlinked leftovers to be
+            # split.
+            tags = {unquote(href).strip("/").lower()
+                    for href in re.findall(r'href="/stations/([^"]*)"', block)}
+            leftover = TAG.sub(" ", re.sub(r"<a\b[^>]*>.*?</a>", " ", block,
+                                           flags=re.I | re.S))
+            tags |= {word.lower() for word in html.unescape(leftover).split()
+                     if len(word) > 1}
+            station["genres"] = sorted(tag for tag in tags | {genre_hint} if tag)
 
         listeners = LISTENERS.search(chunk)
         if listeners:

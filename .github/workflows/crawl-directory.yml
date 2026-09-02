@@ -39,6 +39,9 @@ jobs:
             --max-genres "${{ github.event.inputs.max_genres || 0 }}" \
             --pages-per-genre "${{ github.event.inputs.pages_per_genre || 4 }}"
 
+      - name: Turn the playlists into streams
+        run: python3 resolve_streams.py
+
       - name: Commit what came back
         run: |
           git config user.name "github-actions[bot]"
