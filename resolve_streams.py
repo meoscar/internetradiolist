@@ -35,10 +35,17 @@ MAX_REDIRECTS = 3
 
 UA = "icrtradio-catalogue/1.0 (+https://github.com/meoscar/internetradiolist)"
 
+# 192 of the first 207 failures were a connection reset, which is too
+# concentrated to be the network. SHOUTcast v1 is known to hang up on user
+# agents it does not recognise as a player, so a reset is retried once as one.
+# Whether that is really the cause is answered by the counts this prints, not
+# by my saying so.
+PLAYER_UA = "WinampMPEG/5.0"
+
 PLS_FILE = re.compile(r"^\s*File\d+\s*=\s*(\S+)", re.I | re.M)
 
 
-def fetch(url, deadline):
+def fetch(url, deadline, agent=UA):
     """Read a small text file, tolerating servers that answer 'ICY 200 OK'.
 
     The hosts serving these playlists are the streaming servers themselves, and
@@ -59,7 +66,7 @@ def fetch(url, deadline):
 
         sock.sendall(
             f"GET {path} HTTP/1.0\r\nHost: {parts.netloc}\r\n"
-            f"User-Agent: {UA}\r\nAccept: */*\r\nConnection: close\r\n\r\n"
+            f"User-Agent: {agent}\r\nAccept: */*\r\nConnection: close\r\n\r\n"
             .encode("latin-1"))
 
         buffer = b""
@@ -99,14 +106,14 @@ def first_url_in(playlist, kind):
     return None
 
 
-def resolve(url):
+def resolve(url, agent=UA):
     """(resolved_url, note). resolved_url is None when it could not be read."""
     deadline = time.monotonic() + TIMEOUT * 2
     here = url
 
     for _ in range(MAX_REDIRECTS + 1):
         try:
-            status, headers, body = fetch(here, deadline)
+            status, headers, body = fetch(here, deadline, agent)
         except Exception as exc:                   # noqa: BLE001
             return None, f"{type(exc).__name__}: {exc}"
 
@@ -140,6 +147,21 @@ def main(argv):
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         results = list(pool.map(lambda s: resolve(s["stream"]), pending))
+
+    # Second pass, as a player, for the ones that were hung up on.
+    retry = [i for i, (inner, note) in enumerate(results)
+             if inner is None and "Reset" in note]
+    recovered = 0
+    if retry:
+        print(f"{len(retry)} were reset; asking again as {PLAYER_UA}")
+        with ThreadPoolExecutor(max_workers=WORKERS) as pool:
+            again = list(pool.map(
+                lambda i: resolve(pending[i]["stream"], PLAYER_UA), retry))
+        for index, outcome in zip(retry, again):
+            if outcome[0]:
+                results[index] = outcome
+                recovered += 1
+        print(f"{recovered} of {len(retry)} answered a player user agent")
 
     fixed = 0
     reasons = {}

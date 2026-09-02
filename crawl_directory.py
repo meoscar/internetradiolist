@@ -144,13 +144,20 @@ def parse_rows(page, genre_hint):
             # whitespace turned those into "easy" and "listening", so take the
             # slug out of the href and leave only the unlinked leftovers to be
             # split.
-            tags = {unquote(href).strip("/").lower()
-                    for href in re.findall(r'href="/stations/([^"]*)"', block)}
+            indexed = {unquote(href).strip("/").lower()
+                       for href in re.findall(r'href="/stations/([^"]*)"', block)}
+            station["genres"] = sorted(tag for tag in indexed | {genre_hint} if tag)
+
+            # What is left over is whatever the broadcaster typed and the site
+            # does not index. Mixing it into genres turned a 200-entry taxonomy
+            # into 1025 entries, most of them fragments like "and" and "music",
+            # so it is kept separately and is not a category.
             leftover = TAG.sub(" ", re.sub(r"<a\b[^>]*>.*?</a>", " ", block,
                                            flags=re.I | re.S))
-            tags |= {word.lower() for word in html.unescape(leftover).split()
+            words = {word.lower() for word in html.unescape(leftover).split()
                      if len(word) > 1}
-            station["genres"] = sorted(tag for tag in tags | {genre_hint} if tag)
+            if words:
+                station["tags"] = sorted(words)
 
         listeners = LISTENERS.search(chunk)
         if listeners:
@@ -170,15 +177,25 @@ def parse_rows(page, genre_hint):
     return found
 
 
-def next_page(page, current):
-    """The site's own 'next' link, whatever shape it takes -- not a guess."""
+def page_links(page, base):
+    """{page number: url} for links that are another page of this same listing.
+
+    The first full crawl walked 200 genres in 350 requests and came back with
+    1142 stations, which is one page each: the earlier version looked for one
+    URL shape and the site does not use it. Rather than guess again, this reads
+    every link that sits under the listing's own path and ends in a number,
+    which covers ?page=N, /page/N and /N/ without having to know which.
+    """
+    found = {}
     for href in re.findall(r'href=["\']([^"\']+)["\']', page, re.I):
-        target = urljoin(current, html.unescape(href))
-        if target == current or not target.startswith(current.split("?")[0]):
+        target = urljoin(base, html.unescape(href))
+        if not target.startswith(base):
             continue
-        if re.search(r"(page|p)=\d+|/page/\d+|/\d+/$", target):
-            return target
-    return None
+        rest = target[len(base):]
+        match = re.fullmatch(r"(?:\?page=|page/|p/|)(\d+)/?", rest)
+        if match:
+            found[int(match.group(1))] = target
+    return found
 
 
 def main(argv):
@@ -208,7 +225,9 @@ def main(argv):
 
     stations = {}
     for position, slug in enumerate(genres, 1):
-        url = urljoin(GENRE_INDEX, f"{slug}/")
+        base = urljoin(GENRE_INDEX, f"{slug}/")
+        url = base
+        current = 1
         for page_number in range(args.pages_per_genre):
             page = fetch.get(url)
             if not page:
@@ -229,16 +248,15 @@ def main(argv):
                   f"{len(rows)} rows, {len(stations)} stations so far "
                   f"({fetch.made}/{fetch.budget} requests)")
 
-            if page_number == 0 and position == 1:
-                # Learn the pagination shape from the site rather than assume it.
-                sample = sorted({h for h in re.findall(r'href=["\']([^"\']+)["\']', page, re.I)
-                                 if re.search(r"page", h, re.I)})[:10]
-                print(f"    pagination-looking links: {sample or 'none found'}")
+            candidates = page_links(page, base)
+            if position <= 2:
+                print(f"    page links seen: {sorted(candidates) or 'none'}")
 
-            nxt = next_page(page, url)
-            if not nxt:
+            later = sorted(n for n in candidates if n > current)
+            if not later:
                 break
-            url = nxt
+            current = later[0]
+            url = candidates[current]
 
         if fetch.made >= fetch.budget:
             print("request budget spent; stopping here")
