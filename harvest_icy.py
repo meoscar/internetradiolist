@@ -42,6 +42,17 @@ MAX_REDIRECTS = 3
 # most of an hour at that width.
 WORKERS = 48
 
+# This file used to be advisory -- a browsable-by field nobody depended on.
+# Once build_catalogue.py started reading it to decide whether a station ships
+# at all, "ok: false" stopped meaning "this station is dead" and started
+# meaning "this station did not answer one TCP connection inside twelve
+# seconds," which a healthy stream can fail to do for reasons that have
+# nothing to do with whether it is still broadcasting. Only stations that
+# fail every attempt end up not-ok; one bad connection surrounded by good
+# ones no longer costs a station its place in the catalogue for a week.
+RETRY_ATTEMPTS = 3
+RETRY_DELAY = 3
+
 UA = "Mozilla/5.0 (compatible; icrtradio-catalogue-facts/1.0)"
 
 # The fields a station operator fills in. icy-metaint is the server telling us
@@ -184,6 +195,25 @@ def interrogate(url):
     return {"ok": False, "error": "too many redirects"}
 
 
+def interrogate_with_retries(url):
+    """interrogate(), but a single failed connection is not the final answer.
+
+    A retry immediately after the same failure mostly re-hits the same problem
+    -- the same overloaded host, the same mid-handshake reset -- so this waits
+    between attempts rather than hammering the stream three times in a row.
+    The last attempt's facts are what gets recorded either way; only whether
+    it took more than one try is added, for the run's own summary.
+    """
+    for attempt in range(RETRY_ATTEMPTS):
+        facts = interrogate(url)
+        if facts.get("ok") or attempt == RETRY_ATTEMPTS - 1:
+            if attempt:
+                facts["attempts"] = attempt + 1
+            return facts
+        time.sleep(RETRY_DELAY)
+    return facts  # unreachable; keeps type checkers happy
+
+
 def main(argv):
     names = argv[1:] or CATALOGUES
 
@@ -203,7 +233,7 @@ def main(argv):
     print(f"asking {len(sources)} stations, {WORKERS} at a time")
     urls = list(sources)
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        answers = list(pool.map(interrogate, urls))
+        answers = list(pool.map(interrogate_with_retries, urls))
 
     facts = {}
     for url, answer in zip(urls, answers):
@@ -221,6 +251,7 @@ def main(argv):
     with_desc = [f for f in reachable if f.get("icy-description")]
     announce = [f for f in reachable if f.get("icy-metaint")]
     titled = [f for f in reachable if f.get("stream_title")]
+    saved_by_retry = [f for f in reachable if f.get("attempts")]
 
     total = len(facts) or 1
     def line(label, rows):
@@ -233,6 +264,9 @@ def main(argv):
     line("gave a description", with_desc)
     line("offer inline metadata (icy-metaint)", announce)
     line("named a track on connect", titled)
+    if saved_by_retry:
+        print(f"\n  {len(saved_by_retry):4d}  needed a second or third attempt "
+              f"to answer at all")
 
     if with_genre:
         print("\ngenre strings, most common first:")

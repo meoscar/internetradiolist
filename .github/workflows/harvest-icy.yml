@@ -22,7 +22,11 @@ permissions:
 jobs:
   harvest:
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    # 75 was sized for one attempt per stream. harvest_icy.py now retries a
+    # failing stream up to twice more before recording it not-ok, so the
+    # slice of ~2700 that never answer at all now costs three timeouts each
+    # instead of one.
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
