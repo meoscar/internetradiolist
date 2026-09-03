@@ -71,12 +71,32 @@ def words(text):
     return {w for w in flat.split() if len(w) > 1 and w not in drop}
 
 
+def latin(text):
+    return all(ord(c) < 0x0250 for c in text if c.isalpha())
+
+
 def agreement(query, candidate):
-    """How much of what the station said appears in what iTunes answered."""
+    """How much of what the station said appears in what iTunes answered.
+
+    Comparing words only means anything when both sides are written in the
+    same alphabet. A Russian station sends "РУКИ ВВЕРХ" and iTunes answers
+    "Ruki Vverkh", which is the same artist and shares not one character; a
+    threshold that scored that as a miss would reject most of the Cyrillic,
+    Greek and Chinese stations in the catalogue. Where the scripts differ
+    there is nothing here to measure, and this says so instead of guessing.
+    """
+    if latin(query) != latin(candidate):
+        return None
     asked, got = words(query), words(candidate)
     if not asked:
-        return 0.0
+        return None
     return len(asked & got) / len(asked)
+
+
+def scored(query, candidate):
+    """agreement(), with an unmeasurable pair counted as neither good nor bad."""
+    value = agreement(query, candidate)
+    return -1.0 if value is None else value
 
 
 def search(term, limit):
@@ -133,11 +153,11 @@ def main(argv):
         score_today = agreement(term, described(today))
 
         # What it should do: the best of several, and only if it agrees.
-        best = max(hits, key=lambda h: agreement(term, described(h)))
+        best = max(hits, key=lambda h: scored(term, described(h)))
         score_best = agreement(term, described(best))
 
         scores.append((term, today, score_today, best))
-        if score_today < 0.5:
+        if score_today is not None and score_today < 0.5:
             worst.append((term, described(today), score_today,
                           described(best), score_best))
 
@@ -145,17 +165,30 @@ def main(argv):
     print(f"{rejected} strings rejected before searching (idents, ads, junk)")
     print(f"{kept} searched, {len(answered)} got an answer from iTunes\n")
 
+    measurable = [s for s in answered if s[2] is not None]
+    cross = len(answered) - len(measurable)
+    print(f"  {cross} answers are in a different alphabet from the question, "
+          f"so agreement cannot be scored")
+    print(f"  {len(measurable)} can be scored:\n")
     for floor in (0.9, 0.7, 0.5, 0.34):
-        good = sum(1 for _, _, s, _ in answered if s >= floor)
-        print(f"  agreement >= {floor:.2f}: {good:3d}  "
-              f"({good * 100 // max(len(answered), 1)}% of answers)")
+        good = sum(1 for _, _, sc, _ in measurable if sc >= floor)
+        print(f"    agreement >= {floor:.2f}: {good:3d}  "
+              f"({good * 100 // max(len(measurable), 1)}% of them)")
 
-    improved = sum(1 for t, _, s, b in answered
-                   if b is not None and agreement(t, described(b)) > s)
+    improved = sum(1 for t, _, sc, b in measurable
+                   if b is not None and scored(t, described(b)) > sc)
     print(f"\n  {improved} would be better with the best of five rather than "
           f"the first")
-    print(f"  {len(worst)} answers agree with the station's string by less "
-          f"than half -- these are the wrong covers\n")
+    print(f"  {len(worst)} agree by less than half -- these are the wrong "
+          f"covers\n")
+
+    # Would a cheaper test have caught them? Almost every real track arrives as
+    # "Artist - Title"; a station ident usually does not.
+    dashed = sum(1 for t, _, _, _ in scores if " - " in t)
+    print(f"  {dashed} of {len(scores)} searched strings contain \" - \", "
+          f"the shape of an artist and a title")
+    bad_dashed = sum(1 for t, _, _, _, _ in worst if " - " in t)
+    print(f"  {bad_dashed} of the {len(worst)} wrong ones do\n")
 
     for term, today, score, better, bscore in worst[:20]:
         print(f"  station said : {term[:58]}")

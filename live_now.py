@@ -48,8 +48,11 @@ WORKERS = 40
 # six biggest, so the pass stays small and still covers most listeners.
 TRENDING_GENRES = ("pop", "rock", "dance", "oldies", "house", "jazz")
 
-# How many entries each section of the file carries.
-TICKER = 40
+# How many entries each section of the file carries. The ticker keeps every
+# station that answered rather than a top slice: at about 250 bytes a row the
+# whole set is a few tens of kilobytes, and a screen that cycles through 160
+# stations takes far longer to repeat itself than one cycling through 40.
+TICKER = 250
 RISING = 12
 
 
