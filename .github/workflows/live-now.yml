@@ -1,7 +1,29 @@
 name: What is on the radio right now
 
-# Every quarter of an hour: ask the busiest stations what they are playing, and
-# read six listing pages for live listener counts.
+# Quarter-hourly data from an hourly trigger, because GitHub will not give us a
+# quarter-hourly trigger.
+#
+# MEASURED, on this repository: with `cron: */15 * * * *`, one slot fired out of
+# thirty-seven -- 2.7%. Over the same window the daily workflow next door did
+# fire, but four hours and forty-six minutes after its slot. Both of the only
+# two scheduled runs this repository has ever had landed within two minutes of
+# each other, which is the scheduler waking once and flushing whatever was due
+# rather than each cron being honoured.
+#
+# So the schedule asks for one thing an hour, at minute 9. GitHub's own advice
+# is that the top of the hour is the busiest time and to schedule away from it;
+# */15 lands on :00 and :30, the two worst minutes there are. Minute 9 is off
+# every round boundary.
+#
+# The four passes then happen inside the one run, fourteen minutes apart, each
+# publishing on its own. That matters more than it looks: if the runner is
+# killed at pass three, passes one and two are already on the branch. Nothing
+# waits for the end.
+#
+# What this costs: the job holds a runner for about three quarters of an hour
+# to do about three minutes of work. On a public repository the minutes are
+# free, and that is the trade being made -- freshness bought with idle runner
+# time. To spend less, set PASSES to 1 and take hourly data.
 #
 # The result does NOT go on main. Ninety-six commits a day is thirty-five
 # thousand a year, and a repository people clone should not carry that. It is
@@ -9,30 +31,39 @@ name: What is on the radio right now
 # time, so `live` is always exactly one commit deep however long this runs.
 on:
   schedule:
-    # Quarter-hourly. GitHub runs scheduled jobs late under load and sometimes
-    # skips them, so this is "about every fifteen minutes" -- which is why
-    # live.json carries the time it was built and the app shows how old it is
-    # rather than claiming to be current.
-    - cron: '*/15 * * * *'
+    # Minute 9, off every round boundary. See the note above.
+    - cron: '9 * * * *'
   workflow_dispatch:
     inputs:
       stations:
         description: 'How many stations to ask'
         default: '200'
+      passes:
+        description: 'Passes to make before the run ends'
+        default: '4'
 
 permissions:
   contents: write
 
 concurrency:
   # A late run must never overlap the next one: both would force-push and the
-  # older answer could land second.
+  # older answer could land second. A run that is somehow still going when the
+  # next hour comes round is stuck, and the fresher one should win.
   group: live-now
   cancel-in-progress: true
+
+env:
+  STATIONS: ${{ github.event.inputs.stations || '200' }}
+  PASSES:   ${{ github.event.inputs.passes   || '4'   }}
+  # Fourteen, not fifteen: four passes and three gaps have to finish inside the
+  # hour with room for the work itself, or the next run cancels this one.
+  GAP_SECONDS: '840'
 
 jobs:
   live:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    # Three gaps of fourteen minutes is forty-two, plus the passes themselves.
+    timeout-minutes: 52
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -43,6 +74,8 @@ jobs:
         run: |
           # Rising is a comparison and the week's tally is cumulative, so
           # both have to come forward from the orphan branch they live on.
+          # Only the first pass needs this; every later pass in this run is
+          # comparing against what the pass before it just published.
           if git fetch origin live --depth 1 2>/dev/null; then
             git show origin/live:live.json > live.json 2>/dev/null \
               && echo "previous pass: $(wc -c < live.json) bytes" \
@@ -51,36 +84,51 @@ jobs:
               && echo "week so far:   $(wc -c < week.json) bytes" \
               || echo "no tally yet; this pass starts it"
             # Not read here, only carried. The branch is rebuilt from nothing
-            # every quarter of an hour, so anything this step does not bring
-            # forward is deleted -- and the daily chart only writes itself once
-            # a day, so it would survive fifteen minutes and then vanish.
+            # every pass, so anything this step does not bring forward is
+            # deleted -- and the daily chart only writes itself once a day, so
+            # it would survive one pass and then vanish.
             git show origin/live:charts.json > charts.json 2>/dev/null \
               && echo "chart:         $(wc -c < charts.json) bytes" \
               || echo "no chart yet"
-
           else
             echo "no live branch yet; this pass creates it"
           fi
 
-      - name: Ask the stations and the site
-        run: python3 live_now.py --stations "${{ github.event.inputs.stations || 200 }}"
-
-      - name: Add this pass to the week's tally
-        run: python3 accumulate.py
-
-      - name: Publish it, one commit deep
+      - name: Ask the stations, publish, wait, repeat
         run: |
+          set -u
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # An orphan branch built from nothing: no parent, so the branch never
-          # accumulates history no matter how often this runs.
-          git checkout --orphan live-build
-          git rm -rf --cached . > /dev/null
-          git add -f live.json week.json
-          # Only if it is there: the first passes run before any chart exists.
-          [ -s charts.json ] && git add -f charts.json
-          git commit -q -m "Live at $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push -f origin live-build:live
+          for pass in $(seq 1 "$PASSES"); do
+            echo "::group::pass $pass of $PASSES"
+            started=$(date +%s)
+
+            python3 live_now.py --stations "$STATIONS"
+            python3 accumulate.py
+
+            # An orphan branch built from nothing: no parent, so the branch
+            # never accumulates history no matter how often this runs. The name
+            # carries the pass number because --orphan will not reuse one.
+            git checkout --orphan "live-build-$pass"
+            git rm -rf --cached . > /dev/null
+            git add -f live.json week.json
+            # Only if it is there: the first passes run before any chart exists.
+            [ -s charts.json ] && git add -f charts.json
+            git commit -q -m "Live at $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push -f origin "live-build-$pass:live"
+            echo "published pass $pass"
+            echo "::endgroup::"
+
+            # No sleep after the last one: the run should end, not idle.
+            if [ "$pass" -lt "$PASSES" ]; then
+              # Measured from the start of the pass, so a slow pass does not
+              # push the next one later and later through the hour.
+              spent=$(( $(date +%s) - started ))
+              rest=$(( GAP_SECONDS - spent ))
+              [ "$rest" -gt 0 ] && sleep "$rest"
+            fi
+          done
+
           echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/live.json"
           echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/week.json"
