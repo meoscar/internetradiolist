@@ -60,7 +60,12 @@ jobs:
 
           # years.json is the one thing here worth keeping for ever: every entry
           # is a request that never has to be made again. It goes on main.
-          if ! git diff --quiet -- years.json; then
+          #
+          # git status, not git diff: this file did not exist on main before
+          # its first run, and git diff sees nothing to compare an untracked
+          # file against -- it would have reported "nothing changed" on the
+          # one run where there was the most to commit.
+          if [ -n "$(git status --porcelain -- years.json)" ]; then
             git add years.json
             git commit -q -m "Release years learned $(date -u '+%Y-%m-%d')"
             git pull --rebase -q origin main && git push origin HEAD:main

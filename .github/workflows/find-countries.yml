@@ -28,7 +28,13 @@ jobs:
       - name: Publish
         if: ${{ inputs.apply }}
         run: |
-          if git diff --quiet -- countries.json; then
+          # git diff sees nothing to compare a file against that has never
+          # been committed, so on the very first run -- the one that matters
+          # most -- this reported "nothing changed" and skipped the commit,
+          # even though find_countries.py had just written 777 matches to it.
+          # git status catches both a new untracked file and a changed
+          # tracked one.
+          if [ -z "$(git status --porcelain -- countries.json)" ]; then
             echo "nothing changed"; exit 0
           fi
           git config user.name  "github-actions[bot]"
