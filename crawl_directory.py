@@ -88,13 +88,41 @@ class Fetcher:
         })
         try:
             with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
-                return response.read().decode("utf-8", "replace")
+                return decode(response.read(), response.headers)
         except Exception as exc:                   # noqa: BLE001
             self.failed += 1
             print(f"    {url} -> {type(exc).__name__}: {exc}")
             return None
         finally:
             time.sleep(PAUSE)
+
+
+def decode(body, headers):
+    """Turn the bytes into text without inventing replacement characters.
+
+    This was decode("utf-8", "replace"), which is where "Roxy R\ufffddi\ufffd"
+    came from: any byte that is not valid UTF-8 becomes U+FFFD, the damage is
+    permanent, and the station reaches the catalogue with a name nobody can
+    read. Six of them made it as far as the published file.
+
+    So: whatever the response says its charset is, then UTF-8, then
+    Windows-1252 -- which is what most of the older European station names on
+    this site actually are, and which cannot fail, so there is always an answer
+    and it is never a row of question marks.
+    """
+    declared = None
+    try:
+        declared = headers.get_content_charset()
+    except Exception:                              # noqa: BLE001
+        pass
+    for encoding in (declared, "utf-8", "cp1252"):
+        if not encoding:
+            continue
+        try:
+            return body.decode(encoding)
+        except (UnicodeDecodeError, LookupError):
+            continue
+    return body.decode("utf-8", "replace")
 
 
 def text_of(fragment):

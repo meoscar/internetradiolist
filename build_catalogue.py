@@ -21,6 +21,7 @@ the genre it was filed under.
 import json
 import pathlib
 import re
+import unicodedata
 import sys
 from collections import Counter, defaultdict
 
@@ -61,6 +62,88 @@ ON_TREND = 20
 # Hard-coded in the app in several places -- its own scrape path, its own
 # artwork, its own now-playing page. Carried over exactly as it is.
 ICRT_ID = "https://www.icrt.com.tw/"
+
+
+# ---- what a station is called, and whether it is called anything ----
+
+# The suffix a broadcaster adds when it serves the same programme at several
+# bitrates. "Radio X HQ", "Radio X (128Kbps)", "Radio X LOW" are one station.
+BITRATE_SUFFIX = re.compile(
+    r"\s*[\(\[]?\s*("
+    r"HQ|SQ|LQ|HD|SD|high|low|medium|hi|lo"
+    r"|\d{2,3}\s?k(bps)?"
+    r")\s*[\)\]]?\s*$", re.I)
+
+# What a streaming host writes into the name field when nobody has changed it.
+# These are not stations with dull names; they are unconfigured servers.
+NOT_A_NAME = re.compile(
+    r"^(stream|streaming|no name|unnamed|unknown|default|test|radio"
+    r"|my radio|untitled|this is my server name|change this|server name"
+    r"|autodj|auto ?dj stream|localhost|shoutcast server|icecast server"
+    r"|new station|station name|sc_serv|centova ?cast)$", re.I)
+
+# The host's own advertising, wearing the station's name.
+HOST_BRANDING = re.compile(
+    r"fastcast4u|freeshoutcast|shoutcast server|centovacast|everestcast"
+    r"|myautodj|caster\.fm|hostclean|^autodj\b", re.I)
+
+URL_IN_NAME = re.compile(r"\s*(https?://|www\.)\S+", re.I)
+
+
+def base_name(name):
+    """The broadcaster behind a name, with the bitrate variant stripped off.
+
+    Alphanumeric in any script, not just ASCII. Reducing to [a-z0-9] turned
+    "\u0420\u0430\u0434\u0438\u043e \u041d\u0415\u0421\u0422\u0410\u041d\u0414\u0410\u0420\u0422" into the empty string, and an empty key was
+    treated as "no name" and dropped -- so a Cyrillic, Greek or CJK station
+    could be deleted from the catalogue for being written in its own alphabet.
+    Two were, in this data, and the crawler's decoding fix is about to produce
+    a great many more correctly-spelled non-Latin names.
+
+    Accents are folded away so "Rad\u00edo" and "Radio" are the same broadcaster,
+    which is the point of the key.
+    """
+    previous = None
+    stripped = (name or "").strip()
+    while stripped != previous:
+        previous = stripped
+        stripped = BITRATE_SUFFIX.sub("", stripped).strip(" -|\u00b7")
+    folded = unicodedata.normalize("NFKD", stripped.lower())
+    return "".join(c for c in folded
+                   if c.isalnum() and not unicodedata.combining(c))
+
+
+def station_name(raw):
+    """The name to show, or None when there is nothing worth showing.
+
+    A browsing listener meeting a row called "stream", "This is my server name"
+    or "FastCast4u.com AutoDJ" does not read it as an obscure station. They read
+    it as an app that is broken, and they are not wrong: those are the defaults
+    a streaming host writes when the operator never filled the field in.
+
+    Names that are nothing but a URL go the same way. A name with a URL stuck on
+    the end keeps the name.
+    """
+    name = (raw or "").strip()
+    if not name:
+        return None
+
+    # A decode that already failed cannot be undone here -- the bytes are gone.
+    # Dropping is the honest option; the crawler's decoding is fixed upstream so
+    # the next crawl brings these back with their real names.
+    if "\ufffd" in name:
+        return None
+
+    trimmed = URL_IN_NAME.sub("", name).strip(" -|\u00b7")
+    if not trimmed:
+        return None
+    name = trimmed
+
+    if NOT_A_NAME.match(name) or HOST_BRANDING.search(name):
+        return None
+    if len(name) < 2:
+        return None
+    return name
 
 
 def normalise(name):
@@ -128,12 +211,43 @@ def main(argv):
     # that field afterwards, and two different .pls URLs can resolve to the same
     # stream. Three stations were listed twice because of it.
     crawled, crawled_seen = [], set()
+    unnamed = 0
     for station in directory:
         if station["stream"] in alive and station["stream"] not in crawled_seen:
             crawled_seen.add(station["stream"])
-            crawled.append(station)
+            shown = station_name(station.get("name"))
+            if shown is None:
+                unnamed += 1
+                continue
+            crawled.append(dict(station, name=shown))
+
+    # One row per broadcaster. The same station is listed once per bitrate it
+    # offers -- "Radio X HQ", "Radio X SQ", "Radio X LQ" -- and every copy is a
+    # separate row in the app, a separate answer in the live pass, and a
+    # separate entry in any count of who is playing what. Keep the fattest
+    # stream, since that is the one worth listening to.
+    def bitrate_of(station):
+        try:
+            return int(str(station.get("bitrate") or 0))
+        except ValueError:
+            return 0
+
+    best = {}
+    for station in crawled:
+        key = base_name(station["name"])
+        if not key:
+            continue
+        kept = best.get(key)
+        if kept is None or (bitrate_of(station), station.get("listeners") or 0) > \
+                (bitrate_of(kept), kept.get("listeners") or 0):
+            best[key] = station
+    collapsed = len(crawled) - len(best)
+    crawled = list(best.values())
     unmeasured = [s for s in directory if s["stream"] not in facts]
     print(f"{DIRECTORY}: {len(directory)} stations")
+    print(f"  {unnamed:5d}  had no name worth showing, dropped")
+    print(f"  {collapsed:5d}  were the same broadcaster at another bitrate, "
+          f"collapsed")
     print(f"  {len(crawled):5d}  answered when probed")
     print(f"  {len(directory) - len(crawled) - len(unmeasured):5d}  did not answer, dropped")
     print(f"  {len(unmeasured):5d}  never probed, dropped\n")
@@ -162,6 +276,7 @@ def main(argv):
     # ---- stations already published that still work and the crawl missed ----
 
     seen = {s["stream"] for s in crawled}
+    seen_names = {base_name(s["name"]) for s in crawled}
     carried = []
     for item in existing:
         source = (item.get("source") or "").strip()
@@ -169,8 +284,18 @@ def main(argv):
             continue
         if source not in alive:
             continue
-        carried.append(item)
+        # The same two tests the crawl's own stations get. A row that was
+        # published before this filter existed does not get to stay because it
+        # was published before this filter existed.
+        shown = station_name(item.get("title"))
+        if shown is None:
+            continue
+        key = base_name(shown)
+        if not key or key in seen_names:
+            continue
+        carried.append(dict(item, title=shown))
         seen.add(source)
+        seen_names.add(key)
     print(f"{CATALOGUE}: {len(existing)} stations")
     print(f"  {len(carried):5d}  still answer and the crawl missed them, kept\n")
 
