@@ -15,15 +15,27 @@ name: What is on the radio right now
 # */15 lands on :00 and :30, the two worst minutes there are. Minute 9 is off
 # every round boundary.
 #
-# The four passes then happen inside the one run, fourteen minutes apart, each
+# Ten passes then happen inside the one run, five minutes apart, each
 # publishing on its own. That matters more than it looks: if the runner is
-# killed at pass three, passes one and two are already on the branch. Nothing
-# waits for the end.
+# killed at pass eight, passes one through seven are already on the branch.
+# Nothing waits for the end.
 #
-# What this costs: the job holds a runner for about three quarters of an hour
-# to do about three minutes of work. On a public repository the minutes are
-# free, and that is the trade being made -- freshness bought with idle runner
-# time. To spend less, set PASSES to 1 and take hourly data.
+# Five minutes, not fourteen, because of what the app does with the age of
+# the newest pass: a listener reported opening a station off the live tile
+# and hearing a different song than the one on the tile. The tile was
+# telling the truth about what was playing when the pass ran; the station
+# had simply moved on to the next track by the time the tap landed. Below a
+# station's own track length that gap is unavoidable -- radio does not wait
+# -- but it grows with how stale the data is allowed to get, and the app now
+# refuses to name a track past a few minutes of age rather than guess.
+# Five-minute passes are what keeps that honest cutoff from emptying the
+# tile for most of the hour.
+#
+# What this costs: the job holds a runner for about fifty minutes to do
+# about three minutes of work. On a public repository the minutes are free,
+# and that is the trade being made -- freshness bought with idle runner
+# time. To spend less, lower PASSES and accept a tile that goes quiet for
+# longer stretches.
 #
 # The result does NOT go on main. Ninety-six commits a day is thirty-five
 # thousand a year, and a repository people clone should not carry that. It is
@@ -40,7 +52,7 @@ on:
         default: '200'
       passes:
         description: 'Passes to make before the run ends'
-        default: '4'
+        default: '10'
 
 permissions:
   contents: write
@@ -54,16 +66,17 @@ concurrency:
 
 env:
   STATIONS: ${{ github.event.inputs.stations || '200' }}
-  PASSES:   ${{ github.event.inputs.passes   || '4'   }}
-  # Fourteen, not fifteen: four passes and three gaps have to finish inside the
-  # hour with room for the work itself, or the next run cancels this one.
-  GAP_SECONDS: '840'
+  PASSES:   ${{ github.event.inputs.passes   || '10'  }}
+  # Five minutes: nine gaps at five minutes is forty-five, plus the passes
+  # themselves, with room to spare inside the hour before the next run's
+  # trigger would cancel this one.
+  GAP_SECONDS: '300'
 
 jobs:
   live:
     runs-on: ubuntu-latest
-    # Three gaps of fourteen minutes is forty-two, plus the passes themselves.
-    timeout-minutes: 52
+    # Nine gaps of five minutes is forty-five, plus ten passes' own work.
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
