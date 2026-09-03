@@ -48,4 +48,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add countries.json
           git commit -q -m "Where the stations are, from Radio Browser"
+          # Not a bare push: this branch has other jobs committing to it too
+          # (charts.yml's years.json, the catalogue builds), and a push that
+          # lands between this job's checkout and its push is an ordinary
+          # race, not a failure -- rebase onto whatever arrived and go again.
+          git pull --rebase -q origin main
           git push
