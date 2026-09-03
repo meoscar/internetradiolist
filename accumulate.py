@@ -36,6 +36,30 @@ WEEK = "week.json"
 KEEP_DAYS = 8
 SECONDS_PER_DAY = 86400
 
+# What the tail costs, measured rather than feared. The first real pass wrote
+# 321 bytes per track, and the pass runs ninety-six times a day over about a
+# hundred and sixty-five stations, which is roughly sixteen thousand
+# observations a day. Left unbounded that is eighteen megabytes by day eight,
+# force-pushed ninety-six times a day: about 1.7 GB of pushes daily to carry a
+# file whose useful part is the top forty rows.
+#
+# Nearly all of that is tracks heard once and never again, which cannot appear
+# in a chart however long they are kept. So the tail is dropped on a sliding
+# scale: heard once and not heard again for a day, or twice and not for three
+# days, and it goes. Anything genuinely popular is heard every few hours and
+# never comes close to these.
+ONCE_AFTER_DAYS = 1
+TWICE_AFTER_DAYS = 3
+
+# A last defence if a day is unusually varied. The chart needs forty rows; this
+# is three orders of magnitude more than that.
+MAX_TRACKS = 20000
+
+# A station's era is the median year of what it plays, and a median over a few
+# hundred samples is the same number as a median over thousands. Keeping every
+# key a station has ever played is the second-largest thing in this file.
+MAX_TRACKS_PER_STATION = 400
+
 # Junk a station puts through the same field it uses for songs.
 NOT_A_TRACK = re.compile(
     r"advert|commercial|jingle|station\s?id|no title|^unknown$|nonstop|non-stop"
@@ -116,16 +140,42 @@ def main(argv):
         if key not in fact["tracks"]:
             fact["tracks"].append(key)
 
-    # A rolling week. Without this the file grows for ever and the chart stops
-    # being about this week.
-    cutoff = now - KEEP_DAYS * SECONDS_PER_DAY
-    stale = [k for k, v in tracks.items() if v.get("last", 0) < cutoff]
+    # A rolling week, and a tail that is dropped sooner the less it was heard.
+    week_ago = now - KEEP_DAYS * SECONDS_PER_DAY
+    once_ago = now - ONCE_AFTER_DAYS * SECONDS_PER_DAY
+    twice_ago = now - TWICE_AFTER_DAYS * SECONDS_PER_DAY
+
+    def spent(entry):
+        last = entry.get("last", 0)
+        if last < week_ago:
+            return True
+        if entry["plays"] <= 1 and last < once_ago:
+            return True
+        return entry["plays"] <= 2 and last < twice_ago
+
+    stale = [k for k, v in tracks.items() if spent(v)]
     for key in stale:
         del tracks[key]
-    if stale:
+
+    # And a ceiling, in case a day is unusually varied. Most played wins.
+    capped = 0
+    if len(tracks) > MAX_TRACKS:
+        keep = sorted(tracks.items(), key=lambda kv: -kv[1]["plays"])[:MAX_TRACKS]
+        capped = len(tracks) - len(keep)
+        tracks = dict(keep)
+
+    if stale or capped:
         alive = set(tracks)
         for fact in stations.values():
             fact["tracks"] = [k for k in fact["tracks"] if k in alive]
+
+    # A median over four hundred records is the same number as a median over
+    # four thousand, and this list is the second largest thing in the file.
+    trimmed = 0
+    for fact in stations.values():
+        if len(fact["tracks"]) > MAX_TRACKS_PER_STATION:
+            trimmed += len(fact["tracks"]) - MAX_TRACKS_PER_STATION
+            fact["tracks"] = fact["tracks"][-MAX_TRACKS_PER_STATION:]
 
     week = {"updated": now, "days": KEEP_DAYS,
             "tracks": tracks, "stations": stations}
@@ -136,7 +186,11 @@ def main(argv):
     print(f"folded in {seen} of {len(live['playing'])} "
           f"({skipped} were not tracks)")
     print(f"  {added:6d}  heard for the first time")
-    print(f"  {len(stale):6d}  dropped, not heard for {KEEP_DAYS} days")
+    print(f"  {len(stale):6d}  dropped as tail or older than {KEEP_DAYS} days")
+    if capped:
+        print(f"  {capped:6d}  over the {MAX_TRACKS} ceiling, least played")
+    if trimmed:
+        print(f"  {trimmed:6d}  station samples over {MAX_TRACKS_PER_STATION}")
     print(f"  {len(tracks):6d}  distinct tracks, {total} plays")
     print(f"  {len(stations):6d}  stations")
     print(f"  {len(text) / 1024:.0f} KB")

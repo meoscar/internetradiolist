@@ -1,2 +1,4 @@
 live.json
 __pycache__/
+week.json          # the running tally; it lives on the live branch
+charts.json          # built from the tally; also the live branch
