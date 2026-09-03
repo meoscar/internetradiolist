@@ -35,10 +35,15 @@ from urllib.parse import urlparse
 # Their docs ask bulk users to take the whole list once rather than query per
 # station, and to say who is calling.
 SERVERS = (
-    "https://de1.api.radio-browser.info/json/stations",
-    "https://nl1.api.radio-browser.info/json/stations",
-    "https://at1.api.radio-browser.info/json/stations",
+    "https://de1.api.radio-browser.info",
+    "https://nl1.api.radio-browser.info",
+    "https://at1.api.radio-browser.info",
 )
+
+# The whole list does not come in one response. Asking for /json/stations plain
+# returns a thousand rows and no indication that there are forty-eight thousand
+# more, which is the kind of limit that looks like an answer.
+PAGE = 25000
 UA = "WorldRadio-Android/catalogue (https://github.com/meoscar/internetradiolist)"
 TIMEOUT = 120
 
@@ -84,18 +89,30 @@ def name_key(name):
     return "".join(c for c in flat if c.isalnum() and not unicodedata.combining(c))
 
 
+def fetch_page(server, offset):
+    url = f"{server}/json/stations?offset={offset}&limit={PAGE}"
+    request = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+        if response.status != 200:
+            raise IOError(f"{url} answered {response.status}")
+        return json.loads(response.read().decode("utf-8"))
+
+
 def fetch_directory():
     last = None
-    for url in SERVERS:
+    for server in SERVERS:
         try:
-            request = urllib.request.Request(url, headers={"User-Agent": UA})
-            with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
-                if response.status != 200:
-                    raise IOError(f"{url} answered {response.status}")
-                print(f"reading {url}")
-                return json.loads(response.read().decode("utf-8"))
+            print(f"reading {server}")
+            rows, offset = [], 0
+            while True:
+                page = fetch_page(server, offset)
+                rows.extend(page)
+                print(f"  {len(rows)} so far")
+                if len(page) < PAGE:
+                    return rows
+                offset += PAGE
         except Exception as error:                   # noqa: BLE001
-            print(f"  {url}: {type(error).__name__}: {error}")
+            print(f"  {server}: {type(error).__name__}: {error}")
             last = error
     raise SystemExit(f"no Radio Browser server answered ({last})")
 
@@ -126,11 +143,14 @@ def main(argv):
             by_stream.setdefault(key, fact)
         nkey = name_key(row.get("name"))
         if nkey:
-            # A name shared by two rows is not evidence of anything.
-            if nkey in by_name and by_name[nkey]["country"] != country:
+            # A name two countries share is not evidence of anything, and gets
+            # poisoned to None so it can never be used. Reading .country off
+            # that None was this function's own sentinel biting it.
+            existing = by_name.get(nkey, "unset")
+            if existing == "unset":
+                by_name[nkey] = fact
+            elif existing is not None and existing["country"] != country:
                 by_name[nkey] = None
-            else:
-                by_name.setdefault(nkey, fact)
 
     found = {}
     by_how = Counter()
