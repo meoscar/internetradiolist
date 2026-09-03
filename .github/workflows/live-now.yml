@@ -41,15 +41,32 @@ jobs:
 
       - name: Bring the last answer forward
         run: |
-          # Rising is a comparison, so the previous pass has to be here to
-          # measure against. It lives on the orphan branch, not on main.
-          git fetch origin live --depth 1 2>/dev/null \
-            && git show origin/live:live.json > live.json \
-            && echo "previous pass: $(wc -c < live.json) bytes" \
-            || echo "no previous pass; nothing will be marked rising this time"
+          # Rising is a comparison and the week's tally is cumulative, so
+          # both have to come forward from the orphan branch they live on.
+          if git fetch origin live --depth 1 2>/dev/null; then
+            git show origin/live:live.json > live.json 2>/dev/null \
+              && echo "previous pass: $(wc -c < live.json) bytes" \
+              || echo "no previous pass; nothing will be marked rising"
+            git show origin/live:week.json > week.json 2>/dev/null \
+              && echo "week so far:   $(wc -c < week.json) bytes" \
+              || echo "no tally yet; this pass starts it"
+            # Not read here, only carried. The branch is rebuilt from nothing
+            # every quarter of an hour, so anything this step does not bring
+            # forward is deleted -- and the daily chart only writes itself once
+            # a day, so it would survive fifteen minutes and then vanish.
+            git show origin/live:charts.json > charts.json 2>/dev/null \
+              && echo "chart:         $(wc -c < charts.json) bytes" \
+              || echo "no chart yet"
+
+          else
+            echo "no live branch yet; this pass creates it"
+          fi
 
       - name: Ask the stations and the site
         run: python3 live_now.py --stations "${{ github.event.inputs.stations || 200 }}"
+
+      - name: Add this pass to the week's tally
+        run: python3 accumulate.py
 
       - name: Publish it, one commit deep
         run: |
@@ -60,7 +77,10 @@ jobs:
           # accumulates history no matter how often this runs.
           git checkout --orphan live-build
           git rm -rf --cached . > /dev/null
-          git add -f live.json
+          git add -f live.json week.json
+          # Only if it is there: the first passes run before any chart exists.
+          [ -s charts.json ] && git add -f charts.json
           git commit -q -m "Live at $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push -f origin live-build:live
           echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/live.json"
+          echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/week.json"
