@@ -225,6 +225,18 @@ def main(argv):
     bad_dashed = sum(1 for t, _, _, _, _ in worst if " - " in t)
     print(f"  {bad_dashed} of the {len(worst)} wrong ones do\n")
 
+    # What the threshold costs, not only what it buys. Everything between half
+    # and the floor is rejected by the shipped check, and if these turn out to
+    # be right answers then the floor is too high and is throwing away correct
+    # artwork. They have to be read, not counted.
+    band = [(t, described(b), sc) for t, _, sc, b in measurable
+            if 0.5 <= sc < 0.7]
+    print(f"  {len(band)} sit between 0.50 and the 0.70 floor -- these are what "
+          f"the check rejects that were not obviously wrong:\n")
+    for term, answer, sc in band[:12]:
+        print(f"    {term[:44]:46} -> {answer[:40]:42} ({sc:.2f})")
+    print()
+
     for term, today, score, better, bscore in worst[:20]:
         print(f"  station said : {term[:58]}")
         print(f"  itunes says  : {today[:58]}   ({score:.2f})")
