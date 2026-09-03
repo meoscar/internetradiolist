@@ -12,6 +12,13 @@ on:
         type: boolean
         default: false
 
+# Missing until now, which is why the fixed git-status check above still
+# could not push: the default GITHUB_TOKEN this workflow never asked to
+# widen is read-only, and the commit that check correctly decided to make
+# was refused with a 403.
+permissions:
+  contents: write
+
 jobs:
   countries:
     runs-on: ubuntu-latest
