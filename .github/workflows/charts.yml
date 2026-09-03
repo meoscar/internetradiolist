@@ -33,15 +33,27 @@ jobs:
           python-version: '3.11'
 
       - name: Take the week's tally
+        id: tally
         run: |
-          git fetch origin live --depth 1
-          git show origin/live:week.json > week.json
-          echo "tally: $(wc -c < week.json) bytes"
+          # The tally is written by the quarter-hourly pass, so on the day this
+          # is first switched on there may not be one. That is a reason to stop,
+          # not to fail: a red run every morning until the data catches up
+          # teaches everyone to ignore the red.
+          git fetch origin live --depth 1 2>/dev/null || true
+          if git show origin/live:week.json > week.json 2>/dev/null; then
+            echo "tally: $(wc -c < week.json) bytes"
+            echo "have=yes" >> "$GITHUB_OUTPUT"
+          else
+            echo "no tally on the live branch yet; nothing to count"
+            echo "have=no" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Count it, and date what is not dated yet
+        if: steps.tally.outputs.have == 'yes'
         run: python3 charts.py --lookups "${{ github.event.inputs.lookups || 300 }}"
 
       - name: Publish the chart beside the live pass
+        if: steps.tally.outputs.have == 'yes'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
