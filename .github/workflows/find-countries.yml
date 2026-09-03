@@ -1,0 +1,38 @@
+name: Where the stations are
+
+# Match the catalogue against Radio Browser, a community directory that carries
+# a country code on every station. One request for their whole list, then it is
+# all dictionary lookups: faster than asking per station and much kinder to a
+# service run by volunteers.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: Write countries.json (otherwise just report)
+        type: boolean
+        default: false
+
+jobs:
+  countries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ask Radio Browser
+        run: |
+          python3 find_countries.py ${{ inputs.apply && '--apply' || '' }}
+
+      - name: Publish
+        if: ${{ inputs.apply }}
+        run: |
+          if git diff --quiet -- countries.json; then
+            echo "nothing changed"; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add countries.json
+          git commit -q -m "Where the stations are, from Radio Browser"
+          git push
