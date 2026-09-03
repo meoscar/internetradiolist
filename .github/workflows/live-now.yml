@@ -1,0 +1,66 @@
+name: What is on the radio right now
+
+# Every quarter of an hour: ask the busiest stations what they are playing, and
+# read six listing pages for live listener counts.
+#
+# The result does NOT go on main. Ninety-six commits a day is thirty-five
+# thousand a year, and a repository people clone should not carry that. It is
+# force-pushed to an orphan branch instead, which is rebuilt from nothing each
+# time, so `live` is always exactly one commit deep however long this runs.
+on:
+  schedule:
+    # Quarter-hourly. GitHub runs scheduled jobs late under load and sometimes
+    # skips them, so this is "about every fifteen minutes" -- which is why
+    # live.json carries the time it was built and the app shows how old it is
+    # rather than claiming to be current.
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      stations:
+        description: 'How many stations to ask'
+        default: '200'
+
+permissions:
+  contents: write
+
+concurrency:
+  # A late run must never overlap the next one: both would force-push and the
+  # older answer could land second.
+  group: live-now
+  cancel-in-progress: true
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Bring the last answer forward
+        run: |
+          # Rising is a comparison, so the previous pass has to be here to
+          # measure against. It lives on the orphan branch, not on main.
+          git fetch origin live --depth 1 2>/dev/null \
+            && git show origin/live:live.json > live.json \
+            && echo "previous pass: $(wc -c < live.json) bytes" \
+            || echo "no previous pass; nothing will be marked rising this time"
+
+      - name: Ask the stations and the site
+        run: python3 live_now.py --stations "${{ github.event.inputs.stations || 200 }}"
+
+      - name: Publish it, one commit deep
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # An orphan branch built from nothing: no parent, so the branch never
+          # accumulates history no matter how often this runs.
+          git checkout --orphan live-build
+          git rm -rf --cached . > /dev/null
+          git add -f live.json
+          git commit -q -m "Live at $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push -f origin live-build:live
+          echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/live.json"
