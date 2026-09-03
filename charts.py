@@ -132,20 +132,36 @@ def main(argv):
     print(f"{len(wanted) - asked} still undated; the next run takes more\n")
 
     # ---- the chart ----
-
-    ordered = sorted(tracks.items(),
+    #
+    # Measured before shipping this, on the first week this ever ran: of the
+    # ten highest-play "tracks", not one was a song. "Now Playing info goes
+    # here" -- a station's own unfilled template. "Asculti Focus FM" -- a
+    # station announcing itself. A Quran reading, a phone-in show's episode
+    # title, a DJ's set name. All thirteen minutes-of-airtime real, none of
+    # them a track a chart should claim is popular.
+    #
+    # The dated ones looked completely different: Jackson 5, Aretha Franklin,
+    # a Sgambati piano suite. iTunes either recognises a real recording or it
+    # does not, and "does not" turned out to correlate almost perfectly with
+    # "this was never a song" -- far better than any keyword list this file
+    # could maintain. So the chart only ranks what iTunes confirmed, the same
+    # bar the eras below already cleared without anyone deciding to apply it
+    # here too.
+    dated_tracks = {k: t for k, t in tracks.items()
+                     if years.get(k, "none") != "none"}
+    ordered = sorted(dated_tracks.items(),
                      key=lambda kv: (-kv[1]["plays"], -len(kv[1]["stations"])))
     top_tracks = []
     for key, track in ordered[:TOP_TRACKS]:
-        row = {
+        top_tracks.append({
             "artist": track["artist"],
             "title": track["title"],
             "plays": track["plays"],
             "stations": len(track["stations"]),
-        }
-        if years.get(key, "none") != "none":
-            row["year"] = years[key]
-        top_tracks.append(row)
+            "year": years[key],
+        })
+    print(f"{len(dated_tracks)} of {len(tracks)} tracks confirmed by iTunes; "
+          f"the chart only ranks those")
 
     artists = Counter()
     for track in tracks.values():
@@ -155,11 +171,13 @@ def main(argv):
                    artists.most_common(TOP_ARTISTS)]
 
     # New: first heard in the last two days, and heard enough since to mean it.
+    # Same confirmation bar as the main chart -- an unconfirmed string is not
+    # more trustworthy for being recent.
     fresh_after = week["updated"] - 2 * 86400
     rising = sorted(
         ({"artist": t["artist"], "title": t["title"], "plays": t["plays"],
-          "stations": len(t["stations"])}
-         for t in tracks.values()
+          "stations": len(t["stations"]), "year": years[k]}
+         for k, t in dated_tracks.items()
          if t.get("first", 0) >= fresh_after and t["plays"] >= 3),
         key=lambda r: -r["plays"])[:20]
 
