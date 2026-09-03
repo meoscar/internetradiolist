@@ -29,7 +29,11 @@ import urllib.parse
 import urllib.request
 
 ENDPOINT = "https://itunes.apple.com/search"
-PAUSE = 0.35          # Apple asks for ~20 calls a minute; this is well under.
+# Apple asks for about twenty calls a minute. A third of a second between them
+# is three times that, and the first full run proved it: fifty of a hundred and
+# sixty-four came back 429. Three seconds is the rate Apple actually publishes,
+# which makes a full pass slow and its numbers real.
+PAUSE = 3.0
 TIMEOUT = 10
 
 
