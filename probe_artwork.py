@@ -71,8 +71,38 @@ def words(text):
     return {w for w in flat.split() if len(w) > 1 and w not in drop}
 
 
-def latin(text):
-    return all(ord(c) < 0x0250 for c in text if c.isalpha())
+SCRIPTS = (
+    ("latin", 0x0041, 0x024F),
+    ("greek", 0x0370, 0x03FF),
+    ("cyrillic", 0x0400, 0x04FF),
+    ("hebrew", 0x0590, 0x05FF),
+    ("arabic", 0x0600, 0x06FF),
+    ("cjk", 0x3040, 0x9FFF),
+    ("hangul", 0xAC00, 0xD7AF),
+)
+
+
+def script(text):
+    """Which alphabet a string is mostly written in.
+
+    Mostly, not entirely: iTunes answers a Russian query with "Ruki Vverkh 18
+    мне уже", which is Latin and Cyrillic at once. Asking whether every letter
+    is Latin says no for that and no for the Cyrillic question too, so the two
+    agree and get compared letter by letter anyway -- which was the bug this
+    replaces.
+    """
+    counts = {}
+    for character in text:
+        if not character.isalpha():
+            continue
+        point = ord(character)
+        for name, low, high in SCRIPTS:
+            if low <= point <= high:
+                counts[name] = counts.get(name, 0) + 1
+                break
+    if not counts:
+        return None
+    return max(counts, key=counts.get)
 
 
 def agreement(query, candidate):
@@ -85,7 +115,8 @@ def agreement(query, candidate):
     Greek and Chinese stations in the catalogue. Where the scripts differ
     there is nothing here to measure, and this says so instead of guessing.
     """
-    if latin(query) != latin(candidate):
+    asked_in, got_in = script(query), script(candidate)
+    if asked_in is None or got_in is None or asked_in != got_in:
         return None
     asked, got = words(query), words(candidate)
     if not asked:
