@@ -174,6 +174,7 @@ def harvest(station):
     tried = 0
     too_small = 0
     not_an_image = 0
+    is_svg = 0
     unknown_format = 0
     blank = 0
 
@@ -192,9 +193,15 @@ def harvest(station):
             # not a format problem but an absence. An SVG is a format problem,
             # and a solvable one: it is a vector, so it would give a sharper
             # logo than anything else on the page.
+            # Three outcomes, three answers. An SVG is a vector and the best
+            # possible source for a mark, so it is worth rasterising. A web
+            # page is an absence dressed up as a failure -- the last candidate
+            # is always a guessed /favicon.ico. Anything else is a binary this
+            # build of Pillow will not open, and whether that is worth chasing
+            # depends on how many there are.
             head = raw[:400].lstrip()[:200].lower()
             if b"<svg" in head or (head.startswith(b"<?xml") and b"svg" in raw[:2000].lower()):
-                unknown_format += 1
+                is_svg += 1
             elif head.startswith(b"<") or b"<html" in head or b"<!doctype" in head:
                 not_an_image += 1
             else:
@@ -229,13 +236,15 @@ def harvest(station):
 
     if tried == 0:
         return None, "page names no image at all"
-    worst = max(too_small, not_an_image, unknown_format, blank)
+    worst = max(too_small, not_an_image, is_svg, unknown_format, blank)
+    if is_svg == worst:
+        return None, "SVG, which we do not rasterise"
     if too_small == worst:
         return None, "only images under 48px"
     if not_an_image == worst:
         return None, "the URL served a page, not an image"
     if unknown_format == worst:
-        return None, "an image format we cannot read (SVG?)"
+        return None, "a binary format Pillow will not open"
     return None, "images were blank"
 
 
