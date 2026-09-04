@@ -1,0 +1,61 @@
+name: Check stations
+
+# A catalogue of internet radio rots quietly -- hosts move, stations close --
+# and the listener only finds out by tapping one and watching it spin.
+on:
+  schedule:
+    # 03:20 UTC daily, which is mid-morning in Taiwan.
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+    inputs:
+      drop_dead:
+        description: 'Remove stations that have failed three runs in a row'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Probe every stream
+        run: |
+          if [ "${{ github.event.inputs.drop_dead }}" = "false" ]; then
+            python3 check_stations.py
+          else
+            python3 check_stations.py --drop-dead
+          fi
+
+      - name: Refuse to commit a broken catalogue
+        run: python3 validate_stations.py
+
+      - name: Record what changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # health.json is created by the probe and was untracked, which
+          # `git diff` does not look at -- so every run reported "nothing to
+          # record", threw the file away, and every station stayed on its first
+          # strike forever. Stage first, then ask what is staged.
+          git add health.json *.json
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "Retire the stations that stopped answering
+
+          Recorded by the nightly stream check. A station is only dropped
+          after failing three runs in a row, so a night of downtime does not
+          remove it."
+          # These workflows both commit to main, and two of them running
+          # at once loses whichever pushes second.
+          git pull --rebase origin main
+          git push

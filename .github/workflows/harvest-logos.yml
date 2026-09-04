@@ -1,0 +1,62 @@
+name: Take the station logos from the stations
+
+# The pictures in stationPics0719 came from an image search and average 125KB
+# for something drawn at 50 pixels. Broadcasters publish their own mark on
+# their own site; this takes that and makes a 256px WebP of it.
+#
+# stationPics0719 is left alone: copies of the app already installed build
+# those URLs from the station name, and deleting the folder would blank their
+# lists with no way to reach them.
+# Weekly, and deliberately placed between the two jobs it needs and the one
+# that consumes it: crawl-directory (Tue 05:10) supplies the homepages,
+# harvest-icy (Mon 04:40) supplies the stream headers this now falls back to,
+# and build-catalogue (Wed 06:00) reads logos.json to point the published
+# catalogue at whatever was found. Run out of that order it either works from
+# last week's crawl or lands too late to reach the app for another week.
+#
+# This is what makes the pictures follow the stations rather than being a set
+# uploaded once: a station that puts up a site, or changes its mark, is
+# re-asked every week without anyone doing anything.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Stations to try, 0 for all'
+        default: '40'
+  schedule:
+    - cron: '0 12 * * 2'
+
+permissions:
+  contents: write
+
+jobs:
+  logos:
+    runs-on: ubuntu-latest
+    # 90 was sized when this only tried the 2,099 stations the directory lists
+    # a homepage for. The stream-header fallback adds ~305 more, and those are
+    # the least likely to answer, so they are the ones that spend the full
+    # timeout rather than returning.
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install --quiet pillow
+
+      - name: Ask each station for its logo
+        run: python3 harvest_logos.py --limit "${{ github.event.inputs.limit || 0 }}"
+
+      - name: Commit the logos
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logos logos.json
+          if git diff --cached --quiet; then
+            echo "nothing new"
+            exit 0
+          fi
+          git commit -m "Station logos, from the stations ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin main
+          git push

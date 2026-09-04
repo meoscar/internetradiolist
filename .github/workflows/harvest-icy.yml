@@ -1,0 +1,63 @@
+name: Ask the stations what they are
+
+# The catalogue has names and stream URLs and nothing to browse by. The stations
+# themselves publish a name, a genre and a description in the Icecast handshake,
+# which is the only description of a station written by someone who knows it.
+#
+# This only reads. It writes station_facts.json and nothing else -- the
+# catalogue the app fetches is not touched by this workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      files:
+        description: 'Which files to read (space separated)'
+        default: 'directory.json music_worldradio.json music.json'
+  schedule:
+    # Weekly. Station metadata changes when an operator edits it, which is rare.
+    - cron: '40 4 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    # 75 was sized for one attempt per stream. harvest_icy.py now retries a
+    # failing stream up to twice more before recording it not-ok, so the
+    # slice of ~2700 that never answer at all now costs three timeouts each
+    # instead of one.
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Interrogate every station
+        run: python3 harvest_icy.py ${{ github.event.inputs.files }} | tee harvest.log
+
+      - name: Commit the facts
+        run: |
+          if git diff --quiet -- station_facts.json 2>/dev/null \
+             && [ -f station_facts.json ] && git ls-files --error-unmatch station_facts.json >/dev/null 2>&1; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add station_facts.json
+          git commit -m "What the stations say about themselves ($(date -u +%Y-%m-%d))" || {
+            echo "nothing to commit"; exit 0;
+          }
+          git push
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: station-facts
+          path: |
+            station_facts.json
+            harvest.log
+          if-no-files-found: warn
+          retention-days: 30

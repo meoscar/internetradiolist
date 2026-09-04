@@ -1,0 +1,71 @@
+name: Build the catalogue the app downloads
+
+# Joins the crawl, the stream probe and the logos into music_worldradio.json.
+# Manual runs stay dry by default: they print what the new catalogue would
+# contain and write nothing, since replacing the file every installed copy of
+# the app fetches was, for years, too deliberate an act to leave to a cron
+# schedule. It now also runs weekly and applies automatically -- the two
+# inputs it joins, directory.json and station_facts.json, already come from
+# their own scheduled crawls (Tue 05:10 and Mon 04:40 UTC), so a human was
+# only ever pressing the button after both had already landed. Wednesday
+# 06:00 UTC is after both, every week, without exception.
+#
+# What still makes this safe to leave unattended: validate_stations.py has to
+# pass before anything is committed, on a schedule the same as on a manual
+# --apply, and build_catalogue.py itself never drops a station just because
+# this week's crawl didn't see it -- see the carry-over logic in that file.
+# The one real risk this doesn't cover is station_facts.json recording a
+# stream as down because harvest-icy.yml's single probe of it happened to
+# fail -- harvest_icy.py now retries a failing stream twice more before
+# believing it, for exactly that reason.
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: 'Actually replace music_worldradio.json'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '0 6 * * 3'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Work out the new catalogue
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.apply }}" = "true" ]; then
+            python3 build_catalogue.py --apply
+          else
+            python3 build_catalogue.py
+          fi
+
+      - name: Refuse to publish a broken catalogue
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.apply == 'true' }}
+        run: python3 validate_stations.py
+
+      - name: Commit it
+        if: ${{ github.event_name == 'schedule' || github.event.inputs.apply == 'true' }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add music_worldradio.json
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+            exit 0
+          fi
+          git commit -m "Rebuild the catalogue from the crawl and the probe
+
+          Only stations whose stream answered a handshake are included, and
+          logos come from the stations' own sites."
+          git pull --rebase origin main
+          git push
