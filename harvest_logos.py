@@ -173,17 +173,32 @@ def harvest(station):
     # 48-pixel floor was the binding constraint.
     tried = 0
     too_small = 0
-    unreadable = 0
+    not_an_image = 0
+    unknown_format = 0
     blank = 0
 
     for candidate in logo_candidates(page, homepage):
         tried += 1
+        raw = b""
         try:
             raw = fetch(candidate)
             image = Image.open(io.BytesIO(raw))
             image.load()
         except Exception:                          # noqa: BLE001
-            unreadable += 1
+            # "Would not decode" was hiding two different situations, and they
+            # have opposite answers. The last candidate is always a guessed
+            # /favicon.ico, and a site without one usually answers 200 with an
+            # HTML error page -- so Pillow is being handed a web page, which is
+            # not a format problem but an absence. An SVG is a format problem,
+            # and a solvable one: it is a vector, so it would give a sharper
+            # logo than anything else on the page.
+            head = raw[:400].lstrip()[:200].lower()
+            if b"<svg" in head or (head.startswith(b"<?xml") and b"svg" in raw[:2000].lower()):
+                unknown_format += 1
+            elif head.startswith(b"<") or b"<html" in head or b"<!doctype" in head:
+                not_an_image += 1
+            else:
+                unknown_format += 1
             continue
 
         # A 16x16 favicon upscaled to 256 is a smear. Below 48 is not a logo,
@@ -214,10 +229,13 @@ def harvest(station):
 
     if tried == 0:
         return None, "page names no image at all"
-    if too_small and too_small >= max(unreadable, blank):
+    worst = max(too_small, not_an_image, unknown_format, blank)
+    if too_small == worst:
         return None, "only images under 48px"
-    if unreadable >= max(too_small, blank):
-        return None, "images would not decode"
+    if not_an_image == worst:
+        return None, "the URL served a page, not an image"
+    if unknown_format == worst:
+        return None, "an image format we cannot read (SVG?)"
     return None, "images were blank"
 
 
