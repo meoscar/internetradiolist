@@ -1,0 +1,50 @@
+name: Run whatever is overdue
+
+# GitHub's cron is best-effort, and this repository gets about fifteen percent
+# of its slots. Measured over a hundred runs: the hourly pass fired seven times
+# in two days instead of forty-eight, and the four weekly jobs -- the chain
+# that rebuilds the catalogue the app downloads -- did not fire on schedule
+# once. Re-enabling Actions, toggling a workflow off and on, and pushing
+# commits that touch the file all changed nothing, because none of them is the
+# problem.
+#
+# So the schedules stay where they are, as the happy path, and this stands
+# behind them. The hourly pass is the one trigger that still fires several
+# times a day; every completed run of it asks run_due.py which job is furthest
+# past due and starts that one. An unreliable clock becomes a heartbeat, and
+# "has it been seven days" is a question a heartbeat answers reliably even when
+# it beats irregularly.
+#
+# It starts one job per beat, in chain order, because the weekly four depend on
+# each other. At three or four beats a day a five-step chain still finishes
+# inside two.
+on:
+  workflow_run:
+    workflows: ["What is on the radio right now"]
+    # completed, not success: a failed pass is still a beat, and the jobs this
+    # starts have nothing to do with whether that one worked.
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  # To read when each workflow last succeeded, and to start one.
+  actions: write
+  contents: read
+
+concurrency:
+  # Two beats arriving together would each start the same overdue job.
+  group: due
+  cancel-in-progress: false
+
+jobs:
+  due:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 run_due.py
