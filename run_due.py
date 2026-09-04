@@ -50,7 +50,19 @@ REF = os.environ.get("GITHUB_REF_NAME", "main")
 # scheduled run it is standing in for -- find-countries reports instead of
 # writing unless asked, and harvest-logos samples forty stations unless told to
 # take them all.
+# ("workflow", hours between runs, dispatch inputs, judge_by_success)
+#
+# The last flag says which question to ask. For a job that either works or
+# does not, "when did it last succeed" is right: a failed run must not reset
+# the clock, or a job that fails once waits another week before anything
+# retries it. The live pass is different -- it holds a runner for five hours
+# and a newer firing cancels the older one, so cancellations are its normal
+# ending and asking about successes would read it as permanently overdue.
 DUE = [
+    # First, because a gap here is the only one anybody can see: live.json
+    # feeding a screen that says what is playing this minute. Every other job
+    # on this list can be a day late without a soul noticing.
+    ("live-now.yml", 1, {}, False),
     ("check-stations.yml", 24, {}),
     ("charts.yml", 24, {}),
     ("harvest-icy.yml", 24 * 7, {}),
@@ -77,11 +89,27 @@ def call(path, method="GET", body=None):
         return json.loads(raw) if raw else {}
 
 
-def hours_since_success(workflow):
-    """Age of the newest successful run, or None if there has never been one."""
+def in_flight(workflow):
+    """Is one already queued or running? Then it is not overdue, whatever the
+    clock says -- and dispatching would be worse than pointless, because the
+    live pass cancels its own older run when a newer one starts, so a heartbeat
+    that ignored this would restart it every few hours for ever."""
+    for state in ("queued", "in_progress"):
+        try:
+            runs = call(f"/actions/workflows/{workflow}/runs"
+                        f"?status={state}&per_page=1")["workflow_runs"]
+        except urllib.error.HTTPError:
+            return False
+        if runs:
+            return True
+    return False
+
+
+def hours_since(workflow, only_success=True):
+    """Age of the newest run, or None if there has never been one."""
+    query = "?status=success&per_page=1" if only_success else "?per_page=1"
     try:
-        runs = call(f"/actions/workflows/{workflow}/runs"
-                    "?status=success&per_page=1")["workflow_runs"]
+        runs = call(f"/actions/workflows/{workflow}/runs{query}")["workflow_runs"]
     except urllib.error.HTTPError as err:
         print(f"  {workflow}: cannot read runs ({err.code})")
         return None
@@ -100,8 +128,15 @@ def main():
         return 1
 
     overdue = []
-    for workflow, every, inputs in DUE:
-        age = hours_since_success(workflow)
+    for entry in DUE:
+        workflow, every, inputs = entry[0], entry[1], entry[2]
+        by_success = entry[3] if len(entry) > 3 else True
+
+        if in_flight(workflow):
+            print(f"  {workflow:24s} already running")
+            continue
+
+        age = hours_since(workflow, by_success)
         if age is None:
             # Never succeeded, so it is as overdue as anything can be.
             print(f"  {workflow:24s} never succeeded            DUE")
@@ -115,13 +150,13 @@ def main():
 
     if not overdue and force:
         print("\nnothing is overdue; --force starting the first in the chain")
-        overdue = [(0, DUE[0][0], DUE[0][2])]
+        overdue = [(0, DUE[1][0], DUE[1][2])]
     if not overdue:
         print("\nnothing is overdue")
         return 0
 
     # Chain order, not lateness: the earliest step in DUE that is overdue.
-    order = [w for w, _, _ in DUE]
+    order = [entry[0] for entry in DUE]
     _, workflow, inputs = min(overdue, key=lambda row: order.index(row[1]))
     print(f"\nstarting {workflow}"
           + (f" with {inputs}" if inputs else "")

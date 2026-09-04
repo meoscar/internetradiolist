@@ -19,6 +19,14 @@ name: Run whatever is overdue
 # each other. At three or four beats a day a five-step chain still finishes
 # inside two.
 on:
+  # Its own clock as well, because of a circularity: this hangs off the live
+  # pass, and the live pass is now one of the jobs it restarts. If that pass
+  # ever stops, nothing beats, so nothing notices it stopped. This cron is as
+  # unreliable as every other cron here -- about one firing in eight -- which
+  # is three or four a day, and three or four a day is plenty to notice an
+  # hour-long gap.
+  schedule:
+    - cron: '37 * * * *'
   workflow_run:
     workflows: ["What is on the radio right now"]
     # Both ends of the run, and not filtered on success. A pass now holds a
