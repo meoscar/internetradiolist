@@ -28,6 +28,7 @@ from collections import Counter, defaultdict
 
 DIRECTORY = "directory.json"
 FACTS = "station_facts.json"
+HEALTH = "health.json"
 LOGOS = "logos.json"
 CATALOGUE = "music_worldradio.json"
 
@@ -46,6 +47,34 @@ CATALOGUE = "music_worldradio.json"
 # image-search results said something false.
 PLACEHOLDER = ("https://raw.githubusercontent.com/meoscar/internetradiolist"
                "/main/station_placeholder.png")
+
+# What check_stations.py calls dead, so that this file agrees with it.
+#
+# These two disagreed, and the disagreement had a cost every Wednesday. The
+# nightly check retires a stream after three consecutive failures and prunes it
+# out of health.json on the way, so the evidence for the retirement is deleted
+# with the row. This file then rebuilt the catalogue from station_facts.json
+# alone, put the station straight back, and the check had to spend another
+# three nights killing it again -- 131 stations were in exactly that loop.
+#
+# The deeper half of the same bug: "ok" in station_facts.json means the URL
+# answered, not that it answered with audio. 114 of them return text/html --
+# a "stream offline" page, a login form, a parked domain -- which the nightly
+# check rejects on sight and this file was publishing as working stations.
+FAILURES_BEFORE_DROP = 3
+
+
+def answered_with_audio(fact) -> bool:
+    """A working stream: it answered, and what came back was not a web page.
+
+    Same test as check_stations.probe(), for the same reason -- a station that
+    hands back HTML has not got a stream, it has got a page apologising for
+    not having one.
+    """
+    if not fact.get("ok"):
+        return False
+    return not str(fact.get("content-type", "")).lower().startswith("text/")
+
 
 # A station carries several genres. Filing it under the rarest makes categories
 # of one; filing it under the commonest puts everything in "pop". So take the
@@ -288,8 +317,18 @@ def main(argv):
     logos = load(LOGOS, {})
     existing = items_of(load(CATALOGUE, {"music": []}))
 
-    alive = {url for url, fact in facts.items() if fact.get("ok")}
-    print(f"{len(facts)} streams probed, {len(alive)} answered\n")
+    alive = {url for url, fact in facts.items() if answered_with_audio(fact)}
+    print(f"{len(facts)} streams probed, {len(alive)} answered with audio")
+
+    # And nothing the nightly check has already given up on.
+    health = load(HEALTH, {})
+    condemned = {url for url, record in health.items()
+                 if record.get("consecutive_failures", 0) >= FAILURES_BEFORE_DROP}
+    dropped_as_dead = alive & condemned
+    alive -= condemned
+    if dropped_as_dead:
+        print(f"{len(dropped_as_dead)} of those the nightly check has already retired")
+    print()
 
     logo_by_stream = {url: entry["logo"] for url, entry in logos.items()}
     logo_by_name = {}
