@@ -21,9 +21,13 @@ name: Run whatever is overdue
 on:
   workflow_run:
     workflows: ["What is on the radio right now"]
-    # completed, not success: a failed pass is still a beat, and the jobs this
-    # starts have nothing to do with whether that one worked.
-    types: [completed]
+    # Both ends of the run, and not filtered on success. A pass now holds a
+    # runner for five hours, so waiting for it to finish would turn three or
+    # four beats a day into three or four beats spaced five hours after the
+    # moments that matter; requested gives the beat when the run starts. And a
+    # failed pass is still a beat -- the jobs this starts have nothing to do
+    # with whether that one worked.
+    types: [requested, completed]
   workflow_dispatch:
 
 permissions:

@@ -31,11 +31,22 @@ name: What is on the radio right now
 # Five-minute passes are what keeps that honest cutoff from emptying the
 # tile for most of the hour.
 #
-# What this costs: the job holds a runner for about fifty minutes to do
-# about three minutes of work. On a public repository the minutes are free,
-# and that is the trade being made -- freshness bought with idle runner
-# time. To spend less, lower PASSES and accept a tile that goes quiet for
-# longer stretches.
+# What this costs: the job holds a runner for about five hours to do fifteen
+# minutes of work. On a public repository the minutes are free, and that is the
+# trade being made -- freshness bought with idle runner time. To spend less,
+# lower PASSES and accept a tile that goes quiet for longer stretches.
+#
+# Sixty passes rather than ten, because the trigger cannot be relied on.
+# Measured over a hundred runs, this workflow fired seven times in two days
+# where the cron asks for forty-eight. Ten passes covered fifty minutes, so
+# three or four firings a day left live.json stale for about ninety percent of
+# it -- and the app, correctly, will not name a track from data that old, so
+# the tile said "Live now" and nothing else for most of the day. Sixty passes
+# cover five hours, which turns the same three or four firings into most of a
+# day. The fix is not a better clock, it is a longer run.
+#
+# concurrency below still cancels an older run when a newer one starts, so
+# overlapping five-hour runs cannot pile up.
 #
 # The result does NOT go on main. Ninety-six commits a day is thirty-five
 # thousand a year, and a repository people clone should not carry that. It is
@@ -52,7 +63,7 @@ on:
         default: '200'
       passes:
         description: 'Passes to make before the run ends'
-        default: '10'
+        default: '60'
 
 permissions:
   contents: write
@@ -66,7 +77,7 @@ concurrency:
 
 env:
   STATIONS: ${{ github.event.inputs.stations || '200' }}
-  PASSES:   ${{ github.event.inputs.passes   || '10'  }}
+  PASSES:   ${{ github.event.inputs.passes   || '60'  }}
   # Five minutes: nine gaps at five minutes is forty-five, plus the passes
   # themselves, with room to spare inside the hour before the next run's
   # trigger would cancel this one.
@@ -75,8 +86,9 @@ env:
 jobs:
   live:
     runs-on: ubuntu-latest
-    # Nine gaps of five minutes is forty-five, plus ten passes' own work.
-    timeout-minutes: 55
+    # Fifty-nine gaps of five minutes is just under five hours, plus the
+    # passes' own work. GitHub allows six.
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
