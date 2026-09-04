@@ -1,0 +1,38 @@
+name: How many stations name their track
+
+# The app's pitch is that it tells you what is playing, and for 1,553 of the
+# catalogue's 2,192 stations the inline ICY title is the only route it has --
+# no now-playing page to fall back to. Nobody has ever counted how many of
+# those actually send one. Where none arrives the screen stays blank, which is
+# honest and useless, and it is the largest gap between what the listing
+# promises and what a listener gets.
+#
+# There is also a third route nothing has tried: Icecast's /status-json.xsl
+# and Shoutcast's /stats, both on the station's own server, both naming the
+# current track. This counts all three.
+#
+# It writes nothing. One connection and at most two small requests per station,
+# on a sample.
+on:
+  workflow_dispatch:
+    inputs:
+      sample:
+        description: 'How many stations to ask'
+        default: '120'
+      scope:
+        description: 'nopage = only those with no now-playing page; all = every kind'
+        default: 'nopage'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 probe_now_playing.py "${{ inputs.sample }}" "${{ inputs.scope }}"
