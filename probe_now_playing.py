@@ -161,9 +161,19 @@ def shoutcast_title(url):
 
     body = fetch(base + "/7.html", limit=8192)
     if body:
-        fields = re.sub(rb"<[^>]+>", b",", body).decode("utf-8", "replace").split(",")
-        if len(fields) >= 7 and fields[6].strip():
-            return fields[6].strip()
+        # Seven comma-separated fields inside the body:
+        #   listeners, status, peak, max, unique, bitrate, songtitle
+        # The title is last and may itself contain commas, so the split is
+        # bounded at six rather than taken by index -- which is how the first
+        # run of this probe reported listener counts as song titles and
+        # inflated Shoutcast's share from nothing to 8.7%.
+        text = re.sub(rb"<[^>]+>", b"", body).decode("utf-8", "replace").strip()
+        fields = text.split(",", 6)
+        if len(fields) == 7:
+            title = fields[6].strip()
+            # A title that is only digits is another field bleeding through.
+            if title and not title.isdigit():
+                return title
     return None
 
 
