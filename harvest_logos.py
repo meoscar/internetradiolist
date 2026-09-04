@@ -165,16 +165,33 @@ def harvest(station):
     except Exception as exc:                       # noqa: BLE001
         return None, f"homepage: {type(exc).__name__}"
 
+    # Why each candidate was turned down, so the tally at the end of a run can
+    # say which. "No usable image" covered four different situations, and they
+    # call for four different answers: a site with nothing to take, a site whose
+    # only mark is a 32-pixel favicon, an image that will not decode, and a
+    # blank spacer. Counting them together is why nobody could tell whether the
+    # 48-pixel floor was the binding constraint.
+    tried = 0
+    too_small = 0
+    unreadable = 0
+    blank = 0
+
     for candidate in logo_candidates(page, homepage):
+        tried += 1
         try:
             raw = fetch(candidate)
             image = Image.open(io.BytesIO(raw))
             image.load()
         except Exception:                          # noqa: BLE001
+            unreadable += 1
             continue
 
-        # A 16x16 favicon upscaled to 256 is a smear. Below 48 is not a logo.
+        # A 16x16 favicon upscaled to 256 is a smear. Below 48 is not a logo,
+        # and the generated initials mark the app draws instead is at least
+        # sharp -- which is the comparison that matters, not blank against
+        # something.
         if min(image.size) < 48:
+            too_small += 1
             continue
 
         if image.mode not in ("RGB", "RGBA"):
@@ -188,18 +205,28 @@ def harvest(station):
         buffer = io.BytesIO()
         square(image).save(buffer, "WEBP", quality=82, method=6)
         if buffer.tell() < 1024:
+            blank += 1
             continue
 
         OUT_DIR.mkdir(exist_ok=True)
         (OUT_DIR / f"{slug}.webp").write_bytes(buffer.getvalue())
         return slug, candidate
 
-    return None, "no usable image on the page"
+    if tried == 0:
+        return None, "page names no image at all"
+    if too_small and too_small >= max(unreadable, blank):
+        return None, "only images under 48px"
+    if unreadable >= max(too_small, blank):
+        return None, "images would not decode"
+    return None, "images were blank"
 
 
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=0, help="0 = all")
+    parser.add_argument(
+        "--missing", action="store_true",
+        help="only stations that have no logo yet")
     args = parser.parse_args(argv[1:])
 
     path = pathlib.Path(DIRECTORY)
@@ -234,6 +261,23 @@ def main(argv):
           f"{len(from_stream)} more name a site in their stream headers")
 
     with_home += from_stream
+
+    # The weekly run asks every station on purpose: a broadcaster who changes
+    # their logo is only found by asking again. But a run meant to close the
+    # gap, or to measure why it is not closing, should ask the stations that
+    # have nothing -- and with --limit alone it spends its whole budget
+    # re-fetching the front of the list, which is exactly the part that already
+    # worked. A 200-station sample taken that way returned 123 logos and
+    # changed four files.
+    if args.missing:
+        known = {}
+        index_path = pathlib.Path(LOGO_INDEX)
+        if index_path.exists():
+            known = json.loads(index_path.read_text(encoding="utf-8"))
+        before = len(with_home)
+        with_home = [s for s in with_home if s.get("stream") not in known]
+        print(f"{len(with_home)} of those {before} have no logo yet")
+
     if args.limit:
         with_home = with_home[:args.limit]
     started = time.time()

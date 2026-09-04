@@ -23,6 +23,10 @@ on:
       limit:
         description: 'Stations to try, 0 for all'
         default: '40'
+      missing:
+        description: 'Only stations that have no logo yet'
+        type: boolean
+        default: false
   schedule:
     - cron: '0 12 * * 2'
 
@@ -46,7 +50,7 @@ jobs:
       - run: pip install --quiet pillow
 
       - name: Ask each station for its logo
-        run: python3 harvest_logos.py --limit "${{ github.event.inputs.limit || 0 }}"
+        run: python3 harvest_logos.py --limit "${{ inputs.limit || 0 }}" ${{ inputs.missing && '--missing' || '' }}
 
       - name: Commit the logos
         run: |
