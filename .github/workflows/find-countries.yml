@@ -4,13 +4,33 @@ name: Where the stations are
 # a country code on every station. One request for their whole list, then it is
 # all dictionary lookups: faster than asking per station and much kinder to a
 # service run by volunteers.
+#
+# It runs when the catalogue is rebuilt, rather than on a clock. It reads
+# music_worldradio.json and writes countries.json, so a time of its own would
+# be a guess about how long the Wednesday build takes -- and GitHub's scheduler
+# is late often enough that the guess would sometimes read last week's
+# catalogue. workflow_run says the dependency instead of approximating it.
+#
+# Until this was added the workflow had no trigger but a manual one, so
+# countries.json only moved when somebody remembered. Every station the weekly
+# rebuild added stayed without a country until then, and the Country folders
+# drifted away from the catalogue they are drawn from.
 on:
+  workflow_run:
+    workflows: ["Build the catalogue the app downloads"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       apply:
         description: Write countries.json (otherwise just report)
         type: boolean
         default: false
+
+env:
+  # Running automatically is the whole point of the trigger above, so those
+  # runs write. A manual run still has to ask, which keeps the report-only
+  # mode that made this safe to try in the first place.
+  APPLY: ${{ github.event_name == 'workflow_run' || inputs.apply }}
 
 # Missing until now, which is why the fixed git-status check above still
 # could not push: the default GITHUB_TOKEN this workflow never asked to
@@ -21,6 +41,10 @@ permissions:
 
 jobs:
   countries:
+    # A failed catalogue build has nothing new to match against, and matching
+    # the old one again would spend a Radio Browser request to write the file
+    # it already wrote.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,10 +54,10 @@ jobs:
 
       - name: Ask Radio Browser
         run: |
-          python3 find_countries.py ${{ inputs.apply && '--apply' || '' }}
+          python3 find_countries.py ${{ env.APPLY == 'true' && '--apply' || '' }}
 
       - name: Publish
-        if: ${{ inputs.apply }}
+        if: ${{ env.APPLY == 'true' }}
         run: |
           # git diff sees nothing to compare a file against that has never
           # been committed, so on the very first run -- the one that matters
