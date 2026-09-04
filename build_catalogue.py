@@ -166,7 +166,70 @@ def load(name, default=None):
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def row(title, genre, source, image, site, track, station_id):
+# A description that is really a slot name. The handshake field is free text
+# and a good half of it is the streaming panel's own bookkeeping: "Stream #1",
+# "K-ZOP 3", the station's name again. Measured before shipping: of 653
+# stations that fill the field in, these rules reject the ones that say
+# nothing a listener does not already have on the line above.
+SLOT_NAME = re.compile(
+    r"^(stream|mount|mountpoint|channel|server|autodj|relay|станция)\b[\s#:.-]*\d*$",
+    re.I)
+
+# The panel talking about itself, and the sample text nobody replaced. Every
+# one of these was found in the field rather than imagined.
+NOT_THE_STATION = (
+    "voscast", "auto dj", "autodj", "centova", "sonic panel", "sonicpanel",
+    "shoutcast server", "icecast", "this is my server description",
+    "no description", "default description", "my station description",
+)
+MIN_ABOUT = 8
+
+
+def readable(text):
+    """Undo one round of UTF-8 read as Latin-1.
+
+    The handshake has no charset, so harvest_icy decodes it as Latin-1 and a
+    station broadcasting UTF-8 arrives as "Dein Sender fÃ¼r Jung und Alt".
+    Re-encoding recovers it exactly when that is what happened and raises when
+    it is not, which is the test.
+    """
+    try:
+        recovered = text.encode("latin-1").decode("utf-8")
+    except (UnicodeEncodeError, UnicodeDecodeError):
+        return text
+    return recovered if "�" not in recovered else text
+
+
+def about_for(name, description):
+    """The station describing itself, or "" when it is describing its server.
+
+    Whoever runs the station types this into the stream headers, and when it
+    is real it is the only sentence about the station written by somebody who
+    knows it. When it is not, it is furniture.
+    """
+    said = readable(" ".join((description or "").split()))
+    if len(said) < MIN_ABOUT or SLOT_NAME.match(said):
+        return ""
+    lowered = said.lower()
+    if any(panel in lowered for panel in NOT_THE_STATION):
+        return ""
+
+    squash = lambda s: "".join(c for c in s.lower() if c.isalnum())
+    mine, theirs = squash(said), squash(name)
+    if not mine or not theirs:
+        return ""
+    # The name again is not a description. A sentence that happens to contain
+    # the name is -- "The legend of Limassol's pirate radio is back" was being
+    # thrown away for mentioning the station it is about -- so this rejects
+    # only what is the name and little else.
+    if mine == theirs or theirs in mine and len(mine) < len(theirs) + 10:
+        return ""
+    if mine in theirs:
+        return ""
+    return said
+
+
+def row(title, genre, source, image, site, track, station_id, about=""):
     """One JsonMusic object, with every field the parser reads."""
     return {
         "id": station_id,
@@ -180,6 +243,7 @@ def row(title, genre, source, image, site, track, station_id):
         "totalTrackCount": 0,
         "duration": 0,
         "site": site,
+        "about": about,
     }
 
 
@@ -346,6 +410,8 @@ def main(argv):
                 site=station.get("page") or "",
                 track=track,
                 station_id=station["stream"],
+                about=about_for(
+                    name, (facts.get(station["stream"]) or {}).get("icy-description")),
             ))
 
     # The busiest stations, listed again under their own heading. The old
@@ -361,6 +427,9 @@ def main(argv):
             site=station.get("page") or "",
             track=track,
             station_id=f"ontrendstations_{station['name']}",
+            about=about_for(
+                station["name"],
+                (facts.get(station["stream"]) or {}).get("icy-description")),
         ))
 
     # ---- report ----

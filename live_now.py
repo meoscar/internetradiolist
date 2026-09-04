@@ -38,6 +38,7 @@ import harvest_icy
 CATALOGUE = "music_worldradio.json"
 DIRECTORY = "directory.json"
 OUT = "live.json"
+COUNTS = "counts.json"
 
 # Stations asked what they are playing. The busiest, because those are the ones
 # anybody is listening to and the ones a "right now" screen should show.
@@ -266,6 +267,24 @@ def main(argv):
 
     pathlib.Path(OUT).write_text(
         json.dumps(live, ensure_ascii=False, separators=(",", ":")) + "\n",
+        encoding="utf-8")
+
+    # Every count this pass saw, which is far more than live.json publishes.
+    #
+    # The file above carries the handful of entries a screen can use, and the
+    # app downloads it every few minutes, so it is not the place to put a
+    # column of several hundred numbers nothing on screen reads. But those
+    # numbers are the only record of how a station's audience moved, and
+    # thrown away each pass the best question they can answer is "since the
+    # last quarter of an hour". accumulate.py folds this into a series in the
+    # same job, seconds later; nothing else ever fetches it.
+    pathlib.Path(COUNTS).write_text(
+        json.dumps({
+            "at": live["at"],
+            "counts": {entry["id"]: {"n": entry["listeners"],
+                                     "station": entry["station"]}
+                       for entry in charted.values()},
+        }, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8")
 
     text = pathlib.Path(OUT).read_text(encoding="utf-8")

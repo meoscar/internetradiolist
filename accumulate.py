@@ -32,6 +32,7 @@ import unicodedata
 
 LIVE = "live.json"
 WEEK = "week.json"
+COUNTS = "counts.json"
 
 KEEP_DAYS = 8
 SECONDS_PER_DAY = 86400
@@ -177,8 +178,43 @@ def main(argv):
             trimmed += len(fact["tracks"]) - MAX_TRACKS_PER_STATION
             fact["tracks"] = fact["tracks"][-MAX_TRACKS_PER_STATION:]
 
+    # ---- how many people are listening, over time ----
+    #
+    # live.json can only ever say "gaining since the last pass", because the
+    # counts it compares against are thrown away every quarter of an hour. The
+    # interesting question is the slower one -- which stations are being found
+    # this week -- and answering it costs one number per station per pass, kept
+    # as a first and a latest rather than as a series, because the shape of the
+    # curve between them is not what anybody is asking.
+    counts = load(COUNTS, {})
+    audience = week.get("listeners", {})
+    heard_at = int(counts.get("at") or now)
+    for station_id, seen in (counts.get("counts") or {}).items():
+        listeners = seen.get("n")
+        if not isinstance(listeners, int) or listeners < 0:
+            continue
+        known = audience.get(station_id)
+        if known is None:
+            audience[station_id] = {
+                "station": seen.get("station", ""),
+                "first": listeners, "first_at": heard_at,
+                "last": listeners, "last_at": heard_at,
+                "peak": listeners,
+            }
+            continue
+        known["station"] = seen.get("station") or known.get("station", "")
+        known["last"] = listeners
+        known["last_at"] = heard_at
+        known["peak"] = max(known.get("peak", listeners), listeners)
+
+    # A station that has not been seen in a week is not trending; it is gone.
+    forgotten = [k for k, v in audience.items()
+                 if v.get("last_at", 0) < week_ago]
+    for key in forgotten:
+        del audience[key]
+
     week = {"updated": now, "days": KEEP_DAYS,
-            "tracks": tracks, "stations": stations}
+            "tracks": tracks, "stations": stations, "listeners": audience}
     text = json.dumps(week, ensure_ascii=False, separators=(",", ":")) + "\n"
     pathlib.Path(WEEK).write_text(text, encoding="utf-8")
 
@@ -193,6 +229,8 @@ def main(argv):
         print(f"  {trimmed:6d}  station samples over {MAX_TRACKS_PER_STATION}")
     print(f"  {len(tracks):6d}  distinct tracks, {total} plays")
     print(f"  {len(stations):6d}  stations")
+    print(f"  {len(audience):6d}  stations with a listener count being tracked"
+          f" ({len(forgotten)} dropped)")
     print(f"  {len(text) / 1024:.0f} KB")
     return 0
 

@@ -26,6 +26,7 @@ year coverage starts thin and fills in over the following runs.
 """
 import argparse
 import json
+import math
 import pathlib
 import statistics
 import sys
@@ -51,6 +52,25 @@ TOP_STATIONS = 30
 MIN_DATED = 6
 # Enough plays before a track is worth looking a year up for.
 MIN_PLAYS_FOR_LOOKUP = 2
+
+# Two stations that play the same records are alike, and nothing else in this
+# repository can say so: a genre tag is what somebody typed, and this is what
+# was actually broadcast. The thresholds are what stop it saying so on no
+# evidence -- a station heard playing four tracks shares one of them with
+# somebody by chance, and that is not a recommendation.
+MIN_TRACKS_FOR_SIMILAR = 12
+MIN_SHARED_TRACKS = 2
+SIMILAR_PER_STATION = 8
+
+# Who is being found. On Trend answers "gaining since the last quarter of an
+# hour", which is mostly the ordinary breathing of an audience; this answers
+# "gaining over days", which is a different and slower thing. A station has to
+# have been watched long enough for the difference to be a trend rather than a
+# time of day, and to have had an audience to start with -- three listeners
+# becoming twelve is a 300% rise and tells nobody anything.
+MIN_TREND_HOURS = 36
+MIN_LISTENERS_BEFORE = 25
+CLIMBING = 20
 
 
 def load(name, default):
@@ -198,6 +218,75 @@ def main(argv):
         })
     eras.sort(key=lambda e: e["year"])
 
+    # ---- stations that play the same records ----
+    #
+    # Not every shared track is worth the same. A record on forty stations
+    # says nothing about any two of them; one on three says they are drawing
+    # from the same place. So each shared track is worth the reciprocal of how
+    # many stations play it, and the total is divided by the geometric mean of
+    # what each station has to offer -- otherwise the station that plays the
+    # most is everyone's closest neighbour, which is a fact about its playlist
+    # length and not about its music.
+    rarity = {k: 1.0 / max(1, len(set(t["stations"]))) for k, t in tracks.items()}
+    played = {sid: set(f["tracks"]) for sid, f in stations.items()}
+    mass = {sid: sum(rarity.get(k, 0.0) for k in ks) for sid, ks in played.items()}
+
+    # The first run of this put "Dance UK Radio danceradiouk aac+" at the top
+    # of "Dance UK Radio danceradiouk", on ten shared tracks. Correct, and
+    # useless: the catalogue carries bitrate variants as separate stations, and
+    # the same station again is the one recommendation nobody needs.
+    def same_station(a, b):
+        squash = lambda s: "".join(c for c in s.lower() if c.isalnum())
+        one, two = squash(stations[a]["name"]), squash(stations[b]["name"])
+        if not one or not two:
+            return False
+        return one in two or two in one
+
+    similar = {}
+    for station_id, mine in played.items():
+        if len(mine) < MIN_TRACKS_FOR_SIMILAR or mass[station_id] <= 0:
+            continue
+        scored = []
+        for other, theirs in played.items():
+            if other == station_id or mass[other] <= 0:
+                continue
+            if same_station(station_id, other):
+                continue
+            shared = mine & theirs
+            if len(shared) < MIN_SHARED_TRACKS:
+                continue
+            score = sum(rarity[k] for k in shared) / math.sqrt(
+                mass[station_id] * mass[other])
+            scored.append((score, len(shared), other))
+        if not scored:
+            continue
+        scored.sort(reverse=True)
+        similar[station_id] = [
+            {"id": other, "station": stations[other]["name"], "shared": shared}
+            for _, shared, other in scored[:SIMILAR_PER_STATION]
+        ]
+
+    # ---- who is being found this week ----
+
+    climbing = []
+    for station_id, watched in (week.get("listeners") or {}).items():
+        span = watched.get("last_at", 0) - watched.get("first_at", 0)
+        before, now_listening = watched.get("first", 0), watched.get("last", 0)
+        if span < MIN_TREND_HOURS * 3600 or before < MIN_LISTENERS_BEFORE:
+            continue
+        if now_listening <= before:
+            continue
+        climbing.append({
+            "id": station_id,
+            "station": watched.get("station", ""),
+            "listeners": now_listening,
+            "gained": now_listening - before,
+            "grew": round((now_listening - before) / before, 3),
+            "days": round(span / 86400, 1),
+        })
+    climbing.sort(key=lambda r: -r["grew"])
+    climbing = climbing[:CLIMBING]
+
     charts = {
         "at": int(time.time()),
         "days": week.get("days", 8),
@@ -207,6 +296,8 @@ def main(argv):
         "new": rising,
         "eras": eras[:TOP_STATIONS],
         "eras_newest": list(reversed(eras[-TOP_STATIONS:])),
+        "similar": similar,
+        "climbing": climbing,
     }
     text = json.dumps(charts, ensure_ascii=False, separators=(",", ":")) + "\n"
     pathlib.Path(OUT).write_text(text, encoding="utf-8")
@@ -215,7 +306,9 @@ def main(argv):
     print(f"  {len(top_tracks):4d}  chart entries")
     print(f"  {len(top_artists):4d}  artists")
     print(f"  {len(rising):4d}  new this week")
-    print(f"  {len(eras):4d}  stations with a datable era\n")
+    print(f"  {len(eras):4d}  stations with a datable era")
+    print(f"  {len(similar):4d}  stations with a neighbour that plays the same records")
+    print(f"  {len(climbing):4d}  stations gaining listeners over days\n")
 
     if top_tracks:
         print("most played this week:")
