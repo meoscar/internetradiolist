@@ -230,9 +230,30 @@ def about_for(name, description):
     return said
 
 
-def row(title, genre, source, image, site, track, station_id, about=""):
-    """One JsonMusic object, with every field the parser reads."""
-    return {
+def row(title, genre, source, image, site, track, station_id, about="",
+        listeners=0, bitrate=0, tags=()):
+    """One JsonMusic object, with every field the parser reads.
+
+    listeners, bitrate and tags were being crawled every week and thrown away
+    at this line -- the app has never seen any of them. What each is worth:
+
+      listeners  How big this station is. NOT how many are listening this
+                 second: this number is as old as the last crawl, up to a
+                 week. An audience is far steadier than a track title, so it
+                 is a fair measure of scale, and the app must phrase it as
+                 one. live.json carries an hourly count for the busiest two
+                 hundred; where that exists it is the better number.
+      bitrate    128 or 320 tells somebody who cares about sound whether to
+                 bother, and it is a filter the directory itself offers.
+      tags       1,389 distinct across the catalogue, against 68 genres.
+                 Nobody thinks "I want Adult Contemporary"; they think
+                 "smooth", or "80s".
+
+    Zero and empty mean unknown rather than none, which is why they are
+    omitted below rather than written as 0 -- a station shown as "0
+    listening" would be a claim, and we do not have one.
+    """
+    entry = {
         "id": station_id,
         "title": title,
         "album": genre,
@@ -246,6 +267,14 @@ def row(title, genre, source, image, site, track, station_id, about=""):
         "site": site,
         "about": about,
     }
+    if listeners:
+        entry["listeners"] = int(listeners)
+    if bitrate:
+        entry["bitrate"] = int(bitrate)
+    kept = [t for t in dict.fromkeys(tags or ()) if t and t.strip()]
+    if kept:
+        entry["tags"] = kept
+    return entry
 
 
 def main(argv):
@@ -394,7 +423,9 @@ def main(argv):
             "name": item.get("title", ""),
             "stream": item["source"],
             "page": item.get("site", ""),
-            "listeners": 0,
+            "listeners": item.get("listeners") or 0,
+            "bitrate": item.get("bitrate") or 0,
+            "tags": item.get("tags") or [],
             "_image": item.get("image", ""),
         })
 
@@ -438,6 +469,9 @@ def main(argv):
                 station_id=station["stream"],
                 about=about_for(
                     name, (facts.get(station["stream"]) or {}).get("icy-description")),
+                listeners=station.get("listeners") or 0,
+                bitrate=station.get("bitrate") or 0,
+                tags=station.get("tags") or (),
             ))
 
     # The busiest stations, listed again under their own heading. The old
@@ -456,9 +490,20 @@ def main(argv):
             about=about_for(
                 station["name"],
                 (facts.get(station["stream"]) or {}).get("icy-description")),
+            listeners=station.get("listeners") or 0,
+            bitrate=station.get("bitrate") or 0,
+            tags=station.get("tags") or (),
         ))
 
     # ---- report ----
+
+    with_listeners = sum(1 for r in music if r.get("listeners"))
+    with_bitrate = sum(1 for r in music if r.get("bitrate"))
+    with_tags = sum(1 for r in music if r.get("tags"))
+    distinct_tags = len({t for r in music for t in r.get("tags", ())})
+    print(f"  {with_listeners:5d}  carry a listener count (as of the crawl)")
+    print(f"  {with_bitrate:5d}  carry a bitrate")
+    print(f"  {with_tags:5d}  carry tags, {distinct_tags} distinct\n")
 
     with_image = sum(1 for r in music if r["image"] and r["image"] != PLACEHOLDER)
     empty = sum(1 for r in music if not r["image"])
