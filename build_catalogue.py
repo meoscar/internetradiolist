@@ -18,6 +18,7 @@ the genre it was filed under.
   python3 build_catalogue.py            say what would change
   python3 build_catalogue.py --apply    write music_worldradio.json
 """
+import hashlib
 import json
 import pathlib
 import re
@@ -266,8 +267,33 @@ def main(argv):
     for entry in logos.values():
         logo_by_name.setdefault(normalise(entry["name"]), entry["logo"])
 
+    def logo_version(url):
+        """Eight characters of the bytes the URL points at, or "" if not here."""
+        path = pathlib.Path("logos") / url.rsplit("/", 1)[-1]
+        if not path.exists():
+            return ""
+        return hashlib.sha1(path.read_bytes()).hexdigest()[:8]
+
     def logo_for(stream, name):
-        return logo_by_stream.get(stream) or logo_by_name.get(normalise(name)) or ""
+        """The station's logo, stamped with what the file currently contains.
+
+        The file is named after the station, so it is the same URL every week
+        by design -- which is exactly the problem. The weekly harvest can find
+        that a station has changed its mark, overwrite the file, and no phone
+        that has already seen the old one will ever ask again: Glide keys its
+        disk cache on the URL, and the URL did not change. "Re-asked every
+        week" was true of the harvest and false of anything a listener sees.
+
+        Stamping the content into the query fixes it from this side, for every
+        version of the app already installed: identical bytes keep the
+        identical URL and stay cached, and different bytes are a different URL
+        and are fetched. raw.githubusercontent.com ignores the parameter.
+        """
+        url = logo_by_stream.get(stream) or logo_by_name.get(normalise(name)) or ""
+        if not url:
+            return ""
+        stamp = logo_version(url)
+        return f"{url}?v={stamp}" if stamp else url
 
     # ---- what the crawl found, minus everything that did not answer ----
 
