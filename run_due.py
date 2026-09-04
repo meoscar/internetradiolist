@@ -23,6 +23,14 @@ At three or four heartbeats a day the whole chain still completes inside two.
 
   python3 run_due.py            start the most overdue job, if any
   python3 run_due.py --dry-run  say what it would start
+  python3 run_due.py --force    start the first in the chain regardless
+
+--force exists to exercise the dispatch. Reading when a job last succeeded and
+starting one are different permissions and different endpoints, and on a
+repository where nothing happens to be overdue the second is never reached --
+so the first real test of it would otherwise be a week from now, silently, with
+nobody watching. It starts check-stations, which is the cheapest job here and
+harmless to run twice.
 """
 import json
 import os
@@ -86,6 +94,7 @@ def hours_since_success(workflow):
 
 def main():
     dry = "--dry-run" in sys.argv
+    force = "--force" in sys.argv
     if not TOKEN and not dry:
         print("no GITHUB_TOKEN")
         return 1
@@ -104,6 +113,9 @@ def main():
         if late > 0:
             overdue.append((late, workflow, inputs))
 
+    if not overdue and force:
+        print("\nnothing is overdue; --force starting the first in the chain")
+        overdue = [(0, DUE[0][0], DUE[0][2])]
     if not overdue:
         print("\nnothing is overdue")
         return 0

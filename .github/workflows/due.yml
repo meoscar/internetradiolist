@@ -29,6 +29,11 @@ on:
     # with whether that one worked.
     types: [requested, completed]
   workflow_dispatch:
+    inputs:
+      force:
+        description: 'Start the first job in the chain even if nothing is due (tests the dispatch)'
+        type: boolean
+        default: false
 
 permissions:
   # To read when each workflow last succeeded, and to start one.
@@ -51,4 +56,4 @@ jobs:
           python-version: '3.11'
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 run_due.py
+        run: python3 run_due.py ${{ inputs.force && '--force' || '' }}
