@@ -3440,7 +3440,7 @@
   "name": "RadioStream.Top"
  },
  "http://loveradio.streamingmedia.it:8004/play": {
-  "from": "https://love.radio/wp-content/uploads/2023/11/LOVE.RADIO-only-love-songs_logo.webp",
+  "from": "https://love.radio/wp-content/uploads/2020/10/cropped-LOVE.RADIO-only-love-songs_logo-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/loveradioloveradio.webp",
   "name": "LOVE RADIO - LOVE.radio"
  },
