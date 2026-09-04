@@ -674,6 +674,11 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomadeinitaly.webp",
   "name": "RADIO MADE IN ITALY"
  },
+ "http://178.32.140.82:9362/stream": {
+  "from": "https://www.wix.com/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fmmusic.webp",
+  "name": "FM MUSIC"
+ },
  "http://178.32.140.82:9504/stream": {
   "from": "https://dotradio.it/wp-content/uploads/2022/12/Logo-Media-Tools.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dotradio.webp",
@@ -6058,6 +6063,11 @@
   "from": "http://mixstream.net/assets/ico/apple-touch-icon-57-precomposed.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/rejoice937.webp",
   "name": "Rejoice 93.7"
+ },
+ "http://s48.myradiostream.com:10658/stream": {
+  "from": "https://static.wixstatic.com/media/d0a4fd_c51258cfaf4341f4b0187f3bfd469cce%7Emv2.gif/v1/fit/w_2500,h_1330,al_c/d0a4fd_c51258cfaf4341f4b0187f3bfd469cce%7Emv2.gif",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dazzlefmradio.webp",
+  "name": "Dazzle FM Radio"
  },
  "http://s5.myradiostream.com:42006/moveibiza": {
   "from": "https://moveibiza.com/favicon/apple-touch-icon.png",
