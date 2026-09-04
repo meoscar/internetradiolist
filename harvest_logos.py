@@ -40,6 +40,7 @@ from PIL import Image
 
 DIRECTORY = "directory.json"
 LOGO_INDEX = "logos.json"
+FACTS = "station_facts.json"
 OUT_DIR = pathlib.Path("logos")
 SIZE = 256
 TIMEOUT = 20
@@ -47,6 +48,44 @@ WORKERS = 12
 MAX_IMAGE_BYTES = 8 * 1024 * 1024
 
 UA = "icrtradio-catalogue/1.0 (+https://github.com/meoscar/internetradiolist)"
+
+# Hosts that are a platform, a placeholder, or nothing at all -- never the
+# station whose mark we are after. A station whose icy-url reads shoutcast.com
+# would be handed the SHOUTcast logo, and dozens of stations sharing one
+# picture is the exact complaint the scraped folder was thrown out for.
+NOT_A_STATION_SITE = (
+    "shoutcast.com", "localhost", "127.0.0.1", "example.com",
+    "facebook.com", "fb.com", "instagram.com", "twitter.com", "x.com",
+    "youtube.com", "radio.co", "live365.com", "zeno.fm", "laut.fm",
+    "mixlr.com", "streema.com", "tunein.com", "mytuner-radio.com",
+)
+
+
+def station_site(url):
+    """A URL worth asking for a logo, or None.
+
+    The directory lists a homepage for only some stations. The ones it does
+    not, the stream itself often names: icy-url is a field the broadcaster
+    fills in, and station_facts.json has already collected it for every
+    station that answered a handshake. It is a much rougher field than the
+    directory's -- half of it is a platform's front page, a Facebook group,
+    "http://www." or literally localhost -- so it is worth exactly as much as
+    what is filtered out of it.
+    """
+    site = (url or "").strip()
+    if not site:
+        return None
+    if not site.startswith(("http://", "https://")):
+        site = "http://" + site
+    try:
+        host = (urlparse(site).hostname or "").lower()
+    except ValueError:
+        return None
+    if not host or "." not in host.strip("."):
+        return None
+    if any(host == bad or host.endswith("." + bad) for bad in NOT_A_STATION_SITE):
+        return None
+    return site
 
 OG_IMAGE = re.compile(
     r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)["\']', re.I)
@@ -169,11 +208,34 @@ def main(argv):
         return 1
 
     stations = json.loads(path.read_text(encoding="utf-8"))
-    with_home = [s for s in stations if (s.get("homepage") or "").startswith("http")]
+
+    # Two sources, in order of how much they can be trusted. The directory's
+    # homepage field is the station's own site as the listing has it. For the
+    # stations it has no homepage for -- 641 of the ones still without a logo,
+    # measured -- the stream headers often carry one the broadcaster typed in
+    # themselves, which is rougher and has to be filtered, but is the only
+    # thing standing between those stations and no picture at all.
+    facts = {}
+    facts_path = pathlib.Path(FACTS)
+    if facts_path.exists():
+        facts = json.loads(facts_path.read_text(encoding="utf-8"))
+
+    with_home, from_stream = [], []
+    for station in stations:
+        listed = (station.get("homepage") or "").strip()
+        if listed.startswith("http"):
+            with_home.append(station)
+            continue
+        said = station_site((facts.get(station.get("stream", "")) or {}).get("icy-url"))
+        if said:
+            from_stream.append({**station, "homepage": said})
+
+    print(f"{len(with_home)} of {len(stations)} stations publish a homepage; "
+          f"{len(from_stream)} more name a site in their stream headers")
+
+    with_home += from_stream
     if args.limit:
         with_home = with_home[:args.limit]
-
-    print(f"{len(with_home)} of {len(stations)} stations publish a homepage")
     started = time.time()
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
