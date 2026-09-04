@@ -260,7 +260,7 @@ def about_for(name, description):
 
 
 def row(title, genre, source, image, site, track, station_id, about="",
-        listeners=0, bitrate=0, tags=()):
+        listeners=0, bitrate=0, tags=(), homepage=""):
     """One JsonMusic object, with every field the parser reads.
 
     listeners, bitrate and tags were being crawled every week and thrown away
@@ -277,6 +277,13 @@ def row(title, genre, source, image, site, track, station_id, about="",
       tags       1,389 distinct across the catalogue, against 68 genres.
                  Nobody thinks "I want Adult Contemporary"; they think
                  "smooth", or "80s".
+      homepage   The station's OWN website, which is not what `site` holds.
+                 `site` is the internet-radio.com page we found the station
+                 on, and it is right for 610 rows and empty for the rest.
+                 The crawl has had the station's own address all along --
+                 1,428 of these rows have one -- and dropped it here, so a
+                 station page had nowhere to send anybody who wanted to know
+                 more about the station than we hold.
 
     Zero and empty mean unknown rather than none, which is why they are
     omitted below rather than written as 0 -- a station shown as "0
@@ -300,6 +307,8 @@ def row(title, genre, source, image, site, track, station_id, about="",
         entry["listeners"] = int(listeners)
     if bitrate:
         entry["bitrate"] = int(bitrate)
+    if homepage:
+        entry["homepage"] = homepage
     kept = [t for t in dict.fromkeys(tags or ()) if t and t.strip()]
     if kept:
         entry["tags"] = kept
@@ -462,6 +471,7 @@ def main(argv):
             "name": item.get("title", ""),
             "stream": item["source"],
             "page": item.get("site", ""),
+            "homepage": item.get("homepage", ""),
             "listeners": item.get("listeners") or 0,
             "bitrate": item.get("bitrate") or 0,
             "tags": item.get("tags") or [],
@@ -511,6 +521,7 @@ def main(argv):
                 listeners=station.get("listeners") or 0,
                 bitrate=station.get("bitrate") or 0,
                 tags=station.get("tags") or (),
+                homepage=station.get("homepage") or "",
             ))
 
     # The busiest stations, listed again under their own heading. The old
@@ -532,17 +543,20 @@ def main(argv):
             listeners=station.get("listeners") or 0,
             bitrate=station.get("bitrate") or 0,
             tags=station.get("tags") or (),
+            homepage=station.get("homepage") or "",
         ))
 
     # ---- report ----
 
+    with_homepage = sum(1 for r in music if r.get("homepage"))
     with_listeners = sum(1 for r in music if r.get("listeners"))
     with_bitrate = sum(1 for r in music if r.get("bitrate"))
     with_tags = sum(1 for r in music if r.get("tags"))
     distinct_tags = len({t for r in music for t in r.get("tags", ())})
     print(f"  {with_listeners:5d}  carry a listener count (as of the crawl)")
     print(f"  {with_bitrate:5d}  carry a bitrate")
-    print(f"  {with_tags:5d}  carry tags, {distinct_tags} distinct\n")
+    print(f"  {with_tags:5d}  carry tags, {distinct_tags} distinct")
+    print(f"  {with_homepage:5d}  carry the station's own website\n")
 
     with_image = sum(1 for r in music if r["image"] and r["image"] != PLACEHOLDER)
     empty = sum(1 for r in music if not r["image"])
