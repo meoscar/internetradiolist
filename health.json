@@ -1,8 +1,4 @@
 {
- "http://1.uicl.co.kr:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://100.12.199.144:55500/digitalmix128": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -18,14 +14,6 @@
  "http://103.246.18.8:4122/;": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "http://104fm.ca:8008/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://104fm.ca:8008/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://107.150.57.186:8460/;": {
   "consecutive_failures": 0,
@@ -55,17 +43,9 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://108.59.9.147:8136/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://108.59.9.147:8369/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "http://109.170.8.130:80/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://110.175.9.78:8001/8001": {
   "consecutive_failures": 0,
@@ -118,10 +98,6 @@
  "http://136.243.79.109:1060/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://136.243.79.109:1120/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://136.243.79.109:1160/;": {
   "consecutive_failures": 0,
@@ -327,10 +303,6 @@
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
- "http://144.76.172.23:7043/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://145.239.26.146:7050/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -531,22 +503,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://149.56.185.82:8135/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://149.56.185.82:8137/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://149.56.185.82:8145/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://149.56.185.82:8147/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://149.56.234.138:8014/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -566,14 +522,6 @@
  "http://149.56.234.138:8173/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://149.56.38.21:8130/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://149.56.38.21:8330/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://151.80.42.191:8288/stream": {
   "consecutive_failures": 0,
@@ -618,10 +566,6 @@
  "http://157.90.133.87:8892/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://158.69.114.190:8008/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://158.69.114.190:8028/stream": {
   "consecutive_failures": 0,
@@ -731,10 +675,6 @@
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
- "http://162.244.80.106:11548/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://162.244.80.106:8004/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -743,33 +683,9 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://162.244.80.106:8105/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://162.244.80.106:8120/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://162.244.80.106:8123/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://162.244.80.106:8125/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://162.244.80.106:8868/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://162.244.80.131:8020/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://162.244.80.131:8024/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://162.244.80.131:8052/stream": {
   "consecutive_failures": 0,
@@ -873,7 +789,7 @@
  },
  "http://163.172.77.142:8618/stream": {
   "consecutive_failures": 0,
-  "last": "audio/aacp"
+  "last": "audio/mpeg"
  },
  "http://163.172.77.142:8724/stream": {
   "consecutive_failures": 0,
@@ -942,10 +858,6 @@
  "http://173.208.177.90:9322/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://173.249.54.155:8005/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://176.31.117.120:8018/stream": {
   "consecutive_failures": 0,
@@ -1055,14 +967,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://176.9.11.83:9000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://176.9.11.83:9000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://176.9.148.80:8075/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1115,10 +1019,6 @@
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
- "http://178.159.3.22:8227/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://178.162.131.122:9000/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1126,10 +1026,6 @@
  "http://178.172.150.248:2530/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://178.19.127.134:4000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://178.238.233.187:8080/stream": {
   "consecutive_failures": 0,
@@ -1158,10 +1054,6 @@
  "http://178.32.137.180:8587/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://178.32.137.180:8623/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://178.32.137.180:8627/stream": {
   "consecutive_failures": 0,
@@ -1267,17 +1159,9 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://178.32.146.184:5412/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://178.32.146.184:5672/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://178.32.146.184:5938/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://178.32.146.187:2046/stream": {
   "consecutive_failures": 0,
@@ -1315,25 +1199,9 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://184.95.62.170:9158/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://184.95.62.170:9242/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://184.95.62.170:9242/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://184.95.62.170:9786/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://185.105.4.100:8034/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://185.105.4.53:3000/stream": {
   "consecutive_failures": 0,
@@ -1423,10 +1291,6 @@
   "consecutive_failures": 0,
   "last": "audio/aac"
  },
- "http://188.134.10.11:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://188.138.251.192:8002/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1452,8 +1316,8 @@
   "last": "audio/mpeg"
  },
  "http://188.165.206.81:8108/stream": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://188.165.206.81:8110/stream": {
   "consecutive_failures": 0,
@@ -1491,10 +1355,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://192.211.51.158:5012/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://192.211.51.158:5014/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1502,10 +1362,6 @@
  "http://192.211.51.158:5084/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://192.211.51.158:5251/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://192.211.51.158:5268/stream": {
   "consecutive_failures": 0,
@@ -1611,14 +1467,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://192.99.4.210:3664/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://192.99.4.210:3664/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://192.99.4.210:3844/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1651,25 +1499,13 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://192.99.8.192:2626/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://192.99.8.192:2944/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://192.99.8.192:3074/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://192.99.8.192:3076/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://192.99.83.149:8026/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://192.99.83.149:8046/stream": {
   "consecutive_failures": 0,
@@ -1694,14 +1530,6 @@
  "http://193.242.108.93:8060/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://193.243.169.34:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://193.243.169.34:9360/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://195.114.19.178:8012/stream": {
   "consecutive_failures": 0,
@@ -1767,10 +1595,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://195.252.68.166:8200/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://195.56.193.129:8100/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
@@ -1803,14 +1627,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://198.178.123.23:8548/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://198.178.123.23:8732/stream/1/": {
-  "consecutive_failures": 3,
-  "last": "BadStatusLine: ICY 200 OK\r\n"
- },
  "http://198.178.123.5:7932/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1836,8 +1652,8 @@
   "last": "audio/mpeg"
  },
  "http://198.50.18.69:8000/;": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "URLError: <urlopen error timed out>"
  },
  "http://198.50.238.178:5152/stream": {
   "consecutive_failures": 0,
@@ -1859,25 +1675,13 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://198.7.59.28:8104/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://198.7.62.157:8222/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://199.180.72.2:8116/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://199.180.75.2:9000/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://199.180.75.2:9257/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://199.184.153.60:8014/stream": {
   "consecutive_failures": 0,
@@ -1931,10 +1735,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://199.58.161.66:80/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://2.139.144.101:8020/1": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -1972,24 +1772,12 @@
   "last": "audio/mpeg"
  },
  "http://204.12.238.138:12906/;": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://204.12.238.138:13240/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://205.234.238.42:808/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://208.85.240.2:8310/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://208.85.242.69:9844/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://209.126.119.28:8016/stream": {
   "consecutive_failures": 0,
@@ -2010,22 +1798,6 @@
  "http://209.208.78.199:9000/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://209.236.126.18:8002/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://209.236.126.18:8002/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
- "http://209.236.126.18:8004/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://209.236.126.18:8004/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://212.170.96.110:8016/;": {
   "consecutive_failures": 0,
@@ -2155,14 +1927,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://2319.cloudrad.io/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
- "http://2319.cloudrad.io:80/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://24.168.84.122:8068/;": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
@@ -2170,10 +1934,6 @@
  "http://31.14.40.21:5806/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://31.14.40.21:5990/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://31.14.40.21:7532/;": {
   "consecutive_failures": 0,
@@ -2363,10 +2123,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://5.135.154.66:28676/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://5.135.154.66:33604/;": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
@@ -2494,14 +2250,6 @@
  "http://51.15.177.152:8000/320": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://51.15.177.152:8010/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://51.15.177.152:8016/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://51.195.100.203:15895/;": {
   "consecutive_failures": 0,
@@ -2899,14 +2647,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://54.39.28.158:8020/listen.pls?sid=1": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
- "http://54.39.28.158:9998/listen.pls?sid=1": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
  "http://62.133.128.18:8040/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -2998,10 +2738,6 @@
  "http://62.210.24.124:8894/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://64.235.54.14:8020/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://64.95.243.43:8002/stream": {
   "consecutive_failures": 0,
@@ -3108,24 +2844,20 @@
   "last": "audio/mpeg"
  },
  "http://65.109.81.84:7125/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://65.109.81.84:7221/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
  "http://65.109.81.84:7244/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://65.109.87.119:7050/radio.mp3": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "http://65.19.173.132:6568/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://65.21.202.84:8018/stream": {
   "consecutive_failures": 0,
@@ -3215,10 +2947,6 @@
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
- "http://67.249.184.45:8011/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://69.162.124.26:8000/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3303,17 +3031,9 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://74.50.122.103:7466/stream/1/": {
-  "consecutive_failures": 3,
-  "last": "BadStatusLine: ICY 200 OK\r\n"
- },
- "http://74.50.122.103:9416/stream/1/": {
-  "consecutive_failures": 3,
-  "last": "BadStatusLine: ICY 200 OK\r\n"
- },
  "http://74.91.125.187:8024/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://74.91.125.187:8082/stream": {
   "consecutive_failures": 0,
@@ -3326,14 +3046,6 @@
  "http://77.168.71.111:9005/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://77.241.4.100:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://77.37.180.90:7777/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://77.49.254.186:4010/stream": {
   "consecutive_failures": 0,
@@ -3348,8 +3060,8 @@
   "last": "audio/mpeg"
  },
  "http://77.98.1.51:8003/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "URLError: <urlopen error timed out>"
  },
  "http://78.129.199.49:12100/;": {
   "consecutive_failures": 0,
@@ -3367,10 +3079,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://78.129.228.187:8034/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://78.129.228.187:8072/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3378,10 +3086,6 @@
  "http://78.129.228.187:8080/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://78.24.9.110:9316/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://78.46.60.7:8010/radio.mp3": {
   "consecutive_failures": 0,
@@ -3406,10 +3110,6 @@
  "http://79.98.108.176:8016/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://80.86.107.90:8001/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://81.169.220.30:8100/;": {
   "consecutive_failures": 0,
@@ -3446,14 +3146,6 @@
  "http://82.77.138.91:8559/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://84.19.184.27:443/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://84.19.184.27:443/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://85.125.193.49:9000/;": {
   "consecutive_failures": 0,
@@ -3539,22 +3231,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://88.198.69.145:8010/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://88.198.69.145:8028/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://88.198.69.145:8084/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://88.198.69.145:9018/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://89.39.189.24:7070/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3583,14 +3259,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://91.121.104.139:1602/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://91.121.104.139:8080/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://91.121.29.128:8026/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3611,21 +3279,9 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://91.143.83.37:12000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://91.143.83.37:12000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://91.200.41.23:8000/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://91.208.211.27:8008/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://91.228.254.120:7000/;": {
   "consecutive_failures": 0,
@@ -3654,14 +3310,6 @@
  "http://92.48.87.11:8058/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://93.107.98.107:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://93.190.137.196:8427/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://93.90.207.244:8000/server-01_reserve_tsa-radio-01_hiqh-quality": {
   "consecutive_failures": 0,
@@ -3811,10 +3459,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://94.23.23.97:7928/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://94.23.27.6:8020/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3895,10 +3539,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://94.23.67.172:9108/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://94.23.67.172:9158/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3944,7 +3584,7 @@
   "last": "audio/mpeg"
  },
  "http://94.76.216.200:8276/;": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://95.110.186.253:9005/;": {
@@ -4011,21 +3651,13 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://99.198.110.162:7104/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://Radio.TRANCE.one:7777/online": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://a.fmradiomanele.ro:8054/listen.pls?sid=1": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
  "http://a.fmradiomanele.ro:8054/stream": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://a2.asurahosting.com:6260/radio.mp3": {
   "consecutive_failures": 0,
@@ -4210,14 +3842,6 @@
  "http://blueswave.radio:8000/blueswave": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://bpstream.hostco.de:3000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://bpstream.hostco.de:3000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://broadcast.shoutstream.co.uk:8006/stream": {
   "consecutive_failures": 0,
@@ -4483,10 +4107,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://dance.radiogangsta.ro:8800/listen.pls?sid=1": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
  "http://darksparkradio.com:8000/darkspark.mp3": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -4527,10 +4147,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://dnbstation.com:8000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://dnbstation.com:8005/listen.mp3": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -4546,10 +4162,6 @@
  "http://eagle.streemlion.com:4040/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://ec3.yesstreaming.net:1360/stream": {
-  "consecutive_failures": 3,
-  "last": "only 776 bytes"
  },
  "http://ec6.yesstreaming.net:3780/;": {
   "consecutive_failures": 0,
@@ -4610,14 +4222,6 @@
  "http://eu10.fastcast4u.com:8120/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://eu2.fastcast4u.com:3364/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://eu2.fastcast4u.com:3364/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://eu4.fastcast4u.com:3016/stream": {
   "consecutive_failures": 0,
@@ -4722,14 +4326,6 @@
  "http://graj.radiokolobrzeg.pl:8000/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://gwr.ubk.com:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://gyusyabu.ddo.jp:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://hd.lagrosseradio.info:8000/lagrosseradio-metal-024.mp3": {
   "consecutive_failures": 0,
@@ -4935,6 +4531,10 @@
   "consecutive_failures": 0,
   "last": "application/ogg"
  },
+ "http://icecast.westerfunk.net:8004/radiofunk.mp3": {
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
+ },
  "http://icecast.wjefradio.com:8000/stream": {
   "consecutive_failures": 0,
   "last": "audio/aac"
@@ -4946,10 +4546,6 @@
  "http://iceradio.net:8910/listen": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://indoforum.id.elshaddaifm.com:8002/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://info01.nlg.hu:8400/stream": {
   "consecutive_failures": 0,
@@ -4970,10 +4566,6 @@
  "http://italianradio.streamingmedia.it:8005/play": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "http://italo.live-streams.nl:8520/low.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 39 bytes"
  },
  "http://janus.shoutca.st:8035/autodj": {
   "consecutive_failures": 0,
@@ -5231,10 +4823,6 @@
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
- "http://ltelectronicproducts.net:9039/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://ltelectronicproducts.net:9332/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -5299,10 +4887,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://mediaserv33.live-streams.nl:8052/live.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 46 bytes"
- },
  "http://mediaserv38.live-streams.nl:8002/house": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -5359,10 +4943,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://mp3.dinamo.fm:8002/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://mpc.my-control-panel.eu:8002/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
@@ -5370,14 +4950,6 @@
  "http://mpc1.mediacp.eu:8014/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://mpc1.mediacp.eu:8024/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://mpc1.mediacp.eu:8024/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://mpc1.mediacp.eu:8098/stream": {
   "consecutive_failures": 0,
@@ -5390,22 +4962,6 @@
  "http://mpc2.mediacp.eu:8008/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://mscp3.live-streams.nl:8070/radio.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 41 bytes"
- },
- "http://mscp4.live-streams.nl:8140/flac.ogg.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 44 bytes"
- },
- "http://mscp4.live-streams.nl:8140/live.mp3.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 44 bytes"
- },
- "http://mscp4.live-streams.nl:8140/lounge.mp3.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 46 bytes"
  },
  "http://mugenradio.com:80/mugenradio.mp3": {
   "consecutive_failures": 0,
@@ -5444,8 +5000,8 @@
   "last": "audio/mpeg"
  },
  "http://necenzurat.radiotequila.ro:7000/stream": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://nemearadio.streamingtvradios.com:11283/stream_www_NemaRadio_gr_autodj": {
   "consecutive_failures": 0,
@@ -5461,7 +5017,7 @@
  },
  "http://nl1.streamhosting.ch:80/lounge64.aac": {
   "consecutive_failures": 0,
-  "last": "audio/aacp"
+  "last": "audio/aac"
  },
  "http://nlradio.stream:8000/nlradio-hi.aac": {
   "consecutive_failures": 0,
@@ -5547,14 +5103,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://onair15.xdevel.com:8242/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://onair15.xdevel.com:8274/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://ophanim.net:7130/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -5608,8 +5156,8 @@
   "last": "audio/mpeg"
  },
  "http://play.wrhradios.com:8010/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://play14.tikast.com:8499/stream": {
   "consecutive_failures": 0,
@@ -5759,14 +5307,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://radio.drums.ro:8000/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://radio.drums.ro:8000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://radio.ds4u.com:8000/ds4u": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -5802,14 +5342,6 @@
  "http://radio.jointil.net:9998/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://radio.jphip.com:8800/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://radio.jphip.com:8800/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://radio.mediacp.eu:8072/stream": {
   "consecutive_failures": 0,
@@ -5939,10 +5471,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://radio.top80.pl:9940/stream": {
-  "consecutive_failures": 6,
-  "last": "HTTPError: HTTP Error 404: Not Found"
- },
  "http://radio.trance-energy.org:8000/mterapk": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -5967,10 +5495,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://radio1manele.no-ip.org:8000/stream": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
  "http://radio5.pro-fhi.net:9041/1": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -5992,8 +5516,8 @@
   "last": "audio/mpeg"
  },
  "http://radionebunya.sytes.net:7575/stream": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://radiorsn.stream.laut.fm/radiorsn": {
   "consecutive_failures": 0,
@@ -6040,8 +5564,8 @@
   "last": "audio/mpeg"
  },
  "http://remotedm.dexaudio.com.au:8000/;": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://rosetta.shoutca.st:8393/stream": {
   "consecutive_failures": 0,
@@ -6527,10 +6051,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://s3.onweb.gr:8012/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://s3.onweb.gr:8016/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -6676,8 +6196,8 @@
   "last": "audio/mpeg"
  },
  "http://s4.voscast.com:9532/live": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://s4.voscast.com:9580/stream": {
   "consecutive_failures": 0,
@@ -6749,7 +6269,7 @@
  },
  "http://s5.voscast.com:10128/1": {
   "consecutive_failures": 0,
-  "last": "audio/aacp"
+  "last": "audio/aac"
  },
  "http://s5.voscast.com:10200/live": {
   "consecutive_failures": 0,
@@ -6780,7 +6300,7 @@
   "last": "audio/mpeg"
  },
  "http://s6.myradiostream.com:49706/listen": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "only 133 bytes"
  },
  "http://s6.onweb.gr:8004/stream": {
@@ -6896,7 +6416,7 @@
   "last": "audio/aac"
  },
  "http://s8.voscast.com:8184/btccstream": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://s8.voscast.com:9326/live": {
@@ -7047,10 +6567,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://shoutcast.westerfunk.net:8002/;": {
-  "consecutive_failures": 3,
-  "last": "served text/html;charset=utf-8, not audio"
- },
  "http://solid2.streamupsolutions.com:11142/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -7179,10 +6695,6 @@
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
- "http://stream.beatradar.no:8007/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://stream.bfmradio.us:8020/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -7254,10 +6766,6 @@
  "http://stream.noordzee105.be:8000/noordzee_info": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://stream.party107.com:8032/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
  },
  "http://stream.radio-unicc.de:8000/bn-radio.mp3": {
   "consecutive_failures": 0,
@@ -7423,10 +6931,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://streams.lazernet.be:2710/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
  "http://streamssl.chilltrax.com:80/live": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -7563,14 +7067,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://uk1.internet-radio.com:15254/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://uk1.internet-radio.com:15254/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
- },
  "http://uk1.internet-radio.com:8004/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -7612,8 +7108,8 @@
   "last": "audio/mpeg"
  },
  "http://uk2-pn.mixstream.net:8002/;": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://uk2-pn.mixstream.net:8036/;": {
   "consecutive_failures": 0,
@@ -7682,14 +7178,6 @@
  "http://uk3.internet-radio.com:8082/live": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://uk3.internet-radio.com:8108/": {
-  "consecutive_failures": 3,
-  "last": "served text/html, not audio"
- },
- "http://uk3.internet-radio.com:8108/stream": {
-  "consecutive_failures": 3,
-  "last": "only 96 bytes"
  },
  "http://uk3.internet-radio.com:8113/stream": {
   "consecutive_failures": 0,
@@ -7792,7 +7280,7 @@
   "last": "audio/mpeg"
  },
  "http://uk6.internet-radio.com:8120/stream": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "URLError: <urlopen error timed out>"
  },
  "http://uk6.internet-radio.com:8144/stream": {
@@ -7806,10 +7294,6 @@
  "http://uk6.internet-radio.com:8175/live": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://uk6.internet-radio.com:8249/live": {
-  "consecutive_failures": 3,
-  "last": "BadStatusLine: Invalid password\r\n"
  },
  "http://uk6.internet-radio.com:8315/live": {
   "consecutive_failures": 0,
@@ -7852,8 +7336,8 @@
   "last": "audio/mpeg"
  },
  "http://uk7.internet-radio.com:8226/live": {
-  "consecutive_failures": 0,
-  "last": "audio/aacp"
+  "consecutive_failures": 2,
+  "last": "URLError: <urlopen error [Errno 111] Connection refused>"
  },
  "http://uk7.internet-radio.com:8352/stream": {
   "consecutive_failures": 0,
@@ -7868,8 +7352,8 @@
   "last": "audio/mpeg"
  },
  "http://us1.internet-radio.com:8040/live": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://us1.internet-radio.com:8045/stream": {
   "consecutive_failures": 0,
@@ -8068,8 +7552,8 @@
   "last": "audio/mpeg"
  },
  "http://us5.internet-radio.com:8228/stream": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: timed out"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://usa10.fastcast4u.com:3970/;": {
   "consecutive_failures": 0,
@@ -8169,7 +7653,7 @@
  },
  "http://wblv.streamguys1.com:80/live": {
   "consecutive_failures": 0,
-  "last": "audio/aac"
+  "last": "audio/aacp"
  },
  "http://wbserver.oit.ncsu.edu:9000/;": {
   "consecutive_failures": 0,
@@ -8178,14 +7662,6 @@
  "http://wwfm.streamguys1.com:80/live": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "http://www.Country-Radio.eu:8044/128.mp3.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 41 bytes"
- },
- "http://www.Country-Radio.eu:8044/56.mp3.m3u": {
-  "consecutive_failures": 3,
-  "last": "only 40 bytes"
  },
  "http://www.desizone.nl:8000/relay1": {
   "consecutive_failures": 0,
@@ -8308,7 +7784,7 @@
   "last": "audio/mpeg"
  },
  "https://1000countryhits.stream.laut.fm/1000countryhits": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://1000dance.stream.laut.fm/1000dance": {
@@ -8600,7 +8076,7 @@
   "last": "audio/aacp"
  },
  "https://kawedeoldiesradio.stream.laut.fm/kawedeoldiesradio": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://klarfm.stream.laut.fm/klarfm": {
@@ -8962,10 +8438,6 @@
  "https://stream.allstarsradio.net:8000/radio.mp3": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "https://stream.goodrockradio.com:8000/listen.pls?sid=1/https://stream.goodrockradio.com:8000/stream": {
-  "consecutive_failures": 3,
-  "last": "only 94 bytes"
  },
  "https://stream.kixfm.co.nz:8178/stream": {
   "consecutive_failures": 0,
@@ -9412,7 +8884,7 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/werbelin": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/wiphopbeatz": {
@@ -9536,8 +9008,8 @@
   "last": "audio/mpeg"
  },
  "https://werbelin.stream.laut.fm/werbelin": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://www.tuneintoradio1.com:8000/radio.mp3": {
   "consecutive_failures": 0,
