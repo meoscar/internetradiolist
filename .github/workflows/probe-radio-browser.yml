@@ -1,0 +1,37 @@
+name: Could the catalogue come from Radio Browser
+
+# What is left of this repository's dependence on internet-radio.com is the
+# station list itself -- which stations exist and what they stream. Everything
+# else is now first-hand from the stations or once a week. That list is a
+# single point of failure on the thing the app is made of: one markup change,
+# one Cloudflare rule, one block, and the weekly crawl stops.
+#
+# Radio Browser is a community-run directory with a public API. Whether it
+# could replace that list turns on one number nobody here has measured: how
+# many of OUR stations are in it. If half are missing, moving means deleting
+# half the app, and no amount of independence is worth that.
+#
+# This writes nothing. It reads their API and compares it to our catalogue.
+#
+# It has to run here rather than anywhere with a filtering egress proxy: such
+# a proxy reports zero for everything, which measures the proxy.
+on:
+  workflow_dispatch:
+    inputs:
+      cap:
+        description: 'Stop after this many of their rows (0 for the default 60000)'
+        default: '60000'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 probe_radio_browser.py "${{ inputs.cap }}"

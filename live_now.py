@@ -12,15 +12,24 @@ Two sources, deliberately weighted:
   hundred of them, once every fifteen minutes, is one touch per station per
   quarter hour spread across two hundred different hosts -- nothing to anyone.
 
-  internet-radio.com, for listener counts, and as little of it as will do. Its
-  listing rows carry a live count, and six pages give the busiest stations in
-  the six biggest genres. Six requests a quarter of an hour is one request
-  every two and a half minutes.
+  The stations themselves, for who is listening. Icecast publishes a status
+  document and Shoutcast a stats table, both on the server we are already
+  connecting to in the same pass, so the count arrives from the same place as
+  the track and is true at the same moment.
 
-That asymmetry is the whole design. This repository already measured that site
-refusing connections from datacentre addresses, and it is the source the weekly
-crawl depends on; asking it ninety-six times a day for something the stations
-will tell us directly would risk the crawl to save nothing.
+  internet-radio.com, now only for the stations our pass does not reach. Six
+  genre pages, once a quarter of an hour, filling in stations outside the two
+  hundred busiest. --no-site runs without it.
+
+That last one used to be the only source of a listener count, and it was the
+only thing here that needed somebody else's website every fifteen minutes
+rather than once a week. It asked a slightly different question, too: the site
+knows what it last saw, and we want what is true now.
+
+The asymmetry is still the whole design. This repository already measured that
+site refusing connections from datacentre addresses, and it is the source the
+weekly crawl depends on; every request we do not make to it is a risk we do
+not take with the crawl.
 
   python3 live_now.py            build live.json
   python3 live_now.py --stations 40   a smaller pass, for looking at
@@ -34,6 +43,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import crawl_directory
 import harvest_icy
+import station_status
 
 CATALOGUE = "music_worldradio.json"
 DIRECTORY = "directory.json"
@@ -121,24 +131,45 @@ def busiest_stations(by_source, directory, limit):
     return rows[:limit]
 
 
-def what_is_playing(stations):
-    """Ask each station, in parallel, what it is playing."""
+def interrogate(stations):
+    """Ask each station, in parallel, what it is playing and who is listening.
+
+    Both answers come from the station's own server, in the same pass, and
+    the second one is why this function replaced what_is_playing: the listener
+    count was the last thing in this repository that needed somebody else's
+    website every fifteen minutes rather than once a week.
+
+    It is one small HTTP request per station on top of the stream connection
+    we were making anyway -- two hundred hosts, four times an hour, one touch
+    each. The site pass it replaces was six requests to one host.
+
+    Returns (playing, counts): the stations that named a track, and every
+    stream that named a number. A station can do either, both or neither.
+    """
     def ask(row):
-        facts = harvest_icy.interrogate(row["source"])
+        stream = row["source"]
+        facts = harvest_icy.interrogate(stream)
         title = (facts.get("stream_title") or "").strip()
-        if not facts.get("ok") or not title:
-            return None
-        return {
-            "id": row.get("id") or row["source"],
-            "station": row.get("title", ""),
-            "image": row.get("image", ""),
-            "genre": row.get("genre", ""),
-            "track": title,
-        }
+
+        entry = None
+        if facts.get("ok") and title:
+            entry = {
+                "id": row.get("id") or stream,
+                "station": row.get("title", ""),
+                "image": row.get("image", ""),
+                "genre": row.get("genre", ""),
+                "track": title,
+            }
+        # Asked even when the stream would not talk to us: a station can
+        # refuse the metadata channel and still publish a status document.
+        return entry, (stream, station_status.listeners_of(stream))
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         answers = list(pool.map(ask, stations))
-    return [a for a in answers if a]
+
+    playing = [entry for entry, _ in answers if entry]
+    counts = {stream: n for _, (stream, n) in answers if n is not None}
+    return playing, counts
 
 
 def live_counts(fetch, resolved):
@@ -192,6 +223,9 @@ def as_station(stream, fact, by_source, tracks):
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--stations", type=int, default=STATIONS)
+    parser.add_argument("--no-site", dest="site", action="store_false",
+                        help="do not read internet-radio.com at all; the "
+                             "stations' own counts only")
     args = parser.parse_args(argv[1:])
 
     catalogue = items_of(load(CATALOGUE, {"music": []}))
@@ -208,19 +242,66 @@ def main(argv):
     by_source = playable_index(catalogue)
     resolved = playlist_to_stream(directory)
     stations = busiest_stations(by_source, directory, args.stations)
-    print(f"asking {len(stations)} stations what they are playing")
-    playing = what_is_playing(stations)
-    print(f"  {len(playing)} answered with a track "
-          f"({len(playing) * 100 // max(len(stations), 1)}%)")
+    print(f"asking {len(stations)} stations what they are playing "
+          f"and who is listening")
+    playing, from_stations = interrogate(stations)
+    asked = max(len(stations), 1)
+    print(f"  {len(playing)} named a track ({len(playing) * 100 // asked}%)")
+    print(f"  {len(from_stations)} named a listener count "
+          f"({len(from_stations) * 100 // asked}%)")
     tracks = {row["id"]: row["track"] for row in playing}
 
-    # ---- who is being listened to, from the site, sparingly ----
+    # ---- who is being listened to ----
+    #
+    # The stations first, because they are the ones who know and because
+    # asking them costs this repository nothing it does not already spend.
+    counts = {}
+    for stream, number in from_stations.items():
+        row = by_source.get(stream)
+        if row is None:
+            continue
+        counts[stream] = {
+            "name": row.get("title", ""),
+            "genre": row.get("genre", ""),
+            "listeners": number,
+            "from": "station",
+        }
 
-    fetch = crawl_directory.Fetcher(len(TRENDING_GENRES))
-    counts = live_counts(fetch, resolved)
+    # Then the site, for the stations our pass did not reach -- it reads six
+    # genre pages and we ask the two hundred busiest, so each covers stations
+    # the other does not. Kept until a run shows what it is still adding;
+    # --no-site runs without it, which is the point of the comparison below.
+    agreed = []
+    if args.site:
+        fetch = crawl_directory.Fetcher(len(TRENDING_GENRES))
+        for stream, fact in live_counts(fetch, resolved).items():
+            ours = counts.get(stream)
+            if ours is None:
+                counts[stream] = dict(fact, **{"from": "site"})
+            else:
+                agreed.append((ours["listeners"], fact["listeners"]))
+        print(f"\n{fetch.made} pages read from the site ({fetch.failed} failed)")
+    else:
+        print("\nthe site was not asked")
+
+    added = sum(1 for f in counts.values() if f["from"] == "site")
+    print(f"  {len(counts)} counts in all: "
+          f"{len(counts) - added} from the stations, {added} only the site had")
+
+    # Where both answered, do they agree? A station that says 40 while the
+    # site says 2,201 means one of the two is measuring something else, and
+    # the chart is built on whichever we believe. Worth knowing before the
+    # site pass is dropped, and worth knowing if it is not.
+    if agreed:
+        close = sum(1 for ours, theirs in agreed
+                    if max(ours, theirs) <= 1.25 * max(min(ours, theirs), 1))
+        print(f"  {len(agreed)} station{'' if len(agreed) == 1 else 's'} "
+              f"answered both ways, {close} of them within 25%")
+        for ours, theirs in sorted(agreed, key=lambda p: -abs(p[0] - p[1]))[:3]:
+            print(f"      station said {ours:6}   site said {theirs:6}")
+
     known = sum(1 for stream in counts if stream in by_source)
-    print(f"\n{len(counts)} live listener counts from {fetch.made} pages "
-          f"({fetch.failed} failed); {known} are stations we can play")
+    print(f"  {known} are stations we can play")
 
     # Rising, not top. The busiest stations are the same every hour; the ones
     # people are turning to in the last fifteen minutes are not.
