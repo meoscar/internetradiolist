@@ -37,6 +37,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import unicodedata
 from collections import Counter
 
 CATALOGUE = "music_worldradio.json"
@@ -105,6 +106,17 @@ def normalise(url):
     port = f":{parts.port}" if parts.port and parts.port not in (80, 443) else ""
     path = (parts.path or "").rstrip("/")
     return f"{host}{port}{path}"
+
+
+def bare_name(name):
+    """A station name reduced to what two directories might spell the same.
+
+    Case, punctuation and spacing are theirs; the letters and digits are the
+    station's. "Radio Grün Weiß" and "RADIO GRUN-WEISS" are one station in
+    every sense that matters here.
+    """
+    folded = unicodedata.normalize("NFKD", (name or "").casefold())
+    return "".join(c for c in folded if c.isalnum())
 
 
 def our_streams():
@@ -206,10 +218,38 @@ def main(argv):
     found = [name for key, name in ours.items() if key in theirs]
     share = len(found) * 100 // max(len(ours), 1)
     print(f"\nOur catalogue: {len(ours)} distinct streams")
-    print(f"  found in the {total} rows downloaded: {len(found)}  ({share}%)")
+    print(f"  same stream URL:  {len(found):5d}  ({share}%)")
+
+    # A low URL overlap has two very different explanations and the decision
+    # turns on which: either their directory holds different stations, or it
+    # holds the same ones under a URL we normalise differently -- a .pls
+    # against the stream it resolves to, a different mount on one server,
+    # http against https on a host that serves both. The next two lines
+    # separate those. If the host and name figures are also low, the stations
+    # really are different and this is settled. If they are much higher, the
+    # 13% is measuring our matching and not their catalogue.
+    their_hosts = {k.split("/")[0].split(":")[0] for k in theirs if k}
+    our_hosts = {k.split("/")[0].split(":")[0] for k in ours if k}
+    shared_hosts = our_hosts & their_hosts
+    print(f"  same server:      {len(shared_hosts):5d} of {len(our_hosts)} hosts  "
+          f"({len(shared_hosts) * 100 // max(len(our_hosts), 1)}%)")
+
+    their_names = set()
+    for row in rows:
+        if isinstance(row, dict):
+            key = bare_name(row.get("name"))
+            if key:
+                their_names.add(key)
+    by_name = [n for n in ours.values() if bare_name(n) in their_names]
+    print(f"  same name:        {len(by_name):5d}  "
+          f"({len(by_name) * 100 // max(len(ours), 1)}%)")
+
     if total >= cap:
-        print(f"  -- the download stopped at the cap, so this is a floor, "
+        print(f"\n  -- the download stopped at the cap, so these are floors, "
               f"not the answer. Re-run with a larger one.")
+    else:
+        print(f"\n  -- the download ran out before the cap, so this is their "
+              f"whole directory\n     (with hidebroken=true), not a sample.")
 
     absent = [name for key, name in ours.items() if key not in theirs]
     if absent:
