@@ -22,6 +22,33 @@ what somebody remembered:
 
 It writes nothing and changes nothing.
 
+WHAT IT FOUND, 5 September 2026, against their whole directory (58,714 rows
+with hidebroken=true), our 2,055 distinct streams:
+
+    same stream URL     287   13%
+    same server         549 of 934 hosts   58%
+    same name           663   32%
+
+The answer is no. Not because the data is poor -- url 100%, name 99%,
+homepage 95%, codec 99%, country 97% -- but because the overlap is not there.
+13% is a floor and 32% a ceiling: exact URLs understate, because a .pls and
+the stream it resolves to are one station spelled two ways, and names
+overstate, because two stations can be called "Best 50s Radio". Even at the
+ceiling, two thirds of this catalogue is not in theirs, and moving would mean
+deleting two thirds of the app.
+
+The 58% server figure is the weakest of the three and should not be read as
+agreement: one Shoutcast host serves many stations on many ports, so it
+mostly says the two directories draw on the same hosting companies.
+
+What the gap between 13% and 32% does say is that some of ours are in theirs
+under a URL we match differently -- which makes MERGING plausible where
+REPLACING is not. They hold 58,714 stations to our 2,055. Growing from them
+is a different project from being independent of internet-radio.com, and it
+should not be confused with this one.
+
+Re-run it if the shape of either catalogue changes. It costs forty seconds.
+
   python3 probe_radio_browser.py            the standard pass
   python3 probe_radio_browser.py 20000      stop after this many rows
 
