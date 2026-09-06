@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Nowplay</title>
+<style>
+  :root { --ground:#0D1117; --surface:#161B22; --raised:#1C222B; --line:#2B333D;
+    --accent:#F0AD4E; --text:#E9F0F7; --second:#A3B1C2; --muted:#93A2B5; }
+  * { box-sizing:border-box; }
+  html { color-scheme:dark; }
+  body { margin:0; background:var(--ground); color:var(--text);
+    font:16px/1.55 Roboto, "Helvetica Neue", "PingFang TC", "Noto Sans TC", system-ui, sans-serif; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  header, main, footer { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { font-weight:700; letter-spacing:-.01em; font-size:18px; color:var(--text); }
+  nav a { margin-left:20px; font-size:14px; color:var(--second); }
+  .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;
+    padding:48px 0 24px; }
+  h1 { font-size:44px; line-height:1.12; letter-spacing:-.02em; margin:0 0 18px; text-wrap:balance; }
+  .lead { font-size:19px; color:var(--second); max-width:34em; margin:0 0 26px; }
+  .cta { display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#17120A;
+    font-weight:700; padding:13px 20px; border-radius:12px; font-size:16px; }
+  .cta:hover { text-decoration:none; filter:brightness(1.05); }
+  .phone { width:100%; max-width:380px; justify-self:center; border-radius:24px;
+    box-shadow:0 30px 70px rgba(0,0,0,.55); }
+  .three { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:36px 0; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--second); font-size:15px; }
+  .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
+  .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .plain { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:22px 24px; margin:0 0 40px; color:var(--second); }
+  .plain strong { color:var(--text); }
+  h2 { font-size:22px; margin:36px 0 10px; letter-spacing:-.01em; }
+  .policy p, .policy li { color:var(--second); max-width:44em; }
+  .policy strong { color:var(--text); }
+  table { border-collapse:collapse; width:100%; margin:12px 0 24px; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:500; font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+  footer { padding:28px 24px 48px; color:var(--muted); font-size:13px; display:flex;
+    justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  @media (max-width:760px) {
+    .hero { grid-template-columns:1fr; padding-top:24px; }
+    h1 { font-size:34px; }
+    .three, .strip { grid-template-columns:1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./index.html">Nowplay</a>
+  <nav><a href="zh-TW/privacy.html">繁體中文</a><a href="./privacy.html">Privacy</a>
+    <a href="https://play.google.com/store/apps/details?id=com.meoscar.icrtradio">Google Play</a></nav>
+</header>
+
+<main class="policy">
+  <h1>Privacy policy</h1>
+  <p>This is the privacy policy for <strong>Nowplay: Radio World</strong>, the Android app with the package name <code>com.meoscar.icrtradio</code>. Last updated 6 September 2026.</p>
+  <p>The short version: the app has no accounts, asks for no personal details, and keeps your listening history on your phone. It shows advertising and reports crashes and anonymous usage through Google's libraries, which use your device's advertising ID. Everything else it fetches is public data about radio stations and music.</p>
+
+  <h2>What the app collects, and who receives it</h2>
+  <table>
+    <tr><th>Data</th><th>Collected by</th><th>Purpose</th><th>Leaves the phone</th></tr>
+    <tr><td>Advertising ID and device information</td><td>Google AdMob</td><td>Showing and measuring the banner advertisements that keep the app free</td><td>Yes, to Google</td></tr>
+    <tr><td>App instance ID, screens opened, coarse device information</td><td>Google Analytics for Firebase</td><td>Understanding which features are used, in aggregate</td><td>Yes, to Google</td></tr>
+    <tr><td>Crash reports and device information at the time of a crash</td><td>Firebase Crashlytics</td><td>Finding and fixing crashes</td><td>Yes, to Google</td></tr>
+    <tr><td>Your listening history: which songs, on which stations, when</td><td>The app</td><td>The history screen, the recap, and "continue listening"</td><td>No, unless you press Share</td></tr>
+    <tr><td>Stations you keep and artists you follow</td><td>The app</td><td>Your library, and the optional "on the air" alerts</td><td>No</td></tr>
+  </table>
+  <p>The app does not collect your name, email address, contacts, location, photos or microphone audio, and does not ask for permission to. It has no account system.</p>
+
+  <h2>Network requests the app makes on your behalf</h2>
+  <p>To do its job the app talks to a few services. Each receives your IP address, as any internet request does, and no more than what is listed.</p>
+  <ul>
+    <li><strong>The radio stations themselves</strong>, when you play one. The station's server sees your IP address, as it would from any player.</li>
+    <li><strong>GitHub</strong>, for the station catalogue and the "on the air" file the app downloads.</li>
+    <li><strong>Wikipedia</strong>, for the artist's story, when you open the story panel. The artist's name is sent; nothing about you is.</li>
+    <li><strong>Apple's iTunes Search</strong>, for album covers, titles and years. The song's name is sent; nothing about you is.</li>
+    <li><strong>Google</strong>, for advertising, analytics, crash reporting, and Chromecast if you use it.</li>
+  </ul>
+
+  <h2>Advertising</h2>
+  <p>The app shows banner advertisements served by Google AdMob. AdMob may use your device's advertising ID to show ads it considers relevant. You can reset the advertising ID or opt out of personalised advertising in your phone's settings under Google &rsaquo; Ads. Google's own policy is at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
+
+  <h2>Your listening history</h2>
+  <p>Every track the app hears is written to a database on your phone, with the station and the time. It is never uploaded. Uninstalling the app deletes it. The recap you can share is drawn on the phone and only leaves it when you press Share and choose where it goes.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children under 13 and does not knowingly collect information from them.</p>
+
+  <h2>Changes</h2>
+  <p>When this policy changes, the date at the top changes with it, and the current version is always at this address.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy go to the developer contact shown on the app's Google Play listing.</p>
+</main>
+
+<footer>
+  <span>&copy; 2026 Nowplay. Not the official app of any station.</span>
+  <span><a href="https://github.com/meoscar/internetradiolist">GitHub</a></span>
+</footer>
+</body>
+</html>

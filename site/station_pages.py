@@ -1,33 +1,26 @@
 """A page each station can link to: "listen to us on Android".
 
-Stations want listeners, and 2,000 of them each have a website with a
-"listen" button that goes to a player of their own. This writes one small
-page per station, in the app's colours, saying: this station, on Android,
-with what it is playing and who the artist is; and a link to the app on
-Play. A station that puts that link on its site sends its own listeners to
-the app, which is the one kind of marketing that costs nothing and is not
-a post.
+Stations want listeners, and each has a site with a "listen" button. This
+writes one small page per station saying: this station, on Android, with
+what it is playing and who the artist is, and a link to the app on Play. A
+station that puts that link on its site sends its own listeners to the app.
 
-What a page carries is the station's own name, logo, genre and site, which
-the station published itself, and the app's link. Not the catalogue: no
-list, no other stations, no counts. This is the line the owner drew between
-"a page a station would want" and "somebody else's data as a public site",
-and the generator stays on this side of it.
+A page carries the station's own name, logo, genre and site, which the
+station published itself, and the app's link. Not the catalogue: no list of
+stations, no index, no counts. The catalogue is this repository's own file, read
+at publish time; no list of stations is published, only a page per station.
 
-    python3 station_pages.py            # writes for-stations/<slug>.html
-    python3 station_pages.py --limit 5  # a few, to look at
-
-Output is not committed and not published by this script. Where to host
-the pages, or whether to, is decided by the owner; GitHub Pages on this
-repository would serve for-stations/ for nothing.
+    python3 station_pages.py        # writes for-stations/<slug>.html
 """
-import argparse
 import html
 import json
 import pathlib
 import re
+import sys
 
+CATALOGUE = pathlib.Path(__file__).parent.parent / "music_worldradio.json"
 PLAY = "https://play.google.com/store/apps/details?id=com.meoscar.icrtradio"
+SITE = "https://meoscar.github.io/internetradiolist/"
 OUT = pathlib.Path(__file__).parent / "for-stations"
 
 
@@ -45,6 +38,7 @@ def page(station):
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
 <title>{name} on Android</title>
 <style>
   body {{ margin:0; background:#0D1117; color:#E9F0F7; font:16px/1.55 Roboto, system-ui, sans-serif; }}
@@ -56,6 +50,7 @@ def page(station):
   .cta {{ display:inline-block; background:#F0AD4E; color:#17120A; font-weight:700; padding:14px 22px;
     border-radius:12px; text-decoration:none; margin-top:8px; }}
   .site {{ margin-top:36px; font-size:13px; }} .site a {{ color:#93A2B5; }}
+  .app {{ margin-top:12px; font-size:12px; }} .app a {{ color:#93A2B5; }}
 </style></head>
 <body><main>
   {f'<img src="{logo}" alt="">' if logo else ''}
@@ -64,18 +59,14 @@ def page(station):
   <p>Listen on Android with Nowplay: the song that is playing, who the artist is, and what {name} is playing right now on your home screen.</p>
   <a class="cta" href="{PLAY}">Get Nowplay on Google Play</a>
   <div class="site">{site_line}</div>
+  <div class="app"><a href="{SITE}">About Nowplay</a> · <a href="{SITE}privacy.html">Privacy</a></div>
 </main></body></html>
 """
 
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--limit", type=int, default=0)
-    args = parser.parse_args()
-    data = json.load(open(pathlib.Path(__file__).parent / "music_worldradio.json"))
+    data = json.loads(CATALOGUE.read_text(encoding="utf-8"))
     stations = data["music"] if isinstance(data, dict) else data
-    if args.limit:
-        stations = stations[:args.limit]
     OUT.mkdir(exist_ok=True)
     seen = set()
     for station in stations:
@@ -86,7 +77,7 @@ def main():
             n += 1
         seen.add(s)
         (OUT / f"{s}.html").write_text(page(station), encoding="utf-8")
-    print(f"wrote {len(seen)} pages into {OUT}")
+    print(f"wrote {len(seen)} pages into {OUT}", file=sys.stderr)
 
 
 if __name__ == "__main__":

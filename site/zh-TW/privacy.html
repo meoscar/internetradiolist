@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策 · Nowplay</title>
+<style>
+  :root { --ground:#0D1117; --surface:#161B22; --raised:#1C222B; --line:#2B333D;
+    --accent:#F0AD4E; --text:#E9F0F7; --second:#A3B1C2; --muted:#93A2B5; }
+  * { box-sizing:border-box; }
+  html { color-scheme:dark; }
+  body { margin:0; background:var(--ground); color:var(--text);
+    font:16px/1.55 Roboto, "Helvetica Neue", "PingFang TC", "Noto Sans TC", system-ui, sans-serif; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  header, main, footer { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { font-weight:700; letter-spacing:-.01em; font-size:18px; color:var(--text); }
+  nav a { margin-left:20px; font-size:14px; color:var(--second); }
+  .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;
+    padding:48px 0 24px; }
+  h1 { font-size:44px; line-height:1.12; letter-spacing:-.02em; margin:0 0 18px; text-wrap:balance; }
+  .lead { font-size:19px; color:var(--second); max-width:34em; margin:0 0 26px; }
+  .cta { display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#17120A;
+    font-weight:700; padding:13px 20px; border-radius:12px; font-size:16px; }
+  .cta:hover { text-decoration:none; filter:brightness(1.05); }
+  .phone { width:100%; max-width:380px; justify-self:center; border-radius:24px;
+    box-shadow:0 30px 70px rgba(0,0,0,.55); }
+  .three { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:36px 0; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--second); font-size:15px; }
+  .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
+  .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .plain { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:22px 24px; margin:0 0 40px; color:var(--second); }
+  .plain strong { color:var(--text); }
+  h2 { font-size:22px; margin:36px 0 10px; letter-spacing:-.01em; }
+  .policy p, .policy li { color:var(--second); max-width:44em; }
+  .policy strong { color:var(--text); }
+  table { border-collapse:collapse; width:100%; margin:12px 0 24px; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:500; font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+  footer { padding:28px 24px 48px; color:var(--muted); font-size:13px; display:flex;
+    justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  @media (max-width:760px) {
+    .hero { grid-template-columns:1fr; padding-top:24px; }
+    h1 { font-size:34px; }
+    .three, .strip { grid-template-columns:1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./index.html">Nowplay</a>
+  <nav><a href="../privacy.html">English</a><a href="./privacy.html">隱私權政策</a>
+    <a href="https://play.google.com/store/apps/details?id=com.meoscar.icrtradio">Google Play</a></nav>
+</header>
+
+<main class="policy">
+  <h1>隱私權政策</h1>
+  <p>本政策適用於 Android app <strong>Nowplay 世界電台</strong>（套件名稱 <code>com.meoscar.icrtradio</code>）。最後更新：2026 年 9 月 6 日。</p>
+  <p>簡短版：這個 app 沒有帳號、不問你任何個人資料，收聽紀錄留在你的手機裡。它會顯示廣告，並透過 Google 的程式庫回報當機和匿名的使用狀況，這些會用到裝置的廣告 ID。其他所有它抓取的，都是關於電台和音樂的公開資料。</p>
+
+  <h2>收集什麼，誰收到</h2>
+  <table>
+    <tr><th>資料</th><th>收集者</th><th>用途</th><th>是否離開手機</th></tr>
+    <tr><td>廣告 ID 與裝置資訊</td><td>Google AdMob</td><td>顯示並計量讓 app 免費的橫幅廣告</td><td>是，給 Google</td></tr>
+    <tr><td>App instance ID、開啟的畫面、粗略的裝置資訊</td><td>Google Analytics for Firebase</td><td>了解哪些功能被使用，整體統計</td><td>是，給 Google</td></tr>
+    <tr><td>當機報告與當機時的裝置資訊</td><td>Firebase Crashlytics</td><td>找出並修正當機</td><td>是，給 Google</td></tr>
+    <tr><td>你的收聽紀錄：哪些歌、在哪個電台、什麼時候</td><td>App 本身</td><td>收聽紀錄畫面、回顧、「繼續聽」</td><td>否，除非你按分享</td></tr>
+    <tr><td>你收藏的電台與追蹤的歌手</td><td>App 本身</td><td>「我的」與可選的「正在播」提醒</td><td>否</td></tr>
+  </table>
+  <p>App 不收集你的姓名、電子郵件、聯絡人、位置、照片或麥克風聲音，也不要求這些權限。沒有帳號系統。</p>
+
+  <h2>App 替你發出的網路請求</h2>
+  <p>為了運作，app 會連到幾個服務。每一個都會看到你的 IP 位址（任何網路請求都如此），除了下列各項之外不會多給。</p>
+  <ul>
+    <li><strong>電台本身</strong>，在你播放時。電台伺服器會看到你的 IP，跟用任何播放器一樣。</li>
+    <li><strong>GitHub</strong>，下載電台目錄和「正在播」檔案。</li>
+    <li><strong>維基百科</strong>，你打開故事面板時取得歌手介紹。送出的是歌手名字，不含任何關於你的資訊。</li>
+    <li><strong>Apple 的 iTunes Search</strong>，取得專輯封面、名稱和年份。送出的是歌名，不含任何關於你的資訊。</li>
+    <li><strong>Google</strong>，廣告、分析、當機回報，以及你使用時的 Chromecast。</li>
+  </ul>
+
+  <h2>廣告</h2>
+  <p>App 顯示由 Google AdMob 提供的橫幅廣告。AdMob 可能使用裝置的廣告 ID 來顯示它認為相關的廣告。你可以在手機設定的 Google › 廣告 裡重設廣告 ID 或停用個人化廣告。Google 的政策在 <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>。</p>
+
+  <h2>你的收聽紀錄</h2>
+  <p>App 聽到的每一首歌都會連同電台和時間寫進手機裡的資料庫，永遠不會上傳。解除安裝就會刪除。可以分享的回顧圖是在手機上畫的，只有在你按下分享並選擇去處時才會離開手機。</p>
+
+  <h2>兒童</h2>
+  <p>本 app 不以 13 歲以下兒童為對象，也不會刻意收集他們的資訊。</p>
+
+  <h2>變更</h2>
+  <p>政策更動時，最上方的日期會一起改，最新版本永遠在這個網址。</p>
+
+  <h2>聯絡</h2>
+  <p>關於本政策的問題，請透過 app 在 Google Play 商店頁上顯示的開發者聯絡方式。</p>
+</main>
+
+<footer>
+  <span>&copy; 2026 Nowplay. 不是任何電台的官方 app。</span>
+  <span><a href="https://github.com/meoscar/internetradiolist">GitHub</a></span>
+</footer>
+</body>
+</html>

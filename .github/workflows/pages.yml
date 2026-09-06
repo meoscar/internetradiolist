@@ -1,0 +1,46 @@
+name: Publish the site
+
+# site/ on GitHub Pages: what the app is, the privacy policy, and a page per
+# station built here from the catalogue. Only site/ is uploaded; the
+# catalogue's own files are not served as a website.
+on:
+  push:
+    branches: [main]
+    paths: ['site/**', '.github/workflows/pages.yml']
+  schedule:
+    - cron: '20 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: A page per station, from the catalogue
+        run: python3 site/station_pages.py
+
+      - name: Enable Pages on first run, and configure it
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v4

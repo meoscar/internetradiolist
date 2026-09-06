@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nowplay: Radio World</title>
+<style>
+  :root { --ground:#0D1117; --surface:#161B22; --raised:#1C222B; --line:#2B333D;
+    --accent:#F0AD4E; --text:#E9F0F7; --second:#A3B1C2; --muted:#93A2B5; }
+  * { box-sizing:border-box; }
+  html { color-scheme:dark; }
+  body { margin:0; background:var(--ground); color:var(--text);
+    font:16px/1.55 Roboto, "Helvetica Neue", "PingFang TC", "Noto Sans TC", system-ui, sans-serif; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  header, main, footer { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { font-weight:700; letter-spacing:-.01em; font-size:18px; color:var(--text); }
+  nav a { margin-left:20px; font-size:14px; color:var(--second); }
+  .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;
+    padding:48px 0 24px; }
+  h1 { font-size:44px; line-height:1.12; letter-spacing:-.02em; margin:0 0 18px; text-wrap:balance; }
+  .lead { font-size:19px; color:var(--second); max-width:34em; margin:0 0 26px; }
+  .cta { display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#17120A;
+    font-weight:700; padding:13px 20px; border-radius:12px; font-size:16px; }
+  .cta:hover { text-decoration:none; filter:brightness(1.05); }
+  .phone { width:100%; max-width:380px; justify-self:center; border-radius:24px;
+    box-shadow:0 30px 70px rgba(0,0,0,.55); }
+  .three { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:36px 0; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--second); font-size:15px; }
+  .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
+  .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .plain { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:22px 24px; margin:0 0 40px; color:var(--second); }
+  .plain strong { color:var(--text); }
+  h2 { font-size:22px; margin:36px 0 10px; letter-spacing:-.01em; }
+  .policy p, .policy li { color:var(--second); max-width:44em; }
+  .policy strong { color:var(--text); }
+  table { border-collapse:collapse; width:100%; margin:12px 0 24px; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:500; font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+  footer { padding:28px 24px 48px; color:var(--muted); font-size:13px; display:flex;
+    justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  @media (max-width:760px) {
+    .hero { grid-template-columns:1fr; padding-top:24px; }
+    h1 { font-size:34px; }
+    .three, .strip { grid-template-columns:1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./index.html">Nowplay</a>
+  <nav><a href="zh-TW/index.html">繁體中文</a><a href="./privacy.html">Privacy</a>
+    <a href="https://play.google.com/store/apps/details?id=com.meoscar.icrtradio">Google Play</a></nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>Radio that tells you the song</h1>
+      <p class="lead">Internet radio with the artist, the title, the album and the year on screen while the record is still playing. Tap the song to read who the artist is. Every track you hear is remembered, with the station it was on.</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.meoscar.icrtradio">Get it on Google Play</a>
+    </div>
+    <img class="phone" src="store/01-now-playing.png" alt="The Now Playing screen: a cover, the song, the station, and a shelf of what else is on in the same genre">
+  </section>
+
+  <section class="three">
+    <div class="card"><h3>Who is that?</h3><p>Tap the song and the artist's story comes up from Wikipedia, in your language, while the record plays.</p></div>
+    <div class="card"><h3>On the air, right now</h3><p>A shelf of stations and what each is playing this minute, checked every few minutes, for the whole world.</p></div>
+    <div class="card"><h3>2,000+ stations that work</h3><p>Every station is connected to and checked within the last week. Dead links are taken out before you meet them.</p></div>
+  </section>
+
+  <section class="strip">
+    <img src="store/02-artist.png" alt="The artist's story">
+    <img src="store/03-home.png" alt="Home: what is on the air right now">
+    <img src="store/04-stations.png" alt="Stations with what each is playing and how many are listening">
+    <img src="store/06-history.png" alt="The listening history with a recap">
+  </section>
+
+  <section class="plain">
+    <strong>What it is not.</strong> It is not an FM tuner. It does not use your phone's radio chip and it will not work without a data connection. Android Auto and Chromecast are supported. Free, with advertising.
+  </section>
+</main>
+
+<footer>
+  <span>&copy; 2026 Nowplay. Not the official app of any station.</span>
+  <span><a href="https://github.com/meoscar/internetradiolist">GitHub</a></span>
+</footer>
+</body>
+</html>

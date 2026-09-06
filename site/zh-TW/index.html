@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nowplay 世界電台</title>
+<style>
+  :root { --ground:#0D1117; --surface:#161B22; --raised:#1C222B; --line:#2B333D;
+    --accent:#F0AD4E; --text:#E9F0F7; --second:#A3B1C2; --muted:#93A2B5; }
+  * { box-sizing:border-box; }
+  html { color-scheme:dark; }
+  body { margin:0; background:var(--ground); color:var(--text);
+    font:16px/1.55 Roboto, "Helvetica Neue", "PingFang TC", "Noto Sans TC", system-ui, sans-serif; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  header, main, footer { max-width:960px; margin:0 auto; padding:0 24px; }
+  header { display:flex; align-items:center; justify-content:space-between; height:64px; }
+  .brand { font-weight:700; letter-spacing:-.01em; font-size:18px; color:var(--text); }
+  nav a { margin-left:20px; font-size:14px; color:var(--second); }
+  .hero { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center;
+    padding:48px 0 24px; }
+  h1 { font-size:44px; line-height:1.12; letter-spacing:-.02em; margin:0 0 18px; text-wrap:balance; }
+  .lead { font-size:19px; color:var(--second); max-width:34em; margin:0 0 26px; }
+  .cta { display:inline-flex; align-items:center; gap:10px; background:var(--accent); color:#17120A;
+    font-weight:700; padding:13px 20px; border-radius:12px; font-size:16px; }
+  .cta:hover { text-decoration:none; filter:brightness(1.05); }
+  .phone { width:100%; max-width:380px; justify-self:center; border-radius:24px;
+    box-shadow:0 30px 70px rgba(0,0,0,.55); }
+  .three { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:36px 0; }
+  .card { background:var(--surface); border:1px solid var(--line); border-radius:14px; padding:20px; }
+  .card h3 { margin:0 0 8px; font-size:17px; }
+  .card p { margin:0; color:var(--second); font-size:15px; }
+  .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
+  .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .plain { background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:22px 24px; margin:0 0 40px; color:var(--second); }
+  .plain strong { color:var(--text); }
+  h2 { font-size:22px; margin:36px 0 10px; letter-spacing:-.01em; }
+  .policy p, .policy li { color:var(--second); max-width:44em; }
+  .policy strong { color:var(--text); }
+  table { border-collapse:collapse; width:100%; margin:12px 0 24px; font-size:15px; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:500; font-size:12px; letter-spacing:.08em; text-transform:uppercase; }
+  footer { padding:28px 24px 48px; color:var(--muted); font-size:13px; display:flex;
+    justify-content:space-between; flex-wrap:wrap; gap:10px; }
+  @media (max-width:760px) {
+    .hero { grid-template-columns:1fr; padding-top:24px; }
+    h1 { font-size:34px; }
+    .three, .strip { grid-template-columns:1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="./index.html">Nowplay</a>
+  <nav><a href="../index.html">English</a><a href="./privacy.html">隱私權政策</a>
+    <a href="https://play.google.com/store/apps/details?id=com.meoscar.icrtradio">Google Play</a></nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div>
+      <h1>告訴你現在播的是哪首歌的電台</h1>
+      <p class="lead">網路電台，唱片還在播的時候，歌手、歌名、專輯、年份就在畫面上。點一下歌名，讀歌手的故事。你聽過的每一首都會記下來，連同是在哪個電台聽到的。</p>
+      <a class="cta" href="https://play.google.com/store/apps/details?id=com.meoscar.icrtradio">在 Google Play 取得</a>
+    </div>
+    <img class="phone" src="../store/zh-TW/01-now-playing.png" alt="播放中畫面：封面、歌名、電台，還有同曲風其他電台正在播的歌">
+  </section>
+
+  <section class="three">
+    <div class="card"><h3>這是誰？</h3><p>點一下歌名，歌手的故事就從維基百科來，用你的語言，唱片還在播。</p></div>
+    <div class="card"><h3>此刻正在播</h3><p>一排電台，和每一台這一分鐘正在播的歌，幾分鐘檢查一次，全世界都在。</p></div>
+    <div class="card"><h3>2,000 多個真的能聽的電台</h3><p>每個電台都在一週內連線檢查過，死掉的連結在你遇到之前就拿掉了。</p></div>
+  </section>
+
+  <section class="strip">
+    <img src="../store/zh-TW/02-artist.png" alt="歌手的故事">
+    <img src="../store/zh-TW/03-home.png" alt="首頁：此刻正在播">
+    <img src="../store/zh-TW/04-stations.png" alt="電台清單，每一台正在播什麼、多少人在聽">
+    <img src="../store/zh-TW/06-history.png" alt="收聽紀錄與回顧">
+  </section>
+
+  <section class="plain">
+    <strong>它不是什麼。</strong>它不是 FM 收音機，不用手機的收音晶片，沒有網路就不能用。支援 Android Auto 和 Chromecast。免費，有廣告。
+  </section>
+</main>
+
+<footer>
+  <span>&copy; 2026 Nowplay. 不是任何電台的官方 app。</span>
+  <span><a href="https://github.com/meoscar/internetradiolist">GitHub</a></span>
+</footer>
+</body>
+</html>
