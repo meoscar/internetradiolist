@@ -4,3 +4,4 @@ week.json          # the running tally; it lives on the live branch
 charts.json          # built from the tally; also the live branch
 __pycache__/
 *.pyc
+for-stations/         # written by station_pages.py; hosting is the owner's decision
