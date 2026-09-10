@@ -47,7 +47,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install --quiet pillow
+      - run: pip install --quiet pillow cairosvg
 
       - name: Ask each station for its logo
         run: python3 harvest_logos.py --limit "${{ inputs.limit || 0 }}" ${{ inputs.missing && '--missing' || '' }}

@@ -1,0 +1,47 @@
+name: Find logos for the stations the harvest could not
+
+# harvest_logos.py asks each station's own site (Tue 12:00). This runs after
+# it for the stations it found nothing for, and asks two more places that
+# know a station's mark: Radio Browser (CC0) for a favicon and a homepage,
+# and the icon caches Google and DuckDuckGo keep for every site. Everything
+# found goes through the same gate as the harvest and into the same
+# logos.json, which build-catalogue (Wed 06:00) reads.
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Stations to try, 0 for all'
+        default: '0'
+  schedule:
+    - cron: '0 14 * * 2'
+
+permissions:
+  contents: write
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install --quiet pillow cairosvg
+
+      - name: Ask Radio Browser and the icon caches
+        run: python3 find_logos.py --limit "${{ inputs.limit || 0 }}"
+
+      - name: Commit the logos
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add logos logos.json
+          if git diff --cached --quiet; then
+            echo "nothing new"
+            exit 0
+          fi
+          git commit -m "Station logos, from Radio Browser and the icon caches ($(date -u +%Y-%m-%d))"
+          git pull --rebase origin main
+          git push

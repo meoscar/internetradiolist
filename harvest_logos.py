@@ -38,6 +38,15 @@ from urllib.parse import urljoin, urlparse
 
 from PIL import Image
 
+# An SVG is a vector and the sharpest source a mark can have, and the first
+# runs turned every one of them down. Rendered here when the renderer is
+# installed (pip install cairosvg); without it the tally still says how many
+# were SVG, as before.
+try:
+    import cairosvg
+except Exception:                                  # noqa: BLE001
+    cairosvg = None
+
 DIRECTORY = "directory.json"
 LOGO_INDEX = "logos.json"
 FACTS = "station_facts.json"
@@ -140,6 +149,20 @@ def logo_candidates(page, base):
     return ordered
 
 
+def open_image(raw):
+    """A decoded image, rendering an SVG when the renderer is here."""
+    head = raw[:400].lstrip()[:200].lower()
+    looks_svg = b"<svg" in head or (head.startswith(b"<?xml") and b"svg" in raw[:2000].lower())
+    if looks_svg and cairosvg is not None:
+        png = cairosvg.svg2png(bytestring=raw, output_width=SIZE, output_height=SIZE)
+        image = Image.open(io.BytesIO(png))
+        image.load()
+        return image
+    image = Image.open(io.BytesIO(raw))
+    image.load()
+    return image
+
+
 def square(image):
     """Centre-crop to a square, then resize. Logos are usually square already."""
     width, height = image.size
@@ -183,8 +206,7 @@ def harvest(station):
         raw = b""
         try:
             raw = fetch(candidate)
-            image = Image.open(io.BytesIO(raw))
-            image.load()
+            image = open_image(raw)
         except Exception:                          # noqa: BLE001
             # "Would not decode" was hiding two different situations, and they
             # have opposite answers. The last candidate is always a guessed
