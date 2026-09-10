@@ -52,6 +52,9 @@ jobs:
       - name: Ask each station for its logo
         run: python3 harvest_logos.py --limit "${{ inputs.limit || 0 }}" ${{ inputs.missing && '--missing' || '' }}
 
+      - name: Drop the pictures that are a platform's, not the station's
+        run: python3 shared_logos.py --apply
+
       - name: Commit the logos
         run: |
           git config user.name  "github-actions[bot]"

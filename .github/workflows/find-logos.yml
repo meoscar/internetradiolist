@@ -33,6 +33,9 @@ jobs:
       - name: Ask Radio Browser and the icon caches
         run: python3 find_logos.py --limit "${{ inputs.limit || 0 }}"
 
+      - name: Drop the pictures that are a platform's, not the station's
+        run: python3 shared_logos.py --apply
+
       - name: Commit the logos
         run: |
           git config user.name  "github-actions[bot]"
