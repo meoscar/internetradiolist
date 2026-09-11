@@ -22,8 +22,26 @@ Two more places know a station's mark, and both are free to ask:
                     could not read. Asked by hostname; nothing of ours goes
                     with the request but the station's public site.
 
+Three more places, added after the first run left 1,224 stations without:
+
+  gstatic           Google's second icon cache, the one Chrome reads. It
+                    often has a larger icon than the first, and answers
+                    for sites the first returns nothing for.
+  the stream host   The server the station streams from has a front page
+                    of its own -- an Icecast or Shoutcast status page, a
+                    hosting panel -- and that page names the station's
+                    mark more often than nothing does. Platform icons
+                    picked up this way are taken out again by
+                    shared_logos.py, which is what it is for.
+  small icons       An icon of 24 to 47 pixels is too small to fill a
+                    tile, and upscaled it is a smear. Set at twice its
+                    size in the middle of a tile in the station's own
+                    colour -- the same colour the app draws its mark in
+                    -- it is the station's mark on the station's tile,
+                    and sharp.
+
 Each picture found goes through the same gate as the harvest: decodes, at
-least 48 pixels, squared to 256, WebP, not blank. Matching Radio Browser by
+least 48 pixels (or 24, on a tile), squared to 256, WebP, not blank. Matching Radio Browser by
 name is only trusted when the name is unique there and the two directories
 agree on the station's site, or ours has none to disagree with: two stations
 called "Best 50s Radio" must not swap logos.
@@ -32,6 +50,7 @@ called "Best 50s Radio" must not swap logos.
   python3 find_logos.py                 every station still without a logo
 """
 import argparse
+import colorsys
 import io
 import json
 import pathlib
@@ -54,7 +73,11 @@ WORKERS = 8
 MIN_SIDE = 48
 
 GOOGLE = "https://www.google.com/s2/favicons?domain={host}&sz=256"
+GSTATIC = ("https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON"
+           "&fallback_opts=TYPE,SIZE,URL&url=https://{host}&size=256")
 DUCK = "https://icons.duckduckgo.com/ip3/{host}.ico"
+CATALOGUE = "music_worldradio.json"
+TILE_MIN_SIDE = 24
 
 
 def slug_of(name):
@@ -68,23 +91,52 @@ def host_of(url):
         return ""
 
 
-def keep(raw, slug):
+def java_hash(text):
+    """String.hashCode, which the app's marks take their colour from."""
+    h = 0
+    for ch in text:
+        h = (31 * h + ord(ch)) & 0xFFFFFFFF
+    return h - (1 << 32) if h >= (1 << 31) else h
+
+
+def tile_colour(station_id):
+    """The colour the app paints this station's mark in: HSV(hue, .42, .34)."""
+    hue = ((java_hash(station_id) % 360) + 360) % 360
+    r, g, b = colorsys.hsv_to_rgb(hue / 360.0, 0.42, 0.34)
+    return int(r * 255), int(g * 255), int(b * 255)
+
+
+def on_tile(icon, station_id):
+    """A small icon set at twice its size in the middle of the station's tile."""
+    tile = Image.new("RGBA", (harvest.SIZE, harvest.SIZE), tile_colour(station_id) + (255,))
+    side = min(harvest.SIZE // 2, min(icon.size) * 2)
+    icon = icon.convert("RGBA")
+    icon = harvest.square(icon) if icon.size[0] != icon.size[1] else icon
+    icon = icon.resize((side, side), Image.LANCZOS)
+    offset = (harvest.SIZE - side) // 2
+    tile.alpha_composite(icon, (offset, offset))
+    return tile
+
+
+def keep(raw, slug, station_id=None):
     """Write raw as the station's logo if it passes the gate; the reason if not."""
     try:
         image = harvest.open_image(raw)
     except Exception:                              # noqa: BLE001
         return None, "not an image"
-    if min(image.size) < MIN_SIDE:
+    small = min(image.size) < MIN_SIDE
+    if small and (station_id is None or min(image.size) < TILE_MIN_SIDE):
         return None, f"under {MIN_SIDE}px"
     if image.mode not in ("RGB", "RGBA"):
         image = image.convert("RGBA" if "A" in image.mode else "RGB")
     buffer = io.BytesIO()
-    harvest.square(image).save(buffer, "WEBP", quality=82, method=6)
+    (on_tile(image, station_id) if small else harvest.square(image)).save(
+        buffer, "WEBP", quality=82, method=6)
     if buffer.tell() < 1024:
         return None, "blank"
     OUT_DIR.mkdir(exist_ok=True)
     (OUT_DIR / f"{slug}.webp").write_bytes(buffer.getvalue())
-    return slug, None
+    return slug, ("on a tile" if small else None)
 
 
 class Finder:
@@ -128,6 +180,17 @@ class Finder:
             theirs = harvest.station_site(rb_row.get("homepage"))
             if theirs:
                 found.append(theirs)
+        # The server the station streams from, last: its front page is a
+        # status page or a hosting panel, and sometimes names the station's
+        # own mark. What it names for every station alike is a platform's,
+        # and shared_logos.py takes those out again.
+        try:
+            parts = urlparse(station.get("stream") or "")
+            if parts.hostname:
+                port = f":{parts.port}" if parts.port else ""
+                found.append(f"{parts.scheme or 'http'}://{parts.hostname}{port}/")
+        except ValueError:
+            pass
         seen, ordered = set(), []
         for site in found:
             key = host_of(site)
@@ -149,11 +212,11 @@ class Finder:
         favicon = (rb_row or {}).get("favicon") or ""
         if favicon.startswith("http"):
             try:
-                kept, why = keep(harvest.fetch(favicon), slug)
+                kept, why = keep(harvest.fetch(favicon), slug, station.get("stream"))
             except Exception as exc:               # noqa: BLE001
                 kept, why = None, type(exc).__name__
             if kept:
-                return kept, f"radio-browser favicon ({how}): {favicon}"
+                return kept, f"radio-browser favicon ({how}){' ' + why if why else ''}: {favicon}"
             reasons.append(f"radio-browser favicon {why}")
 
         sites = self.sites(station, rb_row)
@@ -172,7 +235,7 @@ class Finder:
         # 3. The icon caches, by hostname.
         for site in sites:
             host = host_of(site)
-            for name, pattern in (("google", GOOGLE), ("duckduckgo", DUCK)):
+            for name, pattern in (("google", GOOGLE), ("gstatic", GSTATIC), ("duckduckgo", DUCK)):
                 try:
                     raw = harvest.fetch(pattern.format(host=quote(host)))
                 except Exception as exc:           # noqa: BLE001
@@ -181,9 +244,9 @@ class Finder:
                 if name == "google" and self.globe and raw == self.globe:
                     reasons.append("google: unknown site")
                     continue
-                kept, why = keep(raw, slug)
+                kept, why = keep(raw, slug, station.get("stream"))
                 if kept:
-                    return kept, f"{name} icon service for {host}"
+                    return kept, f"{name} icon service{' ' + why if why else ''} for {host}"
                 reasons.append(f"{name} {why}")
 
         return None, "; ".join(reasons[:3]) if reasons else "nothing anywhere"
@@ -219,6 +282,19 @@ def main(argv):
     index = json.loads(index_file.read_text(encoding="utf-8")) if index_file.exists() else {}
     facts_file = pathlib.Path(FACTS)
     facts = json.loads(facts_file.read_text(encoding="utf-8")) if facts_file.exists() else {}
+
+    # Stations the catalogue carries by hand rather than from the crawl --
+    # ICRT -- are not in the directory, and had no way to a logo at all.
+    catalogue_file = pathlib.Path(CATALOGUE)
+    if catalogue_file.exists():
+        known = {s.get("stream") for s in stations}
+        doc = json.loads(catalogue_file.read_text(encoding="utf-8"))
+        for row in (doc.get("music", []) if isinstance(doc, dict) else doc):
+            source = (row.get("source") or "").strip()
+            if source and source not in known:
+                stations.append({"name": row.get("title", ""), "stream": source,
+                                 "homepage": row.get("site") or ""})
+                known.add(source)
 
     missing = [s for s in stations if s.get("stream") and s["stream"] not in index]
     print(f"{len(missing)} of {len(stations)} stations have no logo")

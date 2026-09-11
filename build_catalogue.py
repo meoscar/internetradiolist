@@ -495,8 +495,13 @@ def main(argv):
 
     icrt = next((i for i in existing if i.get("id") == ICRT_ID), None)
     if icrt:
+        # Carried over as it was, except its picture: the address it was
+        # given by hand died, and the logo harvest reaches it by stream.
+        logo = logo_for(icrt.get("source", ""), icrt.get("title", ""))
+        if logo:
+            icrt = dict(icrt, image=logo)
         music.append(icrt)
-        print("ICRT carried over unchanged\n")
+        print("ICRT carried over" + (" with its logo\n" if logo else " unchanged\n"))
 
     for genre in sorted(by_genre):
         stations = sorted(by_genre[genre],
