@@ -8404,6 +8404,11 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/kixfm.webp",
   "name": "KIX FM"
  },
+ "https://stream.rcs.revma.com/nkdfurztxp3vv": {
+  "from": "site, its own site: https://www.icrt.com.tw/language_data/en/image/sh/icrt_250x250.jpg",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/icrttaiwan.webp",
+  "name": "ICRT#TAIWAN"
+ },
  "https://streamer.radio.co/s337d3e3a2/listen": {
   "from": "https://worldfunk.net/favicon.ico",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/worldfunkradio.webp",
