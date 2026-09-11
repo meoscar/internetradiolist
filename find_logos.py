@@ -166,6 +166,17 @@ class Finder:
             return None, None
         return row, "by name"
 
+    @staticmethod
+    def stream_root(station):
+        try:
+            parts = urlparse(station.get("stream") or "")
+        except ValueError:
+            return None
+        if not parts.hostname:
+            return None
+        port = f":{parts.port}" if parts.port else ""
+        return f"{parts.scheme or 'http'}://{parts.hostname}{port}/"
+
     def sites(self, station, rb_row):
         """Every site we know for the station, best first, deduplicated."""
         found = []
@@ -184,13 +195,9 @@ class Finder:
         # status page or a hosting panel, and sometimes names the station's
         # own mark. What it names for every station alike is a platform's,
         # and shared_logos.py takes those out again.
-        try:
-            parts = urlparse(station.get("stream") or "")
-            if parts.hostname:
-                port = f":{parts.port}" if parts.port else ""
-                found.append(f"{parts.scheme or 'http'}://{parts.hostname}{port}/")
-        except ValueError:
-            pass
+        root = self.stream_root(station)
+        if root:
+            found.append(root)
         seen, ordered = set(), []
         for site in found:
             key = host_of(site)
@@ -223,13 +230,22 @@ class Finder:
         if not sites:
             return None, "no site known anywhere"
 
-        # 2. A site the directory did not have, asked the harvest's own way.
+        # 2. A site the harvest has not asked, asked the harvest's own way.
+        # The directory's own homepage it has asked every week; a station
+        # the catalogue carries by hand it has never asked at all.
+        listed = (station.get("homepage") or "").strip()
+        rb_site = harvest.station_site((rb_row or {}).get("homepage"))
+        stream_root = self.stream_root(station)
         for site in sites:
-            if site == (station.get("homepage") or "").strip():
+            if site == listed and station.get("harvested", True):
                 continue
             found, note = harvest.harvest({**station, "homepage": site})
             if found:
-                return found, f"site from {'radio-browser' if rb_row and site == harvest.station_site(rb_row.get('homepage')) else 'stream headers'}: {note}"
+                where = ("its own site" if site == listed else
+                         "radio-browser's homepage" if site == rb_site else
+                         "the stream host's page" if site == stream_root else
+                         "the stream headers' site")
+                return found, f"site, {where}: {note}"
             reasons.append(f"{host_of(site)}: {note}")
 
         # 3. The icon caches, by hostname.
@@ -275,6 +291,7 @@ def radio_browser_index():
 def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=0, help="0 = all")
+    parser.add_argument("--only", default="", help="stations whose name contains this")
     args = parser.parse_args(argv[1:])
 
     stations = json.loads(pathlib.Path(DIRECTORY).read_text(encoding="utf-8"))
@@ -293,11 +310,14 @@ def main(argv):
             source = (row.get("source") or "").strip()
             if source and source not in known:
                 stations.append({"name": row.get("title", ""), "stream": source,
-                                 "homepage": row.get("site") or ""})
+                                 "homepage": row.get("site") or "", "harvested": False})
                 known.add(source)
 
     missing = [s for s in stations if s.get("stream") and s["stream"] not in index]
     print(f"{len(missing)} of {len(stations)} stations have no logo")
+    if args.only:
+        missing = [s for s in missing if args.only.lower() in (s.get("name") or "").lower()]
+        print(f"{len(missing)} named like {args.only!r}")
     if args.limit:
         missing = missing[:args.limit]
 
@@ -310,6 +330,8 @@ def main(argv):
 
     got, reasons, sources = 0, {}, {}
     for station, (slug, note) in zip(missing, results):
+        if args.only:
+            print(f"  {station['name'][:40]:40} {'FOUND' if slug else 'no'}: {note}")
         if slug:
             index[station["stream"]] = {
                 "name": station["name"],

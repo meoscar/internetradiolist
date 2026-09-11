@@ -9,6 +9,9 @@ the exact thing the scraped folder was thrown out for, and the app's own
 mark -- two letters on a colour, different for every station -- is the
 better answer for all of them.
 
+Two unrelated stations on one picture is already a platform: a broadcaster
+with two streams names them as one, and that case is kept below.
+
 A network sharing one picture is not that. PARTY VIBE RADIO's twenty-five
 channels, MRG.fm's fifteen, RadioMonster.FM's seven: one broadcaster, one
 mark, and the mark is right on every row. The two cases are told apart by
@@ -32,13 +35,36 @@ from PIL import Image
 
 LOGO_INDEX = "logos.json"
 OUT_DIR = pathlib.Path("logos")
-SHARED_BY = 3          # this many stations on one picture is a platform ...
+SHARED_BY = 2          # this many stations on one picture is a platform ...
 NETWORK_SHARE = 0.6    # ... unless this share of them are named as one
 
 
-def ahash(path):
+def without_tile(image, station_id):
+    """A small icon set on the station's coloured tile, with the tile painted out.
+
+    The tile is the station's own colour, so two stations wearing the same
+    platform icon on their tiles hash differently unless the colour goes
+    first. Painted black within a tolerance, since WebP is lossy.
+    """
+    from find_logos import tile_colour
+    r, g, b = tile_colour(station_id)
+    image = image.convert("RGB")
+    pixels = image.load()
+    width, height = image.size
+    for y in range(height):
+        for x in range(width):
+            pr, pg, pb = pixels[x, y]
+            if abs(pr - r) <= 10 and abs(pg - g) <= 10 and abs(pb - b) <= 10:
+                pixels[x, y] = (0, 0, 0)
+    return image
+
+
+def ahash(path, station_id=None, on_tile=False):
     """64 bits of the picture's shape: which cells are lighter than average."""
-    image = Image.open(path).convert("L").resize((8, 8), Image.LANCZOS)
+    image = Image.open(path)
+    if on_tile and station_id:
+        image = without_tile(image, station_id)
+    image = image.convert("L").resize((8, 8), Image.LANCZOS)
     pixels = list(image.get_flattened_data()) if hasattr(image, "get_flattened_data") \
         else list(image.getdata())
     average = sum(pixels) / len(pixels)
@@ -100,7 +126,8 @@ def shared_pictures(index):
         if not path.exists():
             continue
         try:
-            by_picture[ahash(path)].append(stream)
+            key = ahash(path, stream, "on a tile" in entry.get("from", ""))
+            by_picture[key].append(stream)
         except Exception:                          # noqa: BLE001
             continue
     dropped, kept = [], []

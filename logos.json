@@ -4,20 +4,10 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/80sdigitalmixbydjspinnerceenycbxv2dancehouserapmixtapevinyll.webp",
   "name": "#80s DigitalMix by djSpinnerCee NYCbx [v2] #dance #house #rap #mixtape #vinyl #latin"
  },
- "http://103.246.18.3:4096/;": {
-  "from": "http://www.niyamedia.com/assets/fb_og_image.jpg",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/yesradio106fm.webp",
-  "name": "YES Radio 106 FM"
- },
  "http://103.246.18.3:4146/;": {
   "from": "https://trangchurch.org/wp-content/uploads/2019/08/cropped-Asset-1-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fabradio10250mhz.webp",
   "name": "Fab Radio 102.50 MHz."
- },
- "http://103.246.18.8:4122/;": {
-  "from": "http://www.niyamedia.com/assets/fb_og_image.jpg",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/yesterdayradio.webp",
-  "name": "Yesterday Radio"
  },
  "http://107.150.57.186:8460/;": {
   "from": "https://www.purerock.fm/wp-content/uploads/2021/11/cropped-the-rock-music-192x192.png",
@@ -233,11 +223,6 @@
   "from": "https://www.rifreeradio.org/uploads/5/4/2/5/5425073/published/podcast-circle-badge-logo-183875-726.jpeg?1786322200",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/freeradiori.webp",
   "name": "Free Radio RI"
- },
- "http://149.56.155.73:8068/stream": {
-  "from": "https://sankofaradio.com/wp-content/uploads/2018/11/cropped-Logo-12-300x300.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/sankofaradioghanasfavoritestation.webp",
-  "name": "SANKOFA RADIO-GHANA'S FAVORITE STATION"
  },
  "http://149.56.155.73:8080/stream": {
   "from": "https://realpunkradio.com/wp-content/uploads/2017/07/new_rpr_logo_white-on-black.jpg",
@@ -759,11 +744,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioamchikonkani.webp",
   "name": "Radio AmchiKONKANI"
  },
- "http://178.32.137.180:8533/stream": {
-  "from": "google icon service on a tile for mbradio.it",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiocanelli.webp",
-  "name": "RADIO CANELLI"
- },
  "http://178.32.137.180:8665/stream": {
   "from": "https://www.radiooctopus.it/wp-content/uploads/2020/06/cropped-radio_octopus512-370x370.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiooctopus.webp",
@@ -808,11 +788,6 @@
   "from": "https://www.radiosystem.net/wp-content/uploads/2017/01/sy-ico.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiosystem.webp",
   "name": "RADIO SYSTEM"
- },
- "http://178.32.140.82:9097/stream": {
-  "from": "google icon service on a tile for mbradio.it",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mbstudio10.webp",
-  "name": "MB STUDIO 10"
  },
  "http://178.32.140.82:9244/stream": {
   "from": "https://radiomadeinitaly.it/wordpress/wp-content/uploads/2022/11/logo-3741.png",
@@ -1058,16 +1033,6 @@
   "from": "https://assets.cdn.filesafe.space/i61kK9tdOiAo7OZewSaz/media/7694c711-7340-4ff2-9ed3-000f57afc5e0.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mercyandtruthradio.webp",
   "name": "Mercy and Truth Radio"
- },
- "http://192.241.185.108:8068/stream": {
-  "from": "site from stream headers: https://intruthradio.com/wp-content/plugins/pwa-for-wp/images/logo-512x512.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/intruthradiofairbanksalaska.webp",
-  "name": "In Truth Radio - Fairbanks, Alaska"
- },
- "http://192.241.185.108:8074/stream": {
-  "from": "site from stream headers: https://wzyn.org/wp-content/plugins/pwa-for-wp/images/logo-512x512.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/wzyn.webp",
-  "name": "WZYN"
  },
  "http://192.95.18.39:5123/stream": {
   "from": "https://static.wixstatic.com/media/1d954e_0ed6ce5c8afe4114814860a078e44dbd~mv2.jpg/v1/fill/w_268,h_243,al_c/1d954e_0ed6ce5c8afe4114814860a078e44dbd~mv2.jpg",
@@ -1339,16 +1304,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/revivalradiomusic.webp",
   "name": "Revival Radio - Music"
  },
- "http://199.180.75.2:9000/stream": {
-  "from": "google icon service for 199.180.75.2",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/demostation.webp",
-  "name": "...::: Demo Station :::..."
- },
- "http://199.180.75.2:9257/": {
-  "from": "google icon service for 199.180.75.2",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/thefoundry.webp",
-  "name": "The Foundry"
- },
  "http://199.184.153.60:8020/stream": {
   "from": "site from radio-browser: https://broadcast.truthnetwork.com/_img/truth-logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/truthnetworktriadwtru.webp",
@@ -1508,11 +1463,6 @@
   "from": "site from stream headers: https://radiohanzestad.nl/gallery_gen/614fc05325eaa047a14d4e8cd3b02e33.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hanzestadetherpiratengeheimezender.webp",
   "name": "Hanzestad Etherpiraten - Geheimezender"
- },
- "http://37.187.124.134:8012/;": {
-  "from": "duckduckgo icon service for 37.187.124.134",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dubatekradio.webp",
-  "name": "DubaTek Radio"
  },
  "http://37.59.37.173:40794/;": {
   "from": "http://southcoastradiooldies.co.uk/img/logoSymbol.ico",
@@ -1869,11 +1819,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/metalliveradio.webp",
   "name": "Metal Live Radio"
  },
- "http://51.255.8.139:9120/stream": {
-  "from": "radio-browser favicon (by stream) on a tile: https://radiowom.pl/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiowomworldofmusic.webp",
-  "name": "RadioWoM (World Of Music)"
- },
  "http://51.38.39.244:8010/;": {
   "from": "radio-browser favicon (by name): https://www.dbfmradio.org/DBFM_Logo3.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dbfmradio.webp",
@@ -2099,11 +2044,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hallelujah953fm.webp",
   "name": "Hallelujah 95.3 FM"
  },
- "http://54.39.247.236:1190/;": {
-  "from": "https://iaahradio.com/wp-content/uploads/2026/02/cropped-iaah-site-icon-black-192x192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/iaahradio.webp",
-  "name": "IAAHradio"
- },
  "http://54.39.247.236:1990/;": {
   "from": "http://www.tlbnetwork.com/wp-content/uploads/2020/01/cropped-tlbn-icon-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/tlbn1urban.webp",
@@ -2279,21 +2219,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/riverastream.webp",
   "name": "Rivera  Stream"
  },
- "http://65.108.198.245:7070/stream": {
-  "from": "https://static.hugedomains.com/images/hdv3-img/og_hugedomains.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/breakawayone.webp",
-  "name": "Breakaway One"
- },
- "http://65.108.198.245:7114/stream": {
-  "from": "https://ml8wvnx2ctko.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://wblr1037fm.com/wp-content/uploads/2023/12/WBLR-Mall_DJs.jpg",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/wblrstreamingradio.webp",
-  "name": "WBLR Streaming Radio"
- },
- "http://65.108.198.245:7126/stream": {
-  "from": "https://ml8wvnx2ctko.i.optimole.com/w:auto/h:auto/q:mauto/f:best/https://wblr1037fm.com/wp-content/uploads/2023/12/WBLR-Mall_DJs.jpg",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/smoothjazzwithlimog.webp",
-  "name": "Smooth Jazz With Limo G"
- },
  "http://65.108.198.245:7158/stream": {
   "from": "https://ogr247.com/images/website_image_300x300.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/warriorsforchristglobalministryltdstream.webp",
@@ -2393,11 +2318,6 @@
   "from": "google icon service for radioshemroon.com",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/shemrooncomedyradiopersianiranfarsiiranian.webp",
   "name": "..::SHEMROON COMEDY RADIO::.. | PERSIAN IRAN FARSI IRANIAN"
- },
- "http://69.30.193.170:8084/;": {
-  "from": "http://mixstream.net/assets/ico/apple-touch-icon-57-precomposed.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/ramfmeightieshitradio.webp",
-  "name": "RAM FM Eighties Hit Radio"
  },
  "http://69.30.214.54:13740/;": {
   "from": "radio-browser favicon (by stream) on a tile: https://i.postimg.cc/3JX2jxvZ/Radi-Johan.jpg",
@@ -2939,20 +2859,10 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiomagenta.webp",
   "name": "Radio Magenta"
  },
- "http://94.23.66.155:8056/stream": {
-  "from": "google icon service on a tile for mbradio.it",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mbradio.webp",
-  "name": "MB RADIO"
- },
  "http://94.23.66.155:9112/stream": {
   "from": "site from radio-browser: https://www.promovideotv.com/wp-content/uploads/2016/08/favicon.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/promoradionetwork.webp",
   "name": "PROMORADIO NETWORK"
- },
- "http://94.23.66.155:9330/stream": {
-  "from": "google icon service on a tile for mbradio.it",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bolognamusicradio.webp",
-  "name": "Bologna Music Radio"
  },
  "http://94.23.66.155:9334/stream": {
   "from": "https://www.r102.ch/wp-content/uploads/2026/04/cropped-R102-favicon-192x192.png",
@@ -3134,11 +3044,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hits94.webp",
   "name": "Hits 94"
  },
- "http://ais-sa5.cdnstream1.com/2154_128.mp3": {
-  "from": "google icon service for alternativeradio.us",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/alternativeradious.webp",
-  "name": "AlternativeRadio.us"
- },
  "http://albireo.shoutca.st:9740/stream": {
   "from": "http://www.themusicalbox.com.ar/favicon.ico",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/themusicalboxradio.webp",
@@ -3274,11 +3179,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/cafe80sfm.webp",
   "name": "Cafe 80s FM"
  },
- "http://carina.streamerr.co:8008/stream": {
-  "from": "https://yardhyperadio.com/wp-content/uploads/2025/01/IMG_1092-scaled.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/yardhyperadio.webp",
-  "name": "YardHype Radio"
- },
  "http://carina.streamerr.co:8072/stream": {
   "from": "https://static.wixstatic.com/media/21c435_ed9a4c639bcd4b4492d0b3314c52bc4e%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/21c435_ed9a4c639bcd4b4492d0b3314c52bc4e%7Emv2.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/stonyradio.webp",
@@ -3349,20 +3249,10 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/synthpopradio.webp",
   "name": "SynthPop Radio"
  },
- "http://cast4.my-control-panel.com:7016/stream": {
-  "from": "http://www.AttitudeRock.Jetjams.net/favicon.ico?favicon.0b3bf435.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/attituderock.webp",
-  "name": "Attitude Rock"
- },
  "http://cast4.my-control-panel.com:7037/live": {
   "from": "google icon service for kffr.org",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/883fmkffrcommunityradiofortheheadwatersofthecoloradoriver.webp",
   "name": "88.3FM KFFR - Community Radio for the Headwaters of the Colorado River"
- },
- "http://cast4.my-control-panel.com:7187/autodj": {
-  "from": "gstatic icon service for șpriț.ro",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/manelelapri.webp",
-  "name": "Manele la Șpriț"
  },
  "http://cast5.magicstreams.gr:8003/stream": {
   "from": "http://snowflakefm.com/wp-content/uploads/2022/08/cropped-snow-1-192x192.png",
@@ -3599,11 +3489,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiorg30.webp",
   "name": "Radio RG30"
  },
- "http://europarussia.ru:8000/live": {
-  "from": "google icon service for europarussia.ru",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/europarussia.webp",
-  "name": "EuropaRussia"
- },
  "http://evcast.mediacp.eu:1440/;": {
   "from": "https://hits90s00sradio.weebly.com/uploads/2/2/0/7/22074612/editor/93f89b965b719a175e2ac7de6c3e8b54.gif?1740519154",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hits90s00sradio.webp",
@@ -3778,11 +3663,6 @@
   "from": "https://cir.st/images/og-image.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/streamingbysecurenetsystemscirrusr.webp",
   "name": "Streaming by Securenet Systems Cirrus(R)"
- },
- "http://ice37.fluidstream.net:80/rgw.aac": {
-  "from": "radio-browser favicon (by name): http://www.gruen-weiss.at/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiogrnwei.webp",
-  "name": "Radio Grün Weiß"
  },
  "http://ice37.fluidstream.net:80/ria60_pa.aac": {
   "from": "https://www.ria60.it/wp-content/uploads/2025/05/RIA60quad.png",
@@ -4034,21 +3914,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/madein80.webp",
   "name": "Made in 80"
  },
- "http://listen.bee.radio:80/classics": {
-  "from": "radio-browser favicon (by stream): https://bee.radio/logo.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/beeclassics.webp",
-  "name": "beeClassics"
- },
- "http://listen.bee.radio:80/main": {
-  "from": "google icon service for bee.radio",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/beeradio.webp",
-  "name": "beeRadio"
- },
- "http://listen.bee.radio:80/xmas": {
-  "from": "google icon service for bee.radio",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/beexmas.webp",
-  "name": "beeXMAS"
- },
  "http://listen.eastfm.nz:80/stream.aac": {
   "from": "https://eastfm.nz/wp-content/uploads/2022/06/logo-370x370.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/eastfm.webp",
@@ -4274,11 +4139,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/tynaarlolokaal.webp",
   "name": "Tynaarlo Lokaal"
  },
- "http://mediaserv68.live-streams.nl:8026/autodj": {
-  "from": "http://www.radiofuentedigrasia.com/gallery/favicons/favicon-192x192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiofuentedigrasia.webp",
-  "name": "Radio Fuente Di Grasia"
- },
  "http://mediaserv68.live-streams.nl:8053/autodj": {
   "from": "https://groove95.com/wp-content/uploads/2023/11/G95-300x300.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/groove95.webp",
@@ -4418,11 +4278,6 @@
   "from": "https://www.pureclassix.com/apple-touch-icon.png?v=21",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/pureclassixradiomp3.webp",
   "name": "Pure Classix Radio MP3"
- },
- "http://mugenradio.com:80/mugenradio.mp3": {
-  "from": "google icon service for mugenradio.com",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mugenradio.webp",
-  "name": "MUGEN Radio"
  },
  "http://my.streamingmedia.it:8020/play?&_ic2=1": {
   "from": "https://funky.radio/wp-content/uploads/2023/09/funky.radio_facebook-thumbnail_1640X856.webp",
@@ -5239,20 +5094,10 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/operahighlights.webp",
   "name": "Opera Highlights"
  },
- "http://radio.hearme.fm:8228/stream.m3u": {
-  "from": "https://hearme.fm/wp-content/uploads/2026/02/8232-Orchestral-Works.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/operas.webp",
-  "name": "Operas"
- },
  "http://radio.hearme.fm:8230/stream.m3u": {
   "from": "https://hearme.fm/wp-content/uploads/2024/10/60s-Rock.webp",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/60srock.webp",
   "name": "60s Rock"
- },
- "http://radio.hearme.fm:8232/stream.m3u": {
-  "from": "https://hearme.fm/wp-content/uploads/2026/02/8232-Orchestral-Works.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/orchestralworks.webp",
-  "name": "Orchestral Works"
  },
  "http://radio.hearme.fm:8234/stream.m3u": {
   "from": "https://hearme.fm/wp-content/uploads/2026/02/8234-Organ-works.webp",
@@ -5789,16 +5634,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/country.webp",
   "name": "Country"
  },
- "http://radio.hearme.fm:8900/stream.m3u": {
-  "from": "https://hearme.fm/wp-content/uploads/2025/03/8910-Dreamscapes.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dancehits.webp",
-  "name": "Dance Hits"
- },
- "http://radio.hearme.fm:8910/stream.m3u": {
-  "from": "https://hearme.fm/wp-content/uploads/2025/03/8910-Dreamscapes.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dreamscapes.webp",
-  "name": "Dreamscapes"
- },
  "http://radio.hearme.fm:8970/stream.m3u": {
   "from": "https://hearme.fm/wp-content/uploads/2025/03/8970-Oldies.webp",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/oldies.webp",
@@ -5964,11 +5799,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/saxophonejazz.webp",
   "name": "Saxophone Jazz"
  },
- "http://radio.hearme.fm:9650/stream.m3u": {
-  "from": "https://hearme.fm/wp-content/uploads/2025/03/9880-Bepop.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/jazzhop.webp",
-  "name": "Jazz Hop"
- },
  "http://radio.hearme.fm:9660/stream.m3u": {
   "from": "https://hearme.fm/wp-content/uploads/2025/03/8440-Lounge.webp",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fusionlounge.webp",
@@ -6048,11 +5878,6 @@
   "from": "https://hearme.fm/wp-content/uploads/2025/03/9910-90s-Country.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/90scountry.webp",
   "name": "90s Country"
- },
- "http://radio.hearme.fm:9880/stream.m3u": {
-  "from": "https://hearme.fm/wp-content/uploads/2025/03/9880-Bepop.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bebop.webp",
-  "name": "Bebop"
  },
  "http://radio.hearme.fm:9900/stream.m3u": {
   "from": "https://hearme.fm/wp-content/uploads/2025/03/8480-80s-Rock.webp",
@@ -6203,11 +6028,6 @@
   "from": "https://wsradio.net/wp-content/uploads/2016/08/cropped-WanderingsheepRadioLogoSQ-big-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/christiansmoothjazz.webp",
   "name": "Christian Smooth Jazz"
- },
- "http://radio.zionsound.fr:8000/;": {
-  "from": "duckduckgo icon service for radio.zionsound.fr",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiozion.webp",
-  "name": "Radio Zion"
  },
  "http://radio10.pro-fhi.net:9169/stream": {
   "from": "https://www.sensuelleradio.com/wp-content/uploads/2020/06/fille-blonde-yeux-bleus-770x435.png",
@@ -6474,16 +6294,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/moveradio.webp",
   "name": "Move Radio"
  },
- "http://s2.audiostream.hu:8081/bdpstrock_320k": {
-  "from": "site from stream headers: https://bdpstrock.hu/logo192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bdpstrockhq.webp",
-  "name": "BDPST ROCK HQ"
- },
- "http://s2.audiostream.hu:8090/juventus_FLAC": {
-  "from": "site from stream headers: https://youventusradio.hu/logo192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/youventusrdihifi.webp",
-  "name": "Youventus Rádió Hi-Fi"
- },
  "http://s2.audiostream.hu:8091/bdpstrock_FLAC": {
   "from": "radio-browser favicon (by stream): https://www.bdpstrock.hu/assets/img/front/favicon.ico",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bdpstrockhifi.webp",
@@ -6539,11 +6349,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/jrfmpopdance.webp",
   "name": "JR.FM Pop Dance"
  },
- "http://s2.stationplaylist.com:7068/listen.aac": {
-  "from": "site from stream headers: https://d2114hmso7dut1.cloudfront.net/customers/e1dc6fbc-a563-11e7-93a9-0614187498c1/sites/988c6948-963e-11ee-9e48-0614187498c1/files/9d5f1950-a694-11ee-9548-c517ca478c79/_thumbnails/152.png?t=1703886783&original_extension=png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/wyncradio.webp",
-  "name": "WYNC Radio"
- },
  "http://s2.stationplaylist.com:7070/listen.mp3": {
   "from": "https://kupofm.com/wp-content/uploads/2025/04/cropped-kupo-site-icon-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/kupofm.webp",
@@ -6574,11 +6379,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/jrfmguestmix.webp",
   "name": "JR.FM GuestMix"
  },
- "http://s2.stationplaylist.com:7126/listen.aac": {
-  "from": "https://www.trucknewstalk.com/wp-content/uploads/2025/03/cropped-tnt_logo-simple-2-192x192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/roadradio.webp",
-  "name": "Road & Radio"
- },
  "http://s2.stationplaylist.com:7132/listen.aac": {
   "from": "https://cloud-1de12d.becdn.net/media/iW=192%26iH=any/3e8cf737609de5512af6fe3d855df586.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/northeastiowachristianradio.webp",
@@ -6603,11 +6403,6 @@
   "from": "http://www.ium.edu.na/apple-touch-icon.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/ium.webp",
   "name": "IUM"
- },
- "http://s2.stationplaylist.com:7158/listen.aac": {
-  "from": "google icon service for southernsoulatlfm.com",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/southernsoulatlfmcom.webp",
-  "name": "SouthernSoulATLFM.COM"
  },
  "http://s2.stationplaylist.com:7172/listen.aac": {
   "from": "https://img1.wsimg.com/isteam/ip/4a70e67b-dbed-4d4b-95aa-0a9e811f40ec/blob-53bc7f0.png",
@@ -6658,11 +6453,6 @@
   "from": "https://www.mydisco.gr/images/videobg.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mydisco.webp",
   "name": "My Disco"
- },
- "http://s2.voscast.com:9058/stream": {
-  "from": "google icon service for soundchatradio.com",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/soundchatradio.webp",
-  "name": "Sound Chat Radio"
  },
  "http://s2.voscast.com:9956/stream": {
   "from": "https://www.madhouselive.com/wp-content/uploads/2018/11/cropped-madhouse3-512x512-192x192.png",
@@ -6829,11 +6619,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/cknamfnatahquan.webp",
   "name": "CKNA-MF Natahquan"
  },
- "http://s46.myradiostream.com:11932/stream": {
-  "from": "http://mixstream.net/assets/ico/apple-touch-icon-57-precomposed.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/rejoice937.webp",
-  "name": "Rejoice 93.7"
- },
  "http://s48.myradiostream.com:10658/stream": {
   "from": "https://static.wixstatic.com/media/d0a4fd_c51258cfaf4341f4b0187f3bfd469cce%7Emv2.gif/v1/fit/w_2500,h_1330,al_c/d0a4fd_c51258cfaf4341f4b0187f3bfd469cce%7Emv2.gif",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dazzlefmradio.webp",
@@ -6869,11 +6654,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/worldofprankcalls.webp",
   "name": "World of Prank Calls"
  },
- "http://s5.voscast.com:7516/stream": {
-  "from": "site from radio-browser: https://static.hugedomains.com/images/hdv3-img/og_hugedomains.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/elmetrosalsero.webp",
-  "name": "El Metro Salsero"
- },
  "http://s5.voscast.com:7736/": {
   "from": "google icon service for freetalklive.com",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/freetalklive64k.webp",
@@ -6898,11 +6678,6 @@
   "from": "https://www.radioparatiritis.gr/wp-content/uploads/2020/11/Paratiritis_logo-01-e1607607184823.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioparatiritis.webp",
   "name": "Radio Paratiritis"
- },
- "http://s6.onweb.gr:8058/stream": {
-  "from": "radio-browser favicon (by stream): http://resources.live24.gr/resources/images/stations/7ec1818e-4e3e-4d7e-b4a8-a7271cf626a3.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioplay915fmstereogrxanthi.webp",
-  "name": "Radio Play 91.5 Fm Stereo (Gr Xanthi)"
  },
  "http://s6.voscast.com:10258/": {
   "from": "radio-browser favicon (by stream): https://websitebuilder.one.com/favicon/favicon.ico",
@@ -7003,11 +6778,6 @@
   "from": "http://fiesta98.net/files/packed/19qqau0jh9mbc9pr0a1hzjtjsqgzzeqjs8gxebf6kho525t3pwrvqs82nsd1q5w7qhczsasnxfdn9wdbezpmdof99zgq625hf7e8aes05pct0sh4jndg8vkdi7qmind4qoxfla1uavoz11wnjencgbvj0espmw6mq06b2od5j9mj2k0wz91m6zjjypkkxr1b4jqjxsognxljwd264p09ah9bkz50uo4sjlnw7km3w8kx39pje17668ifq53vit5bgn5o7p1seu03hb2d0aeyqe4exmk42nx.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fiesta98.webp",
   "name": "Fiesta 98"
- },
- "http://s9.voscast.com:9572/live": {
-  "from": "https://www.DangerousDRadio.com/sitepad-data/uploads/2023/04/cropped-DDR-Parental-Advisory-Fav-Icon-192x192.jpg",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dangerousdradio.webp",
-  "name": "Dangerous D Radio"
  },
  "http://salt-lake-server.myautodj.com:8051/stream": {
   "from": "http://fm666.de/wp-content/uploads/2018/08/blackk3-300x300.jpg",
@@ -7424,11 +7194,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/syntheticfmtheradioforthesynthlovers.webp",
   "name": "Synthetic FM - The radio for the Synth lovers"
  },
- "http://stream.trance.ie:8000/stream": {
-  "from": "https://trancepulsefm.ie/wp-content/uploads/2026/06/TrancePulse-logo-New-Dark-300x300.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/trancepulsedublin.webp",
-  "name": "TrancePulse Dublin"
- },
  "http://stream.trendyradio.pl:8000/h": {
   "from": "http://www.trendyradio.pl/assets/images/favicon.ico",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/trendyradioonline128kbps.webp",
@@ -7619,11 +7384,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/twilightradio.webp",
   "name": "Twilight Radio | Сумеречное Радио"
  },
- "http://uk1.internet-radio.com:8004/stream": {
-  "from": "radio-browser favicon (by name): https://www.internet-radio.com/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/pinknoiseradio.webp",
-  "name": "Pink Noise Radio"
- },
  "http://uk1.internet-radio.com:8092/live": {
   "from": "radio-browser favicon (by name): http://www.bigglesfm.com/bigglesimages/bigglesfmlogo.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bigglesfm.webp",
@@ -7743,11 +7503,6 @@
   "from": "https://www.ZompRadio.com/images/ico/apple-touch-icon.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/zompradioundergroundhouseandvocal.webp",
   "name": "ZOMP Radio - Underground House and Vocal"
- },
- "http://uk5.internet-radio.com:8260/stream": {
-  "from": "radio-browser favicon (by name): https://www.internet-radio.com/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/realworldsounds.webp",
-  "name": "Real World Sounds"
  },
  "http://uk5.internet-radio.com:8288/stream": {
   "from": "site from stream headers: https://www.stoneslive.com/wp-content/uploads/2021/10/cropped-image2-192x192.png",
@@ -7929,25 +7684,10 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/burbujaradio.webp",
   "name": "BURBUJA RADIO"
  },
- "http://usa19.fastcast4u.com:5530/;": {
-  "from": "https://christianlifers.com/wp-content/uploads/2025/10/CLR-Favicon-300x300.webp",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/christianliferadiostation2.webp",
-  "name": "Christian Life Radio Station2"
- },
  "http://usa19.fastcast4u.com:5670/;": {
   "from": "https://static.wixstatic.com/media/27e228_3f2202ea56f447f688c59b97b6a3feb7~mv2.jpg/v1/fill/w_2500,h_1180,al_c/27e228_3f2202ea56f447f688c59b97b6a3feb7~mv2.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/romanticastereodedjpajaroherrera.webp",
   "name": "Romantica Stereo de Dj Pajaro Herrera"
- },
- "http://usa20.fastcast4u.com:2050/;": {
-  "from": "google icon service for usa20.fastcast4u.com",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/tejanotunesradio.webp",
-  "name": "Tejano Tunes Radio"
- },
- "http://usa20.fastcast4u.com:4100/;": {
-  "from": "google icon service for usa20.fastcast4u.com",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/yachtrockmiami.webp",
-  "name": "Yacht Rock Miami"
  },
  "http://usa4.fastcast4u.com:5372/KNRadio1": {
   "from": "https://www.kingdomnubia.com/wp-content/uploads/2018/11/cropped-KNRfav1-192x192.png",
@@ -8184,16 +7924,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/deutschrock.webp",
   "name": "Deutschrock"
  },
- "https://edmdnb.com:8020/radio.mp3": {
-  "from": "http://edmdnb.com/images/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/dnbonlyradio.webp",
-  "name": "DnB-Only Radio"
- },
- "https://edmdnb.com:8070/radio.mp3": {
-  "from": "http://edmdnb.com/images/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/japaneseedm.webp",
-  "name": "Japanese EDM"
- },
  "https://eternalmix.org/radio.mp3.m3u": {
   "from": "site from radio-browser: https://eternalmix.org/api/nowplaying/hari_ramas_eternal_mix/art/1789021015.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hariramashappyeternalmix.webp",
@@ -8359,11 +8089,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radio90hit.webp",
   "name": "Radio 90 Hit"
  },
- "https://live.hdradiostreaming.com:10443/listen/capriccio_piano/stream.m3u": {
-  "from": "gstatic icon service for live.hdradiostreaming.com",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/capricciopianohdradiostreamingcom.webp",
-  "name": "Capriccio Piano - HDRADIOSTREAMING.COM"
- },
  "https://live.radioglamorize.com:443/listen.pls?sid=1": {
   "from": "https://radioglamorize.com/wp-content/uploads/2020/05/cropped-sdiavatar2-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioglamorize.webp",
@@ -8398,11 +8123,6 @@
   "from": "https://latidopop.com/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/latidopopradio.webp",
   "name": "LATIDO POP RADIO"
- },
- "https://mixx21.stream.laut.fm/mixx21": {
-  "from": "google icon service for radio-tempore.de",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mixx21.webp",
-  "name": "Mixx 21"
  },
  "https://moonradio.stream.laut.fm/moonradio": {
   "from": "https://www.napolilounge.it/wp-content/uploads/2026/08/cropped-logo512x512-1-192x192.jpg",
@@ -8464,11 +8184,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioambad2.webp",
   "name": "Radio Am Bad 2"
  },
- "https://radio-tempore.stream.laut.fm/radio-tempore": {
-  "from": "https://radio-tempore.wp-name.de/wp-content/uploads/2026/08/cropped-Logo-RT-1-192x192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiotempore.webp",
-  "name": "Radio Tempore"
- },
  "https://radio.wanderingsheep.net:8000/jazzcafe": {
   "from": "https://wsradio.net/wp-content/uploads/2016/08/cropped-WanderingsheepRadioLogoSQ-big-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/jazzcafe.webp",
@@ -8523,11 +8238,6 @@
   "from": "http://www.villaurbana.net/team/wp-content/uploads/2019/12/cropped-RTD-300X300-192x192.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioteam2000.webp",
   "name": "Radioteam 2000"
- },
- "https://rap.stream.laut.fm/rap": {
-  "from": "https://hiphop-radio.ch/wp-content/uploads/2020/12/cropped-cropped-0a5c49f773ceb660b9b9b53fae028c6e-1-150x150-1-192x192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/rap.webp",
-  "name": "Rap"
  },
  "https://repubblicrockradio.stream.laut.fm/repubblicrockradio": {
   "from": "https://repubblicrock.altervista.org/wp-content/uploads/2019/11/REPUBBLIC-ROCK-RADIO.jpg",
@@ -8753,11 +8463,6 @@
   "from": "https://teleradio1.com/wp-content/uploads/2021/02/cropped-cropped-TeleRadioLogo3-1-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/teleradio1.webp",
   "name": "Teleradio 1"
- },
- "https://trap.stream.laut.fm/trap": {
-  "from": "https://hiphop-radio.ch/wp-content/uploads/2020/12/cropped-cropped-0a5c49f773ceb660b9b9b53fae028c6e-1-150x150-1-192x192.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/trap.webp",
-  "name": "Trap"
  },
  "https://uk3-vn.mixstream.net:443/:8136/listen.pls?sid=1": {
   "from": "google icon service for danceradioworldwide.com",
