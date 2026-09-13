@@ -32,6 +32,15 @@
   .card p { margin:0; color:var(--second); font-size:15px; }
   .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
   .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .car { margin:8px 0 40px; }
+  .car .head { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center; margin-bottom:18px; }
+  .car .tag { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:10px; }
+  .car h2 { margin:0 0 12px; font-size:30px; letter-spacing:-.02em; }
+  .car p { color:var(--second); max-width:34em; margin:0; }
+  .car img.wide { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .car .pair { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+  .car .pair img { width:100%; border-radius:14px; border:1px solid var(--line); }
   .plain { background:var(--surface); border:1px solid var(--line); border-radius:14px;
     padding:22px 24px; margin:0 0 40px; color:var(--second); }
   .plain strong { color:var(--text); }
@@ -47,6 +56,7 @@
     .hero { grid-template-columns:1fr; padding-top:24px; }
     h1 { font-size:34px; }
     .three, .strip { grid-template-columns:1fr 1fr; }
+    .car .head, .car .pair { grid-template-columns:1fr; }
   }
 </style>
 </head>
@@ -80,8 +90,23 @@
     <img src="store/06-history.png" alt="The listening history with a recap">
   </section>
 
+  <section class="car">
+    <div class="head">
+      <div>
+        <span class="tag">Android Auto</span>
+        <h2>In the car, with the song</h2>
+        <p>Android Auto shows the song and its cover on the car screen, not just the station. Favourites, what you played recently and what everyone is listening to are the first three tabs; genres, tags and countries browse by picture, with a count on every folder. Everything you kept on the phone is there in the car.</p>
+      </div>
+      <img class="wide" src="store/a1-auto-playing.png" alt="The car screen on Android Auto: the song, the station, and the cover">
+    </div>
+    <div class="pair">
+      <img src="store/a2-auto-genres.png" alt="Genres on the car screen, each with its symbol and how many stations it holds">
+      <img src="store/a3-auto-favourites.png" alt="Favourites on the car screen, with each station's logo or mark">
+    </div>
+  </section>
+
   <section class="plain">
-    <strong>What it is not.</strong> It is not an FM tuner. It does not use your phone's radio chip and it will not work without a data connection. Android Auto and Chromecast are supported. Free, with advertising.
+    <strong>What it is not.</strong> It is not an FM tuner. It does not use your phone's radio chip and it will not work without a data connection. Chromecast is supported too. Free, with advertising.
   </section>
 </main>
 

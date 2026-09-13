@@ -32,6 +32,15 @@
   .card p { margin:0; color:var(--second); font-size:15px; }
   .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
   .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .car { margin:8px 0 40px; }
+  .car .head { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center; margin-bottom:18px; }
+  .car .tag { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--accent); margin-bottom:10px; }
+  .car h2 { margin:0 0 12px; font-size:30px; letter-spacing:-.02em; }
+  .car p { color:var(--second); max-width:34em; margin:0; }
+  .car img.wide { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .car .pair { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:12px; }
+  .car .pair img { width:100%; border-radius:14px; border:1px solid var(--line); }
   .plain { background:var(--surface); border:1px solid var(--line); border-radius:14px;
     padding:22px 24px; margin:0 0 40px; color:var(--second); }
   .plain strong { color:var(--text); }
@@ -47,6 +56,7 @@
     .hero { grid-template-columns:1fr; padding-top:24px; }
     h1 { font-size:34px; }
     .three, .strip { grid-template-columns:1fr 1fr; }
+    .car .head, .car .pair { grid-template-columns:1fr; }
   }
 </style>
 </head>
@@ -80,8 +90,23 @@
     <img src="../store/zh-TW/06-history.png" alt="收聽紀錄與回顧">
   </section>
 
+  <section class="car">
+    <div class="head">
+      <div>
+        <span class="tag">Android Auto</span>
+        <h2>在車上，也知道是哪首歌</h2>
+        <p>Android Auto 車機螢幕上顯示歌名和封面，不只是電台。我的最愛、最近播放、大家都在聽的是前三個分頁；分類、標籤、國家都有圖，每個資料夾寫著裡面有幾台。手機上收藏的，車上都在。</p>
+      </div>
+      <img class="wide" src="../store/zh-TW/a1-auto-playing.png" alt="Android Auto 車機畫面：歌名、電台、封面">
+    </div>
+    <div class="pair">
+      <img src="../store/zh-TW/a2-auto-genres.png" alt="車機上的分類，每個有自己的符號和電台數">
+      <img src="../store/zh-TW/a3-auto-favourites.png" alt="車機上的我的最愛，每台有自己的 logo 或標記">
+    </div>
+  </section>
+
   <section class="plain">
-    <strong>它不是什麼。</strong>它不是 FM 收音機，不用手機的收音晶片，沒有網路就不能用。支援 Android Auto 和 Chromecast。免費，有廣告。
+    <strong>它不是什麼。</strong>它不是 FM 收音機，不用手機的收音晶片，沒有網路就不能用。也支援 Chromecast。免費，有廣告。
   </section>
 </main>
 
