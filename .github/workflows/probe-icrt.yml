@@ -1,0 +1,39 @@
+# One question, answered from a network that can reach the stream: does
+# ICRT's relay name its tracks inline? The sandbox this repository is
+# worked on from cannot connect to it, so the probe runs here and writes
+# what it heard into probes/, where the answer stays with its date.
+name: Probe ICRT's stream for track titles
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'probe_icrt_icy.py'
+      - '.github/workflows/probe-icrt.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Listen for four minutes
+        run: |
+          mkdir -p probes
+          { echo "Probed $(date -u '+%Y-%m-%d %H:%M UTC') from GitHub's network"; echo;
+            python3 probe_icrt_icy.py https://stream.rcs.revma.com/nkdfurztxp3vv 240; } | tee probes/icrt_icy.txt
+          cat probes/icrt_icy.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the answer
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probes/icrt_icy.txt
+          git commit -q -m "What ICRT's stream said for four minutes" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
