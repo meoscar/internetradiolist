@@ -108,6 +108,9 @@ jobs:
             git show origin/live:week.json > week.json 2>/dev/null \
               && echo "week so far:   $(wc -c < week.json) bytes" \
               || echo "no tally yet; this pass starts it"
+            git show origin/live:artists_tally.json > artists_tally.json 2>/dev/null \
+              && echo "artists:       $(wc -c < artists_tally.json) bytes" \
+              || echo "no artist tally yet; this pass starts it"
             # Not read here, only carried. The branch is rebuilt from nothing
             # every pass, so anything this step does not bring forward is
             # deleted -- and the daily chart only writes itself once a day, so
@@ -131,6 +134,7 @@ jobs:
 
             python3 live_now.py --stations "$STATIONS"
             python3 accumulate.py
+            python3 station_artists.py
 
             # An orphan branch built from nothing: no parent, so the branch
             # never accumulates history no matter how often this runs. The name
@@ -138,6 +142,9 @@ jobs:
             git checkout --orphan "live-build-$pass"
             git rm -rf --cached . > /dev/null
             git add -f live.json week.json
+            # Who each station plays, over a month; the app reads the second.
+            [ -s artists_tally.json ] && git add -f artists_tally.json
+            [ -s station_artists.json ] && git add -f station_artists.json
             # Only if it is there: the first passes run before any chart exists.
             [ -s charts.json ] && git add -f charts.json
             git commit -q -m "Live at $(date -u '+%Y-%m-%d %H:%M UTC')"
@@ -157,3 +164,4 @@ jobs:
 
           echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/live.json"
           echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/week.json"
+          echo "https://raw.githubusercontent.com/meoscar/internetradiolist/live/station_artists.json"
