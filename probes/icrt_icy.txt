@@ -1,0 +1,16 @@
+Probed 2026-09-13 19:08 UTC from GitHub's network
+
+redirected to https://n03-us.rcs.revma.com/nkdfurztxp3vv?rj-ttl=5&rj-tok=AAABoJw0g6gA1FErnOYMxrguhw
+https://n03-us.rcs.revma.com/nkdfurztxp3vv?rj-ttl=5&rj-tok=AAABoJw0g6gA1FErnOYMxrguhw
+HTTP 200
+  content-type: audio/aac
+  icy-name: no name
+  icy-metaint: 16000
+
+listening for 240s, printing every metadata block
+
+
+119 metadata blocks, 0 with a title, 119 empty
+
+Every block was empty for the whole window. This relay does not
+publish track titles, and the scrape stays for this station.
