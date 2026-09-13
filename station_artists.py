@@ -19,6 +19,13 @@ line by that artist, and not the same line as the pass before. A record
 that spans two passes counts once; a stream stuck on one title for a day
 counts once. Nothing here is about right now, so nothing here claims it.
 
+Each play also keeps its hour, so a month of them can say when a station
+tends to play an artist -- "usually 20-22", in UTC, for the app to shift
+into the listener's clock. A notice that a followed artist was on twelve
+minutes ago is too late to catch the record; "this station usually plays
+them in the evening" is something to act on tomorrow. Published only when
+the plays are many enough and bunched enough to mean it.
+
   python3 station_artists.py           fold live.json in, write both files
 """
 import json
@@ -44,6 +51,18 @@ PUBLISH_PER_STATION = 25
 # Heard once in a month is not "plays": it is a sample the station's
 # playlist happened to land on while we were looking.
 MIN_PLAYS_PUBLISHED = 2
+
+# When a station tends to play an artist, as a band of hours (UTC).
+#
+# The tally cannot say "now" and says so; what a month of it can say is
+# "usually in the evening", which is the one form of "when" a listener
+# can act on. A band is published only when it means something: at
+# least this many plays, and at least this share of them inside the
+# densest three-hour window. Otherwise the artist is played at all
+# hours, or too rarely to tell, and nothing is claimed.
+WHEN_MIN_PLAYS = 5
+WHEN_WIDTH = 3
+WHEN_SHARE = 0.4
 
 
 def load(name, default):
@@ -94,6 +113,8 @@ def fold(tally, live, now):
         seen["name"] = artist
         seen["plays"] += 1
         seen["last"] = now
+        hours = seen.setdefault("hours", [0] * 24)
+        hours[(now // 3600) % 24] += 1
         counted += 1
     return counted
 
@@ -114,13 +135,45 @@ def prune(tally, now):
         fact["artists"] = artists
 
 
+def when(hours, min_plays=WHEN_MIN_PLAYS, width=WHEN_WIDTH, share=WHEN_SHARE):
+    """The hours an artist is usually played in, as "20-22" (UTC, both ends
+    in), or None when the plays are too few or too spread out to say.
+
+    The densest window of `width` hours, around the clock, so "23-1" is a
+    band too. Among equally dense windows the one that starts on an hour
+    with a play wins, then the earliest: six plays at nine o'clock are
+    "9-11", not "7-9" with two empty hours in front."""
+    if not hours or len(hours) != 24:
+        return None
+    total = sum(hours)
+    if total < min_plays:
+        return None
+    best, start = -1, 0
+    for i in range(24):
+        inside = sum(hours[(i + k) % 24] for k in range(width))
+        if inside > best or (inside == best and hours[i] > 0 and hours[start] == 0):
+            best, start = inside, i
+    if best / total < share:
+        return None
+    return f"{start}-{(start + width - 1) % 24}"
+
+
+def row(a):
+    """One published artist: name, plays, and the band when there is one."""
+    out = [a["name"], a["plays"]]
+    band = when(a.get("hours"))
+    if band:
+        out.append(band)
+    return out
+
+
 def publish(tally, week, now):
     """The extract the app reads: per station, who it plays and how often."""
     week_stations = (week or {}).get("stations", {})
     out = {}
     for station_id, fact in tally.get("stations", {}).items():
         ranked = sorted(fact["artists"].values(), key=lambda a: (-a["plays"], a["name"]))
-        artists = [[a["name"], a["plays"]] for a in ranked
+        artists = [row(a) for a in ranked
                    if a["plays"] >= MIN_PLAYS_PUBLISHED][:PUBLISH_PER_STATION]
         entry = {"station": fact["station"], "passes": fact["passes"], "artists": artists}
         seen = week_stations.get(station_id)

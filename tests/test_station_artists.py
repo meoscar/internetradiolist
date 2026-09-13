@@ -53,6 +53,54 @@ class Fold(unittest.TestCase):
         self.assertEqual(tally["stations"], {})
 
 
+class When(unittest.TestCase):
+    """When a station tends to play an artist, from the hours of its plays."""
+
+    def hours(self, **at):
+        out = [0] * 24
+        for hour, n in at.items():
+            out[int(hour[1:])] = n
+        return out
+
+    def test_the_hour_of_each_play_is_kept(self):
+        tally = {}
+        at = 20 * 3600 + 600                       # 20:10 UTC on day zero
+        station_artists.fold(tally, live(at, ("s1", "FM", "Donna Summer - I Feel Love")), at)
+        station_artists.fold(tally, live(at + 86400 * 2 + 3600, ("s1", "FM", "Donna Summer - Hot Stuff")), at + 86400 * 2 + 3600)
+        hours = tally["stations"]["s1"]["artists"]["donna summer"]["hours"]
+        self.assertEqual((hours[20], hours[21], sum(hours)), (1, 1, 2))
+
+    def test_plays_bunched_in_the_evening_are_an_evening_band(self):
+        self.assertEqual(station_artists.when(self.hours(h20=3, h21=4, h22=2, h9=1)), "20-22")
+
+    def test_too_few_plays_or_plays_at_all_hours_are_no_band(self):
+        self.assertIsNone(station_artists.when(self.hours(h20=2, h21=2)), "four plays is too few")
+        self.assertIsNone(station_artists.when([1] * 24), "a station that plays them all day has no time")
+        self.assertIsNone(station_artists.when(self.hours(h1=2, h7=2, h13=2, h19=2, h22=2)))
+        self.assertIsNone(station_artists.when(None))
+        self.assertIsNone(station_artists.when([0] * 23), "not a day")
+
+    def test_a_band_can_cross_midnight_and_a_tie_goes_to_the_earlier_hour(self):
+        self.assertEqual(station_artists.when(self.hours(h23=3, h0=3, h1=2)), "23-1")
+        self.assertEqual(station_artists.when(self.hours(h8=3, h9=3, h14=3, h15=3)), "8-10")
+
+    def test_the_band_is_published_beside_the_count_only_when_there_is_one(self):
+        tally = {}
+        for day in range(6):
+            at = day * 86400 + 20 * 3600
+            station_artists.fold(tally, live(at, ("s1", "FM", f"Donna Summer - Song {day}"),
+                                             ("s1", "FM", f"Chic - Song {day}")), at)
+        # Chic's second line each pass is a new play in the same hour too;
+        # spread Chic's plays over the clock instead.
+        chic = tally["stations"]["s1"]["artists"]["chic"]
+        chic["hours"] = [1] * 24
+        chic["plays"] = 24
+        doc = station_artists.publish(tally, {}, 0)
+        artists = doc["stations"]["s1"]["artists"]
+        self.assertEqual(artists[0], ["Chic", 24])
+        self.assertEqual(artists[1], ["Donna Summer", 6, "20-22"])
+
+
 class Prune(unittest.TestCase):
     def test_an_artist_not_heard_for_a_month_is_dropped(self):
         tally = {}
