@@ -27,5 +27,11 @@ jobs:
           echo "## Coverage" >> "$GITHUB_STEP_SUMMARY"
           echo "The pipeline that publishes what the app reads:" | tee -a "$GITHUB_STEP_SUMMARY"
           python3 -m coverage report --include='notasong.py,station_artists.py,accumulate.py,charts.py,live_now.py,build_catalogue.py,station_status.py,harvest_icy.py,crawl_directory.py' | tee -a "$GITHUB_STEP_SUMMARY"
-          echo "Everything, tools and one-off probes included:" | tee -a "$GITHUB_STEP_SUMMARY"
+          # The probe_*.py scripts are questions asked once of a live site,
+          # answered in their own docstrings and run by no workflow; they are
+          # kept as the record of how a decision was reached, not as code
+          # that publishes anything. They are not held to a coverage figure.
+          echo "Everything that runs on a schedule or by hand, probes left out:" | tee -a "$GITHUB_STEP_SUMMARY"
+          python3 -m coverage report --omit='tests/*,probe_*.py' | tail -1 | tee -a "$GITHUB_STEP_SUMMARY"
+          echo "Everything, one-off probes included:" | tee -a "$GITHUB_STEP_SUMMARY"
           python3 -m coverage report | tail -1 | tee -a "$GITHUB_STEP_SUMMARY"
