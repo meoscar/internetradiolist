@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /for-stations/
+
+Sitemap: https://meoscar.github.io/internetradiolist/sitemap.xml

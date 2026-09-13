@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nowplay 世界電台</title>
+<meta name="description" content="會告訴你正在播哪首歌的網路電台。2,000 多個電台，歌手和封面就在畫面上，車上有 Android Auto。Google Play 免費下載。">
+<link rel="canonical" href="https://meoscar.github.io/internetradiolist/zh-TW/">
+<link rel="alternate" hreflang="en" href="https://meoscar.github.io/internetradiolist/">
+<link rel="alternate" hreflang="zh-TW" href="https://meoscar.github.io/internetradiolist/zh-TW/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nowplay 世界電台">
+<meta property="og:description" content="會告訴你正在播哪首歌的網路電台。2,000 多個電台，車上有 Android Auto。">
+<meta property="og:image" content="https://meoscar.github.io/internetradiolist/store/zh-TW/feature-graphic.png">
+<meta property="og:url" content="https://meoscar.github.io/internetradiolist/zh-TW/">
 <style>
   :root { --ground:#0D1117; --surface:#161B22; --raised:#1C222B; --line:#2B333D;
     --accent:#F0AD4E; --text:#E9F0F7; --second:#A3B1C2; --muted:#93A2B5; }
@@ -32,6 +41,11 @@
   .card p { margin:0; color:var(--second); font-size:15px; }
   .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
   .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .real { margin:8px 0 40px; }
+  .real h2 { margin:0 0 6px; font-size:24px; }
+  .real p { margin:0 0 16px; color:var(--second); }
+  .real .grid { display:grid; grid-template-columns:repeat(6,1fr); gap:12px; }
+  .real .grid img { width:100%; border-radius:14px; border:1px solid var(--line); }
   .car { margin:8px 0 40px; }
   .car .head { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center; margin-bottom:18px; }
   .car .tag { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase;
@@ -56,6 +70,7 @@
     .hero { grid-template-columns:1fr; padding-top:24px; }
     h1 { font-size:34px; }
     .three, .strip { grid-template-columns:1fr 1fr; }
+    .real .grid { grid-template-columns:1fr 1fr 1fr; }
     .car .head, .car .pair { grid-template-columns:1fr; }
   }
 </style>
@@ -88,6 +103,19 @@
     <img src="../store/zh-TW/03-home.png" alt="首頁：此刻正在播">
     <img src="../store/zh-TW/04-stations.png" alt="電台清單，每一台正在播什麼、多少人在聽">
     <img src="../store/zh-TW/06-history.png" alt="收聽紀錄與回顧">
+  </section>
+
+  <section class="real">
+    <h2>手機上的實際畫面</h2>
+    <p>這幾張是實機截圖，不是繪製的：正在播的唱片封面，以及入口、分類、標籤、國家，每一格都寫著後面有幾個電台。</p>
+    <div class="grid">
+      <img src="../store/zh-TW/r1-home.png" alt="手機首頁：繼續聽、熱門分類、此刻正在播">
+      <img src="../store/zh-TW/r2-now-playing.png" alt="手機播放中畫面，唱片的真實封面">
+      <img src="../store/zh-TW/r3-browse.png" alt="瀏覽畫面：最愛、歷史、最常聽、冠軍曲、分類、趨勢、標籤、國家">
+      <img src="../store/zh-TW/r4-genres.png" alt="手機上的分類，每個有符號和電台數">
+      <img src="../store/zh-TW/r5-tags.png" alt="手機上的標籤，每個有符號和數字">
+      <img src="../store/zh-TW/r6-countries.png" alt="手機上的國家，各在自己的國旗下，附電台數">
+    </div>
   </section>
 
   <section class="car">

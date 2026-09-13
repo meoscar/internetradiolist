@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Nowplay: Radio World</title>
+<meta name="description" content="Internet radio that tells you the song. 2,000+ stations, the artist and the cover on screen, Android Auto in the car. Free on Google Play.">
+<link rel="canonical" href="https://meoscar.github.io/internetradiolist/">
+<link rel="alternate" hreflang="en" href="https://meoscar.github.io/internetradiolist/">
+<link rel="alternate" hreflang="zh-TW" href="https://meoscar.github.io/internetradiolist/zh-TW/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nowplay: Radio World">
+<meta property="og:description" content="Internet radio that tells you the song. 2,000+ stations, Android Auto in the car.">
+<meta property="og:image" content="https://meoscar.github.io/internetradiolist/store/feature-graphic.png">
+<meta property="og:url" content="https://meoscar.github.io/internetradiolist/">
 <style>
   :root { --ground:#0D1117; --surface:#161B22; --raised:#1C222B; --line:#2B333D;
     --accent:#F0AD4E; --text:#E9F0F7; --second:#A3B1C2; --muted:#93A2B5; }
@@ -32,6 +41,11 @@
   .card p { margin:0; color:var(--second); font-size:15px; }
   .strip { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:8px 0 40px; }
   .strip img { width:100%; border-radius:14px; border:1px solid var(--line); }
+  .real { margin:8px 0 40px; }
+  .real h2 { margin:0 0 6px; font-size:24px; }
+  .real p { margin:0 0 16px; color:var(--second); }
+  .real .grid { display:grid; grid-template-columns:repeat(6,1fr); gap:12px; }
+  .real .grid img { width:100%; border-radius:14px; border:1px solid var(--line); }
   .car { margin:8px 0 40px; }
   .car .head { display:grid; grid-template-columns:1.1fr .9fr; gap:40px; align-items:center; margin-bottom:18px; }
   .car .tag { display:inline-block; font-size:13px; letter-spacing:.08em; text-transform:uppercase;
@@ -56,6 +70,7 @@
     .hero { grid-template-columns:1fr; padding-top:24px; }
     h1 { font-size:34px; }
     .three, .strip { grid-template-columns:1fr 1fr; }
+    .real .grid { grid-template-columns:1fr 1fr 1fr; }
     .car .head, .car .pair { grid-template-columns:1fr; }
   }
 </style>
@@ -88,6 +103,19 @@
     <img src="store/03-home.png" alt="Home: what is on the air right now">
     <img src="store/04-stations.png" alt="Stations with what each is playing and how many are listening">
     <img src="store/06-history.png" alt="The listening history with a recap">
+  </section>
+
+  <section class="real">
+    <h2>As it is on the phone</h2>
+    <p>Photographs of the app running, not drawings: the cover of the record that was on, and the doors, genres, tags and countries with how many stations are behind each.</p>
+    <div class="grid">
+      <img src="store/r1-home.png" alt="Home on the phone: continue listening, popular genres, what is on the air this minute">
+      <img src="store/r2-now-playing.png" alt="Now Playing on the phone, with the record's real cover">
+      <img src="store/r3-browse.png" alt="The Browse screen: favourites, history, most listened, number ones, genres, on trend, tags, countries">
+      <img src="store/r4-genres.png" alt="Genres on the phone, each with a symbol and how many stations it holds">
+      <img src="store/r5-tags.png" alt="Tags on the phone, each with a symbol and a count">
+      <img src="store/r6-countries.png" alt="Countries on the phone, each under its flag with a count">
+    </div>
   </section>
 
   <section class="car">
