@@ -72,7 +72,14 @@ def ahash(path, station_id=None, on_tile=False):
 
 
 def words(name):
+    """The words of a name, lower-case and without accents.
+
+    Decomposed but not stripped, an accent was a character between two
+    halves of a word: "Rádio Maria" read as "ra", "dio", "maria", and the
+    network rule that looks at the first word never saw "radio".
+    """
     folded = unicodedata.normalize("NFKD", (name or "").casefold())
+    folded = "".join(c for c in folded if not unicodedata.combining(c))
     return [w for w in re.split(r"[^a-z0-9]+", folded) if len(w) >= 2]
 
 
