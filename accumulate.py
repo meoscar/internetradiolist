@@ -30,6 +30,8 @@ import sys
 import time
 import unicodedata
 
+import notasong
+
 LIVE = "live.json"
 WEEK = "week.json"
 COUNTS = "counts.json"
@@ -61,10 +63,8 @@ MAX_TRACKS = 20000
 # key a station has ever played is the second-largest thing in this file.
 MAX_TRACKS_PER_STATION = 400
 
-# Junk a station puts through the same field it uses for songs.
-NOT_A_TRACK = re.compile(
-    r"advert|commercial|jingle|station\s?id|no title|^unknown$|nonstop|non-stop"
-    r"|https?://|www\.", re.I)
+# Junk a station puts through the same field it uses for songs: the rules
+# are in notasong.py, with the measurements that set them.
 
 
 def normalise(text):
@@ -112,7 +112,7 @@ def main(argv):
     for row in live["playing"]:
         raw = (row.get("track") or "").strip()
         artist, title = split(raw)
-        if not title or len(title) < 2 or NOT_A_TRACK.search(raw):
+        if notasong.junk(artist, title, row.get("station", "")):
             skipped += 1
             continue
         key = normalise(f"{artist} {title}")
@@ -155,6 +155,16 @@ def main(argv):
         return entry["plays"] <= 2 and last < twice_ago
 
     stale = [k for k, v in tracks.items() if spent(v)]
+
+    # And the strings a station sends in every pass. Those cannot be told
+    # apart from a song on the first sighting, only once there are enough
+    # sightings to be a rate: see notasong.constant.
+    def observations(entry):
+        return sum(stations.get(sid, {}).get("plays", 0) for sid in entry["stations"])
+
+    never_stops = [k for k, v in tracks.items()
+                   if k not in stale and notasong.constant(v["plays"], observations(v))]
+    stale += never_stops
     for key in stale:
         del tracks[key]
 

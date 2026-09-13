@@ -1,0 +1,21 @@
+name: Tests
+
+# The rules that decide what is and is not a song, and what the live pass
+# publishes, on the strings that were at the top of the chart before them.
+# Seconds, on a public repository where the minutes are free.
+on:
+  push:
+    paths: ['*.py', 'tests/**', '.github/workflows/tests.yml']
+  pull_request:
+    paths: ['*.py', 'tests/**']
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python3 -m unittest discover -s tests -v

@@ -43,6 +43,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 import crawl_directory
 import harvest_icy
+import notasong
 import station_status
 
 CATALOGUE = "music_worldradio.json"
@@ -131,6 +132,12 @@ def busiest_stations(by_source, directory, limit):
     return rows[:limit]
 
 
+def split_line(raw):
+    """"Artist - Title" on the first separator, as accumulate.py splits it."""
+    i = raw.find(" - ")
+    return (raw[:i].strip(), raw[i + 3:].strip()) if i > 0 else ("", raw.strip())
+
+
 def interrogate(stations):
     """Ask each station, in parallel, what it is playing and who is listening.
 
@@ -152,7 +159,11 @@ def interrogate(stations):
         title = (facts.get("stream_title") or "").strip()
 
         entry = None
-        if facts.get("ok") and title:
+        # A station that sends its own name, a web address or an unfilled
+        # template in the song field has not named a track; the tile shows
+        # the station alone rather than the string.
+        if facts.get("ok") and title and not notasong.junk(
+                *split_line(title), row.get("title", "")):
             entry = {
                 "id": row.get("id") or stream,
                 "station": row.get("title", ""),

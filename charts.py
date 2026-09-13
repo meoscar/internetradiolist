@@ -35,6 +35,8 @@ import urllib.parse
 import urllib.request
 from collections import Counter
 
+import notasong
+
 WEEK = "week.json"
 YEARS = "years.json"
 OUT = "charts.json"
@@ -52,6 +54,7 @@ TOP_STATIONS = 30
 MIN_DATED = 6
 # Enough plays before a track is worth looking a year up for.
 MIN_PLAYS_FOR_LOOKUP = 2
+MIN_STATIONS = 2       # for a chart entry: one station's loop is not radio's week
 
 # Two stations that play the same records are alike, and nothing else in this
 # repository can say so: a genre tag is what somebody typed, and this is what
@@ -90,7 +93,9 @@ def year_of(artist, title):
     asked again every run; a network failure returns None and is retried.
     """
     term = f"{artist} {title}".strip()
-    if len(term) < 3:
+    if len(term) < 3 or not artist:
+        # With no artist there is nothing for the answer to agree with, and
+        # "RADIO MARIA ITALIA" alone found a 2015 record on the first try.
         return "none"
     url = (f"{ENDPOINT}?term={urllib.parse.quote(term)}"
            f"&entity=song&limit=1")
@@ -104,6 +109,11 @@ def year_of(artist, title):
     except Exception:                                # noqa: BLE001
         return None
     if not results:
+        return "none"
+    # iTunes answers the nearest thing it has, which for "Radio DeeJay -
+    # Live" was somebody else's record called Live. The year is only worth
+    # remembering when the artist that came back is the one we asked about.
+    if not notasong.artist_matches(artist, results[0].get("artistName") or ""):
         return "none"
     released = results[0].get("releaseDate") or ""
     if len(released) < 4 or not released[:4].isdigit():
@@ -121,9 +131,27 @@ def main(argv):
         print(f"{WEEK} has nothing in it yet; the live pass has to run first")
         return 1
 
-    tracks = week["tracks"]
     stations = week.get("stations", {})
     years = load(YEARS, {})
+
+    # What the week carries that is not a song. accumulate.py already refuses
+    # these at the door and prunes the ones that never stop, but a week is
+    # eight days long and the rules are newer than some of what is in it, so
+    # the same rules are applied again here to what came forward.
+    def observations(entry):
+        return sum(stations.get(sid, {}).get("plays", 0) for sid in entry["stations"])
+
+    def a_song(entry):
+        names = [stations.get(sid, {}).get("name", "") for sid in entry["stations"]]
+        if any(notasong.junk(entry["artist"], entry["title"], n) for n in names or [""]):
+            return False
+        return not notasong.constant(entry["plays"], observations(entry))
+
+    tracks = {k: t for k, t in week["tracks"].items() if a_song(t)}
+    for fact in stations.values():
+        fact["tracks"] = [k for k in fact["tracks"] if k in tracks]
+    print(f"{len(week['tracks']) - len(tracks)} of {len(week['tracks'])} rows "
+          f"in the week are not songs and are left out of everything below")
     print(f"{len(tracks)} distinct tracks this week, "
           f"{sum(t['plays'] for t in tracks.values())} plays, "
           f"{len(stations)} stations")
@@ -167,8 +195,14 @@ def main(argv):
     # could maintain. So the chart only ranks what iTunes confirmed, the same
     # bar the eras below already cleared without anyone deciding to apply it
     # here too.
+    # And a chart entry is "Artist - Title", played by more than one station.
+    # A title alone may be a song, but the ones that reached the top without
+    # an artist this week were a station's name, "ToP of the Hour" and a
+    # prayer slot; and what one station alone plays ninety times is that
+    # station's obsession, or its news bulletin, not what radio played.
     dated_tracks = {k: t for k, t in tracks.items()
-                     if years.get(k, "none") != "none"}
+                     if t["artist"] and len(t["stations"]) >= MIN_STATIONS
+                     and years.get(k, "none") != "none"}
     ordered = sorted(dated_tracks.items(),
                      key=lambda kv: (-kv[1]["plays"], -len(kv[1]["stations"])))
     top_tracks = []
@@ -183,10 +217,13 @@ def main(argv):
     print(f"{len(dated_tracks)} of {len(tracks)} tracks confirmed by iTunes; "
           f"the chart only ranks those")
 
+    # The artists, held to the same bar as the records. Counted over every
+    # string with a dash in it, the week's top artists were a Cuban comedian's
+    # sketches, a Persian talk host and "Coast to Coast AM with Art Bell":
+    # each one a different title every hour, none of them a record.
     artists = Counter()
-    for track in tracks.values():
-        if track["artist"]:
-            artists[track["artist"]] += track["plays"]
+    for track in dated_tracks.values():
+        artists[track["artist"]] += track["plays"]
     top_artists = [{"artist": a, "plays": n} for a, n in
                    artists.most_common(TOP_ARTISTS)]
 
