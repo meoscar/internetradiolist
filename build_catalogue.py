@@ -563,9 +563,11 @@ def main(argv):
     print(f"  {with_tags:5d}  carry tags, {distinct_tags} distinct")
     print(f"  {with_homepage:5d}  carry the station's own website\n")
 
-    with_image = sum(1 for r in music if r["image"] and r["image"] != PLACEHOLDER)
-    empty = sum(1 for r in music if not r["image"])
-    with_site = sum(1 for r in music if r["site"])
+    # .get, not [], for the rows carried over from the previous catalogue:
+    # an old row without a site or an image is a row to count, not a crash.
+    with_image = sum(1 for r in music if r.get("image") and r["image"] != PLACEHOLDER)
+    empty = sum(1 for r in music if not r.get("image"))
+    with_site = sum(1 for r in music if r.get("site"))
     genres = Counter(r["genre"] for r in music)
     text = json.dumps({"music": music}, ensure_ascii=False,
                       separators=(",", ":")) + "\n"
