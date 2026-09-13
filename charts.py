@@ -121,23 +121,16 @@ def year_of(artist, title):
     return released[:4]
 
 
-def main(argv):
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--lookups", type=int, default=LOOKUPS)
-    args = parser.parse_args(argv[1:])
+def songs_only(week):
+    """The week's tracks that are songs, and the stations' lists cut to them.
 
-    week = load(WEEK, None)
-    if not week or not week.get("tracks"):
-        print(f"{WEEK} has nothing in it yet; the live pass has to run first")
-        return 1
-
+    accumulate.py already refuses junk at the door and prunes the strings
+    that never stop, but a week is eight days long and the rules are newer
+    than some of what is in it, so the same rules are applied again to what
+    came forward.
+    """
     stations = week.get("stations", {})
-    years = load(YEARS, {})
 
-    # What the week carries that is not a song. accumulate.py already refuses
-    # these at the door and prunes the ones that never stop, but a week is
-    # eight days long and the rules are newer than some of what is in it, so
-    # the same rules are applied again here to what came forward.
     def observations(entry):
         return sum(stations.get(sid, {}).get("plays", 0) for sid in entry["stations"])
 
@@ -147,38 +140,19 @@ def main(argv):
             return False
         return not notasong.constant(entry["plays"], observations(entry))
 
-    tracks = {k: t for k, t in week["tracks"].items() if a_song(t)}
+    ignored = week.get("ignored", {})
+    tracks = {k: t for k, t in week["tracks"].items() if k not in ignored and a_song(t)}
     for fact in stations.values():
         fact["tracks"] = [k for k in fact["tracks"] if k in tracks]
-    print(f"{len(week['tracks']) - len(tracks)} of {len(week['tracks'])} rows "
-          f"in the week are not songs and are left out of everything below")
-    print(f"{len(tracks)} distinct tracks this week, "
-          f"{sum(t['plays'] for t in tracks.values())} plays, "
-          f"{len(stations)} stations")
-    print(f"{len(years)} release years already known\n")
+    return tracks, stations
 
-    # ---- fill in some years, within the budget ----
 
-    wanted = [k for k, t in sorted(tracks.items(), key=lambda kv: -kv[1]["plays"])
-              if k not in years and t["plays"] >= MIN_PLAYS_FOR_LOOKUP]
-    asked = learned = 0
-    for key in wanted[:max(args.lookups, 0)]:
-        track = tracks[key]
-        answer = year_of(track["artist"], track["title"])
-        asked += 1
-        time.sleep(PAUSE)
-        if answer is None:
-            continue                                 # transient; ask again later
-        years[key] = answer
-        if answer != "none":
-            learned += 1
-    if asked:
-        print(f"asked iTunes about {asked} tracks, dated {learned}")
-        pathlib.Path(YEARS).write_text(
-            json.dumps(years, ensure_ascii=False, separators=(",", ":")) + "\n",
-            encoding="utf-8")
-    print(f"{len(wanted) - asked} still undated; the next run takes more\n")
+def build(week, tracks, stations, years, now=None):
+    """Everything charts.json says, from a week of songs and the years known.
 
+    Pure: the week, the songs in it, the stations and the years go in, the
+    document comes out. The lookups, the files and the clock are main's.
+    """
     # ---- the chart ----
     #
     # Measured before shipping this, on the first week this ever ran: of the
@@ -325,7 +299,7 @@ def main(argv):
     climbing = climbing[:CLIMBING]
 
     charts = {
-        "at": int(time.time()),
+        "at": int(now if now is not None else time.time()),
         "days": week.get("days", 8),
         "observed": sum(t["plays"] for t in tracks.values()),
         "tracks": top_tracks,
@@ -336,30 +310,76 @@ def main(argv):
         "similar": similar,
         "climbing": climbing,
     }
+    return charts
+
+
+def main(argv):
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--lookups", type=int, default=LOOKUPS)
+    args = parser.parse_args(argv[1:])
+
+    week = load(WEEK, None)
+    if not week or not week.get("tracks"):
+        print(f"{WEEK} has nothing in it yet; the live pass has to run first")
+        return 1
+
+    years = load(YEARS, {})
+
+    tracks, stations = songs_only(week)
+    print(f"{len(week['tracks']) - len(tracks)} of {len(week['tracks'])} rows "
+          f"in the week are not songs and are left out of everything below")
+    print(f"{len(tracks)} distinct tracks this week, "
+          f"{sum(t['plays'] for t in tracks.values())} plays, "
+          f"{len(stations)} stations")
+    print(f"{len(years)} release years already known\n")
+
+    # ---- fill in some years, within the budget ----
+
+    wanted = [k for k, t in sorted(tracks.items(), key=lambda kv: -kv[1]["plays"])
+              if k not in years and t["plays"] >= MIN_PLAYS_FOR_LOOKUP]
+    asked = learned = 0
+    for key in wanted[:max(args.lookups, 0)]:
+        track = tracks[key]
+        answer = year_of(track["artist"], track["title"])
+        asked += 1
+        time.sleep(PAUSE)
+        if answer is None:
+            continue                                 # transient; ask again later
+        years[key] = answer
+        if answer != "none":
+            learned += 1
+    if asked:
+        print(f"asked iTunes about {asked} tracks, dated {learned}")
+        pathlib.Path(YEARS).write_text(
+            json.dumps(years, ensure_ascii=False, separators=(",", ":")) + "\n",
+            encoding="utf-8")
+    print(f"{len(wanted) - asked} still undated; the next run takes more\n")
+
+    charts = build(week, tracks, stations, years)
     text = json.dumps(charts, ensure_ascii=False, separators=(",", ":")) + "\n"
     pathlib.Path(OUT).write_text(text, encoding="utf-8")
 
     print(f"{OUT}: {len(text) / 1024:.1f} KB")
-    print(f"  {len(top_tracks):4d}  chart entries")
-    print(f"  {len(top_artists):4d}  artists")
-    print(f"  {len(rising):4d}  new this week")
-    print(f"  {len(eras):4d}  stations with a datable era")
-    print(f"  {len(similar):4d}  stations with a neighbour that plays the same records")
-    print(f"  {len(climbing):4d}  stations gaining listeners over days\n")
+    print(f"  {len(charts['tracks']):4d}  chart entries")
+    print(f"  {len(charts['artists']):4d}  artists")
+    print(f"  {len(charts['new']):4d}  new this week")
+    print(f"  {len(charts['eras']):4d}  stations with a datable era (oldest end)")
+    print(f"  {len(charts['similar']):4d}  stations with a neighbour that plays the same records")
+    print(f"  {len(charts['climbing']):4d}  stations gaining listeners over days\n")
 
-    if top_tracks:
+    if charts["tracks"]:
         print("most played this week:")
-        for i, row in enumerate(top_tracks[:10], 1):
+        for i, row in enumerate(charts["tracks"][:10], 1):
             year = f" ({row['year']})" if "year" in row else ""
             print(f"  {i:2d}. {row['artist'][:22]:24} {row['title'][:26]:28}"
                   f" {row['plays']:4d} plays on {row['stations']}{year}")
-    if eras:
+    if charts["eras"]:
         print("\noldest music:")
-        for row in eras[:5]:
+        for row in charts["eras"][:5]:
             print(f"  {row['year']}  {row['station'][:38]:40} "
                   f"({row['dated']} dated)")
         print("newest music:")
-        for row in reversed(eras[-5:]):
+        for row in charts["eras_newest"][:5]:
             print(f"  {row['year']}  {row['station'][:38]:40} "
                   f"({row['dated']} dated)")
     return 0

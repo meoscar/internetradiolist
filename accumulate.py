@@ -106,6 +106,11 @@ def main(argv):
     week = load(WEEK, {})
     tracks = week.get("tracks", {})
     stations = week.get("stations", {})
+    # The strings found to be a station's rather than a record's, and when
+    # each was last seen. Pruned and forgotten, a stuck stream came back the
+    # next pass with a count of one and climbed to thirty-nine before it was
+    # caught again: enough to sit in the chart between prunings.
+    ignored = week.get("ignored", {})
     now = int(live.get("at") or time.time())
 
     added = seen = skipped = 0
@@ -117,6 +122,10 @@ def main(argv):
             continue
         key = normalise(f"{artist} {title}")
         if len(key) < 3:
+            skipped += 1
+            continue
+        if key in ignored:
+            ignored[key] = now
             skipped += 1
             continue
 
@@ -164,9 +173,13 @@ def main(argv):
 
     never_stops = [k for k, v in tracks.items()
                    if k not in stale and notasong.constant(v["plays"], observations(v))]
+    for key in never_stops:
+        ignored[key] = now
     stale += never_stops
     for key in stale:
         del tracks[key]
+    for key in [k for k, seen in ignored.items() if seen < week_ago]:
+        del ignored[key]
 
     # And a ceiling, in case a day is unusually varied. Most played wins.
     capped = 0
@@ -224,7 +237,8 @@ def main(argv):
         del audience[key]
 
     week = {"updated": now, "days": KEEP_DAYS,
-            "tracks": tracks, "stations": stations, "listeners": audience}
+            "tracks": tracks, "stations": stations, "listeners": audience,
+            "ignored": ignored}
     text = json.dumps(week, ensure_ascii=False, separators=(",", ":")) + "\n"
     pathlib.Path(WEEK).write_text(text, encoding="utf-8")
 
@@ -233,6 +247,7 @@ def main(argv):
           f"({skipped} were not tracks)")
     print(f"  {added:6d}  heard for the first time")
     print(f"  {len(stale):6d}  dropped as tail or older than {KEEP_DAYS} days")
+    print(f"  {len(ignored):6d}  strings known to be a station's, not a record's")
     if capped:
         print(f"  {capped:6d}  over the {MAX_TRACKS} ceiling, least played")
     if trimmed:
