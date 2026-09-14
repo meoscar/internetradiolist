@@ -119,6 +119,16 @@ class BuildCatalogue(InAWorkingDir):
         health = self.read("health.json")
         health["http://gone/stream"] = {"consecutive_failures": 3}
         self.write("health.json", health)
+        # Last week's catalogue already carried 臺北電台, and the nightly probe
+        # has since heard its stream: it must not be carried over beside the
+        # list's own row.
+        published = self.read("music_worldradio.json")
+        published["music"].append({"id": "https://tpe/live.m3u8", "title": "臺北電台", "source": "https://tpe/live.m3u8",
+                                   "image": "x", "genre": "TAIWAN"})
+        self.write("music_worldradio.json", published)
+        facts = self.read("station_facts.json")
+        facts["https://tpe/live.m3u8"] = {"ok": True}
+        self.write("station_facts.json", facts)
         code, out = self.quietly(bc.main, ["build_catalogue.py", "--apply"])
         self.assertEqual(code, 0)
         music = self.read("music_worldradio.json")["music"]

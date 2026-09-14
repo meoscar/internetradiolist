@@ -443,12 +443,20 @@ def main(argv):
 
     # ---- stations already published that still work and the crawl missed ----
 
+    # Taiwan's stations, kept by hand in taiwan.json (see taiwan.py) because
+    # the directory this catalogue is crawled from lists one. Loaded here so
+    # the carry-over below knows them: once the nightly probe had heard their
+    # streams, the previous catalogue's copies counted as "still answer and
+    # the crawl missed them" and every one was published twice.
+    taiwan = [s for s in load(TAIWAN, []) if s.get("stream") and s["stream"] not in condemned]
+    taiwan_streams = {s["stream"] for s in taiwan}
+
     seen = {s["stream"] for s in crawled}
     seen_names = {base_name(s["name"]) for s in crawled}
     carried = []
     for item in existing:
         source = (item.get("source") or "").strip()
-        if not source or source in seen or item.get("id") == ICRT_ID:
+        if not source or source in seen or item.get("id") == ICRT_ID or source in taiwan_streams:
             continue
         if source not in alive:
             continue
@@ -504,11 +512,9 @@ def main(argv):
         music.append(icrt)
         print("ICRT carried over" + (" with its logo\n" if logo else " unchanged\n"))
 
-    # Taiwan's stations, kept by hand in taiwan.json (see taiwan.py) because
-    # the directory this catalogue is crawled from lists one. Under the same
-    # heading as ICRT, after it, in the order the list keeps; only the
-    # health check can take one out, the same way it takes out any other.
-    taiwan = [s for s in load(TAIWAN, []) if s.get("stream") and s["stream"] not in condemned]
+    # Under the same heading as ICRT, after it, in the order the list keeps;
+    # only the health check can take one out, the same way it takes out any
+    # other.
     for track, station in enumerate(taiwan, len(music) + 1):
         favicon = station.get("favicon") or ""
         image = (logo_for(station["stream"], station["name"])
