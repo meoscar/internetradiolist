@@ -71,6 +71,19 @@ def _icecast(body):
     return best
 
 
+def _text(title):
+    """A title is text. A body that was never text -- a host that serves the
+    audio at every path answers /7.html with the stream itself -- decodes to
+    replacement characters and control bytes, and still splits on commas.
+    Measured on Taiwan's stations: one such host put the same forty bytes of
+    noise on twenty stations as the record on."""
+    if not title or title.isdigit():
+        return None
+    if any(c == "\ufffd" or (ord(c) < 32 and c != "\t") for c in title):
+        return None
+    return title
+
+
 def _icecast_title(body):
     """The record on the busiest mount, as the same document names it."""
     try:
@@ -85,8 +98,8 @@ def _icecast_title(body):
     for source in sources:
         if not isinstance(source, dict):
             continue
-        title = str(source.get("title") or source.get("yp_currently_playing") or "").strip()
-        if not title or title.isdigit():
+        title = _text(str(source.get("title") or source.get("yp_currently_playing") or "").strip())
+        if not title:
             continue
         value = source.get("listeners")
         value = value if isinstance(value, int) and not isinstance(value, bool) else -1
@@ -110,7 +123,7 @@ def _shoutcast_v2_title(body):
         title = str(json.loads(body).get("songtitle") or "").strip()
     except Exception:
         return None
-    return title if title and not title.isdigit() else None
+    return _text(title)
 
 
 def _shoutcast_v1_title(body):
@@ -120,8 +133,7 @@ def _shoutcast_v1_title(body):
     fields = text.split(",", 6)
     if len(fields) != 7 or not fields[0].strip().isdigit():
         return None
-    title = fields[6].strip()
-    return title if title and not title.isdigit() else None
+    return _text(fields[6].strip())
 
 
 def _shoutcast_v1(body):

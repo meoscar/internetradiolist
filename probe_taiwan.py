@@ -26,6 +26,10 @@ merge can be planned from data rather than re-fetched). Nothing else changes.
 Radio Browser's licence for the directory itself is not verified here; the
 numbers say what is technically possible, not what may be shipped.
 
+Its first run read the same forty bytes of noise as "the record on" at
+twenty stations behind one host that serves the audio at every path,
+/7.html included; the status route now insists a title be text.
+
   python3 probe_taiwan.py            every TW station
   python3 probe_taiwan.py 40         the first 40 by votes
 

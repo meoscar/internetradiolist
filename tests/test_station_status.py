@@ -90,6 +90,17 @@ class Titles(unittest.TestCase):
         self.assertIsNone(station_status._shoutcast_v1_title(b"12,1,40,100,10,128,128"))
         self.assertIsNone(station_status._shoutcast_v1_title(b"Not Found"))
 
+    def test_a_body_that_was_never_text_names_nothing(self):
+        noise = "12,1,40,100,10,128,\ufffdd\ufffdN\x00\x11XZ=j\ufffd".encode("utf-8", "surrogatepass")
+        self.assertIsNone(station_status._shoutcast_v1_title(noise))
+        self.assertIsNone(station_status._shoutcast_v2_title(b'{"songtitle": "\\u0007ring"}'))
+        self.assertIsNone(station_status._icecast_title(
+            json.dumps({"icestats": {"source": {"title": "\ufffd\ufffd"}}}).encode()))
+        self.assertIsNone(station_status._text("\x00"))
+        self.assertIsNone(station_status._text(""))
+        self.assertIsNone(station_status._text("2024"))
+        self.assertEqual(station_status._text("Toto -\tAfrica"), "Toto -\tAfrica")
+
     def test_status_of_answers_both_questions_from_the_first_document_that_speaks(self):
         answers = {
             "http://a/status-json.xsl": json.dumps({"icestats": {"source": {"listeners": 7, "title": "Toto - Africa"}}}).encode(),

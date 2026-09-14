@@ -169,10 +169,17 @@ def shoutcast_title(url):
         # inflated Shoutcast's share from nothing to 8.7%.
         text = re.sub(rb"<[^>]+>", b"", body).decode("utf-8", "replace").strip()
         fields = text.split(",", 6)
-        if len(fields) == 7:
+        if len(fields) == 7 and fields[0].strip().isdigit():
             title = fields[6].strip()
             # A title that is only digits is another field bleeding through.
-            if title and not title.isdigit():
+            # One that is not text at all is the audio: a host that serves
+            # the stream at every path answers /7.html with it, and decoded
+            # it still splits on commas. Found 14 September 2026 by
+            # probe_taiwan.py, which read the same forty bytes of noise as
+            # the record on at twenty stations; the numbers quoted above
+            # were measured before this guard and may count a few of those.
+            if title and not title.isdigit() and not any(
+                    c == "\ufffd" or (ord(c) < 32 and c != "\t") for c in title):
                 return title
     return None
 
