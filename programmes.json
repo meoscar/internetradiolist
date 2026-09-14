@@ -1,0 +1,39 @@
+{
+ "stations": {
+  "https://n03.rcs.revma.com/78fm9wyy2tzuv": {
+   "live": {
+    "kind": "bcc",
+    "url": "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat",
+    "channel": "新聞網"
+   }
+  },
+  "https://n03.rcs.revma.com/ndk05tyy2tzuv": {
+   "live": {
+    "kind": "bcc",
+    "url": "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat",
+    "channel": "音樂網"
+   }
+  },
+  "https://n03.rcs.revma.com/aw9uqyxy2tzuv": {
+   "live": {
+    "kind": "bcc",
+    "url": "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat",
+    "channel": "流行網"
+   }
+  },
+  "https://n03.rcs.revma.com/p2e3rfg3qtzuv": {
+   "live": {
+    "kind": "bcc",
+    "url": "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat",
+    "channel": "鄉親"
+   }
+  },
+  "https://n03.rcs.revma.com/1qxn2vg3qtzuv": {
+   "live": {
+    "kind": "bcc",
+    "url": "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat",
+    "channel": "igo"
+   }
+  }
+ }
+}
