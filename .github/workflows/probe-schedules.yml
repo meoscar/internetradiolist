@@ -1,0 +1,34 @@
+# The schedule pages of Taiwan's broadcasters, fetched once and kept under
+# probes/schedules/ for the scrapers' tests. Run from here because the
+# sandbox the scrapers are written in cannot reach the pages.
+name: Fetch the schedule pages
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'probe_schedules.py'
+      - '.github/workflows/probe-schedules.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Fetch each page
+        run: python3 probe_schedules.py
+      - name: Keep the copies
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probes/schedules
+          git commit -q -m "The schedule pages, as they look today" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
