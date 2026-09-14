@@ -272,7 +272,88 @@ def icy_titles(url, blocks=20):
                 pass
 
 
+def text_of(body, limit=900, after=None):
+    plain = re.sub(r"\s+", " ", html.unescape(TAGS.sub(" ", body))).strip()
+    if after:
+        i = plain.find(after)
+        if i >= 0:
+            plain = plain[i:]
+    return plain[:limit]
+
+
+def closer_look():
+    """The second pass, written after reading the first: where a song title was seen or a poll for one."""
+    out = ["=== 古典音樂台 97.7: the function that polls the record on, and what it asks"]
+    _, kind, body = fetch("https://www.family977.com.tw/index.php")
+    fn = re.search(r"async function updateNowPlaying.*?(?=\n\s*(?:async )?function |updateNowPlaying\(\);)", body, re.S)
+    if fn:
+        out.append("  " + re.sub(r"\s+", " ", fn.group(0))[:1800])
+        asked = re.findall(r"""fetch\(\s*[`"']([^`"']+)""", fn.group(0)) + \
+                re.findall(r"""(?:url|src)\s*[:=]\s*[`"']([^`"']+)""", fn.group(0))
+        for url in dict.fromkeys(asked):
+            full = urllib.parse.urljoin("https://www.family977.com.tw/", url.replace("${timestamp}", "1789474000000"))
+            out.append(f"  GET {full[:140]}\n      -> {try_get(full)}")
+    else:
+        out.append(f"  the function was not found in the page ({kind})")
+
+    out.append("\n=== KISS Radio: the line on the homepage, and the song list page")
+    _, kind, body = fetch("https://www.kiss.com.tw/")
+    for m in re.finditer(r"(\d{1,2}:\d{2})\s*現在播放[：:]\s*([^<\n]{1,80})", body):
+        out.append(f"  homepage says: {m.group(1)} 現在播放：{m.group(2).strip()}")
+    for url in ("https://www.kiss.com.tw/service/songlist/", "https://www.kiss.com.tw/show/showtime.php"):
+        _, kind, page = fetch(url)
+        out.append(f"  {url} -> {kind.split(';')[0]}")
+        out.append("      " + text_of(page, 700, after="現在播放"))
+        for e in endpoints_in(page, url):
+            if re.search(r"(song|play|now|api)", e, re.I) and "kiss.com.tw" in e:
+                out.append(f"      endpoint: {e[:140]}")
+
+    out.append("\n=== M Radio: the song history page and what feeds it")
+    final, kind, body = fetch("https://www.mradio.com.tw/song-history")
+    scripts = [urllib.parse.urljoin(final, m.group(1)) for m in SCRIPT_SRC.finditer(body)]
+    found = endpoints_in(body, final)
+    for src in [s for s in scripts if same_site(s, final)][:8]:
+        _, _, js = fetch(src, SCRIPT_LIMIT)
+        found += [e for e in endpoints_in(js, src) if e not in found]
+    tried = 0
+    for e in found:
+        if re.search(r"(api|song|history|play|now)", e, re.I) and "mradio" in e and not STATIC.search(e):
+            out.append(f"  GET {e[:140]}\n      -> {try_get(e)}")
+            tried += 1
+            if tried >= 8:
+                break
+    if not tried:
+        out.append("  no API address in the page or its scripts; the Vue app may build it at runtime")
+        out.append("  scripts: " + ", ".join(s[:80] for s in scripts[:6]))
+
+    out.append("\n=== Hit FM: the frames the on-air page embeds")
+    for url in ("https://www.hitoradio.com/incInnerNew/innerA.php", "https://www.hitoradio.com/incInnerNew/innerB.php",
+                "https://www.hitoradio.com/incInnerNew/innerC.php", "https://www.hitoradio.com/newweb/onair.php"):
+        _, kind, page = fetch(url)
+        out.append(f"  {url} -> {kind.split(';')[0]}: {text_of(page, 400)}")
+        for e in endpoints_in(page, url):
+            if re.search(r"(song|now|play|music)", e, re.I) and "hitoradio" in e:
+                out.append(f"      endpoint: {e[:140]}")
+
+    out.append("\n=== 中廣 BCC: the on-air page")
+    _, kind, page = fetch("http://www.bcc.com.tw/onAir.asp?nid=1")
+    out.append("  " + text_of(page, 900))
+    for e in endpoints_in(page, "http://www.bcc.com.tw/"):
+        if "bcc.com.tw" in e and not STATIC.search(e):
+            out.append(f"  endpoint: {e[:140]}")
+
+    out.append("\n=== the two that refused: 央廣 and hichannel")
+    for url in ("https://www.rti.org.tw/radio/", "https://www.rti.org.tw/", "http://hichannel.hinet.net/",
+                "https://hichannel.hinet.net/radio/index.do"):
+        _, kind, page = fetch(url)
+        out.append(f"  {url} -> {kind.split(';')[0]}" + (f", {len(page) // 1000} KB" if page else ""))
+    return "\n".join(out)
+
+
 def main():
+    print("A closer look, at what the first pass turned up\n")
+    print(closer_look())
+    print()
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         sites = list(pool.map(lambda t: probe_site(*t), TARGETS))
         streams = list(pool.map(lambda s: (s[0], icy_titles(s[1])), STREAMS))
