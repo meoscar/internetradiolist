@@ -1,38 +1,39 @@
-name: How many stations name their track
+# How many stations can be made to name their track, and by which route:
+# the inline ICY title, the station's own status document, or nothing. Run
+# from here because the sandbox this repository is worked on from cannot
+# reach the stations; the answer is committed under probes/ with its date.
+name: Probe how stations name their track
 
-# The app's pitch is that it tells you what is playing, and for 1,553 of the
-# catalogue's 2,192 stations the inline ICY title is the only route it has --
-# no now-playing page to fall back to. Nobody has ever counted how many of
-# those actually send one. Where none arrives the screen stays blank, which is
-# honest and useless, and it is the largest gap between what the listing
-# promises and what a listener gets.
-#
-# There is also a third route nothing has tried: Icecast's /status-json.xsl
-# and Shoutcast's /stats, both on the station's own server, both naming the
-# current track. This counts all three.
-#
-# It writes nothing. One connection and at most two small requests per station,
-# on a sample.
 on:
   workflow_dispatch:
-    inputs:
-      sample:
-        description: 'How many stations to ask'
-        default: '120'
-      scope:
-        description: 'nopage = only those with no now-playing page; all = every kind'
-        default: 'nopage'
+  push:
+    paths:
+      - 'probe_now_playing.py'
+      - '.github/workflows/probe-now-playing.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python3 probe_now_playing.py "${{ inputs.sample }}" "${{ inputs.scope }}"
+      - name: Ask a sample of every station
+        run: |
+          mkdir -p probes
+          { echo "Probed $(date -u '+%Y-%m-%d %H:%M UTC') from GitHub's network: 400 stations sampled from the whole catalogue"; echo;
+            python3 probe_now_playing.py 400 all; } | tee probes/now_playing_routes.txt
+          tail -40 probes/now_playing_routes.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the answer
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probes/now_playing_routes.txt
+          git commit -q -m "By which route stations name their track, measured" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
