@@ -1,0 +1,354 @@
+Probed 2026-09-14 11:32 UTC from GitHub's network
+
+The broadcasters' own sites
+
+=== 中廣 BCC
+  page https://www.bcc.com.tw/ -> text/html, 37 KB
+  page https://www.bcc.com.tw/news4_program.asp -> text/html, 24 KB
+  page https://www.bcc.com.tw/news6_program.asp -> text/html, 26 KB
+  page https://www.bcc.com.tw/news5_program.asp -> text/html, 18 KB
+  page https://www.bcc.com.tw/news2_view3.asp?nid=7775 -> text/html, 22 KB
+  words: 1「幸福好時光」節目預告 瓏賀哩共 賀瓏 19:00~20:00 (觀看更多) ON AIR var googletag = googletag || {}; googletag.cmd = googletag.cmd || []; (function() { var gads = document.createElement('
+  embed: https://img.scupio.com/html/12134.html
+  embed: https://www.facebook.com/plugins/like.php?href=http://www.bcc.com.tw/news2_view3.asp?nid=7775&amp;send=false&amp;layout=button_count&amp;width=80&amp;show_faces=true&amp;font=arial&amp;colorscheme=light&amp;action=recommend&amp;height=21&amp;appId=616649798351201
+  embed: https://www.facebook.com/plugins/likebox.php?href=http://www.facebook.com/ilikeradiobcc&amp;width=442&amp;height=590&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=true&amp;show_border=true
+  GET https://www.bcc.com.tw/onair.html
+      -> HTTP 404
+  GET http://www.bcc.com.tw/onAir.asp?nid=1
+      -> text/html · ﻿ Stream ///鎖右鍵 var message="Function Disabled!"; /////////////////////////////////// function clickIE() {if (document.all) {/*alert(message);*/return false;}} function clickNS(e) {if (document.layers||(document.getEleme
+  GET http://www.bcc.com.tw/onAir.asp?nid=2
+      -> text/html · ﻿ Stream ///鎖右鍵 var message="Function Disabled!"; /////////////////////////////////// function clickIE() {if (document.all) {/*alert(message);*/return false;}} function clickNS(e) {if (document.layers||(document.getEleme
+  GET http://www.bcc.com.tw/onAir.asp?nid=3
+      -> text/html · ﻿ Stream ///鎖右鍵 var message="Function Disabled!"; /////////////////////////////////// function clickIE() {if (document.all) {/*alert(message);*/return false;}} function clickNS(e) {if (document.layers||(document.getEleme
+  GET http://www.bcc.com.tw/onAir.asp?nid=4
+      -> text/html · ﻿ Stream ///鎖右鍵 var message="Function Disabled!"; /////////////////////////////////// function clickIE() {if (document.all) {/*alert(message);*/return false;}} function clickNS(e) {if (document.layers||(document.getEleme
+  GET http://www.bcc.com.tw/onAir.asp?nid=6
+      -> text/html · ﻿ Stream ///鎖右鍵 var message="Function Disabled!"; /////////////////////////////////// function clickIE() {if (document.all) {/*alert(message);*/return false;}} function clickNS(e) {if (document.layers||(document.getEleme
+
+=== 飛碟 UFO
+  page https://www.uforadio.com.tw/ -> text/html, 27 KB
+  page https://www.fm995.com.tw/index.html -> URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostn
+  page https://www.uforadio.com.tw/schedule -> text/html, 16 KB
+  page https://www.uforadio.com.tw/news?page_num=1 -> text/html, 10 KB
+  page https://www.uforadio.com.tw/schedule?weekday=6 -> text/html, 13 KB
+  page https://www.uforadio.com.tw/schedule?weekday=0 -> text/html, 16 KB
+  page https://www.uforadio.com.tw/schedule?weekday=1 -> text/html, 16 KB
+  embed: https://www.googletagmanager.com/ns.html?id=GTM-TX9VRG7
+  embed: https://stream.rcs.revma.com/em90w4aeewzuv
+  GET https://www.uforadio.com.tw/schedule
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=6
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=0
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=1
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=2
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=3
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=4
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  GET https://www.uforadio.com.tw/schedule?weekday=5
+      -> text/html ·  UFO Radio (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://
+  ... 43 more endpoint candidates not tried
+
+=== Hit FM
+  page https://www.hitoradio.com/newweb/onair.php -> text/html, 31 KB
+  page https://www.hitoradio.com/ -> text/html, 35 KB
+  page https://www.hitoradio.com/newweb/schedule.php -> text/html, 106 KB
+  page https://www.hitoradio.com/newweb/showtime.php -> text/html, 36 KB
+  page https://www.hitoradio.com/newweb/hotnews.php -> text/html, 34 KB
+  page https://www.hitoradio.com/newweb/starschedule.php -> text/html, 33 KB
+  words: 撞新聞 09AM 活力DJ 阿娟 週末賴一下 10AM 東STOP！MUSIC ON AIR 11AM 12PM 翹班DJ- 維多 HITO西洋排行榜 elsa HITO日亞排行榜 elsa 01PM HIT週末! GiGi HIT週末! GiGi 02PM 午茶DJ- SoWhat 嗑音樂 嗑音樂 03PM 04PM 不累DJ
+  words: 撞新聞 09AM 活力DJ 阿娟 賴床音樂 10AM 東STOP！MUSIC ON AIR 11AM 12PM 翹班DJ GJ蔣卓嘉 HITO西洋排行榜 elsa HITO日亞排行榜 elsa 01PM HIT週末! GiGi HIT週末! GiGi 02PM 元氣音樂 Hito放輕鬆 Hito放輕鬆 03PM 04PM 不累D
+  embed: https://www.hitoradio.com/incInnerNew/innerA.php
+  embed: https://www.hitoradio.com/incInnerNew/innerC.php
+  embed: https://www.hitoradio.com/incInnerNew/innerB.php
+  embed: https://www.googletagmanager.com/ns.html?id=GTM-MM3523
+  GET https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js
+      -> text/javascript · /*! jQuery v1.10.2 | (c) 2005, 2013 jQuery Foundation, Inc. | jquery.org/license //@ sourceMappingURL=jquery.min.map */ (function(e,t){var n,r,i=typeof t,o=e.location,a=e.document,s=a.documentElement,l=e.jQuery,u=e.$,c={
+  GET https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+      -> text/javascript · /*! jQuery v3.1.1 | (c) jQuery Foundation | jquery.org/license */ !function(a,b){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw ne
+  GET https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js
+      -> text/javascript · /*! jQuery v1.11.1 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */ !function(a,b){"object"==typeof module&&"object"==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)thr
+  GET https://www.hitoradio.com/newweb/nowonaircount_2024.php?block=9&area=1
+      -> text/html ·  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-00380NQKVP'); gtag('event', 'page_view', { 'send_to': 'G-00380NQKVP', 'page_title': doc
+  GET https://www.hitoradio.com/newweb/nowonaircount_2024.php?block=9&area=2
+      -> text/html ·  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-00380NQKVP'); gtag('event', 'page_view', { 'send_to': 'G-00380NQKVP', 'page_title': doc
+  GET https://www.hitoradio.com/newweb/nowonaircount_2024.php?block=9&area=3
+      -> text/html ·  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-00380NQKVP'); gtag('event', 'page_view', { 'send_to': 'G-00380NQKVP', 'page_title': doc
+  GET https://www.hitoradio.com/newweb/nowonaircount_2024.php?block=9&area=4
+      -> text/html ·  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-00380NQKVP'); gtag('event', 'page_view', { 'send_to': 'G-00380NQKVP', 'page_title': doc
+  GET https://www.hitoradio.com/newweb/nowonaircount_2024.php?block=9&area=5
+      -> text/html ·  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-00380NQKVP'); gtag('event', 'page_view', { 'send_to': 'G-00380NQKVP', 'page_title': doc
+
+=== 臺北電台
+  page http://www.radio.gov.taipei/ -> text/html, 1491 KB
+  page https://www.radio.gov.taipei/cp.aspx?n=97B61132402830D1 -> text/html, 86 KB
+  page https://www.radio.gov.taipei/News_Content.aspx?n=C8F29A846C470A9E&sms=66163A63664DC9AC&s=61188E7FBC431F0C -> text/html, 80 KB
+  page https://www.radio.gov.taipei/News_Content.aspx?n=955E4E4478C79B7F&sms=3FE4453D82B9DD3A&s=29531F75F00FE0D5 -> text/html, 81 KB
+  page https://www.radio.gov.taipei/News_Content.aspx?n=955E4E4478C79B7F&sms=3FE4453D82B9DD3A&s=745881238FBC7D2E -> text/html, 82 KB
+  GET https://maps.googleapis.com/maps/api/js?key=AIzaSyDh8OOuzmun9cnM6H8-FZjx6qlgqAeiPOo&callback=initMap
+      -> text/javascript ·  window.google = window.google || {}; google.maps = google.maps || {}; (function() { var modules = google.maps.modules = {}; google.maps.__gjsload__ = function(name, text) { modules[name] = text; }; google.maps.Load = fu
+  GET https://www.radio.gov.taipei/GetAPI.ashx?type=covid19
+      -> application/javascript · {"SickNum":"","DeathNum":"","UpdateTime":"2026-03-24 15:30"}
+
+=== 古典音樂台 97.7
+  page http://www.family977.com.tw/index.php -> text/html, 110 KB
+  page https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=382 -> text/html; charset=UTF-8
+  page https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=380 -> text/html; charset=UTF-8
+  page https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=381 -> text/html; charset=UTF-8
+  page https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=388 -> text/html; charset=UTF-8
+  page https://www.family977.com.tw/index.php?route=information/contact&activity_title=2026愛樂人講堂(實體/線上)...&category=課程 -> UnicodeEncodeError: 'ascii' codec can't encode characters in position 60-64: ordinal not in range(12
+  page https://www.family977.com.tw/index.php?route=activity/detail&activity_id=384 -> text/html, 42 KB
+  page https://www.family977.com.tw/index.php?route=information/contact&activity_title=一秒將【線上直播】設為手機APP...&category=公告 -> UnicodeEncodeError: 'ascii' codec can't encode characters in position 56-68: ordinal not in range(12
+  page https://www.family977.com.tw/index.php?route=activity/detail&activity_id=174 -> text/html, 38 KB
+  page https://www.family977.com.tw/index.php?route=information/contact&activity_title=節目冊&category=商品 -> UnicodeEncodeError: 'ascii' codec can't encode characters in position 56-58: ordinal not in range(12
+  page https://www.family977.com.tw/index.php?route=activity/detail&activity_id=379 -> text/html, 34 KB
+  page https://www.family977.com.tw/index.php?route=choice/unit_detail&amp;choice_program_id=384 -> text/html; charset=UTF-8
+  page https://www.family977.com.tw/index.php?route=information/contact&activity_title=2026愛樂人講堂(實體/線上) 音樂之美，與不美&category=課程 -> InvalidURL: URL can't contain control characters. '/index.php?route=information/contact&acti
+  page https://www.family977.com.tw/index.php?route=information/contact&activity_title=一秒將【線上直播】設為手機APP捷徑！將常用線上收聽放在手機桌面？&category=公告 -> UnicodeEncodeError: 'ascii' codec can't encode characters in position 56-68: ordinal not in range(12
+  words: 輪詢、DOM 渲染與手機鎖定畫面推播 async function updateNowPlaying(forceResize = false) { try { const timestamp = Date.now(); const targetWin = window.top || window.parent || window; con
+  words: console.error('即時曲目更新失敗', e); } } updateNowPlaying(); setInterval(updateNowPlaying, 5000); // 手機旋轉與視窗拉大時強制觸發寬度重算 (window.top || window).addEventListener('resize', () => {
+  words: } updateNowPlaying(); setInterval(updateNowPlaying, 5000); // 手機旋轉與視窗拉大時強制觸發寬度重算 (window.top || window).addEventListener('resize', () => { updateNowPlaying(true); }); win
+  words: ddEventListener('resize', () => { updateNowPlaying(true); }); window.addEventListener('resize', () => { updateNowPlaying(true); }); //給分享使用的 var share_url = encodeURIComp
+  words: ddEventListener('resize', () => { updateNowPlaying(true); }); //給分享使用的 var share_url = encodeURIComponent(window.location.toString()); $('body').click(function(){ setInte
+  words: ddEventListener('resize', () => { updateNowPlaying(true); }); window.addEventListener('resize', () => { updateNowPlaying(true); }); jQuery(document).ready( function($){ v
+  words: ddEventListener('resize', () => { updateNowPlaying(true); }); jQuery(document).ready( function($){ var newDate = new Date(2026,08,17,19,00,00); $('#countdown-ex1').countd
+  words: ddEventListener('resize', () => { updateNowPlaying(true); }); jQuery(document).ready( function($){ var newDate = new Date(2024,02,19,12,00,00); $('#countdown-ex1').countd
+  embed: https://www.youtube.com/embed/gsX8Z-il_iM
+  GET https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic
+      -> text/css · /* latin-ext */ @font-face { font-family: 'Crete Round'; font-style: italic; font-weight: 400; src: url(https://fonts.gstatic.com/s/creteround/v16/55xqey1sJNPjPiv1ZZZrxK1-4bHoLk5OlKZHSQ.woff2) format('woff2'); unicode-ra
+  GET https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=382
+      -> text/html; charset=UTF-8
+  GET https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=380
+      -> text/html; charset=UTF-8
+  GET https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=381
+      -> text/html; charset=UTF-8
+  GET https://www.family977.com.tw/index.php?route=choice/program_detail&amp;choice_program_id=388
+      -> text/html; charset=UTF-8
+  GET https://www.family977.com.tw/index.php?route=choice/unit_detail&amp;choice_program_id=384
+      -> text/html; charset=UTF-8
+  GET http://api.flickr.com/services/feeds/
+      -> HTTP 404
+  GET https://api.instagram.com/v1
+      -> text/html; charset=utf-8
+  ... 5 more endpoint candidates not tried
+
+=== 央廣 RTI
+  page https://www.rti.org.tw/ -> HTTP 403
+  nothing that looks like a now-playing source on these pages
+
+=== 正聲
+  page https://www.csbc.com.tw/ -> text/html, 253 KB
+  page https://www.csbc.com.tw/muyibiao-2 -> text/html, 161 KB
+  page https://www.csbc.com.tw/tpfm -> text/html, 206 KB
+  page https://www.csbc.com.tw/shangchuban -> text/html, 94 KB
+  page https://www.csbc.com.tw/onair -> text/html, 50 KB
+  words: 目 綜合 藝評專區 地方消息 線上出版 重播 看正聲 Podcast 正聲嚴選 On Air 正聲快訊 節目 綜合 藝評專區 地方消息 線上出版 重播 看正聲 Podcast 正聲嚴選 X 最新消息 【營建】「一條好走的路，走出一座更幸福的花蓮！」2026馬路好行雙獎肯定 從花蓮高商到城市街角，讓行人安心、讓長輩放心、讓孩子開心走
+  words: 民重新找回街道的安全與溫度 【觀光】yoyo Live Show每週觀光節目表 On Air Now On Air 日光大道 張欣民 7:00 pm 8:00 pm TODAY 節目 影片 正聲地圖 今日推薦 財經早知道 日光大道 當音樂來敲門 財富2.0 台北在飛躍 贏家向錢看 湘琪的桃花源 今日節目 週五 週六 週日 週一 週
+  words: 溫度 【觀光】yoyo Live Show每週觀光節目表 On Air Now On Air 日光大道 張欣民 7:00 pm 8:00 pm TODAY 節目 影片 正聲地圖 今日推薦 財經早知道 日光大道 當音樂來敲門 財富2.0 台北在飛躍 贏家向錢看 湘琪的桃花源 今日節目 週五 週六 週日 週一 週二 週三 週四 Cho
+  words: -content/plugins/*","/wp-content/themes/onair2-child/*","/wp-content/themes/onair2/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"sel
+  words: mes/onair2-child/*","/wp-content/themes/onair2/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-pr
+  words: tps://www.csbc.com.tw/wp-content/themes/onair2-child/assets/json/tw.json"}; //# sourceURL=my-js-js-extra var mejsL10n = {"language":"zh","strings":{"mejs.download-fi
+  words: 目 綜合 藝評專區 地方消息 線上出版 重播 看正聲 Podcast 正聲嚴選 On Air 正聲快訊 節目 綜合 藝評專區 地方消息 線上出版 重播 看正聲 Podcast 正聲嚴選 X 節目一覽表 台北AM819 台北FM104.1 台中AM990 台中AM657 雲林AM1125 雲林AM675 嘉義AM855 嘉義AM12
+  words: 目 綜合 藝評專區 地方消息 線上出版 重播 看正聲 Podcast 正聲嚴選 On Air 正聲快訊 節目 綜合 藝評專區 地方消息 線上出版 重播 看正聲 Podcast 正聲嚴選 X 節目 週五 週六 週日 週一 週二 週三 週四 Choose a day 週一 週二 週三 週四 週五 週六 週日 悠遊音樂城 12:00 a
+  embed: https://www.youtube.com/embed/videoseries?list=UUd4JgCNvYcakm0CHrdXBJkQ
+  embed: https://crs.ccdntech.com/rds/playerh7live?vod117_Live/live1
+  embed: https://crs.ccdntech.com/rds/playerh7live?vod117_Live/live2
+  GET https://fonts.googleapis.com
+      -> HTTP 404
+  GET https://www.csbc.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csbc.com.tw%2F
+      -> HTTP 401
+  GET https://www.csbc.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.csbc.com.tw%2F&#038;format=xml
+      -> HTTP 401
+  GET https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&#038;display=swap
+      -> text/css · @font-face { font-family: 'Noto Sans TC'; font-style: normal; font-weight: 400; src: url(https://fonts.gstatic.com/s/notosanstc/v39/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXCo2qYhRo.0.woff2) for
+  GET https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600
+      -> text/css · /* cyrillic-ext */ @font-face { font-family: 'Roboto'; font-style: italic; font-weight: 100; font-stretch: 100%; src: url(https://fonts.gstatic.com/s/roboto/v51/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkC3kaSTbQWt4N.woff2) for
+  GET https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500itali
+      -> text/css · /* cyrillic-ext */ @font-face { font-family: 'Roboto Slab'; font-style: normal; font-weight: 100; src: url(https://fonts.gstatic.com/s/robotoslab/v36/BngMUXZYTXPIvIBgJJSb6ufA5qWr4xCCQ_k.woff2) format('woff2'); unicode-ra
+  GET https://www.csbc.com.tw/onair
+      -> text/html ·  線上直播 - 正聲廣播電台 {"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.csbc.com.tw\/onair#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.csbc.com.tw#listIt
+  GET https://www.csbc.com.tw/wp-content/themes/onair2-child/*
+      -> HTTP 404
+  ... 24 more endpoint candidates not tried
+
+=== 城市廣播網
+  page http://www.cityfm.tw/ -> text/html, 5 KB
+  embed: https://cityfm.tw/Client/index.aspx
+  embed: http://www.wistrend.com/tipsf/suya_app/play.html
+
+=== 台中廣播 Lucky
+  page https://www.fm1007lucky.com/ -> URLError: <urlopen error [Errno -2] Name or service not known>
+  nothing that looks like a now-playing source on these pages
+
+=== 台北流行音樂 POP
+  page https://www.pop917.com/home.aspx -> text/html, 29 KB
+  page https://www.pop917.com/radio.aspx -> text/html, 23 KB
+  page https://www.pop917.com/Program_List.aspx -> text/html, 57 KB
+  page https://www.pop917.com/playlists.aspx -> text/html, 57 KB
+  page https://www.pop917.com/Program_PreList.aspx -> text/html, 27 KB
+  embed: https://www.youtube.com/embed/GShBlI03jUg?rel=0
+  GET https://vimeo.com/api/v2/video/
+      -> HTTP 404
+  GET https://vzaar.com/api/videos/
+      -> text/html ·  window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag("consent", "default", { ad_personalization: "denied", ad_storage: "denied", ad_user_data: "denied", analytics_storage: "deni
+
+=== 佳音
+  page http://www.goodnews.org.tw/ -> text/html, 21 KB
+  page http://www.goodnews.org.tw/live_ccm_01.php -> text/html, 7 KB
+  page http://www.goodnews.org.tw/live_classic_01.php -> text/html, 8 KB
+  embed: http://crs.ccdntech.com/rds/playerh7livecdn?vod51_Live/ch04&cname
+  embed: https://rds.ginnet.cloud/player/live/live0119lo-p4rb/modern?autoplay&aliv
+  embed: http://crs.ccdntech.com/rds/playerh7livecdn?vod51_Live/ch03&cname
+  embed: https://rds.ginnet.cloud/player/live/live0119lo-p4rb/classic?autoplay&alive
+
+=== 警廣 PBS
+  page https://www.pbs.npa.gov.tw/ -> text/html, 100 KB
+  page https://www.pbs.npa.gov.tw/ch/app/folder/415 -> text/html, 48 KB
+  page https://www.pbs.npa.gov.tw/ch/app/programList/list?module=programlist&amp;id=18112 -> HTTP 400
+  page https://www.pbs.npa.gov.tw/ch/app/retrospect/list?module=retrospect&amp;id=2616 -> HTTP 400
+  page https://www.pbs.npa.gov.tw/ch/app/job/view?module=job&amp;id=2584&amp;serno=53aac1c5-4e04-40ab-8c71-4c9f139c00fe -> HTTP 400
+  page https://www.pbs.npa.gov.tw/ch/app/data/view?module=wg172&amp;id=2581&amp;serno=1d084a56-e51d-4486-868a-d0331db3fe6c -> HTTP 400
+  page https://www.pbs.npa.gov.tw/ch/app/data/view?module=wg172&amp;id=2581&amp;serno=c16e1b8a-d7ce-4e20-8c99-ee69986229e9 -> HTTP 400
+  page https://www.pbs.npa.gov.tw/ch/app/data/view?module=wg172&amp;id=2581&amp;serno=b27f0c64-2e95-4d6a-a7aa-eec73347af15 -> HTTP 400
+  page https://www.pbs.npa.gov.tw/ch/app/data/view?module=wg172&amp;id=2581&amp;serno=6bc21631-910b-4b1f-a2fa-a96fb91100a9 -> HTTP 400
+  embed: https://www.pbs.gov.tw/cht/index.php?code=list&ids=162
+  GET https://www.pbs.npa.gov.tw/ch/app/programList/list?module=programlist&amp;id=18112
+      -> HTTP 400
+
+=== 寶島聯播網
+  page https://www.baodaoradio.com.tw/ -> text/html, 56 KB
+  page https://www.baodaoradio.com.tw/web/programme/programme.jsp?cp_id=CP1640750242622 -> text/html, 20 KB
+  page https://www.baodaoradio.com.tw/web/programme/programme.jsp?cp_id=CP1640750266572 -> text/html, 20 KB
+  page https://www.baodaoradio.com.tw/web/programme/programme.jsp?cp_id=CP1641526281117 -> text/html, 20 KB
+  page https://www.baodaoradio.com.tw/web/programme/programme.jsp?cp_id=CP1641526375443 -> text/html, 20 KB
+  embed: https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsuperfmtw&tabs=timeline&width=250&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId
+  embed: https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fsuperfmtw&tabs=timeline&width=250&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId
+  embed: https://www.youtube.com/embed/Pc4hTERkA3E?si=YKPoFW2YhiHz4mWx
+  GET https://fonts.googleapis.com/css?family=Kulim+Park&display=swap
+      -> text/css · /* latin-ext */ @font-face { font-family: 'Kulim Park'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/kulimpark/v15/fdN79secq3hflz1Uu3IwhFcs5IRyab0WAw.woff2) format('woff2
+  GET https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap
+      -> text/css · /* latin-ext */ @font-face { font-family: 'Archivo Black'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/archivoblack/v23/HTxqL289NzCGg4MzN6KJ7eW6CYKF_jzx13HOvQ.woff2) for
+  GET https://www.youtube.com/@superfm985program
+      -> text/html ·  window.WIZ_global_data = {"AfY8Hf":true,"FL1an":false,"HiPsbb":0,"MUE6Ne":"youtube_web","MuJWjd":false,"TSDtV":"%.@.]","UUFaWc":"%.@.null,1000,2]","cfb2h":"youtube.web-front-end-critical_20260902.07_p0","hsFLT":"%.@.nul
+  GET https://www.youtube.com/user/superfm985program
+      -> text/html ·  window.WIZ_global_data = {"AfY8Hf":true,"FL1an":false,"HiPsbb":0,"MUE6Ne":"youtube_web","MuJWjd":false,"TSDtV":"%.@.]","UUFaWc":"%.@.null,1000,2]","cfb2h":"youtube.web-front-end-critical_20260902.07_p0","hsFLT":"%.@.nul
+
+=== 漢聲
+  page https://audio.voh.com.tw/ -> text/html, 0 KB
+  nothing that looks like a now-playing source on these pages
+
+=== 好事聯播網
+  page http://www.bestradio.com.tw/ -> text/html, 45 KB
+  page http://www.bestradio.com.tw/schedule989.htm -> text/html, 22 KB
+  page http://www.bestradio.com.tw/schedule903.htm -> text/html, 14 KB
+  page http://www.bestradio.com.tw/schedule983.htm -> text/html, 20 KB
+  page http://www.bestradio.com.tw/schedule935.htm -> text/html, 15 KB
+  embed: http://www.bestradio.com.tw/bb.aspx
+  embed: http://www.bestradio.com.tw/ADICON.aspx
+  embed: http://www.bestradio.com.tw/footer.htm
+  embed: http://www.bestradio.com.tw/link.aspx
+  embed: http://www.bestradio.com.tw/ad.htm
+
+=== AsiaFM
+  page https://www.asiafm.com.tw/ -> text/html, 325 KB
+  page https://www.asiafm.com.tw/program/ -> text/html, 320 KB
+  page https://www.asiafm.com.tw/asia-video927-2/ -> text/html, 123 KB
+  page https://www.asiafm.com.tw/asia-video923-2/ -> text/html, 116 KB
+  page https://www.asiafm.com.tw/wp-admin/customize.php?url=https://www.asiafm.com.tw/program/&autofocus%5Bsection%5D=menu_locations -> HTTP 404
+  words: -audio8-html5-radio_ads/audio8_html5/", nowPlayingInterval:30, grabLastFmPhoto:false, grabStreamnameAndGenre:false, noImageAvailable:"https://www.asiafm.com.tw/wp-content
+  GET https://fonts.googleapis.com
+      -> HTTP 404
+  GET https://api.w.org/
+      -> text/html ·  REST API Handbook | Developer.WordPress.org (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l
+  GET https://www.asiafm.com.tw/wp-json/
+      -> HTTP 403
+  GET https://www.asiafm.com.tw/wp-json/wp/v2/pages/948
+      -> application/json · {"id":948,"date":"2017-12-07T15:35:41","date_gmt":"2017-12-07T07:35:41","guid":{"rendered":"http:\/\/www.asiafm.com.tw\/?page_id=948"},"modified":"2024-09-10T16:14:23","modified_gmt":"2024-09-10T08:14:23","slug":"%e9%a6%
+  GET https://www.asiafm.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.asiafm.com.tw%2F
+      -> application/json · {"version":"1.0","provider_name":"\u4e9e\u6d32\u96fb\u53f0","provider_url":"https:\/\/www.asiafm.com.tw","author_name":"GCREATE","author_url":"","title":"\u4e9e\u6d32\u5ee3\u64ad\u96fb\u53f0-FM92.7-\u6843\u7af9\u82d7\u65
+  GET https://www.asiafm.com.tw/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.asiafm.com.tw%2F&#038;format=xml
+      -> application/json · {"version":"1.0","provider_name":"\u4e9e\u6d32\u96fb\u53f0","provider_url":"https:\/\/www.asiafm.com.tw","author_name":"GCREATE","author_url":"","title":"\u4e9e\u6d32\u5ee3\u64ad\u96fb\u53f0-FM92.7-\u6843\u7af9\u82d7\u65
+  GET https://www.asiafm.com.tw/program/
+      -> text/html ·  (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement); 節目放送 - 亞洲電台 {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.asiafm.com.tw/#website"
+  GET https://www.asiafm.com.tw/program/#webpage
+      -> text/html ·  (function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement); 節目放送 - 亞洲電台 {"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://www.asiafm.com.tw/#website"
+  ... 11 more endpoint candidates not tried
+
+=== KISS Radio
+  page https://www.kiss.com.tw/ -> text/html, 36 KB
+  page https://www.kiss.com.tw/show/showtime.php -> text/html, 27 KB
+  page http://www.kiss.com.tw/blog/?cat=266 -> HTTP 404
+  page https://www.kiss.com.tw/radio_hq.php?radio_id=156 -> text/html, 11 KB
+  page https://www.kiss.com.tw/service/mobilephone/ -> text/html, 24 KB
+  page https://www.kiss.com.tw/show/ -> text/html, 29 KB
+  words: 9.9(南部地區) 流行磁場 18:00 - 22:00 線上收聽 19:32 現在播放： 飛輪海 - 下一個我 --> 線上收聽 19:32 現在播放： 飛輪海 - 下一個我 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_o
+  words: 聽 19:32 現在播放： 飛輪海 - 下一個我 --> 線上收聽 19:32 現在播放： 飛輪海 - 下一個我 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_open() { jsddm_canceltimer(); jsd
+  embed: https://www.youtube.com/embed/t_9n2kIaIRw
+  embed: https://player.soundon.fm/embed?podcast=5a4b4d13-9935-43d2-99f7-d7456d9e7f76&episode=
+  embed: https://player.soundon.fm/embed?podcast=5a4b4d13-9935-43d2-99f7-d7456d9e7f76&episode=59e44620-0cbb-4519-af49-47ad1d368a98
+  embed: https://player.soundon.fm/embed?podcast=5a4b4d13-9935-43d2-99f7-d7456d9e7f76&episode=66cc3235-9852-485a-af81-5c02456d0b15
+  embed: https://api.kiss.com.tw/test/hichannel2.php?api=2
+  embed: https://www.googletagmanager.com/ns.html?id=GTM-5QV4JH
+  embed: https://www.kiss.com.tw/test/hichannel2.php?api=1
+  embed: https://www.twitch.tv/embed/livekiss/chat?parent=www.kiss.com.tw
+  GET https://www.youtube.com/iframe_api
+      -> text/javascript · var scriptUrl = 'https:\/\/www.youtube.com\/s\/player\/8c3fda2d\/www-widgetapi.vflset\/www-widgetapi.js';try{var ttPolicy=window.trustedTypes.createPolicy("youtube-widget-api",{createScriptURL:function(x){return x}});scr
+  GET https://apis.google.com/js/platform.js
+      -> text/javascript · (function(){var p,aa=typeof Object.create=="function"?Object.create:function(a){var b=function(){};b.prototype=a;return new b},ba=typeof Object.defineProperties=="function"?Object.defineProperty:function(a,b,c){if(a==Arr
+  GET https://www.kiss.com.tw/service/songlist/
+      -> text/html ·  try { // 檢查 Google 廣告主程式是否存在 if (typeof GA_googleAddSlot !== 'undefined') { // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET_hot"); // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-250x250"); // GA_googleA
+  GET https://api.kiss.com.tw/test/hichannel2.php?api=2
+      -> URLError: <urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1016)>
+  GET http://www.kiss.com.tw/service/songlist/
+      -> text/html ·  try { // 檢查 Google 廣告主程式是否存在 if (typeof GA_googleAddSlot !== 'undefined') { // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET_hot"); // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-250x250"); // GA_googleA
+  GET https://www.kiss.com.tw/test/hichannel2.php?api=1
+      -> text/html ·  /* 隱藏 Video.js 預設的錯誤提示畫面，讓重連過程完全無感 */ .vjs-error-display { display: none !important; } // 1. 初始化全域變數以供外部 JS 使用 window.currentToken = 'EUWXz5GIya8Jxyx6111WdA'; window.currentExpires = '1789473146'; window.playerWidth = '
+  GET http://api.kiss.com.tw/test/hichannel2.php?api=2
+      -> text/html ·  
+  GET https://www.kiss.com.tw/test/hichannel2.php?api=2
+      -> text/html ·  
+
+=== M Radio
+  page https://www.mradio.com.tw/ -> text/html, 104 KB
+  page https://www.mradio.com.tw/program-list -> text/html, 302 KB
+  page https://www.mradio.com.tw/home/taiwan-story/ContentView/1405e1d4-2457-42c5-a055-5af65c811dad/false/taiwan-story -> text/html, 58 KB
+  page https://www.mradio.com.tw/home/taiwan-story/ContentView/bdcdc3a2-6f74-45db-bba2-05996b779823/false/taiwan-story -> text/html, 58 KB
+  page https://www.mradio.com.tw/home/taiwan-story/ContentView/58de56bd-eb41-40cb-bcb6-47530bdbcce0/false/taiwan-story -> text/html, 58 KB
+  words: ector("head").appendChild(l);})(); 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 有意思的電台 Mradio 音樂與資訊並重的都會性電台 | 全國廣播 FM106 整點新聞、時事專題、深耕在地 | Mradio F
+  words: or("head").appendChild(l);})(); 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 DJ&節目表 選擇時段 週一 週二 ~ 週五 週六 週日 週一 週二 ~ 週五 週六 週日 00:00 ~ 01:00 關不掉的收音
+  words: or("head").appendChild(l);})(); 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項
+  words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-09-11 〈戲班子長大的嗩吶聲：宋孟諱〉 本集節目邀請在戲班環境中成長的嗩吶演奏家 宋孟諱到節目受訪。嗩吶在臺灣傳統戲曲
+  words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-09-04 〈傳統北管與當代音樂的對話：曾立馨〉 本集節目邀請創作歌手曾立馨到節目受訪。近年來，曾立馨在音樂創作中持續探索
+  words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-08-28 〈恆春半島民謠的當代聲音：浮可泰FolkTake主唱Summer謝徐鳳玉〉 本集邀請來自屏東恆春的浮可泰 Fo
+  embed: https://www.googletagmanager.com/ns.html?id=GTM-KND8BSK&l=dataLayer
+  embed: https://tunein.com/embed/player/s91165/
+  GET https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;family=Noto+Sans+TC:wght@300;400;500;700&amp;display=swap
+      -> text/css · /* cyrillic-ext */ @font-face { font-family: 'Roboto'; font-style: normal; font-weight: 100; font-stretch: 100%; src: url(https://fonts.gstatic.com/s/roboto/v51/KFOMCnqEu92Fr1ME7kSn66aGLdTylUAMQXC89YmC2DPNWubEbFmZiAr0lFQ
+  GET https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Noto+Sans+TC:wght@300;400;500;700&display=swap
+      -> text/css · @font-face { font-family: 'Noto Sans TC'; font-style: normal; font-weight: 300; font-display: swap; src: url(https://fonts.gstatic.com/s/notosanstc/v39/-nF7OG829Oofr2wohFbTp9iFOisNA_cTyNromxqQuEMQ2wHYwbnmy1R1jDujLebozBXC
+  GET https://www.mradio.com.tw/song-history
+      -> text/html ·  歷史歌單 | 全國廣播 M-Radio .v-application a { color: #1976d2; } .v-application .primary { background-color: #1976d2 !important; border-color: #1976d2 !important; } .v-application .primary--text { color: #1976d2 !important; car
+  GET https://www.mradio.com.tw/program-list
+      -> text/html ·  DJ&amp;節目表 | 全國廣播 M-Radio .v-application a { color: #1976d2; } .v-application .primary { background-color: #1976d2 !important; border-color: #1976d2 !important; } .v-application .primary--text { color: #1976d2 !importan
+
+=== hichannel (中華電信)
+  page https://hichannel.hinet.net/radio/index.do -> URLError: <urlopen error [Errno -2] Name or service not known>
+  nothing that looks like a now-playing source on these pages
+
+The relay streams, listened to for twenty blocks
+
+  中廣音樂網                      no metadata channel
+  中廣流行網                      no metadata channel
+  中廣新聞網                      no metadata channel
+  飛碟電台                       no metadata channel
+  飛碟 台中真善美 (icecast)         20 blocks read, 1 carried metadata, titles: none
+  AsiaFM 亞洲                  no metadata channel
+  M Radio                    no metadata channel
+  古典音樂台 97.7                 20 blocks read, 1 carried metadata, titles: none
+  城市廣播 台南知音                  20 blocks read, 1 carried metadata, titles: none
+  台中廣播                       no metadata channel
+  IC之音                       no metadata channel
