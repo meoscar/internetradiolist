@@ -519,7 +519,8 @@ def main(argv):
             genre="TAIWAN",
             source=station["stream"],
             image=image,
-            site="",
+            # Where the station names its records, when it does: see taiwan.py.
+            site=station.get("site") or "",
             track=track,
             station_id=station["stream"],
             tags=station.get("tags") or (),

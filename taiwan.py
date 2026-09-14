@@ -51,6 +51,18 @@ EXCLUDE = {
     "中國華藝廣播公司 AM873": "broadcasts from Fujian, filed under TW",
 }
 
+# Where a station names its records on its own site, by the name the
+# directory files it under. The app reads each by the shape of the
+# address (NowSources in the app); an address of a shape it does not
+# know is a page it will not read, so add one only after adding the
+# reader. M Radio's list and 古典音樂台's document were measured on
+# 14 September 2026 (probes/taiwan_nowplaying.txt); KISS's log waits on
+# the evening's samples.
+NOW_SOURCES = {
+    "M Radio 全國廣播": "https://api.mradio.tw/api/song/get-recent-songs",
+    "Classical 古典音樂台 FM 97.7": "https://www.family977.com.tw/toXML.xml",
+}
+
 NOT_A_LETTER = re.compile(r"[^\w]+")
 
 
@@ -95,6 +107,7 @@ def build(rows, streams):
             "votes": int(row.get("votes") or 0),
             "codec": (row.get("codec") or "").strip().upper(),
             "hls": bool(answer.get("hls")),
+            "site": NOW_SOURCES.get(name, ""),
         })
     return kept, dropped
 
@@ -130,6 +143,7 @@ def main(argv):
     for why, count in sorted(reasons.items(), key=lambda kv: -kv[1]):
         print(f"  {count:4}  {why}")
     hls = sum(1 for s in kept if s["hls"])
+    print(f"{sum(1 for s in kept if s['site'])} name their records on their own site")
     print(f"\n{hls} of the {len(kept)} kept stream HLS; "
           f"{sum(1 for s in kept if s['favicon'])} carry a favicon; "
           f"{sum(1 for s in kept if s['homepage'])} name a homepage")

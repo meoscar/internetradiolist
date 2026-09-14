@@ -112,7 +112,7 @@ class BuildCatalogue(InAWorkingDir):
             {"name": "臺北電台", "stream": "https://tpe/live.m3u8", "homepage": "https://www.radio.gov.taipei/",
              "favicon": "https://www.radio.gov.taipei/favicon.png", "tags": ["news"], "votes": 4000, "codec": "AAC", "hls": True},
             {"name": "大千電台", "stream": "http://dachien/stream", "homepage": "", "favicon": "https://d/i.ico",
-             "tags": [], "votes": 100, "codec": "MP3", "hls": False},
+             "tags": [], "votes": 100, "codec": "MP3", "hls": False, "site": "https://api.example/records"},
             {"name": "已停播", "stream": "http://gone/stream", "homepage": "", "favicon": "", "tags": [], "votes": 5,
              "codec": "MP3", "hls": False},
         ])
@@ -130,6 +130,7 @@ class BuildCatalogue(InAWorkingDir):
         self.assertEqual(tpe["image"], "https://www.radio.gov.taipei/favicon.png")   # a picture, not an .ico
         self.assertEqual(taiwan[2]["image"], bc.PLACEHOLDER)
         self.assertEqual((tpe["homepage"], tpe["tags"], tpe["site"]), ("https://www.radio.gov.taipei/", ["news"], ""))
+        self.assertEqual(taiwan[2]["site"], "https://api.example/records")          # where it names its records
         self.assertNotIn("listeners", tpe)                                          # votes are not an audience
         self.assertIn("2 stations in Taiwan", out)
 

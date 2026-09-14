@@ -11,7 +11,8 @@
   ],
   "votes": 4183,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "Classical 古典音樂台 FM 97.7",
@@ -23,7 +24,8 @@
   ],
   "votes": 3563,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": "https://www.family977.com.tw/toXML.xml"
  },
  {
   "name": "中央廣播電台",
@@ -33,7 +35,8 @@
   "tags": [],
   "votes": 3276,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "Hit FM台北之音廣播",
@@ -45,7 +48,8 @@
   ],
   "votes": 1349,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "臺北電台AM",
@@ -57,7 +61,8 @@
   ],
   "votes": 1308,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "正聲廣播電台FM104",
@@ -70,7 +75,8 @@
   ],
   "votes": 1189,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "城市廣播網•台南知音",
@@ -80,7 +86,8 @@
   "tags": [],
   "votes": 920,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "正聲廣播公司",
@@ -94,7 +101,8 @@
   ],
   "votes": 886,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "台中廣播",
@@ -106,7 +114,8 @@
   ],
   "votes": 708,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台北古典廣播",
@@ -116,7 +125,8 @@
   "tags": [],
   "votes": 637,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台北流行音樂廣播",
@@ -128,7 +138,8 @@
   ],
   "votes": 595,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "佳音經典音樂網",
@@ -141,7 +152,8 @@
   ],
   "votes": 586,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "佳音電台",
@@ -153,7 +165,8 @@
   ],
   "votes": 458,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "台中歡喜之聲FM105.5",
@@ -165,7 +178,8 @@
   ],
   "votes": 455,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "嘉義環球廣播",
@@ -177,7 +191,8 @@
   ],
   "votes": 428,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "民本電台-2",
@@ -189,7 +204,8 @@
   ],
   "votes": 417,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "警察廣播電台 - 台北台",
@@ -202,7 +218,8 @@
   ],
   "votes": 409,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "Phate",
@@ -212,7 +229,8 @@
   "tags": [],
   "votes": 407,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "寶島聯播網",
@@ -222,7 +240,8 @@
   "tags": [],
   "votes": 394,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台中城市廣播",
@@ -235,7 +254,8 @@
   ],
   "votes": 394,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "漢聲調頻",
@@ -245,7 +265,8 @@
   "tags": [],
   "votes": 386,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "中廣新聞網",
@@ -257,7 +278,8 @@
   ],
   "votes": 373,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "牽手之聲網路台",
@@ -269,7 +291,8 @@
   ],
   "votes": 359,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "民本電台-1",
@@ -281,7 +304,8 @@
   ],
   "votes": 332,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "1766線上電臺-百家知識",
@@ -291,7 +315,8 @@
   "tags": [],
   "votes": 325,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "桃園GO GO104.3",
@@ -304,7 +329,8 @@
   ],
   "votes": 312,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "人人電台 好事聯播網FM98.9",
@@ -316,7 +342,8 @@
   ],
   "votes": 304,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "警察廣播電台 - 全國治安交通網",
@@ -329,7 +356,8 @@
   ],
   "votes": 301,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "好事聯播網 高雄港都",
@@ -341,7 +369,8 @@
   ],
   "votes": 283,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "太陽電台",
@@ -356,7 +385,8 @@
   ],
   "votes": 264,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "Needs Radio 全球華語廣播網",
@@ -370,7 +400,8 @@
   ],
   "votes": 257,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "下港之聲FM90.5",
@@ -382,7 +413,8 @@
   ],
   "votes": 253,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "美聲廣播電臺",
@@ -394,7 +426,8 @@
   ],
   "votes": 247,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台中古典音樂台",
@@ -404,7 +437,8 @@
   "tags": [],
   "votes": 236,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "漢聲中波",
@@ -414,7 +448,8 @@
   "tags": [],
   "votes": 222,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "九八新聞台",
@@ -426,7 +461,8 @@
   ],
   "votes": 220,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "屏東大武山廣播",
@@ -438,7 +474,8 @@
   ],
   "votes": 218,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "潮州之聲",
@@ -450,7 +487,8 @@
   ],
   "votes": 180,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "金聲廣播電台",
@@ -463,7 +501,8 @@
   ],
   "votes": 179,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "中廣音樂網",
@@ -476,7 +515,8 @@
   ],
   "votes": 173,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電台 - 台中台",
@@ -489,7 +529,8 @@
   ],
   "votes": 172,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 全國治安交通網 FM 104.9",
@@ -506,7 +547,8 @@
   ],
   "votes": 172,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "屏東之聲廣播電台FM92.5",
@@ -518,7 +560,8 @@
   ],
   "votes": 166,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "中廣流行網",
@@ -530,7 +573,8 @@
   ],
   "votes": 152,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "大千電台",
@@ -540,7 +584,8 @@
   "tags": [],
   "votes": 148,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "A-Line Radio",
@@ -553,7 +598,8 @@
   ],
   "votes": 146,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "竹塹廣播電台",
@@ -566,7 +612,8 @@
   ],
   "votes": 144,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "世新廣播電台-1",
@@ -579,7 +626,8 @@
   ],
   "votes": 143,
   "codec": "MP3",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "城市廣播網-城市廣播",
@@ -589,7 +637,8 @@
   "tags": [],
   "votes": 143,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 台北一台",
@@ -599,7 +648,8 @@
   "tags": [],
   "votes": 139,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "新竹好聽廣播電台",
@@ -611,7 +661,8 @@
   ],
   "votes": 139,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "飛碟聯播網 台中真善美",
@@ -621,7 +672,8 @@
   "tags": [],
   "votes": 132,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "苗栗正義電台",
@@ -636,7 +688,8 @@
   ],
   "votes": 118,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "好事聯播網 蓮花電台",
@@ -648,7 +701,8 @@
   ],
   "votes": 114,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "正聲綜合",
@@ -658,7 +712,8 @@
   "tags": [],
   "votes": 112,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "凱旋廣播電台",
@@ -671,7 +726,8 @@
   ],
   "votes": 108,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "寶島客家廣播電台",
@@ -681,7 +737,8 @@
   "tags": [],
   "votes": 106,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "新竹勞工之聲",
@@ -693,7 +750,8 @@
   ],
   "votes": 103,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "Stars RADIO星蹤之愛廣播網",
@@ -703,7 +761,8 @@
   "tags": [],
   "votes": 99,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "幸福廣播電台TR Radio FM102.5",
@@ -716,7 +775,8 @@
   ],
   "votes": 91,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "噶瑪蘭廣播電台",
@@ -729,7 +789,8 @@
   ],
   "votes": 91,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 臺北分臺 FM 94.3",
@@ -746,7 +807,8 @@
   ],
   "votes": 90,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "B&B RADIO 幫幫廣播網",
@@ -758,7 +820,8 @@
   ],
   "votes": 90,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "AsiaFM 亞洲電台",
@@ -770,7 +833,8 @@
   ],
   "votes": 89,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "飛碟聯播網 飛碟電台",
@@ -783,7 +847,8 @@
   ],
   "votes": 87,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 中興台",
@@ -793,7 +858,8 @@
   "tags": [],
   "votes": 86,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "南方之音",
@@ -805,7 +871,8 @@
   ],
   "votes": 85,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "世新廣播電台-2",
@@ -817,7 +884,8 @@
   ],
   "votes": 84,
   "codec": "MP3",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "飛碟聯播網 南台灣之聲",
@@ -827,7 +895,8 @@
   "tags": [],
   "votes": 84,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 台北二台",
@@ -837,7 +906,8 @@
   "tags": [],
   "votes": 79,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 台中台",
@@ -847,7 +917,8 @@
   "tags": [],
   "votes": 79,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "嘉義之音",
@@ -857,7 +928,8 @@
   "tags": [],
   "votes": 75,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "陽光電台",
@@ -867,7 +939,8 @@
   "tags": [],
   "votes": 75,
   "codec": "UNKNOWN",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "Boss Online Radio",
@@ -879,7 +952,8 @@
   ],
   "votes": 75,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "勝利之聲AM756",
@@ -889,7 +963,8 @@
   "tags": [],
   "votes": 72,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "M Radio 全國廣播",
@@ -902,7 +977,8 @@
   ],
   "votes": 71,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": "https://api.mradio.tw/api/song/get-recent-songs"
  },
  {
   "name": "飛揚調頻FM89.5",
@@ -915,7 +991,8 @@
   ],
   "votes": 71,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "AsiaFM 亞太電台",
@@ -927,7 +1004,8 @@
   ],
   "votes": 70,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "Ai Radio TAIWAN 台灣AI電台",
@@ -943,7 +1021,8 @@
   ],
   "votes": 67,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 高雄分臺 FM 93.1",
@@ -960,7 +1039,8 @@
   ],
   "votes": 67,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "桃園先聲廣播AM774",
@@ -970,7 +1050,8 @@
   "tags": [],
   "votes": 66,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "好家庭廣播電台（Classical 台中古典音樂台）",
@@ -982,7 +1063,8 @@
   ],
   "votes": 66,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "大愛網路電台",
@@ -995,7 +1077,8 @@
   ],
   "votes": 64,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "正聲台北調幅台 AM819",
@@ -1005,7 +1088,8 @@
   "tags": [],
   "votes": 63,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "栗子的輕音樂",
@@ -1015,7 +1099,8 @@
   "tags": [],
   "votes": 63,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "勝利之聲台南2台AM1188",
@@ -1025,7 +1110,8 @@
   "tags": [],
   "votes": 61,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "新客家廣播電台",
@@ -1039,7 +1125,8 @@
   ],
   "votes": 61,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "新聲廣播FM99.3",
@@ -1049,7 +1136,8 @@
   "tags": [],
   "votes": 61,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "農鄉廣播電台",
@@ -1061,7 +1149,8 @@
   ],
   "votes": 59,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "FM 90.5 大樹下電台",
@@ -1071,7 +1160,8 @@
   "tags": [],
   "votes": 59,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "都會聲音FM99.7",
@@ -1081,7 +1171,8 @@
   "tags": [],
   "votes": 59,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "佳音音樂網",
@@ -1091,7 +1182,8 @@
   "tags": [],
   "votes": 58,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "上海麗都廣播電台 1940's Shanghai Vintage Jazz Shidaiqu Radio",
@@ -1101,7 +1193,8 @@
   "tags": [],
   "votes": 57,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "濁水溪FM90.1",
@@ -1111,7 +1204,8 @@
   "tags": [],
   "votes": 57,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台南建國廣播公司",
@@ -1121,7 +1215,8 @@
   "tags": [],
   "votes": 56,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電台 - 花蓮台",
@@ -1131,7 +1226,8 @@
   "tags": [],
   "votes": 56,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "雲端新廣播",
@@ -1143,7 +1239,8 @@
   ],
   "votes": 56,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "天聲AM1314",
@@ -1153,7 +1250,8 @@
   "tags": [],
   "votes": 55,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "MCBS 銘傳廣播電台",
@@ -1165,7 +1263,8 @@
   ],
   "votes": 53,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 松嶺台",
@@ -1175,7 +1274,8 @@
   "tags": [],
   "votes": 53,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "彰化花園廣播電台",
@@ -1185,7 +1285,8 @@
   "tags": [],
   "votes": 51,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "Radio ICRT",
@@ -1197,7 +1298,8 @@
   ],
   "votes": 49,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "勝利之聲台南1台AM774",
@@ -1207,7 +1309,8 @@
   "tags": [],
   "votes": 48,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "每日廣播公司SAKURA RADIO",
@@ -1217,7 +1320,8 @@
   "tags": [],
   "votes": 48,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "燕聲AM1044",
@@ -1227,7 +1331,8 @@
   "tags": [],
   "votes": 47,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電台 - 宜蘭台",
@@ -1237,7 +1342,8 @@
   "tags": [],
   "votes": 47,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "天聲AM1215",
@@ -1247,7 +1353,8 @@
   "tags": [],
   "votes": 44,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "彰化關懷電台",
@@ -1257,7 +1364,8 @@
   "tags": [],
   "votes": 42,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "益世廣播電台",
@@ -1269,7 +1377,8 @@
   ],
   "votes": 42,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "環宇廣播電台",
@@ -1281,7 +1390,8 @@
   ],
   "votes": 40,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "燕聲AM1242",
@@ -1291,7 +1401,8 @@
   "tags": [],
   "votes": 39,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "資悠網路廣播實驗電台",
@@ -1301,7 +1412,8 @@
   "tags": [],
   "votes": 39,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 臺中分臺 FM 94.5",
@@ -1318,7 +1430,8 @@
   ],
   "votes": 38,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "新竹之音",
@@ -1328,7 +1441,8 @@
   "tags": [],
   "votes": 38,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "電聲電台",
@@ -1338,7 +1452,8 @@
   "tags": [],
   "votes": 37,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "城市廣播網-大苗栗廣播",
@@ -1348,7 +1463,8 @@
   "tags": [],
   "votes": 37,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "苗栗客家文化廣播電台",
@@ -1360,7 +1476,8 @@
   ],
   "votes": 37,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "城市廣播網-南投廣播",
@@ -1370,7 +1487,8 @@
   "tags": [],
   "votes": 36,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "嘉義北回廣播電台",
@@ -1380,7 +1498,8 @@
   "tags": [],
   "votes": 36,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "先聲廣播電台 (基北桃竹苗)",
@@ -1392,7 +1511,8 @@
   ],
   "votes": 35,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "ICRT",
@@ -1404,7 +1524,8 @@
   ],
   "votes": 34,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "高雄港都廣播",
@@ -1416,7 +1537,8 @@
   ],
   "votes": 34,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 新竹分臺 AM 1512",
@@ -1433,7 +1555,8 @@
   ],
   "votes": 33,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "高雄廣播電台",
@@ -1445,7 +1568,8 @@
   ],
   "votes": 33,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 大溪二台",
@@ -1457,7 +1581,8 @@
   ],
   "votes": 31,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "台灣廣播 大溪一台",
@@ -1469,7 +1594,8 @@
   ],
   "votes": 31,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "彰化國聲廣播AM1179",
@@ -1481,7 +1607,8 @@
   ],
   "votes": 30,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 臺南分臺 AM 1314",
@@ -1498,7 +1625,8 @@
   ],
   "votes": 30,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "Nei-Di's ACG Music",
@@ -1512,7 +1640,8 @@
   ],
   "votes": 30,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "漁業廣播電台",
@@ -1524,7 +1653,8 @@
   ],
   "votes": 29,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "IC之音竹科廣播",
@@ -1538,7 +1668,8 @@
   ],
   "votes": 28,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "人人廣播電台",
@@ -1550,7 +1681,8 @@
   ],
   "votes": 26,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "彰化國聲廣播AM810",
@@ -1562,7 +1694,8 @@
   ],
   "votes": 24,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "飛碟聯播網 雲嘉民生展望",
@@ -1572,7 +1705,8 @@
   "tags": [],
   "votes": 23,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "連花廣播電台",
@@ -1584,7 +1718,8 @@
   ],
   "votes": 23,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "領袖廣播",
@@ -1596,7 +1731,8 @@
   ],
   "votes": 22,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 臺東分臺 FM 94.3",
@@ -1613,7 +1749,8 @@
   ],
   "votes": 22,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 花蓮分臺 FM 94.3",
@@ -1630,7 +1767,8 @@
   ],
   "votes": 21,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "高雄廣播電台AM1089",
@@ -1642,7 +1780,8 @@
   ],
   "votes": 18,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "CanCheers",
@@ -1652,7 +1791,8 @@
   "tags": [],
   "votes": 18,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "中廣鄉親網",
@@ -1664,7 +1804,8 @@
   ],
   "votes": 16,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "警察廣播電臺 - 宜蘭分臺 FM 101.3",
@@ -1681,7 +1822,8 @@
   ],
   "votes": 16,
   "codec": "AAC",
-  "hls": true
+  "hls": true,
+  "site": ""
  },
  {
   "name": "神農廣播電台",
@@ -1693,7 +1835,8 @@
   ],
   "votes": 15,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "山海屯青少年之聲",
@@ -1705,7 +1848,8 @@
   ],
   "votes": 13,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "中廣 I GO",
@@ -1717,7 +1861,8 @@
   ],
   "votes": 11,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "天南AM999",
@@ -1729,7 +1874,8 @@
   ],
   "votes": 11,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "曾文溪廣播電台",
@@ -1741,7 +1887,8 @@
   ],
   "votes": 10,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "華聲1台 AM1152",
@@ -1753,7 +1900,8 @@
   ],
   "votes": 10,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "快樂聯播網",
@@ -1763,7 +1911,8 @@
   "tags": [],
   "votes": 9,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "華聲2台 AM1224",
@@ -1775,7 +1924,8 @@
   ],
   "votes": 9,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "基隆輕鬆電台 Chillax Radio",
@@ -1787,7 +1937,8 @@
   ],
   "votes": 9,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "古都電台",
@@ -1799,7 +1950,8 @@
   ],
   "votes": 7,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "彰化靉友廣播電台 FM97.3",
@@ -1811,7 +1963,8 @@
   ],
   "votes": 6,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "講客廣播電台",
@@ -1824,7 +1977,8 @@
   ],
   "votes": 6,
   "codec": "AAC",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "Boss Boss Radio",
@@ -1834,7 +1988,8 @@
   "tags": [],
   "votes": 4,
   "codec": "MP3",
-  "hls": false
+  "hls": false,
+  "site": ""
  },
  {
   "name": "Kiss Radio (TW)",
@@ -1844,6 +1999,7 @@
   "tags": [],
   "votes": 0,
   "codec": "",
-  "hls": false
+  "hls": false,
+  "site": ""
  }
 ]

@@ -37,7 +37,7 @@ class Build(unittest.TestCase):
         self.assertEqual(kept[1], {
             "name": "Hit FM台北之音廣播", "stream": "https://a/hit.m3u8",
             "homepage": "https://hitoradio.com/", "favicon": "https://hitoradio.com/i.png",
-            "tags": ["music", "pop"], "votes": 100, "codec": "UNKNOWN", "hls": True})
+            "tags": ["music", "pop"], "votes": 100, "codec": "UNKNOWN", "hls": True, "site": ""})
         self.assertEqual(dict(dropped), {
             "Classical 古典音樂台 FM 97.7": "the stream did not answer when probed",
             "Hit FM 台北之音廣播": "the same name, already kept",
@@ -60,6 +60,17 @@ class Build(unittest.TestCase):
         kept, _ = taiwan.build(rows, {"https://a/s": {"reachable": True}})
         self.assertEqual(kept[0]["favicon"], "")
         self.assertEqual(taiwan.name_key("Ｈｉｔ FM 台北之音－廣播"), taiwan.name_key("hit fm台北之音廣播"))
+
+    def test_a_station_that_names_its_records_on_its_site_carries_the_address(self):
+        rows = [row("M Radio 全國廣播", "https://n03.rcs.revma.com/044q61ha7a0uv", 71),
+                row("Classical 古典音樂台 FM 97.7", "http://59.120.88.155:8000/live.mp3", 3563),
+                row("臺北電台", "https://b/live.m3u8", 4000)]
+        streams = {r["url"]: {"reachable": True} for r in rows}
+        kept, _ = taiwan.build(rows, streams)
+        self.assertEqual({s["name"]: s["site"] for s in kept}, {
+            "臺北電台": "",
+            "Classical 古典音樂台 FM 97.7": "https://www.family977.com.tw/toXML.xml",
+            "M Radio 全國廣播": "https://api.mradio.tw/api/song/get-recent-songs"})
 
     def test_the_kept_streams_are_filed_under_tw_and_nothing_else_moves(self):
         out = taiwan.with_taiwan({"http://x/s": "GB"}, [{"stream": "https://a/s"}])
