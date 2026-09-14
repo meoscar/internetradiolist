@@ -1,0 +1,690 @@
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	POP Radio Fm91.7
+</title><meta property="og:title" content="POP Radio聯播網" /><meta name="description" property="og:description" content="聽你的溫度，聽我的態度，多元流行話題，24小時Live和你在一起！" /><meta property="og:image" content="http://www.pop917.com/images/share.jpg" /><link href="css/style.css?20260612" rel="stylesheet" /><link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /><link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" /><link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" media="screen" /><link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" media="screen" />
+	
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/fancybox/jquery.fancybox.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/function.js"></script>
+    <script>
+        function GoGoogleSearch() {
+            if ($.trim($("#q").val()) == "") {
+                $("#q").focus();
+                alert("請輸入關鍵字");
+                return false;
+            }
+            window.open("https://www.google.com.tw/search?ie=utf-8&hl=zh-TW&q=site:www.pop917.com+" + encodeURIComponent($.trim($("#q").val())));
+        }
+    </script>
+    
+    <style>
+        .radioSitePager {
+            background:url(images/icon-brown.jpg) no-repeat;
+            width:39px;
+            height:113px;
+            text-align:center;
+            vertical-align:middle;
+            font-size:18px;
+            color: #fff;
+            line-height:37px;
+            padding-left:4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .radioSitePager.highlight {
+            color: #6A3906;
+        }
+    </style>
+    <script>
+        function showSitePager(x) {
+            $("#sitePager1").removeClass("highlight");
+            $("#sitePager2").removeClass("highlight");
+            $("#sitePage1").hide();
+            $("#sitePage2").hide();
+            if (x == 1) {
+                $("#sitePager1").addClass("highlight");
+                $("#sitePage1").show();
+            }
+            else {
+                $("#sitePager2").addClass("highlight");
+                $("#sitePage2").show();
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="Program_List.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTgzOTI2OTY1MWRk9bLlsNsEBkFPzsjT1rqAKf/o8B8=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C4C93045" />
+</div>
+    
+    <table align="center" width="955" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
+                <div id="header">
+                    <a href="./"><img src="images/logo_2025.png" /></a>
+
+                    <ul class="level1">
+                        <li><a href="about.aspx"><img src="images/menu_01.png" id="menu01" onmouseover="MM_swapImage('menu01','','images/menu_01_hover.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+                            <div class="level2Mask" style="height:125px;"></div>
+                            <ul class="level2">
+                                <li class="set1"><a href="about.aspx">．電台簡介</a></li>
+                                <li class="set1"><a href="radio.aspx">．線上收聽</a></li>
+                                <li class="set1"><a href="ADPrice.aspx">．廣告價目</a></li>
+                                <li class="set1"><a href="contact.aspx">．聯絡我們</a></li>
+                                <li class="set1"><a href="copyright.aspx">．版權宣告</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Program_List.aspx"><img src="images/menu_02_hover.png" id="menu02" onmouseover="MM_swapImage('menu02','','images/menu_02_hover.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+                            <div class="level2Mask" style="width: 110px;"></div>
+                            <ul class="level2" style="width: 110px;">
+                                <li class="set2"><a href="Program_List.aspx">．節目表</a></li>
+                                <li class="set2"><a href="People_DJList.aspx">．主持人檔案</a></li>
+                                <!--<li class="set2"><a href="playlists.aspx">．節目歌單列表</a></li>-->
+                                <li class="set2"><a href="Program_PreList.aspx">．節目預告</a></li>
+                                <li class="set2"><a href="Program_HotVideo.aspx">．發燒影音</a></li>
+                            </ul>
+                        </li>
+                        <li>
+							<a href="newslist.aspx"><img src="images/menu_03.png" id="menu03" onmouseover="MM_swapImage('menu03','','images/menu_03_hover.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+                  		</li>
+                        <li><a href="life3list.aspx"><img src="images/menu_04.png" id="menu04" onmouseover="MM_swapImage('menu04','','images/menu_04_hover.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+                            <div class="level2Mask" style="height:75px;">></div>
+                            <ul class="level2">
+                                <li class="set4"><a href="life3list.aspx">．POP新鮮事</a></li>
+                                <li class="set4"><a href="lifelist.aspx">．DJ漫遊區</a></li>
+                                <li class="set4"><a href="life2.aspx">．POP星運勢</a></li>
+                                <!--<li class="set4"><a href="movie.aspx">．電影最前線</a></li>-->
+                            </ul>
+                        </li>
+                        <li><a href="People_PopKingList.aspx"><img src="images/menu_05.png" id="menu05" onmouseover="MM_swapImage('menu05','','images/menu_05_hover.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+                            <div class="level2Mask" style="height:125px;"></div>
+                            <ul class="level2">
+                                <li class="set5"><a href="People_PopKingList.aspx">．POP Stars</a></li>
+                                <li class="set5"><a href="Program_Billboard.aspx">．排行榜</a></li>
+                                <li class="set5"><a href="People_PlayDJList.aspx">．PLAY DJ</a></li>
+                                <li class="set5"><a href="Program_RequestIntro.aspx">．點播歌曲</a></li>
+                                <li class="set5"><a href="musicList.aspx">．音樂焦點</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="AppNewsList.aspx"><img src="images/menu_06.png" id="menu06" onmouseover="MM_swapImage('menu06','','images/menu_06_hover.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+                            <div class="level2Mask" style="height:125px;"></div>
+                            <ul class="level2">
+                                <li class="set6"><a href="AppNewsList.aspx">．APP News</a></li>
+                                <li class="set6"><a href="https://www.facebook.com/FM917popradio" target="_blank">．臉書動態</a></li>
+                                <li class="set6"><a href="Event_mobile.aspx">．簡訊贈獎</a></li>
+                                <li class="set6"><a href="questionairlist.aspx">．POP研究院</a></li>
+                                <li class="set6"><a href="Event_award.aspx">．中獎名單</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div id="headerMaq">
+                    <a href="https://www.youtube.com/channel/UCJ5rBA0z4WFGtUTS83sAb_A" target="_blank" class="youtube"><img src="images/yt_2025.png" style="width:24px;" /></a>
+                    <a href="http://www.olis.com.tw/popradio/" target="_blank" class="pop"><img src="images/pop_2025.png" style="width:24px;" /></a>
+                    <a href="https://www.facebook.com/FM917popradio?fref=ts" target="_blank" class="fb"><img src="images/fb_2025.png" style="width:24px;" /></a>
+                    <div class="search">
+                        <input type="text" name="q" id="q" value="" />
+                        <div class="searchBtn" onclick="javascript:GoGoogleSearch();"></div>
+                    </div>
+                    <div class="marquee">
+                        
+<style type="text/css">
+    .news {
+        text-decoration: none;
+    }
+    .news:link {
+        text-decoration: none;
+    }
+    .news:hover {
+        text-decoration: none;
+    }
+</style>
+
+
+
+<script type="text/javascript"> 
+    var marqueeContent = new Array();
+marqueeContent[0]="<a href='http://www.pop917.com/radio.aspx' onclick='ga('send', 'event', 'home', 'click', 'Scroll-68');' target='_blank' class='news'>在POP Radio官網即可進行線上收聽唷！來來來點這裡！</a>";
+marqueeContent[1]="<a href='http://www.pop917.com/radio.aspx' onclick='ga('send', 'event', 'home', 'click', 'Scroll-68');' target='_blank' class='news'>在POP Radio官網即可進行線上收聽唷！來來來點這裡！</a>";
+
+var marqueeInterval=new Array(); 
+var marqueeId = 0;
+var marqueeDelay = 5000; 
+var marqueeHeight = 20; 
+function initMarquee() { 
+    var str=marqueeContent[0]; 
+    document.write('<div id="marqueeBox" style="overflow:hidden;width:90%; height:' + marqueeHeight + 'px" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval(\'startMarquee()\',marqueeDelay)"><div>'+str+'</div></div>'); 
+    marqueeId++; 
+    marqueeInterval[0]=setInterval("startMarquee()",marqueeDelay); 
+} 
+function startMarquee() { 
+    var str=marqueeContent[marqueeId]; 
+    marqueeId++; 
+    if(marqueeId>=marqueeContent.length) marqueeId=0; 
+    if(document.getElementById("marqueeBox").childNodes.length==1) { 
+    var nextLine=document.createElement('DIV'); 
+    nextLine.innerHTML=str; 
+    document.getElementById("marqueeBox").appendChild(nextLine); 
+    } 
+    else { 
+        document.getElementById("marqueeBox").childNodes[0].innerHTML=str; 
+        document.getElementById("marqueeBox").appendChild(document.getElementById("marqueeBox").childNodes[0]); 
+        document.getElementById("marqueeBox").scrollTop=0; 
+    } 
+    clearInterval(marqueeInterval[1]); 
+    marqueeInterval[1]=setInterval("scrollMarquee()",20); 
+} 
+function scrollMarquee() { 
+    document.getElementById("marqueeBox").scrollTop++; 
+    if(document.getElementById("marqueeBox").scrollTop%marqueeHeight==(marqueeHeight)){ 
+    clearInterval(marqueeInterval[1]); 
+    } 
+}
+initMarquee();
+</script> 
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+    
+    <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="251" valign="top">
+                
+<div style="width: 251px; height: 160px; position: relative;">
+    <div style="position: absolute; right: 0px; bottom: 0px; width: 213px; height: 143px; overflow: hidden;">
+        <div id="divStation" style="position: absolute; top: 0px; left: 0px; width: 213px; height: 429px;">
+            <div class="liveBox2" style="background: url(images/liveBG-new.jpg) no-repeat;" onclick="javascript:window.location.href='radio.aspx'; ga('send', 'event', 'home', 'click', 'HICHANNEL-20');">
+                <span class="poster"><img src="Files/images/41_0.9333917.jpg" style="width: 75px;" /></span>
+                <span class="time"><span class="station">北北基FM91.7</span>　19:00~21:00</span>
+                <span class="program">Fun Music<br /><span class="host">Emily</span></span>
+                <span class="sound"><img src="images/sound.gif"></span>
+                <span class="next">NEXT
+                    <span class="nprogram">&nbsp;&nbsp;鬧著玩音樂</span>
+                </span>
+            </div>
+
+            <div class="liveBox2" style="background: url(images/liveBG-new.jpg) no-repeat;" onclick="javascript:window.location.href='radio.aspx'; ga('send', 'event', 'home', 'click', 'HICHANNEL2-20');">
+                <span class="poster"><img src="Files/images/41_0.3501551.jpg" style="width: 75px;" /></span>
+                <span class="time"><span class="station">桃竹苗FM90.7</span>　20:00~23:00</span>
+                <span class="program">Fun Music<br /><span class="host">Emily</span></span>
+                <span class="sound"><img src="images/sound.gif"></span>
+                <span class="next">NEXT
+                    <span class="nprogram">&nbsp;&nbsp;鬧著玩音樂</span>
+                </span>
+            </div>
+
+            <div class="liveBox2" style="background: url(images/liveBG-new.jpg) no-repeat;" onclick="javascript:window.location.href='radio.aspx'; ga('send', 'event', 'home', 'click', 'HICHANNEL-20');">
+                <span class="poster"><img src="Files/images/41_0.9333917.jpg" style="width: 75px;" /></span>
+                <span class="time"><span class="station">北北基FM91.7</span>　19:00~21:00</span>
+                <span class="program">Fun Music<br /><span class="host">Emily</span></span>
+                <span class="sound"><img src="images/sound.gif"></span>
+                <span class="next">NEXT
+                    <span class="nprogram">&nbsp;&nbsp;鬧著玩音樂</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var stationTimer;
+    var stationTimerInterval = 3000;
+    var currentStation = 0;
+    var stationHeight = 143;
+    function stationTimerGo() {
+        currentStation++;
+        $("#divStation").animate({
+            top: -(stationHeight * currentStation) + "px"
+        }, 400, function () {
+            if (currentStation >= 2) {
+                currentStation = 0;
+                $("#divStation").css("top", "0px");
+            }
+        });
+        stationTimer = setTimeout("stationTimerGo();", stationTimerInterval);
+    }
+    stationTimer = setTimeout("stationTimerGo();", stationTimerInterval);
+</script>
+
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr><td height="126" style="background: url(images/indexADBG1.jpg) no-repeat;"><div style="width: 202px; height: 106px; overflow: hidden; margin: 6px 0 0 40px;"><a href="https://www.facebook.com/FM917popradio" onclick="ga('send', 'event', 'home', 'click', 'Inner-left-1770');" target="_blank"><img src="/media/AD/1770.jpg" border="0" /></a></div></td></tr>
+                </table>
+            </td>
+            <td width="704" valign="top">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="60">
+                            <ul class="programMenu" style="background: url(images/programMenuBG.png) no-repeat;">
+                                <li class="active"><a href="Program_List.aspx">節目表</a></li>
+                                <li class="dot"></li>
+                                <li class=""><a href="People_DJList.aspx">主持人檔案</a></li>
+                                <li class="dot"></li>
+                                <!--
+								<li class=""><a href="playlists.aspx">節目歌單列表</a></li>
+                                <li class="dot"></li>
+                                -->
+								<li class=""><a href="Program_PreList.aspx">節目預告</a></li>
+                                <li class="dot"></li>
+                                <li class=""><a href="Program_HotVideo.aspx">發燒影音</a></li>
+                            </u>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div style="width: 637px; margin: 20px 0 0 22px; font-size: 14px; font-family: 微軟正黑體, Arial;">
+                                
+                                    <div style="width: 39px; float: left">
+                                        <div id="sitePager1" class="radioSitePager highlight" onclick="javascript:showSitePager(1);">北<br />北<br />基</div>
+                                        <div id="sitePager2" class="radioSitePager" onclick="javascript:showSitePager(2);">桃<br />竹<br />苗</div>
+                                    </div>
+                                    <div style="width: 598px; float: right">
+                                        <table id="sitePage1" width="100%" align="center" cellpadding="0" cellspacing="1" bgcolor="#868686">
+                                            <tr bgcolor="#E5C3A0">
+                                                <th width="10%" height="30" align="center" valign="middle" style="font-size: 12px;">時段</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Mon</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Tue</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Wed</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Thu</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Fri</th>
+                                                <th width="15%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Sat</th>
+                                                <th width="15%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Sun</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px;">時段</th>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 撞新聞<br /><a href="People_DJList.aspx?ID=129&w=1#DJ129" style="color:#C12D23;">承揚</a></td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">Music All Night</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 撞新聞<br />
+													<a href="People_DJList.aspx?ID=158&w=1#DJ158" style="color:#C12D23;">莊雨潔</a>(一)、
+													<a href="People_DJList.aspx?ID=169&w=1#DJ169" style="color:#C12D23;">謝寒冰</a>(二、四)、<br />
+													<a href="People_DJList.aspx?ID=157&w=1#DJ157" style="color:#C12D23;">劉必榮</a>(三)、
+													<a href="People_DJList.aspx?ID=159&w=1#DJ159" style="color:#C12D23;">苑曉琬</a>(五)
+                                                </td>
+                                                <td colspan="2" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">音樂喔嗨唷<br /><a href="People_DJList.aspx?ID=108&w=2#DJ108" style="color:#C12D23;">Kitty</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 撞新聞<br /><a href="People_DJList.aspx?ID=125&w=1#DJ125" style="color:#C12D23;">黃暐瀚</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09am</td>
+                                                <td colspan="5" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">POP 最正點<br /><a href="People_DJList.aspx?ID=114&w=1#DJ114" style="color:#C12D23;">林書煒</a></td>
+                                                <td colspan="2" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">POP 有夠靚<br /><a href="People_DJList.aspx?ID=123&w=2#DJ123" style="color:#C12D23;">吳怡霈</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 搶先爆<br />
+													<a href="People_DJList.aspx?ID=126&w=1#DJ126" style="color:#C12D23;">邱明玉</a>(一、三、五)、<br />
+													<a href="People_DJList.aspx?ID=151&w=1#DJ151" style="color:#C12D23;">羅旺哲</a>(二)、
+													<a href="People_DJList.aspx?ID=154&w=1#DJ154" style="color:#C12D23;">周楷</a>(四)
+												</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff">UnoLife<br />光聽你說<br /><a href="People_DJList.aspx?ID=141&w=2#DJ141" style="color:#C12D23;">賴雨農</a></td>
+                                                <td rowspan="3" align="center" valign="middle" bgcolor="#ffffff">音樂隨身聽<br /><a href="People_DJList.aspx?ID=107&w=2#DJ107" style="color:#C12D23;">Jerry</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">12pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 搶先爆<br />
+													<a href="People_DJList.aspx?ID=139&w=1#DJ139" style="color:#C12D23;">康仁俊</a>(一、三、五)、<br />
+													<a href="People_DJList.aspx?ID=163&w=1#DJ163" style="color:#C12D23;">黃介正</a>(二)、
+													<a href="People_DJList.aspx?ID=164&w=1#DJ164" style="color:#C12D23;">樊啓明</a>(四)
+													
+												</td>
+                                                <td rowspan="2" align="center" valign="middle" bgcolor="#ffffff">音樂隨身聽<br /><a href="People_DJList.aspx?ID=106&w=2#DJ106" style="color:#C12D23;">Miffy</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">12pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01pm</td>
+                                                <td align="center" colspan="5" rowspan="2" valign="middle" bgcolor="#ffffff">音樂 123<br /><a href="People_DJList.aspx?ID=113&w=1#DJ113" style="color:#C12D23;">丹尼</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02pm</td>
+                                                <td rowspan="2" colspan="2" align="center" valign="middle" bgcolor="#ffffff">Easy Music<br /><a href="People_DJList.aspx?ID=110&w=2#DJ110" style="color:#C12D23;">Eva</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03pm</td>
+                                                <td align="center" colspan="5" valign="middle" bgcolor="#ffffff">3點玩什麼<br /><a href="People_DJList.aspx?ID=103&w=1#DJ103" style="color:#C12D23;">Candy</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">依同開Mic辣!<br /><a href="People_DJList.aspx?ID=116&w=1#DJ116" style="color:#C12D23;">李明依</a></td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">音樂咬耳朵<br /><a href="People_DJList.aspx?ID=109&w=2#DJ109" style="color:#C12D23;">哲緯</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 大國民<br />
+													<a href="People_DJList.aspx?ID=161&w=1#DJ161" style="color:#C12D23;">錢毅</a>(一、三、五)、<br />
+													代班主持人(二、四)
+												</td>
+												<td align="center" valign="middle" bgcolor="#ffffff">POP 國際線<br />歐美航班<br /><a href="People_DJList.aspx?ID=105&w=2#DJ105" style="color:#C12D23;">Cube</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff">POP 國際線<br />日韓專機<br /><a href="People_DJList.aspx?ID=105&w=2#DJ105" style="color:#C12D23;">Cube</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 大國民<br />
+													<a href="People_DJList.aspx?ID=138&w=1#DJ138" style="color:#C12D23;">平秀琳</a>(一、三、五)、<br />
+													代班主持人(二)、
+													<a href="People_DJList.aspx?ID=170&w=1#DJ170" style="color:#C12D23;">邱世卿</a>(四)
+												</td>
+                                                <td rowspan="3" align="center" valign="middle" bgcolor="#ffffff">音樂Buffet<br /><a href="People_DJList.aspx?ID=101&w=2#DJ101" style="color:#C12D23;">Sharon</a></td>
+                                                <td rowspan="3" align="center" valign="middle" bgcolor="#ffffff">音樂Buffet<br /><a href="People_DJList.aspx?ID=102&w=2#DJ102" style="color:#C12D23;">阿讓</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07pm</td>
+                                                <td colspan="5" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">Fun Music<br /><a href="People_DJList.aspx?ID=104&w=1#DJ104" style="color:#C12D23;">Emily</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08pm</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09pm</td>
+                                                <td colspan="5" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">鬧著玩音樂 <br /><a href="People_DJList.aspx?ID=167&w=1#DJ167" style="color:#C12D23;">Polar</a></td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">鬧著玩音樂-週末版<br /><a href="People_DJList.aspx?ID=136&w=2#DJ136" style="color:#C12D23;">魏如昀</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10pm</td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">Play Music<br /><a href="People_PlayDJList.aspx" style="color:#C12D23;">Play DJ</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11pm</td>
+                                                <td colspan="5" rowspan="7" align="center" valign="middle" bgcolor="#ffffff">Music All Night</td>
+                                                <td rowspan="2" align="center" valign="middle" bgcolor="#ffffff">Crazy Night<br /><a href="People_DJList.aspx?ID=99&w=2#DJ99" style="color:#C12D23;">Louis</a></td>
+                                                <td rowspan="2" align="center" valign="middle" bgcolor="#ffffff">B面最精選<br /><a href="People_DJList.aspx?ID=100&w=2#DJ100" style="color:#C12D23;">Nia</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">00am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">00am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01am</td>
+                                                <td colspan="2" rowspan="5" align="center" valign="middle" bgcolor="#ffffff">Music All Night</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05am</td>
+                                            </tr>
+                                            <tr>
+                                                <td bgcolor="#ffffff" colspan="9">
+                                                    <span style="color: #E3007F; font-size: 12px;">《POP 整點新聞》週一至週五 | 08:00~19:00，週六、日 | 09:00~17:00</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <table id="sitePage2" width="100%" align="center" cellpadding="0" cellspacing="1" bgcolor="#868686" style="display: none;">
+                                            <tr bgcolor="#E5C3A0">
+                                                <th width="10%" height="30" align="center" valign="middle" style="font-size: 12px;">時段</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Mon</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Tue</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Wed</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Thu</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Fri</th>
+                                                <th width="15%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Sat</th>
+                                                <th width="15%" align="center" valign="middle" style="font-size: 12px; font-family: arial;">Sun</th>
+                                                <th width="10%" align="center" valign="middle" style="font-size: 12px;">時段</th>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 撞新聞<br /><a href="People_DJList.aspx?ID=129&w=1#DJ129" style="color:#C12D23;">承揚</a></td>
+                                                <td colspan="2" rowspan="3" align="center" valign="middle" bgcolor="#ffffff">周末Pa Pa Go</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 撞新聞<br />
+													<a href="People_DJList.aspx?ID=158&w=1#DJ158" style="color:#C12D23;">莊雨潔</a>(一)、
+													<a href="People_DJList.aspx?ID=169&w=1#DJ169" style="color:#C12D23;">謝寒冰</a>(二、四)、<br />
+													<a href="People_DJList.aspx?ID=157&w=1#DJ157" style="color:#C12D23;">劉必榮</a>(三)、
+													<a href="People_DJList.aspx?ID=159&w=1#DJ159" style="color:#C12D23;">苑曉琬</a>(五)
+                                                </td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 撞新聞<br /><a href="People_DJList.aspx?ID=125&w=1#DJ125" style="color:#C12D23;">黃暐瀚</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09am</td>
+                                                <td colspan="5" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">POP 最正點<br /><a href="People_DJList.aspx?ID=114&w=1#DJ114" style="color:#C12D23;">林書煒</a></td>
+                                                <td colspan="2" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">POP 有夠靚<br /><a href="People_DJList.aspx?ID=123&w=2#DJ123" style="color:#C12D23;">吳怡霈</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11am</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 搶先爆<br />
+													<a href="People_DJList.aspx?ID=126&w=1#DJ126" style="color:#C12D23;">邱明玉</a>(一、三、五)、<br />
+													<a href="People_DJList.aspx?ID=151&w=1#DJ151" style="color:#C12D23;">羅旺哲</a>(二)、
+													<a href="People_DJList.aspx?ID=154&w=1#DJ154" style="color:#C12D23;">周楷</a>(四)
+												</td>
+												<td align="center" valign="middle" bgcolor="#ffffff">UnoLife<br />光聽你說<br /><a href="People_DJList.aspx?ID=141&w=2#DJ141" style="color:#C12D23;">賴雨農</a></td>
+                                                <td rowspan="3" align="center" valign="middle" bgcolor="#ffffff">戀曲 907</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">12pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 搶先爆<br />
+													<a href="People_DJList.aspx?ID=139&w=1#DJ139" style="color:#C12D23;">康仁俊</a>(一、三、五)、<br />
+													<a href="People_DJList.aspx?ID=163&w=1#DJ163" style="color:#C12D23;">黃介正</a>(二)、
+													<a href="People_DJList.aspx?ID=164&w=1#DJ164" style="color:#C12D23;">樊啓明</a>(四)
+ 												</td>
+                                                <td rowspan="2" align="center" valign="middle" bgcolor="#ffffff">戀曲 907</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">12pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01pm</td>
+                                                <td align="center" colspan="5" rowspan="2" valign="middle" bgcolor="#ffffff">音樂 123<br /><a href="People_DJList.aspx?ID=113&w=1#DJ113" style="color:#C12D23;">丹尼</a></td>
+												<td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02pm</td>
+                                                <td rowspan="2" colspan="2" align="center" valign="middle" bgcolor="#ffffff">Easy Music<br /><a href="People_DJList.aspx?ID=110&w=2#DJ110" style="color:#C12D23;">Eva</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03pm</td>
+                                                <td align="center" colspan="5" valign="middle" bgcolor="#ffffff">3點玩什麼<br /><a href="People_DJList.aspx?ID=103&w=1#DJ103" style="color:#C12D23;">Candy</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">依同開Mic辣!<br /><a href="People_DJList.aspx?ID=116&w=1#DJ116" style="color:#C12D23;">李明依</a></td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">音樂咬耳朵<br /><a href="People_DJList.aspx?ID=109&w=2#DJ109" style="color:#C12D23;">哲緯</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 大國民<br />
+													<a href="People_DJList.aspx?ID=161&w=1#DJ161" style="color:#C12D23;">錢毅</a>(一、三、五)、<br />
+													代班主持人(二、四)
+												</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff">POP 國際線<br />歐美航班<br /><a href="People_DJList.aspx?ID=105&w=2#DJ105" style="color:#C12D23;">Cube</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff">POP 國際線<br />日韓專機<br /><a href="People_DJList.aspx?ID=105&w=2#DJ105" style="color:#C12D23;">Cube</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06pm</td>
+                                                <td colspan="5" align="center" valign="middle" bgcolor="#ffffff">POP 大國民<br />
+													<a href="People_DJList.aspx?ID=138&w=1#DJ138" style="color:#C12D23;">平秀琳</a>(一、三、五)、<br />
+													代班主持人(二)、
+													<a href="People_DJList.aspx?ID=170&w=1#DJ170" style="color:#C12D23;">邱世卿</a>(四)
+												</td>
+                                                <td colspan="2" rowspan="3" align="center" valign="middle" bgcolor="#ffffff">周末愛音樂</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">06pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07pm</td>
+                                                <td colspan="5" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">Fun Music<br /><a href="People_DJList.aspx?ID=104&w=1#DJ104" style="color:#C12D23;">Emily</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">07pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08pm</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">08pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09pm</td>
+                                                <td colspan="5" rowspan="2" align="center" valign="middle" bgcolor="#ffffff">鬧著玩音樂 <br /><a href="People_DJList.aspx?ID=167&w=1#DJ167" style="color:#C12D23;">Polar</a></td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">鬧著玩音樂-週末版<br /><a href="People_DJList.aspx?ID=136&w=2#DJ136" style="color:#C12D23;">魏如昀</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">09pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10pm</td>
+                                                <td colspan="2" align="center" valign="middle" bgcolor="#ffffff">Play Music<br /><a href="People_PlayDJList.aspx" style="color:#C12D23;">Play DJ</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">10pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11pm</td>
+                                                <td colspan="5" rowspan="7" align="center" valign="middle" bgcolor="#ffffff">音樂便利貼</td>
+                                                <td rowspan="2" align="center" valign="middle" bgcolor="#ffffff">Crazy Night<br /><a href="People_DJList.aspx?ID=99&w=2#DJ99" style="color:#C12D23;">Louis</a></td>
+                                                <td rowspan="2" align="center" valign="middle" bgcolor="#ffffff">B面最精選<br /><a href="People_DJList.aspx?ID=100&w=2#DJ100" style="color:#C12D23;">Nia</a></td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">11pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">00am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">00am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01am</td>
+                                                <td colspan="2" rowspan="5" align="center" valign="middle" bgcolor="#ffffff">音樂便利貼</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">01am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">02am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">03am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">04am</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05am</td>
+                                                <td align="center" valign="middle" bgcolor="#ffffff" style="font-size: 12px; font-family: arial;">05am</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="footerMenu">
+                    <ul>
+                        <!--<li><a href="playlists.aspx">播歌查詢</a></li>
+                        <li class="divide">|</li>-->
+                        <li><a href="friendlink.aspx">友好連結</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="copyright.aspx">版權宣告</a></li>
+                        <li class="divide">|</li>
+                        <li><a href="contact.aspx">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <div id="footer" style="background: url(/images/footer_2025.jpg) no-repeat; background-color:#e2007c;background-size: contain">
+                    <span>
+						版權所有，台北流行廣播股份有限公司 Copyright©2001~2020 All Rights Reserved. 請勿轉載本網站內容<br />
+						台北流行廣播 地址:10050台北市中正區杭州南路一段15-1號2樓 電話：02-23278969 傳真：02-23278006<br />
+						好聽廣播 地址:30271新竹縣竹北市復興二路229號11樓之7 電話：03-5538909 傳真：03-5539007<br />
+						建議瀏覽器版本 IE 5.0以上版本，解析度1024x768以獲得最佳瀏覽效果
+                    </span>
+                    <div class="vr"></div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </form>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C37KKMDY1T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C37KKMDY1T');
+</script>
+
+<script>
+	function gtagEvent(event, category = '', label = '') {
+		gtag('event', event, {
+			'event_category': category,
+			'event_label': label
+		});
+	}
+</script>
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-454917-28', 'pop917.com');
+    ga('require', 'displayfeatures');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

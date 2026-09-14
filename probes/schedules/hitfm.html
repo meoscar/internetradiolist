@@ -1,0 +1,3593 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<!-- Google Analytics -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00380NQKVP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-00380NQKVP');
+    gtag('event', 'page_view', {
+        'send_to': 'G-00380NQKVP',
+        'page_title': document.title,
+        'page_location': window.location.href,
+        'page_path': window.location.pathname
+    });
+</script>
+
+<!-- Google Tag Manager -->
+<script>
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MM3523');
+</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-00380NQKVP"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+    }); // default
+    
+    gtag('js', new Date());
+    gtag('config', 'G-00380NQKVP');
+    gtag('event', 'page_view', {
+        'send_to': 'G-00380NQKVP',
+        'page_title': document.title,
+        'page_location': window.location.href,
+        'page_path': window.location.pathname
+    });
+</script>
+ -->
+ 
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-00380NQKVP');
+
+    // 設定監聽 click 事件
+    document.addEventListener('click', function(e) {
+        let el_tag = e.target.tagName; // 取得 tag 名稱
+        let el_id = e.target.tagName || 'unset'; // 取得 id，如果沒有 id 就使用 unset
+        let el_class = e.target.getAttribute('class') || 'unset'; // 取得 class，如果沒有 class 就使用 unset
+        console.log(el_tag, el_id, el_class);
+        // 發送點擊事件
+        gtag('event', 'click_action', {
+            'tag': el_tag,
+            'id': el_id,
+            'class': el_class
+        })
+    });
+</script>
+	<!-- Google Analytics -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>節目表</title>
+	<link href="css/inner_style0907.css" rel="stylesheet" type="text/css" />
+	<link href="css/content_old.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/menu0907.css" />
+
+	<!--[if lt IE 7]>
+        <script type="text/javascript" src="unitpngfix.js"></script>
+<![endif]-->
+	<!--DIV 對齊-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="scripts/TopAD.js"></script>
+	<script src="scripts/rotate.js"></script>
+	<script src="scripts/jquery-1.6.2.min.js"></script>
+	<script src="scripts/youtube.js"></script>
+	<script src="scripts/jquery.jcarousel.js"></script>
+	<script src="scripts/nev_menu.js"></script>
+	<script type="text/javascript">
+		function MM_swapImgRestore() { //v3.0
+			var i, x, a = document.MM_sr;
+			for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+		}
+
+		function MM_preloadImages() { //v3.0
+			var d = document;
+			if (d.images) {
+				if (!d.MM_p) d.MM_p = new Array();
+				var i, j = d.MM_p.length,
+					a = MM_preloadImages.arguments;
+				for (i = 0; i < a.length; i++)
+					if (a[i].indexOf("#") != 0) {
+						d.MM_p[j] = new Image;
+						d.MM_p[j++].src = a[i];
+					}
+			}
+		}
+
+		function MM_findObj(n, d) { //v4.01
+			var p, i, x;
+			if (!d) d = document;
+			if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+				d = parent.frames[n.substring(p + 1)].document;
+				n = n.substring(0, p);
+			}
+			if (!(x = d[n]) && d.all) x = d.all[n];
+			for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+			for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+			if (!x && d.getElementById) x = d.getElementById(n);
+			return x;
+		}
+
+		function MM_swapImage() { //v3.0
+			var i, j = 0,
+				x, a = MM_swapImage.arguments;
+			document.MM_sr = new Array;
+			for (i = 0; i < (a.length - 2); i += 3)
+				if ((x = MM_findObj(a[i])) != null) {
+					document.MM_sr[j++] = x;
+					if (!x.oSrc) x.oSrc = x.src;
+					x.src = a[i + 2];
+				}
+		}
+	</script>
+	<script type="text/javascript">
+		<!--
+		//用來紀錄作用中頁籤的ID 預設是第一個頁籤
+		var currentLayer = "cell1";
+		//用來紀錄作用中頁籤的頁面ID 預設是第一個頁面
+		var currentDiv = "d1";
+		//用來紀錄作用中頁籤的ID 預設是第一個頁籤 (第二區塊)
+		var currentLayer_1 = "cell6";
+		//用來紀錄作用中頁籤的頁面ID 預設是第一個頁面 (第二區塊)
+		var currentDiv_1 = "d6";
+		//用來紀錄預設的顏色
+		var defaultColor = "#6e6e6e";
+		//用來紀錄各頁籤所要用的顏色值
+		var colorArray = new Array("#ebebeb", "#ebebeb", "#ebebeb", "#ebebeb", "#ebebeb");
+		//showLayer()函式，參數為觸發該函式的元素、所屬頁面ID及顏色索引
+		function showLayer(obj, div, cIndex) {
+			//若目前的currentLayer不等於obj.id 表示要換頁面
+			if (currentLayer != obj.id) {
+				//先改變上一個頁籤及頁面的樣式
+				showIt(currentLayer, currentDiv, cIndex, false);
+				//重設currentLayer及currentDiv的值
+				currentLayer = obj.id;
+				currentDiv = div;
+				//最後再改變目前頁籤及頁面的樣式
+				showIt(currentLayer, currentDiv, cIndex, true);
+			}
+		}
+		//(第二區塊function)
+		function showLayer_1(obj, div, cIndex) {
+			//若目前的currentLayer不等於obj.id 表示要換頁面
+			if (currentLayer_1 != obj.id) {
+				//先改變上一個頁籤及頁面的樣式
+				showIt(currentLayer_1, currentDiv_1, cIndex, false);
+				//重設currentLayer及currentDiv的值
+				currentLayer_1 = obj.id;
+				currentDiv_1 = div;
+				//最後再改變目前頁籤及頁面的樣式
+				showIt(currentLayer_1, currentDiv_1, cIndex, true);
+			}
+		}
+		//showIt()函式，參數為currentLayer、currentDiv、colorArray的索引及模式
+		//mode為true時 則表示目前作用中 所以要顯示
+		//mode為false時 則表示目前非作用中 所以要隱藏
+		function showIt(o, d, cIndex, mode) {
+			var obj = document.getElementById(o);
+			var div = document.getElementById(d);
+			//改變className則表示改變該元素所用的class
+			obj.className = mode ? "active" : "inactive";
+			div.style.display = mode ? "block" : "none";
+			//改變頁籤及頁面的背景顏色
+			obj.style.backgroundColor = mode ? colorArray[cIndex] : defaultColor;
+			div.style.backgroundColor = mode ? colorArray[cIndex] : defaultColor;
+			//可以直接寫div.style.backgroundColor = colorArray[cIndex]
+		}
+
+		function MM_swapImgRestore() { //v3.0
+			var i, x, a = document.MM_sr;
+			for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+		}
+
+		function MM_preloadImages() { //v3.0
+			var d = document;
+			if (d.images) {
+				if (!d.MM_p) d.MM_p = new Array();
+				var i, j = d.MM_p.length,
+					a = MM_preloadImages.arguments;
+				for (i = 0; i < a.length; i++)
+					if (a[i].indexOf("#") != 0) {
+						d.MM_p[j] = new Image;
+						d.MM_p[j++].src = a[i];
+					}
+			}
+		}
+
+		function MM_findObj(n, d) { //v4.01
+			var p, i, x;
+			if (!d) d = document;
+			if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+				d = parent.frames[n.substring(p + 1)].document;
+				n = n.substring(0, p);
+			}
+			if (!(x = d[n]) && d.all) x = d.all[n];
+			for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+			for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+			if (!x && d.getElementById) x = d.getElementById(n);
+			return x;
+		}
+
+		function MM_swapImage() { //v3.0
+			var i, j = 0,
+				x, a = MM_swapImage.arguments;
+			document.MM_sr = new Array;
+			for (i = 0; i < (a.length - 2); i += 3)
+				if ((x = MM_findObj(a[i])) != null) {
+					document.MM_sr[j++] = x;
+					if (!x.oSrc) x.oSrc = x.src;
+					x.src = a[i + 2];
+				}
+		}
+
+		//文字捲
+		function AutoScroll(obj, top) {
+			$(obj).find("ul:first").animate({
+				marginTop: top
+			}, 1000, function() {
+				$(this).css({
+					marginTop: "0px"
+				}).find("li:first").appendTo(this);
+			});
+		}
+
+		//文字捲
+		function AutoScroll2(obj, top) {
+			$(obj).find("ul.ds_txt:first").animate({
+				marginTop: top
+			}, 1000, function() {
+				$(this).css({
+					marginTop: "0px"
+				}).find("li:first").appendTo(this);
+			});
+		}
+
+
+
+		$(document).ready(function() {
+			setInterval('AutoScroll("#scrollDiv","-160px")', 5000)
+			setInterval('AutoScroll("#scrollDiv_txt","-30px")', 5000)
+			//setInterval('AutoScroll("#scrollDiv2","-200px")',1000)
+			//$("#scrollDiv2").Scroll({line:1,speed:1000,timer:1000});
+			//setInterval("scrollUp()",1000);
+			jQuery('#mycarousel').jcarousel();
+			jQuery('#mycarouse2').jcarousel();
+			jQuery('#mycarouse3').jcarousel();
+			jQuery('#mycarouse4').jcarousel();
+		});
+		//
+		-->
+	</script>
+	<style type="text/css">
+		ul,
+		li {
+			margin: 0;
+			padding: 0
+		}
+
+		#scrollDiv {
+			width: 240px;
+			height: 145px;
+			line-height: 25px;
+			border: #ccc 0px solid;
+			overflow: hidden
+		}
+
+		#scrollDiv li {
+			height: 160px;
+			padding-left: 0px;
+		}
+
+		#scrollDiv_txt {
+			width: 240px;
+			height: 27px;
+			line-height: 30px;
+			border: #ccc 0px solid;
+			overflow: hidden
+		}
+
+		#scrollDiv_txt li {
+			height: 30px;
+			padding-left: 8px;
+		}
+	</style>
+	<!--HIT DJ/Happy Hour-->
+	<script type="text/JavaScript">
+		<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+	</script>
+
+	<script language="JavaScript" type="text/JavaScript">
+		<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+
+function MM_showHideLayers() { //v6.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) if ((obj=MM_findObj(args[i]))!=null) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+//-->
+	</script>
+	<style type="text/css">
+		ul,
+		li {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.abgne_tab {
+			clear: left;
+			width: 530px;
+			margin: 0px 0;
+		}
+
+		ul.tabs {
+			width: 100%;
+			height: 32px;
+			border-bottom: 0px solid #999;
+			border-left: 0px solid #999;
+		}
+
+		ul.tabs li {
+			float: left;
+			height: 31px;
+			line-height: 31px;
+			overflow: hidden;
+			position: relative;
+			margin-bottom: -1px;
+			/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+			border: 1px solid #999;
+			border-left: none;
+			background: #e1e1e1;
+			font-size: 150%;
+			font-weight: bold;
+		}
+
+		ul.tabs li a {
+			display: block;
+			padding: 0 20px;
+			color: #000;
+			border: 1px solid #fff;
+			text-decoration: none;
+		}
+
+		ul.tabs li a:hover {
+			background: #ccc;
+		}
+
+		ul.tabs li.active {
+			background: #FFFFCC;
+			border-bottom: 1px solid#fff;
+		}
+
+		ul.tabs li.active a:hover {
+			background: #fff;
+		}
+
+		div.tab_container {
+			clear: left;
+			width: 100%;
+			border: 0px solid #999;
+			border-top: none;
+			background: #fff;
+		}
+
+		div.tab_container .tab_content {
+			padding: 0px;
+		}
+
+		div.tab_container .tab_content h2 {
+			margin: 0 0 0px;
+		}
+	</style>
+	<script type="text/javascript">
+		$(function() {
+			// 預設顯示第一個 Tab
+			var _showTab = 0;
+			var $defaultLi = $('ul.tabs li').eq(_showTab).addClass('active');
+			$($defaultLi.find('a').attr('href')).siblings().hide();
+
+			// 當 li 頁籤被點擊時...
+			// 若要改成滑鼠移到 li 頁籤就切換時, 把 click 改成 mouseover
+			$('ul.tabs li').click(function() {
+				// 找出 li 中的超連結 href(#id)
+				var $this = $(this),
+					_clickTab = $this.find('a').attr('href');
+				// 把目前點擊到的 li 頁籤加上 .active
+				// 並把兄弟元素中有 .active 的都移除 class
+				$this.addClass('active').siblings('.active').removeClass('active');
+				// 淡入相對應的內容並隱藏兄弟元素
+				$(_clickTab).stop(false, true).fadeIn().siblings().hide();
+
+				return false;
+			}).find('a').focus(function() {
+				this.blur();
+			});
+		});
+	</script>
+	<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".various").fancybox({
+				maxWidth: 500,
+				maxHeight: 500,
+				fitToView: false,
+				width: 500,
+				height: 300,
+				autoSize: true,
+				closeClick: true,
+				openEffect: 'none',
+				closeEffect: 'none'
+			});
+		});
+	</script>
+	<!-- 粽子蓋版 -->
+	<!-- <link rel="stylesheet" href="/activities2020/colorbox-master/example4/colorbox.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="/activities2020/colorbox-master/jquery.colorbox.js"></script>
+<script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".myFrame").colorbox({iframe:true, width:"600px", height:"700px"});
+			});
+</script> -->
+</head>
+
+<body onload="MM_preloadImages('imgs/btn_adprice_2.gif')">
+	<div id="wrapper">
+
+		<!-- 表頭 -->
+		<!-- 上方表頭開始 -->
+<div id="header">
+	<div class="logo"><a href="http://www.hitoradio.com/">&nbsp;</a></div>
+    <div class="theme">
+		<div id="socialogo">
+		<table width="240" height="60" border="0">
+		<tr>
+		<td>
+		<a href="http://app.hitoradio.com/" target="_blank"><img src="imgs/sicon_00.png" alt="app" width="40" height="41" id="Image61" onmouseover="MM_swapImage('Image61','','imgs/sicon_00_on.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+		</td>
+		<td>
+		<a href="https://www.facebook.com/hitfmhitoradio" target="_blank"><img src="imgs/sicon_01.png" alt="fb" width="40" height="40" id="Image62" onmouseover="MM_swapImage('Image62','','imgs/sicon_01_on.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+		</td>
+		<td>
+		<a href="https://instagram.com/hit_fm_taiwan/" target="_blank"><img src="imgs/sicon_10.png" alt="instagram" name="Image63" width="40" height="40" id="Image63" onmouseover="MM_swapImage('Image63','','imgs/sicon_10_on.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+		</td>
+		<td><a href="https://www.weibo.com/hitfmtaiwan?is_all=1" target="_blank"><img src="imgs/sicon_03.png" alt="weibo" width="40" height="41" id="Image64" onmouseover="MM_swapImage('Image64','','imgs/sicon_03_on.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+		</td>
+		<td><a href="https://www.youtube.com/user/hitfm1077" target="_blank"><img src="imgs/sicon_11.png" alt="plurk" width="40" height="40" id="Image65" onmouseover="MM_swapImage('Image65','','imgs/sicon_11_on.png',1)" onmouseout="MM_swapImgRestore()" /></a>
+		</td>
+		</tr>
+		</table>
+		</div>
+    </div>
+    <div class="nav">
+    
+ 	<ul id="menu_bar">
+		<li><a href="info.php"  onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image45','','imgs/nav1_on.gif',1);"><img src="imgs/nav1_off.gif" alt="關於Hit FM" name="Image45" width="84" height="43" border="0" id="Image45" /></a>
+			<ul class="sub1" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image45','','imgs/nav1_on.gif',1);">
+       	     <li><a href="info.php">電台簡介</a>　</li>
+             <li><a href="schedule.php">節目表</a>　</li>
+             <li><a href="showtime.php">節目預告</a>　</li>
+             <li><a href="DJfile.php">DJ檔案</a>　</li>
+             <li><a href="request.php">點播特區</a>　</li>
+			</ul>
+		</li>
+        
+        <li><a href="hitpoint.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image46','','imgs/nav2_on.gif',2)"><img src="imgs/nav2_off.gif" alt="活動/消息" name="Image46" width="88" height="43" border="0" id="Image46" /></a>
+			<ul class="sub2" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image46','','imgs/nav2_on.gif',2);">
+       		 <li><a href="hitpoint.php">電台焦點</a>　</li>
+       		 <li><a href="allaboutlove.php">毛起來愛</a>　</li>
+             <li><a href="hitonews.php">HITO娛樂宅急便</a>　</li>
+             <li><a href="hotnews.php">即時新聞</a>　</li>
+             <li><a href="starschedule.php">追星行程 | 紀錄</a>　</li>
+             <li><a href="activity.php">贈獎活動</a>　</li>
+             <li><a href="giftlist.php">中獎名單</a>　</li>
+             <li><a href="lifemsg.php">生活訊息</a>　</li>
+			</ul>
+		</li>
+        
+        
+        <li><a href="albumsearch.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','imgs/nav3_on.gif',3)"><img src="imgs/nav3_off.gif" alt="音樂/人物" name="Image47" width="91" height="43" border="0" id="Image47" /></a>
+			<ul class="sub3" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image47','','imgs/nav3_on.gif',3);">
+       		 <li><a href="albumsearch.php">專輯資料庫</a>　</li>
+             <li><a href="videomusic.php">單曲首播</a>　</li>
+             <li><a href="albumlist.php">最新發行</a>　</li>
+             <li><a href="misshito.php">西朵小姐專欄</a>　</li>
+             <li><a href="DJrecommend.php">DJ推薦</a>　</li>
+             <!-- <li><a href="artistmemo.php">明星日記</a>　</li> -->
+             <li><a href="mvlist.php">HITO影音特區</a>　</li>
+			</ul>
+		</li>
+        
+        
+        <li><a href="chart_1_1.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image48','','imgs/nav4_on.gif',4)"><img src="imgs/nav4_off.gif" alt="排行榜" name="Image48" width="71" height="43" border="0" id="Image48" /></a>
+			<ul class="sub4" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image48','','imgs/nav4_on.gif',4);">
+             <li><a href="chart_1_1.php">HITO排行榜</a>　</li>
+				               <li><a href="chart_2.php">年度百首單曲</a>　</li>
+             <li><a href="chart_3.php">年度十大專輯</a>　</li>
+			</ul>
+		</li>
+        
+        <li><a href="onair.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image49','','imgs/nav5_on.gif',5)"><img src="imgs/nav5_off.gif" alt="線上收聽" name="Image49" width="83" height="43" border="0" id="Image49" /></a>
+			<ul class="sub5">
+			</ul>
+		</li>
+
+        <li><a href="search.php"  onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image53','','imgs/nav9_on.gif',9)"><img src="imgs/nav9_off.gif" alt="歌單查詢" name="Image53" width="85" height="43" border="0" id="Image53" /></a>
+		</li>
+        <!-- 
+        <li><a href="movie_1.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image51','','imgs/nav7_on.gif',7)"><img src="imgs/nav7_off.gif" alt="電影專區" name="Image51" width="85" height="43" border="0" id="Image51" /></a>
+			<ul class="sub7" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image51','','imgs/nav7_on.gif',7);">
+       		 <li><a href="movie_1.php">院線新片</a>　</li>
+             <li><a href="movie_2.php">華語電影</a>　</li>
+             <li><a href="movie_3.php">亞洲電影</a>　</li>
+             <li><a href="movie_4.php">西洋電影</a>　</li>
+             <li><a href="moviechart.php">電影排行榜</a>　</li>
+			</ul>
+		</li> -->
+        
+                <li><a href="member_01.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image52','','imgs/nav8_on.gif',8)"><img src="imgs/nav8_off.gif" alt="會員中心" name="Image52" width="81" height="43" border="0" id="Image52" /></a>
+			<ul class="sub8"  onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image52','','imgs/nav8_on.gif',8);">
+       		 <li><a href="member_01.php">會員註冊</a>　</li>
+　
+             <li><a href="member_login.php">會員登入</a>　</li>
+             <li><a href="member_forget.php">忘記密碼</a>　</li>
+             <li><a href="member_modify.php">修改個人資料</a>　</li>
+             <li><a href="member_resend.php">補發會員確認函</a>　</li>
+             <li><a href="member_06.php">入會好康</a>　</li>
+             <li><a href="member_07.php">推薦朋友</a>　</li>
+             <li><a href="member_08.php">常見問題</a>　</li>
+			</ul>
+		</li>
+
+		<li><a href="hitofresh.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image60','','imgs/nav10_on.jpg',10)"><img src="imgs/nav10_off.jpg" alt="hito校園聯盟" name="Image50" width="97" height="43" border="0" id="Image60" /></a>
+			<ul class="sub9" onmouseout="MM_swapImgRestore();" onmouseover="MM_swapImage('Image60','','imgs/nav10_on.jpg',10);">
+       		 <li><a href="hitofresh.php">校園搜Fresh</a>　</li>
+             <li><a href="abouthitoschool.php">關於hito校園聯盟</a>　</li>
+             <li><a href="hitoschool.php">佈告欄</a>　</li>
+             <li><a href="https://www.facebook.com/hitfmschool/" target="_blank">hito校園聯盟FB</a>　</li>
+             <li><a href="https://www.instagram.com/hit_fm_campus/" target="_blank">hito校園聯盟IG</a>　</li>
+			</ul>
+		</li>
+	</ul>
+<!-- 主選單結束 -->
+
+    </div>
+</div>
+<!-- 上方表頭結束 -->
+		<!-- 表頭 -->
+
+		<div id="container">
+			<!-- 全區文字連結開始 -->
+			<div id="top"><p><a href='/incIndexCounter/adNewsCounter.php?id=176' target='_blank' class='text10'>一起趣台東！東漂生活</a></p><p><a href='/incIndexCounter/adNewsCounter.php?id=110' target='_blank' class='text10'>最HOT的即時新聞，你怎麼能不知道！</a></p><p><a href='/incIndexCounter/adNewsCounter.php?id=160' target='_blank' class='text10'>訂閱官方Youtube頻道，不錯過任何精彩專訪！</a></p></div>
+			<!-- 全區文字連結結束 -->
+
+			<!-- 2016廣告banner開始 -->
+			
+<div style="width:981px; height:auto;position:relative; margin:0 auto;">
+		<div style="width:728px;float:left;  position:relative; height:110px; margin-left:10px">
+<iframe width="728" height="90" frameborder="0" scrolling="no" src="/incInnerNew/innerA.php"></iframe>
+		</div>
+	<div style="width:233px;float:left; margin-left:10px; position:relative;">
+<!-- SiteSearch Google -->
+<form  name="hitoradio" method="get" action="https://www.google.com.tw/custom" target="_blank">
+<input type="hidden" name="domains" value="www.hitoradio.com"></input>
+<input type="hidden" name="client" value="pub-7856462132353409">
+<input type="hidden" name="forid" value="1">
+<input type="hidden" name="channel" value="0942783925">
+<input type="hidden" name="ie" value="UTF-8">
+<input type="hidden" name="oe" value="UTF-8">
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:53;LW:235;L:https://www.hitoradio.com/images/hitoradio_logo.jpg;S:http://www.hitoradio.com;LP:1;FORID:1;">
+<input type="hidden" name="hl" value="zh-TW">
+<input type="hidden" name="sitesearch"  value="www.hitoradio.com">
+	<table width="233" border="0" cellspacing="0" cellpadding="0">
+	    <tr>
+	      <td height="30"><a href="member_login.php"><img src="imgs/micon2_02.png" width="223" height="26" alt="login" border="0" /></a></td>
+        </tr>
+	    <tr>
+	      <td height="36"><a href="member_01.php"><img src="imgs/micon2_01.png" width="223" height="26" alt="login" border="0" /></a></td>
+        </tr>
+	    <tr>
+	      <td height="22" style="background-image: url(imgs/micon2_03.png);background-repeat: no-repeat;">&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="q" style="width:180px;height:18px;border:0px;font-size:9pt;" onfocus="if(this.value == '請輸入文字並按Enter鍵搜尋') this.value='';" onblur="if(this.value == '') this.value='請輸入文字並按Enter鍵搜尋';" value="請輸入文字並按Enter鍵搜尋" /></td>
+        </tr>
+      </table>
+            </form>
+<!-- SiteSearch Google -->
+	</div>
+	</div>
+	<div style="clear:both;"></div>			<!-- 2016廣告banner結束 -->
+
+			<!-- 選單開始 -->
+			<div id="sideL">   <h2 class="hitotitle">關於Hit Fm</h2>
+   <ul>
+  <li ><a href="info.php">電台簡介</a></li>
+  <li class="Selected"><a href="schedule.php">節目表</a></li>
+  <li ><a href="showtime.php">節目預告</a>
+  	<ul>
+	<li><a href="hito01_list.php">Hito大台柱</a></li>	<li><a href="hito02_list.php">Hito最大ㄎㄚ</a></li>	<li><a href="showtime.php#HIT_03">Hit DJ</a></li>    </ul>
+  </li>
+  <li ><a href="DJfile.php">DJ檔案</a></li>
+  <li ><a href="request.php">點播特區</a></li>
+  </ul>
+</div>
+			<!-- 選單結束 -->
+
+			<div id="sideR">
+				<div id="content">
+					<h1><img src="imgs/t_schedule.jpg"></h1>
+										<div class="outline">
+						<style type="text/css">
+  <!--
+  .style1 {
+
+    color: #0000FF;
+
+    font-weight: bold;
+
+  }
+  -->
+
+</style>
+
+
+
+<div class="abgne_tab">
+
+  <ul class="tabs">
+
+    <li><a href="#tab1">北部</a></li>
+
+    <li><a href="#tab2">中部</a></li>
+
+    <li><a href="#tab3">南部</a></li>
+
+    <li><a href="#tab4">宜蘭</a></li>
+
+    <li><a href="#tab5">花東</a></li>
+
+  </ul>
+
+  <div class="tab_container">
+
+    <div id="tab1" class="tab_content">
+
+      <table width="553" cellspacing="1" cellpadding="2" border="0" align="center">
+
+        <tbody>
+
+          <tr>
+
+            <td width="41" bgcolor="#011f37" align="center"><span class="thead">時段</span></td>
+
+            <td width="60" align="center" bgcolor="#011f37"><span class="thead">MON</span></td>
+
+            <td width="47" align="center" bgcolor="#011f37"><span class="thead">TUE</span></td>
+
+            <td width="52" align="center" bgcolor="#011f37"><span class="thead">WED</span></td>
+
+            <td width="40" align="center" bgcolor="#011f37"><span class="thead">THU</span></td>
+
+            <td width="36" align="center" bgcolor="#011f37"><span class="thead">FRI</span></td>
+
+            <td width="119" align="center" bgcolor="#011f37"><span class="thead">SAT</span></td>
+
+            <td width="117" align="center" bgcolor="#011f37"><span class="thead">SUN</span></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05AM</td>
+
+            <td colspan="5" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">只想聽音樂</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td colspan="2" rowspan="4" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">只想聽音樂</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">06AM</td>
+
+            <td colspan="5" align="center" bgcolor="#CCCCCC">嗆新聞 /<a href="205dj" class="link2">Phoenix嗆新聞</a></a></td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">07AM</td>
+            <td colspan="5" align="center" bgcolor="#A4BACC">嗆新聞 / <a href="/newweb/204dj">黃揚明</a>嗆新聞(一、三、五)<br />
+              嗆新聞 / <a href="/newweb/214dj">陳家頤</a>嗆新聞(二、四)</td>
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">08AM</td>
+
+            <td colspan="5" align="center" bgcolor="#cccccc">嗆新聞 / <a href="/newweb/202dj">黃暐瀚</a>撞新聞</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09AM</td>
+
+            <td colspan="5" rowspan="3" bgcolor="#A4BACC">
+              <table width="98%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 活力DJ<br>
+
+                      <a href="64dj"><a href="64dj" class="link2">阿娟</a></a>
+
+                      <p></p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">
+                      
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" rowspan="3" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 賴床DJ- <a href="145dj"><a href="145dj" class="link2">Phoenix</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">10AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">11AM</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">12PM</td>
+
+            <td bgcolor="#cccccc" align="center" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="25" align="center"> 翹班DJ<br /><a href="194dj"><a href="194dj" class="link2">GJ蔣卓嘉</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HITO西洋排行榜<br />
+
+                      <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HITO日亞排行榜<br />
+
+                      <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">01PM</td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HIT週末! <br>
+
+                      <a href="193dj" class="link2">GiGi</a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HIT週末! <br />
+
+                      <a href="193dj" class="link2">GiGi</a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">02PM</td>
+
+            <td height="90" bgcolor="#A4BACC" align="center" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 午茶DJ- <a href="71dj"><a href="71dj" class="link2">SoWhat</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="3" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="2" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">嗑音樂<br />
+
+                      <a href="63dj"><a href="60dj" class="link2">Kris</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="3" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="2" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">嗑音樂<br /> <a href="63dj"><a href="63dj" class="link2">Austin</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">03PM</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">04PM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#cccccc">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 不累DJ<br>
+
+                      <a href="158dj"><a href="158dj" class="link2">Bibi趙之璧</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05PM</td>
+
+            <td align="center" bgcolor="#cccccc">
+
+              <a href="showtime.php#HIT_03">HIT DJ-蔡旻佑</a>
+            </td>
+
+            <td bgcolor="#cccccc" align="center">
+                            <a href="showtime.php#HIT_03">HIT DJ-林芯儀</a>
+                          </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">06PM</td>
+
+            <td height="90" bgcolor="#A4BACC" align="center" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="25" align="center"> ciao俏 DJ- <a href="65dj"><a href="190dj" class="link2">偉苓</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HITO唱片行 <br>
+
+                      <a href="161dj"><a href="161dj" class="link2">克里斯</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">07PM</td>
+
+            <td bgcolor="#cccccc" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="1" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="43" align="left">
+                      <p align="center">耐玩DJ <br>
+
+                        <a href="160dj"><a href="160dj" class="link2">Bryan</a></a>
+                      </p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">*逢週五07:00PM-08:00PM<br>
+
+                      HITO中文排行榜</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">08PM</td>
+
+            <td rowspan="2" align="center" bgcolor="#cccccc">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HEY！MISS DJ <br>
+
+                      <a href="60dj"><a href="65dj" class="link2">elsa</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" align="center" rowspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> ROCK DJ <br>
+
+                      <a href="74dj"><a href="74dj" class="link2">ciacia</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09PM</td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="2" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                  <td align="center">OH夜DJ - <a href='174dj'><a href="174dj" class="link2">waa魏如萱</a></a>(一、二)</td>
+                  </tr>
+                </tbody>
+
+              </table>
+              <table width="95%" cellspacing="2" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">OH YA DJ - <a href="220dj" class="link2">木木</a>(三、四、五)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">10PM</td>
+
+            <td rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="98%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HITO LATE NIGHT SHOW - <br />
+
+                      <a href="154dj"><a href="154dj" class="link2">馬念先</a></a> 、 <a href="162dj"><a href="162dj" class="link2">奇哥</a></a>
+                    
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="2" align="center" bgcolor="#A4BACC">LOVE DJ- <a href="73dj"><a href="73dj" class="link2">Christine</a></a></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">11PM</td>
+
+            <td bgcolor="#cccccc" align="center" rowspan="3" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 夜貓DJ <br>
+
+                      <a href="61dj"><a href="61dj" class="link2">Dennis</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">00AM</td>
+
+            <td colspan="2" rowspan="2" align="center" bgcolor="#cccccc">HITO NON-STOP</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">01AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">02AM</td>
+
+            <td colspan="7" rowspan="3" align="center" bgcolor="#A4BACC">流行最前線</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">03AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">04AM</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+
+
+    <div id="tab2" class="tab_content">
+    <table width="553" cellspacing="1" cellpadding="2" border="0" align="center">
+      <tbody>
+        <tr>
+          <td width="41" bgcolor="#011f37" align="center"><span class="thead">時段</span></td>
+          <td width="56" align="center" bgcolor="#011f37"><span class="thead">MON</span></td>
+          <td width="44" align="center" bgcolor="#011f37"><span class="thead">TUE</span></td>
+          <td width="52" align="center" bgcolor="#011f37"><span class="thead">WED</span></td>
+          <td width="47" align="center" bgcolor="#011f37"><span class="thead">THU</span></td>
+          <td width="36" align="center" bgcolor="#011f37"><span class="thead">FRI</span></td>
+          <td width="119" align="center" bgcolor="#011f37"><span class="thead">SAT</span></td>
+          <td width="117" align="center" bgcolor="#011f37"><span class="thead">SUN</span></td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">05AM</td>
+          <td colspan="5" rowspan="2" align="center" bgcolor="#CCCCCC">只想聽音樂</td>
+          <td colspan="2" rowspan="4" align="center" bgcolor="#A4BACC">只想聽音樂</td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">06AM</td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">07AM</td>
+          <td colspan="5" align="center" bgcolor="#A4BACC">嗆新聞 / <a href="/newweb/204dj">黃揚明</a>嗆新聞(一、三、五)<br />
+            嗆新聞 / <a href="/newweb/214dj">陳家頤</a>嗆新聞(二、四)</td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">08AM</td>
+          <td colspan="5" align="center" bgcolor="#cccccc">嗆新聞 / <a href="/newweb/202dj">黃暐瀚</a>撞新聞</td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">09AM</td>
+          <td colspan="5" align="center" bgcolor="#A4BACC">
+            <table width="98%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td height="25" align="center">FREE DJ- <a href="156dj"><a href="178dj" class="link2">UMI醬</a></a>
+                    <!-- <a href="169dj"><a href="dj" class="link2"></a> </a> --></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td bgcolor="#cccccc" rowspan="3" colspan="2">
+            <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+              <tbody>
+                <tr>
+                  <td align="center"> 點播特區- <a href="168dj"><a href="168dj" class="link2">Debbie</a></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">10AM</td>
+          <td colspan="5" rowspan="2" bgcolor="#CCCCCC">
+            <table width="98%" cellspacing="0" cellpadding="2" border="0" align="center">
+              <tbody>
+                <tr>
+                  <td align="center"> 活力DJ<br>
+                    <a href="64dj"><a href="64dj" class="link2">阿娟</a></a>
+                    <p></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                                      </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">11AM</td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">12PM</td>
+          <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="5">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tbody>
+                <tr>
+                  <td height="25" align="center">FUN DJ- <a href="141dj"><a href="141dj" class="link2">Gracie</a></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td bgcolor="#A4BACC" align="center">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+              <tbody>
+                <tr>
+                  <td align="center">
+                    <table width="80%">
+                      <tr>
+                        <td align="center">HITO西洋排行榜<br>
+                          <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td bgcolor="#A4BACC" align="center">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center">
+                    <table width="80%">
+                      <tr>
+                        <td align="center">HITO日亞排行榜<br>
+                          <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">01PM</td>
+          <td bgcolor="#cccccc" align="center">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center"> HIT週末! <br>
+                    <a href="161dj"><a href="193dj" class="link2">GiGi</a></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td bgcolor="#cccccc" align="center">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center">HIT週末! <br />
+                    <a href="193dj" class="link2">GiGi</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">02PM</td>
+          <td height="90" bgcolor="#CCCCCC" align="center" rowspan="2" colspan="5">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center">RELAX  DJ- <a href="84dj"><a href="84dj" class="link2">Erin</a></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td rowspan="3" align="center" bgcolor="#A4BACC">
+            <table width="100%" cellspacing="0" cellpadding="2" border="0">
+              <tbody>
+                <tr>
+                  <td align="center"> 校園青春錄- <a href="141dj"><a href="197dj" class="link2">阿尼(NOW DJ)</a></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td rowspan="3" align="center" bgcolor="#A4BACC">
+            <table width="100%" cellspacing="0" cellpadding="2" border="0">
+              <tbody>
+                <tr>
+                  <td align="center">校園青春錄- <a href="141dj"><a href="197dj" class="link2">阿尼(NOW DJ)</a></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">03PM</td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">04PM</td>
+          <td colspan="5" rowspan="2" align="center" bgcolor="#A4BACC">
+            <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+              <tbody>
+                <tr>
+                  <td height="25" align="center">馬路DJ- <a href="84dj"><a href="166dj" class="link2">Mini</a></a></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">05PM</td>
+          <td bgcolor="#cccccc" align="center">
+            <a href="showtime.php#HIT_03">HIT DJ-蔡旻佑</a>
+          </td>
+          <td bgcolor="#cccccc" align="center">
+                            <a href="showtime.php#HIT_03">HIT DJ-林芯儀</a>
+                        </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">06PM</td>
+          <td height="90" bgcolor="#CCCCCC" align="center" colspan="5">
+            <p>POP 大國民<br />
+              <a href="/newweb/221dj">平秀琳</a>(一、三、五)、<br />
+              代班主持人(二)、 <a href="/newweb/224dj">邱世卿</a>(四)
+            </p>
+          </td>
+          <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="2">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center"> HITO唱片行 <br>
+                    <a href="161dj"><a href="161dj" class="link2">克里斯</a></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">07PM</td>
+          <td bgcolor="#A4BACC" rowspan="2" colspan="5">
+            <table width="95%" cellspacing="0" cellpadding="1" border="0" align="center">
+              <tbody>
+                <tr>
+                  <td height="43" align="left">
+                    <p align="center">耐玩DJ <br>
+                      <a href="160dj"><a href="160dj" class="link2">Bryan</a></a>
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">*逢週五07:00PM-08:00PM<br>
+                    HITO中文排行榜</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">08PM</td>
+          <td bgcolor="#cccccc" align="center" rowspan="2">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center"> HEY！MISS DJ <br>
+                    <a href="60dj"><a href="65dj" class="link2">elsa</a></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+          <td bgcolor="#cccccc" align="center" rowspan="2">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center"> ROCK DJ <br>
+                    <a href="74dj"><a href="74dj" class="link2">ciacia</a></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">09PM</td>
+          <td bgcolor="#CCCCCC" align="center" rowspan="2" colspan="5"><table width="95%" cellspacing="2" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                
+              <td align="center">OH夜DJ - <a href='174dj'><a href="174dj" class="link2">waa魏如萱</a></a>(一、二)</td>
+              </tr>
+            </tbody>
+          </table>
+            <table width="95%" cellspacing="2" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center">OH YA DJ - <a href="220dj"><a href="220dj" class="link2">木木</a></a>(三、四、五)</td>
+                </tr>
+              </tbody>
+            </table></td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">10PM</td>
+          <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="2">只想聽音樂</td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">11PM</td>
+          <td bgcolor="#A4BACC" align="center" rowspan="3" colspan="5">
+            <table width="95%" cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td align="center">夜貓DJ <br />
+                    <a href="61dj"><a href="61dj" class="link2">Dennis</a></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#B7C6CE" align="center">00AM</td>
+          <td colspan="2" rowspan="2" align="center" bgcolor="#cccccc">HITO NON-STOP</td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td align="center">01AM</td>
+        </tr>
+        <tr>
+          <td height="21" align="center" bgcolor="#B7C6CE">02AM</td>
+          <td colspan="7" rowspan="3" align="center" bgcolor="#CCCCCC">流行最前線</td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td height="22" align="center">03AM</td>
+        </tr>
+        <tr bgcolor="#B7C6CE">
+          <td height="45" align="center">04AM</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+    <div id="tab3" class="tab_content">
+
+      <table width="553" cellspacing="1" cellpadding="2" border="0" align="center">
+
+        <tbody>
+
+          <tr>
+
+            <td width="41" bgcolor="#011f37" align="center"><span class="thead">時段</span></td>
+
+            <td width="56" align="center" bgcolor="#011f37"><span class="thead">MON</span></td>
+
+            <td width="44" align="center" bgcolor="#011f37"><span class="thead">TUE</span></td>
+
+            <td width="52" align="center" bgcolor="#011f37"><span class="thead">WED</span></td>
+
+            <td width="47" align="center" bgcolor="#011f37"><span class="thead">THU</span></td>
+
+            <td width="36" align="center" bgcolor="#011f37"><span class="thead">FRI</span></td>
+
+            <td width="119" align="center" bgcolor="#011f37"><span class="thead">SAT</span></td>
+
+            <td width="117" align="center" bgcolor="#011f37"><span class="thead">SUN</span></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05AM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#CCCCCC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                        <tbody>
+
+                          <tr>
+
+                            <td height="25" align="center"> HAPPY DJ- <a href="175dj"><a href="175dj" class="link2">Tracy</a></a></td>
+
+                          </tr>
+
+                        </tbody>
+
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td colspan="2" rowspan="4" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HAPPY DJ- <a href="166dj"><a href="175dj" class="link2">Tracy</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">06AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">07AM</td>
+            <td colspan="5" align="center" bgcolor="#A4BACC">嗆新聞 / <a href="/newweb/204dj">黃揚明</a>嗆新聞(一、三、五)<br />
+              嗆新聞 / <a href="/newweb/214dj">陳家頤</a>嗆新聞(二、四)</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="30" align="center">08AM</td>
+
+            <td colspan="5" align="center" bgcolor="#cccccc">嗆新聞 / <a href="/newweb/202dj">黃暐瀚</a>撞新聞</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09AM</td>
+
+            <td bgcolor="#A4BACC" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                        <tbody>
+
+                          <tr>
+
+                            <td height="25" align="center"> HAPPY DJ- <a href="175dj"><a href="175dj" class="link2">Tracy</a></a></td>
+
+                          </tr>
+
+                        </tbody>
+
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" rowspan="3" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 點播特區- <a href="80dj"><a href="80dj" class="link2">小米</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">10AM</td>
+
+            <td colspan="5" rowspan="2" bgcolor="#CCCCCC">
+              <table width="98%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 活力DJ<br>
+
+                      <a href="64dj"><a href="64dj" class="link2">阿娟</a></a>
+
+                      <p></p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">
+                                          </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">11AM</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">12PM</td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="25" align="center"> 午餐DJ- <a href="170dj"><a href="170dj" class="link2">童童</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="80%">
+                        <tr>
+                          <td align="center">HITO西洋排行榜<br>
+
+                            <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="80%">
+                        <tr>
+                          <td align="center">HITO日亞排行榜<br>
+
+                            <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">01PM</td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HIT週末! <br>
+
+                      <a href="161dj"><a href="193dj" class="link2">GiGi</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HIT週末! <br />
+
+                      <a href="193dj" class="link2">GiGi</a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">02PM</td>
+
+            <td height="90" bgcolor="#CCCCCC" align="center" rowspan="2" colspan="5">元氣DJ<br />
+                              <a href="198dj" class="link2">Momoko</a>(一、三、五)<br />
+                <a href="156dj">FIFI菲菲</a>(二、四)
+              
+            </td>
+
+            <td rowspan="3" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="2" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HITO FUN 輕鬆<br />
+
+                      <a href="170dj"><a href="198dj" class="link2">Momoko</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="3" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="2" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">HITO FUN 輕鬆<br />
+                      <a href="170dj"><a href="207dj" class="link2">韋恩</a></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">03PM</td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">04PM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 不累DJ<br>
+
+                      <a href="158dj"><a href="158dj" class="link2">Bibi趙之璧</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05PM</td>
+
+            <td align="center" bgcolor="#cccccc">
+
+              <a href="showtime.php#HIT_03">HIT DJ-蔡旻佑</a>
+            </td>
+
+            <td bgcolor="#cccccc" align="center">
+                            <a href="showtime.php#HIT_03">HIT DJ-林芯儀</a>
+                          </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">06PM</td>
+
+            <td height="90" bgcolor="#CCCCCC" align="center" colspan="5">POP 大國民<br />
+              <a href="/newweb/221dj">平秀琳</a>(一、三、五)、<br />
+            代班主持人(二)、 <a href="/newweb/224dj">邱世卿</a>(四) </td>
+            <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HITO唱片行 <br>
+
+                      <a href="161dj"><a href="161dj" class="link2">克里斯</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">07PM</td>
+
+            <td bgcolor="#A4BACC" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="1" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="43" align="left">
+                      <p align="center">耐玩DJ <br>
+
+                        <a href="160dj"><a href="160dj" class="link2">Bryan</a></a>
+                      </p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">*逢週五07:00PM-08:00PM<br>
+
+                      HITO中文排行榜</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">08PM</td>
+
+            <td rowspan="2" align="center" bgcolor="#cccccc">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HEY！MISS DJ <br>
+
+                      <a href="60dj"><a href="65dj" class="link2">elsa</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" align="center" rowspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> ROCK DJ <br>
+
+                      <a href="74dj"><a href="74dj" class="link2">ciacia</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09PM</td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2" colspan="5"><table width="95%" cellspacing="2" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  
+                <td align="center">OH夜DJ - <a href='174dj'><a href="174dj" class="link2">waa魏如萱</a></a>(一、二)</td>
+                </tr>
+              </tbody>
+            </table>
+              <table width="95%" cellspacing="2" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">OH YA DJ - <a href="220dj"><a href="220dj" class="link2">木木</a></a>(三、四、五)</td>
+                  </tr>
+                </tbody>
+            </table></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">10PM</td>
+
+            <td rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="98%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">不睡週末夜<br />
+
+                      <a href="156dj"><a href="170dj" class="link2">童童</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="98%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">不睡週末夜<br />
+
+                      <a href="156dj"><a href="198dj" class="link2">Momoko</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">11PM</td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="3" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 夜貓DJ <br>
+
+                      <a href="61dj"><a href="61dj" class="link2">Dennis</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">00AM</td>
+
+            <td bgcolor="#cccccc" align="center" rowspan="2" colspan="2">流行最前線</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">01AM</td>
+
+          </tr>
+
+          <tr>
+
+            <td height="21" align="center" bgcolor="#B7C6CE">02AM</td>
+
+            <td colspan="7" rowspan="3" align="center" bgcolor="#CCCCCC">流行最前線</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="22" align="center">03AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">04AM</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+
+
+
+
+    <div id="tab4" class="tab_content">
+
+      <table width="553" cellspacing="1" cellpadding="2" border="0" align="center">
+
+        <tbody>
+
+          <tr>
+
+            <td width="41" bgcolor="#011f37" align="center"><span class="thead">時段</span></td>
+
+            <td width="56" align="center" bgcolor="#011f37"><span class="thead">MON</span></td>
+
+            <td width="44" align="center" bgcolor="#011f37"><span class="thead">TUE</span></td>
+
+            <td width="52" align="center" bgcolor="#011f37"><span class="thead">WED</span></td>
+
+            <td width="47" align="center" bgcolor="#011f37"><span class="thead">THU</span></td>
+
+            <td width="36" align="center" bgcolor="#011f37"><span class="thead">FRI</span></td>
+
+            <td width="119" align="center" bgcolor="#011f37"><span class="thead">SAT</span></td>
+
+            <td width="117" align="center" bgcolor="#011f37"><span class="thead">SUN</span></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05AM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#CCCCCC">GOOD MORNING YI-LAN</td>
+
+            <td bgcolor="#A4BACC" rowspan="4" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">只想聽音樂</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">06AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">07AM</td>
+            <td colspan="5" align="center" bgcolor="#A4BACC">嗆新聞 / <a href="/newweb/204dj">黃揚明</a>嗆新聞(一、三、五)<br />
+              嗆新聞 / <a href="/newweb/214dj">陳家頤</a>嗆新聞(二、四)</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">08AM</td>
+
+            <td colspan="5" align="center" bgcolor="#cccccc">嗆新聞 / <a href="/newweb/202dj">黃暐瀚</a>撞新聞</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09AM</td>
+
+            <td colspan="5" rowspan="3" bgcolor="#A4BACC">
+              <table width="98%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">活力DJ<br>
+
+                      <a href="64dj"><a href="64dj" class="link2">阿娟</a></a>
+
+                      <p></p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">
+                                          </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 週末賴一下</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">10AM</td>
+            <td colspan="2" rowspan="2" align="center" bgcolor="#cccccc">東STOP！MUSIC ON AIR</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">11AM</td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">12PM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#cccccc">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="25" align="center">翹班DJ- <a href="172dj"><a href="184dj" class="link2">維多</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="80%">
+                        <tr>
+                          <td align="center">HITO西洋排行榜<br>
+
+                            <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="80%">
+                        <tr>
+                          <td align="center">HITO日亞排行榜<br>
+
+                            <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">01PM</td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HIT週末! <br>
+
+                      <a href="161dj"><a href="193dj" class="link2">GiGi</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HIT週末! <br />
+
+                      <a href="193dj" class="link2">GiGi</a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td height="44" align="center" bgcolor="#B7C6CE">02PM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">午茶DJ- <a href="71dj"><a href="71dj" class="link2">SoWhat</a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="3" align="center" bgcolor="#A4BACC">嗑音樂</td>
+            <td rowspan="3" align="center" bgcolor="#A4BACC">嗑音樂</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">03PM</td>
+          </tr>
+
+          <tr>
+
+            <td height="30" align="center" bgcolor="#B7C6CE">04PM</td>
+
+            <td colspan="5" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 不累DJ<br>
+
+                      <a href="158dj"><a href="158dj" class="link2">Bibi趙之璧</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05PM</td>
+            <td colspan="5" align="center" bgcolor="#A4BACC">POP 大國民<br />
+              <a href="/newweb/218dj">錢毅</a>(一、三、五)、<br />
+代班主持人(二、四)</td>
+
+            <td align="center" bgcolor="#CCCCCC">
+
+              <a href="showtime.php#HIT_03">HIT DJ-蔡旻佑</a>
+            </td>
+
+            <td align="center" bgcolor="#CCCCCC">
+                            <a href="showtime.php#HIT_03">HIT DJ-林芯儀</a>
+                          </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">06PM</td>
+
+            <td height="90" bgcolor="#CCCCCC" align="center" colspan="5">POP 大國民<br />
+              <a href="/newweb/221dj">平秀琳</a>(一、三、五)、<br />
+            代班主持人(二)、 <a href="/newweb/224dj">邱世卿</a>(四) </td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HITO唱片行 <br>
+
+                      <a href="161dj"><a href="161dj" class="link2">克里斯</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">07PM</td>
+
+            <td bgcolor="#A4BACC" rowspan="2" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="1" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="43" align="left">
+                      <p align="center">耐玩DJ <br>
+
+                        <a href="160dj"><a href="160dj" class="link2">Bryan</a></a>
+                      </p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">*逢週五07:00PM-08:00PM<br>
+
+                      HITO中文排行榜</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">08PM</td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HEY！MISS DJ <br>
+
+                      <a href="60dj"><a href="65dj" class="link2">elsa</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> ROCK DJ <br>
+
+                      <a href="74dj"><a href="74dj" class="link2">ciacia</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09PM</td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2" colspan="5"><table width="95%" cellspacing="2" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  
+                <td align="center">OH夜DJ - <a href='174dj'><a href="174dj" class="link2">waa魏如萱</a></a>(一、二)</td>
+                </tr>
+              </tbody>
+            </table>
+              <table width="95%" cellspacing="2" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">OH YA DJ - <a href="220dj"><a href="220dj" class="link2">木木</a></a>(三、四、五)</td>
+                  </tr>
+                </tbody>
+            </table></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">10PM</td>
+
+            <td colspan="2" rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="25" align="center">音樂不夜城 <a href="73dj"><a href="dj" class="link2"></a></a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">11PM</td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="3" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 夜貓DJ <br>
+
+                      <a href="61dj"><a href="61dj" class="link2">Dennis</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">00AM</td>
+
+            <td colspan="2" rowspan="2" align="center" bgcolor="#CCCCCC">只想聽音樂</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">01AM</td>
+
+          </tr>
+
+          <tr>
+
+            <td height="21" align="center" bgcolor="#B7C6CE">02AM</td>
+
+            <td colspan="7" rowspan="3" align="center" bgcolor="#CCCCCC">流行最前線</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="22" align="center">03AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">04AM</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+
+
+    <div id="tab5" class="tab_content">
+
+      <table width="553" cellspacing="1" cellpadding="2" border="0" align="center">
+
+        <tbody>
+
+          <tr>
+
+            <td width="41" bgcolor="#011f37" align="center"><span class="thead">時段</span></td>
+
+            <td width="56" align="center" bgcolor="#011f37"><span class="thead">MON</span></td>
+
+            <td width="44" align="center" bgcolor="#011f37"><span class="thead">TUE</span></td>
+
+            <td width="52" align="center" bgcolor="#011f37"><span class="thead">WED</span></td>
+
+            <td width="47" align="center" bgcolor="#011f37"><span class="thead">THU</span></td>
+
+            <td width="36" align="center" bgcolor="#011f37"><span class="thead">FRI</span></td>
+
+            <td width="119" align="center" bgcolor="#011f37"><span class="thead">SAT</span></td>
+
+            <td width="117" align="center" bgcolor="#011f37"><span class="thead">SUN</span></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05AM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#A4BACC">早安東台灣</td>
+
+            <td bgcolor="#A4BACC" rowspan="4" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">只想聽音樂</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">06AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">07AM</td>
+            <td colspan="5" align="center" bgcolor="#A4BACC">嗆新聞 / <a href="/newweb/204dj">黃揚明</a>嗆新聞(一、三、五)<br />
+              嗆新聞 / <a href="/newweb/214dj">陳家頤</a>嗆新聞(二、四)</td>
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">08AM</td>
+
+            <td colspan="5" align="center" bgcolor="#A4BACC">嗆新聞 / <a href="/newweb/202dj">黃暐瀚</a>撞新聞</td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09AM</td>
+
+            <td colspan="5" rowspan="3" bgcolor="#CCCCCC">
+              <table width="98%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">活力DJ<br>
+
+                      <a href="64dj"><a href="64dj" class="link2">阿娟</a></a>
+
+                      <p></p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td align="center">
+                                          </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="2" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">  賴床音樂</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">10AM</td>
+            <td colspan="2" rowspan="2" align="center" bgcolor="#cccccc">東STOP！MUSIC ON AIR</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">11AM</td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">12PM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+                <tbody>
+                  <tr>
+                    <td height="25" align="center">翹班DJ<br />
+                      <a href="194dj"><a href="194dj" class="link2">GJ蔣卓嘉</a></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="80%">
+                        <tr>
+                          <td align="center">HITO西洋排行榜<br>
+
+                            <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#A4BACC" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">
+                      <table width="80%">
+                        <tr>
+                          <td align="center">HITO日亞排行榜<br>
+
+                            <a href="65dj"><a href="65dj" class="link2">elsa</a></a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">01PM</td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HIT週末! <br>
+
+                      <a href="161dj"><a href="193dj" class="link2">GiGi</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#cccccc" align="center">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">HIT週末! <br />
+
+                      <a href="193dj" class="link2">GiGi</a></td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td height="44" align="center" bgcolor="#B7C6CE">02PM</td>
+
+            <td colspan="5" rowspan="2" align="center" bgcolor="#CCCCCC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">元氣音樂</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td rowspan="3" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="2" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center">Hito放輕鬆<br />
+
+                      <a href="170dj"><a href="dj" class="link2"></a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+            <td rowspan="3" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="2" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">Hito放輕鬆<br />
+                      <a href="170dj"><a href="dj" class="link2"></a></a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">03PM</td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">04PM</td>
+
+            <td colspan="5" align="center" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 不累DJ<br>
+
+                      <a href="158dj"><a href="158dj" class="link2">Bibi趙之璧</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">05PM</td>
+            <td colspan="5" align="center" bgcolor="#A4BACC">POP 大國民<br />
+              <a href="/newweb/218dj">錢毅</a>(一、三、五)、<br />
+            代班主持人(二、四)</td>
+
+            <td bgcolor="#CCCCCC" align="center">
+
+              <a href="showtime.php#HIT_03">HIT DJ-蔡旻佑</a>
+            </td>
+
+            <td bgcolor="#CCCCCC" align="center">
+                            <a href="showtime.php#HIT_03">HIT DJ-林芯儀</a>
+                          </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">06PM</td>
+
+            <td height="90" bgcolor="#CCCCCC" align="center" colspan="5">POP 大國民<br />
+              <a href="/newweb/221dj">平秀琳</a>(一、三、五)、<br />
+            代班主持人(二)、 <a href="/newweb/224dj">邱世卿</a>(四) </td>
+            <td bgcolor="#A4BACC" align="center" rowspan="2" colspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HITO唱片行 <br>
+
+                      <a href="161dj"><a href="161dj" class="link2">克里斯</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">07PM</td>
+
+            <td colspan="5" rowspan="2" bgcolor="#A4BACC">
+              <table width="95%" cellspacing="0" cellpadding="1" border="0" align="center">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="43" align="left">
+                      <p align="center">耐玩DJ <br />
+
+                        <a href="160dj"><a href="160dj" class="link2">Bryan</a></a>
+                      </p>
+                    </td>
+
+                  </tr>
+
+                  <tr>
+
+                    <td height="43" align="center">*逢週五07:00PM-08:00PM<br />
+
+                      HITO中文排行榜</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">08PM</td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> HEY！MISS DJ <br>
+
+                      <a href="60dj"><a href="65dj" class="link2">elsa</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> ROCK DJ <br>
+
+                      <a href="74dj"><a href="74dj" class="link2">ciacia</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">09PM</td>
+
+            <td bgcolor="#CCCCCC" align="center" rowspan="2" colspan="5"><table width="95%" cellspacing="2" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  
+                <td align="center">OH夜DJ - <a href='174dj'><a href="174dj" class="link2">waa魏如萱</a></a>(一、二)</td>
+                </tr>
+              </tbody>
+            </table>
+              <table width="95%" cellspacing="2" cellpadding="0" border="0">
+                <tbody>
+                  <tr>
+                    <td align="center">OH YA DJ - <a href="220dj"><a href="220dj" class="link2">木木</a></a>(三、四、五)</td>
+                  </tr>
+                </tbody>
+            </table></td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">10PM</td>
+
+            <td colspan="2" rowspan="2" align="center" bgcolor="#A4BACC">
+              <table width="100%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td height="25" align="center">東台灣夜未眠</td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">11PM</td>
+
+            <td bgcolor="#A4BACC" align="center" rowspan="3" colspan="5">
+              <table width="95%" cellspacing="0" cellpadding="0" border="0">
+
+                <tbody>
+
+                  <tr>
+
+                    <td align="center"> 夜貓DJ <br>
+
+                      <a href="61dj"><a href="61dj" class="link2">Dennis</a></a>
+                    </td>
+
+                  </tr>
+
+                </tbody>
+
+              </table>
+            </td>
+
+          </tr>
+
+          <tr>
+
+            <td bgcolor="#B7C6CE" align="center">00AM</td>
+
+            <td colspan="2" rowspan="2" align="center" bgcolor="#CCCCCC">只想聽音樂</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td align="center">01AM</td>
+
+          </tr>
+
+          <tr>
+
+            <td height="21" align="center" bgcolor="#B7C6CE">02AM</td>
+
+            <td colspan="7" rowspan="3" align="center" bgcolor="#CCCCCC">流行最精選</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="22" align="center">03AM</td>
+
+          </tr>
+
+          <tr bgcolor="#B7C6CE">
+
+            <td height="45" align="center">04AM</td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+
+
+  </div>
+
+</div>					</div>
+					<h3><img src="imgs/con_bottom_bg.gif"></h3>
+					<!-- 2016 Hito下方_563x250 開始 -->
+					<div>
+						<br>
+						<iframe width="550" height="250" frameborder="0" scrolling="no" src="/incInnerNew/innerC.php"></iframe>
+					</div>
+					<!-- 2016 Hito下方_563x250 結束 -->
+				</div>
+
+				<div id="block_R">
+
+					<!-- 跑馬燈區開始 -->
+					<div class="scroll" id="scrollDiv_txt">
+						<ul id="sd_txt"><li><a href="/incIndexCounter/adMaqueeCounter.php?id=516" target=_top>Hit Fm的【IG】新鮮又好玩快加入！</a></li>
+<li><a href="/incIndexCounter/adMaqueeCounter.php?id=467" target=_top>Hit Fm【FB臉書粉絲團】等你加入！</a></li>
+<li><a href="/incIndexCounter/adMaqueeCounter.php?id=495" target=_top>最專業《DJ推薦》好音樂千萬別錯過！</a></li>
+<li><a href="/incIndexCounter/adMaqueeCounter.php?id=455" target=_top>好康報報 最新優惠訊息都在這！</a></li>
+</ul>
+
+					</div>
+					<!-- 跑馬燈區結束 -->
+
+					<!-- NowOnAir區開始 -->
+					<div id="onair">
+						<div id="scrollDiv">
+         <ul>
+         <!-- 北部 -->
+            <li>
+                <ul>
+                <li class="onairlk">
+				<table width="243" border="0" align="center" cellpadding="4" cellspacing="0">
+  <tr>
+	<td width="91"><a href="/newweb/nowonaircount_2024.php?block=9&area=1" target="_blank"><img src="/media/newweb/bill_1/280054cff72e.jpg" width="91"    class="onairImg"></a></td>
+	<td valign="top"><font class="onairTit">【HitFm正在進行】</font><br><a href="/newweb/nowonaircount_2024.php?block=9&area=1" target="_blank"><font class="onairName">(聯播)<br />耐玩DJ-Bryan</font></a></td>
+  </tr>
+  <tr>
+	<td colspan="2"><font class="onairTit">【Next】</font><br><font class="onairName">(聯播)OH夜DJ-waa魏如萱</font></td>
+  </tr>
+</table>
+                </li>
+                </ul> 
+        	 </li>
+             
+         <!-- 中部 -->
+             <li>
+                <ul>
+                <li class="onairlk">
+				<table width="243" border="0" align="center" cellpadding="4" cellspacing="0">
+  <tr>
+	<td width="91"><a href="/newweb/nowonaircount_2024.php?block=9&area=2" target="_blank"><img src="/media/newweb/bill_1/280054cff72e.jpg" width="91"    class="onairImg"></a></td>
+	<td valign="top"><font class="onairTit">【HitFm正在進行】</font><br><a href="/newweb/nowonaircount_2024.php?block=9&area=2" target="_blank"><font class="onairName">(聯播)<br />耐玩DJ-Bryan</font></a></td>
+  </tr>
+  <tr>
+	<td colspan="2"><font class="onairTit">【Next】</font><br><font class="onairName">(聯播)OH夜DJ-waa魏如萱</font></td>
+  </tr>
+</table>
+                </li>
+                </ul> 
+        	 </li>
+
+         <!-- 南部 -->
+             <li>
+                <ul>
+                <li class="onairlk">
+				<table width="243" border="0" align="center" cellpadding="4" cellspacing="0">
+  <tr>
+	<td width="91"><a href="/newweb/nowonaircount_2024.php?block=9&area=3" target="_blank"><img src="/media/newweb/bill_1/280054cff72e.jpg" width="91"    class="onairImg"></a></td>
+	<td valign="top"><font class="onairTit">【HitFm正在進行】</font><br><a href="/newweb/nowonaircount_2024.php?block=9&area=3" target="_blank"><font class="onairName">(聯播)<br />耐玩DJ-Bryan</font></a></td>
+  </tr>
+  <tr>
+	<td colspan="2"><font class="onairTit">【Next】</font><br><font class="onairName">(聯播)OH夜DJ-waa魏如萱</font></td>
+  </tr>
+</table>
+                </li>
+                </ul> 
+        	 </li>
+
+         <!-- 宜蘭 -->
+             <li>
+                <ul>
+                <li class="onairlk">
+				<table width="243" border="0" align="center" cellpadding="4" cellspacing="0">
+  <tr>
+	<td width="91"><a href="/newweb/nowonaircount_2024.php?block=9&area=4" target="_blank"><img src="/media/newweb/bill_1/280054cff72e.jpg" width="91"    class="onairImg"></a></td>
+	<td valign="top"><font class="onairTit">【HitFm正在進行】</font><br><a href="/newweb/nowonaircount_2024.php?block=9&area=4" target="_blank"><font class="onairName">(聯播)<br />耐玩DJ-Bryan</font></a></td>
+  </tr>
+  <tr>
+	<td colspan="2"><font class="onairTit">【Next】</font><br><font class="onairName">(聯播)OH夜DJ-waa魏如萱</font></td>
+  </tr>
+</table>
+                </li>
+                </ul> 
+        	 </li>
+
+         <!-- 花東 -->
+             <li>
+                <ul>
+                <li class="onairlk">
+				<table width="243" border="0" align="center" cellpadding="4" cellspacing="0">
+  <tr>
+	<td width="91"><a href="/newweb/nowonaircount_2024.php?block=9&area=5" target="_blank"><img src="/media/newweb/bill_1/280054cff72e.jpg" width="91"    class="onairImg"></a></td>
+	<td valign="top"><font class="onairTit">【HitFm正在進行】</font><br><a href="/newweb/nowonaircount_2024.php?block=9&area=5" target="_blank"><font class="onairName">(聯播)<br />耐玩DJ-Bryan</font></a></td>
+  </tr>
+  <tr>
+	<td colspan="2"><font class="onairTit">【Next】</font><br><font class="onairName">(聯播)OH夜DJ-waa魏如萱</font></td>
+  </tr>
+</table>
+                </li>
+                </ul> 
+        	 </li>
+             
+         </ul></div>
+
+					</div>
+					<!-- NowOnAir區結束 -->
+
+					<!-- 最新節目預告 -->
+					<dl id="hotRadio">
+						<dt style="background: url(imgs/show_headline.gif) no-repeat 0 0;"></dt>
+						<dd>
+							<ul><li><strong>‧<a href="showtime.php">9/14(一)~9/18(五)</a></strong><br /><span class="titleRed"><a href="showtime.php">　全頻道 / 歌手專訪</a></span><br /><a href="showtime.php">　9/14(一)蔡旻佑-OH夜DJ訪問(HITO LIVE)</a></li>
+<li><strong>‧<a href="showtime.php">9/19(六)13:00~14:00</a></strong><br /><span class="titleRed"><a href="showtime.php">　HIT週末！ / 李杰明</a></span><br /><a href="showtime.php">　本週專訪來賓：李杰明</a></li>
+<li><strong>‧<a href="showtime.php">9/19(六)17:00~18:00</a></strong><br /><span class="titleRed"><a href="showtime.php">　HIT DJ / 蔡旻佑</a></span><br /><a href="showtime.php">　本週六為大家播放好音樂的是「蔡旻佑」</a></li>
+</ul>
+							<br>
+						</dd>
+					</dl>
+					<!-- 
+
+<dl id="movRank">
+    <dt></dt>
+  <dd>
+  	<ul></ul>
+    <br>
+  </dd>
+</dl> -->
+
+					<dl id="adbanner">
+						<dt></dt>
+						<dd>
+							<div id="TopBanner">
+								<div class="link"></div>
+								<div class="banner"><a href="#"><img src="scripts/blank.gif" border="0" width="235" /></a></div>
+							</div>
+							<!-- 廣告顯示區塊 結束-->
+
+							<!--　廣告素材資料 開始-->
+							<div class="list" style="display:none;"><a href="/incIndexCounter/RoyalCounter.php?id=3172" target="_blank"><img src="/media/newweb/indexRoyal/3172.jpg" width="235" /></a>
+<a href="/incIndexCounter/RoyalCounter.php?id=3164" target="_blank"><img src="/media/newweb/indexRoyal/3164.jpg" width="235" /></a>
+<a href="/incIndexCounter/RoyalCounter.php?id=3168" target="_blank"><img src="/media/newweb/indexRoyal/3168.jpg" width="235" /></a>
+<a href="/incIndexCounter/RoyalCounter.php?id=3169" target="_blank"><img src="/media/newweb/indexRoyal/3169.jpg" width="235" /></a>
+<a href="/incIndexCounter/RoyalCounter.php?id=3170" target="_blank"><img src="/media/newweb/indexRoyal/3170.jpg" width="235" /></a>
+<a href="/incIndexCounter/RoyalCounter.php?id=3171" target="_blank"><img src="/media/newweb/indexRoyal/3171.jpg" width="235" /></a>
+</div>
+							<!--　廣告素材資料 結束-->
+						</dd>
+					</dl>
+					<!-- 2016 側邊_160x600通版 開始 -->
+					<dl id="scupio">
+						<dt></dt>
+						<dd>
+							<iframe width="160" height="600" frameborder="0" scrolling="no" src="/incInnerNew/innerB.php"></iframe>
+						</dd>
+					</dl>
+					<!-- 2016 側邊_160x600通版 結束 -->
+				</div>
+			</div>
+		</div>
+		<div id="clear"></div>
+		<!-- 表尾 -->
+		<!-------footer------->
+<div id="footer"><a href="intro_1.php">關於Hitoradio.Com</a>　│　<a href="intro_2.php">人才招募</a>　│　<a href="intro_3.php">網站導覽</a>　│　<a href="intro_4.php">著作權聲明</a>　│　<a href="/showtime/pdf/HITFM2026.pdf">廣告價目</a>　│　<a href="memos.php">聯絡我們</a>
+  <p>版權所有，台北之音廣播股份有限公司 Copyright (C) 2001-2026 All Rights Reserved. 未經同意請勿任意轉載本網站內容。
+    <br />
+    建議瀏覽器版本 IE 7.0以上版本，解析度1024 x 768 以獲得最佳瀏覽效果</p>
+</div>
+
+<!--GOOGLE Anylytics-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8932599-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.3/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDFs6WYnVLbXfBR5J7hREm_2x_35dXqZaQ",
+    authDomain: "hitoradio-756a4.firebaseapp.com",
+    projectId: "hitoradio-756a4",
+    storageBucket: "hitoradio-756a4.appspot.com",
+    messagingSenderId: "817963372786",
+    appId: "1:817963372786:web:29b87a104943e6ad66806b",
+    measurementId: "G-HKNY3T626H"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script><!--GOOGLE Anylytics-->		<!-- 表尾 -->
+
+	</div>
+
+
+</body>
+
+</html>

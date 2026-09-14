@@ -1,0 +1,2307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=9" > 
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICRT</title>
+<link href="language_data/ch/css/web_sty.css?t=20250102" rel="stylesheet" type="text/css" />
+<link href="language_data/ch/css/ipad_sty.css?t=20250102" rel="stylesheet" type="text/css" />
+<link href="language_data/ch/css/mob_sty.css?t=20250102" rel="stylesheet" type="text/css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="format-detection" content="telephone=no" />
+<script src="scripts/respond.src.js"></script>
+
+<meta name="title" content="ICRT" />
+<meta name="description" content="ICRT" />
+<link rel="image_src" type="image/jpeg" href="https://www.icrt.com.tw/language_data/ch/image/sh/icrt_250x250.jpg" />
+
+<meta property="og:title" content="ICRT" />
+<meta property="og:description" content="ICRT" />
+<meta property="og:image" content="https://www.icrt.com.tw/language_data/ch/image/sh/icrt_250x250.jpg" />
+<meta property="og:url" content="https://www.icrt.com.tw/" />
+<meta name="facebook-domain-verification" content="j6wc5jna00tk462e6eb3z6gmbqq7lt" />
+
+<script type="text/javascript" src="scripts/jquery-3.6.0.min.js"></script>
+
+<!--共用之JavaScript-->
+<script language="javascript" type="text/javascript" src="scripts/base.js"></script>
+
+<!-- 看板滾動 -->
+<script language="javascript" type="text/javascript" src="scripts/tab/marquee.js"></script>
+<link href="scripts/tab/marquee.css" rel="stylesheet" type="text/css" />
+
+<!--fancybox start-->
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="scripts/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<!-- Add fancyBox main JS and CSS files -->
+<script type="text/javascript" src="scripts/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="scripts/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+<!--fancybox end-->
+
+<!--浮動選單-->
+<script type="text/javascript" src="scripts/smint/jquery.smint.js"></script>
+
+<!-- csrf Base Scripts -->
+<meta name="_csrf" content="CSRFP-Token"/>
+<script type="text/javascript" src="scripts/check_data/base_csrf.js"></script>
+
+<!--出現訊息-->
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+		
+    //浮動選單
+	$('.ecbMenuBlock').smint({
+    	'scrollSpeed' : 1000,
+		'box_top'		: 10,
+    });
+	
+	$(".enterGo").keyup(function (e) {
+		if (e.keyCode == 13) {
+			cusLogin('請填寫Username！','請填寫Password！','系統發生錯誤，請稍後再試！','');
+		}
+	});
+	changeTopMarquee();
+	//更換跑馬燈內容
+	//setInterval("changeTopMarquee()",5000);
+	
+});
+</script>
+
+<script type="text/javascript">
+//Google Analytics
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18133622-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-18133622-1', 'auto');
+</script>
+<!-- End Google Analytics -->
+
+
+<!-- Google tag (gtag.js)(GA4) Start -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-K9TSJY1GLZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-K9TSJY1GLZ');
+</script>
+<!-- Google tag (gtag.js)(GA4) End -->
+
+
+<script src="scripts/js.cookie.js"></script>
+<script language="javascript" type="text/javascript" src="scripts/mm_image_base.js"></script>
+
+<!-- 出現訊息-->
+
+<!--網頁頁籤(Tab)-->
+<script language="javascript" type="text/javascript" src="scripts/tab/tab.js"></script>
+<link href="scripts/tab/tab.css" rel="stylesheet" type="text/css" />
+
+<!--dj圖片輪播-->
+<script language="javascript" type="text/javascript">
+
+// 程式載入完成, 執行 輪播
+document.addEventListener( 'DOMContentLoaded', djPicChange);
+// 輪播圖示
+function djPicChange(){
+	let showDjIndex = 0,
+		fOut = 500,
+		fIn = 1000;
+	
+	function djPicSlide(){
+		if(showDjIndex == 1){
+			$("#djPic1").fadeOut(fOut, function(){
+				$("#djPic1").hide();
+				$("#djPic2").fadeIn(fIn);
+			});
+		}else{
+			$("#djPic2").fadeOut(fOut, function(){
+				$("#djPic2").hide();
+				$("#djPic1").fadeIn(fIn);
+			});
+		}
+		
+		if(showDjIndex >= 2){
+			showDjIndex = 1;
+		}else{
+			showDjIndex++;
+		}
+	}
+	// 有兩個 才輪播
+	if( $('.bofangPeoImg .imgs img').length >=2 ){
+		// 輪播
+		djPicSlide();
+		setInterval( djPicSlide, 8000 );
+	}else{
+		$('.bofangPeoImg .imgs img').show();
+	}
+}
+</script>
+
+<!--抽獎活動輪播-->
+<script language="javascript" type="text/javascript">
+var showActivityIndex = 0;
+var showActivity = -1;
+var nameActivityArray = new Array(0);
+var titleActivityArray = new Array(0);
+var linkActivityArray = new Array(0);
+
+$(document).ready( function() {
+	$("#webActTitle").html(titleActivityArray[showActivityIndex]);
+	$("#webActLink").attr( "href", linkActivityArray[showActivityIndex] );
+	$("#mobActTitle").html(titleActivityArray[showActivityIndex]);
+	$("#mobActLink").attr( "href", linkActivityArray[showActivityIndex] );
+});
+</script>
+
+<!--主banner輪播-->
+<script language="javascript" type="text/javascript" src="scripts/flexslider/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="scripts/flexslider/flexslider.css" type="text/css" media="screen" />
+<script language="javascript" type="text/javascript">
+$(document).ready( function() {
+  $('.flexslider').flexslider({
+  	slideshowSpeed: 10000,
+    animation: "slide",
+	directionNav: false,
+	start: function( slider ){
+		var adname = $('.slides').children('li:eq(1)').find('img').attr('alt');
+
+		var cookiesValue = Cookies.get(adname);
+
+			if(cookiesValue === undefined){
+
+		  ga('send', 'event', 'AD_Banner', adname, '曝光數_WEB'); //UA
+		  gtag('event', 'website_event', {'event_category':'AD_Banner','event_action':adname,'event_label':'曝光數_WEB'}); //GA4
+		  
+			Cookies.set(adname, 'true');
+
+		}
+
+	},
+	before: function ( slider ) {
+		var adname = $('.slides').children('li:eq('+(slider.animatingTo+1)+')').find('img').attr('alt');
+
+		var cookiesValue = Cookies.get(adname);
+
+		if(cookiesValue === undefined){
+
+    	ga('send', 'event', 'AD_Banner', adname, '曝光數_WEB'); //UA
+		gtag('event', 'website_event', {'event_category':'AD_Banner','event_action':adname,'event_label':'曝光數_WEB'}); //GA4
+			Cookies.set(adname, 'true');
+
+		}
+	}
+  });
+});
+</script>
+
+<!-- 跑馬燈 scripts -->
+<script src="scripts/jquery-simplyscroll-2.0.5/jquery.simplyscroll.js" type="text/javascript"></script>
+<link href="scripts/jquery-simplyscroll-2.0.5/simplyscroll_icrt.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+(function($) {
+	$(function() { //on DOM ready
+		$("#scroller").simplyScroll({
+			direction: 'forwards',		//'backwards',
+			pauseOnHover: true,
+			frameRate: 20,
+			speed: 2
+		});
+	});
+})(jQuery);
+</script>
+
+</head>
+
+<body> <noscript></noscript>
+
+<!------------網頁 header---------------->
+<!--網頁 header-->
+
+<div class="headerBox">
+  <div class="conts">
+    <div class="header_left"> 
+      
+      <!--登入-->
+      <div class="loginBox" id="loginBoxShow">
+        <form name="userLoginForm" id="userLoginForm" method="post" action="login.php">
+          <table border="0" cellspacing="0" cellpadding="0" style="margin:0 auto;">
+            <tr>
+              <td>帳號</td>
+              <td class="pad01"><input type="text" name="username" id="username" class="loginInpSty enterGo"/></td>
+            </tr>
+            <tr>
+              <td>密碼</td>
+              <td class="pad01"><input type="password" name="password" id="password" class="loginInpSty enterGo"/></td>
+            </tr>
+            <tr>
+              <td colspan="2" class="hei01"><a href="last_password_step01.php?&mlevel1=11&mlevel2=70">忘記密碼</a> <img src="language_data/ch/image/sh/btn_login.png" border="0" style="float:right;cursor:pointer;" onClick="cusLogin('請填寫Username！','請填寫Password！','系統發生錯誤，請稍後再試！','');"/>
+                <input name="reUrlAddr" type="hidden" id="reUrlAddr" value="L2luZGV4LnBocA==">
+                <input name="MM_UserLogin" type="hidden" id="MM_UserLogin" value="userLoginForm"></td>
+            </tr>
+            <tr>
+              <td colspan="2" align="center"><a href="eclub_whats_eclub.php?&mlevel1=11&mlevel2=51"><img src="language_data/ch/image/sh/btn_join.png" border="0"/></a></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <!--登入 結束-->
+      <div class="signin">
+                <span onClick="openLoginBox();">登入</span> / <a href="eclub_whats_eclub.php?&mlevel1=11&mlevel2=51">註冊</a>
+              </div>
+      <div class="sh_box"><p>
+	<a href="https://www.facebook.com/ICRTFM100" target="_blank"><span class="icon"><img border="0" src="language_data/en/image/sh/sh_fb.png" style="vertical-align:middle;" /> <span class="text">Facebook</span></span></a> <a href="https://www.instagram.com/icrtradio" target="_blank"><span class="icon"><img border="0" src="language_data/en/image/sh/sh_ig.png" style="vertical-align:middle;" /><span class="text">Instagram</span></span></a> <a href="https://www.youtube.com/user/ICRTFM100/featured" target="_blank"><span class="icon"><img border="0" src="language_data/en/image/sh/sh_youtube.png" style="vertical-align:middle;" /><span class="text">Youtube</span></span></a> <a href="https://twitter.com/ICRT100" target="_blank"><span class="icon"><img border="0" src="language_data/en/image/sh/sh_ic.png" style="vertical-align:middle;" /><span class="text">Twitter</span></span></a> <a href="http://www.icrt.com.tw/wordpress/" target="_blank"><span class="icon"><img border="0" src="language_data/en/image/sh/sh_blog.png" style="vertical-align:middle;" /><span class="text">Blog</span></span></a> <a href="https://lihi1.com/1CHum" target="_blank"><span class="icon"><img border="0" src="language_data/en/image/sh/sh_twitch.png" style="vertical-align:middle;" /><span class="text">Twitch</span></span></a></p>
+</div>
+    </div>
+    <!--等化器-->
+    <div class="header_cont"><a href="index.php"><img src="language_data/ch/image/sh/speak_bg.gif" border="0" /></a></div>
+    <div class="header_right">
+      <div class="language"> <a href="page_lang.php?lang=ch" style="background-color:#3399cc;color:#FFFFFF;"><span style="margin:5px;">中文</span></a> / <a href="page_lang.php?lang=en" ><span style="margin:5px;">English</span></a> </div>
+      <div class="searBox">
+        <form action="https://www.google.com/cse" id="cse-search-box" target="_blank" style="margin:0px;padding:0px;">
+        <div class="searBtn">        
+          
+          <input width="100%" type="image" src="language_data/ch/image/sh/search_btns.png" />
+
+         
+        </div>
+        <input type="hidden" name="cx" value="003316664182397972599:o6bbubpz71y" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" class="sear_input" />									  
+        </form>
+		        <script type="text/javascript" src="https://www.google.com/cse/brand?form=cse-search-box&lang=zh-tw"></script>	
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------網頁 header  END------------> 
+
+<!------------mob header---------------->
+
+
+<div class="headerBox_mob">
+  <div class="logo"><a href="index.php"><img src="language_data/ch/image/sh/logo.png" width="100%" border="0" /></a></div>
+  <div class="imglink"><a href="#"><img src="language_data/ch/image/sh/speak_bg.gif" border="0"/></a></div>
+  <div class="imglink_1"><a href="#"><img src="language_data/ch/image/sh/speak_bg_mob.gif" border="0"/></a></div>
+  </div>
+
+
+<!------------mob header END------------> 
+
+<!------------網頁 menu---------------->
+<!--網頁 menu-->
+
+<div class="menuBlock">
+  <div class="menuBox">
+    <div class="logo"><a href="index.php"><img src="language_data/ch/image/sh/logo.png" width="100%" border="0" /></a></div>
+    <div class="menuRange">
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" >節目專區</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" >排行榜</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/onair_djs.php?&mlevel1=12&mlevel2=27" >DJ群</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/studio_guests.php?&mlevel1=12&mlevel2=28" >ICRT-V</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/shows.php?&mlevel1=12&mlevel2=29" >節目介紹</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/schedule.php?&mlevel1=12&mlevel2=30" >節目表</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/podcasts.php?&mlevel1=12&mlevel2=31" >Podcasts</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/cam_chat.php?&mlevel1=12&mlevel2=32" >播音現場</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/music_log.php?&mlevel1=12&mlevel2=33" >好歌單</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/request_song.php?&mlevel1=12&mlevel2=35" >點歌</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/wordpress/" target="_blank">Blog</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/video.php?&mlevel1=12&mlevel2=76" >精選影片</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/staff.php?&mlevel1=6&mlevel2=36" >新聞專區</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/staff.php?&mlevel1=6&mlevel2=36" >新聞主播</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=12" >即時新聞</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=13" >台灣新聞</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=15" >EZ新聞</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=93" >焦點新聞</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/news_database.php?&mlevel1=6&mlevel2=37" >近五年新聞資料庫</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/news_database_history.php?&mlevel1=6&mlevel2=107" >舊新聞資料庫</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=57" >新聞快報</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/wordpress/" target="_blank">Blog</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=6&mlevel2=77" >TED RADIO HOUR</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=6&mlevel2=88" >ICRT Daily News</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/news_lunchbox.php?&mlevel1=7&mlevel2=96" >學英文專區</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/news_lunchbox.php?&mlevel1=7&mlevel2=96" >News Lunchbox</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/app/english-express/" >English Express</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=15" >EZ新聞</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/learning_podcasts.php?&mlevel1=7&mlevel2=39" >Learning Podcasts</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=7&mlevel2=89" >ICRT Daily News</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/app/ng-english/" >NG Ying Wen</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=42" >社群人文</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=42" >大事紀 / 電子商務</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=13&mlevel2=43" >訊息公告</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=44" >競賽贈獎</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/galleries.php?&mlevel1=13&mlevel2=46" >活動集錦</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=13&mlevel2=47" >慈善義行</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/city_guide.php?&mlevel1=13&mlevel2=48" >城市導覽</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=9" >ICRT 傳奇</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=9" >關於ICRT</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/contact_us.php?&mlevel1=5&mlevel2=11" >連絡我們</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/jobs.php?&mlevel1=5&mlevel2=49" >徵才訊息</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=10" >廣告託播</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/faq.php?&mlevel1=5&mlevel2=50" >問 與 答</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/products.php?&mlevel1=14" >ICRT小舖</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+              <a href="products_list.php?mlevel1=14&plevel1=31" >ICRT極緻傘</a>
+            </div>
+          </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+              <a href="products_list.php?mlevel1=14&plevel1=22" >ICRT 限量周邊商品</a>
+            </div>
+          </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+              <a href="products_list.php?mlevel1=14&plevel1=27" >ICRTx希平方 獨家合作 線上英文課程</a>
+            </div>
+          </div>
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/page_list.php?&mlevel1=14&mlevel2=106" >購物須知</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            <div class="menuBtn">
+        <div class="titleBox">
+                    <a href="https://www.icrt.com.tw/eclub_index.php?&mlevel1=11" >會員</a>
+                  </div>
+                <div class="seop">
+
+          <!--商品選單-->
+          
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/eclub_whats_eclub.php?&mlevel1=11&mlevel2=51" >加入會員</a>
+                          </div>
+                      </div>
+                    <div class="m_menuBtn">
+            <div class="m_titleBox">
+                            <a href="https://www.icrt.com.tw/eclub_myaccount_view.php?&mlevel1=11&mlevel2=54" >我的帳號</a>
+                          </div>
+                        <div class="m_seop">
+                            <div class="m_txt">
+                                <a href="https://www.icrt.com.tw/eclub_myaccount_view.php?&mlevel1=11&mlevel2=54&mlevel3=8" >View Account</a>
+                              </div>
+                            <div class="m_txt">
+                                <a href="https://www.icrt.com.tw/eclub_mywatts_after.php?&mlevel1=11&mlevel2=54&mlevel3=10" >My Watts</a>
+                              </div>
+                            <div class="m_txt">
+                                <a href="https://www.icrt.com.tw/eclub_history_purchase.php?&mlevel1=11&mlevel2=54&mlevel3=12" >Purchase & Gift History</a>
+                              </div>
+                            <div class="m_txt">
+                                <a href="https://www.icrt.com.tw/eclub_history_exchange.php?&mlevel1=11&mlevel2=54&mlevel3=13" >Exchange History</a>
+                              </div>
+                            <div class="m_txt">
+                                <a href="https://www.icrt.com.tw/eclub_history_products.php?&mlevel1=11&mlevel2=54&mlevel3=14" >商品購買紀錄</a>
+                              </div>
+                            <div class="m_txt">
+                                <a href="https://www.icrt.com.tw/eclub_history_apply.php?&mlevel1=11&mlevel2=54&mlevel3=15" >活動報名紀錄</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </div>
+</div>
+
+<!--網頁 menu  End--> 
+
+<!--ob menu  -->
+
+<div class="menuBlock_mob">
+  <div class="menuBtn"><img src="language_data/ch/image/sh/menu_btn.jpg" border="0" width="100%" onClick="topMenuSlideforMobile();" style="cursor:pointer;" /></div>
+  <div class="toolBtn"><img src="language_data/ch/image/sh/tools_btn.jpg" border="0"  width="100%" onClick="toolMenuSlideforMobile();" style="cursor:pointer;" /></div>
+  <div class="toolBtn"><a href="cam_chat.php?&mlevel1=12&mlevel2=32"><img src="language_data/ch/image/sh/cc_btn.jpg" border="0"  width="100%" style="cursor:pointer;" /></a></div>
+  <div>
+    <form action="https://www.google.com/cse" id="cse-search-box1" target="_blank" style="margin:0px;padding:0px;">
+      <div class="searchBtn">
+        <input width="100%" type="image" src="language_data/ch/image/sh/search.jpg" />
+      </div>
+      <div class="inpSty">
+        <input type="hidden" name="cx" value="003316664182397972599:o6bbubpz71y" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" class="inpSty01" />
+      </div>
+    </form>
+  </div>
+  <div class="toolsMenuBox" id="mobToolMenu" style="display:none;"> <div class="toolbtn01">
+	<a href="https://www.facebook.com/ICRTFM100" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn01.png" width="100%" /></a></div>
+<div class="toolbtn01">
+	<a href="https://www.instagram.com/icrtradio/" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn07.png" width="100%" /></a></div>
+<div class="toolbtn01">
+	<a href="https://www.youtube.com/user/ICRTFM100/featured" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn08.png" width="100%" /></a></div>
+<div class="toolbtn01">
+	<a href="https://twitter.com/ICRT100" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn03.png" width="100%" /></a></div>
+<div class="toolbtn01">
+	<a href="http://www.icrt.com.tw/wordpress/" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn04.png" width="100%" /></a></div>
+<div class="toolbtn01">
+	<a href="https://lihi1.com/1CHum" target="_blank"><img border="0" src="language_data/en/image/sh/sh_twitch.png" width="100%" /></a></div>
+    <div class="toolbtn02"> <a href="page_lang.php?lang=ch">
+            <img src="language_data/ch/image/sh/tool_btn04_1s.png" width="100%" border="0" />
+            </a> </div>
+    <div class="toolbtn03"> <a href="page_lang.php?lang=en">
+            <img src="language_data/ch/image/sh/tool_btn04_2.png" width="100%" border="0" />
+            </a> </div>
+        <div class="toolbtnRight">
+        <div class="toolbtn04"><a href="eclub_whats_eclub.php?&mlevel1=11&mlevel2=51"><img src="language_data/ch/image/sh/tool_btn06.png" width="100%" border="0" /></a></div>
+        <div class="toolbtn05"><img src="language_data/ch/image/sh/tool_btn05.png" width="100%" border="0" style="cursor:pointer;" onClick="openFancyboxByCloseClickFalse('login_light.php?reUrlAddr=L2luZGV4LnBocA%3D%3D&lang=ch','500','350');" /></div>
+    </div>
+      </div>
+</div>
+<div class="menuListBox" id="mobTopMenu" style="display:none;">
+            <div class="listBox">
+                <a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" >
+        <div class="ma_titles">節目專區</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('12','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne12" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo12" style="display:none;">
+
+    <!--商品選單-->
+    
+                            <a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">排行榜</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/onair_djs.php?&mlevel1=12&mlevel2=27" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">DJ群</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/studio_guests.php?&mlevel1=12&mlevel2=28" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">ICRT-V</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/shows.php?&mlevel1=12&mlevel2=29" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">節目介紹</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/schedule.php?&mlevel1=12&mlevel2=30" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">節目表</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/podcasts.php?&mlevel1=12&mlevel2=31" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">Podcasts</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/cam_chat.php?&mlevel1=12&mlevel2=32" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">播音現場</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/music_log.php?&mlevel1=12&mlevel2=33" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">好歌單</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/request_song.php?&mlevel1=12&mlevel2=35" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">點歌</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/wordpress/" target="_blank"> 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">Blog</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/video.php?&mlevel1=12&mlevel2=76" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">精選影片</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                          </div>
+              <div class="listBox">
+                <a href="https://www.icrt.com.tw/staff.php?&mlevel1=6&mlevel2=36" >
+        <div class="ma_titles">新聞專區</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('6','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne6" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo6" style="display:none;">
+
+    <!--商品選單-->
+    
+                            <a href="https://www.icrt.com.tw/staff.php?&mlevel1=6&mlevel2=36" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">新聞主播</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=12" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">即時新聞</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=13" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">台灣新聞</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=15" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">EZ新聞</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=93" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">焦點新聞</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/news_database.php?&mlevel1=6&mlevel2=37" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">近五年新聞資料庫</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/news_database_history.php?&mlevel1=6&mlevel2=107" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">舊新聞資料庫</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=57" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">新聞快報</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/wordpress/" target="_blank"> 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">Blog</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=6&mlevel2=77" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">TED RADIO HOUR</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=6&mlevel2=88" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">ICRT Daily News</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                          </div>
+              <div class="listBox">
+                <a href="https://www.icrt.com.tw/news_lunchbox.php?&mlevel1=7&mlevel2=96" >
+        <div class="ma_titles">學英文專區</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('7','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne7" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo7" style="display:none;">
+
+    <!--商品選單-->
+    
+                            <a href="https://www.icrt.com.tw/news_lunchbox.php?&mlevel1=7&mlevel2=96" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">News Lunchbox</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/app/english-express/" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">English Express</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=15" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">EZ新聞</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/learning_podcasts.php?&mlevel1=7&mlevel2=39" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">Learning Podcasts</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=7&mlevel2=89" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">ICRT Daily News</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/app/ng-english/" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">NG Ying Wen</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                          </div>
+              <div class="listBox">
+                <a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=42" >
+        <div class="ma_titles">社群人文</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('13','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne13" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo13" style="display:none;">
+
+    <!--商品選單-->
+    
+                            <a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=42" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">大事紀 / 電子商務</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=13&mlevel2=43" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">訊息公告</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=44" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">競賽贈獎</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/galleries.php?&mlevel1=13&mlevel2=46" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">活動集錦</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=13&mlevel2=47" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">慈善義行</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/city_guide.php?&mlevel1=13&mlevel2=48" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">城市導覽</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                          </div>
+              <div class="listBox">
+                <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=9" >
+        <div class="ma_titles">ICRT 傳奇</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('5','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne5" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo5" style="display:none;">
+
+    <!--商品選單-->
+    
+                            <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=9" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">關於ICRT</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/contact_us.php?&mlevel1=5&mlevel2=11" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">連絡我們</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/jobs.php?&mlevel1=5&mlevel2=49" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">徵才訊息</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=10" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">廣告託播</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                                <a href="https://www.icrt.com.tw/faq.php?&mlevel1=5&mlevel2=50" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">問 與 答</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                          </div>
+              <div class="listBox">
+                <a href="https://www.icrt.com.tw/products.php?&mlevel1=14" >
+        <div class="ma_titles">ICRT小舖</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('14','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne14" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo14" style="display:none;">
+
+    <!--商品選單-->
+                    <a href="products_list.php?mlevel1=14&plevel1=31">
+      <div class="listBox_1" style="cursor:pointer;" width="36" height="24" border="0">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="h01">ICRT極緻傘</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </a>
+                            <a href="products_list.php?mlevel1=14&plevel1=22">
+      <div class="listBox_1" style="cursor:pointer;" width="36" height="24" border="0">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="h01">ICRT 限量周邊商品</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </a>
+                            <a href="products_list.php?mlevel1=14&plevel1=27">
+      <div class="listBox_1" style="cursor:pointer;" width="36" height="24" border="0">
+        <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="h01">ICRTx希平方 獨家合作 線上英文課程</td>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+      </div>
+      </a>
+                      
+                            <a href="https://www.icrt.com.tw/page_list.php?&mlevel1=14&mlevel2=106" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">購物須知</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                          </div>
+              <div class="listBox">
+                <a href="https://www.icrt.com.tw/eclub_index.php?&mlevel1=11" >
+        <div class="ma_titles">會員</div>
+        </a>
+                <div class="linkall" style="cursor:pointer;" onClick="topMenuTwoSlideforMobile('11','ch');" >
+          <div class="arrows"><div class="box"><img src="language_data/ch/image/sh/menu_arrow02.jpg" id="topMenuImgOne11" width="36" height="24" border="0"/></div></div>
+        </div>
+      </div>
+        <div id="mobTopMenuTwo11" style="display:none;">
+
+    <!--商品選單-->
+    
+                            <a href="https://www.icrt.com.tw/eclub_whats_eclub.php?&mlevel1=11&mlevel2=51" > 
+        <div class="listBox_1">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">加入會員</td>
+              <td>&nbsp;</td>
+            </tr>
+          </table>
+        </div>
+         </a>
+                                        <div class="listBox_1" style="cursor:pointer;" onClick="topMenuThreeSlideforMobile('54','ch');">
+          <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td class="h01">                <a href="https://www.icrt.com.tw/eclub_myaccount_view.php?&mlevel1=11&mlevel2=54" > 我的帳號 </a>
+                </td>
+              <td>
+                <img src="language_data/ch/image/sh/menu_arrow04.jpg" id="topMenuImgTwo54" width="36" height="24" border="0" />
+              </td>
+            </tr>
+          </table>
+        </div>
+                <div id="mobTopMenuThree54" style="display:none;">
+            <a href="https://www.icrt.com.tw/eclub_myaccount_view.php?&mlevel1=11&mlevel2=54&mlevel3=8" >
+      <div class="listBox_2">View Account</div>
+      </a>
+            <a href="https://www.icrt.com.tw/eclub_mywatts_after.php?&mlevel1=11&mlevel2=54&mlevel3=10" >
+      <div class="listBox_2">My Watts</div>
+      </a>
+            <a href="https://www.icrt.com.tw/eclub_history_purchase.php?&mlevel1=11&mlevel2=54&mlevel3=12" >
+      <div class="listBox_2">Purchase & Gift History</div>
+      </a>
+            <a href="https://www.icrt.com.tw/eclub_history_exchange.php?&mlevel1=11&mlevel2=54&mlevel3=13" >
+      <div class="listBox_2">Exchange History</div>
+      </a>
+            <a href="https://www.icrt.com.tw/eclub_history_products.php?&mlevel1=11&mlevel2=54&mlevel3=14" >
+      <div class="listBox_2">商品購買紀錄</div>
+      </a>
+            <a href="https://www.icrt.com.tw/eclub_history_apply.php?&mlevel1=11&mlevel2=54&mlevel3=15" >
+      <div class="listBox_2">活動報名紀錄</div>
+      </a>
+          </div>
+          </div>
+    </div>
+
+<!------------mob menu  End----------------> 
+
+<!---播放器---->
+
+<div class="bofang_next" id="abgne_marquee">
+  <div class="abgne_marquee_ul">
+    <div class="abgne_marquee_li">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="newshi">Now on FM100 : <span class="marquee_1">CHERRY WINE by NAS [+] AMY WINEHOUSE 
+</span></td>
+      </tr>
+    </table>
+    </div>
+    <div class="abgne_marquee_li">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="newshi">COMING UP : <span class="marquee_2"></span></td>
+      </tr>
+    </table>
+    </div>
+    <div class="abgne_marquee_li">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="newshi">NEXT PROGRAM : <span class="marquee_3">Money Tycoon</span></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+</div>
+<div class="bofangBox">
+  <div class="bofangBox_bg">
+
+    <div class="bofangBtnBox">
+      <div class="icon_paly01"><a href="music_log.php?&mlevel1=12&mlevel2=33"><img src="language_data/ch/image/index/icon_paly03.png" width="100%" border="0" /></a></div>
+      <div class="icon_paly01"><a href="schedule.php?&mlevel1=12&mlevel2=30"><img src="language_data/ch/image/index/icon_paly04.png" width="100%" border="0" /></a></div>
+	  
+      <div class="icon_paly02">
+	<a href="https://lihi1.com/1CHum" onclick="ga('send', 'event', 'Live_Channel', 'Twitch', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'Live_Channel','event_action':'Twitch','event_label':'點擊數_WEB'});" target="_blank"><img border="0" height="24" src="language_data/ch/image/index/icon_paly07.png" style="vertical-align:middle;" width="24" /> Twitch</a></div>
+<div class="icon_paly02">
+	<a href="icrt_channel.php" onclick="ga('send', 'event', 'Live_Channel', 'ICRT', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'Live_Channel','event_action':'ICRT','event_label':'點擊數_WEB'});" target="_blank"><img border="0" height="24" src="language_data/ch/image/index/icon_paly01.png" style="vertical-align:middle;" width="24" /> ICRT</a></div>
+<div class="icon_paly02">
+	<a href="http://tunein.com/radio/International-Community-Radio-Taipei-%28ICRT%29-1007-s7198/" onclick="ga('send', 'event', 'Live_Channel', 'TuneIn', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'Live_Channel','event_action':'TuneIn','event_label':'點擊數_WEB'});" target="_blank"><img border="0" height="24" src="language_data/ch/image/index/icon_paly05.png" style="vertical-align:middle;" width="24" /> TuneIn</a></div>
+<!--
+<div class="icon_paly02">
+<a href="https://www.youtube.com/channel/UC0WzgfsmDMa8Rd4wJeX0AeA?view_as=subscriber" target="_blank"><img border="0" height="24" src="language_data/ch/image/index/icon_paly06.png" style="vertical-align:middle;" width="24" /> Youtube Live</a>
+</div>
+-->    </div>
+    <div class="bofangPeoImg">
+      <div class="imgs">
+                <img id="djPic1" src="downloads/dj_staff/10000/1000/25/web1_20190814093233.png" width="100%" style="display:none"/>
+                        <img id="djPic2" src="downloads/dj_staff/10000/1000/25/web2_20190814093233.png" width="100%" style="display:none"/>
+              </div>
+    </div>
+    <div class="bofangContTxt">
+      <h2>Now on FM100 : </h2>
+      <h1>The Jam              </h1>
+      <h2>Mondays to Fridays 5 - 9pm</h2>
+      <h2>Joseph Lin</h2>
+    </div>
+      </div>
+</div>
+
+<div class="icrtgridBox">
+	<div class="icrtBtn01">
+	<a href="icrt_channel.php" onclick="ga('send', 'event', 'Live_Channel', 'ICRT', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'Live_Channel','event_action':'ICRT','event_label':'點擊數_WEB'});" target="_blank"><img border="0" src="language_data/ch/image/index/icrt_btn_01.png" width="100%" /></a></div>
+<div class="icrtBtn03">
+	<a href="https://lihi1.com/1CHum" onclick="ga('send', 'event', 'Live_Channel', 'Twitch', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'Live_Channel','event_action':'Twitch','event_label':'點擊數_WEB'});" target="_blank"><img border="0" src="language_data/ch/image/index/icrt_btn_05.png" width="100%" /></a></div>
+<div class="icrtBtn03">
+	<a href="http://tunein.com/radio/International-Community-Radio-Taipei-%28ICRT%29-1007-s7198/" onclick="ga('send', 'event', 'Live_Channel', 'TuneIn', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'Live_Channel','event_action':'TuneIn','event_label':'點擊數_WEB'});" target="_blank"><img border="0" src="language_data/ch/image/index/icrt_btn_03.png" width="100%" /></a></div>
+<!--
+<div class="icrtBtn04">
+<a href="https://www.youtube.com/channel/UC0WzgfsmDMa8Rd4wJeX0AeA?view_as=subscriber" target="_blank"><img border="0" src="language_data/ch/image/index/icrt_btn_04.png" width="100%" /></a>
+</div>
+--></div>
+
+<!---mob event--->
+
+<!---跑馬燈---->
+<div class="new_a">
+    <div class="news_a2" style="display:flex;">
+        <ul id="scroller">
+                        <li class="txts">
+                <a class="txtcolor" href="info_details.php?mlevel1=6&mlevel2=12&news_id=308627">
+                    MAC official warns of travel risks to China amid new rules                </a>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+<!---News Alert---->
+<div class="new_a">
+</div>
+
+<!---------banner-------->
+
+<div class="bannerBox">
+    <div class="bannerImg flexslider">
+    <ul class="slides">
+            <li><a href="https://www.zeczec.com/projects/icrtselect?utm_source=hp&utm_medium=icrt_banner&utm_campaign=launch&utm_id=icrt_listeners" target="_blank"><img src="downloads/banner/20260731093414.jpg" border="0" width="100%" alt="極緻傘-新色登場" onclick="ga('send', 'event', 'AD_Banner', '極緻傘-新色登場', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'AD_Banner','event_action':'極緻傘-新色登場','event_label':'點擊數_WEB'});" /></a></li>
+            <li><a href="https://www.icrt.com.tw/app/news-lunchbox/" ><img src="downloads/banner/20190828163407.jpg" border="0" width="100%" alt="News-Lunchbox--karen" onclick="ga('send', 'event', 'AD_Banner', 'News-Lunchbox--karen', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'AD_Banner','event_action':'News-Lunchbox--karen','event_label':'點擊數_WEB'});" /></a></li>
+            <li><a href="https://www.icrt.com.tw/info_details.php?&mlevel1=13&mlevel2=43&news_id=76399" target="_blank"><img src="downloads/banner/20160910122312.png" border="0" width="100%" alt="ICRT App --- Tim" onclick="ga('send', 'event', 'AD_Banner', 'ICRT App --- Tim', '點擊數_WEB');gtag('event', 'website_event', {'event_category':'AD_Banner','event_action':'ICRT App --- Tim','event_label':'點擊數_WEB'});" /></a></li>
+          </ul>
+  </div>
+    <div class="divider"></div>
+  <div class="QuickPick">
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/schedule.php?&mlevel1=12&mlevel2=30" target="_parent" onMouseOver="MM_swapImage('Image5','','downloads/shortcut_menu/20141231111041_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20141231111041_default.png" name="Image5" border="0"></a></div>
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/music_log.php?&mlevel1=12&mlevel2=33" target="_parent" onMouseOver="MM_swapImage('Image6','','downloads/shortcut_menu/20141231111050_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20141231111050_default.png" name="Image6" border="0"></a></div>
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/cam_chat.php?&mlevel1=12&mlevel2=32" target="_parent" onMouseOver="MM_swapImage('Image7','','downloads/shortcut_menu/20141231110543_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20160224144849_default.png" name="Image7" border="0"></a></div>
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" target="_parent" onMouseOver="MM_swapImage('Image8','','downloads/shortcut_menu/20150209181708_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20141231110957_default.png" name="Image8" border="0"></a></div>
+        <div class="qBtn01"><a href="/wordpress/" target="_blank" onMouseOver="MM_swapImage('Image9','','downloads/shortcut_menu/20141231111116_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20141231111116_default.png" name="Image9" border="0"></a></div>
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/eclub_index.php?&mlevel1=11" target="_parent" onMouseOver="MM_swapImage('Image10','','downloads/shortcut_menu/20141231111150_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20141231111150_default.png" name="Image10" border="0"></a></div>
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/activities_list.php?&mlevel1=15" target="_parent" onMouseOver="MM_swapImage('Image11','','downloads/shortcut_menu/20141231111230_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20141231111230_default.png" name="Image11" border="0"></a></div>
+        <div class="qBtn01"><a href="https://www.icrt.com.tw/onair_djs.php?&mlevel1=12&mlevel2=27" target="_parent" onMouseOver="MM_swapImage('Image12','','downloads/shortcut_menu/20150225152446_move.png',1)" onMouseOut="MM_swapImgRestore();"><img src="downloads/shortcut_menu/20150225152535_default.png" name="Image12" border="0"></a></div>
+      </div>
+</div>
+
+<!--------------news---------------->
+
+<div class="newsBlock">
+  <div class="leftBoxnews abgne_tab">
+    <ul class="newsTitle tabs">
+      <li><a href="#tab1">
+        <div class="titles">ICRT Events</div>
+        </a></li>
+      <li><a href="#tab2">
+        <div class="titles">Realtime News</div>
+        </a></li>
+    </ul>
+    <div class="tab_container">
+      <div id="tab1" class="tab_content">
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2026-08-31</h2></div>
+                <div class="status">
+                	<span class="newsy">New&nbsp;</span>                    <span class="hotsy">Hot&nbsp;</span>                </div>
+            </div>
+            <h1><a href="https://www.icrt.com.tw/app/news-lunchbox/">國中國小生注意囉！ICRT News Lunchbox back on the air! 萬眾期待的新聞午餐盒又開賣啦！週一至週五12:15歡迎鎖定收聽！</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2026-08-18</h2></div>
+                <div class="status">
+                	<span class="newsy">New&nbsp;</span>                    <span class="hotsy">Hot&nbsp;</span>                </div>
+            </div>
+            <h1><a href="info_details.php?&mlevel1=13&mlevel2=43&news_id=307282">US Citizens — Time to Make Your Voices heard</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2026-06-08</h2></div>
+                <div class="status">
+                	                                    </div>
+            </div>
+            <h1><a href="https://www.icrt.com.tw/app/new-immigrant-survey/">新住民心人生問卷調查 New Immigrant programs survey</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2026-03-01</h2></div>
+                <div class="status">
+                	                                    </div>
+            </div>
+            <h1><a href="https://www.icrt.com.tw/app/traffic/">安全上路停看聽 Traffic Trainer</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2024-08-01</h2></div>
+                <div class="status">
+                	                                    </div>
+            </div>
+            <h1><a href="https://www.icrt.com.tw/app/hakka-survey/">We Love Hakka Survey (客家風情問卷調查)</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2021-03-22</h2></div>
+                <div class="status">
+                	                                    </div>
+            </div>
+            <h1><a href="https://www.icrt.com.tw/podcasts_details.php?pod_id=39&amp;mlevel1=12&amp;mlevel2=31" target="_blank" >Leadership Matters — Intriguing Interviews with Taiwan’s Top Business Leaders</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2018-02-14</h2></div>
+                <div class="status">
+                	                                    </div>
+            </div>
+            <h1><a href="page_details.php?&mlevel1=6&mlevel2=88&pid=66">ICRT Daily News App Available Now!</a></h1>
+          </div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+                <div class="date_left"><h2>2014-01-09</h2></div>
+                <div class="status">
+                	                                    </div>
+            </div>
+            <h1><a href="info_details.php?&mlevel1=13&mlevel2=43&news_id=104280">財團法人台北國際社區文化基金會暨台北國際社區廣播電台資訊安全政策公告</a></h1>
+          </div>
+        </div>
+              <div class="morebtn"><a href="icrt_event.php?&mlevel1=19"><img src="language_data/ch/image/sh/more_btn.png" border="0" /></a></div>
+      </div>
+      <div id="tab2" class="tab_content">
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308627">MAC official warns of travel risks to China amid new rules</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308617">Supreme Court upholds man's 5 1/2-year sentence for abusing 4-year-old</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308619">Chiang agrees in theory to debate with opponent Shen</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308621">DPP considers stripping party membership of former lawmaker working on</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308623">Hsinchu City Opens 29 New YouBike Stations</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308624">China Pushes Back Against Anthropic CEO's Call to Limit AI Cooperation</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="list">
+          <div class="leftran">
+            <div class="date_s">
+              <div class="date_left">
+                <h2>2026-09-14</h2>
+              </div>
+            </div>
+            <h1><a href="info_details.php?mlevel1=6&mlevel2=12&news_id=308625">European Leaders Meet to Discuss Growing Importance of Arctic</a></h1>
+          </div>
+          <div class="rightran"></div>
+        </div>
+                <div class="morebtn"><a href="info_list01.php?&mlevel1=6&mlevel2=12"><img src="language_data/ch/image/sh/more_btn.png" border="0" /></a></div>
+      </div>
+    </div>
+  </div>
+  <div class="rightFb">
+	<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FICRTFM100&tabs=timeline&width=354&height=527&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="354" height="527" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+  </div>
+</div>
+
+<!---------Studio Guests---------->
+
+<div class="studioBox">
+  <div class="st_header">
+    <div class="title">ICRT-V</div>
+    <div class="moreBtn"><a href="studio_guests.php?&mlevel1=12&mlevel2=28"><img src="language_data/ch/image/index/more_btn_ipad.png" width="100%" border="0"/></a></div>
+  </div>
+  <div class="grBlock">
+    <!-- 第1列-->
+    <div class="leftBox">
+            <div class="grBox">
+      	<a href="studio_guests_details.php?&mlevel1=12&mlevel2=28&studio_id=596">
+        <div class="grimg">
+          <div class="txts">
+            <div class="txt_pad">全球大選年！1分鐘帶你認識印度大選｜ News in the Know</div>
+          </div>
+          <img src="downloads/studio_guests/10000/1000/596/i_20240423780_596.jpg" border="0"/>
+        </div>
+        </a>
+                <div class="grMvBtn"><a href="https://youtube.com/shorts/YqyM02t5DVM" target="_blank"><img src="language_data/ch/image/index/st_mv_btn.png" border="0" width="100%" /></a></div>
+                                      </div>
+            <div class="grBox gr_right">
+      	<a href="studio_guests_details.php?&mlevel1=12&mlevel2=28&studio_id=595">
+        <div class="grimg">
+          <div class="txts">
+            <div class="txt_pad">熱門歌曲製造機! 金牌製作人組合 Louis York 大談與大牌歌手合作內幕和他們新單曲! (中文字幕)</div>
+          </div>
+          <img src="downloads/studio_guests/10000/1000/595/i_20240422779_595.jpg" border="0"/>
+        </div>
+        </a>
+                <div class="grMvBtn"><a href="https://youtu.be/_kqfDvXNlFA" target="_blank"><img src="language_data/ch/image/index/st_mv_btn.png" border="0" width="100%" /></a></div>
+                                      </div>
+          </div>
+    <!-- 第2列-->
+    <div class="leftBox">
+            <div class="grBox">
+      	<a href="studio_guests_details.php?&mlevel1=12&mlevel2=28&studio_id=594">
+        <div class="grimg">
+          <div class="txts">
+            <div class="txt_pad">什麼會影響碳排放？1分鐘帶你認識2050淨零排放｜ News in the Know</div>
+          </div>
+          <img src="downloads/studio_guests/10000/1000/594/i_20240422778_594.jpg" border="0"/>
+        </div>
+        </a>
+                <div class="grMvBtn"><a href="https://youtube.com/shorts/JJKdwXkNtUM" target="_blank"><img src="language_data/ch/image/index/st_mv_btn.png" border="0" width="100%" /></a></div>
+                                      </div>
+            
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[8] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"https://www.icrt.com.tw/podcasts_details.php?pod_id=27&mlevel1=12&mlevel2=31\" ><img src=\"downloads/banner/20190527140635.jpg\" border=\"0\" width=\"100%\" alt=\"新北市環保局--ding\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'新北市環保局--ding\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'新北市環保局--ding\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[1] = '<a href=\"https://www.lubyconsulting.com/\" target=\"_blank\"><img src=\"downloads/banner/20210803144819.jpg\" border=\"0\" width=\"100%\" alt=\"LUBY --- Kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'LUBY --- Kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'LUBY --- Kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_8",bannerArray,"8"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_8",bannerArray,"8");
+	}, 10000);
+	});								
+</script>   
+  
+<div class="grAd">
+<div class="gridps">       
+<div id="ad_8">
+</div>
+</div>
+</div>
+
+    </div>
+    <!-- 第2列 END-->
+  </div>
+  <!-- grBlock -->
+</div>
+
+<!---------------廣告-------------------->
+
+
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[2] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"https://www.gardencity.com.tw/?act=info_web_header\" target=\"_blank\"><img src=\"downloads/banner/20260908161313.jpg\" border=\"0\" width=\"100%\" alt=\"遠東_Garden_City--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'遠東_Garden_City--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'遠東_Garden_City--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[1] = '<a href=\"https://www.facebook.com/share/p/1EoZyLgTfe/\" target=\"_blank\"><img src=\"downloads/banner/20260827154543.jpg\" border=\"0\" width=\"100%\" alt=\"新北環保局--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'新北環保局--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'新北環保局--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[2] = '<a href=\"https://www.sportslottery.com.tw/\" target=\"_blank\"><img src=\"downloads/banner/20240130094350.jpg\" border=\"0\" width=\"100%\" alt=\"運彩--joyce\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'運彩--joyce\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'運彩--joyce\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[3] = '<a href=\"https://www.bellavita.com.tw/catalogue/\" target=\"_blank\"><img src=\"downloads/banner/20260903104600.jpg\" border=\"0\" width=\"100%\" alt=\"Bellavita--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'Bellavita--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'Bellavita--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[4] = '<a href=\"https://www.lubyconsulting.com/\" target=\"_blank\"><img src=\"downloads/banner/20260824150922.jpg\" border=\"0\" width=\"100%\" alt=\"路比202609--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'路比202609--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'路比202609--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[5] = '<a href=\"https://www.youtube.com/@17fa17fa\" target=\"_blank\"><img src=\"downloads/banner/20260331153545.jpg\" border=\"0\" width=\"100%\" alt=\"大來國際證券--lisa\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'大來國際證券--lisa\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'大來國際證券--lisa\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[6] = '<a href=\"https://www.ffcc.com.tw/index.html\" target=\"_blank\"><img src=\"downloads/banner/20260831094715.jpg\" border=\"0\" width=\"100%\" alt=\"飛達富--cherry\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'飛達富--cherry\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'飛達富--cherry\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[7] = '<a href=\"https://www.taiwanlife.com/html/Activity/2026/ezbaoev2/index.html?utm_source=icrt&utm_medium=banner&utm_campaign=ezbaoev2\" target=\"_blank\"><img src=\"downloads/banner/20260911092734.jpg\" border=\"0\" width=\"100%\" alt=\"台灣人壽--lisa\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'台灣人壽--lisa\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'台灣人壽--lisa\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[8] = '<a href=\"https://88598.com.tw/team-in_766_new.html\" target=\"_blank\"><img src=\"downloads/banner/20260618144829.jpg\" border=\"0\" width=\"100%\" alt=\"永誠投顧_高碩亨老師--joyce\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'永誠投顧_高碩亨老師--joyce\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'永誠投顧_高碩亨老師--joyce\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[9] = '<a href=\"https://umg.lnk.to/GA3\" target=\"_blank\"><img src=\"downloads/banner/20260720170833.jpg\" border=\"0\" width=\"100%\" alt=\"UNIVERSAL_MUSIC_Gracie\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'UNIVERSAL_MUSIC_Gracie\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'UNIVERSAL_MUSIC_Gracie\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[10] = '<a href=\"https://www.facebook.com/lotus.guanyin/\" target=\"_blank\"><img src=\"downloads/banner/20260708114531.jpg\" border=\"0\" width=\"100%\" alt=\"2026桃園蓮花季--sandy\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'2026桃園蓮花季--sandy\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'2026桃園蓮花季--sandy\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[11] = '<a href=\"https://www.health.ntpc.gov.tw/article/%E8%A1%9B%E6%95%99%E4%B8%BB%E8%BB%B82026\" target=\"_blank\"><img src=\"downloads/banner/20260819145959.jpg\" border=\"0\" width=\"100%\" alt=\"新北市政府衛生局衛生教育--timmy\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'新北市政府衛生局衛生教育--timmy\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'新北市政府衛生局衛生教育--timmy\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[12] = '<a href=\"https://www.facebook.com/edaoutletmall/?locale=zh_TW\" target=\"_blank\"><img src=\"downloads/banner/20260908143739.jpg\" border=\"0\" width=\"100%\" alt=\"義大_outlet_mall--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'義大_outlet_mall--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'義大_outlet_mall--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[13] = '<a href=\"https://umg.lnk.to/SSHE\" target=\"_blank\"><img src=\"downloads/banner/20260826152137.jpg\" border=\"0\" width=\"100%\" alt=\"UNIVERSAL_MUSIC_Sam_Smith--lisa\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'UNIVERSAL_MUSIC_Sam_Smith--lisa\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'UNIVERSAL_MUSIC_Sam_Smith--lisa\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[14] = '<a href=\"https://ma-kuang.1655.com.tw/on_link.php\" target=\"_blank\"><img src=\"downloads/banner/20260511135225.jpg\" border=\"0\" width=\"100%\" alt=\"馬光中醫 --- Jinling\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'馬光中醫 --- Jinling\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'馬光中醫 --- Jinling\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[15] = '<a href=\"http://www.studyaustralia.org.tw/\" target=\"_blank\"><img src=\"downloads/banner/20260824110222.jpg\" border=\"0\" width=\"100%\" alt=\"2026澳洲教育展--timmy\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'2026澳洲教育展--timmy\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'2026澳洲教育展--timmy\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[16] = '<a href=\"https://www.northvisa.com.tw/h/index?key=369826097787\" target=\"_blank\"><img src=\"downloads/banner/20260707154610.jpg\" border=\"0\" width=\"100%\" alt=\"北半球移民--cherry\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'北半球移民--cherry\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'北半球移民--cherry\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[17] = '<a href=\"https://www.youtube.com/@setwearefamily\" target=\"_blank\"><img src=\"downloads/banner/20250818160608.jpg\" border=\"0\" width=\"100%\" alt=\"內政部移民署--joyce\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'內政部移民署--joyce\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'內政部移民署--joyce\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[18] = '<a href=\"http://www.masonsimmigrate.com/\" target=\"_blank\"><img src=\"downloads/banner/20210122115722.jpg\" border=\"0\" width=\"100%\" alt=\"美成移民--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'美成移民--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'美成移民--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[19] = '<a href=\"https://www.astoria.com.tw/astoria/public/public/page/23/\" target=\"_blank\"><img src=\"downloads/banner/20260826134234.jpg\" border=\"0\" width=\"100%\" alt=\"明星西點咖啡館--timmy\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'明星西點咖啡館--timmy\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'明星西點咖啡館--timmy\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[20] = '<a href=\"https://www.instagram.com/icedea__taiwan?igsh=N3Y1bHg5cG4wOGx4&utm_source=qr\" target=\"_blank\"><img src=\"downloads/banner/20260818144230.jpg\" border=\"0\" width=\"100%\" alt=\"大菓國際--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'大菓國際--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'大菓國際--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[21] = '<a href=\"https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1AT93WA\" target=\"_blank\"><img src=\"downloads/banner/20260825140806.jpg\" border=\"0\" width=\"100%\" alt=\"Jason_Mraz傑森瑪耶茲演唱會--lisa\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'Jason_Mraz傑森瑪耶茲演唱會--lisa\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'Jason_Mraz傑森瑪耶茲演唱會--lisa\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[22] = '<a href=\"https://www.ycam.com.tw/\" target=\"_blank\"><img src=\"downloads/banner/20250922154313.jpg\" border=\"0\" width=\"100%\" alt=\"永誠--joyce\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'永誠--joyce\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'永誠--joyce\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_2",bannerArray,"2"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_2",bannerArray,"2");
+	}, 8000);
+	});								
+</script>   
+  
+<div class="ad_long">
+<div class="adimg">       
+<div id="ad_2">
+</div>
+</div>
+</div>
+
+
+
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[21] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"https://www.ffcc.com.tw/index.html\" target=\"_blank\"><img src=\"downloads/banner/20260831094751.jpg\" border=\"0\" width=\"100%\" alt=\"飛達富--cherry\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'飛達富--cherry\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'飛達富--cherry\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[1] = '<a href=\"https://www.facebook.com/edaoutletmall/?locale=zh_TW\" target=\"_blank\"><img src=\"downloads/banner/20260908143805.jpg\" border=\"0\" width=\"100%\" alt=\"義大_outlet_mall--kelly\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'義大_outlet_mall--kelly\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'義大_outlet_mall--kelly\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[2] = '<a href=\"https://ma-kuang.1655.com.tw/on_link.php\" target=\"_blank\"><img src=\"downloads/banner/20260511135404.jpg\" border=\"0\" width=\"100%\" alt=\"馬光中醫 --- Jinling\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'馬光中醫 --- Jinling\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'馬光中醫 --- Jinling\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[3] = '<a href=\"https://www.facebook.com/lotus.guanyin/\" target=\"_blank\"><img src=\"downloads/banner/20260708114548.jpg\" border=\"0\" width=\"100%\" alt=\"2026桃園蓮花季--sandy\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'2026桃園蓮花季--sandy\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'2026桃園蓮花季--sandy\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_21",bannerArray,"21"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_21",bannerArray,"21");
+	}, 10000);
+	});								
+</script>   
+  
+<div class="ad_long_2">
+<div class="adimg">       
+<div id="ad_21">
+</div>
+</div>
+</div>
+
+
+<!----------------排行榜-------------------->
+
+<div class="ranking">
+
+  <!-------排行榜 左側------>
+  <div class="leftBoxnews abgne_tab sec_tab">
+  	    <ul class="rankingTitle tabs">
+          <li><a href="#ttab2">
+        <div class="titles">ASIA POP 40</div>
+        </a></li>
+          <li><a href="#ttab5">
+        <div class="titles">TOP OF THE POPS</div>
+        </a></li>
+        </ul>
+        <div class="tab_container">
+            <div id="ttab2" class="tab_content">
+                <div class="ranking_list">
+          <div class="icon_rkBox">
+            <div class="leftIcon_a">
+              <div class="digital">1</div>
+              <div class="txts">
+                1              </div>
+            </div>
+            <div class="rightArrow">
+              <img src="language_data/ch/image/index/arrow_no_b.jpg"  />            </div>
+          </div>
+          <div class="rankingCont">
+            <div class="txt01">HATE THAT I MADE YOU LOVE ME</div>
+            <div class="txt02">2026</div>
+            <div class="txt03">
+              ARIANA GRANDE            </div>
+            <div class="txt04"></div>
+          </div>
+        </div>
+                <div class="ranking_list">
+          <div class="icon_rkBox">
+            <div class="leftIcon_b">
+              <div class="digital">2</div>
+              <div class="txts">
+                2              </div>
+            </div>
+            <div class="rightArrow">
+              <img src="language_data/ch/image/index/arrow_no_b.jpg"  />            </div>
+          </div>
+          <div class="rankingCont">
+            <div class="txt01">BEAUTY AND A BEAT</div>
+            <div class="txt02"></div>
+            <div class="txt03">
+              JUSTIN BIEBER [+] NICKI MINAJ & NICKI MINAJ            </div>
+            <div class="txt04"></div>
+          </div>
+        </div>
+                <div class="ranking_list">
+          <div class="icon_rkBox">
+            <div class="leftIcon_b">
+              <div class="digital">3</div>
+              <div class="txts">
+                3              </div>
+            </div>
+            <div class="rightArrow">
+              <img src="language_data/ch/image/index/arrow_no_b.jpg"  />            </div>
+          </div>
+          <div class="rankingCont">
+            <div class="txt01">THE ONE THAT GOT AWAY</div>
+            <div class="txt02">TEENAGE DREAM / 2010</div>
+            <div class="txt03">
+              KATY PERRY            </div>
+            <div class="txt04"></div>
+          </div>
+        </div>
+                <div class="rankBottom">
+          <div class="moreBtn"> <a href="program_topchart.php?mlevel1=12&mlevel2=26&level_id=2"> <img src="language_data/ch/image/sh/more_btn.png" border="0" /> </a> </div>
+        </div>
+      </div>
+            <div id="ttab5" class="tab_content">
+                <div class="ranking_list">
+          <div class="icon_rkBox">
+            <div class="leftIcon_a">
+              <div class="digital">1</div>
+              <div class="txts">
+                              </div>
+            </div>
+            <div class="rightArrow">
+                          </div>
+          </div>
+          <div class="rankingCont">
+            <div class="txt01">CHOOSIN’ TEXAS</div>
+            <div class="txt02">DANDELION</div>
+            <div class="txt03">
+              ELLA LANGLEY            </div>
+            <div class="txt04"></div>
+          </div>
+        </div>
+                <div class="ranking_list">
+          <div class="icon_rkBox">
+            <div class="leftIcon_b">
+              <div class="digital">2</div>
+              <div class="txts">
+                5              </div>
+            </div>
+            <div class="rightArrow">
+              <img src="language_data/ch/image/index/arrow_up_o.jpg"  />            </div>
+          </div>
+          <div class="rankingCont">
+            <div class="txt01">GREAT EXPECTATION</div>
+            <div class="txt02">2026</div>
+            <div class="txt03">
+              SIENNA SPIRO            </div>
+            <div class="txt04"></div>
+          </div>
+        </div>
+                <div class="ranking_list">
+          <div class="icon_rkBox">
+            <div class="leftIcon_b">
+              <div class="digital">3</div>
+              <div class="txts">
+                              </div>
+            </div>
+            <div class="rightArrow">
+                          </div>
+          </div>
+          <div class="rankingCont">
+            <div class="txt01">MOVIN\&#039; TO THE SUN</div>
+            <div class="txt02">TWENTY ONE</div>
+            <div class="txt03">
+              HUGEL & IMAEL ANGEL & ULTRA NATE            </div>
+            <div class="txt04"></div>
+          </div>
+        </div>
+                <div class="rankBottom">
+          <div class="moreBtn"> <a href="program_topchart.php?mlevel1=12&mlevel2=26&level_id=5"> <img src="language_data/ch/image/sh/more_btn.png" border="0" /> </a> </div>
+        </div>
+      </div>
+          </div>
+  </div>
+
+  <!-------排行榜 右側廣告------>
+
+  
+
+
+<!---------------廣告 pad用-------------------->
+
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[7] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"https://www.icrt.com.tw/podcasts_details.php?pod_id=34&mlevel1=12&mlevel2=31\" ><img src=\"downloads/banner/20200519144435.jpg\" border=\"0\" width=\"100%\" alt=\"新住民--joyce\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'新住民--joyce\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'新住民--joyce\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[1] = '<a href=\"https://168.motc.gov.tw/\" target=\"_blank\"><img src=\"downloads/banner/20150415082553.jpg\" border=\"0\" width=\"100%\" alt=\"交通部168 --- Maggie\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'交通部168 --- Maggie\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'交通部168 --- Maggie\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[2] = '<a href=\"http://www.hakka.gov.tw/mp1.html\" target=\"_blank\"><img src=\"downloads/banner/20160107174145.png\" border=\"0\" width=\"100%\" alt=\"客委會 ---  Maggie\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'客委會 ---  Maggie\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'客委會 ---  Maggie\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_7",bannerArray,"7"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_7",bannerArray,"7");
+	}, 10000);
+	});								
+</script>   
+  
+<div class="ad_long ad_long-pad">
+<div class="adimg">       
+<div id="ad_7">
+</div>
+</div>
+</div>
+
+
+
+  <div class="rightAd">
+  	<div class="ranges">
+    
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[3] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"https://www.icrt.com.tw/app/we-love-hakka/\" ><img src=\"downloads/banner/20250428133609.jpg\" border=\"0\" width=\"100%\" alt=\"Hakka\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'Hakka\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'Hakka\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_3",bannerArray,"3"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_3",bannerArray,"3");
+	}, 10000);
+	});								
+</script>   
+  
+<div class="adSize01">
+<div class="gridps">       
+<div id="ad_3">
+</div>
+</div>
+</div>
+
+    
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[4] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"/info_details.php?&mlevel1=13&mlevel2=43&news_id=78318\" target=\"_blank\"><img src=\"downloads/banner/20160910122525.png\" border=\"0\" width=\"100%\" alt=\"ICRT App --- Tim\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'ICRT App --- Tim\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'ICRT App --- Tim\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_4",bannerArray,"4"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_4",bannerArray,"4");
+	}, 10000);
+	});								
+</script>   
+  
+<div class="adSize01">
+<div class="gridps">       
+<div id="ad_4">
+</div>
+</div>
+</div>
+
+    
+<script language="javascript" type="text/javascript">
+$( document ).ready(function() {					
+	bannerArea[5] = 0;
+	var bannerArray = new Array();
+		bannerArray[0] = '<a href=\"http://www.icrt.com.tw/app/traffic/\" target=\"_blank\"><img src=\"downloads/banner/20160628100419.png\" border=\"0\" width=\"100%\" alt=\"ICRT安全上路-交通部 --- Maggie\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'ICRT安全上路-交通部 --- Maggie\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'ICRT安全上路-交通部 --- Maggie\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[1] = '<a href=\"http://www.taiwan.ahk.de\" target=\"_blank\"><img src=\"downloads/banner/20160919144711.jpg\" border=\"0\" width=\"100%\" alt=\"GTO --- Tim\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'GTO --- Tim\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'GTO --- Tim\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		bannerArray[2] = '<a href=\"http://tt-free.taitung.gov.tw/pc/index.aspx\" target=\"_blank\"><img src=\"downloads/banner/20160919091609.png\" border=\"0\" width=\"100%\" alt=\"Taitung Free Wi-fi --- Tim\" onclick=\"ga(\'send\', \'event\', \'AD_Banner\', \'Taitung Free Wi-fi --- Tim\', \'點擊數_WEB\');gtag(\'event\', \'website_event\', {\'event_category\':\'AD_Banner\',\'event_action\':\'Taitung Free Wi-fi --- Tim\',\'event_label\':\'點擊數_WEB\'});\" /></a>';
+		BannerFadeInOut("ad_5",bannerArray,"5"); //第一次執行
+	
+		var timerId = setInterval(function() {
+		BannerFadeInOut("ad_5",bannerArray,"5");
+	}, 10000);
+	});								
+</script>   
+  
+<div class="adSize01">
+<div class="gridps">       
+<div id="ad_5">
+</div>
+</div>
+</div>
+
+    </div>
+    
+
+  </div>
+</div>
+
+<!---------------廣告-------------------->
+
+
+<!---------------footer---------------->
+<!---------------footer---------------->
+
+<div class="footer">
+  <div class="footerBox">
+    <div class="leftMenu">
+      <table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" >節目專區</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/program_topchart.php?&mlevel1=12&mlevel2=26" >排行榜</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/onair_djs.php?&mlevel1=12&mlevel2=27" >DJ群</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/studio_guests.php?&mlevel1=12&mlevel2=28" >ICRT-V</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/shows.php?&mlevel1=12&mlevel2=29" >節目介紹</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/schedule.php?&mlevel1=12&mlevel2=30" >節目表</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/podcasts.php?&mlevel1=12&mlevel2=31" >Podcasts</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/cam_chat.php?&mlevel1=12&mlevel2=32" >播音現場</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/music_log.php?&mlevel1=12&mlevel2=33" >好歌單</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/request_song.php?&mlevel1=12&mlevel2=35" >點歌</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/wordpress/" target="_blank">Blog</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/video.php?&mlevel1=12&mlevel2=76" >精選影片</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/staff.php?&mlevel1=6&mlevel2=36" >新聞專區</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/staff.php?&mlevel1=6&mlevel2=36" >新聞主播</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=12" >即時新聞</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=13" >台灣新聞</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=15" >EZ新聞</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=93" >焦點新聞</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/news_database.php?&mlevel1=6&mlevel2=37" >近五年新聞資料庫</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/news_database_history.php?&mlevel1=6&mlevel2=107" >舊新聞資料庫</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=57" >新聞快報</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/wordpress/" target="_blank">Blog</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/page_details.php?&mlevel1=6&mlevel2=77" >TED RADIO HOUR</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/page_details.php?&mlevel1=6&mlevel2=88" >ICRT Daily News</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/news_lunchbox.php?&mlevel1=7&mlevel2=96" >學英文專區</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/news_lunchbox.php?&mlevel1=7&mlevel2=96" >News Lunchbox</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/app/english-express/" >English Express</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=6&mlevel2=15" >EZ新聞</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/learning_podcasts.php?&mlevel1=7&mlevel2=39" >Learning Podcasts</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/page_details.php?&mlevel1=7&mlevel2=89" >ICRT Daily News</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/app/ng-english/" >NG Ying Wen</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=42" >社群人文</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=42" >大事紀 / 電子商務</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=13&mlevel2=43" >訊息公告</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list02.php?&mlevel1=13&mlevel2=44" >競賽贈獎</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/galleries.php?&mlevel1=13&mlevel2=46" >活動集錦</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/info_list01.php?&mlevel1=13&mlevel2=47" >慈善義行</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/city_guide.php?&mlevel1=13&mlevel2=48" >城市導覽</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=9" >ICRT 傳奇</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=9" >關於ICRT</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/contact_us.php?&mlevel1=5&mlevel2=11" >連絡我們</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/jobs.php?&mlevel1=5&mlevel2=49" >徵才訊息</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/page_details.php?&mlevel1=5&mlevel2=10" >廣告託播</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/faq.php?&mlevel1=5&mlevel2=50" >問 與 答</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/products.php?&mlevel1=14" >ICRT小舖</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+								<tr>
+					<td>
+						<a href="products_list.php?mlevel1=14&plevel1=31">ICRT極緻傘</a>
+					</td>
+				</tr>
+								<tr>
+					<td>
+						<a href="products_list.php?mlevel1=14&plevel1=22">ICRT 限量周邊商品</a>
+					</td>
+				</tr>
+								<tr>
+					<td>
+						<a href="products_list.php?mlevel1=14&plevel1=27">ICRTx希平方 獨家合作 線上英文課程</a>
+					</td>
+				</tr>
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/page_list.php?&mlevel1=14&mlevel2=106" >購物須知</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+				  <td valign="top">
+			<table border="0" cellspacing="0" cellpadding="0">
+				<tr>
+					<th>
+											<a href="https://www.icrt.com.tw/eclub_index.php?&mlevel1=11" >會員</a>
+										</th>
+				</tr>
+
+				<!--商品選單-->
+				
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/eclub_whats_eclub.php?&mlevel1=11&mlevel2=51" >加入會員</a>
+										</td>
+				</tr>
+								<tr>
+					<td>
+											<a href="https://www.icrt.com.tw/eclub_myaccount_view.php?&mlevel1=11&mlevel2=54" >我的帳號</a>
+										</td>
+				</tr>
+							</table>
+		  </td>
+		        </tr>
+      </table>
+    </div>
+    <div class="rightData">
+      <div class="topBox">
+        <div class="logo"><a href="index.php"><img src="language_data/ch/image/sh/logo_f.png" width="100%" border="0"/></a></div>
+        <div class="contBtn"><a href="contact_us.php?&mlevel1=5&mlevel2=11"><img src="language_data/ch/image/sh/contact_btn.png" width="144" height="34" border="0" /></a></div>
+        <div class="contBtn_1"><a href="contact_us.php?&mlevel1=5&mlevel2=11"><img src="language_data/ch/image/sh/contact_btn_mob.png" width="100%"  border="0" /></a></div>
+        <div class="shareBox">
+			<div class="shBtn">
+	<a href="https://www.facebook.com/ICRTFM100" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn01.png" /></a></div>
+<div class="shBtn">
+	<a href="https://www.instagram.com/icrtradio/" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn07.png" /></a></div>
+<div class="shBtn">
+	<a href="https://www.youtube.com/user/ICRTFM100/featured" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn08.png" /></a></div>
+<div class="shBtn">
+	<a href="https://twitter.com/ICRT100" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn03.png" /></a></div>
+<div class="shBtn">
+	<a href="http://www.icrt.com.tw/wordpress/" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn04.png" /></a></div>
+<div class="shBtn">
+	<a href="https://lihi1.com/1CHum" target="_blank"><img border="0" src="language_data/en/image/sh/tool_btn09.png" /></a></div>
+        </div>
+      </div>
+      <div class="fmBox">
+        <div class="fmBlock">
+          <div class="fmtxt">台北 FM100.7</div>
+          <div class="fmtxt fmRight">新竹 FM100.7 </div>
+        </div>
+        <div class="fmBlock">
+          <div class="fmtxt">台中 FM100.1 </div>
+          <div class="fmtxt fmRight">嘉義 FM100.8</div>
+        </div>
+        <div class="fmBlock">
+          <div class="fmtxt">高雄 FM100.7 </div>
+          <div class="fmicon"></div>
+        </div>
+      </div>
+      <div class="fmBox_1">
+        <div class="fmBlock">
+          <div class="fmtxt">台北 FM100.7</div>
+          <div class="fmtxt">新竹 FM100.7 </div>
+          <div class="fmtxt">台中 FM100.1 </div>
+          <div class="fmtxt">嘉義 FM100.8</div>
+          <div class="fmtxt fmmar">高雄 FM100.7 </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer_copy">International Community Radio Taipei 24250新北市新莊區新北大道三段5號19樓之5 <br />Tel:886-2-8522-7733, Fax:886-2-8522-7388、886-2-8522-7399<br />  版權所有 © 1996-2015.ICRT 隸屬於財團法人台北國際社區文化基金會 </div>
+
+<input type="hidden" id="csrfp_hidden_data_token" value="CSRFP-Token">
+<input type="hidden" id="csrfp_hidden_data_urls" value='[]'><script type="text/javascript" src="https://www.icrt.com.tw/scripts/csrf/empty.js"></script>
+</body>
+</html>

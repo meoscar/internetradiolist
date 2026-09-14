@@ -1,0 +1,820 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta charset="utf-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" /><meta name="description" /><meta name="author" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="630" /><meta property="og:type" content="website" /><title>CityFM城市廣播網</title>
+	
+	
+	
+    
+    <script src="../JS_CSS/Bootstrap/js/jquery-1.10.2.js" type="text/javascript"></script>
+
+    <script src="AllPay.js" type="text/javascript"></script>
+    <link href="../Public/CustomizeCss/BootstrapRed/css/bootstrap.css" rel="stylesheet" type="text/css" /><link href="../Public/CustomizeCss/BootstrapRed/css/bootstrap.min.css" rel="stylesheet" type="text/css" /><link href="../Public/CustomizeCss/BootstrapRed/css/Customize.css" rel="stylesheet" type="text/css" /><link href="../Public/CustomizeCss/BootstrapRed/css/font-awesome.min.css" rel="stylesheet" type="text/css" /><script src="../Public/CustomizeCss/BootstrapRed/js/bootstrap.js" type="text/javascript"></script>
+<script>
+    (function($){
+        $(document).ready(function(){
+            $('li.dropdown-submenu > a').click(function(){
+                $(this).parent().toggleClass('subopen')
+                return false;
+            })
+        });
+    })(jQuery);
+</script> 
+    <script src="../JS_CSS/jquery.twbsPagination.js" type="text/javascript"></script>
+
+    
+
+
+    
+
+    <style type="text/css">
+        .clamp4 {
+            position: relative;
+            line-height: 1.4em;
+            /* 3 times the line-height to show 3 lines */
+            height: 5.6em;
+            overflow: hidden;
+        }
+
+            .clamp4::after {
+                content: "...";
+                font-weight: bold;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 20px 1px 45px;
+                background: url(../images/ellipsis_bg.png) repeat-y;
+            }
+
+        .clamp2 {
+            position: relative;
+            line-height: 1.4em;
+            /* 3 times the line-height to show 3 lines */
+            height: 2.8em;
+            overflow: hidden;
+        }
+
+            .clamp2::after {
+                content: "...";
+                font-weight: bold;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding: 0 20px 1px 45px;
+                background: url(../images/ellipsis_bg.png) repeat-y;
+            }
+
+        #accordion a {
+            text-decoration: none;
+        }
+
+        #FAQ {
+            background-color: #F6F4F0;
+            color: #141817;
+        }
+
+        .navbarDefined { /*Navbar 使用的CSS relative 屬性會閃爍*/
+            min-height: 50px;
+            margin-bottom: 22px;
+            border: 1px solid transparent;
+        }
+
+        @media(min-width: 992px) {
+            #right {
+                float: right;
+            }
+        }
+
+        @supports ((position:-webkit-sticky) or (position:sticky)) {
+            .sticky-top {
+                position: sticky;
+                top: 60px;
+                z-index: 1020;
+            }
+        }
+
+        @media(max-width: 991px) {
+            .sticky-top {
+                position: static !important;
+            }
+        }
+    </style>
+
+
+<meta property="og:image" content="https://cityfm.tw/..//Public/MyMedia/Pictures/2026榴槤-banner-城市-929.jpg" /><title>
+
+</title></head>
+<body style="overflow-x: hidden; background-color: #eeeeee;">
+
+    
+    <header id="header" style="">
+        <div id="headermenu">
+            <!-- 橫向menu模組 -->
+        </div>
+        <div class="container" id="headertop">
+            <!-- 模組（全螢幕寬度） -->
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" id="top">
+                <!-- 模組（bootstraps製定寬度） -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="menu">
+                <!-- 橫向menu模組 -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10" id="slide">
+                <!-- slide模組 -->
+
+            </div>
+            <!-- QRCode -->
+            <div class="col-md-2" id="qr_top">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h5 style="margin: 0;">立即下載APP！</h5>
+                    </div>
+                    <a href="/app/" target="_blank">
+                        <img src="/images/qrImg.png" alt="QR Code" style="max-width: 100%;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" id="user1">
+            </div>
+            <div class="col-md-4" id="user2">
+            </div>
+            <div class="col-md-4" id="user3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8" id="content">
+                <!-- content內容模組於此 -->
+
+            </div>
+            <div class="col-md-4" id="right">
+                <!-- right側邊模組 -->
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" id="user4">
+            </div>
+            <div class="col-md-4" id="user5">
+            </div>
+            <div class="col-md-4" id="user6">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" id="user7">
+            </div>
+            <div class="col-md-3" id="user8">
+            </div>
+            <div class="col-md-3" id="user9">
+            </div>
+            <div class="col-md-3" id="user10">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="bottom">
+                <!-- bottom模組 -->
+
+            </div>
+        </div>
+    </div>
+    <footer style="background-color: #151515;">
+        <div class="container" id="footer">
+            <!-- footer模組 -->
+        </div>
+		
+    </footer>
+    <!--<div style="position: fixed; right: 16px; top: 192px; text-align: right;">
+        <a style="cursor: pointer;" onclick="document.body.removeChild(this.parentElement)"><span>&times</span></a>
+        <a href="http://www.cityfm.tw/Client/P01.aspx?MenuItem=I1925443139395000000" target="_blank" style="display: block;">-->
+            <!--<div style="width: 160px; height: 160px; background-color: rgb(255, 192, 0); text-align: center;">
+                <span style="line-height: 160px;">南投廣播</span>
+            </div>-->
+            <!--<img src="/images/nantou_fm.png" style="width: 160px;" />
+        </a>
+    </div>-->
+    <!-- JavaScript -->
+    <!-- <script src="js/jquery-1.10.2.js"></script> -->
+    <script src="js/customize.js"></script>
+    
+    <form name="form1" method="post" action="./P01.aspx?MenuItem=I1801604035686000000" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzIyNTQxOTUyD2QWAmYPZBYCAgsPFgIeBFRleHQFJDx0aXRsZT5DaXR5Rk3ln47luILlu6Pmkq3ntrI8L3RpdGxlPmRkNpeAGlQlV845TuwM6F2jvG3cAppez8ZIcGilpfGURGk=" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="183C9D8A" />
+</div>
+    </form>
+    <script type="text/javascript">
+
+        $(function () {
+            $("#SearchForm input").keypress(function (event) {
+
+                if (event.keyCode == 13) {
+                    //document.getElementById("txtQuery").blur();
+                    if (!Validated()) { return false; }
+                    Query();
+                    window.open($('#btnSearch').attr('href'));
+                    return false;
+                }
+            });
+        });
+        //        function GetSearchResult(tmpResult, tmpPageName, tmpMenuItem) {    //0:全部,1:文章類別,2:文章主題,3:文章內容
+        //            if ($('#txtQuery').length > 0)
+        //                var tmpKeyPoint = document.getElementById('txtQuery').value;
+        //            var tmpURL = tmpPageName + '?' + encodeURI('MenuItem=' + tmpMenuItem + '&KP=' + tmpKeyPoint + '&C2=List&SC=' + tmpResult); //SC SearchCategory
+        //            window.open(tmpURL);
+        //        }
+        //        function GetSearchResult_Self(tmpResult, tmpPageName, tmpMenuItem) {    //0:全部,1:文章類別,2:文章主題,3:文章內容
+
+        //            var tmpKeyPoint = decodeURI(request('KP'));
+        //            var tmpURL = tmpPageName + '?' + encodeURI('MenuItem=' + tmpMenuItem + '&KP=' + tmpKeyPoint + '&C2=List&SC=' + tmpResult); //SC SearchCategory
+        //            window.open(tmpURL, "_self");
+        //        }
+        //Get 參數
+        function request(strParame) {
+            var args = new Object();
+            var query = location.search.substring(1);
+
+            var pairs = query.split("&"); // Break at ampersand 
+            for (var i = 0; i < pairs.length; i++) {
+                var pos = pairs[i].indexOf('=');
+                if (pos == -1) continue;
+                var argname = pairs[i].substring(0, pos);
+                var value = pairs[i].substring(pos + 1);
+                value = decodeURIComponent(value);
+                args[argname] = value;
+            }
+            return args[strParame];
+        }
+        //URL 字串查詢參數
+        function FindURL(strParame) {
+            var args = new Object();
+            var query = $('#btnSearch').attr('href');
+            var pairs = query.split("&"); // Break at ampersand 
+            for (var i = 0; i < pairs.length; i++) {
+                var pos = pairs[i].indexOf('=');
+                if (pos == -1) continue;
+                var argname = pairs[i].substring(0, pos);
+                var value = pairs[i].substring(pos + 1);
+                value = decodeURIComponent(value);
+                args[argname] = value;
+            }
+            return args[strParame];
+        }
+        //過濾Get參數
+        function URLFilter(strParame) {
+            var query = $('#btnSearch').attr('href');
+
+            var tmpTakeArray = new Array();
+            var pairs = query.split("&"); // Break at ampersand
+
+            for (var i = 0; i < pairs.length; i++) {
+                var pos = pairs[i].indexOf('KP=');
+                if (pos == -1) tmpTakeArray.push(i);;
+            }
+            query = '';
+            for (var i = 0; i < tmpTakeArray.length; i++) {
+                query += (i != 0 ? '&' : '') + pairs[tmpTakeArray[i]];
+            }
+            $('#btnSearch').attr('href', query);
+        }
+        function Query() {
+            var tmpKeyPoint = document.getElementById('txtQuery').value;
+            if (FindURL('KP') != undefined) {
+                URLFilter('KP');
+            }
+            $('#btnSearch').attr('href', $('#btnSearch').attr('href') + '&KP=' + encodeURI(tmpKeyPoint));
+        }
+        function Validated() {
+            var tmpKeyPoint = document.getElementById('txtQuery').value;
+            if (tmpKeyPoint == '')
+                alert('請輸入搜尋關鍵字!');
+            return tmpKeyPoint == '' ? false : true;
+        }
+        $(document).ready(function () {
+            $('#txtQuery').blur(function () {
+                //if (!Validated()) { return; }
+                Query();
+            })
+            $('#btnSubmit').click(function () {
+                if (isPassValidateCode())
+                    SubmitAjax();
+            })
+            
+            var tmpIsBuy = $('h3').text();
+            if (tmpIsBuy.indexOf("好康購物") != -1) RenderProductButton();
+
+            setTimeout(LoadValidateNo2, 100);
+
+        });
+        //商品列表頁的按鈕
+        function RenderProductButton() {
+            var tmpButtonHtml = '<div class="col-md-4 navbar-fixed-top sticky-top" id="right">';
+            var tmpP = document.querySelectorAll("#content p img");
+            console.log(tmpP.length);
+            tmpP.forEach(function (e, i) {
+                e.setAttribute("id", "img_" + i); //讓操作者填入替代文字
+                var _alt = e.getAttribute("alt");
+
+                if (_alt != "") tmpButtonHtml += '<a href="javascript:void(0);" class="btn btn-block btn-default" onclick="ButtonClick(\'img_' + i + "')\">" + _alt + "</a>";
+            });
+
+            var tmpF = document.querySelector("#content div[class=row]");
+            tmpF.setAttribute("id", "form_fill");
+            tmpButtonHtml += '<a href="javascript:void(0);" class="btn btn-block btn-default" onclick="ButtonClick(\'form_fill\')">填寫訂單</a></div>';
+
+            $('#content').parent().prepend(tmpButtonHtml);
+        }
+
+        function ButtonClick(_id) {
+            document.getElementById(_id).scrollIntoView();
+        }
+        //驗證用
+        function ChangeImgCodeSrc() {
+            if (document.getElementById('contactForm') != null)
+                contactForm.imgCode.src = '../System/ValidateNo.ashx?' + Math.random();
+            if (document.getElementById('APForm') != null)
+                APForm.imgCode.src = '../System/ValidateNo.ashx?' + Math.random();
+            if (document.getElementById('txtValidateNo') != null)
+                document.getElementById('txtValidateNo').value = '';
+        }
+        function LoadValidateNo2() {
+            jQuery("img[name='imgCode']").attr("src", "../System/ValidateNo.ashx?" + Math.random());
+        }
+        function isPassValidateCode() {
+            var nowValidateNumber = jQuery.ajax({
+                url: "../System/ValidateNoConfirm.ashx",
+                type: "post",
+                async: false,
+                data: {},
+                success: function (htmlVal) { }
+            }).responseText;
+
+            if (nowValidateNumber == "" || nowValidateNumber == null) { alert("驗證碼逾時，請重新整理"); return false; }
+            var userInput = document.getElementById('txtValidateNo').value;
+            var validateResult = ((nowValidateNumber == userInput) ? true : false);
+            if (validateResult == false) { document.getElementById('lblResult').innerHTML = "驗證碼輸入不正確"; }
+            else
+                document.getElementById('lblResult').innerHTML = "";
+            return validateResult;
+        }
+        //表單用
+        function RemoveFormClass(tmpName) {
+            if ($("#" + tmpName).hasClass("has-success"))
+                $("#" + tmpName).removeClass("has-success")
+            if ($("#" + tmpName).hasClass("has-error"))
+                $("#" + tmpName).removeClass("has-error")
+            if ($("#" + tmpName).hasClass("has-feedback"))
+                $("#" + tmpName).removeClass("has-feedback")
+            $("#" + tmpName + " div span").remove();
+        }
+        function NonRequiredValidated(tmpName) {
+            $("input[name=" + tmpName + "]").blur(function () {
+                RemoveFormClass(tmpName);
+                if ($("input[name=" + tmpName + "]")[0].checkValidity()) {
+                    $("#" + tmpName + " .tips").text('');
+
+                }
+                else {
+                    $("#" + tmpName).addClass("has-error has-feedback");
+                    $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>')
+                    $("#" + tmpName + " .tips").text('');
+                    $("#" + tmpName + " .tips").text($("#" + tmpName).text() + ' 格式錯誤');
+
+                }
+            });
+        }
+        function FormInitial(tmpName, tmpType) {
+            switch (tmpType) {
+                case "textarea":
+                    TextareaInitial(tmpName);
+                    break;
+                case "checkbox":
+                    CheckboxInitial(tmpName);
+                    break;
+                case "dropdownlist":
+                    SelectInitial(tmpName);
+                    break;
+                default:
+                    InputInitial(tmpName);
+                    break;
+
+            }
+        }
+        function InputInitial(tmpName) {
+            if ($("input[name=" + tmpName + "]").attr('type') != 'checkbox') {
+                RemoveFormClass(tmpName);
+                if ($("input[name=" + tmpName + "]").val() != '' && $("input[name=" + tmpName + "]")[0].checkValidity()) {
+
+                    $("#" + tmpName).addClass("has-success has-feedback");
+                    $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>')
+                    $("#" + tmpName + " .tips").text('');
+                }
+                else {
+
+                    $("#" + tmpName).addClass("has-error has-feedback");
+                    $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>')
+                    $("#" + tmpName + " .tips").text('');
+                    $("#" + tmpName + " .tips").text($("#" + tmpName).text() + ' 不能為空 或 格式錯誤');
+                }
+            }
+        }
+        function SelectInitial(tmpName) {
+            RemoveFormClass(tmpName);
+            var $options;
+            var $selects = $('select[name=' + tmpName + ']');
+            for (var i = 0; i < $selects.length; i++) {
+                $options = $("option:selected", $selects[i]);
+                //                    alert("val" + i + "=" + $options.val());
+                //                    alert("text" + i + "=" + $options.text());
+            }
+
+            if ($options.val() != $("select[name=" + tmpName + "] option:first").val()) {
+
+                $("#" + tmpName).addClass("has-success has-feedback");
+                $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+                $("#" + tmpName + " .tips").text('');
+            }
+            if ($options.val() == $("select[name=" + tmpName + "] option:first").val()) {
+
+                $("#" + tmpName).addClass("has-error has-feedback");
+                $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>');
+                $("#" + tmpName + " .tips").text('');
+                $("#" + tmpName + " .tips").text($("#" + tmpName + " label").text() + ' 為必填項目，請選擇!');
+            }
+        }
+        function TextareaInitial(tmpName) {
+            RemoveFormClass(tmpName);
+            if ($("textarea[name=" + tmpName + "]").val() != '') {
+
+                $("#" + tmpName).addClass("has-success has-feedback");
+                $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+                $("#" + tmpName + " .tips").text('');
+            }
+            else {
+
+                $("#" + tmpName).addClass("has-error has-feedback");
+                $("#" + tmpName + " div").append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>');
+                $("#" + tmpName + " .tips").text('');
+                $("#" + tmpName + " .tips").text($("#" + tmpName).text() + ' 不能為空 或 格式錯誤');
+            }
+        }
+        function CheckboxInitial(tmpName) {
+            RemoveFormClass(tmpName);
+            if ($("input[type=checkbox][name=" + tmpName + "]:checked").length != 0) {
+
+                $("#" + tmpName).addClass("has-success has-feedback");
+                $("#" + tmpName + " div:first").append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+            }
+            else {
+
+                $("#" + tmpName).addClass("has-error has-feedback");
+                $("#" + tmpName + " div:first").append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>');
+            }
+        }
+        function FieldValidated(tmpName) {
+
+            $("input[name=" + tmpName + "]").blur(function () {
+                InputInitial(tmpName);
+            });
+            //
+            $("select[name=" + tmpName + "]").change(function () {
+                SelectInitial(tmpName);
+            });
+            //
+            $("textarea[name=" + tmpName + "]").blur(function () {
+                TextareaInitial(tmpName);
+            });
+            //
+            $("input[type=checkbox][name=" + tmpName + "]").change(function () {
+                CheckboxInitial(tmpName);
+            });
+        }
+        function SubmitAjax() {
+            if (!HTML5_InputTypeValidated()) return;
+
+            if ($("#contactForm").children(".has-error").length > 0) { alert('尚未填寫完成!'); return; }
+            var tmpFormkey = $("#Formkey").text();
+            $.post("ajax/FormData.aspx?FK=" + tmpFormkey, $("#contactForm").serialize(), function (data) {
+                $("#messagebox").html(data);
+                $("#contactForm").hide();
+            });
+        }
+        function HTML5_InputTypeValidated() {
+            for (i = 0; i < document.getElementById("contactForm").length; i++) {
+                if (!$("#contactForm :input")[i].checkValidity()) {
+                    // var tmpInputName = $("#contactForm :input:eq(" + i + ")").attr('name');
+                    //                    alert($("#" + tmpInputName).text() + ' 格式錯誤');
+                    //                    $("#" + tmpInputName + " .tips").text($("#" + tmpInputName).text() + ' 格式錯誤');
+                    return false;
+                }
+            }
+            return true;
+        }
+
+
+
+    </script>
+	
+
+
+
+    
+</body>
+<script type="text/javascript">$('#menu').append(' <div class=\"row\"><div class=\"col-md-12\"><nav class=\"navbarDefined navbar-inverse navbar-static-top\"> <div class=\"container\"><div class=\"navbar-header\"><button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\"  data-target=\"#navbar-ex1-collapse\"><span class=\"sr-only\">Toggle navigation</span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span><span class=\"icon-bar\"></span> </button><a class=\"navbar-brand\" href=\"P01.aspx?MenuItem=I1801604035686000000\"><img src=\"/Public/MyMedia/logo1.png\" alt=\"ShowLogo\" ></a> <a class=\"navbar-brand\" href=\"P01.aspx?MenuItem=I1801604035686000000\"><b></b></a> </div><div class=\"collapse navbar-collapse\" id=\"navbar-ex1-collapse\"><ul class=\"nav navbar-nav navbar-right\" ><li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> 電台簡介 <b class=\"caret\"></b></a> <ul class=\"dropdown-menu multi-level  \" role=\"menu\" aria-labelledby=\"dropdownMenu\"><li><a href=\"P01.aspx?MenuItem=I1511634604623000000\" target=\"\">電台簡介</a></li><li><a href=\"P01.aspx?MenuItem=I1511634724717000000\" target=\"\">獲獎事蹟</a></li><li><a href=\"P01.aspx?MenuItem=I1511634748326000000\" target=\"\">媒體政策聯盟</a></li><li><a href=\"P01.aspx?MenuItem=I1511634771186000000\" target=\"\">多元通路整合</a></li><li><a href=\"P01.aspx?MenuItem=I1511634790701000000\" target=\"\">活動精彩回顧</a></li><li><a href=\"P01.aspx?MenuItem=I1825785740883000000\" target=\"_blank\">隱私權保護聲明</a></li> </ul></li><li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> 最新消息 <b class=\"caret\"></b></a> <ul class=\"dropdown-menu multi-level  \" role=\"menu\" aria-labelledby=\"dropdownMenu\"><li><a href=\"P01.aspx?MenuItem=I1513874547038000000\" target=\"\">城市新聞</a></li><li><a href=\"P01.aspx?MenuItem=I1513874612101000000\" target=\"\">健康早報</a></li><li><a href=\"P01.aspx?MenuItem=I1801947777145000000\" target=\"_self\">生活新鮮事</a></li><li><a href=\"P01.aspx?MenuItem=I2102218153912000000\" target=\"_self\">新春節目不打烊</a></li> </ul></li><li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> 節目訊息 <b class=\"caret\"></b></a> <ul class=\"dropdown-menu multi-level  \" role=\"menu\" aria-labelledby=\"dropdownMenu\"><li class=\"dropdown-submenu\"> <a tabindex=\"-1\" href=\"#\">DJ專區</a> <ul class=\"dropdown-menu \"><li><a href=\"P01.aspx?MenuItem=I1511636850748000000\" target=\"\">彼得</a></li><li><a href=\"P01.aspx?MenuItem=I1511636864358000000\" target=\"\">夏葳</a></li><li><a href=\"P01.aspx?MenuItem=I1511636892295000000\" target=\"\">Fiona</a></li><li><a href=\"P01.aspx?MenuItem=I1806111609632000000\" target=\"_self\">品翰</a></li><li><a href=\"P01.aspx?MenuItem=I2430472905693000000\" target=\"_self\">哈德</a></li><li><a href=\"P01.aspx?MenuItem=I2430473143463000000\" target=\"_self\">IRIS</a></li> </ul></li><li class=\"dropdown-submenu\"> <a tabindex=\"-1\" href=\"#\">節目表</a> <ul class=\"dropdown-menu \"><li><a href=\"P01.aspx?MenuItem=I1512174160558000000\" target=\"\">台北健康</a></li><li><a href=\"P01.aspx?MenuItem=I1512174229808000000\" target=\"\">城市廣播</a></li><li><a href=\"P01.aspx?MenuItem=I1512174260667000000\" target=\"\">台南知音</a></li> </ul></li><li class=\"dropdown-submenu\"> <a tabindex=\"-1\" href=\"#\">音樂專區</a> <ul class=\"dropdown-menu \"><li><a href=\"P01.aspx?MenuItem=I1511639438436000000\" target=\"\">音樂快訊</a></li> </ul></li><li class=\"dropdown-submenu\"> <a tabindex=\"-1\" href=\"#\">專訪區</a> <ul class=\"dropdown-menu \"><li><a href=\"P01.aspx?MenuItem=I1802033222334000000\" target=\"_self\">城市搜查線</a></li><li><a href=\"P01.aspx?MenuItem=I2314222138244000000\" target=\"_self\">曲盤聽遊記</a></li><li><a href=\"P01.aspx?MenuItem=I1801599583625000000\" target=\"_self\">多元族群分享愛</a></li><li><a href=\"P01.aspx?MenuItem=I2616128882030000000\" target=\"_self\">古鎮的迴聲—鹿港全感官文化傳承</a></li><li><a href=\"P01.aspx?MenuItem=I2314302253320000000\" target=\"_self\">城市Online</a></li><li><a href=\"P01.aspx?MenuItem=I2414041125578000000\" target=\"_self\">曲盤好時光</a></li><li><a href=\"P01.aspx?MenuItem=I2414041227453000000\" target=\"_self\">我們的老台灣</a></li><li><a href=\"P01.aspx?MenuItem=I2414041282225000000\" target=\"_self\">做工人的愛</a></li><li><a href=\"P01.aspx?MenuItem=I2515182092897000000\" target=\"_self\">勞工局志工助弱</a></li> </ul></li><li class=\"dropdown-submenu\"> <a tabindex=\"-1\" href=\"#\">休閒娛樂</a> <ul class=\"dropdown-menu \"> </ul></li><li class=\"dropdown-submenu\"> <a tabindex=\"-1\" href=\"#\">心靈環保</a> <ul class=\"dropdown-menu \"> </ul></li> </ul></li><li class=\"\"><a href=\"P01.aspx?MenuItem=I1510752216171000000\" target=\"\">好康購物</a></li><li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> 活動專區 <b class=\"caret\"></b></a> <ul class=\"dropdown-menu multi-level  \" role=\"menu\" aria-labelledby=\"dropdownMenu\"><li><a href=\"P01.aspx?MenuItem=I1515159208358000000\" target=\"\">燈不亮月亮</a></li><li><a href=\"P01.aspx?MenuItem=I2429421152442000000\" target=\"_self\">聖誕特別企劃</a></li><li><a href=\"P01.aspx?MenuItem=I2526489922694000000\" target=\"_self\">感恩節特別企劃</a></li> </ul></li><li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> 電台服務 <b class=\"caret\"></b></a> <ul class=\"dropdown-menu multi-level  \" role=\"menu\" aria-labelledby=\"dropdownMenu\"><li><a href=\"P01.aspx?MenuItem=I1511878698027000000\" target=\"\">歌曲查詢</a></li><li><a href=\"P01.aspx?MenuItem=I1511878713464000000\" target=\"\">心情點播</a></li><li><a href=\"P01.aspx?MenuItem=I1511878754698000000\" target=\"\">宅急報</a></li><li><a href=\"P01.aspx?MenuItem=I1516282655563000000\" target=\"\">常見問題</a></li> </ul></li><li class=\"dropdown\"><a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\"> 好料放送區 <b class=\"caret\"></b></a> <ul class=\"dropdown-menu multi-level  \" role=\"menu\" aria-labelledby=\"dropdownMenu\"><li><a href=\"P01.aspx?MenuItem=I1515160269561000000\" target=\"\">食在好味道</a></li><li><a href=\"P01.aspx?MenuItem=I1515160280030000000\" target=\"\">玩樂一族</a></li><li><a href=\"P01.aspx?MenuItem=I1515160294155000000\" target=\"\">生活好品質</a></li><li><a href=\"P01.aspx?MenuItem=I1515160305468000000\" target=\"\">健康樂活</a></li> </ul></li>  </ul></div></div></nav></div></div>');$('#slide').append(' <div class=\"row\"><div class=\"col-md-12\"><div class=\"panel\"><div id=\"5479\" class=\"carousel slide\"><ol class=\"carousel-indicators\"><li data-target=\"#5479\" data-slide-to=\"0\" class=\"active\"></li><li data-target=\"#5479\" data-slide-to=\"1\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"2\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"3\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"4\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"5\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"6\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"7\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"8\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"9\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"10\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"11\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"12\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"13\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"14\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"15\" class=\"img-responsive\"></li><li data-target=\"#5479\" data-slide-to=\"16\" class=\"img-responsive\"></li></ol><div class=\"carousel-inner\"><div class=\"item active\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1510752216171000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/2026榴槤-banner-城市-929.jpg\" alt=\"0 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1510752216171000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/20260901城市鵝肉-Banner-1180元.png\" alt=\"1 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1510752216171000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/20260901城市好康-radio-BN.png\" alt=\"2 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I2616128882030000000&C2=List&C=MultiArticleMenu&AC=K2616127743533000000&MK=M1511639957389000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/2026-鹿港主視覺－BAMMER-上刊用檔案縮小.png\" alt=\"3 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><img src=\"..//Public/MyMedia/Pictures/2026燈不亮月亮-Banner.png\" alt=\"4 slide\" style=\"width:100%;\"></div><div class=\"item\"><a href=\"http://www.cityfm.tw/Client/P01.aspx?MenuItem=I1510752216171000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/咖啡橫.jpg\" alt=\"5 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1510752216171000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/20240806 城市 黑米麩-banner工作區域 1.jpg\" alt=\"6 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1510752216171000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/1130801 城市廣播網-黑米穀正式-已更.png\" alt=\"7 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><img src=\"..//Public/MyMedia/Pictures/黑米果 米麩BANNER.jpg\" alt=\"8 slide\" style=\"width:100%;\"></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1806111609632000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/DJ-Banner-1.png\" alt=\"9 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1511636892295000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/DJ-Banner-2.png\" alt=\"10 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1511636850748000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/DJ-Banner-3.png\" alt=\"11 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1511636864358000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/DJ-Banner-4.png\" alt=\"12 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I2430473143463000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/DJ-Banner-5.png\" alt=\"13 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I2430472905693000000\" target=\"_parent\"><img src=\"..//Public/MyMedia/Pictures/DJ-Banner-6.png\" alt=\"14 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><img src=\"..//Public/MyMedia/Pictures/1140730-111.jpg\" alt=\"15 slide\" style=\"width:100%;\"></div><div class=\"item\"><img src=\"..//Public/MyMedia/Pictures/1140207小緹俱樂部.jpg\" alt=\"16 slide\" style=\"width:100%;\"></div></div><a class=\"carousel-control left\" href=\"#5479\" data-slide=\"prev\">&lsaquo;</a><a class=\"carousel-control right\" href=\"#5479\" data-slide=\"next\">&rsaquo;</a></div></div></div></div>');$('#footer').append('<div class=\"row\" style=\"color:#FFFFFF; width:100%; margin-top:5px;\"><div class=\"col-md-6\" style=\"font-size:15px;\"><small>城市廣播網 台北健康 FM 90.1 台北市北投區北投路二段 13 號 10 樓之一 TEL：04-2260-8901</small><br /><small>城市廣播網 城市廣播 FM 92.9 台中市南區忠明南路 758 號 28 樓 TEL：04-2266-9888</small><br /><small>城市廣播網 台南知音 FM 97.1 台南市永康區中華路 1-134 號 20樓 TEL：06-311-6999</small><br /><small>The site was exhibited by CITYFM Allrights preserved.</small></div><div class=\"col-md-2\">&nbsp;</div><div class=\"col-md-4 text-right\"><br /><br /><br /><small>瀏覽人次：16938621</small></div></div>');$('#right').append(' <div class=\"row\"><div class=\"col-md-12\"><div class=\"panel\"><div id=\"5225\" class=\"carousel slide\"><ol class=\"carousel-indicators\"></ol><div class=\"carousel-inner\"></div><a class=\"carousel-control left\" href=\"#5225\" data-slide=\"prev\">&lsaquo;</a><a class=\"carousel-control right\" href=\"#5225\" data-slide=\"next\">&rsaquo;</a></div></div></div></div>');$('#bottom').append('<div class="row bottomBanner"><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.chcg.gov.tw/ch2/index.aspx" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/彰化縣政府2022新logo.jpeg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.taichung.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/1150114-Bottom banner.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.nantou.gov.tw/big5/index.asp" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/20260224-南投縣政府banner.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.mlftax.gov.tw" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/20260306苗栗縣政府稅務局.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://welfare.nantou.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/20260513南投-社勞局LOGO.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.chpb.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/彰化縣警察局logo.jpeg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://labor.chcg.gov.tw/00home/index1.asp" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/彰化縣政府勞工處.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.labor.taichung.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/台中市勞工局.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href=" https://www.eso.taichung.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/台中市就業服務處logo.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.thb.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/中華民國公路局1220.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.facebook.com/share/15s8KSK95g/?mibextid=wwXIfr" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/1140703-2.png" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="#" target=""><img alt="" src="/Public/MyMedia/bottomBanner/201810151149-5.jpg" style="height:100%; width:100%" /></a></div><div class="col-md-2 hidden-xs" style="float: none; display: inline-block;margin-bottom: 10px;margin-top: 10px;margin-right: -4px;"><a href="https://www.immigration.gov.tw/" target="_blank"><img alt="" src="/Public/MyMedia/bottomBanner/1130605工作區域 1.jpg" style="height:100%; width:100%" /></a></div></div>');$('#right').append('<div class=\"row\" ><div class=\"col-md-12\" > <div class=\"row\"><div class=\"col-lg-12\" style=\"height:40px;\"><form id=\"SearchForm\"><div class=\"input-group input-group-md input-group-primary\"><span class=\"input-group-addon primary\" style=\"height:32px;background-color:#3276b1;font-size:16px;border-color:#285E8E;color:white;!important;\" >站內搜尋</span><input type=\"text\" class=\"form-control\" placeholder=\"關鍵字...\" id=\"txtQuery\" style=\"border-color:#337AB7;height:32px \"><div class=\"input-group-btn\"><a id=\"btnSearch\" onclick=\"return Validated();\" target=\"_blank\" style=\"height:32px; border: 0px; background-color:#265a88;\" type=\"button\" class=\"btn btn-primary\" href=\"P01.aspx?MenuItem=I1507308156923000000 &C2=List&SC= 0\" role=\"button\"><span  class=\"glyphicon glyphicon-search\"></span></a></div></div></form</div></div>');$('#right').append(' <div class=\"row\"><div class=\"col-md-12\"><div class=\"panel\"><div id=\"4963\" class=\"carousel slide\"><ol class=\"carousel-indicators\"><li data-target=\"#4963\" data-slide-to=\"0\" class=\"active\"></li><li data-target=\"#4963\" data-slide-to=\"1\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"2\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"3\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"4\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"5\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"6\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"7\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"8\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"9\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"10\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"11\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"12\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"13\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"14\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"15\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"16\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"17\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"18\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"19\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"20\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"21\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"22\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"23\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"24\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"25\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"26\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"27\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"28\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"29\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"30\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"31\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"32\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"33\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"34\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"35\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"36\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"37\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"38\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"39\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"40\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"41\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"42\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"43\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"44\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"45\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"46\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"47\" class=\"img-responsive\"></li><li data-target=\"#4963\" data-slide-to=\"48\" class=\"img-responsive\"></li></ol><div class=\"carousel-inner\"><div class=\"item active\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2621911864414000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260911-GOODTHING-1-1.jpg\" alt=\"0 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2621812045225000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260910-goodthing-1.jpg\" alt=\"1 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2621559905036000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260907-GOODTHING-1.jpg\" alt=\"2 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2620529039186000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026彰化設計翻轉產業論壇EDM.png\" alt=\"3 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2620512968800000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/2026中秋-交通運輸.jpg\" alt=\"4 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2619903131818000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150819-goodthing1.jpg\" alt=\"5 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2619761619179000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150817-goodthing.jpg\" alt=\"6 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2619145505062000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150810-goodthing.jpg\" alt=\"7 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2618610482637000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150803-goodthing-2.jpg\" alt=\"8 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2618609768885000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150803-goodthing-1.jpg\" alt=\"9 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2617517191519000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026王功漁火節海報01.jpg\" alt=\"10 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2617324691194000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150720-goodthing01.jpg\" alt=\"11 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2616796844957000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150714-goodthing01.jpg\" alt=\"12 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2621836348999000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260701-有我有young.png\" alt=\"13 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2615699316367000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150701-Goodthing-3.jpg\" alt=\"14 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2615692699524000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150701-Goodthing-1.jpg\" alt=\"15 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2615671923630000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150701-南投意麵.jpg\" alt=\"16 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2615524460727000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150629-goodthing01.jpg\" alt=\"17 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2615061992552000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260624-好料2.jpg\" alt=\"18 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2615061530412000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260624-好料01.jpg\" alt=\"19 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2613949647450000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150611-1dm正面.jpg\" alt=\"20 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2613366530515000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150604-GOODTHING-2.jpg\" alt=\"21 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2613365878791000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150604-GOODTHING-1.png\" alt=\"22 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2612590706339000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026彰化GO購-海報01.jpg\" alt=\"23 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2612475930159000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150525創世與為恭醫院公益園遊會.jpg\" alt=\"24 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2612140308560000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026國際海牛文化節EDMtmp.jpg\" alt=\"25 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2611888424976000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026彰化縣生生有平版01現場大合照.jpg\" alt=\"26 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2611629176212000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150515就業博覽會-活動DM.png\" alt=\"27 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2610149973647000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/1150505宅急報-交通部.jpg\" alt=\"28 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2609648207448000000\" target=\"_self\"><img src=\"/Public/MyMedia/download/20260422-好料-春瘋媽祖海報.jpg\" alt=\"29 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2607735386876000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026彰化縣政府勞工處115職前訓練班宣傳海報修30330-1.jpg\" alt=\"30 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2607230803332000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026彰化縣勞工處「就業資源5GO讚」-dm.jpg\" alt=\"31 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2606604932830000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/20260318-交安1.jpg\" alt=\"32 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2606537230292000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1150317-好料-1.png\" alt=\"33 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2606536665627000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1150317-就業博覽會.jpg\" alt=\"34 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2606024157862000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026「女力展翅鳳凰助飛」女力展翅創業課程招生開跑DM.png\" alt=\"35 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2605321550039000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2026彰化「求職好事多」就業博覽會開跑啟動儀式tmp.jpg\" alt=\"36 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2602896503946000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1150203-001.jpg\" alt=\"37 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2601355371372000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/funsong/life/1150116-上達汽車.jpg\" alt=\"38 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2530800813745000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1141223好料1.jpg\" alt=\"39 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2529611248291000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/2025彰化歲末演唱會07歲末記者會-月影燈季合影tmp07.jpg\" alt=\"40 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2527710102750000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1141117-好料1.jpg\" alt=\"41 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2518784875110000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1140806-4.png\" alt=\"42 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2513255248694000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1140603-1.jpg\" alt=\"43 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2511959400933000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1140519.jpg\" alt=\"44 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2507490193523000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1140328-3.jpg\" alt=\"45 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2504198982123000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1140218-3.jpg\" alt=\"46 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2431484517337000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1131230-1.JPG\" alt=\"47 slide\" style=\"width:100%;\"></a></div><div class=\"item\"><a href=\"P01.aspx?MenuItem=I1510752279780000000&C2=Single&AC=K1510750953796000000&AK=P2427877225605000000\" target=\"_self\"><img src=\"/Public/MyMedia/renee/1131118-1.jpg\" alt=\"48 slide\" style=\"width:100%;\"></a></div></div><a class=\"carousel-control left\" href=\"#4963\" data-slide=\"prev\">&lsaquo;</a><a class=\"carousel-control right\" href=\"#4963\" data-slide=\"next\">&rsaquo;</a></div></div></div></div>');$('#content').append("<div class=\"row\"><div class=\"col-md-12\"><div class=\"panel panel-color\"><div class=\"panel-heading\"><h3 class=\"panel-title\">音樂快訊<a href=\"P01.aspx?MenuItem=I1511639438436000000&C2=List&AC=K1511897801980000000&C=MultiArticleMenu&MK=M1515161925369000000\" class=\"pull-right\" style=\"font-size:16px; background - color:#ffffff00;color:#ffffff;border:none;text-decoration:none\">更多</a></h3></div><div class=\"panel-body\"><div class=\"row \"><div class=\"col-md-6\"><div class=\"row\" style=\"overflow:hidden;\"><div class=\"col-md-10 col-md-offset-1\"><img src=\"/Public/MyMedia/MusicNews/202609081540.jpg\" class=\"\" width=\"100%\" alt=\"\"></div></div><div class=\"row show-grid\"><a href=\"P01.aspx?MenuItem=I1511639438436000000&C2=Single&AC=K1511897801980000000&C=GraphicTopNewsNonCutting&AK=P2621656537927000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp2\">熱愛運動成為生活重要一環　宣傳照高溫拍攝讓珉豪直呼印象深刻</h4></a></div></div><div class=\"col-md-6 hidden-xs\"><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/MusicNews/202609041629.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I1511639438436000000&C2=Single&AC=K1511897801980000000&C=GraphicTopNewsNonCutting&AK=P2621314056682000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">高有翔〈打不通的電話〉遠赴英國取景　9天完成3支MV　一人包辦...</h4></a><p></p></div></div><hr><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/MusicNews/202609041621.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I1511639438436000000&C2=Single&AC=K1511897801980000000&C=GraphicTopNewsNonCutting&AK=P2621313538560000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">四專來臨！創作樂團理想混蛋正式宣告全新大碟《偶像包袱》將於9/...</h4></a><p></p></div></div><hr><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/MusicNews/202609011656.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I1511639438436000000&C2=Single&AC=K1511897801980000000&C=GraphicTopNewsNonCutting&AK=P2621056584039000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">艾薇化身地下偶像「DreamIvy」出道了！變身吸血鬼噴漿！兩...</h4></a><p></p></div></div></div></div></div></div></div></div>");$('#content').append("<div class=\"row\"><div class=\"col-md-12\"><div class=\"panel panel-color\"><div class=\"panel-heading\"><h3 class=\"panel-title\">城市搜查線<a href=\"P01.aspx?MenuItem=I1511636315529000000&C2=List&AC=K1802033758289000000&C=MultiArticleMenu&MK=M1511355861561000000\" class=\"pull-right\" style=\"font-size:16px; background - color:#ffffff00;color:#ffffff;border:none;text-decoration:none\">更多</a></h3></div><div class=\"panel-body\"><div class=\"row \"><div class=\"col-md-6\"><div class=\"row\" style=\"overflow:hidden;\"><div class=\"col-md-10 col-md-offset-1\"><img src=\"/Public/MyMedia/download/1150915-城搜.jpg\" class=\"\" width=\"100%\" alt=\"\"></div></div><div class=\"row show-grid\"><a href=\"P01.aspx?MenuItem=I1511636315529000000&C2=Single&AC=K1802033758289000000&C=GraphicTopNewsNonCutting&AK=P2622182232799000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp2\">中秋送的不只是月餅，是一份台灣味-「先麥食品」</h4></a></div></div><div class=\"col-md-6 hidden-xs\"><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/download/11500909-城搜.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I1511636315529000000&C2=Single&AC=K1802033758289000000&C=GraphicTopNewsNonCutting&AK=P2621576251017000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">上班受傷別慌張！你的職災權益由我們來守護💪</h4></a><p></p></div></div><hr><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/download/1150814-城搜.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I1511636315529000000&C2=Single&AC=K1802033758289000000&C=GraphicTopNewsNonCutting&AK=P2619411987288000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">聘雇移工不踩雷！這些眉角你知道了嗎？</h4></a><p></p></div></div><hr><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/download/1150804-城市搜查線.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I1511636315529000000&C2=Single&AC=K1802033758289000000&C=GraphicTopNewsNonCutting&AK=P2618118391750000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">螢幕另一頭，是誰在跟你的孩子聊天？南投縣政府社會及勞動局社工及...</h4></a><p></p></div></div></div></div></div></div></div></div>");$('#right').append('<p><a href=\"https://city87.myds.me:928/2008/paper/order.php\" target=\"_blank\"><img alt=\"\" src=\"/Public/MyMedia/AdBanner/訂閱宅急報-01-01.jpg\" style=\"height:150px; width:366px\" /></a></p>');$('#content').append("<div class=\"row\"><div class=\"col-md-12\"><div class=\"panel panel-color\"><div class=\"panel-heading\"><h3 class=\"panel-title\">城市Online<a href=\"P01.aspx?MenuItem=I2314302253320000000&C2=List&AC=K2314302136388000000&C=MultiArticleMenu&MK=M1511360073264000000\" class=\"pull-right\" style=\"font-size:16px; background - color:#ffffff00;color:#ffffff;border:none;text-decoration:none\">更多</a></h3></div><div class=\"panel-body\"><div class=\"row \"><div class=\"col-md-6\"><div class=\"row\" style=\"overflow:hidden;\"><div class=\"col-md-10 col-md-offset-1\"><img src=\"/Public/MyMedia/download/1150829-cityonline.jpg\" class=\"\" width=\"100%\" alt=\"\"></div></div><div class=\"row show-grid\"><a href=\"P01.aspx?MenuItem=I2314302253320000000&C2=Single&AC=K2314302136388000000&C=GraphicTopNewsNonCutting&AK=P2620707699237000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp2\">【城市Online】南投市的幸福日常—從親水休閒到閱讀文化！</h4></a></div></div><div class=\"col-md-6 hidden-xs\"><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/download/1150814-城市online.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I2314302253320000000&C2=Single&AC=K2314302136388000000&C=GraphicTopNewsNonCutting&AK=P2619505133478000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">【城市Online】從一個動畫畫面開始，他竟然做到世界冠軍！</h4></a><p></p></div></div><hr><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/download/1150731-cityonline.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I2314302253320000000&C2=Single&AC=K2314302136388000000&C=GraphicTopNewsNonCutting&AK=P2618291924336000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">【城市Online】暑假血液需求高，一起挽袖做愛心❤️</h4></a><p></p></div></div><hr><div class=\"row \"><div class=\"col-xs-4\"><img src=\"/Public/MyMedia/download/1150724-cityonline.jpg\" class=\"img-responsive\" alt=\"Responsive image\"></div><div class=\"col-xs-8\"><a href=\"P01.aspx?MenuItem=I2314302253320000000&C2=Single&AC=K2314302136388000000&C=GraphicTopNewsNonCutting&AK=P2617683735023000000\" class=\"\" Target=\"_self\" ><h4 class=\"clamp3\">【城市Online】魚市場翻新、幼兒園升級、APP上線！南投市...</h4></a><p></p></div></div></div></div></div></div></div></div>");$('#right').append('<p><a href=\"https://cityfm.tw/Client/P01.aspx?MenuItem=I1511639438436000000&amp;C2=Single&amp;AC=K1511897801980000000&amp;C=&amp;AK=P1802462098976000000\" target=\"_blank\"><img alt=\"\" src=\"/Public/MyMedia/AdBanner/2018城市風雲榜.jpg\" style=\"height:150px; width:366px\" /></a></p>');$('#right').append(' <div class=\"row\"><div class=\"col-md-12\"><div class=\"panel panel-color\"><div class=\"panel-heading\" style=\"background-color:black;\"><h3 class=\"panel-title\">城市風雲榜</h3></div><div class=\"panel-body\"><div class=\"row \"><p><span style=\"font-size:20px\"><strong>2026/09/11~2026/09/18華語風雲榜單</strong></span></p><table align=\"center\" border=\"0\" cellpadding=\"2\" cellspacing=\"2\" style=\"width:100%\">	<tbody>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:#FFFFFF\">1</span></span></td>			<td style=\"height:20px\">			<h5><strong>周興哲 -  All For You</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:#FFFFFF\">2</span></span></td>			<td style=\"height:20px\">			<h5><strong>派偉俊 - 別戀</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:#FFFFFF\">3</span></span></td>			<td style=\"height:20px\">			<h5><strong>理想混蛋 - 整個世界，只有你連上了我</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:#FFFFFF\">4</span></span></td>			<td style=\"height:20px\">			<h5><strong>小宇(宋念宇) - 意外</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:#FFFFFF\">5</span></span></td>			<td style=\"height:10px\">			<h5><strong>蔡旻佑 - 快樂有時有</strong></h5>			</td>		</tr>	</tbody></table><hr /><p><span style=\"font-size:20px\"><strong>2026/09/11~2026/09/18西洋風雲榜單</strong></span></p><table align=\"center\" border=\"0\" cellpadding=\"2\" cellspacing=\"2\" style=\"line-height:20.8px; width:100%\">	<tbody>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:rgb(255, 255, 255)\">1</span></span></td>			<td style=\"height:20px\">			<h5><strong>Ariana Grande - petal</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:rgb(255, 255, 255)\">2</span></span></td>			<td style=\"height:20px\">			<h5><strong>Madonna - Danceteria</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:rgb(255, 255, 255)\">3</span></span></td>			<td style=\"height:20px\">			<h5><strong>JENNIE - Less than a Lover</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:rgb(255, 255, 255)\">4</span></span></td>			<td style=\"height:20px\">			<h5><strong>Backstreet Boys - Bottle Up</strong></h5>			</td>		</tr>		<tr>			<td style=\"background-color:rgb(218, 172, 48); height:20px; text-align:center; width:20px\"><span style=\"font-size:20px\"><span style=\"color:rgb(255, 255, 255)\">5</span></span></td>			<td style=\"height:10px\">			<h5><strong>Taylor Swift - I Knew It, I Knew You</strong></h5>			</td>		</tr>	</tbody></table><p> </p></div><div class=\"pull-right\"></div></div></div></div></div>');</script>
+
+
+
+<script src="../JS_CSS/customize.js" type="text/javascript"></script>
+<link href="../JS_CSS/bootstrapvalidator-master/dist/css/bootstrapValidator.min.css"
+    rel="stylesheet" type="text/css" />
+<script src="../JS_CSS/bootstrapvalidator-master/dist/js/bootstrapValidator.min.js"
+    type="text/javascript"></script>
+<script type="text/javascript">
+    function FBShare() {
+
+        var url = encodeURIComponent('https://cityfm.tw/Client/P01.aspx?MenuItem=I1801604035686000000');
+        //alert(url);
+        window.open("http://www.facebook.com/sharer.php?u=" + url + "&t=" + (new Date()).getTime(), "", "width=600,height=300");
+
+    }
+
+
+    function bootstrapValidatorDefined() {
+        $('#APForm').bootstrapValidator({
+            message: 'This value is not valid',
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                APOption: {
+                    validators: {
+                        notEmpty: {
+                            message: '請選擇申請項目'
+                        }
+
+                    }
+                },
+                APAmount: {
+                    message: 'The username is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫捐款金額'
+                        },
+                        stringLength: {
+                            min: 2,
+                            max: 10,
+                            message: '金額需需大於2位數小於10位數'
+                        },
+                        regexp: {
+                            regexp: /^\+?[1-9][0-9]*$/,
+                            message: '金額為大於0的數字'
+                        }
+                    }
+                },
+                APName: {
+                    message: 'The username is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫捐款人姓名'
+                        },
+                        stringLength: {
+                            min: 2,
+                            max: 30,
+                            message: '姓名需為2~30個字之間'
+                        }
+                    }
+                },
+                APCity: {
+                    validators: {
+                        notEmpty: {
+                            message: '請選擇縣市'
+                        }
+                    }
+                },
+                APArea: {
+                    validators: {
+                        notEmpty: {
+                            message: '請選擇區域'
+                        }
+
+                    }
+                },
+                APAddr: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫地址'
+                        },
+                        stringLength: {
+                            min: 3,
+                            max: 30,
+                            message: '地址需為3~30個字之間'
+                        }
+                    }
+                },
+                APTel: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫連絡電話'
+                        },
+                        stringLength: {
+                            min: 9,
+                            max: 10,
+                            message: '電話需為9~10個字之間，市話請加區碼'
+                        }
+                    }
+                },
+                APEmail: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫連絡電話'
+                        },
+                        emailAddress: {
+                            message: '請填寫正確的信箱地址'
+                        }
+                    }
+
+                },
+                APIDs: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫身分證字號'
+                        }
+                    }
+                },
+                APStartYear: {
+                    message: 'The username is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫開始年'
+                        },
+                        stringLength: {
+                            min: 4,
+                            max: 4,
+                            message: '公元年需為4碼'
+                        },
+                        regexp: {
+                            regexp: /^\+?[1-9][0-9]*$/,
+                            message: '公元年為大於0的數字'
+                        }
+                    }
+                },
+                APEndYear: {
+                    message: 'The username is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫結束年'
+                        },
+                        stringLength: {
+                            min: 4,
+                            max: 4,
+                            message: '公元年需為4碼'
+                        },
+                        regexp: {
+                            regexp: /^\+?[1-9][0-9]*$/,
+                            message: '公元年為大於0的數字'
+                        }
+                    }
+                },
+                APValidYear: {
+                    message: 'The username is not valid',
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫有效年'
+                        },
+                        stringLength: {
+                            min: 4,
+                            max: 4,
+                            message: '公元年需為4碼'
+                        },
+                        regexp: {
+                            regexp: /^\+?[1-9][0-9]*$/,
+                            message: '公元年為大於0的數字'
+                        }
+                    }
+                },
+                APStartMonth: {
+                    validators: {
+                        notEmpty: {
+                            message: '請選擇月份'
+                        }
+
+                    }
+                },
+                APEndMonth: {
+                    validators: {
+                        notEmpty: {
+                            message: '請選擇月份'
+                        }
+
+                    }
+                },
+                APValidMonth: {
+                    validators: {
+                        notEmpty: {
+                            message: '請選擇月份'
+                        }
+
+                    }
+                },
+                APCard1: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫卡號'
+                        }
+
+                    }
+                },
+                APCard2: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫卡號'
+                        }
+
+                    }
+                },
+                APCard3: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫卡號'
+                        }
+
+                    }
+                },
+                APCard4: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫卡號'
+                        }
+
+                    }
+                },
+                APSmallNo: {
+                    validators: {
+                        notEmpty: {
+                            message: '請填寫末三碼'
+                        }
+
+                    }
+                }
+            }
+        });
+    }
+    bootstrapValidatorDefined();
+    DisplayAP2("none");
+    //FB Comment
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.5&appId=1493684320937705";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<script type="text/javascript">
+    window.onload = function () {
+
+        var tmpTitle = document.title;
+        parent.document.title = tmpTitle;
+    }
+</script>
+
+
+
+
+
+
+
+</html>
+<script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-77523623-4', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+
