@@ -1,0 +1,40 @@
+# Each broadcaster's weekly schedule, read off its own page into the grid
+# the app reads, then programmes.json rebuilt from the grids and the live
+# sources. Weekly, because a grid changes when a season does; and on a
+# push to the readers, so a fixed reader publishes at once.
+name: Read the broadcasters' schedules
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 22 * * 0'
+  push:
+    paths:
+      - 'scrape_schedules.py'
+      - 'programmes.py'
+      - '.github/workflows/scrape-schedules.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  read:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Read each site, then rebuild programmes.json
+        run: |
+          python3 scrape_schedules.py --apply | tee -a "$GITHUB_STEP_SUMMARY"
+          python3 programmes.py --apply | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Keep what was read
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add schedules programmes.json
+          git commit -q -m "The broadcasters' schedules, read this week" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
