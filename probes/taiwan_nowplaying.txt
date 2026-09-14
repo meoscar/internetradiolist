@@ -1,4 +1,32 @@
-Probed 2026-09-14 11:37 UTC from GitHub's network
+Probed 2026-09-14 11:41 UTC from GitHub's network
+
+The fourth pass
+
+=== M Radio: the recent-songs call, at the address the bundle builds
+  GET https://api.mradio.tw/api/song/get-recent-songs?nocache=1789474000000 -> HTTP 200 application/json: {"status": "Success", "data": [{"date": "09/14(一)", "songs": [{"name": "萬華的蛇", "artist": "李英宏", "time": "19:30"}, {"name": "Wanna Be (My Baby)", "artist": "WANNA ONE", "time": "19:24"}, {"name": "月亮距離", "artist": "盧可沛 (理想混蛋)", "time": "19:07"}, {"name": "灌飽元氣頌", "artist": "關8", "time": "18:55"}, {"name": "三色豆", "artist": "阿達 / 阿量", "time": "18:28"}, {"name": "SAD B!TCH", "artist": "Anne-Marie 安瑪莉", "time": "17:40"}, {"name": "你的目光 (The Way You Felt)", "artist": "Alec Benjamin 艾力克班傑明", "time": "17:22"}, {"name": "SPAGHETTI", "artist": "LE SSERAFIM", "time": "16:55"}, {"name": "MOON", "artist": "BABYMONSTER", "time": "16:52"}, {"name": "心肝寶貝", "artist": "黃鶯鶯", "time": "16:11"}, {"name": "Unchained Melody", "artist": "Gareth Gates 葛瑞蓋斯", "time": "15:53"}, {"name": "Pretty Please", "artist": "Hearts2Hearts", "time": "15:47"}, {"name": "Hard To Say I'm Sorry", "artist": "Chicago 芝加哥合唱團", "tim
+  GET https://api.mradio.tw/api/song/get-recent-songs -> HTTP 200 application/json: {"status": "Success", "data": [{"date": "09/14(一)", "songs": [{"name": "萬華的蛇", "artist": "李英宏", "time": "19:30"}, {"name": "Wanna Be (My Baby)", "artist": "WANNA ONE", "time": "19:24"}, {"name": "月亮距離", "artist": "盧可沛 (理想混蛋)", "time": "19:07"}, {"name": "灌飽元氣頌", "artist": "關8", "time": "18:55"}, {"name": "三色豆", "artist": "阿達 / 阿量", "time": "18:28"}, {"name": "SAD B!TCH", "artist": "Anne-Marie 安瑪莉", "time": "17:40"}, {"name": "你的目光 (The Way You Felt)", "artist": "Alec Benjamin 艾力克班傑明", "time": "17:22"}, {"name": "SPAGHETTI", "artist": "LE SSERAFIM", "time": "16:55"}, {"name": "MOON", "artist": "BABYMONSTER", "time": "16:52"}, {"name": "心肝寶貝", "artist": "黃鶯鶯", "time": "16:11"}, {"name": "Unchained Melody", "artist": "Gareth Gates 葛瑞蓋斯", "time": "15:53"}, {"name": "Pretty Please", "artist": "Hearts2Hearts", "time": "15:47"}, {"name": "Hard To Say I'm Sorry", "artist": "Chicago 芝加哥合唱團", "tim
+
+=== KISS Radio: the song list form, and what it answers for each station
+  form: <form>
+  select tp: KISS=大眾廣播 FM99.9, TAINAN=台南知音 FM97.1, NANTOU=南投廣播 FM99.7, MIAOLI=苗栗廣播 FM98.3, KISSRADIO=網路音樂台
+  select ty: 2025=2025年, 2026=2026年
+  select tm: 01=01 月, 02=02 月, 03=03 月, 04=04 月, 05=05 月, 06=06 月, 07=07 月, 08=08 月, 09=09 月, 10=10 月, 11=11 月, 12=12 月
+  select td: 01=01 日, 02=02 日, 03=03 日, 04=04 日, 05=05 日, 06=06 日, 07=07 日, 08=08 日, 09=09 日, 10=10 日, 11=11 日, 12=12 日
+  select th: 00=00 時, 01=01 時, 02=02 時, 03=03 時, 04=04 時, 05=05 時, 06=06 時, 07=07 時, 08=08 時, 09=09 時, 10=10 時, 11=11 時
+  filled: {'ty': '2026', 'tm': '09', 'td': '14', 'th': '19'}, station field: tp
+  POST tp=KISS: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; --> $('html, body'
+  GET  tp=KISS: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; 2026/09/14 19:06 L
+  POST tp=TAINAN: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; --> $('html, body'
+  GET  tp=TAINAN: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; sorry , 這個時間點並沒有紀錄
+  POST tp=NANTOU: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; --> $('html, body'
+  GET  tp=NANTOU: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; sorry , 這個時間點並沒有紀錄
+  POST tp=MIAOLI: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; --> $('html, body'
+  GET  tp=MIAOLI: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; sorry , 這個時間點並沒有紀錄
+  POST tp=KISSRADIO: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; --> $('html, body'
+  GET  tp=KISSRADIO: HTTP 200: 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; sorry , 這個時間點並沒有紀錄
+
+=== 古典音樂台 97.7: the XML again, a few minutes on
+  <?xml version="1.0" encoding="unicode" ?> <live> <radio_id>FM977</radio_id> <current_song> <Stardate>2026-09-14</Stardate> <Startime>19:00:10</Startime> <title><![CDATA[好家庭聯播網]]></title> <composer><![CDATA[]]></composer> <artist><![CDATA[線上收聽]]></artist> <album><![CDATA[]]></album> <duration>00:00:00</duration> </current_song> </live> 
 
 The third pass: the sources, read as the app would read them
 
@@ -9,17 +37,17 @@ The third pass: the sources, read as the app would read them
 === KISS Radio: the mobile song list, and how the player is fed
   m/songlist.php: HTTP 200 text/html
   大眾廣播 FM99.9 | KISSRADIO 大眾廣播 FM99.9 線上收聽 查詢歌單 電台： 大眾廣播 FM99.9 台南知音 FM97.1 --> 南投廣播 FM99.7 --> 苗栗廣播 FM98.3 --> 網路音樂台 --> 播放時間： 2025年 2026年 01 月 02 月 03 月 04 月 05 月 06 月 07 月 08 月 09 月 10 月 11 月 12 月 01 日 02 日 03 日 04 日 05 日 06 日 07 日 08 日 09 日 10 日 11 日 12 日 13 日 14 日 15 日 16 日 17 日 18 日 19 日 20 日 21 日 22 日 23 日 24 日 25 日 26 日 27 日 28 日 29 日 30 日 31 日 00 時 01 時 02 時 03 時 04 時 05 時 06 時 07 時 08 時 09 時 10 時 11 時 12 時 13 時 14 時 15 時 16 時 17 時 18 時 19 時 20 時 21 時 22 時 23 時 線上收聽 google_ad_client = "ca-pub-4532180211929779"; google_ad_slot = "6109893984"; google_ad_width = 336; google_ad_height = 280; --> $('html, body').animate({ scrollTop: $('#ad').offset().top }, 1000);
-  stream address in the player: https://kissradiow-hichannel.cdn.hinet.net/live/RA000040/playlist.m3u8?token=CaFOaVybe0vOdRVWDxTulA&expires=1789473468
-  window.currentToken = 'CaFOaVybe0vOdRVWDxTulA'
-  window.currentExpires = '1789473468'
+  stream address in the player: https://kissradiow-hichannel.cdn.hinet.net/live/RA000040/playlist.m3u8?token=BynBrInp8ak64gG3xSjLvw&expires=1789473694
+  window.currentToken = 'BynBrInp8ak64gG3xSjLvw'
+  window.currentExpires = '1789473694'
 
 === 中廣 BCC: the web API, and how the on-air page calls it
   around the call:  var r = window.location.search.substr(1).match(reg); //如果取出的參數存在則取出參數的值否則回穿null if (r != null) return unescape(r[2]); return null; } $.SetInfo = function () { //alert("1!"); $.ajax({ type : "GET", async: false, //url: "http://bcc-app.nmm.com.tw/webapi/BCCRadioWebAPI/ChannelInfo", //url: "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo", //KYH 20250422 //url: "http://bccapi.bcccourse.com/webapi/BCCRadioWebAPI/ChannelInfoBat", //20251103 url: "https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat", //KYH 20250423 dataType: "jsonp", success: function(Jdatas) { var param = $.UrlParam("c"); $(document).prop('title', Jdatas[param].na
   GET https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo -> HTTP 200 application/json: [{"name":"中廣流行網","imagefile":"http://bcc-app.nmm.com.tw/WebAPI/images/logo_pop.jpg","androidStream":"http://51.81.243.60/s1zttsg3qtzuv","iosStream":"https://stream.rcs.revma.com/s1zttsg3qtzuv","programInfo":"音樂放不完　04:00~05:00","program":"音樂放不完","time":"04:00~05:00","dj":"","android_source":null,"ip":null,"country":null,"ProgramEndTime":"0001-01-01T00:00:00","SecondsToExpire":0},{"name":"中廣音樂網","imagefile":"http://www.bcc.com.tw/WebAPI/images/logo_music.jpg","androidStream":"http://51.81.243.116/ks4vsmg3qtzuv","iosStream":"https://stream.rcs.revma.com/ks4vsmg3qtzuv","programInfo":"音樂放不完　04:00~05:00","program":"音樂放不完","time":"04:00~05:00","dj":"","android_source":null,"ip":null,"country":null,
   GET https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo?channelId=1 -> HTTP 200 application/json: [{"name":"中廣流行網","imagefile":"http://bcc-app.nmm.com.tw/WebAPI/images/logo_pop.jpg","androidStream":"http://51.81.243.60/s1zttsg3qtzuv","iosStream":"https://stream.rcs.revma.com/s1zttsg3qtzuv","programInfo":"音樂放不完　04:00~05:00","program":"音樂放不完","time":"04:00~05:00","dj":"","android_source":null,"ip":null,"country":null,"ProgramEndTime":"0001-01-01T00:00:00","SecondsToExpire":0},{"name":"中廣音樂網","imagefile":"http://www.bcc.com.tw/WebAPI/images/logo_music.jpg","androidStream":"http://51.81.243.116/ks4vsmg3qtzuv","iosStream":"https://stream.rcs.revma.com/ks4vsmg3qtzuv","programInfo":"音樂放不完　04:00~05:00","program":"音樂放不完","time":"04:00~05:00","dj":"","android_source":null,"ip":null,"country":null,
   POST https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo -> HTTP 404 : {"Message":"找不到與要求 URI 'https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo' 相符的 HTTP 資源。"}
-  GET https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat -> HTTP 200 application/json: [{"name":"中廣流行網","imagefile":"http://bcc-app.nmm.com.tw/WebAPI/images/logo_pop.jpg","androidStream":"http://51.81.243.60/s1zttsg3qtzuv","iosStream":"https://stream.rcs.revma.com/s1zttsg3qtzuv","programInfo":"瓏賀哩共　19:00~20:00　 DJ:賀瓏","program":"瓏賀哩共","time":"19:00~20:00","dj":"賀瓏","android_source":"RTMP","ip":null,"country":null,"ProgramEndTime":"2026-09-14T20:00:00","SecondsToExpire":1361},{"name":"中廣音樂網","imagefile":"http://www.bcc.com.tw/WebAPI/images/logo_music.jpg","androidStream":"http://51.81.243.116/ks4vsmg3qtzuv","iosStream":"https://stream.rcs.revma.com/ks4vsmg3qtzuv","programInfo":"音樂放不完　19:00~20:00","program":"音樂放不完","time":"19:00~20:00","dj":"","android_source":"RTMP","ip":null,"
-  POST https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat -> HTTP 200 application/json: [{"name":"中廣流行網","imagefile":"http://bcc-app.nmm.com.tw/WebAPI/images/logo_pop.jpg","androidStream":"http://51.81.243.60/s1zttsg3qtzuv","iosStream":"https://stream.rcs.revma.com/s1zttsg3qtzuv","programInfo":"","program":"","time":"","dj":"","android_source":null,"ip":"74.235.126.84","country":"US","ProgramEndTime":"0001-01-01T00:00:00","SecondsToExpire":0},{"name":"中廣音樂網","imagefile":"http://www.bcc.com.tw/WebAPI/images/logo_music.jpg","androidStream":"http://51.81.243.116/ks4vsmg3qtzuv","iosStream":"https://stream.rcs.revma.com/ks4vsmg3qtzuv","programInfo":"","program":"","time":"","dj":"","android_source":null,"ip":"74.235.126.84","country":"US","ProgramEndTime":"0001-01-01T00:00:00","Seco
+  GET https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat -> HTTP 200 application/json: [{"name":"中廣流行網","imagefile":"http://bcc-app.nmm.com.tw/WebAPI/images/logo_pop.jpg","androidStream":"http://51.81.243.60/s1zttsg3qtzuv","iosStream":"https://stream.rcs.revma.com/s1zttsg3qtzuv","programInfo":"瓏賀哩共　19:00~20:00　 DJ:賀瓏","program":"瓏賀哩共","time":"19:00~20:00","dj":"賀瓏","android_source":"RTMP","ip":null,"country":null,"ProgramEndTime":"2026-09-14T20:00:00","SecondsToExpire":1121},{"name":"中廣音樂網","imagefile":"http://www.bcc.com.tw/WebAPI/images/logo_music.jpg","androidStream":"http://51.81.243.116/ks4vsmg3qtzuv","iosStream":"https://stream.rcs.revma.com/ks4vsmg3qtzuv","programInfo":"音樂放不完　19:00~20:00","program":"音樂放不完","time":"19:00~20:00","dj":"","android_source":"RTMP","ip":null,"
+  POST https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat -> HTTP 200 application/json: [{"name":"中廣流行網","imagefile":"http://bcc-app.nmm.com.tw/WebAPI/images/logo_pop.jpg","androidStream":"http://51.81.243.60/s1zttsg3qtzuv","iosStream":"https://stream.rcs.revma.com/s1zttsg3qtzuv","programInfo":"","program":"","time":"","dj":"","android_source":null,"ip":"52.154.132.187","country":"US","ProgramEndTime":"0001-01-01T00:00:00","SecondsToExpire":0},{"name":"中廣音樂網","imagefile":"http://www.bcc.com.tw/WebAPI/images/logo_music.jpg","androidStream":"http://51.81.243.116/ks4vsmg3qtzuv","iosStream":"https://stream.rcs.revma.com/ks4vsmg3qtzuv","programInfo":"","program":"","time":"","dj":"","android_source":null,"ip":"52.154.132.187","country":"US","ProgramEndTime":"0001-01-01T00:00:00","Se
 
 === M Radio: where the song history is fetched from
   6041053.js around song-history: t.fab,expression:"fab"}],attrs:{fab:"",dark:"",fixed:"",bottom:"",right:"",color:"primary"},on:{click:t.toTop}},[e("font-awesome-icon",{attrs:{icon:["fas","arrow-up"],size:"2x"}})],1)],1)],1)],1)],1)}),[],!1,null,null,null).exports,m=n(312),v={name:"song-history",components:{ComponentHeader:o.a,Loading:m.a,HistorySongContent:d},head:function(){return{title:this.category.name+" | 全國廣播 M-Radio",meta:[{hid:"og:title",content:this.category.name+" | 全國廣播 M-Radio"},{hid:"twitter:title",content:this.category.name+
@@ -46,13 +74,13 @@ A closer look, at what the first pass turned up
 
 === KISS Radio: the line on the homepage, and the song list page
   https://www.kiss.com.tw/service/songlist/ -> text/html
-      現在播放： 楊乃文 - 悔過書 --> 線上收聽 19:38 現在播放： 楊乃文 - 悔過書 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_open() { jsddm_canceltimer(); jsddm_close(); ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');} function jsddm_close() { if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');} function jsddm_timer() { closetimer = window.setTimeout(jsddm_close, timeout);} function jsddm_canceltimer() { if(closetimer) { window.clearTimeout(closetimer); closetimer = null;}} $(document).ready(function() { $('#jsddm > li').bind('mouseover', jsddm_open); $('#jsddm > li').bind('mouseout', jsddm_timer);}); document.onclick = jsddm_close; 節目表 星星一族 法律知多少 親子2.0 KISS樂活壯世代 專訪預告 --> 
+      try { // 檢查 Google 廣告主程式是否存在 if (typeof GA_googleAddSlot !== 'undefined') { // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET_hot"); // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-250x250"); // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-336*280"); // 執行廣告抓取 if (typeof GA_googleFetchAds !== 'undefined') { GA_googleFetchAds(); } } else { console.warn("偵測到 AdBlock 或 Google 廣告服務未載入，已自動跳過廣告以確保歌單功能正常。"); } } catch (e) { console.error("廣告模組出錯，系統已自動隔離錯誤：", e); } 歌單查詢 - 服務 - KISSRADIO - 大眾廣播 FM99.9 function getUrlParameter(sParam) { var sPageURL = decodeURIComponent(window.location.search.substring(1)), sURLVariables = sPageURL.split('&'), sParameterName, i; for (i = 0; i -->
       endpoint: http://www.kiss.com.tw/service/songlist/
       endpoint: https://www.kiss.com.tw/m/songlist.php
       endpoint: https://www.kiss.com.tw/service/songlist/
       endpoint: https://api.kiss.com.tw/test/hichannel2.php?api=2
   https://www.kiss.com.tw/show/showtime.php -> text/html
-      現在播放： 楊乃文 - 悔過書 --> 線上收聽 19:38 現在播放： 楊乃文 - 悔過書 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_open() { jsddm_canceltimer(); jsddm_close(); ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');} function jsddm_close() { if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');} function jsddm_timer() { closetimer = window.setTimeout(jsddm_close, timeout);} function jsddm_canceltimer() { if(closetimer) { window.clearTimeout(closetimer); closetimer = null;}} $(document).ready(function() { $('#jsddm > li').bind('mouseover', jsddm_open); $('#jsddm > li').bind('mouseout', jsddm_timer);}); document.onclick = jsddm_close; 節目表 星星一族 法律知多少 親子2.0 KISS樂活壯世代 專訪預告 --> 
+      function getUrlParameter(sParam) { var sPageURL = decodeURIComponent(window.location.search.substring(1)), sURLVariables = sPageURL.split('&'), sParameterName, i; for (i = 0; i GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET_hot"); GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-250x250"); GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-336*280"); GA_googleFetchAds(); DD_belatedPNG.fix('.dj_photo'); DD_belatedPNG.fix('.sec_dj_photo'); DD_belatedPNG.fix('#dj_name_img'); DD_belatedPNG.fix('#dj_img'); 大眾廣播 - 節目 - KISSRADIO - 大眾廣播 FM99.9 window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-55446824-1'); .
       endpoint: https://www.kiss.com.tw/service/songlist/
       endpoint: https://api.kiss.com.tw/test/hichannel2.php?api=2
 
@@ -86,7 +114,7 @@ A closer look, at what the first pass turned up
 The broadcasters' own sites
 
 === 中廣 BCC
-  page https://www.bcc.com.tw/ -> text/html, 36 KB
+  page https://www.bcc.com.tw/ -> text/html, 37 KB
   page https://www.bcc.com.tw/news4_program.asp -> text/html, 24 KB
   page https://www.bcc.com.tw/news6_program.asp -> text/html, 26 KB
   page https://www.bcc.com.tw/news5_program.asp -> text/html, 18 KB
@@ -223,7 +251,7 @@ The broadcasters' own sites
   nothing that looks like a now-playing source on these pages
 
 === 正聲
-  page https://www.csbc.com.tw/ -> text/html, 252 KB
+  page https://www.csbc.com.tw/ -> text/html, 253 KB
   page https://www.csbc.com.tw/muyibiao-2 -> text/html, 161 KB
   page https://www.csbc.com.tw/tpfm -> text/html, 206 KB
   page https://www.csbc.com.tw/shangchuban -> text/html, 94 KB
@@ -367,8 +395,8 @@ The broadcasters' own sites
   page https://www.kiss.com.tw/radio_hq.php?radio_id=156 -> text/html, 11 KB
   page https://www.kiss.com.tw/service/mobilephone/ -> text/html, 24 KB
   page https://www.kiss.com.tw/show/ -> text/html, 29 KB
-  words: 9.9(南部地區) 流行磁場 18:00 - 22:00 線上收聽 19:39 現在播放： 楊乃文 - 悔過書 --> 線上收聽 19:39 現在播放： 楊乃文 - 悔過書 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_ope
-  words: 收聽 19:39 現在播放： 楊乃文 - 悔過書 --> 線上收聽 19:39 現在播放： 楊乃文 - 悔過書 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_open() { jsddm_canceltimer(); jsdd
+  words: 9.9(南部地區) 流行磁場 18:00 - 22:00 線上收聽 19:42 現在播放： 郭靜 - 往未來飛的客機 --> 線上收聽 19:42 現在播放： 郭靜 - 往未來飛的客機 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsd
+  words: 19:42 現在播放： 郭靜 - 往未來飛的客機 --> 線上收聽 19:42 現在播放： 郭靜 - 往未來飛的客機 var timeout = 500; var closetimer = 0; var ddmenuitem = 0; function jsddm_open() { jsddm_canceltimer(); j
   embed: https://www.youtube.com/embed/t_9n2kIaIRw
   embed: https://player.soundon.fm/embed?podcast=5a4b4d13-9935-43d2-99f7-d7456d9e7f76&episode=
   embed: https://player.soundon.fm/embed?podcast=5a4b4d13-9935-43d2-99f7-d7456d9e7f76&episode=59e44620-0cbb-4519-af49-47ad1d368a98
@@ -388,7 +416,7 @@ The broadcasters' own sites
   GET http://www.kiss.com.tw/service/songlist/
       -> text/html ·  try { // 檢查 Google 廣告主程式是否存在 if (typeof GA_googleAddSlot !== 'undefined') { // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET_hot"); // GA_googleAddSlot("ca-pub-4532180211929779", "KISSNET-250x250"); // GA_googleA
   GET https://www.kiss.com.tw/test/hichannel2.php?api=1
-      -> text/html ·  /* 隱藏 Video.js 預設的錯誤提示畫面，讓重連過程完全無感 */ .vjs-error-display { display: none !important; } // 1. 初始化全域變數以供外部 JS 使用 window.currentToken = '2sGv8692zp5m33K5qrAgIA'; window.currentExpires = '1789473552'; window.playerWidth = '
+      -> text/html ·  /* 隱藏 Video.js 預設的錯誤提示畫面，讓重連過程完全無感 */ .vjs-error-display { display: none !important; } // 1. 初始化全域變數以供外部 JS 使用 window.currentToken = 'h5Yq4qIKAxwhQlPoTJQSGQ'; window.currentExpires = '1789473767'; window.playerWidth = '
   GET http://api.kiss.com.tw/test/hichannel2.php?api=2
       -> text/html ·  
   GET https://www.kiss.com.tw/test/hichannel2.php?api=2
@@ -397,15 +425,16 @@ The broadcasters' own sites
 === M Radio
   page https://www.mradio.com.tw/ -> text/html, 104 KB
   page https://www.mradio.com.tw/program-list -> text/html, 302 KB
-  page https://www.mradio.com.tw/home/taiwan-story/ContentView/1405e1d4-2457-42c5-a055-5af65c811dad/false/taiwan-story -> text/html, 58 KB
+  page https://www.mradio.com.tw/home/taiwan-story/ContentView/1405e1d4-2457-42c5-a055-5af65c811dad/false/taiwan-story -> TimeoutError: The read operation timed out
   page https://www.mradio.com.tw/home/taiwan-story/ContentView/bdcdc3a2-6f74-45db-bba2-05996b779823/false/taiwan-story -> text/html, 58 KB
   page https://www.mradio.com.tw/home/taiwan-story/ContentView/58de56bd-eb41-40cb-bcb6-47530bdbcce0/false/taiwan-story -> text/html, 58 KB
+  page https://www.mradio.com.tw/home/taiwan-story/ContentView/83122914-5118-4994-a95e-c9f1a284f7c5/false/taiwan-story -> text/html, 58 KB
   words: ector("head").appendChild(l);})(); 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 有意思的電台 Mradio 音樂與資訊並重的都會性電台 | 全國廣播 FM106 整點新聞、時事專題、深耕在地 | Mradio F
   words: or("head").appendChild(l);})(); 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 DJ&節目表 選擇時段 週一 週二 ~ 週五 週六 週日 週一 週二 ~ 週五 週六 週日 00:00 ~ 01:00 關不掉的收音
   words: or("head").appendChild(l);})(); 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項
-  words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-09-11 〈戲班子長大的嗩吶聲：宋孟諱〉 本集節目邀請在戲班環境中成長的嗩吶演奏家 宋孟諱到節目受訪。嗩吶在臺灣傳統戲曲
   words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-09-04 〈傳統北管與當代音樂的對話：曾立馨〉 本集節目邀請創作歌手曾立馨到節目受訪。近年來，曾立馨在音樂創作中持續探索
   words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-08-28 〈恆春半島民謠的當代聲音：浮可泰FolkTake主唱Summer謝徐鳳玉〉 本集邀請來自屏東恆春的浮可泰 Fo
+  words: cast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 首頁 線上收聽 ON AIR 音樂脫殼秀 / Woody 全國廣播podcast 關於全國 生活資訊 歷史歌單 DJ&節目表 服務項目 2026-08-21 〈嘻哈歌詞中的社會觀察：張伍〉 本集邀請饒舌創作歌手/作詞人 張伍到節目受訪。張伍以其獨特的詞曲創作與饒舌表現
   embed: https://www.googletagmanager.com/ns.html?id=GTM-KND8BSK&l=dataLayer
   embed: https://tunein.com/embed/player/s91165/
   GET https://fonts.googleapis.com/css2?family=Roboto:wght@100&amp;family=Noto+Sans+TC:wght@300;400;500;700&amp;display=swap
