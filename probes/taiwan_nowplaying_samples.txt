@@ -1,0 +1,590 @@
+Sampled from 2026-09-14 11:45 UTC on GitHub's network
+
+Sampling every 5 min for 330 min; times are Taipei
+
+[09-14 19:45]
+  family977  Startime=19:00:10 | title=好家庭聯播網 | composer= | artist=線上收聽 | album= | duration=00:00:00
+  mradio     09/14(一) 19:41 蕭煌奇 - 家門口 ; 19:30 李英宏 - 萬華的蛇 ; 19:24 WANNA ONE - Wanna Be (My Baby)
+  kiss KISS    unparsed: 2026/09/14 19:06&nbsp;&nbsp;&nbsp; Lewis Capaldi - Someone You Loved 2026/09/14 19:10&nbsp;&nbsp;&nbsp; 潘越雲 - 野百合也有春天 2026/09/14 19:14&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 瓏賀哩共 19:00~20:00 DJ:賀瓏 (880s) ; 中廣音樂網: 音樂放不完 19:00~20:00 DJ: (880s) ; 中廣新聞網: 星月伴我行—孫蘭時間 19:00~20:00 DJ:孫蘭 (880s)
+
+[09-14 19:50]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:26
+  mradio     09/14(一) 19:48 彭佳慧 - BDN (#BusyDoingNothing) ; 19:41 蕭煌奇 - 家門口 ; 19:30 李英宏 - 萬華的蛇
+  kiss KISS    unparsed: 2026/09/14 19:06&nbsp;&nbsp;&nbsp; Lewis Capaldi - Someone You Loved 2026/09/14 19:10&nbsp;&nbsp;&nbsp; 潘越雲 - 野百合也有春天 2026/09/14 19:14&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 瓏賀哩共 19:00~20:00 DJ:賀瓏 (580s) ; 中廣音樂網: 音樂放不完 19:00~20:00 DJ: (580s) ; 中廣新聞網: 星月伴我行—孫蘭時間 19:00~20:00 DJ:孫蘭 (580s)
+
+[09-14 19:55]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 19:54 大支 - 9527 ; 19:48 彭佳慧 - BDN (#BusyDoingNothing) ; 19:41 蕭煌奇 - 家門口
+  kiss KISS    unparsed: 2026/09/14 19:06&nbsp;&nbsp;&nbsp; Lewis Capaldi - Someone You Loved 2026/09/14 19:10&nbsp;&nbsp;&nbsp; 潘越雲 - 野百合也有春天 2026/09/14 19:14&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 瓏賀哩共 19:00~20:00 DJ:賀瓏 (280s) ; 中廣音樂網: 音樂放不完 19:00~20:00 DJ: (280s) ; 中廣新聞網: 星月伴我行—孫蘭時間 19:00~20:00 DJ:孫蘭 (280s)
+
+[09-14 20:00]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:00 曾沛慈 - 關於愛這件事 ; 19:54 大支 - 9527 ; 19:48 彭佳慧 - BDN (#BusyDoingNothing)
+  kiss KISS    no record for this hour
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 流行新推薦 20:00~20:05 DJ: (279s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (3579s) ; 中廣新聞網: 新書快報 20:00~20:30 DJ:周詳 (1779s)
+
+[09-14 20:05]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:00 曾沛慈 - 關於愛這件事 ; 19:54 大支 - 9527 ; 19:48 彭佳慧 - BDN (#BusyDoingNothing)
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) --> $('html, body').animate({ scrollTop: $('#ad').offset().top 
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (3279s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (3279s) ; 中廣新聞網: 新書快報 20:00~20:30 DJ:周詳 (1479s)
+
+[09-14 20:11]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:09 LiSA - Rally Go Round ; 20:00 曾沛慈 - 關於愛這件事 ; 19:54 大支 - 9527
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 --> $('html, body'
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (2978s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (2978s) ; 中廣新聞網: 新書快報 20:00~20:30 DJ:周詳 (1178s)
+
+[09-14 20:16]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:16 TRASH - 終究還是因為愛 LOVE ; 20:09 LiSA - Rally Go Round ; 20:00 曾沛慈 - 關於愛這件事
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (2678s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (2678s) ; 中廣新聞網: 新書快報 20:00~20:30 DJ:周詳 (878s)
+
+[09-14 20:21]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:16 TRASH - 終究還是因為愛 LOVE ; 20:09 LiSA - Rally Go Round ; 20:00 曾沛慈 - 關於愛這件事
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (2378s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (2378s) ; 中廣新聞網: 新書快報 20:00~20:30 DJ:周詳 (578s)
+
+[09-14 20:26]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:16 TRASH - 終究還是因為愛 LOVE ; 20:09 LiSA - Rally Go Round ; 20:00 曾沛慈 - 關於愛這件事
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (2076s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (2076s) ; 中廣新聞網: 新書快報 20:00~20:30 DJ:周詳 (276s)
+
+[09-14 20:31]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:26 戴佩妮 - 看見聽見 ; 20:16 TRASH - 終究還是因為愛 LOVE ; 20:09 LiSA - Rally Go Round
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網:   DJ: (0s) ; 中廣音樂網:   DJ: (0s) ; 中廣新聞網:   DJ: (0s)
+
+[09-14 20:36]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:32 BOYNEXTDOOR - Never Loved This Way Before ; 20:26 戴佩妮 - 看見聽見 ; 20:16 TRASH - 終究還是因為愛 LOVE
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (1416s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (1416s) ; 中廣新聞網: 一同開麥啦 20:30~21:00 DJ:王凱、孫懂 (1416s)
+
+[09-14 20:41]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:32 BOYNEXTDOOR - Never Loved This Way Before ; 20:26 戴佩妮 - 看見聽見 ; 20:16 TRASH - 終究還是因為愛 LOVE
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (1116s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (1116s) ; 中廣新聞網: 一同開麥啦 20:30~21:00 DJ:王凱、孫懂 (1116s)
+
+[09-14 20:46]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:44 Eric Nam - Good For You ; 20:32 BOYNEXTDOOR - Never Loved This Way Before ; 20:26 戴佩妮 - 看見聽見
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (815s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (815s) ; 中廣新聞網: 一同開麥啦 20:30~21:00 DJ:王凱、孫懂 (815s)
+
+[09-14 20:51]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You ; 20:32 BOYNEXTDOOR - Never Loved This Way Before
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (515s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (515s) ; 中廣新聞網: 一同開麥啦 20:30~21:00 DJ:王凱、孫懂 (515s)
+
+[09-14 20:56]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You
+  kiss KISS    unparsed: 2026/09/14 20:02&nbsp;&nbsp;&nbsp; G-Dragon - Anderson .Paak,Too Bad (英) 2026/09/14 20:08&nbsp;&nbsp;&nbsp; 戴佩妮 - 四季天 2026/09/14 20:16&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 20:05~21:00 DJ:吳建恆  (214s) ; 中廣音樂網: i radio star DJ 20:00~21:00 DJ: (214s) ; 中廣新聞網: 一同開麥啦 20:30~21:00 DJ:王凱、孫懂 (214s)
+
+[09-14 21:01]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You
+  kiss KISS    no record for this hour
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (3514s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (3514s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (3514s)
+
+[09-14 21:06]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In --> $('html, body')
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (3214s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (3214s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (3214s)
+
+[09-14 21:12]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In --> $('html, body')
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (2891s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (2891s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (2891s)
+
+[09-14 21:17]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (2591s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (2591s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (2591s)
+
+[09-14 21:22]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎 ; 20:44 Eric Nam - Good For You
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (2291s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (2291s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (2291s)
+
+[09-14 21:27]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (1990s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (1990s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (1990s)
+
+[09-14 21:32]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (1690s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (1690s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (1690s)
+
+[09-14 21:37]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (1389s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (1389s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (1389s)
+
+[09-14 21:42]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (1089s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (1089s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (1089s)
+
+[09-14 21:47]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (788s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (788s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (788s)
+
+[09-14 21:52]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫 ; 20:48 魏如萱 - 你還是你嗎
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (489s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (489s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (489s)
+
+[09-14 21:57]
+  family977  ERROR HTTPError: HTTP Error 403: Forbidden
+  mradio     09/14(一) 21:53 鄧紫棋 - 情人 ; 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫
+  kiss KISS    unparsed: 2026/09/14 21:02&nbsp;&nbsp;&nbsp; Meghan Trainor - To The Moon 2026/09/14 21:06&nbsp;&nbsp;&nbsp; a-ha - I&#39;m In 2026/09/14 21:14&nb
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 娛樂E世代 21:00~22:00 DJ:吳建恆  (188s) ; 中廣音樂網: 音樂放不完 21:00~22:00 DJ: (188s) ; 中廣新聞網: 聽醫生的話(重) 21:00~22:00 DJ:李雅媛 (188s)
+
+[09-14 22:02]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 21:53 鄧紫棋 - 情人 ; 21:26 范安婷 - 跑不過人家 ; 20:54 陳芳語 - 我不浪漫
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 --> $('html, body').animate({ scrollTop: $('#ad').offset().top }, 1000); 
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (3428s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (3428s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (3428s)
+
+[09-14 22:08]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:07 J Hall 這好樂團 - 兩人之間的秘密 ; 21:53 鄧紫棋 - 情人 ; 21:26 范安婷 - 跑不過人家
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 --> $('html, body').animate({ scrollTop: $('#ad')
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (3127s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (3127s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (3127s)
+
+[09-14 22:13]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:11 吳亦凡 - Like That ; 22:07 J Hall 這好樂團 - 兩人之間的秘密 ; 21:53 鄧紫棋 - 情人
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (2826s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (2826s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (2826s)
+
+[09-14 22:18]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:15 旺福 - 搖滾阿伯 ; 22:11 吳亦凡 - Like That ; 22:07 J Hall 這好樂團 - 兩人之間的秘密
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (2526s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (2526s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (2526s)
+
+[09-14 22:23]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:15 旺福 - 搖滾阿伯 ; 22:11 吳亦凡 - Like That ; 22:07 J Hall 這好樂團 - 兩人之間的秘密
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (2226s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (2226s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (2226s)
+
+[09-14 22:28]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:27 BTOB - 不會結束的(Melody) ; 22:24 柏霖 - 崩壞 ; 22:15 旺福 - 搖滾阿伯
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (1925s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (1925s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (1925s)
+
+[09-14 22:33]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:32 潘裕文 - 永不結束的馬拉松 ; 22:27 BTOB - 不會結束的(Melody) ; 22:24 柏霖 - 崩壞
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (1625s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (1625s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (1625s)
+
+[09-14 22:38]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:36 大S 徐熙媛 - 鑽石 ; 22:32 潘裕文 - 永不結束的馬拉松 ; 22:27 BTOB - 不會結束的(Melody)
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (1324s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (1324s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (1324s)
+
+[09-14 22:43]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:41 Che'Nelle 香奈兒 - 這樣就很好了 ; 22:36 大S 徐熙媛 - 鑽石 ; 22:32 潘裕文 - 永不結束的馬拉松
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (1024s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (1024s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (1024s)
+
+[09-14 22:48]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:46 FEniX - Not Alone ; 22:41 Che'Nelle 香奈兒 - 這樣就很好了 ; 22:36 大S 徐熙媛 - 鑽石
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (723s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (723s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (723s)
+
+[09-14 22:53]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:53 Ozi - SWIRL：Editor's Notes ; 22:49 方大同 - 黑白灰 ; 22:46 FEniX - Not Alone
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (362s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (362s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (362s)
+
+[09-14 22:59]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:54 Kylie Minogue 凱莉米洛 - I Was Gonna Cancel 差點取消 ; 22:53 Ozi - SWIRL：Editor's Notes ; 22:49 方大同 - 黑白灰
+  kiss KISS    unparsed: 2026/09/14 22:02&nbsp;&nbsp;&nbsp; 曾昱嘉 - 看破 2026/09/14 22:04&nbsp;&nbsp;&nbsp; 李宇春 - 舞 2026/09/14 22:10&nbsp;&nbsp;&nbsp; 周華健 - Love Hot
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 22:00~23:00 DJ:豆子 (62s) ; 中廣音樂網: 匯流i古典 台灣最美麗的聲音 22:00~23:00 DJ:吳毓庭 (62s) ; 中廣新聞網: 千秋萬事(重) 22:00~23:00 DJ:王淺秋 (62s)
+
+[09-14 23:04]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 22:54 Kylie Minogue 凱莉米洛 - I Was Gonna Cancel 差點取消 ; 22:53 Ozi - SWIRL：Editor's Notes ; 22:49 方大同 - 黑白灰
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) --> $('html, body').animate({ scrollTop: $('#ad').offset().top }, 1000); 
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (3362s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (3362s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (3362s)
+
+[09-14 23:09]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:06 SKY-HI / STAMP - Don't Worry Baby Be Happy ; 22:54 Kylie Minogue 凱莉米洛 - I Was Gonna Cancel 差點取消 ; 22:53 Ozi - SWIRL：Editor's Notes
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 --> $('html, body').animate({ scro
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (3062s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (3062s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (3062s)
+
+[09-14 23:14]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:12 蔡家蓁 / 浩角翔起 - 卡緊咧 ; 23:10 安吉 - 我們的天空 ; 23:06 SKY-HI / STAMP - Don't Worry Baby Be Happy
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (2760s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (2760s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (2760s)
+
+[09-14 23:19]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:16 楊培安 - 最短的愛情 ; 23:12 蔡家蓁 / 浩角翔起 - 卡緊咧 ; 23:10 安吉 - 我們的天空
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (2461s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (2461s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (2461s)
+
+[09-14 23:24]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:16 楊培安 - 最短的愛情 ; 23:12 蔡家蓁 / 浩角翔起 - 卡緊咧 ; 23:10 安吉 - 我們的天空
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (2160s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (2160s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (2160s)
+
+[09-14 23:29]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:29 MC Hotdog 熱狗 - Like Father Like Daughter ; 23:25 韋禮安 - 一天一天 ; 23:16 楊培安 - 最短的愛情
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (1860s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (1860s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (1860s)
+
+[09-14 23:34]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:32 A-Lin - 拿走了什麼 ; 23:29 MC Hotdog 熱狗 - Like Father Like Daughter ; 23:25 韋禮安 - 一天一天
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (1560s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (1560s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (1560s)
+
+[09-14 23:39]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:37 Zayn 贊恩 - Die For Me ; 23:32 A-Lin - 拿走了什麼 ; 23:29 MC Hotdog 熱狗 - Like Father Like Daughter
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (1259s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (1259s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (1259s)
+
+[09-14 23:44]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:43 秦基博 - GIRL ; 23:37 Zayn 贊恩 - Die For Me ; 23:32 A-Lin - 拿走了什麼
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (959s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (959s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (959s)
+
+[09-14 23:50]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:48 LaDY - 匍匐 ; 23:43 秦基博 - GIRL ; 23:37 Zayn 贊恩 - Die For Me
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (598s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (598s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (598s)
+
+[09-14 23:55]
+  family977  Startime=19:50:26 | title=卡爾.簡金斯 Karl Jenkins：迎主曲 The Armed Man - A Mass For Peace - Benedictus | composer= | artist=丹尼爾.霍普 Daniel Hope(小提琴)、賈克.艾蒙 Jacques Ammon(鋼琴)、西蒙.哈塞 | album=UNKNOWN | duration=00:05:00
+  mradio     09/14(一) 23:51 周興哲 - 殼 ; 23:48 LaDY - 匍匐 ; 23:43 秦基博 - GIRL
+  kiss KISS    unparsed: 2026/09/14 23:02&nbsp;&nbsp;&nbsp; 蔡健雅 - It&#39;s True(國) 2026/09/14 23:06&nbsp;&nbsp;&nbsp; 杜德偉 - 束縛 2026/09/14 23:12&nbsp;&nbsp;&nbsp;
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: Midnight You and Me 23:00~00:00 DJ:豆子 (297s) ; 中廣音樂網: 匯流i古典 台灣古典風情 23:00~00:00 DJ:吳毓庭 (297s) ; 中廣新聞網: 中廣論壇(重) 23:00~00:00 DJ:評論員 (297s)
+
+[09-15 00:00]
+  family977  ERROR HTTPError: HTTP Error 403: Forbidden
+  mradio     09/15(二) 
+  kiss KISS    no record for this hour
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (3597s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (3597s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (7197s)
+
+[09-15 00:05]
+  family977  Startime=00:00:20 | title=第32號鋼琴奏鳴曲, 作品111: 第2樂章 | composer=BEETHOVEN, Ludwig van貝多芬 | artist=巴倫波因Daniel Barenboim(鋼琴) /  / | album= | duration=00:19:25
+  mradio     09/15(二) 
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 --> $('html, body').animate({ scrollTop: $('#ad').offset().top }, 1000); 
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (3297s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (3297s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (6897s)
+
+[09-15 00:10]
+  family977  Startime=00:00:20 | title=第32號鋼琴奏鳴曲, 作品111: 第2樂章 | composer=BEETHOVEN, Ludwig van貝多芬 | artist=巴倫波因Daniel Barenboim(鋼琴) /  / | album= | duration=00:19:25
+  mradio     09/15(二) 00:05 張三李四 / 林柏昇 KID - 一人一半
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) --> $('html, body').anim
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (2996s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (2996s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (6596s)
+
+[09-15 00:15]
+  family977  Startime=00:00:20 | title=第32號鋼琴奏鳴曲, 作品111: 第2樂章 | composer=BEETHOVEN, Ludwig van貝多芬 | artist=巴倫波因Daniel Barenboim(鋼琴) /  / | album= | duration=00:19:25
+  mradio     09/15(二) 00:14 黃明志 / AMOi-AMOi - 買包包換鮑鮑 ; 00:11 Marz23 - 觀自在 ; 00:05 張三李四 / 林柏昇 KID - 一人一半
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (2696s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (2696s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (6296s)
+
+[09-15 00:20]
+  family977  Startime=00:19:46 | title=9首貝多芬交響曲Symphonies de Beethoven (9), transcription for piano, S. 464-2: 第2號 | composer=LISZT, Franz李斯特 | artist=卡薩里斯Cyprien Katsaris(鋼琴) /  / | album= | duration=00:03:38
+  mradio     09/15(二) 00:18 郭采潔 - 都是你 ; 00:14 黃明志 / AMOi-AMOi - 買包包換鮑鮑 ; 00:11 Marz23 - 觀自在
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (2396s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (2396s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (5996s)
+
+[09-15 00:25]
+  family977  ERROR HTTPError: HTTP Error 403: Forbidden
+  mradio     09/15(二) 00:18 郭采潔 - 都是你 ; 00:14 黃明志 / AMOi-AMOi - 買包包換鮑鮑 ; 00:11 Marz23 - 觀自在
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (2094s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (2094s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (5694s)
+
+[09-15 00:30]
+  family977  Startime=00:28:50 | title=第7號波蘭舞曲-幻想波蘭舞曲Polonaise-fantasy for piano No. 7 in A flat major, 作品61: | composer=CHOPIN, Frédéric蕭邦 | artist=喬治.季弗拉György Cziffra(鋼琴) /  / | album= | duration=00:12:01
+  mradio     09/15(二) 00:29 Beyonce 碧昂絲 - Grown Woman ; 00:26 吳蓓雅 / 周自從 - 牽手去分手 ; 00:18 郭采潔 - 都是你
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (1795s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (1795s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (5395s)
+
+[09-15 00:35]
+  family977  Startime=00:28:50 | title=第7號波蘭舞曲-幻想波蘭舞曲Polonaise-fantasy for piano No. 7 in A flat major, 作品61: | composer=CHOPIN, Frédéric蕭邦 | artist=喬治.季弗拉György Cziffra(鋼琴) /  / | album= | duration=00:12:01
+  mradio     09/15(二) 00:34 NCT DREAM - Beat It Up ; 00:29 Beyonce 碧昂絲 - Grown Woman ; 00:26 吳蓓雅 / 周自從 - 牽手去分手
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (1494s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (1494s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (5094s)
+
+[09-15 00:40]
+  family977  Startime=00:28:50 | title=第7號波蘭舞曲-幻想波蘭舞曲Polonaise-fantasy for piano No. 7 in A flat major, 作品61: | composer=CHOPIN, Frédéric蕭邦 | artist=喬治.季弗拉György Cziffra(鋼琴) /  / | album= | duration=00:12:01
+  mradio     09/15(二) 00:34 NCT DREAM - Beat It Up ; 00:29 Beyonce 碧昂絲 - Grown Woman ; 00:26 吳蓓雅 / 周自從 - 牽手去分手
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (1194s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (1194s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (4794s)
+
+[09-15 00:45]
+  family977  Startime=00:41:02 | title=第21號鋼琴奏鳴曲, D960: 第4樂章 | composer=SCHUBERT, Franz舒伯特 | artist=柯瓦謝維契Stephen Kovacevich(鋼琴) /  / | album= | duration=00:07:56
+  mradio     09/15(二) 00:44 Becky♪♯ - 旅程 ; 00:41 T.O.P 崔勝鉉 - A SMALL, FILTHY SHOW WINDOW ; 00:34 NCT DREAM - Beat It Up
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (893s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (893s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (4493s)
+
+[09-15 00:51]
+  family977  Startime=00:48:58 | title=森林情景Waldszenen (Forest Scenes), for piano, Op. 82, 作品82-7: 7. 預言鳥Vogel als Prophet, Langsam, sehr zart | composer=SCHUMANN, Robert舒曼 | artist=李希特Sviatoslav Richter(鋼琴) /  / | album= | duration=00:02:43
+  mradio     09/15(二) 00:50 邰正宵 - 情難枕 ; 00:48 Andr - 沒有如果 ; 00:44 Becky♪♯ - 旅程
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (573s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (573s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (4173s)
+
+[09-15 00:56]
+  family977  Startime=00:51:42 | title=第8號鋼琴奏鳴曲-悲愴Piano Sonata No. 8 in C minor ("Pathétique"), Op. 13, 作品13: 第1樂章 | composer=BEETHOVEN, Ludwig van貝多芬 | artist=巴佛傑Jean-Efflam Bavouzet(鋼琴) /  / | album=貝多芬：鋼琴奏鳴曲第一集 | duration=00:08:34
+  mradio     09/15(二) 00:55 容祖兒 - 霧裡看花 ; 00:50 邰正宵 - 情難枕 ; 00:48 Andr - 沒有如果
+  kiss KISS    unparsed: 2026/09/15 00:02&nbsp;&nbsp;&nbsp;小宇 宋念宇 - 一顆蘋果 2026/09/15 00:06&nbsp;&nbsp;&nbsp;原子邦妮 - Yalu,#imissyousobad(國) 2026/09/15 00:14&nbsp;&n
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 宅爾摩斯的萬事屋 00:00~01:00 DJ:徵信社阿宅-謝智博 (272s) ; 中廣音樂網: 音樂放不完 00:00~01:00 DJ: (272s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (3872s)
+
+[09-15 01:01]
+  family977  Startime=01:00:20 | title=我, : | composer= | artist=李閏珉 Yiruma /  / | album=初戀 | duration=00:04:15
+  mradio     09/15(二) 00:55 容祖兒 - 霧裡看花 ; 00:50 邰正宵 - 情難枕 ; 00:48 Andr - 沒有如果
+  kiss KISS    no record for this hour
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 蘭萱時間(重) 01:00~02:00 DJ:蘭萱 (3572s) ; 中廣音樂網: 音樂放不完 01:00~02:00 DJ: (3572s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (3572s)
+
+[09-15 01:06]
+  family977  Startime=01:04:36 | title=只為你的雙眸, : | composer= | artist=科萊倫樂團 /  / | album=永恆的星空 | duration=00:03:46
+  mradio     09/15(二) 00:55 容祖兒 - 霧裡看花 ; 00:50 邰正宵 - 情難枕 ; 00:48 Andr - 沒有如果
+  kiss KISS    unparsed: 2026/09/15 01:02&nbsp;&nbsp;&nbsp;陳冠宇 - 香香 2026/09/15 01:06&nbsp;&nbsp;&nbsp;任家萱(Selina) - 重作一個夢 --> $('html, body').animate({ scrollTop
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 蘭萱時間(重) 01:00~02:00 DJ:蘭萱 (3272s) ; 中廣音樂網: 音樂放不完 01:00~02:00 DJ: (3272s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (3272s)
+
+[09-15 01:11]
+  family977  Startime=01:08:22 | title=綠袖子, : | composer= | artist=游學志 /  / | album=陶笛奇遇記 | duration=00:03:55
+  mradio     09/15(二) 00:55 容祖兒 - 霧裡看花 ; 00:50 邰正宵 - 情難枕 ; 00:48 Andr - 沒有如果
+  kiss KISS    unparsed: 2026/09/15 01:02&nbsp;&nbsp;&nbsp;陳冠宇 - 香香 2026/09/15 01:06&nbsp;&nbsp;&nbsp;任家萱(Selina) - 重作一個夢 --> $('html, body').animate({ scrollTop
+  kiss TAINAN  no record for this hour
+  kiss NANTOU  no record for this hour
+  kiss MIAOLI  no record for this hour
+  bcc        中廣流行網: 蘭萱時間(重) 01:00~02:00 DJ:蘭萱 (2972s) ; 中廣音樂網: 音樂放不完 01:00~02:00 DJ: (2972s) ; 中廣新聞網: 午夜劇場  00:00~02:00 DJ: (2972s)
+
+65 passes
