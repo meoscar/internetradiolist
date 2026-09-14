@@ -27,13 +27,19 @@ jobs:
         run: |
           mkdir -p probes
           { echo "Probed $(date -u '+%Y-%m-%d %H:%M UTC') from GitHub's network"; echo;
-            python3 probe_icrt_icy.py https://stream.rcs.revma.com/nkdfurztxp3vv 240; } | tee probes/icrt_icy.txt
+            python3 probe_icrt_icy.py https://stream.rcs.revma.com/nkdfurztxp3vv 60; } | tee probes/icrt_icy.txt
           cat probes/icrt_icy.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep a copy of the music log page too
+        run: |
+          curl -sL -m 30 -A "Mozilla/5.0 (Android) icrtradio-catalogue" \
+            "https://www.icrt.com.tw/music_log.php?&mlevel1=12&mlevel2=33" \
+            | head -c 60000 > probes/icrt_music_log.html || true
+          echo "music log: $(wc -c < probes/icrt_music_log.html) bytes" | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Keep the answer
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add probes/icrt_icy.txt
+          git add probes/icrt_icy.txt probes/icrt_music_log.html
           git commit -q -m "What ICRT's stream said for four minutes" || exit 0
           git pull -q --rebase origin main
           git push -q origin HEAD:main
