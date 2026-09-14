@@ -50,6 +50,7 @@ except Exception:                                  # noqa: BLE001
 DIRECTORY = "directory.json"
 LOGO_INDEX = "logos.json"
 FACTS = "station_facts.json"
+TAIWAN = "taiwan.json"
 OUT_DIR = pathlib.Path("logos")
 SIZE = 256
 TIMEOUT = 20
@@ -284,6 +285,14 @@ def main(argv):
         return 1
 
     stations = json.loads(path.read_text(encoding="utf-8"))
+
+    # Taiwan's stations are kept by hand rather than crawled, and their
+    # homepages are as good a place to ask for a logo as anyone's.
+    taiwan_path = pathlib.Path(TAIWAN)
+    if taiwan_path.exists():
+        stations += [{"name": s.get("name", ""), "stream": s.get("stream", ""),
+                      "homepage": s.get("homepage", "")}
+                     for s in json.loads(taiwan_path.read_text(encoding="utf-8"))]
 
     # Two sources, in order of how much they can be trusted. The directory's
     # homepage field is the station's own site as the listing has it. For the

@@ -31,6 +31,7 @@ FACTS = "station_facts.json"
 HEALTH = "health.json"
 LOGOS = "logos.json"
 CATALOGUE = "music_worldradio.json"
+TAIWAN = "taiwan.json"
 
 # Every row must carry an image, and this is what a station with no logo gets.
 #
@@ -502,6 +503,30 @@ def main(argv):
             icrt = dict(icrt, image=logo)
         music.append(icrt)
         print("ICRT carried over" + (" with its logo\n" if logo else " unchanged\n"))
+
+    # Taiwan's stations, kept by hand in taiwan.json (see taiwan.py) because
+    # the directory this catalogue is crawled from lists one. Under the same
+    # heading as ICRT, after it, in the order the list keeps; only the
+    # health check can take one out, the same way it takes out any other.
+    taiwan = [s for s in load(TAIWAN, []) if s.get("stream") and s["stream"] not in condemned]
+    for track, station in enumerate(taiwan, len(music) + 1):
+        favicon = station.get("favicon") or ""
+        image = (logo_for(station["stream"], station["name"])
+                 or (favicon if favicon.lower().split("?")[0].endswith((".png", ".jpg", ".jpeg", ".webp")) else "")
+                 or PLACEHOLDER)
+        music.append(row(
+            title=station["name"],
+            genre="TAIWAN",
+            source=station["stream"],
+            image=image,
+            site="",
+            track=track,
+            station_id=station["stream"],
+            tags=station.get("tags") or (),
+            homepage=station.get("homepage") or "",
+        ))
+    if taiwan:
+        print(f"{len(taiwan)} stations in Taiwan from {TAIWAN}\n")
 
     for genre in sorted(by_genre):
         stations = sorted(by_genre[genre],

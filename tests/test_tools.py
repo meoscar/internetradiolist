@@ -110,6 +110,15 @@ class CheckStations(InAWorkingDir):
         self.quietly(check_stations.main)
         self.assertEqual([m["title"] for m in self.read("music.json")["music"]], ["Alive"])
 
+    def test_an_hls_playlist_is_a_live_stream_though_it_is_short(self):
+        playlist = b"#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=128000\nchunklist.m3u8\n"
+        self.assertEqual(check_stations.verdict("application/vnd.apple.mpegurl", playlist), (True, "hls playlist"))
+        self.assertEqual(check_stations.verdict("text/plain", b"  \n#EXTM3U\n"), (True, "hls playlist"))
+        self.assertEqual(check_stations.verdict("audio/mpeg", b"a" * 4096), (True, "audio/mpeg"))
+        self.assertEqual(check_stations.verdict("", b"a" * 4096), (True, "ok"))
+        self.assertEqual(check_stations.verdict("audio/mpeg", b"a" * 10), (False, "only 10 bytes"))
+        self.assertEqual(check_stations.verdict("text/html", b"<html>" * 1000), (False, "served text/html, not audio"))
+
     def test_the_probe_reads_a_stream_and_not_a_page(self):
         class Response:
             def __init__(self, body, kind): self.body, self.headers = body, {"Content-Type": kind}

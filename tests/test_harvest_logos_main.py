@@ -50,6 +50,16 @@ class HarvestMain(unittest.TestCase):
             {"name": "Silent FM", "stream": "http://c/stream"},
         ])
 
+    def test_taiwans_stations_are_asked_too_when_the_list_is_here(self):
+        self.directory()
+        self.write("taiwan.json", [
+            {"name": "臺北電台", "stream": "https://tpe/live.m3u8", "homepage": "https://www.radio.gov.taipei/"},
+            {"name": "無家", "stream": "https://nohome/live.m3u8", "homepage": ""},
+        ])
+        self.run_main()
+        self.assertIn("臺北電台", self.asked)
+        self.assertNotIn("無家", self.asked)
+
     def test_without_a_directory_it_says_so_and_stops(self):
         code, out = self.run_main()
         self.assertEqual(code, 1)

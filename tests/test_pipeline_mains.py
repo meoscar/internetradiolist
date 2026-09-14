@@ -107,6 +107,32 @@ class BuildCatalogue(InAWorkingDir):
         self.assertTrue(any(r["genre"] == "On Trend" for r in music))
         self.assertEqual(next(r for r in music if r["genre"] == "On Trend")["title"], "Blue Coast FM")
 
+    def test_taiwans_stations_follow_icrt_under_the_same_heading_unless_the_health_check_retired_them(self):
+        self.write("taiwan.json", [
+            {"name": "臺北電台", "stream": "https://tpe/live.m3u8", "homepage": "https://www.radio.gov.taipei/",
+             "favicon": "https://www.radio.gov.taipei/favicon.png", "tags": ["news"], "votes": 4000, "codec": "AAC", "hls": True},
+            {"name": "大千電台", "stream": "http://dachien/stream", "homepage": "", "favicon": "https://d/i.ico",
+             "tags": [], "votes": 100, "codec": "MP3", "hls": False},
+            {"name": "已停播", "stream": "http://gone/stream", "homepage": "", "favicon": "", "tags": [], "votes": 5,
+             "codec": "MP3", "hls": False},
+        ])
+        health = self.read("health.json")
+        health["http://gone/stream"] = {"consecutive_failures": 3}
+        self.write("health.json", health)
+        code, out = self.quietly(bc.main, ["build_catalogue.py", "--apply"])
+        self.assertEqual(code, 0)
+        music = self.read("music_worldradio.json")["music"]
+        taiwan = [r for r in music if r["genre"] == "TAIWAN"]
+        self.assertEqual([r["title"] for r in taiwan], ["ICRT", "臺北電台", "大千電台"])
+        self.assertEqual([r["trackNumber"] for r in taiwan[1:]], [2, 3])
+        tpe = taiwan[1]
+        self.assertEqual((tpe["id"], tpe["source"]), ("https://tpe/live.m3u8", "https://tpe/live.m3u8"))
+        self.assertEqual(tpe["image"], "https://www.radio.gov.taipei/favicon.png")   # a picture, not an .ico
+        self.assertEqual(taiwan[2]["image"], bc.PLACEHOLDER)
+        self.assertEqual((tpe["homepage"], tpe["tags"], tpe["site"]), ("https://www.radio.gov.taipei/", ["news"], ""))
+        self.assertNotIn("listeners", tpe)                                          # votes are not an audience
+        self.assertIn("2 stations in Taiwan", out)
+
     def test_no_facts_means_nothing_to_build_from(self):
         pathlib.Path("station_facts.json").unlink()
         code, out = self.quietly(bc.main, ["build_catalogue.py"])

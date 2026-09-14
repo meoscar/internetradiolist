@@ -20,8 +20,9 @@ What it measures per stream:
     nothing      plays, names nothing
 
 It writes probes/taiwan.txt (the summary, and every station with what it
-answered) and probes/taiwan_radio_browser.json (the rows as they came, so a
-merge can be planned from data rather than re-fetched). Nothing else changes.
+answered), probes/taiwan_radio_browser.json (the rows as they came) and
+probes/taiwan_streams.json (what each stream answered, by address), which
+taiwan.py reads to build the hand-kept list. Nothing else changes.
 
 Radio Browser's licence for the directory itself is not verified here; the
 numbers say what is technically possible, not what may be shipped.
@@ -123,6 +124,9 @@ def main():
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
         results = list(pool.map(probe, rows))
+    with open("probes/taiwan_streams.json", "w", encoding="utf-8") as f:
+        json.dump({r["url"]: {k: r[k] for k in ("reachable", "hls", "icy", "status", "content_type")}
+                   for r in results if r["url"]}, f, ensure_ascii=False, indent=1)
 
     total = len(results)
     reachable = [r for r in results if r["reachable"]]

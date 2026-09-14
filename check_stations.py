@@ -53,18 +53,30 @@ def items_of(doc):
     return []
 
 
+def verdict(kind: str, body: bytes) -> tuple[bool, str]:
+    """Whether what came back is a live stream.
+
+    An HLS playlist is one: a few hundred bytes of text naming the segments,
+    which is how Taiwan's broadcasters stream and would otherwise fail the
+    size test three weeks running and be dropped as dead.
+    """
+    if body.lstrip().startswith(b"#EXTM3U"):
+        return True, "hls playlist"
+    if len(body) < 1024:
+        return False, f"only {len(body)} bytes"
+    if kind.startswith("text/"):
+        return False, f"served {kind}, not audio"
+    return True, kind or "ok"
+
+
 def probe(url: str) -> tuple[str, bool, str]:
-    """True when the URL delivers audio bytes rather than an error or nothing."""
+    """True when the URL delivers audio bytes, or a playlist, rather than an error or nothing."""
     request = urllib.request.Request(url, headers={"User-Agent": UA})
     try:
         with urllib.request.urlopen(request, timeout=CONNECT_TIMEOUT) as response:
             body = response.read(BYTES_WANTED)
             kind = response.headers.get("Content-Type", "")
-            if len(body) < 1024:
-                return url, False, f"only {len(body)} bytes"
-            if kind.startswith("text/"):
-                return url, False, f"served {kind}, not audio"
-            return url, True, kind or "ok"
+            return url, *verdict(kind, body)
     except Exception as exc:                       # noqa: BLE001 - report, never raise
         return url, False, f"{type(exc).__name__}: {exc}"
 
