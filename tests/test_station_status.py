@@ -67,5 +67,51 @@ class ListenersOf(unittest.TestCase):
         self.assertIsNone(station_status._fetch("http://127.0.0.1:1/never"))
 
 
+class Titles(unittest.TestCase):
+    """The record on, from the same three documents that carry the count."""
+
+    def test_icecast_names_the_record_on_its_busiest_mount(self):
+        body = json.dumps({"icestats": {"source": [
+            {"listeners": 3, "title": "Chic - Le Freak"},
+            {"listeners": 40, "yp_currently_playing": "Toto - Africa"},
+            {"listeners": 900, "title": "12345"}]}}).encode()
+        self.assertEqual(station_status._icecast_title(body), "Toto - Africa")
+        one = json.dumps({"icestats": {"source": {"title": "Chic - Le Freak"}}}).encode()
+        self.assertEqual(station_status._icecast_title(one), "Chic - Le Freak")
+        self.assertIsNone(station_status._icecast_title(b"<html>"))
+        self.assertIsNone(station_status._icecast_title(json.dumps({"icestats": {}}).encode()))
+
+    def test_shoutcast_v2_and_v1_name_the_record_and_never_a_number(self):
+        self.assertEqual(station_status._shoutcast_v2_title(b'{"songtitle": " Toto - Africa "}'), "Toto - Africa")
+        self.assertIsNone(station_status._shoutcast_v2_title(b'{"songtitle": "128"}'))
+        self.assertIsNone(station_status._shoutcast_v2_title(b"nope"))
+        self.assertEqual(station_status._shoutcast_v1_title(b"<html><body>12,1,40,100,10,128,Toto - Africa, Live</body></html>"),
+                         "Toto - Africa, Live")
+        self.assertIsNone(station_status._shoutcast_v1_title(b"12,1,40,100,10,128,128"))
+        self.assertIsNone(station_status._shoutcast_v1_title(b"Not Found"))
+
+    def test_status_of_answers_both_questions_from_the_first_document_that_speaks(self):
+        answers = {
+            "http://a/status-json.xsl": json.dumps({"icestats": {"source": {"listeners": 7, "title": "Toto - Africa"}}}).encode(),
+            "http://b/status-json.xsl": None,
+            "http://b/stats?json=1": b'{"currentlisteners": 3, "songtitle": "Chic - Le Freak"}',
+            "http://c/status-json.xsl": None, "http://c/stats?json=1": None,
+            "http://c/7.html": b"9,1,40,100,10,128,Adele - Hello",
+            "http://d/status-json.xsl": None, "http://d/stats?json=1": None, "http://d/7.html": None,
+        }
+        original = station_status._fetch
+        station_status._fetch = lambda url, limit=0: answers.get(url)
+        try:
+            self.assertEqual(station_status.status_of("http://a/stream"), {"listeners": 7, "title": "Toto - Africa", "via": "icecast"})
+            self.assertEqual(station_status.status_of("http://b/stream"), {"listeners": 3, "title": "Chic - Le Freak", "via": "shoutcast"})
+            self.assertEqual(station_status.status_of("http://c/stream"), {"listeners": 9, "title": "Adele - Hello", "via": "shoutcast"})
+            self.assertEqual(station_status.status_of("http://d/stream"), {"listeners": None, "title": None, "via": None})
+            self.assertEqual(station_status.title_of("http://c/stream"), "Adele - Hello")
+            self.assertEqual(station_status.listeners_of("http://a/stream"), 7)
+            self.assertEqual(station_status.status_of("not a url")["via"], None)
+        finally:
+            station_status._fetch = original
+
+
 if __name__ == "__main__":
     unittest.main()

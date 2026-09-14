@@ -48,3 +48,56 @@ class Busiest(unittest.TestCase):
         directory = [{"stream": "http://b/stream", "listeners": 300}, {"stream": "http://c/stream", "listeners": 20}]
         rows = live_now.busiest_stations(by_source, directory, 2)
         self.assertEqual([r["title"] for r in rows], ["b", "c"])
+
+
+class SilentStations(unittest.TestCase):
+    by_source = {
+        "http://a/stream": {"source": "http://a/stream", "title": "A"},
+        "http://b/stream": {"source": "http://b/stream", "title": "B"},
+        "http://c/stream": {"source": "http://c/stream", "title": "C"},
+        "http://d/stream": {"source": "http://d/stream", "title": "D"},
+    }
+    directory = [{"stream": "http://a/stream", "listeners": 900}, {"stream": "http://b/stream", "listeners": 50},
+                 {"stream": "http://c/stream", "listeners": 200}, {"stream": "http://d/stream", "listeners": 5}]
+    facts = {"http://a/stream": {"icy-metaint": "16000"}, "http://b/stream": {"ok": True},
+             "http://c/stream": {"ok": True}, "http://d/stream": {}}
+
+    def test_the_stations_with_no_metadata_channel_are_asked_too_busiest_first_and_not_twice(self):
+        busiest = live_now.busiest_stations(self.by_source, self.directory, 1)
+        self.assertEqual([r["title"] for r in busiest], ["A"])
+        silent = live_now.silent_stations(self.by_source, self.directory, self.facts, 10, already=busiest)
+        self.assertEqual([r["title"] for r in silent], ["C", "B", "D"])
+        self.assertEqual([r["title"] for r in live_now.silent_stations(self.by_source, self.directory, self.facts, 1)], ["C"])
+        self.assertEqual(live_now.silent_stations(self.by_source, self.directory, {}, 10), [])
+
+
+class Interrogate(unittest.TestCase):
+    def setUp(self):
+        self.icy, self.status = live_now.harvest_icy.interrogate, live_now.station_status.status_of
+
+    def tearDown(self):
+        live_now.harvest_icy.interrogate, live_now.station_status.status_of = self.icy, self.status
+
+    def test_the_streams_word_first_and_the_status_document_where_the_stream_is_silent(self):
+        live_now.harvest_icy.interrogate = lambda url: {
+            "http://a/stream": {"ok": True, "stream_title": "Toto - Africa"},
+            "http://b/stream": {"ok": True, "stream_title": ""},
+            "http://c/stream": {"ok": False},
+            "http://d/stream": {"ok": True, "stream_title": ""},
+        }[url]
+        live_now.station_status.status_of = lambda url: {
+            "http://a/stream": {"listeners": 40, "title": "Chic - Le Freak", "via": "icecast"},
+            "http://b/stream": {"listeners": 3, "title": "Adele - Hello", "via": "shoutcast"},
+            "http://c/stream": {"listeners": None, "title": "Now Playing info goes here", "via": "shoutcast"},
+            "http://d/stream": {"listeners": 9, "title": None, "via": "icecast"},
+        }[url]
+        rows = [{"source": s, "id": s, "title": n} for s, n in
+                [("http://a/stream", "A"), ("http://b/stream", "B"), ("http://c/stream", "C"), ("http://d/stream", "D")]]
+        playing, counts = live_now.interrogate(rows)
+        self.assertEqual({p["id"]: p["track"] for p in playing},
+                         {"http://a/stream": "Toto - Africa", "http://b/stream": "Adele - Hello"})
+        self.assertEqual(counts, {"http://a/stream": 40, "http://b/stream": 3, "http://d/stream": 9})
+
+
+if __name__ == "__main__":
+    unittest.main()
