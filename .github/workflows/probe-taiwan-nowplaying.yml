@@ -1,0 +1,38 @@
+# Where Taiwan's broadcasters say what they are playing, if anywhere: their
+# sites, their scripts, the players they embed, and a longer listen to the
+# relay streams. Run from here because the sandbox cannot reach any of it.
+name: Probe where Taiwan's broadcasters name their track
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'probe_taiwan_nowplaying.py'
+      - '.github/workflows/probe-taiwan-nowplaying.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Ask each broadcaster's site, and listen to the relays
+        run: |
+          mkdir -p probes
+          { echo "Probed $(date -u '+%Y-%m-%d %H:%M UTC') from GitHub's network"; echo;
+            python3 probe_taiwan_nowplaying.py; } | tee probes/taiwan_nowplaying.txt
+          grep -c "words:" probes/taiwan_nowplaying.txt >> "$GITHUB_STEP_SUMMARY" || true
+      - name: Keep the answer
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probes/taiwan_nowplaying.txt
+          git commit -q -m "Where Taiwan's broadcasters name their track, measured" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
