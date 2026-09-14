@@ -421,7 +421,70 @@ def third_pass():
     return "\n".join(out)
 
 
+def fourth_pass():
+    """M Radio's API at the path its bundle builds; KISS's song list with its form filled in; the XML again."""
+    out = ["=== M Radio: the recent-songs call, at the address the bundle builds"]
+    for url in ("https://api.mradio.tw/api/song/get-recent-songs?nocache=1789474000000",
+                "https://api.mradio.tw/api/song/get-recent-songs"):
+        status, kind, raw = fetch_bytes(url, headers={"Origin": "https://www.mradio.com.tw", "Referer": "https://www.mradio.com.tw/song-history"})
+        out.append(f"  GET {url} -> HTTP {status} {kind.split(';')[0]}: {decoded(raw)[:900]}")
+
+    out.append("\n=== KISS Radio: the song list form, and what it answers for each station")
+    status, kind, raw = fetch_bytes("https://www.kiss.com.tw/m/songlist.php")
+    page = decoded(raw)
+    for m in re.finditer(r"<form[^>]*>", page, re.I):
+        out.append(f"  form: {m.group(0)[:200]}")
+    for m in re.finditer(r"<select[^>]*name=[\"']([^\"']+)[\"'][^>]*>(.*?)</select>", page, re.I | re.S):
+        options = re.findall(r"<option[^>]*value=[\"']([^\"']*)[\"'][^>]*>([^<]*)", m.group(2))
+        out.append(f"  select {m.group(1)}: " + ", ".join(f"{v}={t.strip()}" for v, t in options[:12]))
+    for m in re.finditer(r"<input[^>]*name=[\"']([^\"']+)[\"'][^>]*>", page, re.I):
+        out.append(f"  input: {m.group(0)[:160]}")
+    selects = {m.group(1): re.findall(r"<option[^>]*value=[\"']([^\"']*)", m.group(2))
+               for m in re.finditer(r"<select[^>]*name=[\"']([^\"']+)[\"'][^>]*>(.*?)</select>", page, re.I | re.S)}
+    form = re.search(r"<form[^>]*action=[\"']([^\"']*)[\"'][^>]*method=[\"']?(\w+)", page, re.I) or \
+           re.search(r"<form[^>]*method=[\"']?(\w+)[^>]*action=[\"']([^\"']*)", page, re.I)
+    if selects:
+        # Today, this hour, for every station the form offers.
+        import datetime
+        now = datetime.datetime.utcnow() + datetime.timedelta(hours=8)
+        fields = {}
+        for name, values in selects.items():
+            low = name.lower()
+            if "year" in low or low.endswith("y"):
+                fields[name] = str(now.year)
+            elif "month" in low or low.endswith("m"):
+                fields[name] = f"{now.month:02d}"
+            elif "day" in low or low.endswith("d"):
+                fields[name] = f"{now.day:02d}"
+            elif "hour" in low or low.endswith("h"):
+                fields[name] = f"{now.hour:02d}"
+        station_field = next((n for n in selects if n not in fields), None)
+        out.append(f"  filled: {fields}, station field: {station_field}")
+        action = urllib.parse.urljoin("https://www.kiss.com.tw/m/songlist.php", (form.group(1) if form else "") or "songlist.php")
+        for value in (selects.get(station_field) or [""])[:5]:
+            query = dict(fields)
+            if station_field:
+                query[station_field] = value
+            data = urllib.parse.urlencode(query).encode()
+            status, kind, raw = fetch_bytes(action, "POST", data, {"Content-Type": "application/x-www-form-urlencoded",
+                                                                   "Referer": "https://www.kiss.com.tw/m/songlist.php"})
+            answer = text_of(decoded(raw), 500, after="播放時間")
+            out.append(f"  POST {station_field}={value}: HTTP {status}: {answer}")
+            status, kind, raw = fetch_bytes(action + "?" + urllib.parse.urlencode(query))
+            out.append(f"  GET  {station_field}={value}: HTTP {status}: {text_of(decoded(raw), 500, after='播放時間')}")
+    else:
+        out.append("  no select in the page; " + text_of(page, 300))
+
+    out.append("\n=== 古典音樂台 97.7: the XML again, a few minutes on")
+    status, kind, raw = fetch_bytes("https://www.family977.com.tw/toXML.xml?t=1789474900000")
+    out.append("  " + re.sub(r"\s+", " ", decoded(raw))[:700])
+    return "\n".join(out)
+
+
 def main():
+    print("The fourth pass\n")
+    print(fourth_pass())
+    print()
     print("The third pass: the sources, read as the app would read them\n")
     print(third_pass())
     print()
