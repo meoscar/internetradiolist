@@ -1,11 +1,11 @@
-Probed 2026-09-14 07:56 UTC from GitHub's network
+Probed 2026-09-14 08:01 UTC from GitHub's network
 
 Radio Browser (https://de1.api.radio-browser.info): 215 stations filed under TW, ordered by votes
   reachable now           189 (88%)
     HLS playlists          51 (24%)   play, no title in the stream
     ICY title              13 (6%)
-    status document        44 (20%)
-    plays, names nothing   81 (38%)
+    status document         0 (0%)
+    plays, names nothing  125 (58%)
   not reachable            26 (12%)
 
 codecs as filed: MP3 128, AAC 63, UNKNOWN 22, AAC,H.264 1, ? 1
@@ -69,7 +69,7 @@ every station, most voted first:
     172 votes  警察廣播電臺 - 全國治安交通網 FM 104.9               AAC   HLS, plays
     166 votes  屏東之聲廣播電台FM92.5                          MP3   plays, names nothing
     152 votes  中廣流行網                                   AAC   plays, names nothing
-    148 votes  大千電台                                    MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+    148 votes  大千電台                                    MP3   plays, names nothing
     146 votes  A-Line Radio                            UNKNOWN HLS, plays
     144 votes  竹塹廣播電台                                  MP3   plays, names nothing
     143 votes  世新廣播電台-1                                MP3   HLS, plays
@@ -78,7 +78,7 @@ every station, most voted first:
     142 votes  台中廣播                                    MP3   plays, names nothing
     142 votes  海峽之聲廣播電台                                UNKNOWN HLS, plays
     142 votes  教育廣播電臺-高雄分臺                             MP3   no answer
-    139 votes  台灣廣播 台北一台                               MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+    139 votes  台灣廣播 台北一台                               MP3   plays, names nothing
     139 votes  新竹好聽廣播電台                                UNKNOWN HLS, plays
     136 votes  Classical 古典音樂台 FM 97.7                 MP3   plays, names nothing
     134 votes  太陽電台                                    MP3   plays, names nothing
@@ -92,7 +92,7 @@ every station, most voted first:
     112 votes  正聲綜合                                    AAC   HLS, plays
     109 votes  1766線上電臺-百家知識                           MP3   ICY: 1766 Radio &#30334;&#23478;&#30693;&#35672;&#38971;&#36947; - &#3
     108 votes  凱旋廣播電台                                  MP3   plays, names nothing
-    106 votes  寶島客家廣播電台                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+    106 votes  寶島客家廣播電台                                MP3   plays, names nothing
     102 votes  新竹勞工之聲                                  UNKNOWN HLS, plays
     101 votes  教育廣播電臺-彰化分臺FM                           MP3   no answer
     100 votes  教育廣播電臺-臺東分臺FM-1                         MP3   no answer
@@ -109,87 +109,87 @@ every station, most voted first:
      89 votes  教育廣播電臺-花蓮分臺FM-2                         MP3   no answer
      86 votes  飛碟聯播網 飛碟電台                              AAC   plays, names nothing
      86 votes  1766線上電臺-百家知識                           MP3   ICY: 1766 Radio &#30334;&#23478;&#30693;&#35672;&#38971;&#36947; - &#3
-     86 votes  台灣廣播 中興台                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     85 votes  南方之音                                    MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     86 votes  台灣廣播 中興台                                MP3   plays, names nothing
+     85 votes  南方之音                                    MP3   plays, names nothing
      84 votes  世新廣播電台-2                                MP3   HLS, plays
      84 votes  飛碟聯播網 南台灣之聲                             AAC   plays, names nothing
      81 votes  微微笑廣播網 - 桃園風城廣播電台FM98.7                 MP3   no answer
      81 votes  福建東南廣播                                  UNKNOWN no answer
      81 votes  教育廣播電臺-臺東分臺FM-2                         MP3   no answer
      79 votes  教育廣播電臺-花蓮分臺FM-1                         MP3   no answer
-     79 votes  台灣廣播 台北二台                               MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     79 votes  台灣廣播 台北二台                               MP3   plays, names nothing
      79 votes  神州之聲                                    UNKNOWN HLS, plays
-     79 votes  台灣廣播 台中台                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     75 votes  嘉義之音                                    MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     79 votes  台灣廣播 台中台                                MP3   plays, names nothing
+     75 votes  嘉義之音                                    MP3   plays, names nothing
      75 votes  陽光電台                                    UNKNOWN HLS, plays
      75 votes  Boss Online Radio                       MP3   plays, names nothing
-     72 votes  勝利之聲AM756                               MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     72 votes  勝利之聲AM756                               MP3   plays, names nothing
      72 votes  NER教育電臺                                 MP3   no answer
      71 votes  M Radio 全國廣播                            AAC   plays, names nothing
      71 votes  飛揚調頻FM89.5                              AAC   plays, names nothing
      70 votes  AsiaFM 亞太電台                             AAC   plays, names nothing
      67 votes  Ai Radio TAIWAN 台灣AI電台                  AAC   plays, names nothing
      67 votes  警察廣播電臺 - 高雄分臺 FM 93.1                   AAC   HLS, plays
-     66 votes  桃園先聲廣播AM774                             MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     66 votes  好家庭廣播電台（Classical 台中古典音樂台）              MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     64 votes  大愛網路電台                                  MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     63 votes  正聲台北調幅台 AM819                           MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     66 votes  桃園先聲廣播AM774                             MP3   plays, names nothing
+     66 votes  好家庭廣播電台（Classical 台中古典音樂台）              MP3   plays, names nothing
+     64 votes  大愛網路電台                                  MP3   plays, names nothing
+     63 votes  正聲台北調幅台 AM819                           MP3   plays, names nothing
      63 votes  栗子的輕音樂                                  MP3   ICY: 久米由基 - Prelude
-     61 votes  勝利之聲台南2台AM1188                          MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     61 votes  勝利之聲台南2台AM1188                          MP3   plays, names nothing
      61 votes  新客家廣播電台                                 MP3   plays, names nothing
-     61 votes  新聲廣播FM99.3                              MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     59 votes  農鄉廣播電台                                  MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     61 votes  新聲廣播FM99.3                              MP3   plays, names nothing
+     59 votes  農鄉廣播電台                                  MP3   plays, names nothing
      59 votes  FM 90.5 大樹下電台                           MP3   no answer
-     59 votes  都會聲音FM99.7                              MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     59 votes  都會聲音FM99.7                              MP3   plays, names nothing
      58 votes  佳音音樂網                                   AAC   HLS, plays
      57 votes  大樹下 FM90.5                              MP3   no answer
      57 votes  上海麗都廣播電台 1940's Shanghai Vintage Jazz   MP3   ICY: 隽永金曲之二 20首四十至六十年代经典老歌480p
-     57 votes  濁水溪FM90.1                               MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     56 votes  台南建國廣播公司                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     57 votes  濁水溪FM90.1                               MP3   plays, names nothing
+     56 votes  台南建國廣播公司                                MP3   plays, names nothing
      56 votes  警察廣播電台 - 花蓮台                            AAC   HLS, plays
-     56 votes  雲端新廣播                                   MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     55 votes  天聲AM1314                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     56 votes  雲端新廣播                                   MP3   plays, names nothing
+     55 votes  天聲AM1314                                MP3   plays, names nothing
      53 votes  MCBS 銘傳廣播電台                             MP3   plays, names nothing
-     53 votes  台灣廣播 松嶺台                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     51 votes  彰化花園廣播電台                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     53 votes  台灣廣播 松嶺台                                MP3   plays, names nothing
+     51 votes  彰化花園廣播電台                                MP3   plays, names nothing
      49 votes  Radio ICRT                              AAC   plays, names nothing
-     48 votes  勝利之聲台南1台AM774                           MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     48 votes  每日廣播公司SAKURA RADIO                      MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     47 votes  燕聲AM1044                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     48 votes  勝利之聲台南1台AM774                           MP3   plays, names nothing
+     48 votes  每日廣播公司SAKURA RADIO                      MP3   plays, names nothing
+     47 votes  燕聲AM1044                                MP3   plays, names nothing
      47 votes  警察廣播電台 - 宜蘭台                            AAC   HLS, plays
      46 votes  飛碟聯播網 太魯閣之音                             AAC   no answer
-     46 votes  大漢之音                                    MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     44 votes  天聲AM1215                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     42 votes  彰化關懷電台                                  MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     46 votes  大漢之音                                    MP3   plays, names nothing
+     44 votes  天聲AM1215                                MP3   plays, names nothing
+     42 votes  彰化關懷電台                                  MP3   plays, names nothing
      42 votes  益世廣播電台                                  AAC   HLS, plays
      40 votes  環宇廣播電台                                  AAC   plays, names nothing
-     39 votes  燕聲AM1242                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     39 votes  資悠網路廣播實驗電台                              MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     39 votes  燕聲AM1242                                MP3   plays, names nothing
+     39 votes  資悠網路廣播實驗電台                              MP3   plays, names nothing
      38 votes  警察廣播電臺 - 臺中分臺 FM 94.5                   AAC   HLS, plays
-     38 votes  新竹之音                                    MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     37 votes  電聲電台                                    MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     38 votes  新竹之音                                    MP3   plays, names nothing
+     37 votes  電聲電台                                    MP3   plays, names nothing
      37 votes  城市廣播網-大苗栗廣播                             MP3   plays, names nothing
-     37 votes  苗栗客家文化廣播電台                              MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     37 votes  苗栗客家文化廣播電台                              MP3   plays, names nothing
      37 votes  電聲電台                                    MP3   plays, names nothing
      36 votes  城市廣播網-南投廣播                              MP3   plays, names nothing
-     36 votes  嘉義北回廣播電台                                MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     35 votes  先聲廣播電台 (基北桃竹苗)                          MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     36 votes  嘉義北回廣播電台                                MP3   plays, names nothing
+     35 votes  先聲廣播電台 (基北桃竹苗)                          MP3   plays, names nothing
      35 votes  飛碟聯播網 苗栗中港溪                             AAC   no answer
      34 votes  ICRT                                    AAC   plays, names nothing
      34 votes  高雄港都廣播                                  AAC   plays, names nothing
      33 votes  警察廣播電臺 - 新竹分臺 AM 1512                   AAC   HLS, plays
      33 votes  高雄廣播電台                                  AAC   plays, names nothing
-     31 votes  台灣廣播 大溪二台                               MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     31 votes  台灣廣播 大溪一台                               MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
-     30 votes  彰化國聲廣播AM1179                            MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     31 votes  台灣廣播 大溪二台                               MP3   plays, names nothing
+     31 votes  台灣廣播 大溪一台                               MP3   plays, names nothing
+     30 votes  彰化國聲廣播AM1179                            MP3   plays, names nothing
      30 votes  警察廣播電臺 - 臺南分臺 AM 1314                   AAC   HLS, plays
-     30 votes  Nei-Di's ACG Music                      MP3   ICY: 雨宮天 - 月灯り
+     30 votes  Nei-Di's ACG Music                      MP3   ICY: MICHI - Cry for the Truth
      30 votes  飛碟聯播網 澎湖社區電台                            AAC   no answer
      29 votes  漁業廣播電台                                  MP3   plays, names nothing
      29 votes  彰化花園廣播電台                                MP3   plays, names nothing
      28 votes  IC之音竹科廣播                                AAC   plays, names nothing
      26 votes  人人廣播電台                                  AAC   plays, names nothing
-     24 votes  彰化國聲廣播AM810                             MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     24 votes  彰化國聲廣播AM810                             MP3   plays, names nothing
      24 votes  飛碟聯播網 台東知本電台                            AAC   no answer
      23 votes  飛碟聯播網 雲嘉民生展望                            AAC   plays, names nothing
      23 votes  連花廣播電台                                  AAC   plays, names nothing
@@ -198,28 +198,28 @@ every station, most voted first:
      21 votes  警察廣播電臺 - 花蓮分臺 FM 94.3                   AAC   HLS, plays
      21 votes  Phate                                   MP3   plays, names nothing
      18 votes  高雄廣播電台AM1089                            AAC   plays, names nothing
-     18 votes  CanCheers                               MP3   ICY: 黃曉琪 - 14_音樂小確幸_第65集_04
+     18 votes  CanCheers                               MP3   ICY: 惠美 - 01_花花異世界_第55集_01
      16 votes  中廣鄉親網                                   AAC   plays, names nothing
      16 votes  警察廣播電臺 - 宜蘭分臺 FM 101.3                  AAC   HLS, plays
      16 votes  資悠網路廣播實驗電台                              MP3   no answer
      15 votes  神農廣播電台                                  AAC   plays, names nothing
-     15 votes  Abdulbasit Abdulsamad                   AAC   ICY: Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Az-Zumar - الزمر
+     15 votes  Abdulbasit Abdulsamad                   AAC   ICY: Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Al-Qamar - القمر
      13 votes  山海屯青少年之聲                                AAC   plays, names nothing
      11 votes  中廣 I GO                                 AAC   plays, names nothing
-     11 votes  天南AM999                                 MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     11 votes  天南AM999                                 MP3   plays, names nothing
      10 votes  曾文溪廣播電台                                 AAC   plays, names nothing
-     10 votes  華聲1台 AM1152                             MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+     10 votes  華聲1台 AM1152                             MP3   plays, names nothing
       9 votes  快樂聯播網                                   MP3   plays, names nothing
       9 votes  HappyRadio                              MP3   plays, names nothing
-      9 votes  華聲2台 AM1224                             MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+      9 votes  華聲2台 AM1224                             MP3   plays, names nothing
       9 votes  基隆輕鬆電台 Chillax Radio                    MP3   plays, names nothing
-      8 votes  Nei-Di's ACG Music                      MP3   ICY: 雨宮天 - 月灯り
+      8 votes  Nei-Di's ACG Music                      MP3   ICY: MICHI - Cry for the Truth
       7 votes  古都電台                                    AAC   plays, names nothing
       7 votes  BIG BIG MIX – 乐享音乐                      MP3   no answer
-      7 votes  栗子的輕音樂                                  MP3   ICY: 久米由基 - Prelude
-      6 votes  彰化靉友廣播電台 FM97.3                         MP3   status: ��d�N��D"2B�	XZ=j�[���@0��SB��N!�K�"mK���@!2��
+      7 votes  栗子的輕音樂                                  MP3   ICY: 風潮唱片 - 好風如水
+      6 votes  彰化靉友廣播電台 FM97.3                         MP3   plays, names nothing
       6 votes  講客廣播電台                                  AAC   plays, names nothing
-      6 votes  CanCheers                               MP3   ICY: 黃曉琪 - 14_音樂小確幸_第65集_04
+      6 votes  CanCheers                               MP3   ICY: 惠美 - 01_花花異世界_第55集_01
       4 votes  Boss Boss Radio                         MP3   plays, names nothing
       4 votes  Boss Online Radio                       MP3   plays, names nothing
       3 votes  FM96.9 主人電台                             MP3   no answer
