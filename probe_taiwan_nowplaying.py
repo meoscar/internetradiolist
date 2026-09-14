@@ -350,7 +350,81 @@ def closer_look():
     return "\n".join(out)
 
 
+def fetch_bytes(url, method="GET", data=None, headers=None):
+    request = urllib.request.Request(url, data=data, method=method, headers={
+        "User-Agent": UA, "Accept": "*/*", **(headers or {})})
+    try:
+        with urllib.request.urlopen(request, timeout=TIMEOUT) as response:
+            return response.status, response.headers.get("Content-Type", ""), response.read(200_000)
+    except urllib.error.HTTPError as e:
+        return e.code, "", e.read(2000)
+    except Exception as e:
+        return 0, f"{type(e).__name__}: {str(e)[:80]}", b""
+
+
+def decoded(raw):
+    if raw[:2] in (b"\xff\xfe", b"\xfe\xff") or (len(raw) > 3 and raw[1:2] == b"\x00"):
+        return raw.decode("utf-16", "replace")
+    return raw.decode("utf-8", "replace")
+
+
+def third_pass():
+    """Read the three sources the second pass found, as the app would have to."""
+    out = ["=== 古典音樂台 97.7: toXML.xml, whole"]
+    status, kind, raw = fetch_bytes("https://www.family977.com.tw/toXML.xml?t=1789474000000")
+    out.append(f"  HTTP {status} {kind} {len(raw)} bytes; first bytes {raw[:4]!r}")
+    out.append("  " + re.sub(r"\s+", " ", decoded(raw))[:1500])
+
+    out.append("\n=== KISS Radio: the mobile song list, and how the player is fed")
+    status, kind, raw = fetch_bytes("https://www.kiss.com.tw/m/songlist.php")
+    out.append(f"  m/songlist.php: HTTP {status} {kind.split(';')[0]}")
+    out.append("  " + text_of(decoded(raw), 1200))
+    status, kind, raw = fetch_bytes("https://www.kiss.com.tw/test/hichannel2.php?api=1")
+    page = decoded(raw)
+    for m in re.finditer(r"""https?://[^"'\s<>]+\.m3u8[^"'\s<>]*""", page):
+        out.append(f"  stream address in the player: {m.group(0)[:160]}")
+    for m in re.finditer(r"window\.current\w+\s*=\s*'[^']*'", page):
+        out.append(f"  {m.group(0)[:100]}")
+    for m in re.finditer(r"(\d{1,2}:\d{2})\s*現在播放[：:]\s*([^<\n]{1,80})", page):
+        out.append(f"  player page says: {m.group(1)} 現在播放：{m.group(2).strip()}")
+
+    out.append("\n=== 中廣 BCC: the web API, and how the on-air page calls it")
+    status, kind, raw = fetch_bytes("http://www.bcc.com.tw/onAir.asp?nid=1")
+    page = decoded(raw) if raw[:2] == b"\xff\xfe" else raw.decode("utf-8", "replace")
+    for m in re.finditer(r"ChannelInfo", page):
+        a, b = max(0, m.start() - 300), min(len(page), m.end() + 400)
+        out.append("  around the call: " + re.sub(r"\s+", " ", page[a:b]))
+        break
+    for url, method, data, headers in (
+            ("https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo", "GET", None, None),
+            ("https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo?channelId=1", "GET", None, None),
+            ("https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfo", "POST", b"{}", {"Content-Type": "application/json"}),
+            ("https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat", "GET", None, None),
+            ("https://www.bcc.com.tw/webapi/BCCRadioWebAPI/ChannelInfoBat", "POST", b"{}", {"Content-Type": "application/json"})):
+        status, kind, raw = fetch_bytes(url, method, data, headers)
+        out.append(f"  {method} {url[:90]} -> HTTP {status} {kind.split(';')[0]}: {re.sub(chr(10) + '|' + chr(13), ' ', decoded(raw))[:700]}")
+
+    out.append("\n=== M Radio: where the song history is fetched from")
+    final, kind, body = fetch("https://www.mradio.com.tw/song-history")
+    scripts = [urllib.parse.urljoin(final, m.group(1)) for m in SCRIPT_SRC.finditer(body)]
+    for src in [s for s in scripts if same_site(s, final)][:8]:
+        _, _, js = fetch(src, SCRIPT_LIMIT)
+        for key in ("get-recent-songs", "api-data.mradio.tw", "song-history"):
+            for m in re.finditer(re.escape(key), js):
+                a, b = max(0, m.start() - 250), min(len(js), m.end() + 250)
+                out.append(f"  {src.rsplit('/', 1)[-1][:40]} around {key}: {js[a:b]}")
+                break
+    for url in ("https://www.mradio.com.tw/song/get-recent-songs?nocache=1", "https://api-data.mradio.tw/api/song/get-recent-songs",
+                "https://api-data.mradio.tw/song/get-recent-songs"):
+        status, kind, raw = fetch_bytes(url, headers={"X-Requested-With": "XMLHttpRequest", "Referer": "https://www.mradio.com.tw/song-history"})
+        out.append(f"  GET {url} -> HTTP {status} {kind.split(';')[0]}: {decoded(raw)[:300]}")
+    return "\n".join(out)
+
+
 def main():
+    print("The third pass: the sources, read as the app would read them\n")
+    print(third_pass())
+    print()
     print("A closer look, at what the first pass turned up\n")
     print(closer_look())
     print()
