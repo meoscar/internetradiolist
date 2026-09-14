@@ -1,0 +1,39 @@
+# The three now-playing sources Taiwan's broadcasters have, watched every
+# five minutes for as long as one job may run, so what they do over an
+# evening is known and not guessed. Public repository: these minutes are
+# free. The answer is committed when the job ends.
+name: Sample Taiwan's now-playing sources for an evening
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sample_taiwan_nowplaying.py'
+      - '.github/workflows/sample-taiwan-nowplaying.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Watch the sources
+        run: |
+          mkdir -p probes
+          { echo "Sampled from $(date -u '+%Y-%m-%d %H:%M UTC') on GitHub's network"; echo;
+            python3 sample_taiwan_nowplaying.py 330 5; } | tee probes/taiwan_nowplaying_samples.txt
+      - name: Keep the answer
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probes/taiwan_nowplaying_samples.txt
+          git commit -q -m "Taiwan's now-playing sources, watched for an evening" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
