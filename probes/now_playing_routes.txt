@@ -1,22 +1,20 @@
-Probed 2026-09-14 03:32 UTC from GitHub's network: 400 stations sampled from the whole catalogue
+Probed 2026-09-14 08:01 UTC from GitHub's network: 400 stations sampled from the whole catalogue
 
 400 stations sampled, of every kind, out of 2023
 
-  inline ICY title            354    88.5%   the only route today
+  inline ICY title            356    89.0%   the only route today
   Icecast status page           6     1.5%   unused
-  Shoutcast status page         3     0.8%   unused
+  Shoutcast status page         1     0.2%   unused
   silent on all three          37     9.2%
 
-  coverage today             88.5%
+  coverage today             89.0%
   with the status pages      90.8%
 
 What the status pages answered:
-  [shoutcast] 70s Great Hits                     Bart Shore - Time Warp Sunday Request Show 807
   [shoutcast] RADIO ELETTRICA                    Nick Cave & The Bad Seeds - Frogs
-  [icecast  ] Progressieve Rock (opus 96kbit/s   The Sea Within - Broken Cord (00:14:10)
-  [icecast  ] Apple Radio Dance                  Still Here
-  [icecast  ] RadioSEGA (Vorbis)                 J-MUSIC Ensemble - Last Surprise (ft. Karlea L
-  [icecast  ] RadioSEGA (Opus LQ)                J-MUSIC Ensemble - Last Surprise (ft. Karlea L
-  [icecast  ] Radio UNiCC - einzig, nicht arti   Luca Testa - Last Weekend (Radio Edit)
-  [shoutcast] ANTENNA1                           STEVIE WONDER - PART TIME-LOVER
-  [icecast  ] Saurosoft Radio                    The Kolors - Rolling Stones [12mS]
+  [icecast  ] Progressieve Rock (opus 96kbit/s   Progrock - Ino En Peter (00:58:28)
+  [icecast  ] Apple Radio Dance                  Sterk (Original Mix)
+  [icecast  ] RadioSEGA (Vorbis)                 Sonic Riders: Zero Gravity (Shooting Star Stor
+  [icecast  ] RadioSEGA (Opus LQ)                Sonic Riders: Zero Gravity (Shooting Star Stor
+  [icecast  ] Radio UNiCC - einzig, nicht arti   Urban Cookie Collective - Feels Like Heaven
+  [icecast  ] Saurosoft Radio                    BETTA LEMME - BAMBOLA [OGi]
