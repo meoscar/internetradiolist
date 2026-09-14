@@ -1,0 +1,39 @@
+# How much of Taiwan's radio a public directory knows, whether the streams
+# answer, and whether they say what they play. Run from here because the
+# sandbox this repository is worked on from cannot reach either the
+# directory or the stations; the answer is committed under probes/.
+name: Probe Taiwan's stations
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'probe_taiwan.py'
+      - '.github/workflows/probe-taiwan.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Ask Radio Browser, then every stream
+        run: |
+          mkdir -p probes
+          { echo "Probed $(date -u '+%Y-%m-%d %H:%M UTC') from GitHub's network"; echo;
+            python3 probe_taiwan.py; } | tee probes/taiwan.txt
+          head -20 probes/taiwan.txt >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the answer
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add probes/taiwan.txt probes/taiwan_radio_browser.json
+          git commit -q -m "Taiwan's stations, as a public directory knows them, measured" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
