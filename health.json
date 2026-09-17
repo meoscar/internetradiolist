@@ -680,8 +680,8 @@
   "last": "audio/mpeg"
  },
  "http://162.244.80.21:7148/;": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://162.244.80.21:9086/;": {
   "consecutive_failures": 0,
@@ -765,7 +765,7 @@
  },
  "http://163.172.77.142:8618/stream": {
   "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "last": "audio/aacp"
  },
  "http://163.172.77.142:8724/stream": {
   "consecutive_failures": 0,
@@ -912,7 +912,7 @@
   "last": "audio/mpeg"
  },
  "http://176.31.248.14:12238/;": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://176.31.248.14:35508/;": {
@@ -1188,8 +1188,8 @@
   "last": "audio/mpeg"
  },
  "http://185.105.4.53:4423/stream": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://185.105.4.53:9186/stream": {
   "consecutive_failures": 0,
@@ -1476,8 +1476,8 @@
   "last": "audio/mpeg"
  },
  "http://192.99.83.154:8004/stream": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://192.99.83.154:8006/stream": {
   "consecutive_failures": 0,
@@ -1516,8 +1516,8 @@
   "last": "audio/mpeg"
  },
  "http://195.154.217.103:8201/stream": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error [Errno 111] Connection refused>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://195.154.217.103:8227/stream": {
   "consecutive_failures": 0,
@@ -2384,7 +2384,7 @@
   "last": "audio/aacp"
  },
  "http://51.255.235.165:5536/stream": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://51.255.8.139:8064/stream": {
@@ -3412,8 +3412,8 @@
   "last": "audio/mpeg"
  },
  "http://94.130.242.5:8024/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "TimeoutError: timed out"
  },
  "http://94.130.242.5:8032/stream": {
   "consecutive_failures": 0,
@@ -3488,8 +3488,8 @@
   "last": "audio/mpeg"
  },
  "http://94.23.23.97:31836/;": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://94.23.23.97:4520/;": {
   "consecutive_failures": 0,
@@ -4184,7 +4184,7 @@
   "last": "audio/mpeg"
  },
  "http://djuplink.com:80/radiodrumbass.ogg": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://dnbstation.com:8005/listen.mp3": {
@@ -4292,7 +4292,7 @@
   "last": "audio/mpeg"
  },
  "http://evcast.mediacp.eu:1440/;": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "URLError: <urlopen error [Errno 111] Connection refused>"
  },
  "http://evcast.mediacp.eu:2190/;": {
@@ -4816,8 +4816,8 @@
   "last": "audio/mpeg"
  },
  "http://live.radiodeejay.hr:7002/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "URLError: <urlopen error [Errno -2] Name or service not known>"
  },
  "http://live.radiofunky.ro:8888/stream": {
   "consecutive_failures": 0,
@@ -4874,10 +4874,6 @@
  "http://livestream.1766.today:1768/live1.mp3": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://lizeradio.com:8080/": {
-  "consecutive_failures": 3,
-  "last": "served text/html;charset=utf-8, not audio"
  },
  "http://loveradio.streamingmedia.it:8004/play": {
   "consecutive_failures": 0,
@@ -5022,10 +5018,6 @@
  "http://n01a-eu.rcs.revma.com/7mnq8rt7k5zuv": {
   "consecutive_failures": 0,
   "last": "audio/aac"
- },
- "http://n03.rcs.revma.com/8bpxy9a122hvv": {
-  "consecutive_failures": 3,
-  "last": "served text/html; charset=utf-8, not audio"
  },
  "http://n03.rcs.revma.com/k41z6wadu5hvv": {
   "consecutive_failures": 0,
@@ -5248,8 +5240,8 @@
   "last": "audio/mpeg"
  },
  "http://procyon.shoutca.st:8103/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://progressieverock.nl:8080/flac": {
   "consecutive_failures": 0,
@@ -5568,7 +5560,7 @@
   "last": "audio/mpeg"
  },
  "http://radioas.radi0.im:8001/stream": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "HTTPError: HTTP Error 503: Server limit reached"
  },
  "http://radiolatina.info:7084/stream": {
@@ -5592,7 +5584,7 @@
   "last": "audio/mpeg"
  },
  "http://radios.topymedia.com:8000/stream": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://radios.topymedia.com:8032/stream": {
@@ -5852,8 +5844,8 @@
   "last": "audio/mpeg"
  },
  "http://s2.stationplaylist.com:7036/listen.mp3": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Available"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://s2.stationplaylist.com:7052/listen.aac": {
   "consecutive_failures": 0,
@@ -5868,12 +5860,12 @@
   "last": "audio/mpeg"
  },
  "http://s2.stationplaylist.com:7062/listen.aac": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "HTTPError: HTTP Error 404: Not Available"
  },
  "http://s2.stationplaylist.com:7064/listen2.mp3": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Available"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://s2.stationplaylist.com:7068/listen.aac": {
   "consecutive_failures": 0,
@@ -5908,12 +5900,12 @@
   "last": "audio/mpeg"
  },
  "http://s2.stationplaylist.com:7102/listen.aac": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Available"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://s2.stationplaylist.com:7106/listen.mp3": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Available"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://s2.stationplaylist.com:7110/listen.aac": {
   "consecutive_failures": 0,
@@ -5958,10 +5950,6 @@
  "http://s2.stationplaylist.com:7172/listen.aac": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "http://s2.stationplaylist.com:7178/listen.mp3": {
-  "consecutive_failures": 4,
-  "last": "HTTPError: HTTP Error 404: Not Available"
  },
  "http://s2.stationplaylist.com:9000/gaiafm.aac": {
   "consecutive_failures": 0,
@@ -6139,10 +6127,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://s3.voscast.com:9188/live": {
-  "consecutive_failures": 4,
-  "last": "URLError: <urlopen error [Errno 111] Connection refused>"
- },
  "http://s3.voscast.com:9674/stream.aac": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
@@ -6244,15 +6228,15 @@
   "last": "audio/mpeg"
  },
  "http://s4.voscast.com:9704/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://s40.myradiostream.com:21546/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
  "http://s42.myradiostream.com:33730/;": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://s42.myradiostream.com:34540/vibeibiza": {
@@ -6380,8 +6364,8 @@
   "last": "audio/mpeg"
  },
  "http://s6.voscast.com:11824/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://s6.voscast.com:11872/stream": {
   "consecutive_failures": 0,
@@ -6400,8 +6384,8 @@
   "last": "audio/aacp"
  },
  "http://s7.voscast.com:10052/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://s7.voscast.com:10664/stream": {
   "consecutive_failures": 0,
@@ -7548,8 +7532,8 @@
   "last": "audio/mpeg"
  },
  "http://us2.internet-radio.com:8151/stream": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://us2.internet-radio.com:8183/stream": {
   "consecutive_failures": 0,
@@ -7576,8 +7560,8 @@
   "last": "audio/mpeg"
  },
  "http://us3.internet-radio.com:8026/live": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://us3.internet-radio.com:8171/stream": {
   "consecutive_failures": 0,
@@ -7879,9 +7863,13 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "https://100080er.stream.laut.fm/100080er": {
+ "https://100070er.stream.laut.fm/100070er": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
+ },
+ "https://100080er.stream.laut.fm/100080er": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://100090er.stream.laut.fm/100090er": {
   "consecutive_failures": 0,
@@ -7892,7 +7880,7 @@
   "last": "audio/mpeg"
  },
  "https://1000countryhits.stream.laut.fm/1000countryhits": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://1000discohits.stream.laut.fm/1000discohits": {
@@ -7924,7 +7912,7 @@
   "last": "audio/mpeg"
  },
  "https://1000oldies.stream.laut.fm/1000oldies": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://1000radiohits.stream.laut.fm/1000radiohits": {
@@ -7932,8 +7920,8 @@
   "last": "audio/mpeg"
  },
  "https://1000rockhits.stream.laut.fm/1000rockhits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://1000schlager.stream.laut.fm/1000schlager": {
   "consecutive_failures": 0,
@@ -7944,8 +7932,8 @@
   "last": "audio/mpeg"
  },
  "https://1000techno.stream.laut.fm/1000techno": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://1000weihnachten.stream.laut.fm/1000weihnachten": {
   "consecutive_failures": 0,
@@ -7953,7 +7941,7 @@
  },
  "https://a10.asurahosting.com:7630/radio.mp3": {
   "consecutive_failures": 0,
-  "last": "audio/aac"
+  "last": "audio/mpeg"
  },
  "https://a11.asurahosting.com:7060/radio.mp3": {
   "consecutive_failures": 0,
@@ -8324,8 +8312,8 @@
   "last": "audio/aac"
  },
  "https://n05.rcs.revma.com/vh0xgcc59duvv": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 503: Service Unavailable"
+  "consecutive_failures": 0,
+  "last": "audio/aac"
  },
  "https://n06.rcs.revma.com/srn5f9kmwxhvv": {
   "consecutive_failures": 0,
@@ -8712,448 +8700,448 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/10002000er": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/100060er": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/100070er": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/100080er": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/100090er": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000christmashits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000countryhits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000dance": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000discohits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000goldies": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000goldschlager": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000hiphop": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000indie": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000italohits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000jazzhits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000melodien": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000oldies": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000radiohits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000rockhits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000schlager": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000smoothhits": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000techno": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/1000weihnachten": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/123radio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/alpenweihnacht": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/best-of-techno": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/central": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/centrlradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/chilloutzone": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/countrychristmas": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/danceclubradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/darkzeroradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/deep-house-sounds": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/deinlieblingsradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/deinradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/deutschrap": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/deutschrock": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/flashradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/forever70": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
- },
- "https://stream.laut.fm/forever80": {
   "consecutive_failures": 1,
   "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
+ "https://stream.laut.fm/100080er": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/100090er": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/1000christmashits": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000countryhits": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/1000dance": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000discohits": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/1000goldies": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/1000goldschlager": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000hiphop": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000indie": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000italohits": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/1000jazzhits": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000melodien": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000oldies": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000radiohits": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000rockhits": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000schlager": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000smoothhits": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/1000techno": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/1000weihnachten": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/123radio": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/alpenweihnacht": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/best-of-techno": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/central": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/centrlradio": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/chilloutzone": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/countrychristmas": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/danceclubradio": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/darkzeroradio": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/deep-house-sounds": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/deinlieblingsradio": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/deinradio": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/deutschrap": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/deutschrock": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/flashradio": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
+ },
+ "https://stream.laut.fm/forever70": {
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
+ "https://stream.laut.fm/forever80": {
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
+ },
  "https://stream.laut.fm/forever80-pop": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/forever90": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/foreverrock": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/freizeit": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/freizeitradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/frits365music": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/funkydiscoradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/ganorium-radio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/halloween-hit-radio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/hasyakattaofficial": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/hfr1": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/hitradiooldies": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/hitradiotom": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/italiastyle": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/jcradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/just-easy": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/kawedeoldiesradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/ladiesfirst": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/larmo": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/latinlove": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/livezwei": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/lounge-radio-ibiza": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/mixx21": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/moonradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/motoforpeaceradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/myhitradio24": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/numanme": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/nursefm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/oneplus": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/operating-generating": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/poploungecafe": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/popnonstop": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/powerstationitaly": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/radio-am-bad-2": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radioalexfm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiocarpi": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/radiocontactitaly": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/radiodigitalia-newgen": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiodigitalia-ricordi": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiomodena": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiopcm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiopowerstation": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiosassuolo": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/radiosummernight": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/radioteam2000": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/rap": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/repubblicrockradio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/riviera-lounge-radio": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/rockdisco": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/roi-fm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/rsmusic": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/rsmusic2": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/rsmusic4": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/rtvsellingen": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/saxnwelle": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/schlagerweihnacht": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/schwendermarkt": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/shout_fm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/stationitaly": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/stereo": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/studiodance": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/swingtime": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/technobeat": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/teleradio1": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/theartist": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/totalschlager": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/trap": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/tugafm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Found"
  },
  "https://stream.laut.fm/vinyl-maxi-fm": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/webmusik": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/wiphopbeatz": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.pbs.gov.tw/live/ELS/playlist.m3u8": {
   "consecutive_failures": 0,
@@ -9224,7 +9212,7 @@
   "last": "audio/mpeg"
  },
  "https://streamer.radio.co/s48d1562b1/listen": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 403: Station config not found (Redis)"
  },
  "https://streamer.radio.co/scfb5749d1/listen": {
@@ -9316,8 +9304,8 @@
   "last": "audio/mpeg"
  },
  "https://vivo.miradio.in:8036/stream": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: The read operation timed out"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "https://void.idserverhost.com:8016/stream": {
   "consecutive_failures": 0,
@@ -9362,9 +9350,5 @@
  "https://www.tuneintoradio1.com:8110/64k.aac": {
   "consecutive_failures": 0,
   "last": "audio/aac"
- },
- "https://www.youtube.com/live/BvV7UO3pf_g?si=P8HvFQzDwrwaBZO_": {
-  "consecutive_failures": 3,
-  "last": "served text/html; charset=utf-8, not audio"
  }
 }
