@@ -179,11 +179,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/discopartypldiscopolo.webp",
   "name": "DiscoParty.pl - Disco Polo"
  },
- "http://145.239.26.146:7836/;": {
-  "from": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/292757495_390519249728917_7443326006055820532_n.jpg?stp=dst-jpg_tt6&cstp=mx600x602&ctp=s600x602&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-JtfPqY29L0Q7kNvwGE75UR&_nc_oc=AdpnYPsXQLBzAJCPgBYn1LYDuKbaTM7AIx_aT3KuxhcBBlcUBUBKbpFN2ORMQh_imYo&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=SI_3NcSyJp4KueLUlsxN7Q&_nc_ss=7b20f&oh=00_AQNDTIT2d_MbrJI92UPBH0khp7bILhXW-Eg6pvIobV1HUA&oe=6AC1B8DD",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/kombinatjestmetal.webp",
-  "name": "Kombinat jest Metal"
- },
  "http://149.202.22.75:8066/live": {
   "from": "https://impro.usercontent.one/appid/oneComWsb/domain/radioboost.dk/media/radioboost.dk/onewebmedia/RB%20Logo%202___serialized1.jpg?etag=%22703c3-636b0683%22&sourceContentType=image%2Fjpeg&quality=85",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioboost.webp",
@@ -1040,7 +1035,7 @@
   "name": "Metal Devastation Radio"
  },
  "http://192.211.51.158:5268/stream": {
-  "from": "https://wdarefm.com/images/fb_icon.jpg?1790698434",
+  "from": "https://wdarefm.com/images/fb_icon.jpg?1790702098",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/darefm.webp",
   "name": "DARE FM"
  },
@@ -1273,11 +1268,6 @@
   "from": "https://gregorygospel.com/wp-content/uploads/2024/06/Gospel-Concert.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/gregorygospel.webp",
   "name": "Gregory Gospel"
- },
- "http://198.178.123.17:8958/stream/1/": {
-  "from": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/301669528_494385976026520_1547632680766276468_n.png?stp=dst-png&cstp=mx256x256&ctp=s256x256&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=OLch1iAhyiMQ7kNvwHWZoHk&_nc_oc=Adpbwl0gIYVdHj7irWHxDGXOOO8D_Ng5OyJbUx8qTvS2piVYIUOIt0fcXhMwJH7MIw8&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=cUEnBT612YlUKq-Nz1yj_g&_nc_ss=7b20f&oh=00_AQN1zkIEEnbNgydHjU_vCBQ1k2fDQQMhOrxv-hONaG6uQQ&oe=6AC19B54",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hopefm107fiji.webp",
-  "name": "Hope FM 107 Fiji"
  },
  "http://198.178.123.20:10264/": {
   "from": "google icon service for radioshemroon.com",
@@ -1595,7 +1585,7 @@
   "name": "天南AM999"
  },
  "http://45.144.66.54:8000/192": {
-  "from": "https://cdn1.telesco.pe/file/s4y4N4JhhMGHFRcY63Tp9TsLGYNBdRO_mXSzTsRQFAduZQTaVbk30w1Qrb5CDuZisi7uAcizwtQOBb2eL3gRQRP9N1GaiRTBxbPn587AJ8FGQks7uJemAWzxxafW2tAHk5W8bO4QScyu6pO7WMvcrkM_ZiS-lchVegFoYCRY4QzBH1xZsrhRfCLDrKMH2HfDhAjuIKXgWwipkkdLANSz4CAEiaosQtzWLmLDPDSEyR0CHrOeq4ca_yChEj9izLEoTsOjwfJ9LFrlWmlCYesOqhk9Z3ALrUcqGS_L0pXH2dRnOvT0n7HErkEfEWVj5oObwZ-Hc0KPftsT20Mm_WuxTw.jpg",
+  "from": "https://cdn1.telesco.pe/file/MN2QKE865hisqYqP3VB2JaNWiFp4sXsOBV-jP3QJCrpm42nlSNxQYLhQto4s8W9ENerHDk315sWTtqeVzGq9H9rI5F-NuMbY_x0XLPLV7knmdx-nESCnjgRX8znNRC7-1fXYfa4rqiu3LQtQYDWZmhU3Q-rS-jeoSN4x_4hseRLaKrEWyPB-j6gVRXedDlZayZln-IJWmzSD4Uil7jkL_sHKZPxbnoUgd8p38UqiBcfwlbeNNwEy7aZNOlM_wgpAUD1eLZe2YQhpNZn2rnp9pSkgXArd45dUrP9ofOHRIdQQn4QuYOraOBdZZuKxFoRa9pUe_MSjRpHNJ8Sw12rYcQ.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/ultrafan.webp",
   "name": "UltraFan"
  },
@@ -1933,11 +1923,6 @@
   "from": "https://gdyniaradio.com/wp-content/uploads/2019/08/cropped-ico-300x300.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/gdyniaradio.webp",
   "name": "Gdynia Radio"
- },
- "http://51.255.8.139:8738/stream": {
-  "from": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/358677596_817650489893702_1409278149720090196_n.jpg?stp=dst-jpg_tt6&cstp=mx1638x1638&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=RQzi786r7_0Q7kNvwE05Jes&_nc_oc=AdpReP_qXgxuD3NhoBWCRlEvT1TpbVpgFMGgwrrznFsYhS-hEfFGsEHi2x7lKCM3AQk&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Mi-6So43iFRf8G_aM5kB9Q&_nc_ss=7b20f&oh=00_AQPTk-cQMM6-gRCnfQzpIZby72Ykbr8jOQz7CyCMRSReiw&oe=6AC19A8E",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/metalliveradio.webp",
-  "name": "Metal Live Radio"
  },
  "http://51.38.39.244:8010/;": {
   "from": "radio-browser favicon (by name): https://www.dbfmradio.org/DBFM_Logo3.jpg",
@@ -2474,6 +2459,21 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/stereobeso945fm.webp",
   "name": "Stereo Beso 94.5 FM"
  },
+ "http://65.21.202.84:8022/stream": {
+  "from": "https://pumpkinfm.com/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/britcom2britishcomedyradiopumpkinfmotrn.webp",
+  "name": "BritCom 2 - British Comedy Radio (Pumpkin FM OTRN)"
+ },
+ "http://65.21.202.84:8175/stream": {
+  "from": "https://pumpkinfm.com/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/britcom1britishcomedyradiopumpkinfmotrn.webp",
+  "name": "BritCom 1 - British Comedy Radio  (Pumpkin FM OTRN)"
+ },
+ "http://65.21.202.84:8200/stream": {
+  "from": "https://pumpkinfm.com/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/britcom3britishcomedyradiopumpkinfmotrn.webp",
+  "name": "BritCom 3 - British Comedy Radio (Pumpkin FM OTRN)"
+ },
  "http://66.70.249.70:5060/stream": {
   "from": "https://loudcrymedia.com/wp-content/uploads/2018/06/cropped-logo-web-icon22-192x192.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/countrygospelradio.webp",
@@ -2788,11 +2788,6 @@
   "from": "https://www.radioitalo4you.net/images/socialitalo4you.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioitalo4you.webp",
   "name": "Radio Italo4you"
- },
- "http://91.232.4.33:7022/Radio-Tube": {
-  "from": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/301807872_505898888205743_5709115806275115360_n.png?stp=dst-png&cstp=mx426x261&ctp=s426x261&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ITwM3TZdRAYQ7kNvwFJkUjH&_nc_oc=AdpI3sPAGvkqvTK54ZHVlFJGumji-ckfo0zmFiSvxoW8eOh8TZwPb4qxrcYeoplwqx4&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=fycpUOthrhsu7G6FCq8P3w&_nc_ss=7b20f&oh=00_AQOJ23yI9AVhf1Z3sqnHRzdBPp3kh3pfJ8l9TfNPL5WhBA&oe=6AC19BFE",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiotubedrumandbass.webp",
-  "name": "Radio-Tube Drum and Bass"
  },
  "http://91.232.4.33:8018/stream": {
   "from": "https://www.radioitalo4you.net/images/socialitalo4you.jpg",
@@ -3155,7 +3150,7 @@
   "name": "WKWF - Key West"
  },
  "http://96.31.83.94:8168/stream": {
-  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72s77FbjC-G2KkC3A05E7ikLd-sjuikMaAMgi8CDiEYH-SgOaTfw9ffEsgTibhGlxOBfhqZ5Mki8Xgvn0UJpUGAqhDbpOxxRmkbFk_n057ydpL_QIriB1sXSf03oWpPJRZ108xjq_O7xfR_ONePgd69nnxRXOVgONe9kApyxX4J_cyFa2W5qq5gviz113dEWBj3b3hw5zqkuvub76aWBzuAns9UVzF9vXopDp8VN8OE=w1280",
+  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tzNsZJJ3reLPv-yrROgCePUNTxHOynPWOfaMlZFlFr39lfNzNXf6o2ozzphdzEMFEZFaRm2XU5V_VxUpbUHLuiJFcd3C9YWKmzdafQtZbizgIrSkJinE9Kp_Ln-IyxxkHIznptkGlG0kEo4iGO0PxpHChYbE_rwN7ejPwBl-f1ZMFaUtBjmGEp6Mwh1PuuLosTCGvTvUCUoqYyxI8Zu0-WIwmE0o9quFNdI2dfndg=w1280",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/kxdj983.webp",
   "name": "KXDJ 98.3"
  },
@@ -4329,6 +4324,11 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiothiossane.webp",
   "name": "Radio Thiossane"
  },
+ "http://listen.soulradioclassics.com:8200/play": {
+  "from": "https://soulradio.us/wp-content/uploads/2021/09/cropped-soulradio.us_512.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/soulradioclassics.webp",
+  "name": "SOUL RADIO Classics"
+ },
  "http://listen.uturnradio.com:7000/drum_and_bass": {
   "from": "radio-browser favicon (by name): https://www.uturnradio.com/images/logo_1.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/uturnradiodrumandbassmusic.webp",
@@ -4455,7 +4455,7 @@
   "name": "RadioStream.Top"
  },
  "http://loveradio.streamingmedia.it:8004/play": {
-  "from": "https://love.radio/wp-content/uploads/2020/10/cropped-LOVE.RADIO-only-love-songs_logo-192x192.png",
+  "from": "https://love.radio/wp-content/uploads/2023/11/LOVE.RADIO-only-love-songs_logo.webp",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/loveradioloveradio.webp",
   "name": "LOVE RADIO - LOVE.radio"
  },
@@ -4493,6 +4493,11 @@
   "from": "https://mcr.streams.gr/users/multiradio/station/logo.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mylaikos.webp",
   "name": "My Laikos"
+ },
+ "http://mediaserv21.live-streams.nl:8061/stream": {
+  "from": "https://www.hollandspalet.nl/wp-content/uploads/2024/03/cropped-logo-H.P.-512-192x192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/hollandspalet.webp",
+  "name": "Hollands Palet"
  },
  "http://mediaserv30.live-streams.nl:8005/stream": {
   "from": "https://axlstream.nl/wp-content/uploads/2023/09/cropped-axl100-192x192.jpg",
@@ -4563,6 +4568,11 @@
   "from": "https://rtvtynaarlo.nl/wp-content/uploads/2024/02/cropped-RTV-Tynaarlo-full-192x192.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/tynaarlolokaal.webp",
   "name": "Tynaarlo Lokaal"
+ },
+ "http://mediaserv68.live-streams.nl:8026/autodj": {
+  "from": "http://www.radiofuentedigrasia.com/gallery/favicons/favicon-192x192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiofuentedigrasia.webp",
+  "name": "Radio Fuente Di Grasia"
  },
  "http://mediaserv68.live-streams.nl:8053/autodj": {
   "from": "https://groove95.com/wp-content/uploads/2023/11/G95-300x300.png",
@@ -4830,7 +4840,7 @@
   "name": "New Life Radio - Радио Новая Жизнь"
  },
  "http://noasrv.caster.fm:10054/kznqfm": {
-  "from": "google icon service for qcountryscv.com",
+  "from": "https://static.wixstatic.com/media/860388_7b8b7085c1dd41de8a88261c8bd47f46%7Emv2.png/v1/fit/w_2500,h_1330,al_c/860388_7b8b7085c1dd41de8a88261c8bd47f46%7Emv2.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/1015kznqfm.webp",
   "name": "101.5 KZNQ FM"
  },
@@ -6585,7 +6595,7 @@
   "name": "nightline radio"
  },
  "http://radio.novamix.ro:8042/stream": {
-  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72suzDHbP60dSvmlRPxlrzFwdOdQYRYkiTHZPm7WaTl2SInVXOb6laI2KWqimCVkuTrluSQvHp6FVJ0naKPF7X0uPeBBG0JErjFcSab81-6b4sBkvzVa2dBU-zs3iY5Ym-bWxaawuEZZdb6-1amp8dHKlVL9M38_r25x9eco6z1g1FYcNieTaRewM_iMdjw=w16383",
+  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tevhzS2WBNBbxbX63qhVmH_nR7FzkNMMy95D8qsrI2WCfUSXmKcBx8Iv1sv0tseZxb4iE-Rl-tUgyoskAz_H_V1UN0wkqieEvdS6otnQ51tPUqxx-xRcjrQTYdW9JnwQmwPPoRdwMxCM7KsKwp7h7wYPAqCfMKsDt7Y1nOdGr9EllAsGrG38V77It6e-I=w16383",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radionovamix.webp",
   "name": "Radio Nova Mix"
  },
@@ -7339,11 +7349,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/eaglefmondangwa.webp",
   "name": "EagleFM Ondangwa"
  },
- "http://s5.voscast.com:10190/": {
-  "from": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/301834574_508783981252561_1455927557468695268_n.jpg?stp=dst-jpg_tt6&cstp=mx475x475&ctp=s475x475&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=9--22xOvDOAQ7kNvwFiIHXL&_nc_oc=Adqata0_CyfCwrAvHDr3ayARWKjGcrw7F0Tl2AuQchcHM8Xvd6KHjlUgHd9r92HXp3Y&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=OhAyLJv3Eb_fdwk95a1CwA&_nc_ss=7b20f&oh=00_AQMrbgurRZx_mKJQEwI0ZI4QPzv2snlfI_54FxmmAsHCug&oe=6AC1CAEC",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/infernoradio.webp",
-  "name": "Inferno Radio"
- },
  "http://s5.voscast.com:10372/live": {
   "from": "radio-browser favicon (by name): https://worldofprankcalls.com/wp-content/uploads/2022/02/cropped-world-of-prank-calls-top-of-website-banner-2.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/worldofprankcalls.webp",
@@ -7470,7 +7475,7 @@
   "name": "WTJC Radio STT USVI"
  },
  "http://s9.voscast.com:7402/stream": {
-  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vfhHjILIvkW_YNOxiI7E8eInJdDcLJmPO-0OMGJWi19a7V0ImE5nm9nlBx7YxgpKWHD7fHhauEyY0Xkdvr-HaPQ6bdPr8_CQiIIyEfPkYLM4AozYU9zEXK7wO3LsHPtQvkThAoMutlMz6g4kZfdwPwSXHK38r2C97y9MCyTSJZFEZfzUDaydg-zzgA=w16383",
+  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72udqg6oB0cy7HYrgUP_2XfoyODKqWWuF_Gp1rQ8RnQxVGWRnwQSebsseal9QytrxCc4EbNTnjDyj6EJn1TxpU1LzPIy33_5L5Crzc75_fihcc8jENgtPi1EF6HaJnl6b2PmiYbaiFIHu4hmh3BBlyLFB0O6xDwnuQnM82z5iUujGhQOAo2bVSrwzsuK=w16383",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/rangilogujaratcom247gujaratiradiostationworldwideenjoy.webp",
   "name": "RangiloGujarat.com - 24/7 Gujarati Radio Station, Worldwide, Enjoy!"
  },
@@ -7800,7 +7805,7 @@
   "name": "Radio Girassol BH"
  },
  "http://stm4.srvif.com:8596/;": {
-  "from": "https://radio.ieadescpi.com.br/logo.png?1790698454",
+  "from": "https://radio.ieadescpi.com.br/logo.png?1790702115",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiosomdoavivamneto.webp",
   "name": "RADIO_SOM_DO_AVIVAMNETO"
  },
@@ -8120,12 +8125,12 @@
   "name": "Radio Sotra"
  },
  "http://streams.hostwoof.com:8000/popcountry": {
-  "from": "http://popnova.hostwoof.com/api/nowplaying/popnovacountry/art/1790698551.jpg",
+  "from": "http://popnova.hostwoof.com/api/nowplaying/popnovacountry/art/1790702200.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/popnovacountry.webp",
   "name": "PopnovaCountry"
  },
  "http://streams.hostwoof.com:8000/poprock": {
-  "from": "http://popnova.hostwoof.com/api/nowplaying/popnovarock/art/1790698567.jpg",
+  "from": "http://popnova.hostwoof.com/api/nowplaying/popnovarock/art/1790702213.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/popnovarock.webp",
   "name": "PopnovaRock"
  },
@@ -8164,16 +8169,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/foroactivopolymarchsradio.webp",
   "name": "Foroactivo Polymarchs Radio"
  },
- "http://test.taiwan-radio.tw:8000/HC.FM99.3": {
-  "from": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/399927091_10228059444564144_8718200005619641722_n.jpg?stp=dst-jpg_tt6&cstp=mx640x640&ctp=s640x640&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dNAzHOQT7boQ7kNvwGKTK8x&_nc_oc=AdrFfYo7ajPXgUWyHJoXlmz_zQ1N6IQUBVTv4v2Gy9DX5-EEXqaWCKzABsmDeLK3rys&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=H_MIgV7BwDYWOTt8v87jsg&_nc_ss=7b20f&oh=00_AQMSodGqYsaZQlgJ-OaNY75Uhp9JYbHSWh4yfygsFux7Cg&oe=6AC1BA46",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm993.webp",
-  "name": "新聲廣播FM99.3"
- },
- "http://test.taiwan-radio.tw:8000/ML.AM1215": {
-  "from": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=KPQeFS1BpOQQ7kNvwFJVA1j&_nc_oc=AdorGa2XeSk2QOeR3XOrSckliHDluZFwD541vokHsYuidTTCpY4TZc7ImFBrgRpyeq4&_nc_zt=24&_nc_ht=scontent-sjc3-1.xx&_nc_gid=XY5F3j9l8BaRTDA5AbZczg&_nc_ss=7b20f&oh=00_AQOspYdngibq13bgvyauADzYfXUjxfyMQGskdpTkAQ-KVQ&oe=6AC1A4E5",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1215.webp",
-  "name": "天聲AM1215"
- },
  "http://test.taiwan-radio.tw:8000/TC.FM97.7": {
   "from": "https://www.family977.com.tw/image/Classical-logo.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/classical.webp",
@@ -8190,7 +8185,7 @@
   "name": "都會聲音FM99.7"
  },
  "http://test.taiwan-radio.tw:8000/TY.AM774": {
-  "from": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/306087615_479697670832098_4582192855647832750_n.jpg?stp=dst-jpg_tt6&cstp=mx773x773&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=sMlIlKJFI3sQ7kNvwHBZuwu&_nc_oc=AdpFokBYOfp5VV2JwRWsXLBHAN4MZWRHABxb4Z0gVNIB4pd5gzdGYF949KMVFaptocg&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=Jn7vrNnqLXk-DIF_2zXM5w&_nc_ss=7b20f&oh=00_AQOfDV-tvf9V461RYnYfs5KKaluANvSw6KO8eyxQb64I3g&oe=6AC1C4E5",
+  "from": "https://scontent-qro1-2.xx.fbcdn.net/v/t39.30808-1/306087615_479697670832098_4582192855647832750_n.jpg?stp=dst-jpg_tt6&cstp=mx773x773&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lYGIQ1PVV_sQ7kNvwExSHN1&_nc_oc=Ado6urMZ6sZQv58l6gdMb5EqNHsU5vuCcwJwJ3fz4Dkpo2klacX8Y-NcPxq9BlQvjyE&_nc_zt=24&_nc_ht=scontent-qro1-2.xx&_nc_gid=OJUwwcOAUpQ-vFDQ1E9DEg&_nc_ss=7b20f&oh=00_AQPpW3aNOSV24pKOZRc_kAvPybplqNVl2TOVaXxD-TMI-A&oe=6AC1C4E5",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am774.webp",
   "name": "桃園先聲廣播AM774"
  },
@@ -8240,7 +8235,7 @@
   "name": "Tineradio-Nordsee"
  },
  "http://trapradio.streamingmedia.it:8003/play": {
-  "from": "https://trap.radio/wp-content/uploads/2021/07/cropped-trapradio_international_logo512-192x192.png",
+  "from": "https://trap.radio/wp-content/uploads/2021/07/cropped-trapradio_international_logo512.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/trapradiotrapradio.webp",
   "name": "TRAP RADIO TRAP.radio"
  },
@@ -8744,11 +8739,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/zapfmaac96kbps.webp",
   "name": "ZAP! FM - AAC+ 96 Kbps"
  },
- "https://1000dance.stream.laut.fm/1000dance": {
-  "from": "https://rsn.radio/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/1000dance.webp",
-  "name": "1000 Dance"
- },
  "https://1000goldschlager.stream.laut.fm/1000goldschlager": {
   "from": "radio-browser favicon (by stream): https://1000goldschlager.de/apple-icon-120x120.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/1000goldschlager.webp",
@@ -8770,7 +8760,7 @@
   "name": "1000 Techno"
  },
  "https://1000weihnachten.stream.laut.fm/1000weihnachten": {
-  "from": "https://1000weihnachten.de/wp-content/uploads/2025/10/cropped-Logo-1000-Weihnachten-1-192x192.png",
+  "from": "https://rsn.radio/default/img/radiosummernight.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/1000weihnachten.webp",
   "name": "1000 Weihnachten"
  },
@@ -8900,7 +8890,7 @@
   "name": "Deep House Sounds"
  },
  "https://deutschrap.stream.laut.fm/deutschrap": {
-  "from": "https://static.cdninstagram.com/rsrc.php/v4/yD/r/R0fBIMurK8v.png",
+  "from": "https://scontent-qro3-1.cdninstagram.com/v/t51.82787-19/761272511_18573982420068003_766622263059761603_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=102&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=xkKUoDS1ss0Q7kNvwF9mQqh&_nc_oc=Adpf8ol6AE00FkWn4zN1L4EGlwbKgPV6fSZbyGpqGkFxMS7LbqCYCxhRQuvXP_fYCfE&_nc_zt=24&_nc_ht=scontent-qro3-1.cdninstagram.com&_nc_gid=L2M3I-MpXSMIEY6Ag8_AUg&_nc_ss=7b60f&oh=00_AQN2OxNQPCghc4KlzVEZUBhOK_sepe1WzJFeFx1eYkvdiw&oe=6AC1B007",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/deutschrap.webp",
   "name": "Deutschrap"
  },
@@ -9400,7 +9390,7 @@
   "name": "KT-FM - Alternative Everything"
  },
  "https://radio.nitro-server.uk/listen/1940sshanghaioldtimesmusicradio/radio.mp3": {
-  "from": "https://radio.nitro-server.uk/api/nowplaying/1940sshanghaioldtimesmusicradio/art/1790698620.jpg",
+  "from": "https://radio.nitro-server.uk/api/nowplaying/1940sshanghaioldtimesmusicradio/art/1790702265.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/1940sshanghaivintagejazzshidaiquradio.webp",
   "name": "上海麗都廣播電台 1940's Shanghai Vintage Jazz Shidaiqu Radio"
  },
@@ -9475,7 +9465,7 @@
   "name": "Repubblic Rock Radio"
  },
  "https://ritus.stream.laut.fm/ritus": {
-  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vzysFAn9KFiVAC-hB0LZwLlQ59-rYLPwkCRZ0Fvak7vjziCC29R0OmRA4ayNxmFEv6GkuzKhG54VVwf05klP1UAZ_cbAOXLg65xu2HEr6wnHMxHvjOvtoZXkUES18IbWlVmLHUztJLx-YcyNBXLEmL_SmR6VHPUZR8OYHa66ggrXjgG02pkGyCFibGe-4=w16383",
+  "from": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72uahpYvzTj4AwafLLznW3k0cSvDKx60RMhMieg-zEx1dngXONuUFrWISCzacTJx1ELxEZIMJ0-AZ798jAeMUNtVklB2fCF1KMCjmJviNjZsi2oPItvgPRViVzDw5SCzTucyOIXzZsAUF1q2PaWXZ_irvaTt6NnR0TdeSNdzuDO1yFNadovL3XQWZElmnNQ=w16383",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/ritus.webp",
   "name": "Ritus"
  },
@@ -9790,7 +9780,7 @@
   "name": "Violent Forces Radio: '80s Thrash"
  },
  "https://www.tuneintoradio1.com:8020/radio.mp3": {
-  "from": "https://tuneintoradio1.com/api/nowplaying/caya_radio/art/1790698657.jpg",
+  "from": "https://tuneintoradio1.com/api/nowplaying/caya_radio/art/1790702309.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/cayaradio.webp",
   "name": "CAYA Radio"
  },
@@ -9800,7 +9790,7 @@
   "name": "107dot5"
  },
  "https://www.tuneintoradio1.com:8050/radio.mp3": {
-  "from": "https://tuneintoradio1.com/api/nowplaying/retro_country_890/art/1790698648.jpg",
+  "from": "https://tuneintoradio1.com/api/nowplaying/retro_country_890/art/1790702298.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/retrocountry890.webp",
   "name": "Retro Country 890"
  },
@@ -9810,7 +9800,7 @@
   "name": "OSDM Radio"
  },
  "https://www.tuneintoradio1.com:8110/64k.aac": {
-  "from": "https://tuneintoradio1.com/api/nowplaying/throwback_radio/art/1790698660.jpg",
+  "from": "https://tuneintoradio1.com/api/nowplaying/throwback_radio/art/1790702312.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/throwbackradio.webp",
   "name": "Throwback Radio"
  },
