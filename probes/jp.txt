@@ -1,0 +1,236 @@
+Probed 2026-10-15 16:28 UTC from GitHub's network
+
+Radio Browser (https://de1.api.radio-browser.info): 222 stations filed under JP, ordered by votes
+  reachable now           133 (60%)
+    HLS playlists          15 (7%)   play, no title in the stream
+    ICY title              77 (35%)
+    status document         5 (2%)
+    plays, names nothing   36 (16%)
+  not reachable            89 (40%)
+
+codecs as filed: MP3 107, AAC 90, UNKNOWN 11, OGG 10, AAC+ 4
+tags as filed: jpop 24, international 20, japanese 15, pop 13, j-pop 12, music 11, anime 9, japanese music 8, classical 6, city pop 5, jazz 4, anime openings 4, vaporwave 4, anime radio 4, video games 4, future funk 3, 77.5 3, 79.7 3, 76.2 3, j-rock 3, oldies 3, 79.1 3, 76.3 3, japan 2, christian 2
+
+every station, most voted first:
+   7691 votes  Jazz Sakura (asia dream radio)          MP3   ICY: Helen Merrill - You'd Be So Nice to Come Home To
+   4918 votes  Anime Para Ti                           MP3   plays, names nothing
+   3372 votes  Listen.Moe JPop Vorbis                  OGG   plays, names nothing
+   2409 votes  Retro PC GAME MUSIC Streaming Radio     MP3   ICY: �\���E�t�B�[�X for X68k [INTERNAL]   03. STAGE2 (C)1990 WOLF TEAM
+   2403 votes  Gensokyo Radio                          MP3   plays, names nothing
+   2265 votes  R/a/dio                                 MP3   ICY: 電音部, Yunomi, 水上 雛 (CV: 大森日雅), 犬吠埼紫杏 (CV: 長谷川玲奈) - Full Moon(feat.
+   2122 votes  J1 Gold (HTTP)                          MP3   ICY: Mizuhara Hiroshi - Kimi Kosowa ga Inochi
+   1727 votes  FM Kahoku 78.7 (FMかほく, JOZZ5AM-FM, 78.  MP3   plays, names nothing
+   1709 votes  Shonan Beach FM 78.9                    MP3   ICY: Shonan Beach FM - offline
+   1626 votes  Free FM Tokyo                           MP3   ICY: john+lennonjohn+lennon+-+nobody+told+me+(ULTIMATE+MIX)
+   1521 votes  Free FM 80 Tokyo                        MP3   ICY: The+PoliceThe+Police+-+Every+Little+Thing+She+Does+Is+Magic
+   1287 votes  J1 Hits (HTTP)                          MP3   ICY: Man With A Mission - Change The World
+   1260 votes  BOX : Japan City Pop - 日本のシティポップ        MP3   plays, names nothing
+   1035 votes  Nightwave Plaza OPUS 96                 OGG   status: 午後遅く
+    922 votes  Ottava                                  MP3   ICY: Airtime - offline
+    889 votes  Free FM Tokyo                           MP3   ICY: john+lennonjohn+lennon+-+nobody+told+me+(ULTIMATE+MIX)
+    755 votes  Big B Radio - Jpop                      MP3   ICY: Hey! Say! JUMP - Lucky-Unlucky
+    753 votes  Chofu FM                                UNKNOWN no answer
+    732 votes  Súper Tokio Radio                       MP3   ICY: Quevedo ft Aitana - GRAN VIA
+    720 votes  Fred Film Radio(日本語)                    MP3   ICY: 2018 VENICE FILM FESTIVAL - Shinya Tsukamoto, Director - Killing
+    676 votes  Moon Mission Recordings                 MP3   ICY: Ken  Sekiguchi - 2035 : SPACE ODYSSEY       mp3  320
+    603 votes  NHK-FM                                  AAC+  HLS, plays
+    588 votes  Nightwave Plaza MP3 182                 MP3   ICY: PUDERPOLLI - 午後遅く
+    551 votes  Listen.moe J-Pop (MP3)                  MP3   ICY: ショコラ(CV.八木侑紀)、バニラ(CV.佐伯伊織)、アズキ(CV.井澤詩織)、メイプル(CV.伊藤美来)、シナモン(CV.のぐち
+    544 votes  J-POP Powerplay                         MP3   ICY: claquepot - ourai
+    517 votes  BAN-BANラジオ                              AAC   no answer
+    497 votes  OnlyHits Japan                          MP3   plays, names nothing
+    477 votes  J-Rock Powerplay(Asia DREAM Radio)      MP3   ICY: Sambomaster - Inazuma
+    458 votes  J1 HITS                                 MP3   ICY: Man With A Mission - Change The World
+    419 votes  Real Love Music - Radio Future Funk     MP3   plays, names nothing
+    417 votes  FM世田谷                                   MP3   ICY: Airtime - offline
+    414 votes  J-Pop Powerplay Kawaii(asia dream radi  MP3   ICY: Jewel☆Neige - YELL
+    399 votes  BOX : Japan City Pop - 日本のシティポップ        MP3   plays, names nothing
+    391 votes  Vaporwave                               OGG   status: 午後遅く
+    380 votes  FM那覇 (FM Naha)                          UNKNOWN no answer
+    371 votes  Tokyo Star Radio(八王子FM)                 AAC   no answer
+    359 votes  A&G+                                    AAC   no answer
+    331 votes  ALR Jazz Radio                          AAC+  ICY: Coleman Hawkins - O Pato (The Duck)
+    325 votes  エフエム椿台                                  AAC   no answer
+    319 votes  エフエム世田谷                                 AAC   no answer
+    314 votes  Jazz Sakura                             MP3   ICY: Norio Maeda Trio - Sotsugyo Shashin
+    311 votes  AshiyaRadio〜アシヤ・ラヂヲ〜                    AAC   ICY: Bed Time Jazz - Bed Time Jazz
+    302 votes  NHKワールド・ラジオ日本                           AAC+  HLS, plays
+    288 votes  京都三条ラジオカフェ                              AAC   no answer
+    287 votes  J-Pop Powerplay Kawaii                  MP3   ICY: Jewel☆Neige - YELL
+    286 votes  Hitsujikai Radio                        MP3   ICY: Kansai Independent Baptist Bible School - 主よ導きの
+    278 votes  yamanakako from Fuji Iyashinomori Wood  MP3   plays, names nothing
+    277 votes  Japan Hits - asia DREAM radio           MP3   ICY: 稲葉浩志 - RIZAN
+    274 votes  WVVV V96.9                              MP3   ICY: Jackson, Michael - Wanna Be Startin' Somethin'
+    270 votes  Patchwork Archive - VTuber Songs and C  MP3   ICY: vyletby2020
+    253 votes  Opening Radio                           MP3   plays, names nothing
+    247 votes  tilderadio                              OGG   plays, names nothing
+    238 votes  Shonan Beach FM 78.9 湘南ビーチ              MP3   ICY: Shonan Beach FM - offline
+    234 votes  AFN GO TOKYO                            MP3   plays, names nothing
+    234 votes  大富ラジオ                                   MP3   plays, names nothing
+    233 votes  J-POP Powerplay                         MP3   ICY: claquepot - ourai
+    216 votes  調布FM                                    AAC   no answer
+    216 votes  FMメイプル                                  AAC   no answer
+    209 votes  J-Club Club Bandstand                   MP3   ICY: Mills Blue Rhythm Band - Truckin'
+    205 votes  FM RADIO3 (ラジオ3)                        AAC   no answer
+    201 votes  WREP                                    AAC   ICY: Drake, Future, Molly Santana - Ran To Atlanta
+    200 votes  J-Club Powerplay HipHop(Asia DREAM Rad  MP3   ICY: Jay Walker - Bible
+    194 votes  fmいずみ                                   AAC   no answer
+    194 votes  Gensokyo Radio (Original)               MP3   plays, names nothing
+    189 votes  775ライブリーFM                              AAC   no answer
+    186 votes  JPHiP Radio                             MP3   ICY: Zazen Boys - Crazy Days Crazy Feeling
+    177 votes  Friends Forever 128kbps MP3             MP3   no answer
+    174 votes  超！A&G+                                  UNKNOWN no answer
+    173 votes  Tokyo Star Radio                        AAC   no answer
+    164 votes  FMひたち                                   AAC   no answer
+    164 votes  FM Kawaguchi 856 studio (FM川口)          AAC   no answer
+    163 votes  Radio Mix Kyoto FM87.0                  AAC   no answer
+    160 votes  JPopsuki Radio                          MP3   ICY: スガシカオ - 夏陰~なつかげ~
+    157 votes  ラジオカロスサッポロ FM78.1                       AAC   no answer
+    156 votes  Gotanno FM 89.2                         MP3   ICY: The Hiit Factory - Red Pill
+    151 votes  Real Love Music - Radio Future Funk     MP3   plays, names nothing
+    148 votes  レインボータウンFM                              AAC   no answer
+    145 votes  #Radio Quran                            MP3   plays, names nothing
+    144 votes  Miku Radio                              AAC   ICY: PinocchioP - Thanks For Being Lifeless
+    144 votes  FMたちかわ                                  AAC   no answer
+    140 votes  BAY WAVE 塩竈のラジオ                         AAC   no answer
+    136 votes  Rainwave All                            MP3   plays, names nothing
+    135 votes  FMおたる                                   AAC   no answer
+    131 votes  AIR STATION HIBIKI                      AAC   no answer
+    129 votes  J-Rock PowerPlay                        MP3   ICY: Sambomaster - Inazuma
+    125 votes  REPLAY NEWS - 日本語 5分ごとのニュースラジオ          MP3   plays, names nothing
+    122 votes  J-Pop Sakura (asia DREAM radio)         MP3   ICY: YASUDA NARUMI - 風の谷のナウシカ
+    121 votes  FMおとくに                                  AAC   no answer
+    121 votes  まえばしCITYエフエム                            AAC   no answer
+    119 votes  エフエムたつごう                                AAC   no answer
+    115 votes  FMアップル                                  AAC   no answer
+    115 votes  Tokyo Star Radio                        AAC   no answer
+    114 votes  Otaku Music Radio                       MP3   status: Takahashi Hitomi - Candy Line
+    113 votes  Kamakura FM                             MP3   plays, names nothing
+    109 votes  なとらじ801                                 AAC   no answer
+    109 votes  otohama Coastal Soundscape from The Un  MP3   plays, names nothing
+    106 votes  SOUND UP STATION NFRS                   MP3   no answer
+    104 votes  DARAZ FM                                AAC   no answer
+    103 votes  ぎのわんシティFM                               AAC   no answer
+    103 votes  Nightwave Plaza (Opus 64)               OGG   status: 午後遅く
+    102 votes  FMたんご                                   AAC   no answer
+    102 votes  FMいしがきサンサンラジオ                           AAC   no answer
+    101 votes  ハローハッピー・こしがやエフエム                        AAC   no answer
+     99 votes  FMとよみ                                   AAC   no answer
+     98 votes  FMふっかちゃん                                AAC   no answer
+     98 votes  KOCOラジ                                  AAC   no answer
+     98 votes  J-Club Powerplay HipHop                 MP3   ICY: Jay Walker - Bible
+     98 votes  FM N1                                   AAC   no answer
+     96 votes  Moon Mission Recordings, Tokyo Deep an  MP3   ICY: Ken  Sekiguchi - 2035 : SPACE ODYSSEY       mp3  320
+     95 votes  あまみエフエム                                 AAC   no answer
+     95 votes  FMいわき                                   AAC   no answer
+     94 votes  J1 HITS                                 MP3   ICY: Man With A Mission - Change The World
+     93 votes  敦賀FM                                    AAC   no answer
+     91 votes  チョクラジ                                   AAC   no answer
+     89 votes  FM Mot.com                              AAC   no answer
+     88 votes  FMやんばる                                  AAC   no answer
+     88 votes  ラヂオもりおか FM76.9                          AAC   no answer
+     84 votes  カシオペアFM                                 AAC   no answer
+     83 votes  BeFM                                    AAC   no answer
+     82 votes  wi-radio                                AAC   no answer
+     81 votes  Big B Radio #JPOP                       MP3   ICY: Hey! Say! JUMP - Lucky-Unlucky
+     80 votes  羊飼いラジオ(Hitsujikai Radio / Shepherd rad  AAC   ICY: Kansai Independent Baptist Bible School - 主よ導きの
+     80 votes  stereo anime                            MP3   ICY: Chase & Status/Kabaka Pyramid - Murder Music
+     79 votes  鹿角きりたんぽFM                               AAC   no answer
+     79 votes  みやこハーバーラジオ                              AAC   no answer
+     79 votes  Friends Forever 64kbps AAC              AAC   no answer
+     78 votes  フラワーラジオ                                 AAC   no answer
+     78 votes  NHK WORLD RADIO 8                       AAC   HLS, plays
+     77 votes  Japan2                                  MP3   ICY: YASUDA NARUMI - 風の谷のナウシカ
+     76 votes  REDS WAVE                               AAC   no answer
+     75 votes  B･FM791                                 AAC   no answer
+     75 votes  Nonstop Casiopea                        MP3   ICY: Casiopea - THE DAY OF SELECTION
+     75 votes  FMぱるるん                                  AAC   no answer
+     75 votes  Neko-Network Radio: Anime/Japanese      MP3   ICY: WAHIKO(??P) feat. Hatsune Miku - ELECTRIC ANGEL -Aerial Flow Remi
+     74 votes  エフエムEGAO                                AAC   no answer
+     74 votes  FMゆーとぴあ                                 AAC   no answer
+     73 votes  FMのべおか                                  AAC   no answer
+     72 votes  .quran                                  MP3   ICY: Ahmad Khader Al-Tarabulsi - 073-Al-Muzzammil
+     72 votes  JPHiP Radio                             MP3   ICY: Zazen Boys - Crazy Days Crazy Feeling
+     71 votes  Kawaii Anime Radio                      AAC+  ICY: miwa - chAngE
+     71 votes  Gensokyo Radio (Enhanced)               MP3   plays, names nothing
+     70 votes  FMぎのわん                                  AAC   no answer
+     69 votes  FM ジャングル                                AAC   no answer
+     69 votes  NHK WORLD RADIO 11                      AAC   HLS, plays
+     68 votes  ラジオスイート                                 AAC   no answer
+     67 votes  ラヂオ気仙沼                                  AAC   no answer
+     67 votes  ラジオ・ミュー                                 AAC   no answer
+     67 votes  NHK WORLD RADIO                         UNKNOWN no answer
+     66 votes  横手かまくらエフエム                              AAC   no answer
+     65 votes  羊飼いラジオ Hitsujikai Radio                 MP3   ICY: Kansai Independent Baptist Bible School - 主よ導きの
+     65 votes  Gensokyo Radio (OGG)                    OGG   plays, names nothing
+     64 votes  Retro PC Game Music Streaming Radio fo  MP3   ICY: �\���E�t�B�[�X for X68k [INTERNAL]   03. STAGE2 (C)1990 WOLF TEAM
+     63 votes  asia DREAM radio - Japan Hits           MP3   ICY: 稲葉浩志 - RIZAN
+     62 votes  ラジオ石巻                                   AAC   no answer
+     62 votes  FMうしくうれしく放送                             AAC   no answer
+     61 votes  J-Pop Sakura (asia DREAM radio)         MP3   ICY: YASUDA NARUMI - 風の谷のナウシカ
+     61 votes  FMはまなすジャパン                              AAC   no answer
+     59 votes  ＦＭカオン                                   AAC   no answer
+     56 votes  J-Pop Powerplay                         MP3   ICY: claquepot - ourai
+     56 votes  FMはまなす                                  AAC   no answer
+     56 votes  NHK WORLD RADIO 3                       MP3   plays, names nothing
+     52 votes  NHK WORLD RADIO 12                      AAC   HLS, plays
+     52 votes  BOX : Japan City Pop - 日本のシティポップ        MP3   plays, names nothing
+     51 votes  J-Pop Sakura                            MP3   ICY: YASUDA NARUMI - 風の谷のナウシカ
+     50 votes  FMりべーる                                  AAC   no answer
+     49 votes  FMわたらせ                                  AAC   no answer
+     48 votes  FMはまなすジャパン                              AAC   no answer
+     46 votes  Hitsujikai Radio                        MP3   ICY: Kansai Independent Baptist Bible School - 主よ導きの
+     45 votes  FMはまなすジャパン                              AAC   no answer
+     44 votes  FMはまなすジャパン                              AAC   no answer
+     41 votes  R/a/dio                                 MP3   ICY: 電音部, Yunomi, 水上 雛 (CV: 大森日雅), 犬吠埼紫杏 (CV: 長谷川玲奈) - Full Moon(feat.
+     38 votes  NHK WORLD RADIO 5                       MP3   plays, names nothing
+     37 votes  BOOTY FM                                MP3   no answer
+     37 votes  Chifuru!                                OGG   no answer
+     37 votes  NHK WORLD RADIO                         UNKNOWN HLS, plays
+     37 votes  NHK WORLD RADIO 4                       MP3   plays, names nothing
+     35 votes  FMわたらせ                                  AAC   no answer
+     32 votes  Nightwave Plaza (HLS)                   AAC   status: 午後遅く
+     32 votes  NHK WORLD RADIO 6                       MP3   plays, names nothing
+     31 votes  Abdulbasit Abdulsamad                   AAC   ICY: Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء
+     30 votes  NHK WORLD RADIO 7                       AAC   HLS, plays
+     27 votes  NFRS Radio                              MP3   ICY: 現在放送中 | Live From the Fur Peace Ranch | by Global Community Radio
+     27 votes  NHK WORLD RADIO 9                       AAC   HLS, plays
+     26 votes  Anime Para Ti                           MP3   plays, names nothing
+     20 votes  Animenfo                                MP3   plays, names nothing
+     20 votes  NHK WORLD RADIO 13                      AAC   HLS, plays
+     20 votes  Retro PC Game Music Streaming Radio fo  MP3   plays, names nothing
+     18 votes  Justplay                                MP3   ICY: Ed Sheeran - Photograph
+     18 votes  RadioMixjp                              MP3   no answer
+     17 votes  NHK WORLD RADIO 10                      UNKNOWN no answer
+     17 votes  NHK WORLD RADIO 2                       UNKNOWN no answer
+     16 votes  Listen.Moe JPop Vorbis                  OGG   plays, names nothing
+     15 votes  83.4MHz FMSETAGAYA                      MP3   ICY: Airtime - offline
+     15 votes  SHMUPRADIO                              MP3   ICY: Dragon Spirit: Lead Into Genesis - Glacier Land
+     15 votes  A Radio for ACG & others                AAC   no answer
+     14 votes  MILCpod                                 AAC   HLS, plays
+     14 votes  XWave Radio                             MP3   ICY: Dr. C Stein - - Liége in the Spring ( 10 inch - Liége in the Spri
+     13 votes  RadiCro (レディクロ)                         MP3   ICY: BIGMAN - Selected by BIGMAN Vol.7
+     12 votes  Radio Hayama                            MP3   ICY: Eno, Brian / Jon Hassell - Delta Rain Dream
+     11 votes  RadiCro                                 MP3   ICY: BIGMAN - Selected by BIGMAN Vol.7
+     10 votes  J-Pop Christmas                         MP3   ICY: 中山美穂 - 遠い街のどこかで…
+     10 votes  Japan Hits - asia DREAM radio           MP3   ICY: 稲葉浩志 - RIZAN
+      9 votes  VRC放送局                                  AAC   plays, names nothing
+      7 votes  stereoanime                             MP3   ICY: Chase & Status/Kabaka Pyramid - Murder Music
+      7 votes  タコヤリイカラジオ                               MP3   no answer
+      7 votes  Chiafuru                                OGG   no answer
+      6 votes  City Poppers                            MP3   plays, names nothing
+      5 votes  Anime Para Ti                           MP3   plays, names nothing
+      5 votes  NHK WORLD RADIO-3                       UNKNOWN HLS, plays
+      4 votes  City Pop One                            MP3   ICY: Carlos Toshiki and Omega Tribe · Reiko (1989)
+      4 votes  NHK World Radio (Korean)                AAC   HLS, plays
+      3 votes  Gotanno Radio micro FM station          MP3   ICY: The Hiit Factory - Red Pill
+      3 votes  Oreo Chii                               MP3   plays, names nothing
+      3 votes  VR Soundscape TV                        AAC   plays, names nothing
+      3 votes  Neko-Network Radio: Anime/Japanese      MP3   ICY: WAHIKO(??P) feat. Hatsune Miku - ELECTRIC ANGEL -Aerial Flow Remi
+      3 votes  Nightwave Plaza MP3 182                 MP3   ICY: Samasukuru - 想像する (w/人類)
+      3 votes  J-Rock Powerplay(Asia DREAM Radio)      MP3   ICY: Sambomaster - Inazuma
+      3 votes  NHK WORLD RADIO-2                       UNKNOWN HLS, plays
+      3 votes  NHK WORLD RADIO-4                       UNKNOWN HLS, plays
+      3 votes  NHK WORLD RADIO-5                       UNKNOWN HLS, plays
+      3 votes  City Hunter OST 24/7                    MP3   no answer
+      0 votes  Chifuru!                                OGG   no answer

@@ -1,0 +1,1346 @@
+{
+ "http://kathy.torontocast.com:3330/stream/1/?esPlayer&cb=82181.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Helen Merrill - You'd Be So Nice to Come Home To",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/qpn8mkt8c4duv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://listen.moe/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "http://gyusyabu.ddo.jp:8000/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.gensokyoradio.net/3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://relay0.r-a-d.io/main.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "電音部, Yunomi, 水上 雛 (CV: 大森日雅), 犬吠埼紫杏 (CV: 長谷川玲奈) - Full Moon(feat. Yunomi)[Instrumental]",
+  "status": null,
+  "content_type": ""
+ },
+ "http://jenny.torontocast.com:8062/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Mizuhara Hiroshi - Kimi Kosowa ga Inochi",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio.kahoku.net:8000/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://shonanbeachfm.out.airtime.pro:8000/shonanbeachfm_a": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Shonan Beach FM - offline",
+  "status": null,
+  "content_type": ""
+ },
+ "https://rocafmadrid.radioca.st/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "john+lennonjohn+lennon+-+nobody+told+me+(ULTIMATE+MIX)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://freefm80.radioca.st/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The+PoliceThe+Police+-+Every+Little+Thing+She+Does+Is+Magic",
+  "status": null,
+  "content_type": ""
+ },
+ "http://jenny.torontocast.com:8056/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Man With A Mission - Change The World",
+  "status": null,
+  "content_type": ""
+ },
+ "https://play.streamafrica.net/japancitypop": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio.plaza.one/opus": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "午後遅く",
+  "content_type": "application/ogg"
+ },
+ "http://ottava2.out.airtime.pro:8000/ottava2_a": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Airtime - offline",
+  "status": null,
+  "content_type": ""
+ },
+ "https://rocafmadrid.radioca.st/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "john+lennonjohn+lennon+-+nobody+told+me+(ULTIMATE+MIX)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://antares.dribbcast.com/proxy/jpop?mp=/s": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hey! Say! JUMP - Lucky-Unlucky",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30039/livestream/chunklist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamer.radio.co/s83eb8ff39/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Quevedo ft Aitana - GRAN VIA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s10.webradio-hosting.com/proxy/fredradiojp/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "2018 VENICE FILM FESTIVAL - Shinya Tsukamoto, Director - Killing",
+  "status": null,
+  "content_type": ""
+ },
+ "http://uk5.internet-radio.com:8306/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ken  Sekiguchi - 2035 : SPACE ODYSSEY       mp3  320",
+  "status": null,
+  "content_type": ""
+ },
+ "http://mnet.x10.mx/nhkfm.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://radio.plaza.one/mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Samasukuru - 想像する (w/人類)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://listen.moe/fallback": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ショコラ(CV.八木侑紀)、バニラ(CV.佐伯伊織)、アズキ(CV.井澤詩織)、メイプル(CV.伊藤美来)、シナモン(CV.のぐちゆり)、ココナツ(CV.水谷麻鈴) - Shiny Happy Days",
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3560/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "claquepot - ourai",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30078/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://j.onlyhit.us/play": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://kathy.torontocast.com:3340/;?shoutcast": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sambomaster - Inazuma",
+  "status": null,
+  "content_type": ""
+ },
+ "https://jenny.torontocast.com:2000/stream/J1HITS?_=184325": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Man With A Mission - Change The World",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-152.zeno.fm/48533y95cnruv?zs=doyTUcjfTvCVtBOS3nlI8g": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://fmsetagaya834.out.airtime.pro/fmsetagaya834_a": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Airtime - offline",
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3060/;?shoutcast": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jewel☆Neige - YELL",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio.plaza.one/ogg": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "午後遅く",
+  "content_type": "application/ogg"
+ },
+ "https://mtist.as.smartstream.ne.jp/30068/livestream/chunklist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30081/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://www.uniqueradio.jp/agapps/hls/cdn.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://195.154.79.204:8638/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Coleman Hawkins - O Pato (The Duck)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30014/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://mtist.as.smartstream.ne.jp/30027/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3330/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Norio Maeda Trio - Sotsugyo Shashin",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s3.radio.co/sc8d895604/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Bed Time Jazz - Bed Time Jazz",
+  "status": null,
+  "content_type": ""
+ },
+ "https://masterpl.hls.nhkworld.jp/hls/r1/live/master.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://mtist.as.smartstream.ne.jp/30082/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3060/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jewel☆Neige - YELL",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.radio.co/se4a8e6a93/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Kansai Independent Baptist Bible School - 主よ導きの",
+  "status": null,
+  "content_type": ""
+ },
+ "http://mp3s.nc.u-tokyo.ac.jp/Fuji_CyberForest.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://quincy.torontocast.com:2020/stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "稲葉浩志 - RIZAN",
+  "status": null,
+  "content_type": ""
+ },
+ "https://ice5.securenetsystems.net/WVVVFM": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jackson, Michael - Wanna Be Startin' Somethin'",
+  "status": null,
+  "content_type": ""
+ },
+ "https://a4.asurahosting.com:6930/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "vyletby2020",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/tza2ayy47qruv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://tilderadio.org/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/ogg"
+ },
+ "http://17633.live.streamtheworld.com:3690/AFNP_TKO_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/oaxp6mswcqltv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mtist.as.smartstream.ne.jp/30039/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30015/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://cast1.torontocast.com:2060/;.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Mills Blue Rhythm Band - Truckin'",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30007/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://c13.radioboss.fm:8200/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Drake, Future, Molly Santana - Ran To Atlanta",
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3350/;?shoutcast": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jay Walker - Bible",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30018/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.gensokyoradio.net/1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mtist.as.smartstream.ne.jp/30026/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio.jphip.com:8800/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Zazen Boys - Crazy Days Crazy Feeling",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s5.radio.co/s6140c7241/listen": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://www.uniqueradio.jp/agplayerf/hls/Active.m3u8?": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://mtist.as.smartstream.ne.jp/30081/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30023/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30035/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30071/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://65.21.170.149:8000/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "スガシカオ - 夏陰~なつかげ~",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30034/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.gotanno.love/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Hiit Factory - Red Pill",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30036/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://n0a.radiojar.com/0tpy1h0kxtzuv?rj-ttl=5&rj-tok=AAABhdgGORQA-2acfyF3_4WY2g": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://miku.fm/listen/miku/aac-320": {
+  "reachable": true,
+  "hls": false,
+  "icy": "PinocchioP - Thanks For Being Lifeless",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30033/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30056/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://relay.rainwave.cc/all.mp3?1:MF0d8GHw2d": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mtist.as.smartstream.ne.jp/30025/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30052/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3340/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sambomaster - Inazuma",
+  "status": null,
+  "content_type": ""
+ },
+ "https://replaynewsja.ice.infomaniak.ch/replaynewsja-128.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://quincy.torontocast.com:2070/stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "YASUDA NARUMI - 風の谷のナウシカ",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30063/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30043/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30072/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30090/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:2880/;?type=http&nocache=1606748882": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Takahashi Hitomi - Candy Line",
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.laut.fm/kamakura": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mtist.as.smartstream.ne.jp/30092/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://mp3s.nc.u-tokyo.ac.jp/OTSUCHI_CyberForest.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream2.rcast.net/70945": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30053/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30098/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio.plaza.one/ogg_low": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "午後遅く",
+  "content_type": "application/ogg"
+ },
+ "https://mtist.as.smartstream.ne.jp/30073/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30069/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30096/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30083/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30047/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30020/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3350/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jay Walker - Bible",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30001/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://uk5.internet-radio.com/proxy/mmr?mp=/stream;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ken  Sekiguchi - 2035 : SPACE ODYSSEY       mp3  320",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30054/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30009/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://jenny.torontocast.com:2000/stream/J1HITS?_=538100": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Man With A Mission - Change The World",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30012/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30085/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30019/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30095/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30017/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30050/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30079/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30087/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radio.co/se4a8e6a93/low": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Kansai Independent Baptist Bible School - 主よ導きの",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.stereoanime.com/listen/stereoanime/128": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Chase & Status/Kabaka Pyramid - Murder Music",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30089/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30097/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://s5.radio.co/s6140c7241/low": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30002/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/rs5/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "http://quincy.torontocast.com:2070/stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "YASUDA NARUMI - 風の谷のナウシカ",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30008/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30010/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://nonstopcasiopea.radioca.st/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Casiopea - THE DAY OF SELECTION",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30022/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://listen.nekonetwork.moe:8400/anime.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "WAHIKO(??P) feat. Hatsune Miku - ELECTRIC ANGEL -Aerial Flow Remix-",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30040/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30030/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30088/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://backup.qurango.net/radio/ahmad_khader_altarabulsi": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ahmad Khader Al-Tarabulsi - 073-Al-Muzzammil",
+  "status": null,
+  "content_type": ""
+ },
+ "http://158.69.227.214:8137/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "miwa - chAngE",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30093/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30013/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/gs2/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "https://mtist.as.smartstream.ne.jp/30061/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30094/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30006/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://b-nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-rs1/index_rs1.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30076/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radio.co/se4a8e6a93/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Kansai Independent Baptist Bible School - 主よ導きの",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.gensokyoradio.net/2": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/ogg"
+ },
+ "http://gyusyabu.ddo.jp:8000/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "�\\���E�t�B�[�X for X68k [INTERNAL]   03. STAGE2 (C)1990 WOLF TEAM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://quincy.torontocast.com:2020/stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "稲葉浩志 - RIZAN",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30037/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30021/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://mtist.as.smartstream.ne.jp/30004/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30057/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://kathy.torontocast.com:3560/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "claquepot - ourai",
+  "status": null,
+  "content_type": ""
+ },
+ "http://shoutcast.wrn.org:8025/nhk41left": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/kai/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "http://mtist.as.smartstream.ne.jp/30074/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mtist.as.smartstream.ne.jp/30048/livestream/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://shoutcast.wrn.org:8025/nhk41right": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://60.45.66.12:88/bootyfm": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://157.254.194.202/stream/nanahira@256": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-media2/index.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://streaming.edmradio.online:8025/nhk41left": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio.plaza.one/hls": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "午後遅く",
+  "content_type": "application/x-mpegurl"
+ },
+ "http://streaming.edmradio.online:8025/nhk41right": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء",
+  "status": null,
+  "content_type": ""
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/rs2/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "https://securestreams.autopo.st:2592/stream?t=1769818665235": {
+  "reachable": true,
+  "hls": false,
+  "icy": "現在放送中 | Live From the Fur Peace Ranch | by Global Community Radio",
+  "status": null,
+  "content_type": ""
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/rs4/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "https://stream.zenolive.com/xwa8ckz7mzzuv.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/sin/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "https://justplay.stream.laut.fm/justplay": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ed Sheeran - Photograph",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiomixjp.servepics.com/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://nhkworld-radio.akamaized.net/hls/live/2115820/nhkworld-radio-rs5/index_rs5.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://nhkworld-radio.akamaized.net/hls/live/2115823/nhkworld-radio-rs1/index_rs1.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.shmupradio.com/320": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Dragon Spirit: Lead Into Genesis - Glacier Land",
+  "status": null,
+  "content_type": ""
+ },
+ "https://hkradio.myaddr.io/listen/new_radio/radio.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.milradio.info:9000/milcpod.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://vps-260b74e9.vps.ovh.net:8000/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Dr. C Stein - - Liége in the Spring ( 10 inch - Liége in the Spring - 2007 )",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radicrojapan.out.airtime.pro/radicrojapan_a": {
+  "reachable": true,
+  "hls": false,
+  "icy": "BIGMAN - Selected by BIGMAN Vol.7",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server10.reliastream.com/proxy/radiohayama": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Eno, Brian / Jon Hassell - Delta Rain Dream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radicrojapan.out.airtime.pro/radicrojapan_b": {
+  "reachable": true,
+  "hls": false,
+  "icy": "BIGMAN - Selected by BIGMAN Vol.7",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cast3.torontocast.com:1170/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "中山美穂 - 遠い街のどこかで…",
+  "status": null,
+  "content_type": ""
+ },
+ "https://vrc.gate.vrtv.jp/live?p=g&u=d": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://tekitouradio.onrender.com/radio": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://chiafuru.fun/stream/nanahira-releases@128": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/ricmeoweux2uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-media12/index.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://65.21.61.215:8000/citypopone": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Carlos Toshiki and Omega Tribe · Reiko (1989)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://master.nhkworld.jp/nhkworld-radio/playlist/rs1/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegURL"
+ },
+ "https://www.dropbox.com/scl/fi/cr0fnz92285jehid72r7p/Romanji-Hitorigotsu-by-Hachiware-Chiikawa-Full-lyrics-English-Vietnamese-Translation.mp3?rlkey=9naoagjdv4469sxx1ak7m9f1k&st=xjp5067g&raw=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.vrstv.jp/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-media11/index.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-media13/index.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://nhkworld-radio.nhkworld.jp/hls/live/nhkworld-radio-media3/index.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://5.178.106.47:8000/cityhunter.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ }
+}
