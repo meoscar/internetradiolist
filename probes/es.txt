@@ -1,0 +1,1014 @@
+Probed 2026-10-15 16:35 UTC from GitHub's network
+
+Radio Browser (https://de1.api.radio-browser.info): 1000 stations filed under ES, ordered by votes
+  reachable now           921 (92%)
+    HLS playlists          76 (8%)   play, no title in the stream
+    ICY title             343 (34%)
+    status document        23 (2%)
+    plays, names nothing  479 (48%)
+  not reachable            79 (8%)
+
+codecs as filed: MP3 789, AAC 112, AAC+ 50, UNKNOWN 26, OGG 16, AAC,H.264 5, FLV 1, MP4 1
+tags as filed: news 87, pop 76, music 70, noticias 65, dance 56, electronic 47, 80s 47, 90s 43, rock 43, local news 35, hits 32, talk 29, debates y deportes 29, entretenimiento 27, house 26, oldies 21, culture 20, latino 19, 70s 18, chillout 16, christian 16, top 40 15, reggaeton 15, edm 15, news talk 14
+
+every station, most voted first:
+  43953 votes  Cadena 100                              MP3   ICY: Shakira y Burna Boy - Dai dai
+  37773 votes  Ibiza Global Radio                      MP3   plays, names nothing
+  34796 votes  LOS 40 Principales España               MP3   plays, names nothing
+  32630 votes  Chocolate FM                            MP3   ICY: Kim Petras - I Like Ur Look
+  30484 votes  Cadena SER España                       MP3   plays, names nothing
+  27403 votes  1000 HITS 80s                           MP3   ICY: B.V.S.M.P. - I Need You
+  24766 votes  Rock FM                                 MP3   ICY: ELTON JOHN - YOUR SONG
+  20100 votes  _80 EXITOS                              MP3   ICY: Jorge (Spanish) - 24 HORAS.mp3
+  17373 votes  Los 40 Urban                            MP3   plays, names nothing
+  15556 votes  Los 40 Dance                            MP3   plays, names nothing
+  15409 votes  esRadio                                 MP3   plays, names nothing
+  13075 votes  Pure Ibiza Radio                        MP3   plays, names nothing
+  12552 votes  Cadena Dial                             MP3   plays, names nothing
+  12525 votes  Chocolate FM [calidad móvil-low bandwi  AAC+  ICY: Kim Petras - I Like Ur Look
+  12151 votes  Radio Marca                             MP3   plays, names nothing
+   9188 votes  Cadena SER Radio MADRID                 MP3   plays, names nothing
+   8849 votes  Café del Mar                            MP3   ICY: estrato - nostalgica
+   8749 votes  Costa Del Mar - Chillout (AAC 96kbps)   AAC   ICY: Airport - The Sun Is In The Sky
+   8475 votes  LOS40 Classic                           MP3   plays, names nothing
+   8179 votes  Absolute Chillout                       MP3   ICY: Christophe Goze - Passing Time
+   8118 votes  Radio Marca Barcelona                   MP3   plays, names nothing
+   8101 votes  MegaStarFM                              MP3   ICY: Myles Smith - Stay (If You Wanna Dance)
+   6656 votes  Radio Marca Madrid                      MP3   plays, names nothing
+   6002 votes  Loca FM Deep Techno                     MP3   ICY: matthias meyer   infinity
+   5648 votes  ElectroDanceWorld Radio                 AAC   plays, names nothing
+   4757 votes  KISS FM                                 MP3   plays, names nothing
+   4620 votes  Cope Sevilla                            MP3   plays, names nothing
+   4494 votes  ONDA CERO (España)                      AAC   HLS, plays
+   4371 votes  Radiolé                                 AAC+  ICY: Melody - Te digo adiós
+   4297 votes  Loca FM live                            MP3   ICY: Loca FM
+   4149 votes  esRadio Madrid                          MP3   plays, names nothing
+   4001 votes  Loca FM Urban                           MP3   ICY: Loca URBAN
+   3897 votes  RockFM 101.7                            AAC+  ICY: ELTON JOHN - YOUR SONG
+   3627 votes  Perfect Deep House                      MP3   plays, names nothing
+   3626 votes  Chocolate FM HD                         MP3   ICY: Kim Petras - I Like Ur Look
+   3606 votes  Hit radio                               MP3   plays, names nothing
+   3405 votes  24h RTVE Televisión                     AAC,H.264 HLS, plays
+   3338 votes  RNE - R1 --> Madrid                     MP3   plays, names nothing
+   3309 votes  RADIO MARÍA ESPAÑA                      MP3   plays, names nothing
+   3234 votes  RAC1                                    MP3   plays, names nothing
+   3200 votes  Cafe Mambo Ibiza Radio                  MP3   ICY: mamboradio-epicradio
+   3128 votes  Onda Cero Madrid                        AAC   HLS, plays
+   2973 votes  Loca FM Twchno                          MP3   ICY: Tech Us Out - In Your Eyes (Original Mix)
+   2968 votes  Catalunya Informació (Catinfo)          AAC   plays, names nothing
+   2895 votes  Rock FM                                 AAC   HLS, plays
+   2484 votes  Digital hits                            MP3   no answer
+   2385 votes  Vaughan                                 MP3   plays, names nothing
+   2358 votes  esRadio_AAC                             AAC+  plays, names nothing
+   2319 votes  Kiss FM                                 MP3   plays, names nothing
+   2283 votes  Radio España                            MP3   plays, names nothing
+   2014 votes  Radio Maria Spain Espana                MP3   plays, names nothing
+   2010 votes  Remember the music FM 96.6              MP3   ICY: Remember The Music FM - Emision en directo
+   1963 votes  punk irratia                            MP3   ICY: corrupted ideals - Continuous Song
+   1928 votes  Hit FM                                  MP3   plays, names nothing
+   1898 votes  Hitz Latino FM                          MP3   plays, names nothing
+   1870 votes  Radio Nacional de España - Radio 5 Tod  MP3   plays, names nothing
+   1801 votes  Catalunya Radio                         AAC   plays, names nothing
+   1739 votes  Marca Valladolid                        MP3   plays, names nothing
+   1728 votes  Radio Planeta Costa del Sol             MP3   ICY: PEGGY GOU - Wo, man
+   1712 votes  Costa Del Mar Smooth Jazz               MP3   ICY: Kool&Klean - I Can Only Imagine
+   1694 votes  Radio Marca                             MP3   plays, names nothing
+   1636 votes  #1 Splash 90s Dance                     MP3   ICY: System F - Out Of The Blue
+   1612 votes  Flaix FM                                AAC   plays, names nothing
+   1604 votes  Los 40                                  MP3   plays, names nothing
+   1564 votes  __80 EXITOS                             MP3   ICY: Toto Cutugno - Insieme: 1992
+   1524 votes  Loca FM 80s                             MP3   ICY: 12 Drummers Drumming - I'll Be There
+   1518 votes  Cadena SER - Radio Valencia             MP3   plays, names nothing
+   1484 votes  EsRadio Principal                       MP3   plays, names nothing
+   1477 votes  COPE Albacete                           MP3   plays, names nothing
+   1461 votes  Onda Cero Gijón                         AAC   HLS, plays
+   1420 votes  LOVE RADIO - LOVE.radio                 AAC+  ICY: La Bouche - Fallin' In Love (1995)
+   1419 votes  RAC1 +1                                 MP3   plays, names nothing
+   1412 votes  Intimidad Relax                         MP3   ICY: Rensmusic - Spirit Of Night
+   1394 votes  Radio Nature                            MP3   plays, names nothing
+   1301 votes  FUNKY TRACKS RADIO Barcelona            MP3   no answer
+   1299 votes  LOCAFM REMEMBER                         MP3   ICY: deep down (club mix) (ella eyre  kenny dope feat. never dull)
+   1295 votes  Talk Radio Europe                       MP3   plays, names nothing
+   1291 votes  LOS 40 DANCE                            MP3   plays, names nothing
+   1281 votes  COPE Málaga                             MP3   plays, names nothing
+   1273 votes  Cadena SER - Ràdio Barcelona            MP3   plays, names nothing
+   1266 votes  Loca FM chillout                        MP3   ICY: alone   chill mix
+   1249 votes  Cadena 100                              UNKNOWN HLS, plays
+   1211 votes  Radio Sevillanas                        MP3   ICY: Amigos de Gines - QUE EN SEVILLA HAY QUE MORIR
+   1198 votes  LOCA FM TechHouse                       MP3   ICY: james-hurr-jewel-kid-feat-frankco-harris-back-of-the-jeep-tech-ho
+   1157 votes  Remember VIP Radio                      AAC   plays, names nothing
+   1129 votes  Radio Libertad                          MP3   plays, names nothing
+   1107 votes  EsRadio Asturias                        MP3   plays, names nothing
+   1077 votes  LOS 40 URBAN                            MP3   plays, names nothing
+   1075 votes  1 Slow-Radio - laut.fm                  MP3   ICY: Smokey Robinson - Cruisin'
+   1046 votes  Loca Progressive House                  MP3   ICY: Made By Pete - So Long feat Jem Cooke (Audiojack Remix)
+   1033 votes  Holiday Gym FM                          MP3   ICY: Dua Lipa - Don't Start Now - TRP Remix
+   1031 votes  INFORMA RADIO                           MP3   ICY: ERASE UNA VEZ UN CIRCO
+   1026 votes  Mix80Radio                              MP3   ICY: KC & The Sunshine Band - Get Down Tonight
+    953 votes  C. DIAL Baladas                         MP3   plays, names nothing
+    948 votes  EsRadio (MP3 HQ)                        MP3   plays, names nothing
+    947 votes  RadioBlues Flac                         OGG   plays, names nothing
+    897 votes  Inselradio Mallorca                     MP3   plays, names nothing
+    870 votes  RNE Radio 3                             UNKNOWN HLS, plays
+    866 votes  Emision moviles                         AAC   ICY: Dua Lipa - Physical
+    849 votes  Euskadi irratia                         MP3   plays, names nothing
+    817 votes  Qfm                                     MP3   ICY: Luis Cubells  - 99.9 x Ciento JAZZ - Qmusica.com
+    813 votes  Pure Ibiza Radio                        MP3   plays, names nothing
+    806 votes  Misterio FM                             MP3   plays, names nothing
+    797 votes  Ibiza Radios Relax                      MP3   ICY: Healing Meditation Zone - Buddhist Meditation Music
+    790 votes  LOCA FM                                 MP3   ICY: Loca FM
+    788 votes  Radio Vilasound Ibiza 92.7 FM           AAC   ICY: Unknown
+    774 votes  CADENA 100                              UNKNOWN HLS, plays
+    772 votes  Kiss Music FM                           MP3   plays, names nothing
+    758 votes  Mariskal Rock                           MP3   ICY: - JINGLE DAVID ARTISTAS
+    741 votes  Radio Humor FM                          MP3   ICY: updinfo
+    732 votes  Cadena Ser Radio Galicia                MP3   plays, names nothing
+    728 votes  Ibiza Stardust Radio                    MP3   plays, names nothing
+    727 votes  Radio Euskadi                           MP3   plays, names nothing
+    726 votes  FlaixBAC                                AAC   plays, names nothing
+    716 votes  LocaFM Melodic Deep                     MP3   ICY: Made By Pete - So Long feat Jem Cooke (Audiojack Remix)
+    708 votes  Canarias Radio                          MP3   plays, names nothing
+    680 votes  ABSOLUTE CHILLOUT                       MP3   plays, names nothing
+    671 votes  Loca FM Industrial                      MP3   ICY: 16 Bit - Too Fast To Live (Left Lane Edit)
+    669 votes  Los 40 Catalunya                        MP3   plays, names nothing
+    668 votes  COPE Santander                          MP3   plays, names nothing
+    668 votes  RNE - R5 --> Madrid                     MP3   plays, names nothing
+    668 votes  Onda Cero Valencia                      AAC   HLS, plays
+    667 votes  COPE + Sevilla                          MP3   plays, names nothing
+    665 votes  MDT Radio                               MP3   ICY: MDTRADIO
+    650 votes  Onda Cero Bilbao                        AAC   HLS, plays
+    644 votes  C. DIAL Latino                          AAC+  plays, names nothing
+    629 votes  Cadena100                               AAC   HLS, plays
+    603 votes  Hitz 90s FM                             MP3   plays, names nothing
+    592 votes  _Funky Corner Radio (Spain)             AAC+  ICY: The Futures - Party Time Man
+    592 votes  Los 40 españa                           MP3   plays, names nothing
+    589 votes  Ibiza Relax                             MP3   ICY: Healing Meditation Zone - Buddhist Meditation Music
+    589 votes  Radio Marca Málaga                      MP3   plays, names nothing
+    575 votes  iCat FM                                 AAC   plays, names nothing
+    567 votes  Radio Popular Herri Irratia - Bilbao    MP3   ICY: EgunOff Magazine - Cris Maestro, Leire Argandoña y May Madrazo
+    562 votes  Spektra FM Valencia                     MP3   plays, names nothing
+    561 votes  Radio Esport Valencia                   MP3   plays, names nothing
+    554 votes  Cope Madrid FM                          MP3   no answer
+    552 votes  Cadena SER - Radio Vigo                 MP3   plays, names nothing
+    547 votes  Cadena SER Radio Murcia                 MP3   plays, names nothing
+    538 votes  Kiss FM España                          MP3   plays, names nothing
+    538 votes  Jazz Radio Spain                        MP3   ICY: Cindy Bradley - Pink Slip
+    533 votes  Loca FM Ambient                         MP3   ICY: Bing Satellites - The Road to Hull
+    522 votes  Cafe del Mar Channel 2                  MP3   ICY: Chaos In The CBD - Dusty Sundays
+    503 votes  Onda Cero Malaga                        AAC   HLS, plays
+    497 votes  24h RTVE Original TELEVISION            AAC,H.264 HLS, plays
+    491 votes  LOCA FM Techno                          MP3   ICY: Tech Us Out - In Your Eyes (Original Mix)
+    486 votes  LOCA FM Trance                          MP3   ICY: roto trc rb loca
+    473 votes  Radio España - Directo                  MP3   plays, names nothing
+    471 votes  Catalunya Música (CatMúsica)            AAC   plays, names nothing
+    466 votes  Loca Ambient                            MP3   ICY: Bing Satellites - The Road to Hull
+    465 votes  IB3 Ràdio Menorca                       MP3   status: I3M / IB3 MÚSICA - J241 - I3M
+    463 votes  Aragón Radio Zaragoza                   AAC   no answer
+    463 votes  Ona Mediterrània                        MP3   plays, names nothing
+    462 votes  Onda Vasca                              MP3   plays, names nothing
+    462 votes  MortalFM                                MP3   ICY: FLASHMOB - BY MY SIDE
+    461 votes  Radio María España                      MP3   plays, names nothing
+    457 votes  Cadena 100 Barcelona                    MP3   HLS, plays
+    455 votes  Digital Hits FM                         MP3   ICY: Digital Hits FM - L'Estació Dance de Catalunya
+    451 votes  Radio Cadena Stereo España              AAC   plays, names nothing
+    449 votes  Radio Almaina                           OGG   plays, names nothing
+    448 votes  Free FM Top 100                         MP3   plays, names nothing
+    447 votes  EsRadio                                 MP3   plays, names nothing
+    443 votes  Radio Nervión                           MP3   plays, names nothing
+    442 votes  Graba Radio Ibiza                       MP3   ICY: Gumrobot - The Main Desire
+    440 votes  Remember Radio                          MP3   ICY: Remember Radio
+    427 votes  esRadio Madrid                          AAC+  plays, names nothing
+    421 votes  Cristianos - Christen auf Spanisch      MP3   ICY: Marcos Vidal ft. Juan Luis Guerra - Tu Nombre
+    418 votes  PlayTrance Radio - Main Channel         AAC   plays, names nothing
+    412 votes  Ibiza Radios Deep House                 MP3   ICY: Cerrone - You Are the One (Jamie Lewis Classic Mix & CDM Edit)
+    411 votes  Rock FM Espana Hi-Res                   UNKNOWN HLS, plays
+    409 votes  Gaztea Irratia                          MP3   plays, names nothing
+    403 votes  LOCA FM House                           MP3   ICY: heaven (stacy kidd u0026 dj spen original mix)
+    403 votes  Radioteletaxi                           MP3   no answer
+    402 votes  El Toro TV                              UNKNOWN HLS, plays
+    402 votes  Adagio Radio HD                         MP3   ICY: Mikyung Sung & Jaemin Shin - Sonata in E Minor for Double Bass an
+    400 votes  Swing latinos FM                        MP3   ICY: Mas Energia Fm
+    398 votes  RadioBlues-Flac                         OGG   plays, names nothing
+    396 votes  Europa FM Guipuzcoa                     AAC   plays, names nothing
+    391 votes  Radio Moscatel 107.1 FM Axarquía - Esp  MP3   ICY: LOS MANOLOS - ALL MY LOVING
+    389 votes  esRadio Galicia                         MP3   plays, names nothing
+    388 votes  Onda Cero Pontevedra                    AAC   HLS, plays
+    384 votes  1000 HITS Classical                     MP3   ICY: ADWTAG_122000 - THIS STATION WILL CONTINUE AFTER THIS BREAK
+    380 votes  Radio Radio Network                     MP3   ICY: 3rd Force - Big Shot
+    378 votes  Café del Mar CALM                       AAC   ICY: Humate - 3.2 Bedrock
+    372 votes  Kiss-FM Madrid                          MP3   plays, names nothing
+    370 votes  华夏之声China FM·西班牙马德里FM92.9               AAC+  plays, names nothing
+    358 votes  RAC105                                  MP3   plays, names nothing
+    358 votes  Exito Radio                             MP3   plays, names nothing
+    356 votes  1000 80s Hits                           MP3   ICY: Savage - Don`t Cry Tonight
+    356 votes  Canal Sur Radio Andalucía               MP3   plays, names nothing
+    354 votes  Cadena Ser Mallorca                     MP3   plays, names nothing
+    351 votes  Perfect Deep Radio                      MP3   plays, names nothing
+    348 votes  Urban Revolution                        OGG   plays, names nothing
+    347 votes  Ondamar80                               AAC+  no answer
+    346 votes  Mega St☆r Spain                         MP3   plays, names nothing
+    343 votes  DMT-FM - EU Server 320k                 AAC+  ICY: JUNO REACTOR -  LiVE @ Bio Harzrd Live On DMT FM
+    342 votes  Muy buena                               MP3   plays, names nothing
+    342 votes  LOCA FM Child Out                       MP3   ICY: alone   chill mix
+    342 votes  Cadena Ser + Madrid                     MP3   plays, names nothing
+    338 votes  Radio Bluesflac                         OGG   ICY: Mississippi MacDonald - We're Gonna Make It | Mixxx
+    338 votes  Canal Fiesta Radio                      MP3   plays, names nothing
+    330 votes  Cadena Ser + Granada                    MP3   plays, names nothing
+    324 votes  Blue Marlin Ibiza                       MP3   ICY: Djs Blue Marlin Sessions
+    323 votes  RNE Radio Nacional Almería              MP3   plays, names nothing
+    323 votes  Oro                                     MP3   ICY: Genesis - Invisible Touch
+    321 votes  LOCA FM DANCE                           MP3   ICY: LOVE ME NOW - JOHN LEGEN (REMIX DAVE AUDE)
+    319 votes  EITB Irratia                            MP3   plays, names nothing
+    317 votes  Ràdio Olot                              MP3   ICY: Sorry, service not available. Try again later.
+    316 votes  Radio Remember Last                     MP3   plays, names nothing
+    316 votes  HITZ 91.0                               MP3   plays, names nothing
+    315 votes  Hola 95.7 FM 1 Costa Calma              MP3   ICY: DJ Matrix - Banana Boat
+    314 votes  Onda Cero Sevilla                       AAC   HLS, plays
+    307 votes  Radio Oro                               MP3   ICY: Genesis - Invisible Touch
+    303 votes  Kiss FM España                          AAC   ICY: KissFM - Carla's Dreams - Mai E
+    302 votes  Free FM Classics                        MP3   ICY: The+BeatlesThe+Beatles+-+Lady+Madonna
+    301 votes  La Mega Radio                           MP3   ICY: 7_MEGA
+    299 votes  Cadena Ser + Valladolid                 MP3   plays, names nothing
+    298 votes  Cadena SER Málaga                       MP3   plays, names nothing
+    297 votes  HKM Radio                               MP3   plays, names nothing
+    294 votes  The Beatles Radio (MP3)                 MP3   no answer
+    290 votes  Mix Radio Gran Canaria                  MP3   status: Sarah Conner - Part Time Love
+    287 votes  Hitz Funky Radio                        MP3   plays, names nothing
+    284 votes  Radio Carrizal                          MP3   plays, names nothing
+    282 votes  Radio Nostalgia Spain                   MP3   no answer
+    282 votes  HitFM                                   MP3   plays, names nothing
+    280 votes  Multicanal Radio                        MP3   ICY: ¡EL VOTO MARROQUÍ CON SÁNCHEZ! - Informa Andrade
+    279 votes  Cadena Ser Guadix                       AAC+  plays, names nothing
+    276 votes  Free FM                                 MP3   ICY: Frankie+Goes+to+HollywoodFrankie+Goes+to+Hollywood+-+Two+Tribes
+    276 votes  FORMULA 10 MUSICA                       MP3   ICY: Black Eyed Peas - I Gotta Feeling
+    273 votes  Corazón FM 89.2                         MP3   no answer
+    270 votes  Flamenco Radio                          MP3   plays, names nothing
+    270 votes  Radio Nature                            MP3   plays, names nothing
+    268 votes  Pepe Radio                              AAC   ICY: Rod Stewart - You're In My Heart (The Final Acclaim)
+    267 votes  Radio Libertad                          AAC+  plays, names nothing
+    265 votes  Sky.Net -Radiosky Manele                MP3   plays, names nothing
+    262 votes  Ibiza Sonica Club                       MP3   ICY: Valentin Huedo - Bounce Dynasone
+    262 votes  #1 Splash 90s                           MP3   ICY: Sin With Sebastian - Shut Up
+    260 votes  Radio Galega                            AAC   HLS, plays
+    260 votes  COPE Cartagena                          MP3   plays, names nothing
+    259 votes  Radio Sierra Norte COPE                 MP3   plays, names nothing
+    255 votes  La Jungla Radio                         MP3   no answer
+    254 votes  Gozadera Fm                             MP3   plays, names nothing
+    254 votes  Carrusel FM                             MP3   plays, names nothing
+    248 votes  Canal Sur Radio Sevilla                 MP3   plays, names nothing
+    246 votes  Cadena Mix FM                           MP3   ICY: LA HORA De WALTER - Whatsap 697109209
+    246 votes  Chanquete FM 99.5                       AAC+  ICY: LUIS CORTES - POR AMARTE
+    245 votes  ONDA WANTUKI                            MP3   plays, names nothing
+    245 votes  80s Super Dancefloor                    MP3   ICY: Fox The Fox - Precious Little Diamond (Single Version)
+    244 votes  Inolvidable FM                          MP3   ICY: Dua Lipa - Hallucinate
+    244 votes  Los Megaexitos                          MP3   ICY: Italian Boys - Forever Lovers (Extended Vocal Version)
+    243 votes  Onda Vasca Gipuzkoa                     MP3   plays, names nothing
+    241 votes  Cadena Ser + Valencia                   MP3   plays, names nothing
+    237 votes  Radio Intercontinental - Madrid         MP3   plays, names nothing
+    234 votes  Ibiza Sonica                            MP3   plays, names nothing
+    233 votes  LOS 40                                  MP3   plays, names nothing
+    231 votes  RADIOLÉ                                 MP3   plays, names nothing
+    230 votes  OpenLab Radio                           MP3   ICY: Radio - OpenLab - www.openlab.fm
+    228 votes  Radio María España                      MP3   plays, names nothing
+    227 votes  Cafe Del Mar                            MP3   ICY: estrato - nostalgica
+    222 votes  Fresh Radio                             MP3   plays, names nothing
+    215 votes  Los 40 classic                          MP3   ICY: Dido - White flag
+    213 votes  Radio Planeta                           MP3   ICY: PEGGY GOU - Wo, man
+    211 votes  RNE - R5 --> Valencia                   MP3   plays, names nothing
+    208 votes  Cope Cieza                              MP3   ICY: ESCUCHAS LA TARDE CON PILAR GARCIA MUñIZ
+    206 votes  Café del Mar Radio                      MP3   ICY: estrato - nostalgica
+    206 votes  80s 90s Absolute Hits                   MP3   plays, names nothing
+    206 votes  NEGOCIOS.COM                            UNKNOWN HLS, plays
+    205 votes  VENEZUELA STEREO                        MP3   ICY: Sergio Perez - El Jala Jala
+    201 votes  FeLove Biblia en Español                MP3   status: Faith Comes By Hearing - San Mateo 08
+    201 votes  Makina Fm                               MP3   plays, names nothing
+    201 votes  Cadena SER Coruña                       MP3   plays, names nothing
+    200 votes  Vuelve el Remember                      MP3   ICY: SYLVER - Turn The Tide (Airscape Mix)
+    199 votes  Aragon TV Internacional                 AAC,H.264 no answer
+    199 votes  Onda Wantuki                            MP3   plays, names nothing
+    199 votes  100 % SALSA                             MP3   ICY: 100porcientosalsa.com - ¡La Radio chévere!
+    197 votes  PlayFM                                  AAC   ICY: LAVERN - Whole Again
+    197 votes  Cadena SER Sevilla                      MP3   plays, names nothing
+    196 votes  esRadio                                 MP3   plays, names nothing
+    196 votes  Radio Voz (A Coruña)                    MP3   plays, names nothing
+    194 votes  LOS40                                   MP3   ICY: La La Love You - La mitad de la mitad
+    191 votes  Kiss FM                                 MP3   plays, names nothing
+    191 votes  RNE - Radio Clásica                     UNKNOWN HLS, plays
+    190 votes  Play Trance Radio Uplifting Only Chann  AAC   ICY: Ori Uplift - Uplifting Only 714 on www.playtrance.com
+    190 votes  Ibiza World Club Tour Channel           MP3   ICY: CW24 - Ibiza World Club Tour Radioshow with Jack Costello
+    186 votes  Remember Vip Techno                     AAC   plays, names nothing
+    186 votes  RockFM                                  AAC+  ICY: GUNS N' ROSES - WELCOME TO THE JUNGLE
+    186 votes  Hitz Africa FM                          MP3   no answer
+    185 votes  1000 Hits Spain                         MP3   ICY: Isabel Pantoja - Hoy Quiero Confesarme
+    182 votes  Radio Malva 104.9FM                     OGG   plays, names nothing
+    181 votes  CatRàdio                                AAC   plays, names nothing
+    181 votes  RADIOLE (España)                        MP3   ICY: Melody - Te digo adiós
+    181 votes  Free FM Chill                           MP3   ICY: Michael+Jackson/Justin+TimberlakeLove+Never+Felt+So+Good
+    179 votes  Spectrum FM Costa Almeria               MP3   plays, names nothing
+    179 votes  ENERGIA FM - CARAVACA DE LA CRUZ 90.0   MP3   ICY: Now Playing info goes here
+    178 votes  EITB Euskal Kantak                      AAC   HLS, plays
+    176 votes  Smooth Jazz Classics by Cloud Jazz      MP3   plays, names nothing
+    170 votes  Radio Topo                              MP3   ICY: Mikel Laboa & Orfeón Donostiarra - Baga, Biga, Higa
+    169 votes  Loca FM                                 MP3   plays, names nothing
+    168 votes  Aragón Radio                            AAC   no answer
+    167 votes  COPE Tenerife                           MP3   plays, names nothing
+    167 votes  Rock FM Espana 128                      UNKNOWN HLS, plays
+    166 votes  Loca FM                                 MP3   ICY: Loca FM
+    166 votes  Los40 Dance                             MP3   plays, names nothing
+    164 votes  Feel Good Radio Costa del Sol           MP3   ICY: FeelGood Radio Costa del Sol
+    164 votes  Cadena Ser +                            AAC+  ICY: Melody - Te digo adiós
+    162 votes  Muy buena Valencia                      MP3   plays, names nothing
+    162 votes  RNE Radio 5 Valencia                    AAC   plays, names nothing
+    161 votes  RNE Radio 1 Galicia                     MP3   plays, names nothing
+    159 votes  SER                                     MP3   plays, names nothing
+    157 votes  LOCA FM 80s                             MP3   ICY: 12 Drummers Drumming - I'll Be There
+    157 votes  esRadio                                 MP3   plays, names nothing
+    156 votes  Ràdio Pego 107.8                        MP3   ICY: Alvaro de Luna - Nuestra cancion - 2024
+    156 votes  Ibiza X Radio                           AAC   plays, names nothing
+    156 votes  Remember Ràdio Joventut                 MP3   ICY: AzuraCast.com - AzuraCast is Live!
+    155 votes  FUNKY TRACKS RADIO                      MP3   no answer
+    154 votes  Cafe del Mar Calm                       AAC   ICY: ORBITAL - Belfast (ANNA Ambient Remix)
+    153 votes  BeachGrooves Radio                      MP3   ICY: Live on BG - Selimmm live from France
+    152 votes  Ràdio 90 (320k)                         MP3   no answer
+    151 votes  #1 Splash Coffee                        MP3   ICY: The Cooltrane Quartet - Wonderwall
+    149 votes  Radio Exterior de España                MP3   plays, names nothing
+    148 votes  Onda Cero Cinca                         AAC+  plays, names nothing
+    148 votes  Ibiza SoniCalm                          MP3   ICY: Unknown - The Current
+    147 votes  Radio Surco Tomelloso                   MP3   plays, names nothing
+    147 votes  Cadena Ser + Toledo                     MP3   plays, names nothing
+    145 votes  Cadena Ser + Bilbao                     MP3   plays, names nothing
+    145 votes  SER - Radio Zaragoza                    MP3   plays, names nothing
+    145 votes  Radio Disco Melodia FM                  MP3   ICY: LA CALLE DE LOS SUEÑOS
+    143 votes  La jungla Radio                         MP3   no answer
+    142 votes  Cool Coffee                             AAC+  plays, names nothing
+    141 votes  Technolovers EDM                        MP3   status: Kein Titel Update
+    141 votes  #1 Splash Lounge                        MP3   ICY: St Adam - Where are You?
+    141 votes  Radio del Hogar de la Brisa             MP3   plays, names nothing
+    140 votes  COPE A CORUÑA                           MP3   plays, names nothing
+    140 votes  FUNKY TRACKS RADIO                      MP3   no answer
+    140 votes  COPE Gijón                              MP3   plays, names nothing
+    139 votes  Radio Balear 99.9 Palma de Mallorca     MP3   plays, names nothing
+    138 votes  Euskalerria Irratia                     MP3   plays, names nothing
+    138 votes  Free FM Love                            MP3   plays, names nothing
+    137 votes  ROCK FM                                 MP3   no answer
+    137 votes  RNE Radio 5 Galicia                     MP3   plays, names nothing
+    134 votes  Radio Líder                             AAC   plays, names nothing
+    134 votes  Hits 1 Ibiza                            MP3   ICY: Elton John & Britney Spears - Hold Me Closer (Joel Corry Remix)
+    133 votes  ROCK FM                                 AAC   HLS, plays
+    133 votes  La Urban Radio                          MP3   ICY: Beto BPM - Hasta Luego Lucas Mix - Mix
+    132 votes  Onda Cero Barcelona                     AAC   HLS, plays
+    131 votes  COPE Granada-Sta.Fe                     MP3   plays, names nothing
+    129 votes  Radio Intereconomía                     MP3   plays, names nothing
+    129 votes  RNE Radio 5 Las Palmas                  MP3   plays, names nothing
+    128 votes  Onda Cero Santiago de Compostela        AAC   HLS, plays
+    128 votes  Nostalgia                               AAC   ICY: BILLY JOEL - 32s - We didn't start the fire
+    127 votes  COSTA DEL MAR                           AAC   ICY: Airport - The Sun Is In The Sky
+    127 votes  Radio Voz (Compostela)                  MP3   plays, names nothing
+    127 votes  Trespatines Radio                       MP3   ICY: Leopoldo Fernández - Ferretericidio
+    126 votes  RockFM                                  MP3   plays, names nothing
+    126 votes  Ibiza Global Classics                   MP3   status: Guinea Pig - Vocal Variation
+    124 votes  Radios Libres                           MP3   ICY: Michael Kamen - Bachianos Brazil Samba
+    123 votes  Radio Esport 94.1                       MP3   plays, names nothing
+    122 votes  IB3 Ràdio Mallorca                      MP3   status: GERARD QUINTANA & XARIM ARESTE - Quan Miris Endins
+    122 votes  Urban Revolution                        AAC   ICY: Beto BPM - Hasta Luego Lucas Mix - Mix
+    122 votes  Fred Film Radio(Español)                MP3   ICY: KINOTIKO - Kinotiko Daily - 10 Septiembre 2026
+    122 votes  Free FM 80s                             MP3   ICY: Glenn+MedeirosGlenn+Medeiros+-+Nada+Cambiará+Mi+Amor+por+Ti
+    122 votes  Kiss FM                                 MP3   plays, names nothing
+    121 votes  Revive FM                               MP3   ICY: Trio Los Panchos & Paco De Lucia - Alma, Corazon Y Vida
+    121 votes  Dynamis Radio Madrid                    MP3   no answer
+    118 votes  Amor FM                                 AAC   plays, names nothing
+    117 votes  Onda Sevilla Radio                      MP3   no answer
+    117 votes  Radio Marca Donostia                    MP3   plays, names nothing
+    117 votes  Cadena SER Radio Menorca                MP3   plays, names nothing
+    116 votes  RusRadio Marbella                       MP3   plays, names nothing
+    116 votes  Café del Mar Radio                      MP3   ICY: estrato - nostalgica
+    115 votes  Radio Vallekas                          MP3   ICY: Por qué estoy tan triste teniéndolo todo - El anillo de Eloísa (M
+    114 votes  Cope Carballiño                         MP3   plays, names nothing
+    114 votes  Onda Cero Cádiz                         AAC   HLS, plays
+    113 votes  Otaku MusicRadio                        MP3   ICY: Rita - Alicemagic
+    113 votes  esRadio Granada                         MP3   plays, names nothing
+    112 votes  copesal                                 MP3   plays, names nothing
+    112 votes  EDENEX                                  MP3   ICY: LA ESCOBULA DE LA BRUJULA - Maldiciones - EDENEX -
+    111 votes  Radio Vitoria                           UNKNOWN HLS, plays
+    111 votes  Onda Cero Granada                       AAC   HLS, plays
+    111 votes  TDP TV                                  AAC,H.264 HLS, plays
+    111 votes  La Movida Latina                        MP3   plays, names nothing
+    111 votes  BikiniFM                                MP3   plays, names nothing
+    110 votes  Radio Bolero (Alcoy 97.7 FM)            MP3   ICY: Ana Cirré - Ana Cirré -Lia
+    109 votes  esRadio                                 MP3   plays, names nothing
+    108 votes  Mi Amigo Radio, de échte                MP3   ICY: Het Mi Amigo Museum
+    108 votes  Cadena SER Pontevedra                   MP3   plays, names nothing
+    107 votes  Free FM Chill                           AAC   plays, names nothing
+    107 votes  Cadena Ser Haro Rioja Alta Radio Haro   MP3   plays, names nothing
+    107 votes  Radio Faro de Gracia                    MP3   ICY: Nancy DeMoss - Sumergidas En La Palabra
+    107 votes  Mortal FM                               MP3   ICY: FLASHMOB - BY MY SIDE
+    106 votes  Hits 80s                                MP3   ICY: Savage - Don`t Cry Tonight
+    106 votes  Energía Flamenca                        MP3   ICY: Marifé De Triana - Repique De Campanas (1970)
+    106 votes  Ondacero Granada                        AAC   HLS, plays
+    105 votes  Costa Del Mar Dance                     MP3   ICY: INNA, R3HAB - I'll Be Waiting
+    105 votes  Ràdio Capital                           MP3   ICY: Madonna - Who's That Girl
+    105 votes  #1 Splash Spa                           MP3   ICY: Ashot_Danielyan_Composer - My Meditation Is So Celestial
+    104 votes  Cadena SER - Radio Zamora               MP3   plays, names nothing
+    104 votes  Eixample Barcelona Radio                MP3   ICY: Hora Barca programa 02   14-10-26
+    103 votes  RTPA                                    AAC   HLS, plays
+    103 votes  Informa Radio                           MP3   ICY: ERASE UNA VEZ UN CIRCO
+    103 votes  Radio Planeta Malaga                    MP3   ICY: @ AZZACARS MARBELLA - 631 687 774
+    102 votes  Original EDM FESTIVAL                   MP3   status: Kein Titel Update
+    102 votes  Free FM Mdrid                           MP3   ICY: Frankie+Goes+to+HollywoodFrankie+Goes+to+Hollywood+-+Two+Tribes
+    102 votes  Intimidad Radio                         MP3   ICY: Kate Winslet-What If
+    101 votes  Ràdio Arrels                            MP3   plays, names nothing
+    101 votes  Onda 80 Radio Bellvitge                 AAC+  no answer
+    101 votes  El Salto Radio                          MP3   no answer
+    100 votes  Gente Radio                             MP3   plays, names nothing
+    100 votes  Tarragona Ràdio                         MP3   plays, names nothing
+     99 votes  Rock FM                                 AAC   HLS, plays
+     99 votes  RNE - Radio Nacional de España          MP3   plays, names nothing
+     98 votes  Free FM 80s Madrid                      MP3   ICY: Glenn+MedeirosGlenn+Medeiros+-+Nada+Cambiará+Mi+Amor+por+Ti
+     98 votes  Radio Todo Exitos                       MP3   ICY: Tom Grennan - It can't be Christmas
+     98 votes  ROCK FM (España)                        AAC   HLS, plays
+     97 votes  Costa Blanca FM                         MP3   ICY: Neneh Cherry - Buffalo Stance
+     95 votes  Perfect Italian Hits                    MP3   plays, names nothing
+     95 votes  DMT-FM Psytrance - EU Server            AAC+  no answer
+     95 votes  COPE Tenerife                           MP3   plays, names nothing
+     95 votes  Das Inselradio Mallorca                 MP3   plays, names nothing
+     94 votes  Cadena Ser + Cadiz                      MP3   plays, names nothing
+     93 votes  Decada FM 100.1                         MP3   plays, names nothing
+     93 votes  RNE Andalucía                           MP3   plays, names nothing
+     93 votes  Verbena FM                              MP3   no answer
+     93 votes  Xtra FM                                 MP3   ICY: SANDOR GAVIN, EILEEN JAIME - CITY THAT NEVER SLEEPS
+     92 votes  Radio Nervión                           MP3   plays, names nothing
+     91 votes  Ibiza Orgánica                          AAC   plays, names nothing
+     91 votes  Formula 30                              MP3   ICY: Jason Derulo - Kiss the sky
+     91 votes  Dynamis Radio (87.5 FM) Madrid          MP3   no answer
+     90 votes  Chocolate FM                            MP3   no answer
+     90 votes  Lola FM 80`s                            AAC+  plays, names nothing
+     89 votes  HappyFM-Fuerteventura                   MP3   no answer
+     89 votes  Onda Regional de Murcia                 UNKNOWN HLS, plays
+     89 votes  FM MUSICAL                              MP3   no answer
+     89 votes  Misterium II                            MP3   no answer
+     89 votes  Cadena Ser - Las Palmas                 MP3   plays, names nothing
+     88 votes  Blue Marlin Ibiza                       MP3   ICY: Djs Blue Marlin Sessions
+     88 votes  EDM Festival - Online Radio             MP3   status: Kein Titel Update
+     88 votes  Cadena Mix FM Cantabria                 MP3   ICY: LA HORA De WALTER - Whatsap 697109209
+     87 votes  EsRadio Tenerife                        MP3   plays, names nothing
+     87 votes  Ràdio Rubí                              MP3   plays, names nothing
+     86 votes  Radio Utopía                            MP3   plays, names nothing
+     86 votes  Radio Hora                              MP3   ICY: Publi CARNES HERMANOS DE DIEGO 2
+     85 votes  99.9 Plaza Radio Valencia               MP3   plays, names nothing
+     84 votes  Lounge Radio Ibiza                      MP3   plays, names nothing
+     82 votes  Makina Fm                               MP3   plays, names nothing
+     81 votes  Costa Madrid                            AAC   plays, names nothing
+     80 votes  Onda Aragonesa                          MP3   ICY: New Limit - In My Heart
+     80 votes  Onda Cero Vigo                          AAC   HLS, plays
+     80 votes  Jazz Crusader                           MP3   ICY: Kool & The Gang - Summer Madness
+     79 votes  SER Asturias                            MP3   plays, names nothing
+     79 votes  Cadena SER Extremadura                  AAC+  plays, names nothing
+     79 votes  Cadena Ser + Vigo                       MP3   plays, names nothing
+     79 votes  Free FM Sports                          AAC   plays, names nothing
+     78 votes  Radio Estepona-Costa del Sol            MP3   no answer
+     78 votes  Radio Ebro                              MP3   plays, names nothing
+     78 votes  Only Romantic Radio                     MP3   plays, names nothing
+     77 votes  Cadena Ser - Radio León                 MP3   plays, names nothing
+     77 votes  Free FM X-Mas                           AAC   plays, names nothing
+     77 votes  EDM RADIO                               MP3   plays, names nothing
+     76 votes  SER Zaragoza                            MP3   no answer
+     75 votes  RadioRemember                           MP3   plays, names nothing
+     75 votes  esRadio Sevilla                         AAC+  plays, names nothing
+     74 votes  La flamenca                             MP3   plays, names nothing
+     74 votes  Cadena SER Almería 88.2 FM              MP3   plays, names nothing
+     74 votes  esRadio Castilla y León                 AAC+  plays, names nothing
+     73 votes  Ibiza_Radios/Deep House                 MP3   ICY: Cerrone - You Are the One (Jamie Lewis Classic Mix & CDM Edit)
+     73 votes  EsRadio (AAC HQ)                        AAC+  plays, names nothing
+     73 votes  Ràdio Vilablareix                       MP3   plays, names nothing
+     73 votes  delicious.beach - formentera lounge ra  MP3   ICY: Thievery Corporation - Para Sempre
+     73 votes  Radio Europa                            MP3   ICY: Justin Bieber Feat. Ludacris - All Around The World
+     73 votes  Gladys Palmera Coleccion                MP3   ICY: Gladys In Session - Gemas del Vinilo 49
+     73 votes  Radio MARCA Asturias                    MP3   plays, names nothing
+     72 votes  999 Valencia Radio                      MP3   plays, names nothing
+     72 votes  Radio Jesus                             MP3   plays, names nothing
+     72 votes  dj mapache                              MP3   plays, names nothing
+     72 votes  scannerFM                               MP3   ICY: Zulabard - Entrebanc
+     71 votes  Xanadú Radio Tenerife                   MP3   ICY: Beto Collado + Pedrito Lama - Asuntos Del Amor
+     71 votes  Radio Andalucía Información Sevilla     MP3   plays, names nothing
+     70 votes  RadioTop20.es                           MP3   ICY: DJVICEEXTREME_09.October.2026 - DJVICEEXTREME_09.October.2026_11.
+     70 votes  Radio Galega Música                     AAC   HLS, plays
+     70 votes  cadena ser                              MP3   plays, names nothing
+     70 votes  AdagioRadio                             MP3   ICY: Mikyung Sung & Jaemin Shin - Sonata in E Minor for Double Bass an
+     69 votes  Classic Rock Granada                    AAC   no answer
+     69 votes  musicBox                                MP3   ICY: Keith Richards - Trouble
+     69 votes  Onda Espana                             UNKNOWN no answer
+     69 votes  Radio 1 Hits 90s                        MP3   ICY: Sin With Sebastian - Shut Up
+     69 votes  Ushuaia Radio (87.7 FM) Madrid          MP3   ICY: Dom Dolla & Daya - Dreamin (feat. Daya)
+     68 votes  Radio La Granja                         MP3   ICY: Sopa de Piedras25092026
+     68 votes  Play Trance Radio Main Channel (High Q  AAC   ICY: Aguerian - Spanish Trance Yearmix 2019 on www.playtrance.com
+     68 votes  BeachGrooves Radio                      MP3   ICY: Live on BG - Selimmm live from France
+     67 votes  Free FM Classical                       MP3   plays, names nothing
+     67 votes  RNE 1 - Zaragoza                        MP3   plays, names nothing
+     67 votes  Radio Oro Marbella                      MP3   ICY: Wham - Wake Me Up Before You Go Go
+     67 votes  Cadena Ser + Córdoba - 102.0 FM         MP3   plays, names nothing
+     67 votes  Ibiza Radios Hits                       MP3   ICY: Paul Woolford, Diplo & Kareen Lomax - Looking for Me
+     67 votes  Capital Radio Madrid                    AAC+  HLS, plays
+     67 votes  Radio Linguas                           MP3   ICY: radiolinguas.eoidevigo - Meet the Staff: Fiona Brennan
+     67 votes  Sonica Tribe                            MP3   ICY: Deisen - Alpherg
+     66 votes  LA JUNGLA RADIO                         MP3   no answer
+     66 votes  Azul FM Murcia                          MP3   ICY: Café Quijano - Me enamoras con todo
+     66 votes  Chanquete FM 102.5                      MP3   ICY: Jesus Rendon - Me sabe a sal
+     66 votes  Ondacero Cartagena                      AAC   HLS, plays
+     66 votes  Catalunya Radio                         AAC   plays, names nothing
+     65 votes  LA KALLE 88.8  FM                       AAC+  no answer
+     65 votes  Perfect SoftRock                        MP3   plays, names nothing
+     65 votes  Cadena Ser + Sevilla                    MP3   plays, names nothing
+     64 votes  MEGA STAR FM                            AAC   HLS, plays
+     64 votes  Forever The Beatles (MP3)               MP3   plays, names nothing
+     64 votes  Radio Calima                            MP3   ICY: RYAN CASTRO, KAPO & GANGSTA - LA VILLA
+     64 votes  Ràdio Ràpita                            MP3   plays, names nothing
+     64 votes  Costa Del Mar                           MP3   ICY: Autonne - Small Talk
+     63 votes  Radio Argayo                            MP3   ICY: Nosotras Personas13102026
+     63 votes  Chanquete Costa del Sol 105.2 FM        AAC+  ICY: Sofia Reyes - Idiota
+     63 votes  90 FM (95.2(                            MP3   ICY: Jennifer Lopez - Let s get loud
+     63 votes  Radio Remember                          MP3   plays, names nothing
+     62 votes  rockSateliteONE                         MP3   ICY: The Rolling Stones - She Was Hot
+     62 votes  SER Gijón                               MP3   plays, names nothing
+     61 votes  Cafe del Mar Channel 2                  MP3   ICY: Chaos In The CBD - Dusty Sundays
+     61 votes  Gladys Palmera Radio Online             MP3   ICY: Coba SS – Amak Cuzco 2021
+     61 votes  EsRadio Tenerife                        MP3   plays, names nothing
+     61 votes  Free FM Madrid                          MP3   ICY: Frankie+Goes+to+HollywoodFrankie+Goes+to+Hollywood+-+Two+Tribes
+     60 votes  RADIO BOB                               MP3   plays, names nothing
+     60 votes  Cope Granada                            MP3   plays, names nothing
+     59 votes  Radios Libres                           MP3   ICY: Michael Kamen - Bachianos Brazil Samba
+     59 votes  Costa del Mar - Chillout                MP3   ICY: Airport - The Sun Is In The Sky
+     59 votes  Cadena SER - Radio Morón                MP3   plays, names nothing
+     58 votes  RAC 1                                   MP3   plays, names nothing
+     58 votes  Cadena Ser + Las Palmas                 MP3   plays, names nothing
+     58 votes  Ràdio Ciutat de Badalona                MP3   plays, names nothing
+     57 votes  Ibiza Stardust Radio                    MP3   plays, names nothing
+     57 votes  Cadena Ser Madrid Sur                   MP3   plays, names nothing
+     57 votes  Ushuaia Radio English                   AAC   ICY: Dom Dolla & Daya - Dreamin (feat. Daya)
+     56 votes  Radio Agueda                            AAC+  ICY: salamanca
+     56 votes  La mega                                 MP3   ICY: SAFRI DUO - PLAYED-A-LIVE (THE BONGO SONG) (RADIO EDIT)
+     56 votes  Radio Star Terrassa                     MP3   ICY: 11. Ariana Grande - hate that i made you love me
+     56 votes  Son Galicia Radio                       UNKNOWN HLS, plays
+     56 votes  Radio Mistelera                         MP3   no answer
+     56 votes  RNE Murcia                              MP3   plays, names nothing
+     55 votes  Melodia Para Dos                        MP3   ICY: SUS CANCIONES MELODIA
+     55 votes  Lounge Radio Ibiza                      MP3   ICY: Tropicanism, Gabriel Marchisio - Orbit (Surbeats Records).
+     54 votes  Beach Grooves Radio                     MP3   ICY: Live on BG - Selimmm live from France
+     54 votes  Classic Old Time Radio                  MP3   plays, names nothing
+     54 votes  YouTube Radio                           MP3   ICY: Dean Martin - Silent Night
+     53 votes  TVLeganés                               UNKNOWN HLS, plays
+     53 votes  Ibiza_Radios/Deep House                 MP3   ICY: Belezamusica - Running Away (Seamus Haji Remix & CDM Edit)
+     53 votes  Onda Bierzo                             MP3   plays, names nothing
+     52 votes  S+ ibiza                                AAC   ICY: Radio - Studio Piu'
+     52 votes  Absolute Chillout - Spain               MP3   ICY: Christophe Goze - Passing Time
+     52 votes  RadioVoz                                MP3   plays, names nothing
+     52 votes  Rock FM                                 AAC   HLS, plays
+     51 votes  Italiana FM                             MP3   ICY: Ricchi E Poveri - Cosa Sei
+     51 votes  HKM radio                               MP3   plays, names nothing
+     51 votes  Ràdio Marina                            MP3   plays, names nothing
+     51 votes  Radio Espacio                           AAC+  ICY: Genesis - No Son Of Mine
+     51 votes  Master FM - Guadalhorce                 MP3   ICY: KATSEYE - Animal
+     51 votes  Catalunya Música                        UNKNOWN HLS, plays
+     51 votes  LocaFM 90's                             MP3   ICY: MR OIZO-Flat beat (Original Mix)
+     51 votes  Cadena SER Radio San Sebastián          AAC+  plays, names nothing
+     51 votes  EME Radio fm                            MP3   ICY: EME RADIO - Way Down We Go (Official Video)
+     51 votes  Sol Radio                               AAC+  ICY: Pop Rock Music - Mari Trini - Lunas de Papel
+     50 votes  Cadena SER Radio San Sebastián          MP3   plays, names nothing
+     50 votes  Cadena Ser + Alicante                   MP3   plays, names nothing
+     50 votes  Onda Musical de Yecla                   MP3   plays, names nothing
+     50 votes  Tenerife sur Adeje                      MP3   plays, names nothing
+     49 votes  Radio Marca                             MP3   plays, names nothing
+     49 votes  TKO Radio Costa Blanca                  MP3   ICY: Paul Baker's Gold Show
+     49 votes  La Diez Capital Radio                   AAC   plays, names nothing
+     49 votes  RTVE 24h                                AAC,H.264 HLS, plays
+     49 votes  Altafulla Ràdio                         MP3   plays, names nothing
+     49 votes  MDT RADIO Valencia 107.3 FM             MP3   ICY: MDTRADIO
+     48 votes  Jazz Radio Bcn                          MP3   plays, names nothing
+     48 votes  Русское радио Тенерифе                  AAC+  ICY: Russian Girls - Комбинация
+     48 votes  7TV CADIZ                               UNKNOWN HLS, plays
+     48 votes  AFN 360 Rota                            MP3   plays, names nothing
+     48 votes  Radio Ateos de Barcelona                MP3   ICY: El Sueño de Lucía (Por Manel Artero Badenes)
+     48 votes  Globo FM                                MP3   plays, names nothing
+     48 votes  Cadena Dial - Arahal                    MP3   plays, names nothing
+     47 votes  Maxima Fm                               MP3   plays, names nothing
+     47 votes  80 Hits Barcelona                       MP3   plays, names nothing
+     47 votes  Radio Barça                             AAC   no answer
+     47 votes  +Buena FM                               MP3   ICY: Now Playing info goes here
+     47 votes  Trendy FM                               MP3   no answer
+     46 votes  Antena Caro                             MP3   plays, names nothing
+     46 votes  Cadena Ser + Extremadura                MP3   plays, names nothing
+     46 votes  Ibiza Live Radio                        MP3   ICY: Marco Tegui - DowntempoLove - 1 May 2025
+     46 votes  EDM Radio                               MP3   plays, names nothing
+     46 votes  Pontevedra Viva                         MP3   ICY: Julieta Venegas - En tu orilla
+     45 votes  Diversia Radio Activa                   MP3   plays, names nothing
+     45 votes  Gladys Palmera Latin Fresh              MP3   ICY: Andy Grey - Lathin Moods
+     45 votes  Radio Estel                             MP3   no answer
+     45 votes  Ser Gandia                              MP3   ICY: Radio Gandia SER
+     45 votes  Cadena Ser + Tenerife                   MP3   plays, names nothing
+     45 votes  Chocolate FM                            MP3   no answer
+     44 votes  Radio Almaina                           MP3   ICY: Bo Street Runners - Just wanne make Love To You
+     44 votes  RPV Gran Canaria                        MP3   ICY: Bonnie Tyler - Lost In France
+     44 votes  iMusica Rock                            MP3   plays, names nothing
+     44 votes  Essere Web Radio                        MP3   ICY: 2020 ESSEREWEBRADIO
+     44 votes  Montserrat Ràdio                        MP3   plays, names nothing
+     44 votes  Zona Rap Radio                          MP3   ICY: Nach - Pandora
+     44 votes  Zeno FM Dire Straits Radio              MP3   plays, names nothing
+     43 votes  onda 10                                 MP3   ICY: Ella baila sola - amores de barra
+     43 votes  Cadena SER Pontevedra                   MP3   plays, names nothing
+     43 votes  La Clave Stereo 93.6                    MP3   plays, names nothing
+     43 votes  SER Murcia                              FLV   plays, names nothing
+     43 votes  Euskadi Irratia                         MP3   plays, names nothing
+     43 votes  Radio Nature                            MP3   plays, names nothing
+     42 votes  Talk Radio Europe                       MP3   plays, names nothing
+     42 votes  El Salto Radio                          MP3   no answer
+     41 votes  Mediterrani FM Barcelona                AAC   ICY: LOVE SONGS AMB GARY TURNER
+     41 votes  Cadena Mix FM                           MP3   ICY: LA HORA De WALTER - Whatsap 697109209
+     41 votes  BayRadio Spain                          MP3   ICY: Alex Warren - Fever Dream - FEVER DREAM - Single
+     41 votes  Studio Piu Ibiza                        AAC   ICY: Radio - Studio Piu'
+     40 votes  Estéreo Latino 103.8 FM                 AAC+  plays, names nothing
+     40 votes  PLAY FM                                 AAC   ICY: LAVERN - Whole Again
+     40 votes  Mitch.FM                                MP3   plays, names nothing
+     40 votes  ES Radio                                MP3   no answer
+     40 votes  La Indie                                MP3   ICY: Dinero - En invierno
+     40 votes  Radio Surco Tomelloso                   MP3   plays, names nothing
+     40 votes  Imagina Radio                           MP3   plays, names nothing
+     40 votes  El 9 FM                                 MP3   plays, names nothing
+     40 votes  Sunshine FM Costa Blanca                AAC   plays, names nothing
+     39 votes  Radio Unión Catalunya                   MP3   plays, names nothing
+     39 votes  Alcúdia Ràdio                           MP3   plays, names nothing
+     39 votes  RNE Radio 5                             MP3   plays, names nothing
+     39 votes  Smooth Jazz Classics by Cloud Jazz      MP3   plays, names nothing
+     39 votes  Urban Revolution                        AAC   ICY: Beto BPM - Hasta Luego Lucas Mix - Mix
+     39 votes  RadioMV Spanish                         MP3   plays, names nothing
+     39 votes  Onda Cero Más +                         UNKNOWN HLS, plays
+     38 votes  Radio Espiritrompa                      MP3   no answer
+     38 votes  SER - Radio Pamplona                    MP3   plays, names nothing
+     38 votes  Radio Guiniguada                        MP3   no answer
+     38 votes  Espana Network                          MP3   ICY: MAHOGANY, JESSICA YOLANDA - SOY UNA CABRONA
+     37 votes  EITB Euskal Kantak                      AAC   HLS, plays
+     37 votes  Onda Cero Ourense                       AAC   HLS, plays
+     37 votes  Rock FM                                 MP3   ICY: GUNS N' ROSES - WELCOME TO THE JUNGLE
+     37 votes  TotRàdio                                MP3   ICY: Camilo - Millones
+     36 votes  Ática FM 106.4                          MP3   plays, names nothing
+     36 votes  Radio Castelldefels                     MP3   plays, names nothing
+     36 votes  Alzira ràdio 107.9 FM                   MP3   plays, names nothing
+     36 votes  La Mega Costa Del Sol                   MP3   no answer
+     36 votes  RNE Radio 5 Granada                     MP3   plays, names nothing
+     36 votes  Mallorca Sunshine Radio                 MP3   plays, names nothing
+     36 votes  Elite Fm                                MP3   plays, names nothing
+     36 votes  Blue Marlin Ibiza                       MP3   ICY: Djs Blue Marlin Sessions
+     36 votes  Esencia Radio                           MP3   plays, names nothing
+     36 votes  JFK Radio Ibiza                         AAC   plays, names nothing
+     36 votes  ETIB Euskal Kantak                      AAC   HLS, plays
+     35 votes  Radio Barça                             AAC   no answer
+     35 votes  CUAC FM (MP3)                           MP3   ICY: Estrelados na Estratosfera
+     35 votes  Hits 1 Mallorca                         MP3   ICY: Elton John & Britney Spears - Hold Me Closer (Joel Corry Remix)
+     35 votes  Radio Marca Lanzarote                   AAC   HLS, plays
+     35 votes  Mad Radio Barcelona                     MP3   ICY: Jan Ketel - Wrong Number
+     35 votes  Cadena Ser + Murcia                     MP3   plays, names nothing
+     35 votes  Radio Radio Network Spain               MP3   ICY: 3rd Force - Big Shot
+     35 votes  MDT RADIO Murcia 97.1 FM                MP3   status: Gabry Ponte - Geordie
+     34 votes  Cadena Ser + Santander                  MP3   plays, names nothing
+     34 votes  Radio Líder Santiago                    MP3   status: https://server8.emitironline.com:18394
+     34 votes  Radio Marca Zaragoza                    MP3   plays, names nothing
+     34 votes  Boom FM Granada 103.8                   MP3   ICY: Michael Jackson - Smooth Criminal
+     34 votes  RADIO LUZ CLASSIC DALIAS                MP3   plays, names nothing
+     34 votes  Radio Linguas                           MP3   ICY: radiolinguas.eoidevigo - Meet the Staff: Fiona Brennan
+     34 votes  Cadena Ser + Zaragoza                   MP3   plays, names nothing
+     34 votes  Esplugues FM                            AAC+  ICY: EN CATALA
+     34 votes  rockfm                                  AAC   HLS, plays
+     34 votes  Cadena Energía ÁGUILAS 99.1 - CARAVACA  MP3   ICY: Now Playing info goes here
+     33 votes  FIESTA FM LEVANTE - ALICANTE 88,4 / EL  MP3   plays, names nothing
+     33 votes  Flamenco Radio Art                      MP3   ICY: Jesse Cook - Surrender
+     33 votes  Radio Gáldar                            MP3   plays, names nothing
+     33 votes  Cadena Ser Córdoba                      MP3   plays, names nothing
+     33 votes  EsRadio Tenerife                        MP3   plays, names nothing
+     33 votes  Flow Radio (320kbps MP3)                MP3   ICY: KING SAVAGGE, LUCK RA, PAULO LONDRA, JAIRO VERA, LIT KILLAH & BAY
+     33 votes  Asón FM 96.4                            MP3   plays, names nothing
+     33 votes  Segenswelle Espanol                     MP3   ICY: Radio Segenswelle Espanol
+     33 votes  Vinilo FM Bizkaia                       MP3   ICY: RUPAUL - SISSY THAT WALK
+     33 votes  Das Inselradio Malorca                  MP3   plays, names nothing
+     33 votes  Radio 90                                MP3   no answer
+     33 votes  Cadena SER Radio Ferrol                 MP3   plays, names nothing
+     33 votes  Cadena Ser + Rioja                      MP3   plays, names nothing
+     33 votes  Cadena SER pontevedra                   MP3   plays, names nothing
+     32 votes  À Punt                                  AAC   HLS, plays
+     32 votes  Ibiza Sonica | Balearic Sound           MP3   no answer
+     32 votes  Candil Radio                            MP3   plays, names nothing
+     32 votes  El Salto radio                          MP3   no answer
+     32 votes  Radio Brand                             MP3   no answer
+     32 votes  Cadena Ser + Elche                      MP3   plays, names nothing
+     31 votes  Radio 5 RNE Almería                     MP3   plays, names nothing
+     31 votes  Holland FM Gran Canaria                 MP3   ICY: Eric Clapton - Wonderful Tonight
+     31 votes  MDT RADIO Madrid DAB+                   MP3   ICY: MDTRADIO
+     31 votes  RNE - R5 --> CYL                        MP3   plays, names nothing
+     31 votes  Lola Fm                                 AAC+  plays, names nothing
+     31 votes  RN1 - Valencia                          UNKNOWN HLS, plays
+     31 votes  Canal Blau                              MP3   plays, names nothing
+     31 votes  Radio Television Canaria                MP3   plays, names nothing
+     31 votes  Canal Sur radio Granada                 MP3   plays, names nothing
+     31 votes  Radio Jesus Internacional               MP3   plays, names nothing
+     31 votes  Radio 5 Alicante                        AAC   plays, names nothing
+     31 votes  Radio Aspe                              MP3   no answer
+     30 votes  Radio THE CLUB - Mallorca 92.0 FM       AAC   ICY: Radio The Club - www.radiotheclub.com - @radiotheclubmallorca
+     30 votes  Miramar Multimedia                      MP3   plays, names nothing
+     30 votes  Ecuatoriana  FM 88.4                    MP3   no answer
+     30 votes  Fiebre Latina Radio 96.6 FM             MP3   plays, names nothing
+     30 votes  Ràdio la Selva                          MP3   plays, names nothing
+     30 votes  Ràdio Tàrrega                           MP3   plays, names nothing
+     29 votes  Radio Hogar de la Brisa                 MP3   plays, names nothing
+     29 votes  RFC Radio                               MP3   ICY: Desconocido - Funktastica 465 [33OP]
+     29 votes  Radio Callao Madrid                     MP3   ICY: 100 Años de Miles Davis y John Coltrane - If I Were A Bell
+     29 votes  Ràdio Altea                             MP3   plays, names nothing
+     29 votes  Talk Radio Europe                       MP3   plays, names nothing
+     29 votes  Radio Universitaria León (320)          OGG   status: Radio Universitaria de Leon (106.6 FM) y Ponferrada (105 FM)
+     29 votes  BayRadio Spain                          MP3   ICY: Alex Warren - Fever Dream - FEVER DREAM - Single
+     28 votes  INOLVIDABLE FM   95.8FM                 MP3   ICY: Dua Lipa - Hallucinate
+     28 votes  Fiesta FM 87.6                          AAC+  no answer
+     28 votes  Radio Monteolivete                      MP3   no answer
+     28 votes  Radio Almaina                           MP3   ICY: Confederate Teds - Streamline Train
+     28 votes  Ràdio Arenys                            MP3   plays, names nothing
+     28 votes  7.7 RADIO LA PALMA (FM 88.3 - 99.8)     MP3   plays, names nothing
+     28 votes  Radio Encuentro                         MP3   no answer
+     28 votes  Los 40 Nacional                         MP3   plays, names nothing
+     28 votes  Ràdio Seu                               MP3   plays, names nothing
+     28 votes  Radio Cret 1080 AM                      MP3   status: Unknown - Los 3 valientes Cristobal Ceniceros [eT]
+     27 votes  La Nueva 87.9 FM (87.9 FM) Madrid       MP3   plays, names nothing
+     27 votes  Radio Mast Spanish                      AAC   plays, names nothing
+     27 votes  La Patrona 102.9 FM                     AAC+  plays, names nothing
+     27 votes  Radio Marca Coruña                      MP3   plays, names nothing
+     27 votes  Canal Sur Radio Musica                  MP3   plays, names nothing
+     27 votes  RADIO LAS PALMAS 97.3FM                 MP3   ICY: Manolo Santana - Caf� de Tarde
+     27 votes  LATINA FM CANARIAS                      MP3   status: Calle 13, Totó La Momposina, Susana Baca, Maria Rita - Latinoa
+     27 votes  Olimpica Stereo Alicante                MP3   plays, names nothing
+     27 votes  Radio Principau Asturies - RPA          AAC   HLS, plays
+     27 votes  MDT RADIO Castellón 102.4 FM            MP3   status: Gabry Ponte - Geordie
+     27 votes  HOUSE Radio Spain                       AAC   ICY: Soldev - SOL ACTIVADO 09.10
+     27 votes  Closta Blanca Radio                     MP3   ICY: Jordin Sparks - Battlefield
+     27 votes  La Cuarta FM                            AAC+  ICY: Kesha - TiK ToK
+     27 votes  DISCO MUSIC RADIO                       MP3   ICY: JULIÁN SANTOFIMIA - FÓRMULA J
+     27 votes  Elite fm new                            MP3   plays, names nothing
+     27 votes  Ràdio Balaguer                          MP3   plays, names nothing
+     27 votes  Ràdio Pineda                            MP3   plays, names nothing
+     27 votes  Radio Atlantis Lanzarote                MP3   ICY: Cheryl Lynn - Got To Be Real
+     27 votes  Jazz Crusader                           MP3   plays, names nothing
+     27 votes  Esencia Radio Tres Cantos               MP3   plays, names nothing
+     27 votes  Radio Radio Network España              MP3   ICY: 3rd Force - Big Shot
+     27 votes  Radio Marca Malaga                      MP3   plays, names nothing
+     26 votes  Radio Piratona 106.1 FM Vigo            OGG   plays, names nothing
+     26 votes  OndaCero Mallorca                       AAC   HLS, plays
+     26 votes  Radio Popular                           MP3   ICY: EgunOff Magazine - Cris Maestro, Leire Argandoña y May Madrazo
+     26 votes  Ràdio Riba-roja                         MP3   plays, names nothing
+     26 votes  hits1                                   MP3   ICY: Elton John & Britney Spears - Hold Me Closer (Joel Corry Remix)
+     26 votes  Radio FilispiM                          MP3   no answer
+     26 votes  Radio Clásica                           MP3   plays, names nothing
+     26 votes  Euskal Sintonia                         AAC+  ICY: Kirolak
+     26 votes  Radio The Club                          AAC   ICY: Radio The Club - www.radiotheclub.com - @radiotheclubmallorca
+     26 votes  REPLAY NEWS - Español          La radi  MP3   plays, names nothing
+     26 votes  Cadena SER Palencia                     MP3   plays, names nothing
+     25 votes  Cadena Ser + Cadiz - 93.2 FM            MP3   plays, names nothing
+     25 votes  Cadena Ser + Malaga                     MP3   plays, names nothing
+     25 votes  MixFM Gran Canaria                      MP3   status: Cheryl Lynn - Got To Be Real
+     25 votes  Radio La Roda                           MP3   plays, names nothing
+     25 votes  Los 40 Sur                              MP3   plays, names nothing
+     25 votes  MDT RADIO Alicante 90.4 FM              MP3   status: Gabry Ponte - Geordie
+     25 votes  Distinta FM SANTANDER - CANTABRIA89.6L  MP3   plays, names nothing
+     25 votes  Canal 4 Tenerife                        MP3   plays, names nothing
+     25 votes  Ràdio Ulldecona                         MP3   plays, names nothing
+     25 votes  Radio Despi                             MP3   no answer
+     25 votes  Ràdio Arenys de Munt                    MP3   plays, names nothing
+     25 votes  Arraio Irratia                          OGG   plays, names nothing
+     25 votes  Dunas FM 94.4 y 94.2                    MP3   plays, names nothing
+     25 votes  Radio sin barreras                      MP3   ICY: Christina Perri - burning gold
+     25 votes  Cadena Ser + Huesca                     MP3   plays, names nothing
+     24 votes  Cadena Ser - Maspalomas                 AAC+  plays, names nothing
+     24 votes  Sangeet Fm                              MP3   plays, names nothing
+     24 votes  Onda CERO ALMERIA 1341 OM               AAC   HLS, plays
+     24 votes  [REE]   Radio Exterior de España        UNKNOWN HLS, plays
+     24 votes  RNE - Radio 5 Huesca                    MP3   plays, names nothing
+     24 votes  Radio Galega                            AAC   HLS, plays
+     24 votes  Jazz Radio Spain                        MP3   ICY: Byron Miller, Walter Beasley, Stevie Wonder - Real Love
+     23 votes  dublab BCN                              MP3   ICY: Airtime - offline
+     23 votes  MariskalRock Radio                      MP3   ICY: - JINGLE DAVID ARTISTAS
+     23 votes  Radio Crónicas Folk                     MP3   ICY: MARA ARANDA Eterns [Mare Vostrum, 2015]
+     23 votes  Radio Agalaria                          MP3   plays, names nothing
+     23 votes  Ràdio Silenci                           MP3   plays, names nothing
+     23 votes  EDM FESTIVAL - Online Radio             MP3   status: Kein Titel Update
+     23 votes  Rock FM                                 AAC   HLS, plays
+     23 votes  Radio Popular                           MP3   ICY: EgunOff Magazine - Cris Maestro, Leire Argandoña y May Madrazo
+     23 votes  Star People                             MP3   plays, names nothing
+     23 votes  Radio Matorral                          MP3   ICY: GALA - Come into my life [Official video HD]
+     23 votes  ladiez                                  AAC   plays, names nothing
+     22 votes  Alpicat Ràdio                           MP3   plays, names nothing
+     22 votes  Radiocable                              MP3   ICY: Master Minded - Deep Dive
+     22 votes  Bakanos FM 97.0 - 97.1                  MP3   plays, names nothing
+     22 votes  Ibiza Sonica | Sonica Futura            MP3   plays, names nothing
+     22 votes  ILoveMusicRadio                         MP3   ICY: LA BOUCHE - BE MY LOVER
+     22 votes  Radio Poniente                          MP3   plays, names nothing
+     22 votes  Onda Torrente Radio                     MP3   ICY: SUGAR RADIO SHOW- Robin Schulz
+     22 votes  Ràdio Manlleu                           MP3   plays, names nothing
+     22 votes  Atlántico Radio 88.3 FM                 MP3   plays, names nothing
+     22 votes  Our Music Hub Spain                     MP3   ICY: moon cresta - FIVE VERSUS
+     22 votes  RTVCE                                   AAC   HLS, plays
+     22 votes  Radio Argayo                            MP3   ICY: Nosotras Personas13102026
+     22 votes  Ràdio Cornellà                          MP3   plays, names nothing
+     22 votes  Makina _ WiFon Fm                       MP3   ICY: Chris Brunson, Anointed, Ádrienne Jolie - Be It Unto You
+     22 votes  Cugat Ràdio                             MP3   ICY: Not�cies en Xarxa
+     21 votes  InterRadio Tenerife                     MP3   no answer
+     21 votes  DEEP NU HOUSE Radio by SO&SO            AAC   ICY: SO&SO - DEEP NU HOUSE (020) 04 JUN 2022
+     21 votes  Onca Cero Alzira                        AAC   HLS, plays
+     21 votes  Ràdio el Vendrell                       MP3   plays, names nothing
+     21 votes  Ona Malgrat                             MP3   plays, names nothing
+     21 votes  Ibiza.fm                                AAC   plays, names nothing
+     21 votes  Radio Hostafrancs                       MP3   no answer
+     21 votes  La Plana Ràdio                          MP3   plays, names nothing
+     21 votes  Sonica Tribe                            MP3   ICY: Deisen - Alpherg
+     21 votes  Sie7e Spain                             MP3   ICY: Kygo - Save My Love
+     21 votes  onda digital fm guadalajara             MP3   ICY: La Rumba Del Perdón - ROSALÍA/Estrella Morente/Sílvia Pérez Cruz
+     21 votes  Euskadi Irratia                         MP3   plays, names nothing
+     21 votes  Calafell Ràdio                          MP3   plays, names nothing
+     20 votes  Ràdio Platja d'Aro                      MP3   ICY: undefined
+     20 votes  Radio Vila-real                         MP3   ICY: RADIO VILA-REAL
+     20 votes  RNE - Radio 5 Zaragoza                  MP3   plays, names nothing
+     20 votes  Radio Villafranca                       OGG   plays, names nothing
+     20 votes  07.4 felovebible english                MP3   status: Hosanna - Faith Comes By Hearing - FCBH - Luke 09
+     20 votes  A Xente de Teo                          MP3   ICY: - O Leãozinho
+     20 votes  ApopcalipsisRadio                       MP3   ICY: Zion - K I C K S - Zion
+     20 votes  Onda Cero (Eventos 1)                   UNKNOWN HLS, plays
+     20 votes  Kiss FM                                 MP3   plays, names nothing
+     20 votes  RadioMV Español                         MP3   ICY: Apresurado
+     20 votes  Ràdio Abrera                            MP3   plays, names nothing
+     20 votes  SI RADIO DE GALICIA CONDADO             AAC+  ICY: Pablo L�pez - El Patio
+     19 votes  Onda Wantuki                            MP3   plays, names nothing
+     19 votes  Rock FM                                 UNKNOWN HLS, plays
+     19 votes  Ibiza_Radios                            MP3   ICY: Belezamusica - Running Away (Seamus Haji Remix & CDM Edit)
+     19 votes  Ondacero Cartagena                      AAC   HLS, plays
+     19 votes  Onda Jerez Radio                        MP3   plays, names nothing
+     19 votes  Ràdio l'Om                              MP3   ICY: Residents a Picassent [Paco Solaz]
+     19 votes  Radio Almaina 64kbps                    OGG   plays, names nothing
+     19 votes  Onda Cero Zaragoza                      AAC   HLS, plays
+     19 votes  Radio SantVi 107.4FM                    MP3   ICY: entrevistadijous
+     19 votes  Radio Intereconomía                     MP3   plays, names nothing
+     18 votes  Radio                                   MP3   plays, names nothing
+     18 votes  Olimpica                                MP3   plays, names nothing
+     18 votes  Rock Radioo                             MP3   ICY: Positiva Deportes - Positiva Deportes
+     18 votes  Rumberos FM                             MP3   no answer
+     18 votes  punk irratia                            MP3   ICY: hagar the womb - True Love And Faith
+     18 votes  Antena Huelva 97.3 FM                   MP3   plays, names nothing
+     18 votes  Cadena Ser + Mallorca                   MP3   plays, names nothing
+     18 votes  Urban Revolution                        AAC   ICY: Beto BPM - Hasta Luego Lucas Mix - Mix
+     18 votes  Contrabanda FM                          MP3   plays, names nothing
+     18 votes  Radio Universitaria León                OGG   status: Radio Universitaria de Leon (106.6 FM) y Ponferrada (105 FM)
+     18 votes  RNE Radio Nacional                      UNKNOWN HLS, plays
+     18 votes  Ràdio Molins de Rei                     MP3   plays, names nothing
+     18 votes  MegastarFM (stereo_aac)                 UNKNOWN HLS, plays
+     18 votes  Radio Laredo                            MP3   plays, names nothing
+     18 votes  Sevilla FC Radio                        AAC   HLS, plays
+     18 votes  BENICARLO RADIO by Xopo                 MP3   plays, names nothing
+     18 votes  Cadena Ser + Córdoba                    MP3   plays, names nothing
+     18 votes  Gente Radio                             MP3   plays, names nothing
+     18 votes  Dance Wave Retro!                       OGG   status: All about Dance from 2000 till today!
+     18 votes  Radio Tomares                           MP3   ICY: msedge
+     17 votes  Lola FM Dance                           AAC+  plays, names nothing
+     17 votes  Ocean Radio Spain                       MP3   ICY: My Camera Never Lies
+     17 votes  HAPPYFM - FUERTEVENTURA                 MP3   no answer
+     17 votes  Canal Axarquía 89.6 FM                  MP3   plays, names nothing
+     17 votes  H!T FM                                  MP3   plays, names nothing
+     17 votes  Mad Radio Medellín                      MP3   ICY: Franc Spangler - Fight The Feeling
+     17 votes  Radio Marca La Coruña                   MP3   plays, names nothing
+     17 votes  Ràdio Premià de Mar                     MP3   plays, names nothing
+     17 votes  Onda 80 Radio Bellvitge                 MP3   ICY: Orquesta Mondragon - Corazon De Neon
+     17 votes  Calimbre Radio                          MP3   plays, names nothing
+     17 votes  La Mega Estación Madrid 98.2 FM         MP3   plays, names nothing
+     17 votes  Radio Xata                              MP3   ICY: cajon-sastra mf 181636415 feed 1
+     17 votes  Radio Guardo                            MP3   ICY: Bensound - Sunny
+     17 votes  Radio Laredo                            MP3   plays, names nothing
+     17 votes  Ràdio 90                                MP3   no answer
+     17 votes  Coast FM Tenerife Spain                 MP3   ICY: This is Coast FM Canary Islands  Now Playing: Castles by Freya Ri
+     16 votes  Perfect Radio Coffeemusic               MP3   plays, names nothing
+     16 votes  Radio Valencianismo                     MP3   plays, names nothing
+     16 votes  CADENA JOVEN RADIO 107.3 FM             MP3   plays, names nothing
+     16 votes  Cadena Ser + Pamplona                   MP3   plays, names nothing
+     16 votes  Radio Primavera GC 107.3 FM             MP3   ICY: Babyface - Every Time I Close My Eyes
+     16 votes  Lleida Radio Ua1 104.5 FM               MP3   plays, names nothing
+     16 votes  La Disco Radio                          AAC+  plays, names nothing
+     16 votes  CADENA SER (Aviles)                     MP3   plays, names nothing
+     16 votes  Antena 2000                             MP3   plays, names nothing
+     16 votes  Antena Cemu Radio 89.2 FM               MP3   ICY: CEMU 89.2 Mhz
+     16 votes  ONDA WANTUKI                            MP3   plays, names nothing
+     16 votes  RNE Radio 5 Cartagena                   MP3   plays, names nothing
+     16 votes  Radio Mai                               MP3   ICY: RadioMAI
+     16 votes  RadioVoz Pontevedra                     MP3   plays, names nothing
+     16 votes  Estudio Radio                           AAC+  ICY: EN VIVO - INTERNACIONAL
+     15 votes  Cadena SER Canarias                     MP3   plays, names nothing
+     15 votes  esRadio                                 MP3   plays, names nothing
+     15 votes  Onda Regional Música                    UNKNOWN no answer
+     15 votes  Ibiza Organica                          MP3   no answer
+     15 votes  Energía Vintage                         MP3   ICY: Hermanas Gayarre - Kansas City (1961)
+     15 votes  AFRO RADIO                              MP3   no answer
+     15 votes  Onda Madrid                             MP4   HLS, plays
+     15 votes  Radio Guijuelo                          MP3   plays, names nothing
+     15 votes  Ecuashyri Radio 103.7 FM                MP3   ICY: RADIO ECUASHYRI - La cadena tricolor en Espana !
+     15 votes  Segura irratia                          MP3   ICY: Live Broadcast
+     15 votes  Radio Almendralejo                      MP3   plays, names nothing
+     15 votes  Comboi - La ràdio de la terreta         MP3   plays, names nothing
+     15 votes  Onda Cero Tenerife                      AAC   HLS, plays
+     15 votes  RNE - Radio 5 Teruel                    MP3   plays, names nothing
+     15 votes  Radio San Borondón                      MP3   plays, names nothing
+     15 votes  Cope Castellón                          MP3   no answer
+     14 votes  RNE - Radio 5 Teruel                    MP3   plays, names nothing
+     14 votes  Onda Wantuki                            MP3   plays, names nothing
+     14 votes  Berea FM 92.1                           AAC+  ICY: BEREA FM
+     14 votes  Ucrania FM                              MP3   ICY: OldSchool - Hip Hop R B
+     14 votes  Ibiza - Deep House                      MP3   ICY: Belezamusica - Running Away (Seamus Haji Remix & CDM Edit)
+     14 votes  Remember4U                              AAC   ICY: Esquema - Rompiendo Esquemas
+     14 votes  Radio ArtFlamenco                       MP3   ICY: Jesse Cook - Surrender
+     14 votes  Agro Radio 103.0                        MP3   plays, names nothing
+     14 votes  Betis Radio                             MP3   plays, names nothing
+     14 votes  Kairos FM                               MP3   ICY: ALIA LARA - Praising You (Official Lyric Video)
+     14 votes  Ondamar80                               AAC   ICY: FUNKY TRACKS RADIO - CON TONI MODULATION
+     14 votes  Kiss FM Canarias                        MP3   plays, names nothing
+     14 votes  EDM.RADIO/DANCE                         MP3   plays, names nothing
+     14 votes  Rock FM                                 AAC   HLS, plays
+     14 votes  Espacio4FM                              MP3   plays, names nothing
+     14 votes  Exa FM                                  MP3   plays, names nothing
+     14 votes  radiocosmosvlc                          MP3   no answer
+     14 votes  Onda Wantuki                            MP3   plays, names nothing
+     14 votes  Radio Vallekas                          MP3   ICY: Por qué estoy tan triste teniéndolo todo - El anillo de Eloísa (M
+     14 votes  Efecto FM 89.0Mhz                       MP3   ICY: HIT CLUBBIN EDICION 1120 26 SEPT RADIO SHOW FRISCO
+     14 votes  Free Techno                             OGG   no answer
+     14 votes  Radio Taberna                           MP3   plays, names nothing
+     13 votes  Radio Serranía                          MP3   plays, names nothing
+     13 votes  CalamarRradio                           OGG   status: Drives Me Crazy
+     13 votes  radio 65                                MP3   plays, names nothing
+     13 votes  Onda Aranjuez                           MP3   plays, names nothing
+     13 votes  AirmaxFM                                MP3   no answer
+     13 votes  Avila Radio                             MP3   no answer
+     13 votes  Sevilla FC Radio                        AAC   HLS, plays
+     13 votes  Radio Albolote                          MP3   no answer
+     13 votes  The club                                AAC   ICY: Radio The Club - www.radiotheclub.com - @radiotheclubmallorca
+     13 votes  KISS FM                                 MP3   plays, names nothing
+     13 votes  Radio Salut Catalunya                   MP3   no answer
+     13 votes  Voltaje                                 MP3   ICY: Carlos Vives, Wisin - Si Me Das Tu Amor
+     13 votes  RadioVoz Ourense                        MP3   plays, names nothing
+     13 votes  Ràdio Gavà                              MP3   plays, names nothing
+     13 votes  Radio Sol LP-35100                      MP3   plays, names nothing
+     13 votes  RadioVoz Lugo                           MP3   plays, names nothing
+     13 votes  Cadena Ser + Gandia                     MP3   plays, names nothing
+     13 votes  Radio Sintonia                          MP3   plays, names nothing
+     13 votes  Cadena SER - Miranda de Ebro            AAC+  plays, names nothing
+     13 votes  MASTER FM MADRID 93.7 FM                MP3   ICY: MASTER FM - TU DIAL MUSICAL
+     13 votes  RadioMV Español El Nuevo Testamento     MP3   ICY: 08. 2 Corintios
+     13 votes  Verbena FM                              MP3   no answer
+     13 votes  Cadena Digital 97.8 FM                  MP3   ICY: Aitana - SUPERESTRELLA
+     13 votes  Cantabria FM 89.9                       MP3   plays, names nothing
+     13 votes  NEGOCIOS.COM                            UNKNOWN HLS, plays
+     12 votes  Radio Nacional de España - Valencia     UNKNOWN HLS, plays
+     12 votes  Elite Radio Guadix                      AAC+  ICY: Sergio Contreras - La Maleta
+     12 votes  Cuac FM                                 MP3   ICY: Estrelados na Estratosfera
+     12 votes  Decibelia FM                            AAC   ICY: Shade K - Harros (Radio Edit)
+     12 votes  Radio Villaba                           MP3   ICY: Athletic Progression - EMMELEV
+     12 votes  Radio 90                                MP3   ICY: At the Gates - Suicide Nation
+     12 votes  Dance Wave Retro!                       OGG   status: Tracklist: https://dancewave.online/
+     12 votes  Ràdio Sentmenat                         MP3   plays, names nothing
+     12 votes  BeachGrooves Radio                      MP3   ICY: Live on BG - Selimmm live from France
+     12 votes  GameOver Music Radio                    MP3   no answer
+     12 votes  Decibelia FM                            AAC   ICY: Shade K - Harros (Radio Edit)
+     12 votes  Radio Pimienta                          MP3   plays, names nothing
+     12 votes  Canal Ebro Radio                        MP3   ICY: DJ Mike Llama - Llama Whippin' Intro
+     12 votes  Gracia Celestial                        MP3   plays, names nothing
+     12 votes  Radio MARCA                             MP3   plays, names nothing
+     12 votes  Candela Radio 91.4 FM                   AAC   ICY: Use HTTP to feed the song name
+     12 votes  RadioMV Español El Antiguo Testamento   MP3   ICY: 33. Miqueas
+     12 votes  Ràdio Ponts                             MP3   plays, names nothing
+     11 votes  Armonía Duero 107.7 FM                  MP3   plays, names nothing
+     11 votes  dublab BCN                              MP3   ICY: Airtime - offline
+     11 votes  VILASSAR RADIO                          MP3   plays, names nothing
+     11 votes  Radio Esquina                           MP3   status: Bananarama - Venus [ad5]
+     11 votes  EduNeu Radio 3: DJ Johnson Somerset Re  MP3   ICY: Lana Del Rey - Summertime Sadness (Johnson Somerset remix)
+     11 votes  Cadena Ser + Alcoy                      MP3   plays, names nothing
+     11 votes  Play Radio Valencia                     MP3   ICY: AzuraCast.com - AzuraCast is Live!
+     11 votes  Central FM                              MP3   plays, names nothing
+     11 votes  EDM Radio                               MP3   plays, names nothing
+     11 votes  Radio Sintonia                          MP3   plays, names nothing
+     11 votes  Radio Mi Amigo International            MP3   ICY: The Bee Gees - You Should Be Dancing
+     11 votes  Fedi Drama Radio                        MP3   no answer
+     11 votes  Yumbo FM                                MP3   no answer
+     11 votes  AB95FM                                  MP3   plays, names nothing
+     11 votes  Jose Antonio Ruiz Garcíaº               MP3   ICY: Confederate Teds - Streamline Train
+     11 votes  Segura irratia                          MP3   ICY: Live Broadcast
+     11 votes  SER - Henares 20241023                  MP3   plays, names nothing
+     11 votes  Radio Linguas                           MP3   ICY: radiolinguas.eoidevigo - Meet the Staff: Fiona Brennan
+     11 votes  Radio Sefarad                           MP3   plays, names nothing
+     11 votes  A Rádio POP                             AAC+  plays, names nothing
+     10 votes  Radio Jerez                             MP3   plays, names nothing
+     10 votes  Irola Irratia 107.5 FM Bilbo            MP3   plays, names nothing
+     10 votes  Olímpica Valencia                       MP3   ICY: Now Playing info goes here
+     10 votes  ONDA WANTUKI                            MP3   plays, names nothing
+     10 votes  Cope Zaragoza                           MP3   no answer
+     10 votes  Almodóvar en La Onda 107.2 FM           AAC   ICY: PEDRO RAMA - LA CUARENTENA
+     10 votes  Flow Radio                              AAC   ICY: KING SAVAGGE, LUCK RA, PAULO LONDRA, JAIRO VERA, LIT KILLAH & BAY
+     10 votes  Cadena SER Granada                      AAC+  plays, names nothing
+     10 votes  Oldies Radio Time                       MP3   no answer
+     10 votes  Olimpica Stereo Zaragoza                MP3   plays, names nothing
+     10 votes  RNE Ràdio 4                             UNKNOWN HLS, plays
+     10 votes  Radio Flow                              MP3   no answer

@@ -1,0 +1,4357 @@
+[
+ {
+  "name": "Cadena 100",
+  "stream": "http://cadena100-streamers-mp3.flumotion.com/cope/cadena100.mp3",
+  "homepage": "http://www.cadena100.es/",
+  "favicon": "https://www.cadena100.es/estaticos/apple-touch-icon-192x192.png",
+  "tags": [
+   "music"
+  ],
+  "votes": 43953,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Global Radio",
+  "stream": "http://ibizaglobalradio.streaming-pro.com:8024/",
+  "homepage": "http://www.ibizaglobalradio.com/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "electronic",
+   "house"
+  ],
+  "votes": 37773,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOS 40 Principales España",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/Los40.mp3",
+  "homepage": "https://los40.com/",
+  "favicon": "https://los40es00.epimg.net/iconos/v1.x/v1.0/touch-apple.png",
+  "tags": [
+   "music",
+   "pop",
+   "top 40"
+  ],
+  "votes": 34796,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Chocolate FM",
+  "stream": "http://streaming5.elitecomunicacion.es:8082/live.mp3",
+  "homepage": "https://www.chocolatefm.com/",
+  "favicon": "https://www.chocolatefm.com/__ovh/common/img/favicon.ico",
+  "tags": [
+   "chr",
+   "dance",
+   "español",
+   "latin",
+   "latin music",
+   "latino",
+   "pop",
+   "pop latino",
+   "reggaeton",
+   "top 40",
+   "trap"
+  ],
+  "votes": 32630,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER España",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
+  "homepage": "http://play.cadenaser.com/",
+  "favicon": "https://cadenaser00.epimg.net/favicon.png",
+  "tags": [
+   "cultural news",
+   "live",
+   "news",
+   "news talk",
+   "spanish",
+   "sports news"
+  ],
+  "votes": 30484,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "1000 HITS 80s",
+  "stream": "http://c2.auracast.net:8048/stream",
+  "homepage": "http://www.1000hits80s.eu/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "italo",
+   "italo dance",
+   "italo disco",
+   "oldies"
+  ],
+  "votes": 27403,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rock FM",
+  "stream": "http://flucast-bl04.flumotion.com/cope/rockfm-low.mp3",
+  "homepage": "http://www.rockfm.fm/",
+  "favicon": "https://www.rockfm.fm/estaticos/apple-touch-icon-192x192.png",
+  "tags": [],
+  "votes": 24766,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "_80 EXITOS",
+  "stream": "https://80sexitos.stream.laut.fm/80sexitos",
+  "homepage": "https://musica80.radioclub.es/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "dance",
+   "disco",
+   "musica romantica"
+  ],
+  "votes": 20100,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Los 40 Urban",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_URBAN.mp3",
+  "homepage": "https://los40.com/seccion/los40urban/",
+  "favicon": "https://los40es00.epimg.net/iconos/v1.x/v1.0/promos/promo_og_los40.png",
+  "tags": [
+   "dance",
+   "music",
+   "pop",
+   "urban"
+  ],
+  "votes": 17373,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Los 40 Dance",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC",
+  "homepage": "https://los40.com/",
+  "favicon": "https://recursosweb.prisaradio.com/fotos/original/010002753887.png",
+  "tags": [
+   "dance",
+   "dance music",
+   "edm",
+   "electro",
+   "electronic",
+   "house"
+  ],
+  "votes": 15556,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "esRadio",
+  "stream": "http://livestreaming.esradio.fm/stream64.mp3",
+  "homepage": "http://esradio.libertaddigital.com/",
+  "favicon": "",
+  "tags": [
+   "news",
+   "talk"
+  ],
+  "votes": 15409,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pure Ibiza Radio",
+  "stream": "https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio",
+  "homepage": "https://www.pureibizaradio.com/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "electronic music",
+   "ibiza club"
+  ],
+  "votes": 13075,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Dial",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL.mp3",
+  "homepage": "https://www.cadenadial.com/",
+  "favicon": "https://www.cadenadial.com/wp-content/uploads/2024/03/cropped-512x512_favicon_dial-180x180.png",
+  "tags": [
+   "música en español"
+  ],
+  "votes": 12552,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Chocolate FM [calidad móvil-low bandwidth]",
+  "stream": "http://streaming5.elitecomunicacion.es:8082/live32.aac",
+  "homepage": "https://www.chocolatefm.com/",
+  "favicon": "https://chocolatefm.com/radio-browser.png",
+  "tags": [
+   "chr",
+   "dance",
+   "español",
+   "latin",
+   "latin music",
+   "latino",
+   "low bandwidth",
+   "pop",
+   "pop latino",
+   "reggaeton",
+   "top 40",
+   "trap"
+  ],
+  "votes": 12525,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Marca",
+  "stream": "https://sonic.mediatelekom.net/9316/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "votes": 12151,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER Radio MADRID",
+  "stream": "http://server7.20comunicacion.com:8040/",
+  "homepage": "http://www.radiomenorca.com/ca",
+  "favicon": "https://cadenaser00.epimg.net/favicon.png",
+  "tags": [
+   "cultural",
+   "local",
+   "news",
+   "talk"
+  ],
+  "votes": 9188,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Café del Mar",
+  "stream": "https://streams.radio.co/se1a320b47/listen",
+  "homepage": "https://cafedelmar.com/radio/",
+  "favicon": "https://cafedelmar.com/apple-touch-icon.png",
+  "tags": [
+   "chillout",
+   "ibiza",
+   "lounge"
+  ],
+  "votes": 8849,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Costa Del Mar - Chillout (AAC 96kbps)",
+  "stream": "http://stream.cdm-chillout.com:8020/stream-AAC-Chill",
+  "homepage": "http://www.costadelmar-radio.com/chillout/",
+  "favicon": "",
+  "tags": [
+   "chill",
+   "chillout"
+  ],
+  "votes": 8749,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOS40 Classic",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSIC.mp3",
+  "homepage": "https://play.los40.com/emisora/los40_classic/",
+  "favicon": "https://los40es00.epimg.net/estaticos/recursosgraficos/v1/img/app/los40_192.png",
+  "tags": [
+   "pop rock"
+  ],
+  "votes": 8475,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Absolute Chillout",
+  "stream": "http://edge4.peta.live365.net/b05055_128mp3",
+  "homepage": "http://www.absolutechillout.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 8179,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Marca Barcelona",
+  "stream": "http://radioweb.radiomarcabarcelona.com:9000/stream",
+  "homepage": "http://marca.com/radio.html",
+  "favicon": "",
+  "tags": [
+   "sports news"
+  ],
+  "votes": 8118,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "MegaStarFM",
+  "stream": "http://flucast-bl01.flumotion.com/cope/megastar.mp3",
+  "homepage": "http://www.megastar.fm/",
+  "favicon": "https://www.megastar.fm/estaticos/apple-touch-icon-192x192.png",
+  "tags": [
+   "pop",
+   "top 40"
+  ],
+  "votes": 8101,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Marca Madrid",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONAL_SC",
+  "homepage": "https://www.marca.com/radio.html",
+  "favicon": "",
+  "tags": [
+   "sports"
+  ],
+  "votes": 6656,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM Deep Techno",
+  "stream": "http://s02.fjperezdj.com:8066/live",
+  "homepage": "https://www.locafm.com/deep-techno/player.html",
+  "favicon": "",
+  "tags": [],
+  "votes": 6002,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ElectroDanceWorld Radio",
+  "stream": "http://stream.zeno.fm/s70bvdgqks8uv",
+  "homepage": "https://linktr.ee/electrodanceworldradio",
+  "favicon": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/apple-icon-120x120.png",
+  "tags": [
+   "big room",
+   "club house",
+   "dance",
+   "deep house",
+   "drum and bass",
+   "dubstep",
+   "dutch house",
+   "edm",
+   "electro house",
+   "electronic",
+   "future house",
+   "hardstyle",
+   "melbourne bounce",
+   "progressive house",
+   "remember",
+   "tech house",
+   "techno",
+   "trance",
+   "tropical house"
+  ],
+  "votes": 5648,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "KISS FM",
+  "stream": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbkissfm.kissfmradio.cires21.com/bbkissfm.mp3",
+  "homepage": "https://www.kissfm.es/",
+  "favicon": "",
+  "tags": [
+   "2000s",
+   "80's",
+   "80s",
+   "90's",
+   "90s",
+   "music",
+   "musica",
+   "música",
+   "pop music",
+   "spanish",
+   "spanish pop"
+  ],
+  "votes": 4757,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cope Sevilla",
+  "stream": "http://wecast13-h-cloud.flumotion.com/copesedes/sevilla.mp3",
+  "homepage": "https://www.cope.es/directos/sevilla",
+  "favicon": "",
+  "tags": [],
+  "votes": 4620,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ONDA CERO (España)",
+  "stream": "https://atres-live.ondacero.es/live/ondacero/bitrate_1.m3u8",
+  "homepage": "https://www.radio.es/s/onda-cero-madrid",
+  "favicon": "",
+  "tags": [
+   "noticias y música"
+  ],
+  "votes": 4494,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Radiolé",
+  "stream": "http://25593.live.streamtheworld.com:3690/RADIOLEAAC_SC",
+  "homepage": "https://www.radiole.com/",
+  "favicon": "https://static.mytuner.mobi/media/tvos_radios/hp9JgkDT82.png",
+  "tags": [],
+  "votes": 4371,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM live",
+  "stream": "http://s3.we4stream.com:8045/liv",
+  "homepage": "http://www.locafm.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 4297,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "esRadio Madrid",
+  "stream": "http://livestreaming3.esradio.fm/stream64.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 4149,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM Urban",
+  "stream": "http://locafm02.we4stream.com:8015/live",
+  "homepage": "http://www.locafm.com/loca-urban/player.html",
+  "favicon": "",
+  "tags": [
+   "latin music",
+   "latin pop",
+   "latin urban",
+   "latino",
+   "latino urbano",
+   "musica latina",
+   "música urbana",
+   "pop latino",
+   "reggaeton",
+   "reggaetón",
+   "urban",
+   "urbana",
+   "urbano"
+  ],
+  "votes": 4001,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RockFM 101.7",
+  "stream": "http://flucast-rb03-02.flumotion.com/cope/rockfm.aac",
+  "homepage": "http://www.rockfm.fm/",
+  "favicon": "https://www.rockfm.fm/estaticos/apple-touch-icon-192x192.png",
+  "tags": [],
+  "votes": 3897,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Perfect Deep House",
+  "stream": "https://stream.radiojar.com/asngk2sg798uv?1659885393",
+  "homepage": "https://perfect-radio.com/perfect-deephouse.html",
+  "favicon": "https://perfect-radio.com/____impro/1/onewebmedia/Logo%20Perfect%20Deephouse.jpg?etag=W%2F%22847e5-619665ca%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=355%2B372&extract=0%2B0%2B354%2B372&quality=85",
+  "tags": [
+   "deep house",
+   "house",
+   "tropical"
+  ],
+  "votes": 3627,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Chocolate FM HD",
+  "stream": "http://streaming5.elitecomunicacion.es:8030/live.mp3",
+  "homepage": "https://www.chocolatefm.com/",
+  "favicon": "https://www.chocolatefm.com/apple-touch-icon.png",
+  "tags": [
+   "chr",
+   "dance",
+   "español",
+   "hd",
+   "latin",
+   "latin music",
+   "latino",
+   "pop",
+   "pop latino",
+   "reggaeton",
+   "top 40",
+   "trap"
+  ],
+  "votes": 3626,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hit radio",
+  "stream": "http://stm1.emiteonline.com:8004/hitelgrado",
+  "homepage": "http://www.hitradiofm.es/index.html",
+  "favicon": "",
+  "tags": [
+   "musica popular",
+   "noticias"
+  ],
+  "votes": 3606,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE - R1 --> Madrid",
+  "stream": "https://d121.rndfnk.com/star/crtve/rne1/mad/mp3/128/stream.mp3?cid=01GEM7S23A9B744SKFN04XA893&sid=2HgEg5aD71G8EuEf67MKTba5AnL&token=n_qXJorii6EVsZ_IP-RSzQP8sRamUc8gqb1nDnqiNT8&tvf=HHgasgd8KBdkMTIxLnJuZGZuay5jb20",
+  "homepage": "https://www.rtve.es/play/audios/programa/rne_mad-live/3893534/",
+  "favicon": "https://img2.rtve.es/a/3893534/square/?h=320",
+  "tags": [],
+  "votes": 3338,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO MARÍA ESPAÑA",
+  "stream": "http://dreamsiteradiocp2.com:8006/stream",
+  "homepage": "https://www.radiomaria.es/",
+  "favicon": "https://www.radiomaria.es/favicon.ico",
+  "tags": [
+   "catholic",
+   "christian",
+   "radio maria",
+   "talk"
+  ],
+  "votes": 3309,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RAC1",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1.mp3",
+  "homepage": "https://www.rac1.cat/",
+  "favicon": "",
+  "tags": [
+   "culture",
+   "humour",
+   "local news",
+   "news",
+   "sports"
+  ],
+  "votes": 3234,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cafe Mambo Ibiza Radio",
+  "stream": "http://streamer.radio.co/sd7b28e5f3/listen",
+  "homepage": "https://cafemamboibiza.com/radio/",
+  "favicon": "",
+  "tags": [
+   "dj sets",
+   "ibiza"
+  ],
+  "votes": 3200,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM Twchno",
+  "stream": "http://s02.fjperezdj.com:8050/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 2973,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Catalunya Informació (Catinfo)",
+  "stream": "https://shoutcast.ccma.cat/ccma/catalunyainformacioHD.mp3",
+  "homepage": "https://www.catradio.cat/catinfo",
+  "favicon": "https://statics.ccma.cat/img/favicons/catinfo-favicon-96x96.png",
+  "tags": [
+   "local news",
+   "news",
+   "news talk",
+   "talk"
+  ],
+  "votes": 2968,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vaughan",
+  "stream": "http://vaughanradioweb.streaming-pro.com:8057/;streamdemo_mp3.nsv",
+  "homepage": "http://www.vaughanradio.com/",
+  "favicon": "https://grupovaughan.com/apple-icon-120x120.png",
+  "tags": [
+   "learn",
+   "learn english",
+   "learn language"
+  ],
+  "votes": 2385,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "esRadio_AAC",
+  "stream": "http://livestreaming9.esradio.fm/aaclive32",
+  "homepage": "https://esradio.libertaddigital.com/",
+  "favicon": "",
+  "tags": [
+   "news",
+   "talk"
+  ],
+  "votes": 2358,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio España",
+  "stream": "https://stream-280.surfernetwork.com/7ywx2u45vv8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI3eXd4MnU0NXZ2OHV2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkhRR0xhS3FkVHpDUS10QnVlS1AyUEEiLCJpYXQiOjE3OTE3NTM5NDYsImV4cCI6MTc5MTc1NDAwNn0.fTtcwP6LyKx2lyFymVHYfw7gZ7JLW8R-ezs-lrryVl0",
+  "homepage": "https://www.xn--radioespaa-19a.es/",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/9/109189.v2.png",
+  "tags": [
+   "información",
+   "information",
+   "news",
+   "noticias",
+   "variado",
+   "variety"
+  ],
+  "votes": 2283,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Maria Spain Espana",
+  "stream": "http://dreamsiteradiocp.com:8060/;stream.mp3",
+  "homepage": "http://www.radiomaria.es/",
+  "favicon": "",
+  "tags": [
+   "catholic",
+   "religion"
+  ],
+  "votes": 2014,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Remember the music FM 96.6",
+  "stream": "https://eu1.lhdserver.es:9041/stream",
+  "homepage": "https://rememberthemusicfm.com/",
+  "favicon": "",
+  "tags": [
+   "00s",
+   "80s",
+   "90s",
+   "dj mixes",
+   "electronica",
+   "retro electronica"
+  ],
+  "votes": 2010,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "punk irratia",
+  "stream": "https://punkirratia.net:8443/punk",
+  "homepage": "https://punkirratia.net/",
+  "favicon": "https://punkirratia.net/punkirratia.jpg",
+  "tags": [
+   "hardcore",
+   "punk"
+  ],
+  "votes": 1963,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hit FM",
+  "stream": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+  "homepage": "https://hitfm.es/",
+  "favicon": "https://www.hitfm.es/wp-content/uploads/2019/06/cropped-favicon-192x192.png",
+  "tags": [],
+  "votes": 1928,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hitz Latino FM",
+  "stream": "http://stream.zeno.fm/aq899a53rs8uv",
+  "homepage": "https://cdn.onlineradiobox.com/img/l/9/102759.v1.png",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 1898,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nacional de España - Radio 5 Todo noticias",
+  "stream": "https://d131.rndfnk.com/star/crtve/rne5/main/mp3/128/stream.mp3?aggregator=tunein&cid=01GEP4MW5CAHPYP1EXHVKWFJ8W&sid=2OeE42hivuba6dTGvjnMGjKByQe&token=cdczXcnimVx4AY4iamqYbTMdu3cK7oBxmS2UQN9cWc0&tvf=pdPcDBxuVxdkMTMxLnJuZGZuay5jb20",
+  "homepage": "https://www.rtve.es/play/radio/radio-5/",
+  "favicon": "https://img2.rtve.es/css//rtve.2021/i/rtve-logos/logos_cadenas/radio-5_color.svg",
+  "tags": [
+   "news",
+   "talk"
+  ],
+  "votes": 1870,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Catalunya Radio",
+  "stream": "https://shoutcast.ccma.cat/ccma/catalunyaradioHD.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "talk & speech"
+  ],
+  "votes": 1801,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Marca Valladolid",
+  "stream": "https://radiomarcavalladolid.streaming-pro.com:6106/radiomarca.mp3",
+  "homepage": "http://www.radiomarcavalladolid.com/",
+  "favicon": "https://radiomarcavalladolid.com/wp-content/uploads/2021/08/cropped-unnamed-180x180.png",
+  "tags": [
+   "deportes"
+  ],
+  "votes": 1739,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Planeta Costa del Sol",
+  "stream": "https://radioplaneta.emitironline.com/radio",
+  "homepage": "https://www.radioplaneta.com/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "house",
+   "pop",
+   "r&b"
+  ],
+  "votes": 1728,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Costa Del Mar Smooth Jazz",
+  "stream": "https://radio4.cdm-radio.com:18024/stream-mp3-Smooth",
+  "homepage": "http://www.cdm-smoothsax.com/",
+  "favicon": "",
+  "tags": [
+   "smooth jazz",
+   "smooth lounge"
+  ],
+  "votes": 1712,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "#1 Splash 90s Dance",
+  "stream": "https://c6.auracast.net/radio/8090/radio.mp3",
+  "homepage": "https://www.splashradio.eu/",
+  "favicon": "",
+  "tags": [
+   "1990s",
+   "90's",
+   "90er",
+   "90s",
+   "90s dance",
+   "90s y más",
+   "dance",
+   "pop dance",
+   "splash"
+  ],
+  "votes": 1636,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Flaix FM",
+  "stream": "https://stream.flaixfm.cat/icecast",
+  "homepage": "https://flaixfm.cat/",
+  "favicon": "https://flaixfm.cat/favicon.ico",
+  "tags": [
+   "dance",
+   "house",
+   "latin",
+   "reggaeton",
+   "urban"
+  ],
+  "votes": 1612,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM 80s",
+  "stream": "http://s02.fjperezdj.com:8075/live",
+  "homepage": "https://www.locafm.com/loca-80-s/player.html",
+  "favicon": "https://www.locafm.com/assets/img/favicon/apple-icon-120x120.png",
+  "tags": [],
+  "votes": 1524,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER - Radio Valencia",
+  "stream": "http://27833.live.streamtheworld.com/SER_VALENCIA_SC",
+  "homepage": "https://cadenaser.com/ser/emisoras/",
+  "favicon": "https://cadenaser.com/pf/resources/img/favicon.png?d=320",
+  "tags": [
+   "local news",
+   "news",
+   "news talk",
+   "talk"
+  ],
+  "votes": 1518,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EsRadio Principal",
+  "stream": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3",
+  "homepage": "https://esradio.libertaddigital.com/directo.html",
+  "favicon": "https://s.libertaddigital.com/2024/08/20/1200/627/esradio/esradio-redes.jpg",
+  "tags": [
+   "magazines",
+   "news"
+  ],
+  "votes": 1484,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "COPE Albacete",
+  "stream": "https://wecast02-o-cloud.flumotion.com/copesedes/albacete.mp3",
+  "homepage": "https://www.cope.es/directos/albacete",
+  "favicon": "https://www.cope.es/favicon/cope/apple-touch-icon-192x192.png",
+  "tags": [
+   "albacete",
+   "cope"
+  ],
+  "votes": 1477,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Gijón",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/gijon/bitrate_1.m3u8",
+  "homepage": "https://www.ondacero.es/emisoras/asturias/gijon/directo/",
+  "favicon": "https://static.ondacero.es/img/favicon.ico",
+  "tags": [],
+  "votes": 1461,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "LOVE RADIO - LOVE.radio",
+  "stream": "https://loveradio.streamingmedia.it/espana",
+  "homepage": "https://love.radio/",
+  "favicon": "",
+  "tags": [
+   "amor sólo música romántica",
+   "love",
+   "love songs",
+   "lovesongs",
+   "musica romantica",
+   "romantic"
+  ],
+  "votes": 1420,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RAC1 +1",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_MES_1.mp3",
+  "homepage": "https://www.rac1.cat/rac-mes-1/directe",
+  "favicon": "https://www.rac1.cat/apple-touch-icon-120x120.png",
+  "tags": [
+   "cultural",
+   "live sports",
+   "local news",
+   "news",
+   "sports",
+   "sports news"
+  ],
+  "votes": 1419,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Intimidad Relax",
+  "stream": "https://eu1.lhdserver.es:9121/stream",
+  "homepage": "https://intimidadradio.com/",
+  "favicon": "https://intimidadradio.com/favicon.ico",
+  "tags": [
+   "relax"
+  ],
+  "votes": 1412,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nature",
+  "stream": "https://stream.zeno.fm/3ac97ysh6f0uv.aac",
+  "homepage": "https://radionature.weebly.com/",
+  "favicon": "https://radionature.weebly.com/uploads/7/4/0/7/74072033/icon-players_orig.png",
+  "tags": [
+   "ambient and relaxation music",
+   "meditation",
+   "sounds of nature"
+  ],
+  "votes": 1394,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOCAFM REMEMBER",
+  "stream": "http://s02.fjperezdj.com:8035/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 1299,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Talk Radio Europe",
+  "stream": "http://s3.yesstreaming.net:7014/stream",
+  "homepage": "http://www.talkradioeurope.com/",
+  "favicon": "",
+  "tags": [
+   "eclectic",
+   "news",
+   "sport",
+   "talk"
+  ],
+  "votes": 1295,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "COPE Málaga",
+  "stream": "http://flucast12-h-cloud.flumotion.com/cope/net1.mp3",
+  "homepage": "https://www.cope.es/directos/malaga",
+  "favicon": "https://www.cope.es/favicon/cope/apple-touch-icon-192x192.png",
+  "tags": [],
+  "votes": 1281,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER - Ràdio Barcelona",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_BARCELONA.mp3",
+  "homepage": "https://play.cadenaser.com/emisora/radio_barcelona/",
+  "favicon": "https://cadenaser00.epimg.net/favicon.png",
+  "tags": [
+   "entertainment",
+   "news"
+  ],
+  "votes": 1273,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM chillout",
+  "stream": "http://s02.fjperezdj.com:8006/live",
+  "homepage": "http://www.locafm.com/chill-out/player.html",
+  "favicon": "",
+  "tags": [],
+  "votes": 1266,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Sevillanas",
+  "stream": "http://radio.wesped.com:8000/stream",
+  "homepage": "https://www.radiosevillanas.com/",
+  "favicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRavP3o9NomPQlOwQeAFy2hJlFVhNAULQuBzg&usqp=CAU",
+  "tags": [
+   "flamenco"
+  ],
+  "votes": 1211,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOCA FM TechHouse",
+  "stream": "http://s02.fjperezdj.com:8046/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 1198,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Remember VIP Radio",
+  "stream": "http://node-19.zeno.fm/471az1pu2nhvv?rj-ttl=5&aw_0_req_lsid=47ff91dffd57dbf75dd0fb53d70887a6&acu-uid=592123274268&bsw-uid=821f026b-0bba-437a-8608-4175e0f8681a&amb-uid=4433801850266558616&rj-tok=AAABgvsOIBIA01PqCt44uBvX-A&aw-uid=7d8ef8fede4e9d48810209d9211a4b12&dyn-uid=&dbm-uid=CAESEE2_JyH-nO_DIddQW1whFfI&mm-uid=ef936263-16b7-4900-8f84-e3367baa5653&triton-uid=cookie%3Ae618ff5c-77ba-49f3-ac6e-b9c6b093d00f&zs=l4i70_8iS4m6nNOBdKq6LA&an-uid=4758170041402249417",
+  "homepage": "https://remembervip.com/",
+  "favicon": "https://assets.production.linktr.ee/profiles/_next/static/logo-assets/apple-icon-120x120.png",
+  "tags": [
+   "90s",
+   "dance",
+   "eurodance",
+   "remember"
+  ],
+  "votes": 1157,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Libertad",
+  "stream": "https://server9.emitironline.com:19482/stream?cb=1708722000350",
+  "homepage": "https://radiolibertad.es/",
+  "favicon": "https://radiolibertad.es/wp-content/uploads/2022/08/Logo_RadioLibertad_300px.png",
+  "tags": [],
+  "votes": 1129,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EsRadio Asturias",
+  "stream": "http://server9.emitironline.com:8822/radio",
+  "homepage": "https://www.esradioasturias.fm/",
+  "favicon": "",
+  "tags": [
+   "información"
+  ],
+  "votes": 1107,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "1 Slow-Radio - laut.fm",
+  "stream": "https://1slowradio.stream.laut.fm/1_slowradio",
+  "homepage": "https://laut.fm/1_slowradio",
+  "favicon": "",
+  "tags": [
+   "60er",
+   "70er",
+   "80er",
+   "90er",
+   "easy listening",
+   "lovesongs",
+   "oldies",
+   "schlager",
+   "slow"
+  ],
+  "votes": 1075,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca Progressive House",
+  "stream": "https://s02.fjperezdj.com:8056/live?listening-from-radio-garden=1647634146",
+  "homepage": "http://www.locafm.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 1046,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Holiday Gym FM",
+  "stream": "http://holidaygym.emitironline.com/",
+  "homepage": "http://holidaygym.es/",
+  "favicon": "",
+  "tags": [
+   "dance"
+  ],
+  "votes": 1033,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "INFORMA RADIO",
+  "stream": "https://24x7.red:42045/informa",
+  "homepage": "https://informaradio.edatv.news/",
+  "favicon": "https://informaradio.edatv.news/fav-300x300.png",
+  "tags": [
+   "albacete",
+   "almería",
+   "andalucía",
+   "aragon",
+   "bilbao",
+   "cadiz",
+   "castilla y león",
+   "catalunya",
+   "conservative",
+   "conservative talk",
+   "cordoba",
+   "cultura",
+   "cultural",
+   "cultural news",
+   "cultural reports",
+   "culture",
+   "economia",
+   "economic",
+   "economic news",
+   "economics",
+   "españa",
+   "español",
+   "galicia",
+   "historia",
+   "historico",
+   "history",
+   "internacional",
+   "leon",
+   "liberal",
+   "madrid",
+   "murcia",
+   "nacional",
+   "news",
+   "news talk",
+   "noticias",
+   "noticias en español",
+   "noticias locales",
+   "noticias nacionales e internacionales",
+   "noticias y comentarios",
+   "noticieros",
+   "patriot",
+   "patriots",
+   "political",
+   "political talk",
+   "politics",
+   "politics & current affairs",
+   "pontevedra",
+   "sevilla",
+   "spanish",
+   "spanish broadcasting system",
+   "spanish christian",
+   "talk",
+   "talk radio",
+   "toledo",
+   "world news",
+   "world radio",
+   "zamora"
+  ],
+  "votes": 1031,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mix80Radio",
+  "stream": "https://stream.tunerplay.com/radio/8040/radio.mp3",
+  "homepage": "https://www.tunerplay.live/mix80radio",
+  "favicon": "",
+  "tags": [],
+  "votes": 1026,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "C. DIAL Baladas",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_03.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 953,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EsRadio (MP3 HQ)",
+  "stream": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-high.mp3",
+  "homepage": "https://esradio.libertaddigital.com/",
+  "favicon": "https://s.libertaddigital.com/2024/08/20/1200/627/esradio/esradio-redes.jpg",
+  "tags": [],
+  "votes": 948,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RadioBlues Flac",
+  "stream": "https://streams.radiomast.io/radioblues-flac",
+  "homepage": "https://bluesflac.com/",
+  "favicon": "https://bluesflac.com/wp-content/uploads/2019/11/cropped-skull-1-180x180.png",
+  "tags": [],
+  "votes": 947,
+  "codec": "OGG",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Inselradio Mallorca",
+  "stream": "http://addrad.io/445fxk9",
+  "homepage": "https://www.inselradio.com/",
+  "favicon": "",
+  "tags": [
+   "pop",
+   "rock"
+  ],
+  "votes": 897,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE Radio 3",
+  "stream": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8",
+  "homepage": "https://www.rtve.es/play/radio/radio-3/",
+  "favicon": "https://t3.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.rtve.es/play/radio/radio-3/&size=16",
+  "tags": [
+   "indie",
+   "indie pop",
+   "indie rock",
+   "jazz",
+   "pop",
+   "rock",
+   "various"
+  ],
+  "votes": 870,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Emision moviles",
+  "stream": "http://stream.produccionesdale.com:8899/moviles",
+  "homepage": "https://www.lafresca.fm/",
+  "favicon": "",
+  "tags": [
+   "chr"
+  ],
+  "votes": 866,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Euskadi irratia",
+  "stream": "http://mp3-eitb.stream.flumotion.com/eitb/euskadiirratia.mp3",
+  "homepage": "http://www.eitb.eus/eu/irratia/euskadi-irratia/",
+  "favicon": "",
+  "tags": [
+   "m3u8",
+   "pop"
+  ],
+  "votes": 849,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Qfm",
+  "stream": "http://51.255.235.165:5092/;",
+  "homepage": "http://www.qmusica.com/",
+  "favicon": "",
+  "tags": [
+   "blues",
+   "jazz",
+   "latin jazz",
+   "smooth jazz"
+  ],
+  "votes": 817,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Misterio FM",
+  "stream": "https://stream-38.zeno.fm/zr1ntv61fchvv?zs=B6YIARuRSaujjyuQoZxg0g",
+  "homepage": "http://misteriofm.com/",
+  "favicon": "",
+  "tags": [
+   "talk show"
+  ],
+  "votes": 806,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Radios Relax",
+  "stream": "http://54.38.43.201:8036/stream-128kmp3-IbizaRelax",
+  "homepage": "http://www.ibiza-radios.com/",
+  "favicon": "",
+  "tags": [
+   "relaxing"
+  ],
+  "votes": 797,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOCA FM",
+  "stream": "http://s3.we4stream.com:8045/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 790,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Vilasound Ibiza 92.7 FM",
+  "stream": "https://s9.citrus3.com:8174/stream",
+  "homepage": "https://www.facebook.com/radiovilasound/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "electronic dance music",
+   "house",
+   "techno"
+  ],
+  "votes": 788,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Kiss Music FM",
+  "stream": "https://stream.zeno.fm/aq899a53rs8uv",
+  "homepage": "",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/9/102759.v2.png",
+  "tags": [
+   "pop"
+  ],
+  "votes": 772,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mariskal Rock",
+  "stream": "https://media.profesionalhosting.com:8047/stream",
+  "homepage": "https://mariskalrock.com/",
+  "favicon": "",
+  "tags": [
+   "alternative rock",
+   "blues rock",
+   "classic rock",
+   "hard rock",
+   "indie rock",
+   "pop rock",
+   "progressive rock",
+   "punk rock",
+   "rock",
+   "soft rock"
+  ],
+  "votes": 758,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Humor FM",
+  "stream": "https://stream.radiohumorfm.com/stream",
+  "homepage": "https://radiohumorfm.com/",
+  "favicon": "https://radiohumorfm.com/wp-content/uploads/fbrfg/favicon-96x96.png",
+  "tags": [],
+  "votes": 741,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser Radio Galicia",
+  "stream": "http://23553.live.streamtheworld.com:3690/SER_GALICIA_SC",
+  "homepage": "http://cadenaser.com/emisora/radio_galicia",
+  "favicon": "",
+  "tags": [],
+  "votes": 732,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Stardust Radio",
+  "stream": "https://www.radioking.com/play/ibiza-stardust-radio-1",
+  "homepage": "https://www.ibizastardustradio.com/",
+  "favicon": "",
+  "tags": [
+   "deep house",
+   "house",
+   "ibiza"
+  ],
+  "votes": 728,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Euskadi",
+  "stream": "http://mp3-eitb.stream.flumotion.com/eitb/radioeuskadi.mp3",
+  "homepage": "https://www.eitb.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 727,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FlaixBAC",
+  "stream": "https://stream.flaixbac.cat/icecast",
+  "homepage": "https://www.flaixbac.cat/",
+  "favicon": "https://flaixbac.cat/favicon_bac_32x32.png",
+  "tags": [
+   "pop"
+  ],
+  "votes": 726,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LocaFM Melodic Deep",
+  "stream": "http://s02.fjperezdj.com:8056/live",
+  "homepage": "https://www.locafm.com/melodic-deep/player.html",
+  "favicon": "https://www.locafm.com/assets/img/favicon/apple-icon-120x120.png",
+  "tags": [],
+  "votes": 716,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Canarias Radio",
+  "stream": "https://rtvc-radio.flumotion.com/rtvc-radio/radio1-high.mp3",
+  "homepage": "http://www.rtvc.es/inicio/home.aspx?ref=tm",
+  "favicon": "https://rtvc.es/archivos/2021/03/c144.png",
+  "tags": [],
+  "votes": 708,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM Industrial",
+  "stream": "http://s02.fjperezdj.com:8076/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 671,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Los 40 Catalunya",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CAT_SC",
+  "homepage": "https://los40.com/",
+  "favicon": "https://los40es00.epimg.net/iconos/v1.x/v1.0/touch-apple.png",
+  "tags": [
+   "adult contemporary",
+   "adult hits",
+   "electro",
+   "electronic",
+   "hits",
+   "pop",
+   "pop music",
+   "top 40"
+  ],
+  "votes": 669,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "COPE Santander",
+  "stream": "http://wecast05-h-cloud.flumotion.com/copesedes/santander.mp3",
+  "homepage": "https://www.cope.es/directos/santander",
+  "favicon": "",
+  "tags": [
+   "entertainment",
+   "news"
+  ],
+  "votes": 668,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE - R5 --> Madrid",
+  "stream": "https://d121.rndfnk.com/star/crtve/rne5/mad/mp3/128/stream.mp3?cid=01GEP4QN2TSXQQDS2JQA783NYX&sid=2HgHkKUje0YQl468xMDmJHKhDmz&token=bRjUW1ZmpjTaF8EgRmo3u6OCUep9WTHKjib0rpzUUzw&tvf=FG8P7Wd9KBdkMTIxLnJuZGZuay5jb20",
+  "homepage": "https://www.rtve.es/play/audios/programa/rne5_mad-live/3894730/",
+  "favicon": "",
+  "tags": [],
+  "votes": 668,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Valencia",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/valencia/master.m3u8",
+  "homepage": "https://www.ondacero.es/emisoras/comunidad-valenciana/valencia/",
+  "favicon": "https://statics.atresmedia.com/ondacero/webapp/static/logotipo.svg",
+  "tags": [
+   "general",
+   "talk"
+  ],
+  "votes": 668,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "MDT Radio",
+  "stream": "http://streams1.mdtradio.com:8020/mdtweb",
+  "homepage": "https://mdtradio.com/",
+  "favicon": "https://mdtradio.com/wp-content/uploads/2022/11/logowebok.png",
+  "tags": [],
+  "votes": 665,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Bilbao",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/bilbao/bitrate_1.m3u8",
+  "homepage": "https://www.ondacero.es/",
+  "favicon": "",
+  "tags": [
+   "spain news"
+  ],
+  "votes": 650,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "C. DIAL Latino",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIAL_02AAC_SC",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 644,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hitz 90s FM",
+  "stream": "https://stream.zeno.fm/1q3dwmd6yf8uv",
+  "homepage": "https://cdn.onlineradiobox.com/img/l/6/98116.v2.png",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "votes": 603,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "_Funky Corner Radio (Spain)",
+  "stream": "https://ais-sa2.cdnstream1.com/2447_96.aac",
+  "homepage": "https://www.funkycorner.it/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "70s disco",
+   "80s",
+   "black",
+   "black music",
+   "disco",
+   "funk",
+   "funky",
+   "motown",
+   "music",
+   "musica",
+   "oldies",
+   "p-funk",
+   "philadelphia",
+   "r&b",
+   "r'n'b",
+   "rare groove",
+   "rnb",
+   "soul",
+   "the sound of philadelphia"
+  ],
+  "votes": 592,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Marca Málaga",
+  "stream": "http://malagafm.streaming-pro.com:8130/malagafmmobile",
+  "homepage": "http://radiomarcamalaga.com/",
+  "favicon": "",
+  "tags": [
+   "live sports",
+   "sport",
+   "sport new"
+  ],
+  "votes": 589,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "iCat FM",
+  "stream": "https://shoutcast.ccma.cat/ccma/icatHD.mp3",
+  "homepage": "https://www.ccma.cat/catradio/directe/icat/",
+  "favicon": "https://statics.ccma.cat/img/favicons/icat-favicon-96x96.png",
+  "tags": [],
+  "votes": 575,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Popular Herri Irratia - Bilbao",
+  "stream": "http://79.137.33.224/radiopopular2",
+  "homepage": "https://radiopopular.com/",
+  "favicon": "https://www.facebook.com/188963650252/photos/10163088074660253/",
+  "tags": [
+   "local news"
+  ],
+  "votes": 567,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Spektra FM Valencia",
+  "stream": "http://stm1.emiteonline.com:8008/spektrafm",
+  "homepage": "https://www.spektrafm.es/",
+  "favicon": "https://s3.amazonaws.com/cdn.emisoras.com/upload/radio_logo/20/3_1342035043_SPEKTRA-LOGO.jpg",
+  "tags": [],
+  "votes": 562,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Esport Valencia",
+  "stream": "https://streaming.radioesport914.com:58000/stream",
+  "homepage": "https://radioesport914.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 561,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER - Radio Vigo",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_VIGO.mp3",
+  "homepage": "https://cadenaser.com/emisora/radio_vigo/",
+  "favicon": "https://cadenaser.com/pf/resources/img/favicon.png?d=944",
+  "tags": [
+   "local talk",
+   "news talk"
+  ],
+  "votes": 552,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER Radio Murcia",
+  "stream": "http://23603.live.streamtheworld.com:3690/SER_MURCIA_SC",
+  "homepage": "http://cadenaser.com/emisora/radio_murcia/",
+  "favicon": "",
+  "tags": [],
+  "votes": 547,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Jazz Radio Spain",
+  "stream": "https://stream.tunerplay.com/radio/8020/jazzradiospain.mp3",
+  "homepage": "http://www.jazzradiospain.com/",
+  "favicon": "https://tunerplay.com/wp-content/themes/tunerplay/img/favicon/apple-touch-icon.png",
+  "tags": [],
+  "votes": 538,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Loca FM Ambient",
+  "stream": "http://s02.fjperezdj.com:8036/live",
+  "homepage": "https://www.locafm.com/ambient/player.html",
+  "favicon": "",
+  "tags": [],
+  "votes": 533,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cafe del Mar Channel 2",
+  "stream": "https://s4.radio.co/seeae9c220/listen",
+  "homepage": "https://cafedelmar.com/",
+  "favicon": "https://images.radio.co/station_logos/se1a320b47.20210412021711.png",
+  "tags": [],
+  "votes": 522,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Malaga",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/malaga/master.m3u8",
+  "homepage": "https://www.ondacero.es/emisoras/andalucia/malaga/directo/",
+  "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+  "tags": [
+   "local news",
+   "news",
+   "news talk",
+   "talk"
+  ],
+  "votes": 503,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "LOCA FM Trance",
+  "stream": "http://s02.fjperezdj.com:8055/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 486,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio España - Directo",
+  "stream": "http://stream-281.surfernetwork.com/ocinyyji4rntv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvY2lueXlqaTRybnR2IiwiaG9zdCI6InN0cmVhbS0yODEuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjZ6aXZIVXpkUzU2b1NZSWl0TkotaFEiLCJpYXQiOjE3OTE3OTUzMTEsImV4cCI6MTc5MTc5NTM3MX0.VhN3WtC98J2RlYDCnCjlb4jM584BpDDK_ekfOJiaMR4",
+  "homepage": "https://www.xn--radioespaa-19a.es/",
+  "favicon": "https://myradioonline.es/public/uploads/radio_img/radio-espana/fb_cover.jpg",
+  "tags": [
+   "entretenimiento",
+   "variedades",
+   "varios"
+  ],
+  "votes": 473,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Catalunya Música (CatMúsica)",
+  "stream": "https://shoutcast.ccma.cat/ccma/catalunyamusicaHD.mp3",
+  "homepage": "https://www.ccma.cat/catradio/catalunya-musica/",
+  "favicon": "https://statics.ccma.cat/img/favicons/catmusica-favicon-96x96.png",
+  "tags": [
+   "classical",
+   "classical music"
+  ],
+  "votes": 471,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "IB3 Ràdio Menorca",
+  "stream": "http://streaming01.ib3radio.com:8000/ib3radio_menorca",
+  "homepage": "http://ib3tv.com/radio",
+  "favicon": "",
+  "tags": [
+   "news",
+   "talk"
+  ],
+  "votes": 465,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ona Mediterrània",
+  "stream": "https://streaming.enacast.com/onamediterrania128.mp3",
+  "homepage": "http://www.onamediterrania.cat/",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Logo_ona_mediterr%C3%A0nia.jpg",
+  "tags": [
+   "palma"
+  ],
+  "votes": 463,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Vasca",
+  "stream": "http://www.ondavasca.com:8000/bizkaia",
+  "homepage": "http://www.ondavasca.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 462,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "MortalFM",
+  "stream": "http://server6.20comunicacion.com:8044/;",
+  "homepage": "http://www.mortalfm.es/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "fm",
+   "mortal"
+  ],
+  "votes": 462,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena 100 Barcelona",
+  "stream": "https://cadena100bcn-cope.flumotion.com/playlist.m3u8",
+  "homepage": "https://www.cadena100.es/emisoras/barcelona",
+  "favicon": "https://graph.facebook.com/CADENA100/picture?width=200&height=200",
+  "tags": [
+   "news"
+  ],
+  "votes": 457,
+  "codec": "MP3",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Digital Hits FM",
+  "stream": "https://dhits.frilab.com:8443/dhits",
+  "homepage": "http://www.digitalhits.cat/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "remember"
+  ],
+  "votes": 455,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cadena Stereo España",
+  "stream": "http://stream-179.surfernetwork.com/kpe30u471mruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJrcGUzMHU0NzFtcnV2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InNmeHFRTlBiU21lZUVWc0VyMlFrcGciLCJpYXQiOjE3OTE4MzMzNjQsImV4cCI6MTc5MTgzMzQyNH0.87ypXqIwOh8J6marTvjfHKgUE7zK-HR3ODlbvJd3rbQ",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "decades"
+  ],
+  "votes": 451,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Almaina",
+  "stream": "http://s.streampunk.cc/almaina.ogg",
+  "homepage": "https://radioalmaina.org/",
+  "favicon": "https://radioalmaina.org/wp-content/uploads/2023/10/cropped-logo_radio_almaina-1-180x180.png",
+  "tags": [
+   "community radio",
+   "free radio"
+  ],
+  "votes": 449,
+  "codec": "OGG",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Free FM Top 100",
+  "stream": "http://stream.zeno.fm/a5h7vfret68uv",
+  "homepage": "http://freefmradio.net/",
+  "favicon": "",
+  "tags": [
+   "top 100",
+   "top40"
+  ],
+  "votes": 448,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nervión",
+  "stream": "https://gruponervion.streaming-pro.com:6131/",
+  "homepage": "https://www.radionervion.com/",
+  "favicon": "",
+  "tags": [
+   "bilbao",
+   "música y noticias",
+   "noticias",
+   "noticias locales"
+  ],
+  "votes": 443,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Graba Radio Ibiza",
+  "stream": "https://radio.grabamusic.com/gmr-hd",
+  "homepage": "https://www.grabaradioibiza.com/",
+  "favicon": "https://cdn-profiles.tunein.com/s269847/images/logod.jpg",
+  "tags": [
+   "dance",
+   "electronic"
+  ],
+  "votes": 442,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Remember Radio",
+  "stream": "https://sm1.streamingmovil.com:2199/proxy/webrr?mp=/WEB",
+  "homepage": "https://radioremember.es/",
+  "favicon": "https://cdn-profiles.tunein.com/s219117/images/logod.jpg",
+  "tags": [
+   "dance music",
+   "remember"
+  ],
+  "votes": 440,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cristianos - Christen auf Spanisch",
+  "stream": "http://cristianos.stream.laut.fm/cristianos",
+  "homepage": "https://laut.fm/cristianos",
+  "favicon": "",
+  "tags": [
+   "christian",
+   "gospel"
+  ],
+  "votes": 421,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "PlayTrance Radio - Main Channel",
+  "stream": "https://live-ff.playtrance.com/playtrance-main.mp3",
+  "homepage": "https://www.playtrance.com/",
+  "favicon": "",
+  "tags": [
+   "trance"
+  ],
+  "votes": 418,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Radios Deep House",
+  "stream": "http://radio2.vip-radios.fm:8027/stream-64kmp3-IbizaDeep_autodj",
+  "homepage": "http://radio2.vip-radios.fm:8027/stream-64kmp3-IbizaDeep_autodj",
+  "favicon": "",
+  "tags": [
+   "deep house"
+  ],
+  "votes": 412,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rock FM Espana Hi-Res",
+  "stream": "https://rockfm-cope.flumotion.com/chunks.m3u8",
+  "homepage": "https://www.rockfm.fm/",
+  "favicon": "",
+  "tags": [
+   "rock"
+  ],
+  "votes": 411,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Gaztea Irratia",
+  "stream": "http://mp3-eitb.stream.flumotion.com/eitb/gaztea.mp3",
+  "homepage": "http://www.eitb.eus/eu/gaztea/",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gaztea_Spain.svg",
+  "tags": [
+   "music"
+  ],
+  "votes": 409,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOCA FM House",
+  "stream": "http://s02.fjperezdj.com:8026/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 403,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Adagio Radio HD",
+  "stream": "https://stream.tunerplay.com/radio/8010/adagioradioHD.mp3",
+  "homepage": "http://www.adagioradio.es/",
+  "favicon": "https://static.wixstatic.com/media/d466c9_91c8e281e4a24260996aaa6009cabd5c~mv2.png/v1/fill/w_320,h_314,al_c,q_85,usm_4.00_1.00_0.00/adagio3.webp",
+  "tags": [
+   "classical"
+  ],
+  "votes": 402,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Swing latinos FM",
+  "stream": "https://eu1.lhdserver.es:9033/stream",
+  "homepage": "https://www.swinglatinosfm.com/",
+  "favicon": "https://www.swinglatinosfm.com/images/favicon.ico",
+  "tags": [],
+  "votes": 400,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Europa FM Guipuzcoa",
+  "stream": "https://stream.zeno.fm/se76qau1hc9uv",
+  "homepage": "https://stream.zeno.fm/se76qau1hc9uv",
+  "favicon": "",
+  "tags": [],
+  "votes": 396,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Moscatel 107.1 FM Axarquía - España",
+  "stream": "https://axarquia.emisiononline.es/radio/8040/radio.mp3",
+  "homepage": "https://www.radiomoscatel.com/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "80s",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 391,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "esRadio Galicia",
+  "stream": "https://libertaddigital-radio-live2.flumotion.com/libertaddigital/ld-live2-low.mp3",
+  "homepage": "https://esradio.libertaddigital.com/galicia/",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 389,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Pontevedra",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/pontevedra/master.m3u8",
+  "homepage": "https://www.ondacero.es/emisoras/galicia/pontevedra/directo/",
+  "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+  "tags": [],
+  "votes": 388,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "1000 HITS Classical",
+  "stream": "https://ais-sa2.cdnstream1.com/2208_128.mp3",
+  "homepage": "https://www.splashradio.eu/",
+  "favicon": "",
+  "tags": [
+   "classical",
+   "classical baroque",
+   "classical guitar",
+   "classical music",
+   "classical piano",
+   "contemporary classical"
+  ],
+  "votes": 384,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Radio Network",
+  "stream": "http://radioradio.es:8000/stream",
+  "homepage": "https://www.radioradio.es/",
+  "favicon": "",
+  "tags": [
+   "bossa",
+   "chillout",
+   "jazz",
+   "pop",
+   "smooth jazz"
+  ],
+  "votes": 380,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Café del Mar CALM",
+  "stream": "https://streamer.radio.co/sb748f24ad/listen",
+  "homepage": "https://cafedelmar.com/radio",
+  "favicon": "https://cafedelmar.com/apple-touch-icon.png",
+  "tags": [
+   "ambient",
+   "chillout",
+   "electronic",
+   "ibiza"
+  ],
+  "votes": 378,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Kiss-FM Madrid",
+  "stream": "https://kissfm.kissfmradio.cires21.com/kissfm.mp3",
+  "homepage": "http://www.kissfm.es/",
+  "favicon": "https://www.kissfm.es/wp-content/uploads/2022/03/cropped-LOGOS_KISSFM20_CC_CMYK_Logo-KISS-FM-20-Negativo-Color-1.png",
+  "tags": [],
+  "votes": 372,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "华夏之声China FM·西班牙马德里FM92.9",
+  "stream": "https://radioserver12.profesionalhosting.com/proxy/pkg152387/stream",
+  "homepage": "https://chinafm.es/",
+  "favicon": "",
+  "tags": [
+   "information",
+   "music",
+   "oldies"
+  ],
+  "votes": 370,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RAC105",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105.mp3",
+  "homepage": "https://www.rac105.cat/",
+  "favicon": "https://www.rac105.cat/favicon.ico",
+  "tags": [
+   "pop music"
+  ],
+  "votes": 358,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Exito Radio",
+  "stream": "http://5.135.183.124:9252/stream",
+  "homepage": "http://www.exitoradio.es/",
+  "favicon": "",
+  "tags": [
+   "tarot"
+  ],
+  "votes": 358,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "1000 80s Hits",
+  "stream": "https://ais-sa9.cdnstream1.com/1898_128",
+  "homepage": "https://www.1000hits80s.eu/",
+  "favicon": "",
+  "tags": [
+   "80",
+   "80's",
+   "80er",
+   "80s",
+   "80s radio",
+   "all 80s",
+   "hits 80s",
+   "the best of 80's"
+  ],
+  "votes": 356,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Canal Sur Radio Andalucía",
+  "stream": "https://rtva-live-radio.flumotion.com/rtva/csr.mp3",
+  "homepage": "https://www.canalsur.es/radio_directo-2014.html?directo=player_csr",
+  "favicon": "https://www.canalsur.es/css/cssimg/favicon.ico",
+  "tags": [
+   "local news",
+   "talk"
+  ],
+  "votes": 356,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser Mallorca",
+  "stream": "http://25443.live.streamtheworld.com/SER_MALLORCA_SC",
+  "homepage": "http://cadenaser.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 354,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Urban Revolution",
+  "stream": "https://st1.urbanrevolution.es:8443/zonaelectronica",
+  "homepage": "https://www.urbanrevolution.es/",
+  "favicon": "https://www.urbanrevolution.es/wp-content/uploads/2022/10/urban-positivo-cuadrado-512x512-1.png",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 348,
+  "codec": "OGG",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mega St☆r Spain",
+  "stream": "http://stream-280.surfernetwork.com/04uk5f3aqs8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIwNHVrNWYzYXFzOHV2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlNPdlJmQVlkVE5lcGhPSXJfUkZGbkEiLCJpYXQiOjE3OTE4MjY2NDAsImV4cCI6MTc5MTgyNjcwMH0.dujECllFxUPXo6L_eAivJQkYhD-gtVatPi506tS0RM4",
+  "homepage": "https://wwwradiocadenastereo.blogspot.com/",
+  "favicon": "https://i.ytimg.com/vi/s4rgiw1yd84/hqdefault.jpg",
+  "tags": [
+   "baladas tecno 70 80 varios"
+  ],
+  "votes": 346,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "DMT-FM - EU Server 320k",
+  "stream": "https://dc1.serverse.com/proxy/ywycfrxn/live",
+  "homepage": "https://dmt-fm.com/",
+  "favicon": "https://dmt-fm.com/wp-content/uploads/2022/02/cropped-radio-icon-32x32.png",
+  "tags": [
+   "psytrance"
+  ],
+  "votes": 343,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Muy buena",
+  "stream": "https://stream.emisorasmusicales.net/listen/muybuena/muybuena.mp3",
+  "homepage": "https://www.emisorasmusicales.net/",
+  "favicon": "https://media.emisorasmusicales.net/wp-content/uploads/2020/03/04135742/MuyBuena-1-1.svg",
+  "tags": [],
+  "votes": 342,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser + Madrid",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MAS_MADRID.mp3",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_210054883.jpg?alt=media&token=175e5ab8-cd0d-47e3-a6cb-6bf5bf6edec2",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 342,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Canal Fiesta Radio",
+  "stream": "https://rtva-live-radio.flumotion.com/rtva/cfr.mp3",
+  "homepage": "https://www.canalsur.es/radio_directo-2014.html?directo=player_fiesta",
+  "favicon": "https://www.canalsur.es/css/cssimg/favicon.ico",
+  "tags": [
+   "music",
+   "musica",
+   "regional radio"
+  ],
+  "votes": 338,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser + Granada",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_MAS_GRANADA.mp3",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_210054883.jpg?alt=media&token=175e5ab8-cd0d-47e3-a6cb-6bf5bf6edec2",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 330,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Blue Marlin Ibiza",
+  "stream": "https://ibizasonica.streaming-pro.com:8001/bluemarlin",
+  "homepage": "https://www.bluemarlinibiza.com/radio/",
+  "favicon": "https://www.bluemarlinibiza.com/wp-content/themes/bluemarlinibiza/favicon64.png",
+  "tags": [
+   "electronic dance music"
+  ],
+  "votes": 324,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE Radio Nacional Almería",
+  "stream": "https://dispatcher.rndfnk.com/crtve/rne1/alm/mp3/high",
+  "homepage": "https://www.rtve.es/radio/emisiones-territoriales/",
+  "favicon": "",
+  "tags": [
+   "almería",
+   "juanjitos",
+   "news",
+   "noticias",
+   "rne"
+  ],
+  "votes": 323,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Oro",
+  "stream": "http://185.23.192.118:8002/;",
+  "homepage": "http://radiooromalaga.radio.es/",
+  "favicon": "",
+  "tags": [],
+  "votes": 323,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOCA FM DANCE",
+  "stream": "http://s02.fjperezdj.com:8025/live",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 321,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EITB Irratia",
+  "stream": "http://mp3-eitb.stream.flumotion.com/eitb/eitbmusika.mp3",
+  "homepage": "https://www.eitb.eus/",
+  "favicon": "https://images14.eitb.eus/multimedia/recursos/generales/img_facebook_eitbcom.jpg",
+  "tags": [],
+  "votes": 319,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ràdio Olot",
+  "stream": "http://chrome.frilab.com:8000/radiolot",
+  "homepage": "http://www.radiolot.cat/",
+  "favicon": "",
+  "tags": [
+   "olot"
+  ],
+  "votes": 317,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Remember Last",
+  "stream": "https://node-25.zeno.fm/5nvz43btqg8uv?rj-ttl=5&rj-tok=AAABd24dwXQAYQSRcz9whBAeXA",
+  "homepage": "https://rememberlastradio.wixsite.com/radio",
+  "favicon": "https://static.mytuner.mobi/media/tvos_radios/ru5ejprwrdd5.png",
+  "tags": [],
+  "votes": 316,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "HITZ 91.0",
+  "stream": "https://stream.zeno.fm/f2qmny74gd0uv",
+  "homepage": "https://cdn.onlineradiobox.com/img/l/0/93310.v12.png",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/0/93310.v12.png",
+  "tags": [
+   "r&b/urban"
+  ],
+  "votes": 316,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hola 95.7 FM 1 Costa Calma",
+  "stream": "http://5.135.183.124:8207/stream",
+  "homepage": "http://www.holafm.com/",
+  "favicon": "",
+  "tags": [
+   "pop",
+   "soft rock"
+  ],
+  "votes": 315,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Sevilla",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/sevilla/master.m3u8",
+  "homepage": "https://www.ondacero.es/",
+  "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+  "tags": [
+   "noticias"
+  ],
+  "votes": 314,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Radio Oro",
+  "stream": "http://185.23.192.118:8002/;stream.mp3",
+  "homepage": "http://www.radiooro.es/",
+  "favicon": "",
+  "tags": [
+   "oldies"
+  ],
+  "votes": 307,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Kiss FM España",
+  "stream": "https://live.kissfm.ro/kissfm.aacp",
+  "homepage": "https://www.kissfm.es/",
+  "favicon": "",
+  "tags": [
+   "decades"
+  ],
+  "votes": 303,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Free FM Classics",
+  "stream": "https://xxdelgado.radioca.st/",
+  "homepage": "http://freefmradio.net/",
+  "favicon": "",
+  "tags": [
+   "clasicos",
+   "clasicos en ingles",
+   "classic hits",
+   "goldies",
+   "italian oldies",
+   "música pop",
+   "oldies",
+   "oldies 50's/60's",
+   "spanish"
+  ],
+  "votes": 302,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Mega Radio",
+  "stream": "http://streaming2.elitecomunicacion.es:8220//stream?type=.mp3",
+  "homepage": "https://www.lamegamalaga.es/",
+  "favicon": "https://www.lamegamalaga.es/favicon.ico",
+  "tags": [
+   "90s",
+   "electronic",
+   "house",
+   "pop",
+   "rock"
+  ],
+  "votes": 301,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser + Valladolid",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MAS_VALLADOLID.mp3",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_211937553.jpg?alt=media&token=a9626ab2-247a-4891-ad7e-788edd841a05",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 299,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER Málaga",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/SER_MALAGA.mp3",
+  "homepage": "https://cadenaser.com/ser-malaga/",
+  "favicon": "https://cadenaser.com/pf/resources/img/favicon.png?d=86",
+  "tags": [
+   "cultural news",
+   "live",
+   "news"
+  ],
+  "votes": 298,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "HKM Radio",
+  "stream": "https://stream.zenolive.com/rhf9cqkz3yzuv.aac",
+  "homepage": "http://www.hkmradio.com/",
+  "favicon": "https://hkmradio.com/wp/wp-content/uploads/2022/05/cropped-icohkm-192x192.png",
+  "tags": [],
+  "votes": 297,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mix Radio Gran Canaria",
+  "stream": "https://mixfm.radionetz.de/mixfm.mp3",
+  "homepage": "https://mixradio.eu/",
+  "favicon": "",
+  "tags": [],
+  "votes": 290,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hitz Funky Radio",
+  "stream": "https://stream.zeno.fm/azgx0ktf4p8uv",
+  "homepage": "",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/4/101444.v5.png",
+  "tags": [
+   "folk"
+  ],
+  "votes": 287,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Carrizal",
+  "stream": "http://streaming.enantena.com:8000/radiocarrizal128.mp3",
+  "homepage": "http://carrizal.radio.es/#",
+  "favicon": "",
+  "tags": [
+   "canarias",
+   "español"
+  ],
+  "votes": 284,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Multicanal Radio",
+  "stream": "https://a2.asurahosting.com:8800/radio.mp3",
+  "homepage": "https://multicanalradio.com/",
+  "favicon": "https://multicanalradio.com/wp-content/uploads/2023/10/logo_and.png",
+  "tags": [],
+  "votes": 280,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser Guadix",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_GUADIXAAC_SC",
+  "homepage": "https://cadenaser.com/emisora/radio_guadix/",
+  "favicon": "https://cadenaser.com/pf/resources/img/favicon.png?d=765",
+  "tags": [
+   "deporte",
+   "deportes",
+   "news",
+   "noticias"
+  ],
+  "votes": 279,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Free FM",
+  "stream": "https://rocafmadrid.radioca.st/",
+  "homepage": "http://freefmradio.net/",
+  "favicon": "https://3.bp.blogspot.com/-BTWauI1ML7o/XZOklz5WuRI/AAAAAAAAAeA/R8qBxhme8UEELRogqYOhtWG4p0BVhiwVgCK4BGAYYCw/s752/free%2Bancho.jpg",
+  "tags": [
+   "80's",
+   "90's",
+   "classic rock",
+   "free",
+   "free fm",
+   "free radio",
+   "oldies",
+   "pop music",
+   "rock"
+  ],
+  "votes": 276,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FORMULA 10 MUSICA",
+  "stream": "https://formula10musica.stream.laut.fm/formula10musica",
+  "homepage": "https://formula10musica.es.tl/",
+  "favicon": "",
+  "tags": [
+   "80s",
+   "90s",
+   "hits",
+   "pop"
+  ],
+  "votes": 276,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Flamenco Radio",
+  "stream": "https://rtva-live-radio.flumotion.com/rtva/flamenco.mp3",
+  "homepage": "https://www.canalsur.es/radio/flamencoradio-1313.html",
+  "favicon": "",
+  "tags": [],
+  "votes": 270,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pepe Radio",
+  "stream": "http://server10.emitironline.com:8032/",
+  "homepage": "https://peperadio.es/",
+  "favicon": "",
+  "tags": [
+   "pop",
+   "rock"
+  ],
+  "votes": 268,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Sky.Net -Radiosky Manele",
+  "stream": "https://stream.gestiondeservidor.com/8100/stream",
+  "homepage": "https://radiosky.net/",
+  "favicon": "https://scontent.fotp3-1.fna.fbcdn.net/v/t39.30808-1/304850519_511196874341266_8639102092142321753_n.png?stp=dst-png_s200x200&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=alR7cMkEX3IQ7kNvwGFRtHN&_nc_oc=AdnNe_Ap2Ydrg09_eorVPm1pRZn1HwaVQkTsFdeBh9mfzRL_u9WvnuURzoxRXetWeEljXRggZcMoILBoSsoymG9z&_nc_zt=24&_nc_ht=scontent.fotp3-1.fna&_nc_gid=ehGOlhTuRZZ_gr6SkttLVw&oh=00_AfumEJABfgpiYBuNsC2oM0N3tiYBZoM81R0TPHRV32GYPg&oe=69A2FD24",
+  "tags": [
+   "manele"
+  ],
+  "votes": 265,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Sonica Club",
+  "stream": "https://ibizasonica.streaming-pro.com:8011/sonicaclub",
+  "homepage": "https://ibizasonica.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 262,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "#1 Splash 90s",
+  "stream": "https://c4.auracast.net/radio/8050/radio.mp3",
+  "homepage": "https://www.splashradio.eu/",
+  "favicon": "",
+  "tags": [
+   "1990s",
+   "90's",
+   "90er",
+   "90s",
+   "90s y más",
+   "classic 90s",
+   "splash"
+  ],
+  "votes": 262,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Galega",
+  "stream": "https://crtvg-radiogalega-hls.flumotion.cloud/playlist.m3u8",
+  "homepage": "https://www.agalegaaudio.gal/videos/category/12478-directos",
+  "favicon": "https://d1oldvcs710rcb.cloudfront.net/fly/65d34d426dcc48cd806b5d7cbf038e3b.png",
+  "tags": [
+   "galicia",
+   "regional"
+  ],
+  "votes": 260,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "COPE Cartagena",
+  "stream": "http://wecast07-o-cloud.flumotion.com/copesedes/cartagena.mp3",
+  "homepage": "https://www.cope.es/emisoras/region-de-murcia/murcia-provincia/cartagena",
+  "favicon": "https://www.cope.es/favicon.ico",
+  "tags": [
+   "culture",
+   "news",
+   "religion"
+  ],
+  "votes": 260,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Sierra Norte COPE",
+  "stream": "https://sonic.mediatelekom.net/8096/stream",
+  "homepage": "https://radiosierranorte.es/radio-sierra-norte-en-directo/",
+  "favicon": "https://radiosierranorte.es/wp-content/uploads/2016/11/logotipo.png",
+  "tags": [],
+  "votes": 259,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Gozadera Fm",
+  "stream": "https://streaming.shoutcast.com/gozadera",
+  "homepage": "https://gozadera.es/",
+  "favicon": "https://gozadera.es/favicon.ico",
+  "tags": [],
+  "votes": 254,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Carrusel FM",
+  "stream": "http://server6.20comunicacion.com:8921/;",
+  "homepage": "http://www.carruselfm.com/",
+  "favicon": "",
+  "tags": [
+   "just great songs",
+   "music"
+  ],
+  "votes": 254,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Canal Sur Radio Sevilla",
+  "stream": "https://rtva-live-radio.flumotion.com/rtva/csrsev.mp3",
+  "homepage": "https://www.canalsur.es/radio_directo-2014.html?directo=player_csr_sevilla",
+  "favicon": "https://www.canalsur.es/css/cssimg/favicon.ico",
+  "tags": [],
+  "votes": 248,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Mix FM",
+  "stream": "https://ns6.emisionlocal.com/proxy/radiomix?mp=/stream",
+  "homepage": "http://www.cadenamix.es/",
+  "favicon": "https://static.wixstatic.com/media/4d3432_785e144b998948fd96f2abd8b63a2894~mv2.png/v1/fill/w_180,h_104,al_c,q_85,usm_0.66_1.00_0.01/LogoMIX_sin%20fondo.webp",
+  "tags": [
+   "talk & speech"
+  ],
+  "votes": 246,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Chanquete FM 99.5",
+  "stream": "http://185.23.192.118:8008/;",
+  "homepage": "http://www.chanquetefm.com/",
+  "favicon": "",
+  "tags": [
+   "entretenimiento",
+   "hits",
+   "musica",
+   "pop en español",
+   "top 40",
+   "variety"
+  ],
+  "votes": 246,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ONDA WANTUKI",
+  "stream": "https://stream.zeno.fm/5dfkzqm70s8uv",
+  "homepage": "https://onda-wantuki-wc.webnode.es/",
+  "favicon": "https://d1di2lzuh97fh2.cloudfront.net/files/1j/1j3/1j3767.ico?ph=a8c8871dd5",
+  "tags": [],
+  "votes": 245,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "80s Super Dancefloor",
+  "stream": "https://s41.myradiostream.com:33604/;",
+  "homepage": "https://sdf80s.es/",
+  "favicon": "",
+  "tags": [
+   "80s",
+   "classic hits",
+   "oldies"
+  ],
+  "votes": 245,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Inolvidable FM",
+  "stream": "https://uk1.streamingpulse.com/ssl/inolvidablefm",
+  "homepage": "https://www.inolvidablefm.es/",
+  "favicon": "",
+  "tags": [
+   "oldies",
+   "pop",
+   "rock"
+  ],
+  "votes": 244,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Los Megaexitos",
+  "stream": "https://losmegaexitos.radioca.st/lms",
+  "homepage": "https://losmegaexitos.es/",
+  "favicon": "https://losmegaexitos.es/apple-icon-120x120.png",
+  "tags": [
+   "music"
+  ],
+  "votes": 244,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Vasca Gipuzkoa",
+  "stream": "http://www.ondavasca.com:8000/gipuzkoa",
+  "homepage": "http://www.ondavasca.com/",
+  "favicon": "",
+  "tags": [
+   "local news"
+  ],
+  "votes": 243,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser + Valencia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MAS_VALENCIA.mp3",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_210054883.jpg?alt=media&token=175e5ab8-cd0d-47e3-a6cb-6bf5bf6edec2",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 241,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Intercontinental - Madrid",
+  "stream": "https://cast5.servcast.net/proxy/inter/stream",
+  "homepage": "https://www.radiointercontinental.net/",
+  "favicon": "https://www.radiointercontinental.net/favicon.ico",
+  "tags": [
+   "news",
+   "noticias",
+   "pop",
+   "talk",
+   "variety"
+  ],
+  "votes": 237,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Sonica",
+  "stream": "https://ibizasonica.streaming-pro.com:8000/ibizasonica",
+  "homepage": "https://ibizasonica.com/",
+  "favicon": "https://ibizasonica.com/favicon.ico",
+  "tags": [
+   "chill",
+   "electronic"
+  ],
+  "votes": 234,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "OpenLab Radio",
+  "stream": "https://ice04.fluidstream.net/openlab.mp3",
+  "homepage": "https://openlab.fm/",
+  "favicon": "https://openlab.fm/apple-touch-icon.png",
+  "tags": [
+   "beats",
+   "electronica",
+   "hip-hop",
+   "house",
+   "jazz",
+   "r&b",
+   "soul",
+   "techno"
+  ],
+  "votes": 230,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fresh Radio",
+  "stream": "http://stream.zeno.fm/gzaf75yevceuv",
+  "homepage": "http://www.freshradio.es/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "electro house",
+   "latin",
+   "latin music",
+   "latino",
+   "reggaeton",
+   "urban"
+  ],
+  "votes": 222,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Planeta",
+  "stream": "http://radioplaneta.emitironline.com/radio",
+  "homepage": "https://www.radioplaneta.com/",
+  "favicon": "",
+  "tags": [
+   "classic hits",
+   "hits",
+   "pop",
+   "top40"
+  ],
+  "votes": 213,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE - R5 --> Valencia",
+  "stream": "https://f131.rndfnk.com/star/crtve/rne5/vlc/mp3/128/stream.mp3?cid=01GEP70HQKHM3WJB5GHG662KX3&sid=2HgIGK1NtDDUVhSnKN9RWpCUKWE&token=r4st34giurxRWd0CMkMBmwayGa2nB6j_aUgMn_xD7vs&tvf=RH0CSKN9KBdmMTMxLnJuZGZuay5jb20",
+  "homepage": "https://www.rtve.es/play/audios/programa/rne5_val-live/3894731/",
+  "favicon": "https://img2.rtve.es/a/3894731/square/?h=320",
+  "tags": [],
+  "votes": 211,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cope Cieza",
+  "stream": "https://sonic.mediatelekom.net/8448/;?type=http&nocache=107036",
+  "homepage": "https://copecieza.es/",
+  "favicon": "https://copecieza.es/wp-content/uploads/2023/11/LOGO-COPE-CIEZA.jpg",
+  "tags": [],
+  "votes": 208,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "80s 90s Absolute Hits",
+  "stream": "https://live.streamthe.world/absolutehits",
+  "homepage": "https://mytuner-radio.com/es/emisora/absolute-hitz-398891/",
+  "favicon": "https://mytuner-radio.com/favicon.ico",
+  "tags": [
+   "80s",
+   "90s",
+   "old hits"
+  ],
+  "votes": 206,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "NEGOCIOS.COM",
+  "stream": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
+  "homepage": "https://www.negocios.com/",
+  "favicon": "https://www.negocios.com/wp-content/uploads/2022/08/ico-negocios.png",
+  "tags": [
+   "economia",
+   "economic",
+   "economic news",
+   "economics",
+   "economy",
+   "news",
+   "noticias",
+   "noticias en español",
+   "sociedad",
+   "society"
+  ],
+  "votes": 206,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "VENEZUELA STEREO",
+  "stream": "https://mediastreamm.com/8244/stream",
+  "homepage": "https://venezuelastereo.click/",
+  "favicon": "",
+  "tags": [],
+  "votes": 205,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FeLove Biblia en Español",
+  "stream": "http://radio.produccionescasaverde.com:8696/autodj",
+  "homepage": "https://radiofelove.com/",
+  "favicon": "",
+  "tags": [
+   "bible",
+   "biblia",
+   "christian"
+  ],
+  "votes": 201,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Makina Fm",
+  "stream": "https://stream-157.zeno.fm/roqewn7dp4gtv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJyb3Fld243ZHA0Z3R2IiwiaG9zdCI6InN0cmVhbS0xNTcuemVuby5mbSIsImp0aSI6IkI0SXZuWFRBU21LVWRvWUZqSGstcUEiLCJpYXQiOjE3MTU0NzA1NzUsImV4cCI6MTcxNTQ3MDYzNX0.1HVDh84CZBnlRWWluiPLbGWAXEHbpedQw55Kv8AZZYg&zttl=5",
+  "homepage": "https://makinafm.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 201,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER Coruña",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ASO_CORUNA.mp3",
+  "homepage": "https://cadenaser.com/radio-coruna/",
+  "favicon": "https://cadenaser.com/pf/resources/img/favicon.png?d=946",
+  "tags": [
+   "entertainment",
+   "local news",
+   "news"
+  ],
+  "votes": 201,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vuelve el Remember",
+  "stream": "https://cast1.asurahosting.com/proxy/javier1/stream",
+  "homepage": "https://vuelveelremember.es/",
+  "favicon": "https://images.radiovolna.net/_files/images/stations/425740/69b141b69904df121b64c02f16655639.png",
+  "tags": [
+   "dance",
+   "electronic"
+  ],
+  "votes": 200,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "100 % SALSA",
+  "stream": "https://stm01.streammaximum.com:8194/;",
+  "homepage": "https://www.100porcientosalsa.com/",
+  "favicon": "https://www.100porcientosalsa.com/wp-content/uploads/2024/08/LOGOBALANCE.png",
+  "tags": [
+   "latino",
+   "music",
+   "salsa"
+  ],
+  "votes": 199,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "PlayFM",
+  "stream": "http://radioplaneta.emitironline.com:8000/",
+  "homepage": "https://www.playfm.es/",
+  "favicon": "",
+  "tags": [
+   "dance"
+  ],
+  "votes": 197,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER Sevilla",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SEVILLA.mp3",
+  "homepage": "https://cadenaser.com/radio-sevilla/",
+  "favicon": "",
+  "tags": [
+   "local news",
+   "news",
+   "news talk",
+   "news talk music"
+  ],
+  "votes": 197,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Voz (A Coruña)",
+  "stream": "https://live.radiovoz.es/mp3/stream_coruna.mp3",
+  "homepage": "http://www.radiovoz.com/",
+  "favicon": "",
+  "tags": [
+   "galicia",
+   "galiza",
+   "la voz de galicia",
+   "spain"
+  ],
+  "votes": 196,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOS40",
+  "stream": "https://20103.live.streamtheworld.com/LOS40_SC",
+  "homepage": "https://los40.com/",
+  "favicon": "https://logo.clearbit.com/los40.com",
+  "tags": [
+   "exitos",
+   "hits",
+   "pop",
+   "popular"
+  ],
+  "votes": 194,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE - Radio Clásica",
+  "stream": "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r2_main.m3u8",
+  "homepage": "https://www.rne.es/",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "votes": 191,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Play Trance Radio Uplifting Only Channel (High Quality)",
+  "stream": "https://streaming.playtrance.com/playtrance-uplifting-high",
+  "homepage": "https://www.playtrance.com/player/radio/",
+  "favicon": "https://i.postimg.cc/Gt0mmZmn/logo.png",
+  "tags": [
+   "uplifting trance"
+  ],
+  "votes": 190,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza World Club Tour Channel",
+  "stream": "https://ibiza-audiomediaradio.radioca.st/ibiza",
+  "homepage": "https://www.hits1radio.com/",
+  "favicon": "https://www.hits1radio.com/wp-content/uploads/2020/06/IBIZA-World-Club-1-100x100.png",
+  "tags": [
+   "dance",
+   "dj",
+   "dj mix",
+   "dj mixes",
+   "dj remix",
+   "dj sets",
+   "djs",
+   "electronic",
+   "hits",
+   "house"
+  ],
+  "votes": 190,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Remember Vip Techno",
+  "stream": "https://stream-153.zeno.fm/xilwjn4t17qvv",
+  "homepage": "https://remembervip.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibV9pYnEabVR6GlnZKa4FUlFCM1Pt9ak26YCKncCohqDgq8_9gl_71ELh1ccHa5ChALsP2WLkprYZzKusvxROrASELi4UaEjhs6JZe-i9BlVWF9KR841zc3QR5SMkSzgOZ5FtmBeSiq7pZeGK-pfnkv1SAEeAIEoidYxUM9R3jt7M4U8ZbRQiWjQOQmrE/s176/channels4_profile.jpg",
+  "tags": [
+   "dark techno",
+   "deep techno",
+   "hard techno",
+   "minimal techno",
+   "techno"
+  ],
+  "votes": 186,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "1000 Hits Spain",
+  "stream": "https://c2.auracast.net:8022/;",
+  "homepage": "https://www.facebook.com/1000hitspain",
+  "favicon": "https://liveonlineradio.net/wp-content/uploads/2017/09/1000-Hits-Spain-100x47.jpg",
+  "tags": [
+   "hits",
+   "music",
+   "pop"
+  ],
+  "votes": 185,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Malva 104.9FM",
+  "stream": "http://radiomalva.ddns.net:8000/rmbc.ogg",
+  "homepage": "https://radiomalva.org/",
+  "favicon": "https://secure.gravatar.com/blavatar/2674f97dc6ffb1ffca407a88951818c7",
+  "tags": [
+   "autogestión",
+   "commercial-free",
+   "community radio",
+   "free radio",
+   "local radio",
+   "political",
+   "radio libre"
+  ],
+  "votes": 182,
+  "codec": "OGG",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIOLE (España)",
+  "stream": "https://20043.live.streamtheworld.com/RADIOLE.mp3",
+  "homepage": "https://www.radio.es/s/radiole",
+  "favicon": "",
+  "tags": [
+   "música española"
+  ],
+  "votes": 181,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Free FM Chill",
+  "stream": "https://freefmchill.radioca.st/",
+  "homepage": "http://www.freefmworld.com/",
+  "favicon": "https://lh3.googleusercontent.com/9u-dekaPrK3ofEaKOK0dUp5aQQnRCBnR2bAOYFBLRYjQHLLnTaneDm7NY7qtiuHYnEMo6KOheQ7eyCdvcDiZZjL3e60Lzd38yXpxwSSFEcqR5eVd95T7as-SybDgi5BW0g=w1280",
+  "tags": [
+   "#80s",
+   "#chill",
+   "#freefm"
+  ],
+  "votes": 181,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Spectrum FM Costa Almeria",
+  "stream": "https://eu8.fastcast4u.com/proxy/almeria2?mp=/1",
+  "homepage": "https://costaalmeria.spectrumfm.net/",
+  "favicon": "",
+  "tags": [
+   "british",
+   "expat",
+   "pop rock",
+   "spain"
+  ],
+  "votes": 179,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ENERGIA FM - CARAVACA DE LA CRUZ 90.0",
+  "stream": "http://streaming5.elitecomunicacion.es:8128/caravaca?type=.mp3",
+  "homepage": "http://www.cadenaenergia.com/",
+  "favicon": "",
+  "tags": [
+   "90.0",
+   "caravaca",
+   "energia"
+  ],
+  "votes": 179,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EITB Euskal Kantak",
+  "stream": "http://multimedia.eitb.eus/live-content/eitbeuskalkantak-hls/master.m3u8",
+  "homepage": "https://www.eitb.eus/eu/irratia/eitb-euskal-kantak/",
+  "favicon": "https://images14.eitb.eus/multimedia/recursos/generales/streaming/logo_zuzenean_euskal_kantak.png",
+  "tags": [
+   "basque music"
+  ],
+  "votes": 178,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Smooth Jazz Classics by Cloud Jazz",
+  "stream": "https://stream-57.zeno.fm/w3phtkukfg8uv?zs=90IfdbcARnS99_b8RaX9sQ&acu-uid=736851429618&dyn-uid=&an-uid=0&mm-uid=a42b63d5-b9eb-4f00-9692-60c79195c3a4&triton-uid=cookie%3A7e5c2d9b-9c30-46f6-b8b4-0354fd4dd340&amb-uid=3916839388731891724",
+  "homepage": "https://cloud-jazz.com/",
+  "favicon": "https://img.sedoparking.com/templates/logos/sedo_logo.png",
+  "tags": [
+   "smooth jazz",
+   "soul"
+  ],
+  "votes": 176,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Topo",
+  "stream": "https://radiobot.radioslibres.info/radio/8060/radio.mp3",
+  "homepage": "https://radiotopo.org/",
+  "favicon": "https://radiotopo.org/favicon.ico",
+  "tags": [],
+  "votes": 170,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "COPE Tenerife",
+  "stream": "https://wecast07-o-cloud.flumotion.com/copesedes/tenerife-mas.mp3",
+  "homepage": "https://www.cope.es/directos/cope-mas-tenerife",
+  "favicon": "https://www.cope.es/favicon/cope/apple-touch-icon-192x192.png",
+  "tags": [
+   "magazine",
+   "noticias"
+  ],
+  "votes": 167,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Feel Good Radio Costa del Sol",
+  "stream": "https://caster05.streampakket.com/proxy/8321/stream",
+  "homepage": "https://www.feelgoodradio.es/",
+  "favicon": "",
+  "tags": [
+   "00s",
+   "80s",
+   "90s",
+   "feel good"
+  ],
+  "votes": 164,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser +",
+  "stream": "https://27953.live.streamtheworld.com/CADENASER_ALT1AAC.aac",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_101739265.jpg?alt=media&token=c3ddd8ca-8050-4aa8-9caf-3433ce5d24b7",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 164,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE Radio 5 Valencia",
+  "stream": "https://d131.rndfnk.com/star/crtve/rne5/vlc/aac/128/stream.aac?cid=01GEP70HQKHM3WJB5GHG662KX3&sid=2MHsjXUN7pFK03vBbXrL08rOPRJ&token=Gu5PoCVPt238lI_sOeSzHZPRNJrKj8eeS4mPRqXzSX4&tvf=AvB-hceGRxdkMTMxLnJuZGZuay5jb20",
+  "homepage": "http://www.rtve.es/radioplayer/emisoras/rne5_valencia/",
+  "favicon": "https://assets.radioplayer.org/724/724528/600/600/kywx97am.png",
+  "tags": [
+   "local news",
+   "news"
+  ],
+  "votes": 162,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE Radio 1 Galicia",
+  "stream": "https://dispatcher.rndfnk.com/crtve/rne1/gal/mp3/high",
+  "homepage": "https://www.rtve.es/play/audios/programa/rne_gal-live/3893549/",
+  "favicon": "",
+  "tags": [
+   "galicia",
+   "galiza",
+   "news",
+   "noticias",
+   "rne"
+  ],
+  "votes": 161,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "SER",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 159,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ràdio Pego 107.8",
+  "stream": "http://www.radiopego.com:8000/stream",
+  "homepage": "http://www.radiopego.com/",
+  "favicon": "",
+  "tags": [
+   "pego"
+  ],
+  "votes": 156,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza X Radio",
+  "stream": "https://stream.radiojar.com/p1f2vpv37reuv",
+  "homepage": "https://www.ibizaxradio.com/player/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "dance anthems",
+   "deep house",
+   "edm",
+   "electronica",
+   "house",
+   "ibiza classics",
+   "melodic techno",
+   "trance"
+  ],
+  "votes": 156,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Remember Ràdio Joventut",
+  "stream": "https://stream.idelta.es/listen/radio_joventut/stream",
+  "homepage": "https://radiojoventut.es/",
+  "favicon": "https://radiojoventut.es/wp-content/uploads/2023/02/logoradiojoventut22.png",
+  "tags": [
+   "remember music information"
+  ],
+  "votes": 156,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "BeachGrooves Radio",
+  "stream": "https://stream.beachgrooves.com:9000/stream.mp3",
+  "homepage": "http://www.beachgrooves.com/",
+  "favicon": "",
+  "tags": [
+   "deep house",
+   "house"
+  ],
+  "votes": 153,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "#1 Splash Coffee",
+  "stream": "https://ais-sa2.cdnstream1.com/2345_128.mp3",
+  "homepage": "https://www.splashradio.eu/",
+  "favicon": "",
+  "tags": [
+   "ambient",
+   "ambient and relaxation music",
+   "ambiental",
+   "chillout",
+   "easy listening",
+   "slow",
+   "splash"
+  ],
+  "votes": 151,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Exterior de España",
+  "stream": "https://dispatcher.rndfnk.com/crtve/rneree/main/mp3/high",
+  "homepage": "https://www.rtve.es/radio/radio-exterior/",
+  "favicon": "https://assets.radioplayer.org/724/724505/600/600/kywx5mfr.png",
+  "tags": [
+   "international news",
+   "news"
+  ],
+  "votes": 149,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Cinca",
+  "stream": "https://sonando-us.digitalproserver.com/litera.aac",
+  "homepage": "https://www.ondacerocinca.es/",
+  "favicon": "",
+  "tags": [],
+  "votes": 148,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza SoniCalm",
+  "stream": "https://ibizasonica.streaming-pro.com:8014/sonicalm",
+  "homepage": "https://ibizasonica.com/",
+  "favicon": "https://ibizasonica.com/favicon.ico",
+  "tags": [
+   "chillout+lounge"
+  ],
+  "votes": 148,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Surco Tomelloso",
+  "stream": "https://carina.streamerr.co:8032/surco",
+  "homepage": "https://radiosurco.es/",
+  "favicon": "",
+  "tags": [
+   "general",
+   "music"
+  ],
+  "votes": 147,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser + Toledo",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MAS_TOLEDO.mp3",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_211937553.jpg?alt=media&token=a9626ab2-247a-4891-ad7e-788edd841a05",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 147,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Ser + Bilbao",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_MAS_BILBAO.mp3",
+  "homepage": "https://cadenaser.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240620_210054883.jpg?alt=media&token=175e5ab8-cd0d-47e3-a6cb-6bf5bf6edec2",
+  "tags": [
+   "debates y deportes",
+   "noticias"
+  ],
+  "votes": 145,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "SER - Radio Zaragoza",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_ZARAGOZA.mp3",
+  "homepage": "https://cadenaser.com/radio-zaragoza/",
+  "favicon": "https://cadenaser.com/pf/resources/img/favicon.png?d=309",
+  "tags": [
+   "talk & speech"
+  ],
+  "votes": 145,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Disco Melodia FM",
+  "stream": "https://sonic.mediatelekom.net/8020/stream",
+  "homepage": "https://radiodiscomelodia.es/",
+  "favicon": "https://radiodiscomelodia.es/favicon.ico",
+  "tags": [
+   "classic hits",
+   "hits",
+   "spanish hits"
+  ],
+  "votes": 145,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cool Coffee",
+  "stream": "https://listen.openstream.co/6781/audio",
+  "homepage": "https://linktr.ee/coolcoffeeradio",
+  "favicon": "https://static.mytuner.mobi/media/tvos_radios/888/cool-coffee.c29b1a7a.png",
+  "tags": [
+   "chillout+lounge",
+   "lounge"
+  ],
+  "votes": 142,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Technolovers EDM",
+  "stream": "https://stream.technolovers.fm/edm?ref=radiobrowser",
+  "homepage": "https://stream.technolovers.fm/",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "edm",
+   "electronic"
+  ],
+  "votes": 141,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "#1 Splash Lounge",
+  "stream": "https://ais-sa2.cdnstream1.com/2209_128.mp3",
+  "homepage": "https://www.splashradio.eu/",
+  "favicon": "",
+  "tags": [
+   "chill",
+   "chillout",
+   "ibiza",
+   "lounge",
+   "lounge music",
+   "lounge radio",
+   "relax",
+   "smooth lounge",
+   "splash",
+   "vocal lounge"
+  ],
+  "votes": 141,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio del Hogar de la Brisa",
+  "stream": "http://stream.zeno.fm/4vwgvyq82k8uv",
+  "homepage": "https://txus.nom.es/hogar_brisa",
+  "favicon": "",
+  "tags": [
+   "arabic",
+   "celtic",
+   "classical",
+   "folk",
+   "new wave",
+   "rock",
+   "traditional",
+   "world music"
+  ],
+  "votes": 141,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "COPE A CORUÑA",
+  "stream": "https://wecast-bl01.flumotion.com/copesedes/lacoruna.mp3",
+  "homepage": "https://www.cope.es/emisoras/galicia/a-coruna-provincia/a-coruna",
+  "favicon": "https://www.cope.es/favicon/cope/apple-touch-icon-192x192.png",
+  "tags": [],
+  "votes": 140,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "COPE Gijón",
+  "stream": "https://wecast-bl01.flumotion.com/copesedes/gijon.mp3",
+  "homepage": "https://www.cope.es/directos/gijon",
+  "favicon": "https://cope-cdnsta.agilecontent.com/img/brand/favicon.ico",
+  "tags": [
+   "talk radio"
+  ],
+  "votes": 140,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Balear 99.9 Palma de Mallorca",
+  "stream": "http://server6.20comunicacion.com:8076/",
+  "homepage": "http://www.radiobalear.es/",
+  "favicon": "https://radiobalear.net/wp-content/uploads/2025/01/cropped-icono-rb2-180x180.png",
+  "tags": [],
+  "votes": 139,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Euskalerria Irratia",
+  "stream": "http://server4.beatproducciones.com:8014/",
+  "homepage": "https://euskalerriairratia.eus/irratia/",
+  "favicon": "https://euskalerriairratia.eus/static/img/favicons/fav128.png",
+  "tags": [
+   "music",
+   "news"
+  ],
+  "votes": 138,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Free FM Love",
+  "stream": "http://stream.zeno.fm/umsptm6rvy8uv",
+  "homepage": "http://freefmradio.net/",
+  "favicon": "https://3.bp.blogspot.com/-BTWauI1ML7o/XZOklz5WuRI/AAAAAAAAAeA/R8qBxhme8UEELRogqYOhtWG4p0BVhiwVgCK4BGAYYCw/s752/free%2Bancho.jpg",
+  "tags": [
+   "free fm",
+   "free radio",
+   "love",
+   "love song",
+   "love songs",
+   "lovesongs"
+  ],
+  "votes": 138,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE Radio 5 Galicia",
+  "stream": "https://d131.rndfnk.com/star/crtve/rne5/lcg/mp3/128/stream.mp3?cid=01GEP53FAF08XXF9WHNDFYA8SJ&sid=3KaiOb8crvxXVX8EEvM78NldUSt&token=tk9aGC2huOWRGnvpt7FpD84Y6pG43C7VfSBojW2Mrh8&tvf=nYJQfR3W3RhkMTMxLnJuZGZuay5jb20",
+  "homepage": "https://www.rtve.es/play/audios/programa/rne5_gal-live/3894729/",
+  "favicon": "",
+  "tags": [
+   "galicia",
+   "galiza",
+   "news",
+   "noticias",
+   "rne"
+  ],
+  "votes": 137,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Líder",
+  "stream": "http://server9.emitironline.com:8200/stream",
+  "homepage": "http://www.radiolider.com/inicio",
+  "favicon": "",
+  "tags": [
+   "latin music",
+   "music"
+  ],
+  "votes": 134,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hits 1 Ibiza",
+  "stream": "https://hits1spain-audiomediaradio.radioca.st/hits1mallorca",
+  "homepage": "https://www.hits1radio.com/",
+  "favicon": "https://www.hits1radio.com/wp-content/uploads/2019/03/dummy-e1554135926529.jpg",
+  "tags": [
+   "dance",
+   "dj",
+   "dj mix",
+   "dj mixes",
+   "dj radio",
+   "dj remix",
+   "dj sets",
+   "djs",
+   "edm",
+   "electronic",
+   "hits",
+   "house",
+   "music",
+   "top 40",
+   "top 40 hits",
+   "top charts"
+  ],
+  "votes": 134,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Urban Radio",
+  "stream": "https://st1.urbanrevolution.es:8443/laurbanfm.mp3",
+  "homepage": "http://www.urbanrevolution.es/",
+  "favicon": "",
+  "tags": [
+   "other"
+  ],
+  "votes": 133,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Barcelona",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/barcelona/bitrate_1.m3u8",
+  "homepage": "https://www.ondacero.es/",
+  "favicon": "",
+  "tags": [],
+  "votes": 132,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "COPE Granada-Sta.Fe",
+  "stream": "https://granada-copesedes-rrcast.flumotion.com/copesedes/granada-low.mp3",
+  "homepage": "https://www.cope.es/emisoras/andalucia/granada-provincia/granada",
+  "favicon": "https://www.cope.es/favicon/cope/apple-touch-icon-192x192.png",
+  "tags": [
+   "actualidad",
+   "cope",
+   "entretenimiento",
+   "granada",
+   "noticias",
+   "opinion"
+  ],
+  "votes": 131,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Intereconomía",
+  "stream": "https://intereconomia.emitironline.com/",
+  "homepage": "https://intereconomia.com/",
+  "favicon": "https://scontent-mty2-1.xx.fbcdn.net/v/t39.30808-6/473158869_1511175113158325_8027410635159064941_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=3adM1fSemxYQ7kNvgFAOZyC&_nc_oc=AdgNZU98qoawDQGphWEPoOWihqZh3rmHZggM9YRxXjcPoClkUTS-4JOmzEonZSv8BKw&_nc_zt=23&_nc_ht=scontent-mty2-1.xx&_nc_gid=AQLe83pEfKWD-Tykx4-aTy2&oh=00_AYB6OHxM7Mh1twmR9Azkh347cn-pDCA0ef-ri-lT0wQp4A&oe=67AFCB04",
+  "tags": [
+   "economia",
+   "economic",
+   "economics",
+   "economy",
+   "news"
+  ],
+  "votes": 129,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RNE Radio 5 Las Palmas",
+  "stream": "https://d121.rndfnk.com/star/crtve/rne5/lpa/mp3/128/stream.mp3?cid=01GEP4X9Y3EYSQDV2G2MRTWGGZ&sid=2KXdzbu8f6MPAaCmdrAfA7scSHY&token=wiTLRflaxoLHseM8UraPggqszRT9NNr2mUoTnKi8TdU&tvf=6Up4UpPDOxdkMTIxLnJuZGZuay5jb20",
+  "homepage": "https://www.rtve.es/play/audios/canarias-informativos/",
+  "favicon": "https://img2.rtve.es/css//rtve.2021/i/rtve-logos/logos_cadenas/radio-5_color.svg",
+  "tags": [
+   "culture",
+   "local news",
+   "news"
+  ],
+  "votes": 129,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Santiago de Compostela",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/santiago/master.m3u8",
+  "homepage": "https://www.ondacero.es/emisoras/galicia/santiago/directo/",
+  "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+  "tags": [],
+  "votes": 128,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Nostalgia",
+  "stream": "https://azura.abcorp.es/listen/nostalgia/live",
+  "homepage": "https://nostalgiafm.es/",
+  "favicon": "https://nostalgiafm.es/favicon.ico",
+  "tags": [],
+  "votes": 128,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Voz (Compostela)",
+  "stream": "https://live.radiovoz.es/mp3/stream_santiago.mp3?source=web&JSESSIONID=B2F48ECDF937FC52DF9C6620C5562234&station=7&dial=Santiago_de_Compostela",
+  "homepage": "https://radiovoz.com/",
+  "favicon": "",
+  "tags": [
+   "galicia",
+   "la voz de galicia",
+   "radio voz"
+  ],
+  "votes": 127,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Trespatines Radio",
+  "stream": "https://s1.nexuscast.com:8054/1",
+  "homepage": "https://www.trespatinesradio.es/",
+  "favicon": "https://primary.jwwb.nl/public/q/j/h/temp-wnxqdgzedajduxousypi/q8tef3/c300.png?enable-io=true&enable=upscale&height=140&quality=70",
+  "tags": [],
+  "votes": 127,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ibiza Global Classics",
+  "stream": "https://control.streaming-pro.com:8000/ibizaglobalclassics.mp3",
+  "homepage": "https://www.ibizaglobalradio.com/",
+  "favicon": "https://www.ibizaglobalradio.com/dist/img/logo-igr-20.svg",
+  "tags": [
+   "club",
+   "dance",
+   "electronic",
+   "house",
+   "trance"
+  ],
+  "votes": 126,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radios Libres",
+  "stream": "https://radiobot.radioslibres.info/listen/radio_cadenazo_libre/cadenazo.mp3",
+  "homepage": "https://radioslibres.info/",
+  "favicon": "",
+  "tags": [
+   "music",
+   "spoken word"
+  ],
+  "votes": 124,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Esport 94.1",
+  "stream": "http://streaming.radioesport914.com:8000/stream",
+  "homepage": "http://radioesport914.com/",
+  "favicon": "",
+  "tags": [
+   "live sports",
+   "sports news",
+   "sports talk"
+  ],
+  "votes": 123,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "IB3 Ràdio Mallorca",
+  "stream": "https://icecast.ib3radio.com/ib3radio.mp3",
+  "homepage": "https://ib3radio.com/",
+  "favicon": "",
+  "tags": [
+   "local radio"
+  ],
+  "votes": 122,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fred Film Radio(Español)",
+  "stream": "https://s10.webradio-hosting.com/proxy/fredradiosp/stream",
+  "homepage": "http://www.fred.fm/",
+  "favicon": "",
+  "tags": [
+   "culture",
+   "film",
+   "movie"
+  ],
+  "votes": 122,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Free FM 80s",
+  "stream": "https://freefm80.radioca.st/",
+  "homepage": "http://freefmradio.net/",
+  "favicon": "https://lh6.googleusercontent.com/BR3eGbrdzStCIwJbWJaqGlKSHEGpU6wENZQ2c3IJYNvi8884X7n0EJoshH7p4unOWTayGTUqxa0MgOW7wDIrDA=w1280",
+  "tags": [
+   "#80",
+   "#freefm #80s #90s #80",
+   "1980s",
+   "90's"
+  ],
+  "votes": 122,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Revive FM",
+  "stream": "https://radio.revivefm.es/stream",
+  "homepage": "https://revivefm.es/",
+  "favicon": "",
+  "tags": [],
+  "votes": 121,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Amor FM",
+  "stream": "https://stream.zeno.fm/fqmu9c005hhvv",
+  "homepage": "https://amorfm.es/",
+  "favicon": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/62/ab/5a/62ab5a5f-ad24-16ec-0efe-11485fe724f5/196871634533.jpg/1000x1000bb.jpg",
+  "tags": [
+   "balada en español",
+   "musica",
+   "musica romantica",
+   "romantic"
+  ],
+  "votes": 118,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Marca Donostia",
+  "stream": "https://marca-sansebastian.streaming-pro.com:6101/live",
+  "homepage": "http://www.radiomarcadonostia.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 117,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena SER Radio Menorca",
+  "stream": "http://server10.emitironline.com:8040/",
+  "homepage": "http://cadenaser.com/emisora/radio_menorca",
+  "favicon": "https://cadenaser05.epimg.net/favicon.png",
+  "tags": [
+   "information",
+   "local news",
+   "menorca",
+   "news"
+  ],
+  "votes": 117,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RusRadio Marbella",
+  "stream": "http://streaming.enacast.com:8000/rusradiomarbellaHD.mp3",
+  "homepage": "http://rusradiomarbella.ru/",
+  "favicon": "https://static.wixstatic.com/media/ab4b17_62e07d96e6714ca9ab99359660dd732c%7emv2_d_1500_1500_s_2.png/v1/fill/w_32%2ch_32%2clg_1%2cusm_0.66_1.00_0.01/ab4b17_62e07d96e6714ca9ab99359660dd732c%7emv2_d_1500_1500_s_2.png",
+  "tags": [],
+  "votes": 116,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Vallekas",
+  "stream": "https://radio.radiobot.org/listen/rvk/rvk.mp3",
+  "homepage": "https://www.radiovallekas.org/",
+  "favicon": "https://www.radiovallekas.org/favicon.ico",
+  "tags": [],
+  "votes": 115,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cope Carballiño",
+  "stream": "http://radio.copecarballino.es:8000/directo.mp3",
+  "homepage": "http://copecarballino.es/",
+  "favicon": "",
+  "tags": [
+   "cope",
+   "noticias"
+  ],
+  "votes": 114,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Onda Cero Cádiz",
+  "stream": "https://atres-live.ondacero.es/live/delegaciones/oc/cadiz/master.m3u8",
+  "homepage": "https://www.ondacero.es/",
+  "favicon": "https://static.ondacero.es/img/favicon.ico?ondacero",
+  "tags": [
+   "noticias"
+  ],
+  "votes": 114,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Otaku MusicRadio",
+  "stream": "http://kathy.torontocast.com:2880/;",
+  "homepage": "https://www.otakumusicradio.com/",
+  "favicon": "",
+  "tags": [
+   "anime",
+   "japanese",
+   "otaku"
+  ],
+  "votes": 113,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "esRadio Granada",
+  "stream": "https://azura.abcorp.es/listen/esradio_granada/radio.mp3",
+  "homepage": "https://esradiogranada.es/web/",
+  "favicon": "https://scontent-mad2-1.xx.fbcdn.net/v/t39.30808-1/312819466_491072619722430_641458663595358072_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=XkJA5WOxHPwAb5P-aFn&_nc_ht=scontent-mad2-1.xx&oh=00_AfBB8MPCOejIzK8Xxj32SL7lcq5tT4KclbC3n2LZakLQpQ&oe=66271F66",
+  "tags": [
+   "culture",
+   "news"
+  ],
+  "votes": 113,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "copesal",
+  "stream": "https://salamanca-copesedes-rrcast.flumotion.com/copesedes/salamanca-low.mp3",
+  "homepage": "https://www.cope.es/emisoras/castilla-y-leon/salamanca-provincia/salamanca",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 112,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EDENEX",
+  "stream": "http://164.138.210.62:13121/stream",
+  "homepage": "https://www.edenex.es/",
+  "favicon": "",
+  "tags": [],
+  "votes": 112,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ }
+]
