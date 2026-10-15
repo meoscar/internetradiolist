@@ -32,6 +32,16 @@ HEALTH = "health.json"
 LOGOS = "logos.json"
 CATALOGUE = "music_worldradio.json"
 TAIWAN = "taiwan.json"
+# One file per country edition, written by country_list.py from what
+# probe_country.py measured; each goes under its own heading after Taiwan's.
+COUNTRIES_DIR = "countries"
+# The heading each country's rows are filed under. A genre in the app's
+# terms, so the folder gets the country's flag from FolderArt like TAIWAN
+# does; upper-case because every genre is.
+COUNTRY_HEADINGS = {
+    "JP": "JAPAN", "ES": "SPAIN", "MX": "MEXICO", "AR": "ARGENTINA",
+    "CO": "COLOMBIA", "CL": "CHILE", "PE": "PERU", "KR": "KOREA",
+}
 
 # Every row must carry an image, and this is what a station with no logo gets.
 #
@@ -316,6 +326,26 @@ def row(title, genre, source, image, site, track, station_id, about="",
     return entry
 
 
+def country_editions(condemned=frozenset()):
+    """Every countries/<cc>.json with a heading to file it under, in code order.
+
+    A file for a code with no heading is reported and skipped rather than
+    filed under its code: a two-letter folder name is not what a listener
+    opens, and the fix is one line in COUNTRY_HEADINGS.
+    """
+    out = []
+    for path in sorted(pathlib.Path(COUNTRIES_DIR).glob("??.json")):
+        code = path.stem.upper()
+        if code not in COUNTRY_HEADINGS:
+            print(f"{path}: no heading for {code} in COUNTRY_HEADINGS; skipped")
+            continue
+        stations = [s for s in load(str(path), [])
+                    if s.get("stream") and s["stream"] not in condemned]
+        if stations:
+            out.append((code, stations))
+    return out
+
+
 def main(argv):
     apply_changes = "--apply" in argv
 
@@ -450,6 +480,10 @@ def main(argv):
     # the crawl missed them" and every one was published twice.
     taiwan = [s for s in load(TAIWAN, []) if s.get("stream") and s["stream"] not in condemned]
     taiwan_streams = {s["stream"] for s in taiwan}
+    # And each country edition's, the same way and for the same reason.
+    editions = country_editions(condemned)
+    for _, stations in editions:
+        taiwan_streams |= {s["stream"] for s in stations}
 
     seen = {s["stream"] for s in crawled}
     seen_names = {base_name(s["name"]) for s in crawled}
@@ -534,6 +568,30 @@ def main(argv):
         ))
     if taiwan:
         print(f"{len(taiwan)} stations in Taiwan from {TAIWAN}\n")
+
+    # Each country edition's stations under the country's own heading, in
+    # the order its list keeps (most voted first), after Taiwan's. The app
+    # edition for that country puts this heading first on its home screen;
+    # every other edition shows it where the alphabet puts it.
+    for code, stations in editions:
+        heading = COUNTRY_HEADINGS[code]
+        for track, station in enumerate(stations, len(music) + 1):
+            favicon = station.get("favicon") or ""
+            image = (logo_for(station["stream"], station["name"])
+                     or (favicon if favicon.lower().split("?")[0].endswith((".png", ".jpg", ".jpeg", ".webp")) else "")
+                     or PLACEHOLDER)
+            music.append(row(
+                title=station["name"],
+                genre=heading,
+                source=station["stream"],
+                image=image,
+                site=station.get("site") or "",
+                track=track,
+                station_id=station["stream"],
+                tags=station.get("tags") or (),
+                homepage=station.get("homepage") or "",
+            ))
+        print(f"{len(stations)} stations in {heading.title()} from {COUNTRIES_DIR}/{code.lower()}.json\n")
 
     for genre in sorted(by_genre):
         stations = sorted(by_genre[genre],

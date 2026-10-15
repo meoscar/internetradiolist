@@ -1,0 +1,62 @@
+# One country's stations, for a country edition of the app: ask Radio
+# Browser for everything filed under the code, try every stream from
+# GitHub's network, keep the most voted that answered, and commit the list
+# the catalogue build reads. Public repository: these minutes are free.
+#
+# Run by hand with the code. Taiwan keeps its own pair (probe-taiwan.yml and
+# taiwan.py), because its list is read name by name by the owner.
+name: Probe a country's stations
+
+on:
+  workflow_dispatch:
+    inputs:
+      country:
+        description: 'ISO country code, as Radio Browser files it (JP, ES, MX)'
+        required: true
+      keep:
+        description: 'How many of the most voted stations that answer to keep'
+        default: '300'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: probe-country-${{ github.event.inputs.country }}
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Ask Radio Browser, then every stream
+        env:
+          CC: ${{ github.event.inputs.country }}
+        run: |
+          mkdir -p probes countries
+          low=$(echo "$CC" | tr '[:upper:]' '[:lower:]')
+          { echo "Probed $(date -u '+%Y-%m-%d %H:%M UTC') from GitHub's network"; echo;
+            python3 probe_country.py "$CC"; } | tee "probes/$low.txt"
+          head -12 "probes/$low.txt" >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the most voted that answered
+        env:
+          CC: ${{ github.event.inputs.country }}
+          KEEP: ${{ github.event.inputs.keep }}
+        run: |
+          python3 country_list.py "$CC" --apply --keep "$KEEP" | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Commit the list
+        env:
+          CC: ${{ github.event.inputs.country }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          low=$(echo "$CC" | tr '[:upper:]' '[:lower:]')
+          git add "probes/$low.txt" "probes/${low}_radio_browser.json" "probes/${low}_streams.json" \
+                  "countries/$low.json" countries.json
+          git commit -q -m "$CC: its stations, as a public directory knows them, measured and kept" || exit 0
+          git pull -q --rebase origin main
+          git push -q origin HEAD:main
