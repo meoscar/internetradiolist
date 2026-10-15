@@ -1,0 +1,3845 @@
+{
+ "https://s2.radio.co:80/s9ecef4f68/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Peter Wolf - I Need You Tonight",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited3-cl.dps.live/biobiosantiago/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://us9.maindigitalstream.com/ssl/radiosol": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sonando.us.digitalproserver.com/fmdelosrecuerdos.aac": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://27433.live.streamtheworld.com:3690/IMAGINA_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Luis Fonsi - Corazón en la maleta",
+  "status": null,
+  "content_type": ""
+ },
+ "http://27363.live.streamtheworld.com/CORAZON_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://26583.live.streamtheworld.com/PUDAHUEL_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://24413.live.streamtheworld.com:3690/ROCK_AND_POPAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Verve - Lucky man",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited3-cl.dps.live/biobiosantiago/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://27583.live.streamtheworld.com/LOS40_CHILE_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Alexandra Stan - Lemonade",
+  "status": null,
+  "content_type": ""
+ },
+ "http://24283.live.streamtheworld.com/CONCIERTO_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Gustavo Cerati - Te llevo para que me lleves",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/sri2de2qdlivv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://192.198.83.230:8772/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://us9.maindigitalstream.com/ssl/7389": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO SOL",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/pvs6hqz3crtvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mdstrm.com/audio/5c915724519bce27671c4d15/icecast.audio?property=radiobox": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://24283.live.streamtheworld.com:3690/FMDOSAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Pablo Alborán,Diana Navarro - Solamente tú",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited11-cl.dps.live/digitalfm/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://23243.live.streamtheworld.com:3690/FUTUROAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://stream.zeno.fm/y3428vcm6yzuv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream10.usastreams.com/9314/stream/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://27413.live.streamtheworld.com/ADNAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.festival.cl/1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://14073.live.streamtheworld.com/ROCK_AND_POP_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Verve - Lucky man",
+  "status": null,
+  "content_type": ""
+ },
+ "http://dreamsiteradiocp.com:8066/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO MARIA CHILE",
+  "status": null,
+  "content_type": ""
+ },
+ "https://hls-audio-cl-1-isp.dps.live/duna/gotardis/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://tunein.radiomaniacos.cl/distorsion.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sammy Hagar - Baby, It's You",
+  "status": null,
+  "content_type": ""
+ },
+ "http://unlimited11-cl.dps.live/biobiovalparaiso/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://ascl.denial.cl:8010/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CHILEAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://unlimited3-cl.dps.live/beethovenfm/gotardis/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://unlimited4-us.dps.live/positiva/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Lost In Your Light  feat Miguel - DUA LIPA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mdstrm.com/audio/5c915497c6fd7c085b29169d/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://streaming.viphosting.cl/8028/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Various Artists - 349 - Hollies - Long Cool Woman In A Black Dress",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio1.tustreaming.cl/9850/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com/8138/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Madonna - Holiday",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio-edge-es6pf.mia.g.radiomast.io/475ebed1-595e-4717-b888-64fe8fc6b09f": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://unlimited3-cl.dps.live/biobioconcepcion/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://streaming.fmokey.cl/FmOkValpo.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.radioclub80.cl:8052/trance80.flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "O.B.M Notion - Still Indescribable (Original Mix)",
+  "content_type": "audio/ogg"
+ },
+ "http://cityradio.ddns.net:8000/cityradio48flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Red Garland, Paul Chambers, Art Taylor - Please Send Me Someone To Love",
+  "content_type": "audio/ogg"
+ },
+ "http://sonando.us.digitalproserver.com/carnaval_vinadelmar.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL VINA DEL MAR 98.1",
+  "status": null,
+  "content_type": ""
+ },
+ "https://archi-us.digitalproserver.com/ritoquefm_aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "thelmo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://video.mediawebchile.com:2000/stream/radiomixsc/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "radiomix - 344b",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://archi-us.digitalproserver.com/femenina.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FUTUROAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonando-us.digitalproserver.com/radiointeramericana.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MARCO ANTONIO SOLIS - INVENTAME",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sonando.us.digitalproserver.com/ucvradio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mdstrm.com/audio/5c8d6406f98fbf269f57c82c/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FUTURO_SC.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.fmokey.cl/moviles.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.radioclub80.cl:8032/stream.euro80flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "La Bouche - Sweet Dreams",
+  "content_type": "audio/ogg"
+ },
+ "https://sonic.portalfoxmix.club/8128/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio2.tustreaming.cl:10997/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "SOUL ASYLUM (PROMISES BROKEN)",
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/ADNAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://sonando.us.digitalproserver.com/ritoquefm_aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "thelmo",
+  "status": null,
+  "content_type": ""
+ },
+ "http://s2.radio.co/s9ecef4f68/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Peter Wolf - I Need You Tonight",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sonando.us.digitalproserver.com/carnaval_puntaarenas.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Paul Anka - You're Having My Baby",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streams.radiomast.io/radioblues-flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/ogg"
+ },
+ "https://audio1.tustreaming.cl/9020/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://on.yamato.cl/radio/8010/play": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fushigi Yuugi - Dash",
+  "status": null,
+  "content_type": ""
+ },
+ "http://tornagaleones.ddns.net:9000/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Will Smith - Gettin' Jiggy Wit It",
+  "status": null,
+  "content_type": ""
+ },
+ "http://23243.live.streamtheworld.com/ACTIVA_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ryan Castro,Peso Pluma - Quema",
+  "status": null,
+  "content_type": ""
+ },
+ "http://ascl.denial.cl:8004/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://sonando.us.digitalproserver.com/carnaval_quillota.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL CALERA 91.9",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.radioclub80.cl:8002/clasicos80.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Byrds - Mr. Tambourine Man,1992",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s4.radio.co/s421105570/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Valia Calda - Homeland",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-024.zeno.fm/dg69bex4gxquv?zs=XUpp6K5zR3aUWceZbwXJcQ": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://ascl.denial.cl:8030/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://servidor32.brlogic.com:7050/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Prefiero A Mi Cristo",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sonando.us.digitalproserver.com/carnaval_aconcagua.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL ACONCAGUA 98.3",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sonic.portalfoxmix.cl:8424/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.viphosting.cl/8012/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Skullpture - A Horrifying Death",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.comunicacioneschile.net:9358/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited4-us.dps.live/agricultura/gotardis/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://26683.live.streamtheworld.com/ACTIVA_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ryan Castro,Peso Pluma - Quema",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando-us.digitalproserver.com/vln_lo": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://audio.bitsur.cl/8002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "JOE STONE - NOTHING ELSE (WHEN I THINK OF YOU) (EXTENDED MIX)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radioislanegra.org/radio/8010/basic.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sonnymoon; Miguel Atwood-Ferguson - Just Before Dawn",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited4-us.dps.live/beethovenfm/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://sonando.us.digitalproserver.com/radiorecuerdos.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "SANDRO - Quiero llenarme de ti - SANDRO",
+  "status": null,
+  "content_type": ""
+ },
+ "http://encoder.armoniaoficina.cl:3032/1.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Escuchamos I Surrender All  *** con Our Daily Bread en ARMONIA OFICINA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio0.tustreaming.cl/7170/casablanca": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://ascl.denial.cl:8008/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://servers58.com/proxy/sc_relpcl?mp=/;&1578827059272": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://26563.live.streamtheworld.com/ACTIVAAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ryan Castro,Peso Pluma - Quema",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited11-cl.dps.live/biobiolosangeles/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.zeno.fm/es9h0crh74zuv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.radioclub80.cl:8002/clasicos80.flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "The Byrds - Mr. Tambourine Man,1992",
+  "content_type": "audio/ogg"
+ },
+ "http://sonando.us.digitalproserver.com/contemporanea_aconcagua.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Contemporanea - Canciones de tu vida",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.comunicacioneschile.net:9318/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Contigo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.comunicacioneschile.net/9326/stream.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://unlimited3-cl.dps.live/beethovenfm/go/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_AND_POPAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.clubdance.cl/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.xhost.cl/8164/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "http://sonando.us.digitalproserver.com/carnaval_sanantonio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL SAN ANTONIO 90.5",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/CONCIERTOAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://stream.zeno.fm/m5fw6rwx2tzuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio2.tustreaming.cl:10987/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/pdlp0sxtdjkvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://archi-us.digitalproserver.com/austral.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonicpanel.chileservidores.cl/8032/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "undefined",
+  "status": null,
+  "content_type": ""
+ },
+ "http://curiosity.shoutca.st:6451/autodj": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Wachun - Hay un gusano",
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.radioclub80.cl:9040/live.flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/CONCIERTOAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://radio.mediadev.cl:8090/rtl_curico": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO TROPICAL LATINA - LA RADIO QUE ALEGRA TU VIDA - TELEFONOS 75 2 504141 - 75 2 328021 -",
+  "status": null,
+  "content_type": ""
+ },
+ "http://procyon.shoutca.st:8114/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "REFUGIO · Una Luz de Esperanza - La mejor radio",
+  "content_type": "audio/mpeg"
+ },
+ "http://146.83.195.22:8000/stream.ogg": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://vivo.miradio.in:7008/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Centro Cristiano - Proverbios 23",
+  "status": null,
+  "content_type": ""
+ },
+ "http://archi-us.digitalproserver.com/la-discusion-fm.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream10.usastreams.com/9314/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://unlimited4-us.dps.live/beethovenfm/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://unlimited3-cl.dps.live/biobiovalparaiso/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.mediadev.cl/radio/8070/rtlcurico": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO TROPICAL LATINA - LA RADIO QUE ALEGRA TU VIDA - TELEFONOS 75 2 504141 - 75 2 328021 -",
+  "status": null,
+  "content_type": ""
+ },
+ "http://dreamsiteradiocp4.com:8024/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO MARIA CHILE",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-287.surfernetwork.com/ssmz1n5vmd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzc216MW41dm1kMHV2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkFQWTlZdE9RUnAyaGJfMi1adHlOd3ciLCJpYXQiOjE3OTE3OTYwMTgsImV4cCI6MTc5MTc5NjA3OH0.ViKbyfRyNZtQZXLF3Zz4lv_FuLpKniy-KbKkexmLcy0": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited3-cl.dps.live/biobiopuertomontt/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited5-us.dps.live/beethovenfm/gotardis/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://live.lavozdelcipres.cl/radiomelinka.ogv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "https://stream.zeno.fm/ws9z11fhrd0uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sonando.us.digitalproserver.com/radiollacolen.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.tvstream.cl/8056/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://149.56.241.149:8118/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radioislanegra.org/radio/8030/basic.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jake The Rapper - Time to Waste (Iorie's Dystopian Sundown)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio3.tustreaming.cl/7320/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radioemisoras.cl/distorsion.flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Chitãozinho & Xororó - Evidencias (Ao Vivo)",
+  "content_type": "application/ogg"
+ },
+ "https://broadcast.radio247.net/radio/8000/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Foster the people - Helena Beat",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/777prr0xfm8uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming.prositel.cl:8068/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonic.portalfoxmix.cl/9976/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://5.9.65.9:8028/sanvicente": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.divalstream.com:7019/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited11-cl.dps.live/elcarbon/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sonando.us.digitalproserver.com/libra.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonando-us.digitalproserver.com/ucvradio2": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://archi-us.digitalproserver.com/xqa-5.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.prositel.cl/8374/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://encoder.stationlink.cl/listen/edelweiss/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Edelweiss",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited4-us.dps.live/positiva/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Lost In Your Light  feat Miguel - DUA LIPA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.viphosting.cl:7138/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://5.9.65.9:8030/stream.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MILLENIUM RADIO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited5-us.dps.live/radiopauta/gotardis/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://s02.azuracast.cl/listen/radio_universal/universal": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8478/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://streaming.chiloestreaming.com:9542/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/i5darmt2oi7tv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://unlimited3-cl.dps.live/radiopaula/gotardis/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://radio.latina.red/radiokurruf.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.club/8486/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/5c915497c6fd7c085b29169d/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://archi-us.digitalproserver.com/carinosa-fm.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited3-cl.dps.live/biobiotemuco/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://24413.live.streamtheworld.com:3690/ROCK_AND_POP_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Verve - Lucky man",
+  "status": null,
+  "content_type": ""
+ },
+ "http://audio.streaminghd.cl:9206/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FRECUENCIA ROCK",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando-us.digitalproserver.com/carnaval_antofagasta.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL ANTOFAGASTA 96.5",
+  "status": null,
+  "content_type": ""
+ },
+ "http://cityradio.ddns.net:8000/citypop": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/6vytsnbkb8zuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio3.tustreaming.cl/7050/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://archi-us.digitalproserver.com/quillota-fm.aac": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio1stream.com/8002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "WILLIE COLON - JUANTO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio0.tustreaming.cl/7620/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://us9.maindigitalstream.com:7258/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.chiloestreaming.com/9626/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming01.xhost.cl/8048/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://canada1.reliastream.com/proxy/danser?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DEVIL NO ID - ユートピア",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.viphosting.cl/8278/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://stream.radioclub80.cl:8022/retro80.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Prince - Let�s Go Crazy (Special dance mix)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://conectapp.misradios.cl/radio/fmplus.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Tanda",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sp1.streamingssl.com/8058/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO PAULINA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://v4.tustreaming.cl:8156/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio.streemlion.com:3780/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Donna Summer - She Works Hard for the Money",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.nnw.cl:7009/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Aerosmith - Cryin'",
+  "status": null,
+  "content_type": ""
+ },
+ "https://tunein.radiomaniacos.cl/conexionradio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Chitãozinho & Xororó - Evidencias (Ao Vivo)",
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.mallocohosting.cl/8038/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://a10.asurahosting.com:7630/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Charlie Puth - Sideways (feat. Coco Jones)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radioislanegra.org/radio/8000/basic.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Eddie C; Dr. Mike Roma - Jam On Dallas Road (feat. Dr. Mike Roma)",
+  "status": null,
+  "content_type": ""
+ },
+ "http://archi-us.digitalproserver.com/marcelafm.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/yo6udiulqhbvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.digitalfm.cl:8000/valparaiso1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.zeno.fm/t7cdutykw38uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stm7.voxhd.com.br:10788/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La Banda Tropikal de Vallenar - Mix Ranchero",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/i5darmt2oi7tv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.digitalfm.cl:8000/concepcion1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited3-cl.dps.live/biobiovaldivia/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://cast.radioservicios.cl:8314/radio": {
+  "reachable": true,
+  "hls": false,
+  "icy": "20231107 - Gala Centro 001",
+  "status": null,
+  "content_type": ""
+ },
+ "https://listen2.myradio24.com/8795?f8f9356c": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Airform - Dream(Chillout Mix)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando-us.digitalproserver.com/ucvradio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://unlimited5-us.dps.live/nostalgica/aac/icecast.audio": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://5.9.65.9:8065/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CQX PAGINA OSORNO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://archi-us.digitalproserver.com/encanto_ovalle.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/5kasc2zta0hvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.cl:7045/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO PICARONA PANGUIPULLI",
+  "status": null,
+  "content_type": ""
+ },
+ "http://livehd.cdn.felpysolutions.us/proxy/sc_relpcl": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mdstrm.com/audio/5c915613519bce27671c4caa/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://play.isla.ovh/vocaloplus.opus": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "SCL Project (natsuP) - Arrest Rose",
+  "content_type": "application/ogg"
+ },
+ "https://mdstrm.com/audio/639b78f7ff35df084fa7f964/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://audio3.tustreaming.cl/7080/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Juan Carlos Alvarado - El Señor es mi pastor",
+  "status": null,
+  "content_type": ""
+ },
+ "https://unlimited11-cl.dps.live/p7concepcion/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.zeno.fm/3yv0enxnp7zuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.streaminghd.cl:9130/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Coro Menap - Espíritu Santo (En Vivo)",
+  "status": null,
+  "content_type": ""
+ },
+ "http://audio0.tustreaming.cl:7160/aire": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Presentacion Metal Picarona",
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/dzvavezs85ouv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server01.heplayer.com/9390/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Andrea Bocelli - In-Canto",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/bx6zuwssrnjvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://www.silensclamor.com/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Music - Too High",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando-us.digitalproserver.com/carnaval_vinadelmar.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL VINA DEL MAR 98.1",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s02.azuracast.cl/listen/radio_universal_victoria/victoria": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://archi-us.digitalproserver.com/actual.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://streaming.chiloestreaming.com:9542/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando.us.digitalproserver.com/fmdelosrecuerdos.aac": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://cp2.streamchileno.cl//listen//radiocarnaval//radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CARNAVAL COQUIMBO LA SERENA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.digitalfm.cl:8000/antofagasta1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8244/stream/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO CARICIA FM 102.3 DESDE MELIPILLA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/sowa6evoo9kvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streams.radiomast.io/aff8c0f0-5d0c-41d6-83b2-71daff574701": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8012/streamstream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio2.tustreaming.cl/7210/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Golden Earring - Twilight Zone (Single Version)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://tls-cl.cdnz.cl/retroplustvdos/live/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sp1.streamingssl.com/8056/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://radio.digitalfm.cl:8000/laserena1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/mb5l1xfyu7yuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.zeno.fm/kc5hofr05tavv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.streamingchilenos.com/8072/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.digitalfm.cl:8000/ptaarenas": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.radioclub80.cl:8022/retro80.flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Enigma - Sadeness",
+  "content_type": "audio/ogg"
+ },
+ "https://sonic-us.arkeo.cl/8186/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://zeus.miradio.pro/hls/favorita/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegurl"
+ },
+ "https://mdstrm.com/audio/67f42f96e464d19a6eda3c7d/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sonic.portalfoxmix.club/8042/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream-290.surfernetwork.com/aaxwtg4w6x1uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhYXh3dGc0dzZ4MXV2IiwiaG9zdCI6InN0cmVhbS0yOTAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik1tUTNRV21kUTBXem1VTWEyOU1DbkEiLCJpYXQiOjE3OTE4MzAwMDksImV4cCI6MTc5MTgzMDA2OX0.n4E80B9Vd4X9H_vD124vc-Elt8zUfLRPDOMlWNe5fug": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://video.mediawebchile.com:2000/stream/8212/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MARAY MUSICAL 8",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.chiloestreaming.com:9920/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Andy Gibb - Shadow Dancing",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.cl:7028/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Bloque 53 - Nina",
+  "content_type": "audio/mpeg"
+ },
+ "https://s02.azuracast.cl/radio/8210/fmcentro": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/uftblekcpxguv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://5.9.65.9:8083/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CQX PTO MONTT  WEB",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-cl.arkeo.cl/8054/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.zeno.fm/annpmyskb4jtv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://audio3.tustreaming.cl:7350/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://audio5.tustreaming.cl/7930/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://unlimited11-cl.dps.live/nostalgica/aac/icecast.audio": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://us9.maindigitalstream.com:7389/stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO SOL",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio2.tustreaming.cl/9020/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://zeus.miradio.pro/radio/8090/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Condell",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.bitsur.cl/8066/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://v4.tustreaming.cl:18160/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-cl.arkeo.cl/8098/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://v4.tustreaming.cl:8134/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://v4.tustreaming.cl:8128/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.bitsur.cl/8032/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming2.locucionar.com/proxy/poderpentecostal?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ENLACE RPP BS AS",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.latina.red/lazarzamora.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "NOACLARA-faunaKR - NOACLARA-faunaKR",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sp1.streamingssl.com/8036/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO FM7 ROCK 97.3 FM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio2.tustreaming.cl/7320/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://s4.radio.co/s13e4f2090/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Leblanc - Now We Are Free",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cast.radioservicios.cl:8316/sanvicente": {
+  "reachable": true,
+  "hls": false,
+  "icy": "aire",
+  "status": null,
+  "content_type": ""
+ },
+ "http://archi-us.digitalproserver.com/amiga.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://tornagaleones.ddns.net:9000/Flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Will Smith - Gettin' Jiggy Wit It",
+  "content_type": "audio/ogg"
+ },
+ "https://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/5c915497c6fd7c085b29169d": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Police - De do do do de da da da",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.digitalfm.cl:8000/talca": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.digitalfm.cl:8000/calama1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.streamingchilenos.com/8186/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://escucha.radiopaulafm.com/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sdmedia.radioactiva.cl/radioactiva/2023/3/19/activa_lajauladelmonoradioactiva_20230319_020000_030000.mp3?dist=radioactiva_cl-web-aod_play": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.digitalfm.cl:8000/iquique1": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://azura.servercast.com.br/listen/radio_fernanda/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hot Chocolate - You Sexy Thing",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.audiplay.cl/listen/venus_radio_fm_chile/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Olivia Rodrigo - drop dead",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s21.myradiostream.com/14464/;?type=http&nocache=1724080980?0.022147003328686576": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://texto-plano.xyz:8000/live.ogg": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Total Eclipse",
+  "content_type": "application/ogg"
+ },
+ "http://broadcast.radio247.net/listen/live/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Foster the people - Helena Beat",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/dd3rxeuxznhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://65.108.105.26:8672/cobroxradio": {
+  "reachable": true,
+  "hls": false,
+  "icy": "rýr - karnso",
+  "status": null,
+  "content_type": ""
+ },
+ "https://icecast.centaury.cl:7610/SSDEMO": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Jose Feliciano - Por Que Te Tengo Que Olvidar",
+  "content_type": "audio/aac"
+ },
+ "https://stream.zeno.fm/t5jmgbldfruvv.acc": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.maricon.org/vocaloid": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "https://audio3.tustreaming.cl/7120/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.streaminghd.cl:9234/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.viphosting.cl/8034/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "03 - El Koala",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sp.totalstreaming.net:8018/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicpanel.chileservidores.cl/8004/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Prince Rama - Futuros Perdidos Pero Posibles - FPPP 127 11.10.26 (Programado por Pedro Álvarez Caselli)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/h5eannlep1gvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sonic.portalfoxmix.cl:7066/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonic.portalfoxmix.cl:7046/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO PICARONA VILLARRICA",
+  "status": null,
+  "content_type": ""
+ },
+ "http://24403.live.streamtheworld.com/IMAGINA_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": "F.R. David - Words",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:2000/stream/bohemia-memoria-eterna/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Bangles - Walk Like an Egyptian",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiolatina.live/9980/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Futbol - Carniceria Las Marias",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-283.surfernetwork.com/hxv1ceue74zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJoeHYxY2V1ZTc0enV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IldXU3JiV1M0VDQtcDNxN1NQazJGUUEiLCJpYXQiOjE3OTE4Mjg0OTEsImV4cCI6MTc5MTgyODU1MX0.8qBZx4feuy-8wapqsMObH0dLdbOcTJvejGm4k-KbG0M": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://audio.streaminghd.cl:9202/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.alasdeaguilas.cl:9332/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Alas de aguila es~",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.comunicacioneschile.net/8030/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cl-a9-p-e-pt11-audio.cdn.mdstrm.com/live-audio/5c0efabde4c87f3f2d3e8036/5de7fdb07e2fde0798203821/playlist.m3u8?aid=5c0efabde4c87f3f2d3e8036&pid=y17ljD0047v09HO15qERoDg1IHF4CMPc&sid=idOANFonoPKF755oWzoId1suQeSvQFai&uid=5bO0dwJoxlycdbJSRZf6jhlZ1cuSVVAK&es=cl-a9-p-e-pt11-audio.cdn.mdstrm.com&ote=1770300062726&ot=-zwH-pCa0tfwVqKtapOryA&proto=https&pz=us&cP=128000": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://conexion.radioeuroextasis.com/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://v4.tustreaming.cl:18156/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://s1.jcbroadcast.org:8000/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Pista de audio 12 - La Sonora de Tommy Rey",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com/9974/stream.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Now Playing info goes here",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-159.zeno.fm/dg69bex4gxquv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJkZzY5YmV4NGd4cXV2IiwiaG9zdCI6InN0cmVhbS0xNTkuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6ImRQUlBTMkczUkRXdmVIUHNhbW1JMHciLCJpYXQiOjE3NDAwNDk3MTAsImV4cCI6MTc0MDA0OTc3MH0.vQVac4IPmjOImU79H_guLZdW1EI2HY1GKKxoIIKYmqU": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mdstrm.com/audio/639b791cea22540890cd1d8b/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sonic.mallocohosting.cl/8032/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Montecarlo - Una Radio Global!",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com/8126/stream:8000/;?download=false": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonic.portalfoxmix.club/8242/stream/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Ignacio Serrano On Line",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/70sehzr9ssluv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://a6.asurahosting.com:8840/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ed Sheeran - Azizam",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.club/8396//stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.streaminghd.cl:2000/stream/beatfm-sanfelipe": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://archi-us.digitalproserver.com/la-calera.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "- inicio",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio5.tustreaming.cl/8010/fmmas": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Escuchas FM Más!!!",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-287.surfernetwork.com/ssmz1n5vmd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzc216MW41dm1kMHV2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjN2YW10R09HUm5xUllIOWZ5dlJJNkEiLCJpYXQiOjE3OTE4NDA0MzQsImV4cCI6MTc5MTg0MDQ5NH0.QFRQqu2-IsS-PL336A0ps8Qtg53kVQZ5-tUu6X5MZjk": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicstream-puntual.grupozgh.cl/8040/radioua": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO UA 99.9 FM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.libelulachile.cl/listen/online/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "LibelulaChile ONLINE - En Transmisión",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-cl.arkeo.cl/8044/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://audio.streaminghd.cl:9016/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.cl/8090/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "GIT - Es Por Amor",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-us.arkeo.cl/8574/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Now Playing info goes here",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sp002.servidoresph.com:8026/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Diferencia Radio TV - 95.3 FM Stereo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com/9880/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AISLES - BLUE-SKIES",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/udk5orfzet5vv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://14073.live.streamtheworld.com:3690/ADNAAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://broadcast.radio247.net/listen/desierto_web/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO DESIERTO FM 92.1 ANTOFAGASTA - Live streaming by CosasdeRadio.cl -",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.palmundofm.cl/listen/reggaetonoldschool/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Rvssian, Rauw Alejandro, Chris Brown - Nost�lgico",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stm3.srvif.com:8090/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Juan Luis Guerra 4.40 - Como Abeja al Panal",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sonic.portalfoxmix.cl:9986/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "3111 - VOCES",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:2000/stream/radiomunicipaliquique/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://archi-us.digitalproserver.com/san-gabriel-fm.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/8hv9e0uqb0hvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streamuchile.teslati.com/liveruch": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/IMAGINA_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://unlimited3-cl.dps.live/universo/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicstream-puntual.grupozgh.cl/8126/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.cl:7025/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radioemisoras.cl/distorsion.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sammy Hagar - Baby, It's You",
+  "status": null,
+  "content_type": ""
+ },
+ "https://jm8n.com/proxy/radiofmlatina/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Kidd Voodoo - Destello...",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cast1.my-control-panel.com/proxy/acordesdechile/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "LOS TRICOLORES CON DANIEL MUÑOZ - Corre Catimba",
+  "status": null,
+  "content_type": ""
+ },
+ "http://27323.live.streamtheworld.com:3690/CORAZON_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8046/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Charanga Latina",
+  "status": null,
+  "content_type": ""
+ },
+ "https://video.mediawebchile.com:9332/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Madison Mars - New Vibe Who Dis (feat. Little League)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.latina.red/lafkenmawida.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic01.zglobalhost.com/8086/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fun Fun - Megamix",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sp001.servidoresph.com:8130/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Henry Smith - Your Song - Piano Version -2024",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/puvdqzbsb2zuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://as100.globalhost1.com/8004/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Invincible Spirit - Anyway",
+  "status": null,
+  "content_type": ""
+ },
+ "https://miradio.f96.cl/8006/streaming": {
+  "reachable": true,
+  "hls": false,
+  "icy": "SEGUNDOS 8 OCTUBRE",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/7ga8ab3w968uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://190.82.105.90:8012/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://live-audio-lite-1.digitalproserver.com/proxy/orocoipo/oroc": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://iradio.utalca.cl:8000/fm": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://encoder.stationlink.cl/listen/mirador_lautaro/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sp001.servidoresph.com:8086/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Macabro - Oficio Macabro (Graneros)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mallocohosting.cl:8036/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/lcj8aoodegouv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sp001.servidoresph.com:7035/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Gondwana - Verde, Amarillo Y Rojo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radioemisoras.cl/distorsion.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sammy Hagar - Baby, It's You",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mdstrm.com/audio/5e7d00bf57988307b310abff/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://sonic-us.arkeo.cl/8562/stream.mp3?ts=1769817329142": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Los Nocheros - Mucho Más Que Piel",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com/8048/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "cuchilla e mono - Gangster (A Bailar!)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cast6.my-control-panel.com/proxy/trending/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://live-audio-lite-1.digitalproserver.com/proxy/foreverclassic/foreverclassic": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Se�al internacional - solo musica las 24 horas - uniendo generaciones",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.club/8394/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8230/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Loudness - Crazy Nights",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mallocohosting.cl/8012/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8438/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "TRAIN - Hey, Soul Sister",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:2000/stream/radioaraucana959": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Miguel Mateos - Zas - Y, Sin Pensar",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiolatina.live/8016/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ROMANTICO - FRANCO DE VITA - TU DE QUE VAS",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio2.tustreaming.cl:10991/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.comunikados.stream:8012/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stm7.voxhd.com.br:10788/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La Banda Tropikal de Vallenar - Mix Ranchero",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:9072/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ads - Block",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.tecnoera.com:8020/;stream.mp3?_=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DJ Mike Llama - Llama Whippin' Intro",
+  "status": null,
+  "content_type": ""
+ },
+ "https://app.sonicpanelradio.com/8198/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Rosita Leon - Hablenme Montes Y Valles",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com/8240/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.zeno.fm/lsiyqroai88uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream-158.zeno.fm/29pmsm3w968uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIyOXBtc20zdzk2OHV2IiwiaG9zdCI6InN0cmVhbS0xNTguemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InZNZ2tBZHJMU1ltdXEwSE5Xc2ZqS1EiLCJpYXQiOjE3MTYzOTM5MTIsImV4cCI6MTcxNjM5Mzk3Mn0.2hesTrBIpJxdZfufoJ": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream-175.zeno.fm/udk5orfzet5vv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1ZGs1b3JmemV0NXZ2IiwiaG9zdCI6InN0cmVhbS0xNzUuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IkFreVNWMThWUlBxbTN4enVOamZpemciLCJpYXQiOjE3MzQyNDIzNzYsImV4cCI6MTczNDI0MjQzNn0.23h_xxF5T74k5SnoUzP_iRfuisaRoMmmmXy_VpKZv3o": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.cl/8226/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Black - Wonderful Life",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamtotal.net/proxy/oajaime/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Deacon Blue - Real Gone Kid",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.globalstreaming.net/8150/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://video.mediawebchile.com/stream/8032": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg; charset=UTF-8"
+ },
+ "https://sonic.portalfoxmix.club/8276/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DJMouse ® I love Bachata 2",
+  "status": null,
+  "content_type": ""
+ },
+ "https://ctmradio.hopto.org:8000/ctmradio.ogg": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.libelulachile.cl/listen/rec/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "010 resplandores musicales con gisselle cañellas",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-us.arkeo.cl/8358/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Helmet - Unsung",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.tvstream.cl/8036/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://club.asdmedios.cl/listen/alturafm/radio.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.radiojar.com/syk7c423n48uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio1.tustreaming.cl/8026/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://video.mediawebchile.com:8004/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ednita Nazario - Tu Sabes Bien~0,16-6,86",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.cl/8236/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://v4.tustreaming.cl:8144/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://192.99.41.102:5423/stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AC/DC - Givin the Dog a Bone",
+  "status": null,
+  "content_type": ""
+ },
+ "https://jm8n.net:7013/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Top Latino Songs 2019 - Luis Fonsi_ Ozuna_ Nicky Jam_ Becky G_ Maluma_ Bad Bunny_ Thalia_ Shakira",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.mediadev.cl/radio/8030/fmmas": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://pragustream.live:8040/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Peregrinos del Amor - La Ciudad",
+  "status": null,
+  "content_type": ""
+ },
+ "https://broadcast.radio247.net/listen/mas_radio_la_union/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MAS RADIO 91.5 LA UNION - RIO BUENO / 89.3 FUTRONO, LAGO RANCO - CHILE - Live streaming by CosasdeRadio.cl -",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiomotiva.edz.cl/motiva": {
+  "reachable": true,
+  "hls": false,
+  "icy": "SAN IGNACIO CONECTADO - 14 OCTUBRE 2026",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio2.tustreaming.cl/9025/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club:7157/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "31 MINUTOS - SON POLOLOS",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.fmokey.cl/razul.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming01.xhost.cl/8156/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio3.tustreaming.cl/7410/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "EXTRACTOS DERECHOS DE AGUA (MA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-cl.arkeo.cl:9330/;mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.latina.red/radiokurruf.mp3?_=1": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mistreamingtv.uno/8016/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://audio3.tustreaming.cl/7330/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sonic.streamingchilenos.com/8180/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ONDA FIESTA POR GABRIELA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://myradio.live:8000/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "eclipse musical - no me abandones",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-us.arkeo.cl/8208/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://sonicstream-puntual.grupozgh.cl/8196/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic-us.arkeo.cl/8056/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La Popular FM - Siempre Junto al Pueblo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:2000/stream/ladobclassicdance/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jane Child - Don't Wanna Fall In Love (12'' Remix)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://redirector.dps.live/biobioosorno/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://usa10.fastcast4u.com:2750/;?nocache=1702325798&type=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Stevie Wonder - Part-Time Lover",
+  "content_type": "audio/mpeg"
+ },
+ "https://s4.radio.co/s740f80d28/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Morgan Wallen - What I Want",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.chiloestreaming.com:10977/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.streamingchilenos.com/9856/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://redirector.dps.live/p7losangeles/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.radiostreaming.com.ar/8086/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://unlimited5-us.dps.live/beethovenfm/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://audio0.tustreaming.cl/7540/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.mistreamingtv.uno/8044/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Pandora - Popurri Juan Gabriel Medley",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonicpanel.cc/8018/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Peabo Bryson - A Whole New World (Aladdin\\'s Theme)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.globalstreaming.net:10920/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RED RUTA NORTE FM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic-us.fhost.cl/8366/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.divalstream.com/8026/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "caifanes - afuera",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream99.usastreams.com:8012/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Carpenters - (they long to be) Close to you",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.radioclub80.cl:8030/stream.euro80flac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Technotronic, Technotronic feat. Felly - Pump Up The Jam / Pump Up The Jam (Edit)",
+  "content_type": "audio/ogg"
+ },
+ "https://streaming01.xhost.cl/8030/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "issue",
+  "status": null,
+  "content_type": ""
+ },
+ "https://archi-us.digitalproserver.com/caramelo-fm-angol.aac": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.nnw.cl:7058/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.club/8194/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio.tvstream.cl:7075/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Mr. Mister - Kyrie (Remastered) (Live)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://club.asdmedios.cl/radio/8030/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.blumhost.es:8042/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Alesso Vs OneRepublic - If I Lose Myself (Alesso Remix)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://redirector.dps.live/p7concepcion/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://archi-us.digitalproserver.com/radiosanjose.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.radioclub80.cl:8072/peliculas80.flac24": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://app.sonicpanelradio.com:8588//;type=mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://archi-us.digitalproserver.com/nueva-belen-fm.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic01.zglobalhost.com/8020/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://chileservidores.cl/audio/?p=8006": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicpanel.chileservidores.cl/8064/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://play8.tikast.com/proxy/iccradio?mp=/1": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AQLC - 19 Huelga de púlpitos",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/vtzf1dppgxiuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.somosguza.cl/listen/estacion_guza/radio.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.comunicacioneschile.net:7040/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio0.tustreaming.cl/7160/aire": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.fmmusic.cl/9980/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Marc Anthony - Te Conozco Bien",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.comunicacioneschile.net/9398/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "undefined",
+  "status": null,
+  "content_type": ""
+ },
+ "https://pragustream.live:8060/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "APLAUSOS 01 KMR",
+  "status": null,
+  "content_type": ""
+ },
+ "https://c25.radioboss.fm:8162/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic01.zglobalhost.com/8064/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "﻿Buck Fizz - The Land Of Make Believe",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:2000/stream/patagoniaradio/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "TANDA PUBLICITARIA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mallocohosting.cl/8046/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Mix Akták Retro Party - Mix Files 90s Eurodance Megamix (mixed by: Orbán \"Dj. Mix\" Tamás)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://pragustream.live:8020/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Leon Gieco - Los Salieris De Charly",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mistreamingtv.uno/8062/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ads - Block",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.biox3.cl/8190/stream.AAC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://archi-us.digitalproserver.com/creacion-fm.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream2.mcvhost.com/radioocurrente/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Ocurrente - promo, radio ocurrente fm. julio 2026.mp3",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.club:7198/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mdstrm.com/audio/64ed1a4905a8915e7674ea80/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://stream.radio.co/s2aa019d6b/listen": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://mdstrm.com/audio/5de27ed416dea236fa7b4309/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://server01.heplayer.com/9900/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://archi-us.digitalproserver.com/austral.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://mdstrm.com/audio/66a01759c5aa2b85d66b5933/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://video.mediawebchile.com:8134/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Queen - Flash",
+  "status": null,
+  "content_type": ""
+ },
+ "https://grupcomunicados.us:8084/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Gloria Estefan - Here We Are",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/n0ndubthhaytv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonando-us.digitalproserver.com/consuelo.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Use HTTP to feed the song name",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cast235.indax.cl/8002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/t5jmgbldfruvv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://redirector.dps.live/p7puertomontt/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://redirector.dps.live/p7valdivia/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.divalstream.com:7001/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cast6.asurahosting.com/proxy/happype1/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://archi-us.digitalproserver.com/santa-maria-am.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sonic-us.arkeo.cl/8130/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.cl/9884/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://iradio.utalca.cl:8000/am": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicstream-puntual.grupozgh.cl:7014/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicstream-puntual.grupozgh.cl/8012/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicstream-puntual.grupozgh.cl:7068/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO TONGOY",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiolatina.live/8112/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Cinema - Locos Rayados",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s02.azuracast.cl/radio/8010/universal": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://s02.azuracast.cl/radio/8120/villarrica": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio3.tustreaming.cl:8052/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.radioclub80.cl:8072/live.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:9164/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "#FLORECEJUNTOARAUDALFMPRIMAVERA2026 - Raudal F.M.  - 97.1 ,93.9, 99.9  - \"La Radio de tu Corazon\" - www.raudalfm.cl",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando-us.digitalproserver.com/congreso.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://audio2.tustreaming.cl/8300/azucarsantiago": {
+  "reachable": true,
+  "hls": false,
+  "icy": "aire",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.xhost.cl/8172/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fe De Errata - Error 404",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-285.surfernetwork.com/12qqry2t0nhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIxMnFxcnkydDBuaHZ2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImVrZldBN3g2U0dtaDhBeldscHdaZFEiLCJpYXQiOjE3OTE3OTI4OTYsImV4cCI6MTc5MTc5Mjk1Nn0.VOLXX7CNBxSJTBd5zSs24KOwhtnB9-oGXioYZ4Hpmro": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic01.zglobalhost.com/8068/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Michael Kiwanuka - Interlude (Loving the People)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://neondex.cl/listen/radio_vision/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Los Voceros de Cristo - Oh! Alma Mía - 06 Oh! Alma Mía",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.portalfoxmix.club/8146/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Capella Istropolitana & Jaroslav Krcek - Francesco Manfredini: Concerto Grosso in A minor, Op. 3 No. 2",
+  "status": null,
+  "content_type": ""
+ },
+ "https://archi-us.digitalproserver.com/buena-nueva.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Linares 97.9 FM-Chanco-Pelluhue-Curanipe 106.3 FM-Constitucion 89.5 FM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://jireh-1-hls-audio-cl-isp.dps.live/hls-audio/716888c72e2079612211a7130f67a27d/candela/playlist/manifest/gotardisz/audio/now/livestream1.m3u8?dpssid=29655ee97d58fc6cbb68acea3ab0dbfc&sid=ba5t1l1xb21323264718688affc0e6864&ndvc=0": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://audio.bitsur.cl/8136/exquisita": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://audio4.tustreaming.cl:7170/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://comunikadostreaming.us:10960/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Samuel Hernandez - Dios Siempre Tiene el Control",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-178.surfernetwork.com/b6kmhqjgmmwvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJiNmttaHFqZ21td3Z2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJTWHBCaG96b1I4NllCRV9yM000VU53IiwiaWF0IjoxNzg2NjUxODM2LCJleHAiOjE3ODY2NTE4OTZ9.7j_Sc4XwzZW_gpF3MbqbdWfRByULO0Knu5JXU8ASeMQ&1786651811157": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.raxito.cl/listen/rfm/radio-browser.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "398 - Impacto",
+  "status": null,
+  "content_type": ""
+ },
+ "https://redirector.dps.live/p7temuco/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.libelulachile.cl/8122/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mallocohosting.cl/8092/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://www.fmdos.cl/audio": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.streamingchilenos.com:7034/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://app.aloncast.com/api/stream/radio-caldera-422393": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio2.tustreaming.cl:10979/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Miguel Mateos - Llamame (Remix)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonando-us.digitalproserver.com/iniciaradio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.streamingchilenos.com/8126/stream:8000": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.polarhost.cl/MediosUnidos": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8072/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream2.mcvhost.com/blaster/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Falco - Der Kommissar",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio.streaminghd.cl:9136/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://redirector.dps.live/p7osorno/mp3/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream3.mcvhost.com/ritmourbano25/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "-",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiomotiva.edz.cl/motiva2": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jungkook ft. Jack Harlow - 3D",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audio3.tustreaming.cl/7270/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.comunicacioneschile.net/8010/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://or.mysonicserver.com:8052/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Snow Patrol - Chasing Cars (HQ Sound)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://centova.neonetwork.cl:9030/stream.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MILLENIUM RADIO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.mistreamingtv.uno/8020/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "140 Loft - Mallorca (original)()Dvj Friz1996",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.comunicacioneschile.net/8034/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audio.bitsur.cl/cp/links.php?p=8002&m=pls": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/octet-stream"
+ },
+ "https://stream.zeno.fm/ywnrindjwxjtv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.radiolatinamerika.no/latam_hq": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Latin Amerika - Que Buena Radio!",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cp.sonicpanel.stream:8204/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Virus - Pronta Entrega",
+  "status": null,
+  "content_type": ""
+ },
+ "https://n13.radiojar.com/50yyfr4wz1zuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.club/8160/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Aterciopelados - Bolero falaz",
+  "status": null,
+  "content_type": ""
+ },
+ "https://redirector.dps.live/p7osorno/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream-174.zeno.fm/ygcafb1mxxhvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ5Z2NhZmIxbXh4aHZ2IiwiaG9zdCI6InN0cmVhbS0xNzQuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6InlMOVF0NkdkUUphOERDeGF0UU1USlEiLCJpYXQiOjE3MTY0NTc0OTcsImV4cCI6MTcxNjQ1NzU1N30.wqY88_gP9MEYCEfI8v": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream-177.surfernetwork.com/9wzpfshiu2nvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5d3pwZnNoaXUybnZ2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ikd2Q3QzTVNQUnZtSGlaWmpQN05zalEiLCJpYXQiOjE3OTE3NzgwNzksImV4cCI6MTc5MTc3ODEzOX0.aW_DBS5GxOWgk5C_dPaWLXYb4VHy08KpVR3P9aAYuhE": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/kt0wcc9rqwzuv?amb-uid=4601098318750674809&an-uid=0&aw_0_req_lsid=8b70f06538ffd40cf639452369ae9c59&dot-uid=0aca2203006e4e28b6efd6b8&dyn-uid=1496550315181718955&triton-uid=": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://saveroomfm.duckdns.org/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html; charset=utf-8"
+ },
+ "https://saveroomfm.duckdns.org/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://149.56.241.149:8134/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.portalfoxmix.cl/9942/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Whispers - It's A Love Thing",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.comunicacioneschile.net/8068/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://sonic.portalfoxmix.club/8168/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://s02.azuracast.cl/radio/8190/ufro-clasica": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.comunikados.stream:8112/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "undefined",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.chiloestreaming.com:9654/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://redirector.dps.live/p7valparaiso/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://p.liveonlineradio.net/?p=radio-mapuche-aukinko": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html; charset=UTF-8"
+ }
+}

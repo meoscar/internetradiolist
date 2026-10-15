@@ -1,0 +1,655 @@
+Probed 2026-10-15 16:35 UTC from GitHub's network
+
+Radio Browser (https://de1.api.radio-browser.info): 641 stations filed under CL, ordered by votes
+  reachable now           581 (91%)
+    HLS playlists          20 (3%)   play, no title in the stream
+    ICY title             240 (37%)
+    status document        23 (4%)
+    plays, names nothing  298 (46%)
+  not reachable            60 (9%)
+
+codecs as filed: MP3 392, AAC+ 132, AAC 82, OGG 26, ? 4, AAC,H.264 3, UNKNOWN 2
+tags as filed: pop 45, music 25, rock 25, entretenimiento 25, news 24, 80s 23, noticias 21, hits 20, 90s 16, adult contemporary 16, chile 12, classic rock 12, talk 11, pop rock 11, jazz 11, cumbia 11, música en español 11, música 9, radio hablada 9, 2000s 9, classical 8, pop music 8, vallenar 7, musica romantica 7, variety 7
+
+every station, most voted first:
+   6434 votes  La Retro 80s Chile                      MP3   ICY: Peter Wolf - I Need You Tonight
+   4948 votes  BioBio Chile                            AAC+  plays, names nothing
+   4768 votes  Radio Sol Classic                       MP3   plays, names nothing
+   4708 votes  De los Recuerdos                        MP3   no answer
+   4342 votes  Imagina                                 MP3   ICY: Luis Fonsi - Corazón en la maleta
+   3614 votes  Corazon                                 MP3   plays, names nothing
+   3395 votes  Pudahuel                                MP3   plays, names nothing
+   3002 votes  Rock and Pop                            AAC+  ICY: The Verve - Lucky man
+   2979 votes  Radio Bio Bio                           MP3   plays, names nothing
+   2761 votes  Los 40 Principales Chile                MP3   ICY: Alexandra Stan - Lemonade
+   2750 votes  Concierto                               MP3   ICY: Gustavo Cerati - Te llevo para que me lleves
+   2649 votes  RADIO CAROLINA cl                       AAC   plays, names nothing
+   2221 votes  Radio Definitiva                        AAC+  plays, names nothing
+   2122 votes  Radio Sol 97.7                          MP3   ICY: RADIO SOL
+   2066 votes  RADIO ACTIVA 92.5.                      MP3   plays, names nothing
+   1850 votes  Sonar 105.3 FM                          AAC   plays, names nothing
+   1832 votes  FM de los Recuerdos                     MP3   no answer
+   1683 votes  FM Dos                                  AAC+  ICY: Pablo Alborán,Diana Navarro - Solamente tú
+   1657 votes  RADIO COOPERATIVA                       MP3   plays, names nothing
+   1454 votes  Digital FM                              AAC+  plays, names nothing
+   1338 votes  Futuro                                  AAC+  plays, names nothing
+   1330 votes  Guitarra Clásica LatAm                  MP3   no answer
+   1315 votes  Radio El Conquistador FM (Santiago)     MP3   plays, names nothing
+   1151 votes  ADN                                     AAC+  plays, names nothing
+    949 votes  Festival                                AAC+  plays, names nothing
+    882 votes  Rock and Pop                            MP3   ICY: The Verve - Lucky man
+    874 votes  RADIO MARIA CHILE                       MP3   ICY: RADIO MARIA CHILE
+    737 votes  Duna                                    AAC   HLS, plays
+    727 votes  Distorsión FM                           MP3   ICY: Sammy Hagar - Baby, It's You
+    720 votes  Bio Bio Valparaíso                      AAC+  plays, names nothing
+    719 votes  Fanatica POP                            MP3   no answer
+    670 votes  LOS40 Chile                             AAC+  plays, names nothing
+    665 votes  Beethoven FM (Relanzada)                AAC   HLS, plays
+    650 votes  Positiva FM                             AAC+  ICY: Lost In Your Light  feat Miguel - DUA LIPA
+    622 votes  Oasis FM Chile                          AAC   HLS, plays
+    585 votes  Radio Contexto Ñuble                    MP3   ICY: Various Artists - 349 - Hollies - Long Cool Woman In A Black Dres
+    538 votes  RT Noticias                             MP3   no answer
+    534 votes  Radio Retro Online                      MP3   ICY: Madonna - Holiday
+    528 votes  Radio BBN                               AAC   plays, names nothing
+    518 votes  Bío-Bío Concepción 98.1                 AAC+  plays, names nothing
+    503 votes  FM Okey Valparaiso                      AAC   plays, names nothing
+    477 votes  Radio Club 80 Trance FLAC               OGG   status: O.B.M Notion - Still Indescribable (Original Mix)
+    477 votes  City Radio FLAC                         OGG   status: Jools Holland - Mabel
+    471 votes  Carnaval Viña del Mar                   MP3   ICY: CARNAVAL VINA DEL MAR 98.1
+    443 votes  Ritoque FM                              MP3   ICY: thelmo
+    443 votes  RadioMiX                                AAC+  ICY: radiomix - 344b
+    420 votes  La Clave 92.9FM                         AAC,H.264 HLS, plays
+    407 votes  Femenina FM                             MP3   plays, names nothing
+    400 votes  FUTURO Chile                            AAC+  plays, names nothing
+    397 votes  Radio Interamericana                    AAC+  ICY: MARCO ANTONIO SOLIS - INVENTAME
+    390 votes  Universidad Católica de Valparaíso      MP3   plays, names nothing
+    371 votes  100.9 Play FM                           AAC   plays, names nothing
+    356 votes  Radio Futuro                            MP3   plays, names nothing
+    338 votes  FM Okey                                 AAC   plays, names nothing
+    337 votes  Radio Club 80 Euro FLAC                 OGG   status: La Bouche - Sweet Dreams
+    336 votes  FM Oyeme                                MP3   plays, names nothing
+    326 votes  Radio ColoColo                          MP3   status: SOUL ASYLUM (PROMISES BROKEN)
+    325 votes  ADN Radio                               AAC+  plays, names nothing
+    312 votes  Cooperativa                             MP3   plays, names nothing
+    300 votes  Ritoque                                 MP3   ICY: thelmo
+    300 votes  RADIO ACTIVA 92.5°                      MP3   plays, names nothing
+    285 votes  LaRetro                                 MP3   ICY: Peter Wolf - I Need You Tonight
+    279 votes  Carnaval Punta Arenas                   MP3   ICY: Paul Anka - You're Having My Baby
+    279 votes  Super Stereo 5                          OGG   plays, names nothing
+    269 votes  Mi Radio                                AAC+  plays, names nothing
+    264 votes  Yamato                                  MP3   ICY: Fushigi Yuugi - Dash
+    257 votes  Tornagaleones                           AAC+  ICY: Will Smith - Gettin' Jiggy Wit It
+    256 votes  Radioactiva                             MP3   ICY: Ryan Castro,Peso Pluma - Quema
+    250 votes  Fanatica CHILL                          MP3   no answer
+    240 votes  Carnaval Quillota                       MP3   ICY: CARNAVAL CALERA 91.9
+    231 votes  Radio Club 80                           MP3   ICY: The Byrds - Mr. Tambourine Man,1992
+    230 votes  Super45.fm                              MP3   ICY: Valia Calda - Homeland
+    230 votes  El Conquistador Fm (Santiago)           MP3   plays, names nothing
+    213 votes  Exitosa                                 MP3   plays, names nothing
+    202 votes  Fanatica DANCE                          MP3   no answer
+    202 votes  Radio Iglesia Cristiana La Serena       MP3   ICY: Prefiero A Mi Cristo
+    193 votes  Carnaval Aconcagua                      MP3   ICY: CARNAVAL ACONCAGUA 98.3
+    189 votes  Radio Estrella del Norte                MP3   plays, names nothing
+    187 votes  Código Metal Radio                      MP3   ICY: Skullpture - A Horrifying Death
+    182 votes  Radio Nuble 89.7 fm                     MP3   plays, names nothing
+    180 votes  Radio Festival                          AAC+  plays, names nothing
+    180 votes  Radio Agricultura                       AAC   HLS, plays
+    176 votes  Activa                                  MP3   ICY: Ryan Castro,Peso Pluma - Quema
+    168 votes  VLN Radio                               AAC+  plays, names nothing
+    166 votes  Club Dance Chile                        AAC+  ICY: JOE STONE - NOTHING ELSE (WHEN I THINK OF YOU) (EXTENDED MIX)
+    159 votes  Isla Negra Slowbeat                     AAC   ICY: Sonnymoon; Miguel Atwood-Ferguson - Just Before Dawn
+    159 votes  Beethoven - Santiago FM                 AAC+  plays, names nothing
+    157 votes  Radio Recuerdos                         AAC+  ICY: SANDRO - Quiero llenarme de ti - SANDRO
+    156 votes  Radio Armonía Oficina                   MP3   ICY: Escuchamos Summer Fun con Wiso Aponte en ARMONIA OFICINA
+    155 votes  La Mexicana Chile                       MP3   plays, names nothing
+    151 votes  Fanatica INDIE                          MP3   no answer
+    146 votes  Exitos La popular                       AAC+  no answer
+    146 votes  Radioactiva 92.5 FM                     AAC+  ICY: Ryan Castro,Peso Pluma - Quema
+    144 votes  Bío-Bío Los Ángeles 96.7                AAC+  plays, names nothing
+    142 votes  Chercan Radio                           MP3   no answer
+    135 votes  Radio Club 80                           OGG   status: The Byrds - Mr. Tambourine Man,1992
+    135 votes  Contemporánea                           MP3   ICY: Radio Contemporanea - Canciones de tu vida
+    134 votes  Radio Contigo                           MP3   ICY: Radio Contigo
+    131 votes  Isadora                                 AAC+  plays, names nothing
+    129 votes  BeethovenFM                             AAC   HLS, plays
+    127 votes  Rock&Pop Chile                          AAC+  plays, names nothing
+    120 votes  CLUB DANCE CHILE                        AAC+  plays, names nothing
+    117 votes  Radio 7 Tazas de Molina                 MP3   plays, names nothing
+    115 votes  Carnaval San Antonio                    MP3   ICY: CARNAVAL SAN ANTONIO 90.5
+    114 votes  Radio Concierto Chile                   AAC+  plays, names nothing
+    114 votes  Radio Central Clasista de Trabajadores  MP3   plays, names nothing
+    112 votes  Radio Las Nieves                        MP3   plays, names nothing
+    112 votes  Radiofavoritaranchera                   AAC   plays, names nothing
+    110 votes  Radio Austral CD97                      AAC+  plays, names nothing
+    109 votes  Bonita                                  AAC+  ICY: undefined
+    109 votes  Pirinola                                MP3   status: Wachun - Hay un gusano
+    108 votes  radio club 80 rock                      OGG   plays, names nothing
+    106 votes  Radio Concierto Chile                   AAC+  plays, names nothing
+    104 votes  Radio RTL                               AAC+  ICY: RADIO TROPICAL LATINA - LA RADIO QUE ALEGRA TU VIDA - TELEFONOS 7
+    104 votes  Radio Refugio Limache                   MP3   status: REFUGIO · Una Luz de Esperanza - La mejor radio
+    102 votes  Radio Universidad del Bío-Bío           MP3   plays, names nothing
+     99 votes  RADIO ACTIVA 92.5 cl                    MP3   plays, names nothing
+     99 votes  Radio Centro Cristiano                  MP3   ICY: Radio Centro Cristiano - Proverbios 23
+     96 votes  La Discusión                            MP3   plays, names nothing
+     93 votes  Radio El Conquistador                   MP3   plays, names nothing
+     91 votes  Radio Beethoven FM                      AAC+  plays, names nothing
+     87 votes  Radio BioBio Valparaiso                 MP3   plays, names nothing
+     85 votes  Radio rtl Curico                        MP3   ICY: RADIO TROPICAL LATINA - LA RADIO QUE ALEGRA TU VIDA - TELEFONOS 7
+     81 votes  María                                   MP3   ICY: RADIO MARIA CHILE
+     81 votes  Radio la Sureña                         MP3   plays, names nothing
+     80 votes  Radio Bio-Bio Puerto Montt              MP3   plays, names nothing
+     77 votes  RADIO BEETHOVEN                         AAC   HLS, plays
+     77 votes  La Voz del Cipres de las Guaitecas      OGG   plays, names nothing
+     75 votes  Radio Estallido Tuitero                 MP3   plays, names nothing
+     75 votes  Llacolén                                MP3   plays, names nothing
+     73 votes  Alternativa FM                          MP3   plays, names nothing
+     72 votes  Radio Caribe FM 95.5                    AAC+  plays, names nothing
+     72 votes  Isla Negra Upbeat                       AAC   ICY: Jake The Rapper - Time to Waste (Iorie's Dystopian Sundown)
+     72 votes  Radio Paloma                            AAC+  plays, names nothing
+     71 votes  13c Radio                               AAC   HLS, plays
+     70 votes  Distorsion FM FLAC                      OGG   status: Chitãozinho & Xororó - Evidencias (Ao Vivo)
+     68 votes  RADIO 24-7 CHILE                        MP3   ICY: Foster the people - Helena Beat
+     68 votes  Boogaclub                               MP3   plays, names nothing
+     67 votes  Radio Valentin Letelier                 AAC+  plays, names nothing
+     67 votes  Ritmo FM                                MP3   no answer
+     66 votes  La Karibeña Chile                       MP3   plays, names nothing
+     65 votes  Radio UdeC - Universidad de Concepción  MP3   plays, names nothing
+     65 votes  Radio El Carbón                         MP3   plays, names nothing
+     65 votes  Radio Libra                             MP3   plays, names nothing
+     65 votes  UCV radio vivan los lentos              MP3   plays, names nothing
+     63 votes  Radio XQA5                              AAC+  plays, names nothing
+     62 votes  Radio Carabineros                       AAC+  no answer
+     61 votes  Radio Edelweiss                         MP3   ICY: Radio Edelweiss
+     61 votes  Positiva                                AAC+  ICY: Lost In Your Light  feat Miguel - DUA LIPA
+     60 votes  LibelulaChile.com señal 1               AAC+  no answer
+     58 votes  Radio Millenium Network                 AAC   ICY: MILLENIUM RADIO
+     56 votes  Radio Pauta                             AAC   HLS, plays
+     53 votes  Universal Pitrufquen Chile              MP3   plays, names nothing
+     52 votes  la mega fm                              AAC+  plays, names nothing
+     49 votes  BeethovenFM                             AAC   HLS, plays
+     47 votes  CyS Radio 96.3 FM Dalcahue              AAC+  no answer
+     47 votes  Radio Principios                        MP3   plays, names nothing
+     46 votes  Radio Paula                             AAC   HLS, plays
+     46 votes  Radio Festival                          AAC+  plays, names nothing
+     45 votes  Radio Kurruf                            MP3   no answer
+     42 votes  Musicoop                                MP3   plays, names nothing
+     42 votes  13C                                     AAC   HLS, plays
+     41 votes  Radio Cariñosa                          MP3   plays, names nothing
+     41 votes  Radio Bio Bio Temuco                    AAC+  plays, names nothing
+     40 votes  Rock & Pop m                            MP3   ICY: The Verve - Lucky man
+     40 votes  Frecuencia Rock 95.3                    MP3   ICY: FRECUENCIA ROCK
+     39 votes  CARNAVAL ANTOFAGASTA                    MP3   ICY: CARNAVAL ANTOFAGASTA 96.5
+     39 votes  City Radio POP - Chile                  OGG   no answer
+     39 votes  World Hits Radio                        MP3   plays, names nothing
+     38 votes  Radio Isla Negra - Slowbeat             AAC   ICY: Sonnymoon; Miguel Atwood-Ferguson - Just Before Dawn
+     38 votes  Radio Tornagaleones                     AAC+  ICY: Will Smith - Gettin' Jiggy Wit It
+     38 votes  Radio RTL ( curico )                    MP3   ICY: RADIO TROPICAL LATINA - LA RADIO QUE ALEGRA TU VIDA - TELEFONOS 7
+     38 votes  La Melinkana FM                         MP3   plays, names nothing
+     37 votes  City Radio POP                          OGG   no answer
+     37 votes  Radio Quillota 101.5                    MP3   no answer
+     37 votes  La Más Kaliente                         MP3   ICY: WILLIE COLON - JUANTO
+     37 votes  Radio Marisol                           AAC   plays, names nothing
+     36 votes  RADIO EL LOA 101.1 FM                   MP3   plays, names nothing
+     36 votes  ESTRELLA DEL MAR                        MP3   plays, names nothing
+     36 votes  Radio Alegría del Transporte 90.7 FM    MP3   plays, names nothing
+     36 votes  Kawaii Anime Radio                      AAC+  ICY: DEVIL NO ID - ユートピア
+     36 votes  LibelulaChile.cl                        AAC+  plays, names nothing
+     35 votes  Radio Club 80                           MP3   ICY: Prince - Let�s Go Crazy (Special dance mix)
+     35 votes  FM Plus                                 AAC   ICY: Tanda
+     35 votes  RADIO PAULINA                           MP3   ICY: RADIO PAULINA
+     34 votes  Radio Club Retro Hits                   AAC+  no answer
+     34 votes  Radio Destino                           MP3   ICY: Donna Summer - She Works Hard for the Money
+     34 votes  BLUFM                                   AAC+  ICY: Aerosmith - Cryin'
+     34 votes  Conexion Radio                          MP3   status: Chitãozinho & Xororó - Evidencias (Ao Vivo)
+     33 votes  Radio Guayacán                          MP3   plays, names nothing
+     33 votes  🕷️ Radio Picados - Online - Música 24/  AAC   ICY: Charlie Puth - Sideways (feat. Coco Jones)
+     33 votes  Radio Picados Música 24/7 - Chile 🇨🇱    AAC   ICY: Charlie Puth - Sideways (feat. Coco Jones)
+     32 votes  CITYRADIO - CHILE                       OGG   status: Red Garland, Paul Chambers, Art Taylor - Please Send Me Someon
+     32 votes  Radio Isla Negra                        AAC   ICY: Eddie C; Dr. Mike Roma - Jam On Dallas Road (feat. Dr. Mike Roma)
+     32 votes  Radio Marcela                           MP3   plays, names nothing
+     32 votes  Radio Dulce CASABLANCA 97.9 FM          MP3   plays, names nothing
+     32 votes  Digital 94.9 FM - VALPARAISO            MP3   plays, names nothing
+     31 votes  ESTACION DEL PODER                      MP3   plays, names nothing
+     31 votes  Radio Rural Chile                       AAC+  ICY: La Banda Tropikal de Vallenar - Mix Ranchero
+     31 votes  Principios Radio                        MP3   plays, names nothing
+     31 votes  Digital 105.5 FM - CONCEPCIÓN           MP3   plays, names nothing
+     30 votes  Biobio Valdivia                         AAC+  plays, names nothing
+     30 votes  Radio Colombina                         MP3   ICY: 20231107 - Gala Centro 001
+     30 votes  Chillout FM                             MP3   ICY: Airform - Dream(Chillout Mix)
+     30 votes  UCV Radio                               MP3   plays, names nothing
+     30 votes  Exa FM                                  AAC+  plays, names nothing
+     30 votes  Radiofavoritaranchera                   AAC   plays, names nothing
+     29 votes  Radio Nostalgica                        AAC+  no answer
+     29 votes  CQX-OSORNO                              AAC   ICY: CQX PAGINA OSORNO
+     29 votes  Radio Encanto 88.5 FM                   MP3   plays, names nothing
+     28 votes  Canciones Lejanas Version Latina - Zen  MP3   plays, names nothing
+     28 votes  CITYRADIO - CHILE                       OGG   status: Red Garland, Paul Chambers, Art Taylor - Please Send Me Someon
+     28 votes  Radio picarona                          AAC+  ICY: RADIO PICARONA PANGUIPULLI
+     27 votes  Radio Éxitos La Popular 106.1 FM        AAC+  no answer
+     27 votes  Blu FM 94.9                             AAC+  ICY: Aerosmith - Cryin'
+     27 votes  Tele13 Radio 103.3                      AAC   HLS, plays
+     26 votes  radioclub80 rock                        OGG   plays, names nothing
+     26 votes  VocaloPlus! Vocaloid & More             OGG   status: SCL Project (natsuP) - Arrest Rose
+     26 votes  Romántica FM                            AAC   plays, names nothing
+     26 votes  RADIO MANANTIAL DE VIDA                 MP3   ICY: Juan Carlos Alvarado - El Señor es mi pastor
+     26 votes  punto7                                  AAC+  plays, names nothing
+     25 votes  Radio Dulce LA LIGUA - PAPUDO ZAPALLAR  MP3   plays, names nothing
+     25 votes  Sintonizados con Cristo Radio - IMPCH   AAC+  ICY: Coros Unidos - Jehová Jireh
+     24 votes  La Mexicana 95.3 San Vicente            MP3   status: Presentacion Metal Picarona
+     23 votes  Radio Dulce SAN FELIPE y LOS ANDES 100  MP3   plays, names nothing
+     23 votes  Radio Violeta - La música de ayer y ho  MP3   ICY: Andrea Bocelli - In-Canto
+     23 votes  Radio Dulce CALERA - QUILLOTA 95.7 FM   MP3   plays, names nothing
+     22 votes  Silens Clamor                           MP3   ICY: The Music - Too High
+     22 votes  Frecuencia Rock 95.3                    MP3   ICY: FRECUENCIA ROCK
+     22 votes  CARNAVAL VINA DEL MAR                   MP3   ICY: CARNAVAL VINA DEL MAR 98.1
+     22 votes  Universal Malleco Chile                 MP3   plays, names nothing
+     22 votes  actual fm                               AAC   plays, names nothing
+     21 votes  C y S Dalcahue                          AAC+  no answer
+     20 votes  FM De Los Recuerdos                     MP3   no answer
+     20 votes  Radio Carnaval 104.5 FM                 AAC   ICY: CARNAVAL COQUIMBO LA SERENA
+     20 votes  Digital 97.1 FM - ANTOFAGASTA           MP3   plays, names nothing
+     20 votes  Nostalgica                              AAC+  no answer
+     19 votes  RADIO CARICIA FM                        AAC+  ICY: RADIO CARICIA FM 102.3 DESDE MELIPILLA
+     19 votes  Star Radio                              MP3   plays, names nothing
+     19 votes  Radio Amiga Fm 100.7                    MP3   plays, names nothing
+     19 votes  CLG Radio 93.5 FM                       MP3   plays, names nothing
+     18 votes  Radio Dulce 95.3 en La Ligua            MP3   plays, names nothing
+     18 votes  Radio UdeC                              MP3   plays, names nothing
+     17 votes  Radio arcoiris FM 99.3                  AAC+  ICY: Golden Earring - Twilight Zone (Single Version)
+     17 votes  Retro Plus Señal 2                      AAC,H.264 no answer
+     17 votes  Radio Vale FM CHILE                     MP3   plays, names nothing
+     17 votes  Digital 97.7 FM - LA SERENA             MP3   plays, names nothing
+     17 votes  Romántica Chile                         AAC   plays, names nothing
+     17 votes  Radio Dulce ILLAPEL 98.3 FM             MP3   plays, names nothing
+     16 votes  Vilas Radio 100.1                       MP3   plays, names nothing
+     16 votes  Digital 99.1 FM - PUNTA ARENAS          MP3   plays, names nothing
+     16 votes  Radio Club 80: Retro                    OGG   status: Enigma - Sadeness
+     16 votes  El Conquistador FM                      MP3   plays, names nothing
+     15 votes  Radio Universidad de Chile              MP3   no answer
+     15 votes  Retro Plus Señal 1                      AAC,H.264 no answer
+     15 votes  Radio Favorita 89.9 y 102.3 FM          AAC   HLS, plays
+     15 votes  Radio Duna                              AAC   plays, names nothing
+     15 votes  Radio Carnaval (La Serena)              AAC   ICY: CARNAVAL COQUIMBO LA SERENA
+     15 votes  Vilas Radio 98.1                        MP3   plays, names nothing
+     15 votes  Rock En Español Chile                   AAC   plays, names nothing
+     15 votes  Radio El Carbon                         MP3   plays, names nothing
+     14 votes  maray                                   MP3   ICY: MARAY MUSICAL 8
+     14 votes  En La Noticia Radio 101.1 FM            MP3   ICY: Andy Gibb - Shadow Dancing
+     14 votes  Puerto Salsa Radio                      MP3   status: Bloque 53 - Nina
+     14 votes  Radio FM Centro 91.7                    MP3   plays, names nothing
+     14 votes  Radio Dulce PETORCA- -CABILDO 104.7 FM  MP3   plays, names nothing
+     14 votes  CQX PMONTT                              AAC   ICY: CQX PTO MONTT  WEB
+     14 votes  Sunrise Dance                           AAC+  plays, names nothing
+     13 votes  Raxies FM                               AAC   plays, names nothing
+     13 votes  Radio Portales 1180 AM                  AAC+  plays, names nothing
+     13 votes  RADIO SOL                               MP3   ICY: RADIO SOL
+     13 votes  Radio Rebuena 95.7FM                    AAC+  plays, names nothing
+     13 votes  Radio Nostalgica                        AAC+  no answer
+     12 votes  Radio Sol FM 97.7                       MP3   ICY: RADIO SOL
+     12 votes  Radio Amiga Fm 100.7                    MP3   plays, names nothing
+     12 votes  Mi Radio                                AAC+  plays, names nothing
+     12 votes  Radio Condell 92.7 FM                   AAC   ICY: Radio Condell
+     12 votes  Radio Cobremar - Chañaral FM 89.9       MP3   plays, names nothing
+     12 votes  Radio Santiago                          MP3   no answer
+     12 votes  Sunrise Lounge                          AAC+  plays, names nothing
+     12 votes  Club Retro Hits                         AAC+  no answer
+     12 votes  Incondicionalmente Retro                AAC+  no answer
+     11 votes  Radio Genoveva Valdivia                 MP3   plays, names nothing
+     11 votes  RADIO PODER PENTECOSTAL                 AAC+  ICY: ENLACE RPP BS AS
+     11 votes  La Zarzamora                            MP3   ICY: NOACLARA-faunaKR - NOACLARA-faunaKR
+     11 votes  FM Siete Rock                           MP3   ICY: RADIO FM7 ROCK 97.3 FM
+     11 votes  Radio Lautaro Talca                     MP3   plays, names nothing
+     11 votes  Europa Beat                             MP3   ICY: Leblanc - Now We Are Free
+     11 votes  Radio Caramelo San Vicente              MP3   ICY: aire
+     11 votes  Radio Amiga de Talca                    MP3   plays, names nothing
+     11 votes  Radio Tornagaleones 105.3               OGG   status: Will Smith - Gettin' Jiggy Wit It
+     11 votes  Radio Maray                             MP3   ICY: MARAY MUSICAL 8
+     11 votes  Radio 13c 102.1 FM                      AAC   ICY: Manu Chao - Me gustas tu
+     11 votes  Digital 105.5 FM - TALCA                MP3   plays, names nothing
+     11 votes  Digital 89.5 FM - CALAMA                MP3   plays, names nothing
+     11 votes  Radio la Voz del Mar                    MP3   plays, names nothing
+     11 votes  Radio Paula FM - 103.7 MHz - Laja (HD)  MP3   plays, names nothing
+     11 votes  La jaula del Mono RadioActiva (19/03/2  MP3   plays, names nothing
+     10 votes  Digital 99.1 FM - IQUIQUE               MP3   no answer
+     10 votes  Radio Fernanda                          AAC   ICY: Hot Chocolate - You Sexy Thing
+     10 votes  Venus Radio Fm Chile                    MP3   ICY: Olivia Rodrigo - drop dead
+     10 votes  Alta Fidelidad Radio                    MP3   plays, names nothing
+     10 votes  Texto Plano                             OGG   status: Total Eclipse
+     10 votes  RADIO 24/7                              MP3   ICY: Foster the people - Helena Beat
+     10 votes  Radioroins                              AAC   plays, names nothing
+     10 votes  | COBrOx.RADiO.fm |                     MP3   ICY: rýr - karnso
+     10 votes  SuperStereo Network                     AAC   status: Jose Feliciano - Por Que Te Tengo Que Olvidar
+      9 votes  Punto 9                                 MP3   no answer
+      9 votes  Maricón radio                           OGG   plays, names nothing
+      9 votes  Estilo FM                               MP3   plays, names nothing
+      9 votes  La Sabrosita                            AAC+  plays, names nothing
+      9 votes  Radio Tropikal Ranchera                 MP3   ICY: 03 - El Koala
+      9 votes  RADIO ISLA ONLINE                       MP3   plays, names nothing
+      9 votes  radiorara                               MP3   ICY: Prince Rama - Futuros Perdidos Pero Posibles - FPPP 127 11.10.26 
+      9 votes  Radio Cristiana Manantial de Vida       MP3   ICY: Juan Carlos Alvarado - El Señor es mi pastor
+      9 votes  Radio Cumbia                            AAC   plays, names nothing
+      9 votes  Radio La Mega                           AAC+  plays, names nothing
+      9 votes  Radio picarona                          AAC+  ICY: RADIO PICARONA VILLARRICA
+      9 votes  Radio Imagina                           MP3   ICY: F.R. David - Words
+      9 votes  Radio Bohemia                           MP3   ICY: The Bangles - Walk Like an Egyptian
+      9 votes  Radio Crystal Cabildo 101.9             MP3   ICY: Futbol - Carniceria Las Marias
+      8 votes  Década de los 90s                       MP3   plays, names nothing
+      8 votes  Radio Picarona                          AAC+  ICY: RADIO PICARONA VILLARRICA
+      8 votes  Radio Municipal Iquique 93.3 FM         MP3   plays, names nothing
+      8 votes  Radio Fututo                            MP3   plays, names nothing
+      8 votes  Radio Alas de Águilas 107.5 FM          MP3   ICY: Alas de aguila es~
+      8 votes  Radio Dinámica 100.7 FM                 MP3   plays, names nothing
+      8 votes  Rockaxis Radio                          AAC   HLS, plays
+      7 votes  Radio  Estacion del Poder               MP3   plays, names nothing
+      7 votes  Radio Sol FM 97.7                       MP3   ICY: RADIO SOL
+      7 votes  Radio Euro Éxtasis                      AAC   plays, names nothing
+      7 votes  club retro hits                         AAC+  no answer
+      7 votes  Dinamix fm                              MP3   ICY: Pista de audio 12 - La Sonora de Tommy Rey
+      7 votes  Almeyda                                 MP3   ICY: Now Playing info goes here
+      7 votes  Amistad stereo                          MP3   plays, names nothing
+      7 votes  Radio Infinita                          AAC   plays, names nothing
+      7 votes  Radio Montecarlo                        MP3   ICY: Radio Montecarlo - Una Radio Global!
+      7 votes  puntosiete                              AAC+  plays, names nothing
+      7 votes  Radio la Palabra FM                     AAC+  plays, names nothing
+      7 votes  Radio Ignacio Serrano                   AAC+  ICY: Radio Ignacio Serrano On Line
+      7 votes  Radio Salsa Chile                       AAC   plays, names nothing
+      7 votes  Happy Radio Chile                       MP3   ICY: Ed Sheeran - Azizam
+      6 votes  Purranque FM                            MP3   plays, names nothing
+      6 votes  BEAT FM - La radio que te Mueve! - Val  MP3   no answer
+      6 votes  Radio La Calera 105.5                   MP3   ICY: - inicio
+      6 votes  Radio Club 80 Eurobeat                  OGG   status: La Bouche - Sweet Dreams
+      6 votes  FM+ 92.3 Radio Talca                    MP3   ICY: Escuchas FM Más!!!
+      6 votes  Radio Tornagaleones 105.3               OGG   status: Will Smith - Gettin' Jiggy Wit It
+      6 votes  Radio la Sureña                         MP3   plays, names nothing
+      6 votes  Radio FM Universidad de Antofagasta 99  MP3   ICY: RADIO UA 99.9 FM
+      6 votes  Abdulbasit Abdulsamad                   AAC   ICY: Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء
+      5 votes  LibelulaChile ONLINE                    MP3   ICY: LibelulaChile ONLINE - En Transmisión
+      5 votes  Sunrise                                 AAC+  plays, names nothing
+      5 votes  Radio Nuestra 98.7                      MP3   plays, names nothing
+      5 votes  Ni Tan Retro FM                         MP3   ICY: GIT - Es Por Amor
+      5 votes  Radio Urbana FM                         MP3   ICY: Now Playing info goes here
+      5 votes  Super45.fm                              MP3   ICY: Valia Calda - Homeland
+      5 votes  Radio Diferencia                        MP3   ICY: Diferencia Radio TV - 95.3 FM Stereo
+      5 votes  RUIDOS FM                               MP3   ICY: AISLES - BLUE-SKIES
+      5 votes  BlueRadio                               MP3   plays, names nothing
+      5 votes  Radio ADN                               AAC+  plays, names nothing
+      5 votes  Desierto FM                             MP3   ICY: RADIO DESIERTO FM 92.1 ANTOFAGASTA - Live streaming by CosasdeRad
+      5 votes  BlueRadio                               MP3   plays, names nothing
+      5 votes  PalMundo FM                             AAC   ICY: Rvssian, Rauw Alejandro, Chris Brown - Nost�lgico
+      5 votes  Radio Nativa FM                         AAC+  ICY: Juan Luis Guerra 4.40 - Como Abeja al Panal
+      5 votes  RADIO ACACIO                            MP3   ICY: 3111 - VOCES
+      5 votes  Radio Municipal Iquique                 MP3   plays, names nothing
+      5 votes  Radio San Gabriel FM                    MP3   plays, names nothing
+      5 votes  Canciones Lejanas Version Anglo - Zeno  MP3   plays, names nothing
+      5 votes  Radio Universidad de Chile              MP3   plays, names nothing
+      5 votes  Imagina 88.1                            MP3   plays, names nothing
+      5 votes  Universo FM                             MP3   plays, names nothing
+      5 votes  Atractiva 101.3                         MP3   plays, names nothing
+      5 votes  Radio Angelina 730 AM                   MP3   plays, names nothing
+      5 votes  Distorsion FM                           MP3   ICY: Sammy Hagar - Baby, It's You
+      5 votes  Radio Picados                           AAC   ICY: Charlie Puth - Sideways (feat. Coco Jones)
+      4 votes  Radio FM Latina 89.1                    MP3   ICY: Kidd Voodoo - Destello...
+      4 votes  Acordes de Chile                        MP3   ICY: LOS TRICOLORES CON DANIEL MUÑOZ - Corre Catimba
+      4 votes  Corazón                                 MP3   plays, names nothing
+      4 votes  Charanga Latina                         MP3   ICY: Radio Charanga Latina
+      4 votes  Dance FM                                AAC   ICY: Madison Mars - New Vibe Who Dis (feat. Little League)
+      4 votes  Lafken Mawida                           MP3   no answer
+      4 votes  Máxima FM                               MP3   ICY: Fun Fun - Megamix
+      4 votes  FM+                                     MP3   ICY: Escuchas FM Más!!!
+      4 votes  Radio Clásica FM Chile                  MP3   ICY: Henry Smith - Your Song - Piano Version -2024
+      4 votes  Radio Fira FM 89.7 - Quillota           AAC   plays, names nothing
+      4 votes  EchoBeat FM                             MP3   ICY: The Invincible Spirit - Anyway
+      4 votes  Radio 7 Tazas de Molina FM              AAC+  ICY: SEGUNDOS 8 OCTUBRE
+      4 votes  RADIO MARAY                             MP3   ICY: MARAY MUSICAL 8
+      4 votes  Radio La Vitrola                        MP3   plays, names nothing
+      4 votes  Radio Nuevo Mundo                       MP3   plays, names nothing
+      4 votes  radio orocoipo                          AAC+  no answer
+      4 votes  Radio 7 Tazas de Molina FM.             AAC+  ICY: SEGUNDOS 8 OCTUBRE
+      4 votes  Radio UTalca Clásica                    MP3   plays, names nothing
+      4 votes  Radio Mirador                           MP3   plays, names nothing
+      4 votes  Rock The Bones Radio - Rock & Metal Ch  MP3   ICY: Macabro - Oficio Macabro (Graneros)
+      4 votes  Radio puangue                           MP3   plays, names nothing
+      4 votes  CyberNation Radio                       AAC   plays, names nothing
+      4 votes  Radio Mix 360                           MP3   ICY: Gondwana - Verde, Amarillo Y Rojo
+      4 votes  Distorsión FM                           AAC   ICY: Sammy Hagar - Baby, It's You
+      4 votes  UFRO Radio                              AAC   HLS, plays
+      3 votes  Radio Pamela FM 107.3                   MP3   ICY: Los Nocheros - Mucho Más Que Piel
+      3 votes  Radio Kambio                            MP3   ICY: cuchilla e mono - Gangster (A Bailar!)
+      3 votes  Radio Edelweiss                         MP3   ICY: Radio Edelweiss
+      3 votes  trending                                MP3   no answer
+      3 votes  Forever Classic FM                      MP3   ICY: Se�al internacional - solo musica las 24 horas - uniendo generaci
+      3 votes  UCV Radio 103.5                         MP3   plays, names nothing
+      3 votes  Retro Radio 80 & 90                     MP3   plays, names nothing
+      3 votes  Cadenza Radio                           AAC+  ICY: Loudness - Crazy Nights
+      3 votes  Radio Del Maipo                         MP3   plays, names nothing
+      3 votes  Radio Alborada 106.1                    MP3   ICY: TRAIN - Hey, Soul Sister
+      3 votes  Radio Araucana                          AAC+  ICY: Miguel Mateos - Zas - Y, Sin Pensar
+      3 votes  Radio Evocación                         MP3   ICY: ROMANTICO - FRANCO DE VITA - TU DE QUE VAS
+      3 votes  Radio Ancoa La Radio de Linares         MP3   plays, names nothing
+      3 votes  Radio Fe Pentecostal                    MP3   plays, names nothing
+      3 votes  Radio la Chúkara                        AAC+  ICY: La Banda Tropikal de Vallenar - Mix Ranchero
+      3 votes  PARA TI FM                              AAC+  ICY: Ads - Block
+      3 votes  RADIO UVM                               MP3   ICY: DJ Mike Llama - Llama Whippin' Intro
+      3 votes  La Buena 101.5                          MP3   ICY: Rosita Leon - Hablenme Montes Y Valles
+      3 votes  Radio Primavera                         AAC+  plays, names nothing
+      3 votes  FM+ 92.3 Radio Talca                    MP3   ICY: Escuchas FM Más!!!
+      3 votes  Radio Techno Chile                      AAC   plays, names nothing
+      3 votes  Radio Tecno                             MP3   plays, names nothing
+      3 votes  BlueRadio                               MP3   plays, names nothing
+      3 votes  Recuerdos Retro                         MP3   ICY: Black - Wonderful Life
+      3 votes  Retro Clásicos Radio                    AAC+  ICY: Deacon Blue - Real Gone Kid
+      3 votes  Sabor a Cumbia                          MP3   plays, names nothing
+      3 votes  Nostálgica 2026                         MP3   plays, names nothing
+      3 votes  Radio UNAP 101.9                        MP3   ICY: DJMouse ® I love Bachata 2
+      2 votes  CTM Radio                               OGG   no answer
+      2 votes  LibelulaChile REC                       MP3   ICY: 010 resplandores musicales con gisselle cañellas
+      2 votes  4FUN ROCK                               MP3   ICY: Helmet - Unsung
+      2 votes  Acústica                                MP3   plays, names nothing
+      2 votes  Altura FM                               MP3   no answer
+      2 votes  Canal 8090 Retro Hits Radio             MP3   plays, names nothing
+      2 votes  Corporación FM                          AAC+  plays, names nothing
+      2 votes  Radio Kambio                            MP3   ICY: cuchilla e mono - Gangster (A Bailar!)
+      2 votes  Estación Latina                         AAC   ICY: Ednita Nazario - Tu Sabes Bien~0,16-6,86
+      2 votes  Frecuencia Tropical FM                  AAC+  no answer
+      2 votes  Radio Remusica                          AAC+  no answer
+      2 votes  Radio Crucero                           MP3   ICY: AC/DC - Givin the Dog a Bone
+      2 votes  Maldonado FM                            AAC+  ICY: Top Latino Songs 2019 - Luis Fonsi_ Ozuna_ Nicky Jam_ Becky G_ Ma
+      2 votes  Mas Longaví FM                          MP3   plays, names nothing
+      2 votes  Radio Maipu Fm                          MP3   ICY: Peregrinos del Amor - La Ciudad
+      2 votes  MasRadio 95.9fm                         MP3   ICY: MAS RADIO 91.5 LA UNION - RIO BUENO / 89.3 FUTRONO, LAGO RANCO - 
+      2 votes  Motiva                                  AAC   ICY: SAN IGNACIO CONECTADO - 14 OCTUBRE 2026
+      2 votes  Fernanda Música en Línea                AAC   ICY: Hot Chocolate - You Sexy Thing
+      2 votes  Océano FM                               MP3   plays, names nothing
+      2 votes  Radio 13c                               AAC   ICY: The Police - De do do do de da da da
+      2 votes  Radio Antofagasta Online Retro          MP3   ICY: 31 MINUTOS - SON POLOLOS
+      2 votes  Radio Austral                           AAC+  plays, names nothing
+      2 votes  Radio Club80 Rock Hits                  OGG   plays, names nothing
+      2 votes  Radio Azul                              AAC   plays, names nothing
+      2 votes  Radio Colina 107.3 FM                   MP3   plays, names nothing
+      2 votes  Radio Cosmos FM                         MP3   ICY: EXTRACTOS DERECHOS DE AGUA (MA
+      2 votes  Radio El Sembrador                      MP3   plays, names nothing
+      2 votes  Radio Kurruf                            MP3   no answer
+      2 votes  Radio Encanto 88.5 FM                   MP3   plays, names nothing
+      2 votes  Radio Energía                           AAC+  plays, names nothing
+      2 votes  City Radio Smooth and Jazz              OGG   status: Red Garland, Paul Chambers, Art Taylor - Please Send Me Someon
+      2 votes  Radio Exitosa                           AAC   plays, names nothing
+      2 votes  Radio Gabriela                          MP3   ICY: ONDA FIESTA POR GABRIELA
+      2 votes  Radio Indomables                        MP3   ICY: eclipse musical - no me abandones
+      2 votes  Radio Jazz y Mas                        MP3   plays, names nothing
+      2 votes  Radio La Chúkara                        AAC+  ICY: La Banda Tropikal de Vallenar - Mix Ranchero
+      2 votes  Radio La Nueva FM                       MP3   plays, names nothing
+      2 votes  Radio La Popular FM                     AAC+  ICY: La Popular FM - Siempre Junto al Pueblo
+      2 votes  Radio Lado B Classic Dance              MP3   ICY: Jane Child - Don't Wanna Fall In Love (12'' Remix)
+      2 votes  Bio-Bio Osorno                          AAC+  plays, names nothing
+      2 votes  Radio Orión FM                          MP3   status: Stevie Wonder - Part-Time Lover
+      2 votes  Radio Naval                             MP3   ICY: Morgan Wallen - What I Want
+      2 votes  Radio Máxima FM                         MP3   ICY: Fun Fun - Megamix
+      2 votes  Radio Pilmaiquén                        MP3   plays, names nothing
+      2 votes  Radio Placeres                          MP3   plays, names nothing
+      2 votes  Radio Punto 7 bio bio                   MP3   plays, names nothing
+      2 votes  Radio Toconao                           MP3   plays, names nothing
+      2 votes  UC Radio Beethoven                      AAC+  plays, names nothing
+      2 votes  Radio Putupur                           MP3   plays, names nothing
+      2 votes  Radio TropiConce                        MP3   ICY: Pandora - Popurri Juan Gabriel Medley
+      2 votes  Radio Recreo                            MP3   ICY: Peabo Bryson - A Whole New World (Aladdin\'s Theme)
+      2 votes  Radio Ruta Norte FM                     MP3   ICY: RED RUTA NORTE FM
+      2 votes  Radio Súper Sol Osorno                  MP3   plays, names nothing
+      2 votes  Radio Sur Valdivia                      MP3   ICY: caifanes - afuera
+      2 votes  Radio USM                               MP3   ICY: The Carpenters - (they long to be) Close to you
+      2 votes  Radio Club 80: Euro Hits                OGG   status: Technotronic, Technotronic feat. Felly - Pump Up The Jam / Pum
+      2 votes  Rio Claro FM 88.5                       MP3   ICY: issue
+      2 votes  Zumbale Radio                           MP3   no answer
+      2 votes  Valdivia Radio                          AAC+  no answer
+      2 votes  Amor FM                                 AAC+  plays, names nothing
+      2 votes  Radio Aún estamos vivos                 MP3   ICY: Mr. Mister - Kyrie (Remastered) (Live)
+      2 votes  Radio Bravísima                         MP3   plays, names nothing
+      2 votes  STEED EDM Radio                         MP3   ICY: Alesso Vs OneRepublic - If I Lose Myself (Alesso Remix)
+      2 votes  Punto 7 - Concepción                    AAC+  plays, names nothing
+      2 votes  Radio Picados                           AAC   ICY: Charlie Puth - Sideways (feat. Coco Jones)
+      2 votes  San José FM                             MP3   plays, names nothing
+      1 votes  Radio Club Instrumental/Jazz            UNKNOWN no answer
+      1 votes  Estacion Ranchera Chile                 AAC+  no answer
+      1 votes  Belén FM                                MP3   plays, names nothing
+      1 votes  Caramelo Rengo FM                       MP3   plays, names nothing
+      1 votes  En Línea Radio                          MP3   plays, names nothing
+      1 votes  Estación Activa                         AAC+  plays, names nothing
+      1 votes  ICC RADIO                               MP3   ICY: AQLC - 19 Huelga de púlpitos
+      1 votes  La Voz del Cipres                       OGG   plays, names nothing
+      1 votes  MyTuner 90s                             MP3   plays, names nothing
+      1 votes  Guza FM                                 MP3   no answer
+      1 votes  92Punto3 FM Puerto Montt                MP3   plays, names nothing
+      1 votes  La Voz de Yungay                        MP3   plays, names nothing
+      1 votes  Radio La Mexicana                       MP3   plays, names nothing
+      1 votes  FM Music                                MP3   ICY: Marc Anthony - Te Conozco Bien
+      1 votes  Radio Catalina 106.3 FM                 MP3   ICY: undefined
+      1 votes  La Imbatible FM                         MP3   ICY: APLAUSOS 01 KMR
+      1 votes  Trending radio                          AAC   no answer
+      1 votes  Panal Radio                             MP3   ICY: ﻿Buck Fizz - The Land Of Make Believe
+      1 votes  Patagonia FM                            AAC+  ICY: TANDA PUBLICITARIA
+      1 votes  Play FM                                 AAC   ICY: Hot Chocolate - You Sexy Thing
+      1 votes  Portal 90 Radio                         MP3   ICY: Mix Akták Retro Party - Mix Files 90s Eurodance Megamix (mixed by
+      1 votes  Radio 4ever                             MP3   ICY: Leon Gieco - Los Salieris De Charly
+      1 votes  106.1 Exitos San Vicente                AAC+  ICY: Ads - Block
+      1 votes  Radio Armonía Oficina                   MP3   ICY: Escuchamos I Surrender All  *** con Our Daily Bread en ARMONIA OF
+      1 votes  Radio Arrayan                           MP3   plays, names nothing
+      1 votes  Radio Aun estamos vivos                 MP3   ICY: Mr. Mister - Kyrie (Remastered) (Live)
+      1 votes  Radio Rara                              MP3   ICY: Prince Rama - Futuros Perdidos Pero Posibles - FPPP 127 11.10.26 
+      1 votes  Radio Creación FM                       AAC   plays, names nothing
+      1 votes  Radio Ocurrente, Ocurrente Como Tú      MP3   ICY: Radio Ocurrente - promo, radio ocurrente fm. julio 2026.mp3
+      1 votes  Radio Estrella del Mar                  MP3   plays, names nothing
+      1 votes  Radio Exclusiva FM                      MP3   plays, names nothing
+      1 votes  Radio Favorita                          AAC   HLS, plays
+      1 votes  Radio Fiessta                           AAC   plays, names nothing
+      1 votes  Edmundo del pino                        MP3   no answer
+      1 votes  Radio Gente 105.7 FM                    AAC   plays, names nothing
+      1 votes  Radio La Movida                         AAC+  plays, names nothing
+      1 votes  Radio Austral                           AAC+  plays, names nothing
+      1 votes  Radio La Nueva FM                       MP3   plays, names nothing
+      1 votes  LOVE FM: All you need is Love ♥ Clásic  AAC   HLS, plays
+      1 votes  Radio Pauta                             AAC   HLS, plays
+      1 votes  Radio Perfección 80s                    MP3   ICY: Queen - Flash
+      1 votes  Radio Perla del Maule                   MP3   ICY: Gloria Estefan - Here We Are
+      1 votes  Master of Rock Chile                    MP3   plays, names nothing
+      1 votes  Consuelo FM                             AAC   ICY: Use HTTP to feed the song name
+      1 votes  Pangal FM                               MP3   plays, names nothing
+      1 votes  Radio Punto 9                           MP3   no answer
+      1 votes  Radio Punto 7 Puerto Montt              AAC+  plays, names nothing
+      1 votes  Radio Punto 7 Valdivia                  MP3   plays, names nothing
+      1 votes  Radio Sago                              MP3   plays, names nothing
+      1 votes  Radio Nervios                           MP3   plays, names nothing
+      1 votes  Radio Santa María                       AAC   plays, names nothing
+      1 votes  Radio Master                            OGG   plays, names nothing
+      1 votes  Radio Sembrador                         MP3   plays, names nothing
+      1 votes  Radio UTalca Folclore                   MP3   plays, names nothing
+      1 votes  Radio Superbuena Paredones              MP3   plays, names nothing
+      1 votes  Radio Tenina FM                         MP3   plays, names nothing
+      1 votes  Radio Tongoy fm 107.1                   MP3   ICY: RADIO TONGOY
+      1 votes  Radio Tricolor                          AAC+  ICY: Cinema - Locos Rayados
+      1 votes  Radio Universal FM                      MP3   plays, names nothing
+      1 votes  Radio Universal Villarrica              MP3   plays, names nothing
+      1 votes  Radio Club 80                           MP3   ICY: Prince - Let�s Go Crazy (Special dance mix)
+      1 votes  Radio Universidad de Antofagasta        MP3   ICY: RADIO UA 99.9 FM
+      1 votes  Radio Vida Curicó                       AAC+  plays, names nothing
+      1 votes  Radio Club 80: Movie Sound Instrumenta  MP3   no answer
+      1 votes  RadioMDV                                MP3   ICY: Juan Carlos Alvarado - El Señor es mi pastor
+      1 votes  Raudal FM97.1                           MP3   ICY: #FLORECEJUNTOARAUDALFMPRIMAVERA2026 - Raudal F.M.  - 97.1 ,93.9, 
+      1 votes  congreso                                AAC+  plays, names nothing
+      1 votes  Radio Azúcar                            MP3   ICY: aire
+      1 votes  San Bernardo Radio                      MP3   ICY: Fe De Errata - Error 404
+      1 votes  Radio Azúcar FM                         MP3   ICY: aire
+      1 votes  Señal Dance Chile                       MP3   plays, names nothing
+      1 votes  Sintonizados con Cristo Radio - IMPCH   AAC+  ICY: Coro Menap - Espíritu Santo (En Vivo)
+      1 votes  Tropical Ranchero                       MP3   ICY: Michael Kiwanuka - Interlude (Loving the People)
+      1 votes  RADIO VISION                            MP3   ICY: Los Voceros de Cristo - Oh! Alma Mía - 06 Oh! Alma Mía
+      1 votes  | COBrOx.RADiO.fm |                     MP3   ICY: rýr - karnso
+      1 votes  Radio Sanfurgo                          MP3   ICY: Capella Istropolitana & Jaroslav Krcek - Francesco Manfredini: Co
+      1 votes  Radio Buena Nueva Linares               MP3   ICY: Linares 97.9 FM-Chanco-Pelluhue-Curanipe 106.3 FM-Constitucion 89
+      1 votes  Radio Candela                           AAC   HLS, plays
+      1 votes  Radio Caramelo San Vicente              MP3   ICY: aire
+      1 votes  Radio Caricia                           AAC+  ICY: RADIO CARICIA FM 102.3 DESDE MELIPILLA
+      1 votes  Radio Exquisita Valdivia                MP3   plays, names nothing
+      1 votes  Radio Stella Maris                      MP3   no answer
+      1 votes  Radio Cristo Vive en Mi                 MP3   ICY: Samuel Hernandez - Dios Siempre Tiene el Control
+      1 votes  Radio Maule Sur                         MP3   plays, names nothing
+      1 votes  Raxitos FM                              MP3   ICY: 398 - Impacto
+      1 votes  Punto 7 - Temuco                        MP3   plays, names nothing
+      1 votes  Punto 7 - Valdivia                      MP3   plays, names nothing
+      1 votes  SEÑAL REC                               MP3   no answer
+      1 votes  Radio Ecos Del Valle                    MP3   plays, names nothing
+      0 votes  FMDOS                                   ?     no answer
+      0 votes  FMDOS                                   ?     no answer
+      0 votes  Radio Palabra                           AAC+  plays, names nothing
+      0 votes  radio desierto atacama cl               MP3   no answer
+      0 votes  Radio La Palabra                        AAC+  plays, names nothing
+      0 votes  Canal Sur Patagonia                     AAC+  ICY: Miguel Mateos - Llamame (Remix)
+      0 votes  C y S Radio FM                          AAC+  no answer
+      0 votes  Estación del Poder                      MP3   plays, names nothing
+      0 votes  ESTRELLA DEL MAR                        MP3   plays, names nothing
+      0 votes  Inicia Radio                            MP3   plays, names nothing
+      0 votes  La Palabra                              AAC+  plays, names nothing
+      0 votes  Medios Unidos                           MP3   plays, names nothing
+      0 votes  Newen del Lago                          AAC+  plays, names nothing
+      0 votes  Blaster radio                           MP3   ICY: Falco - Der Kommissar
+      0 votes  Edelweiss                               MP3   ICY: Radio Edelweiss
+      0 votes  Radio Nativa FM                         AAC+  plays, names nothing
+      0 votes  Radio Punto Siete Osorno Chile          MP3   plays, names nothing
+      0 votes  Ritmo Urbano CL                         MP3   ICY: -
+      0 votes  Motiva2                                 AAC   ICY: Jungkook ft. Jack Harlow - 3D
+      0 votes  FM PlayBack                             MP3   plays, names nothing
+      0 votes  Radio Camelia 93.5 - CPR Presencia      MP3   plays, names nothing
+      0 votes  Retro Radio 80 & 90                     MP3   plays, names nothing
+      0 votes  Filarmonia Radio                        MP3   ICY: Snow Patrol - Chasing Cars (HQ Sound)
+      0 votes  Radio arcoiris FM                       AAC+  ICY: Golden Earring - Twilight Zone (Single Version)
+      0 votes  Millenium Radio Network                 AAC   ICY: MILLENIUM RADIO
+      0 votes  Radio Cassette                          MP3   ICY: 140 Loft - Mallorca (original)()Dvj Friz1996
+      0 votes  radiorara                               MP3   ICY: Prince Rama - Futuros Perdidos Pero Posibles - FPPP 127 11.10.26 
+      0 votes  Radio Catalina                          MP3   plays, names nothing
+      0 votes  CLUB DANCE CHILE                        UNKNOWN plays, names nothing
+      0 votes  Radio Electro                           AAC   plays, names nothing
+      0 votes  Radio Latin-Amerika                     MP3   ICY: Radio Latin Amerika - Que Buena Radio!
+      0 votes  Radio Mar FM                            MP3   ICY: Virus - Pronta Entrega
+      0 votes  Radio Millenium                         AAC   ICY: MILLENIUM RADIO
+      0 votes  All About Music - AAM                   MP3   plays, names nothing
+      0 votes  Región Circular                         MP3   ICY: Aterciopelados - Bolero falaz
+      0 votes  Más Radio 95.9 FM                       MP3   ICY: MAS RADIO 91.5 LA UNION - RIO BUENO / 89.3 FUTRONO, LAGO RANCO - 
+      0 votes  Radio Punto 7 Osorno                    AAC+  plays, names nothing
+      0 votes  Radio Punto 7 Temuco                    MP3   plays, names nothing
+      0 votes  Radio Rock                              MP3   plays, names nothing
+      0 votes  Radio Sinfónica                         MP3   plays, names nothing
+      0 votes  Radio Tapihue 107.7 FM                  MP3   plays, names nothing
+      0 votes  Radio Éxitos La Popular 106.1 FM        AAC+  no answer
+      0 votes  Save Room FM                            ?     plays, names nothing
+      0 votes  Save Room FM                            MP3   plays, names nothing
+      0 votes  RegiónXV                                MP3   plays, names nothing
+      0 votes  Retro Top's                             MP3   ICY: The Whispers - It's A Love Thing
+      0 votes  Macarena                                AAC+  plays, names nothing
+      0 votes  Retroactiva Concepción                  MP3   plays, names nothing
+      0 votes  ufro clásica                            MP3   no answer
+      0 votes  Radio Azul                              AAC   plays, names nothing
+      0 votes  Radio Bendiciónn FM                     MP3   ICY: undefined
+      0 votes  Esperanza FM 90.1 Ancud                 MP3   plays, names nothing
+      0 votes  Punto 7 - Valparaíso                    AAC+  plays, names nothing
+      0 votes  Punto 7 - Los Ángeles                   MP3   plays, names nothing
+      0 votes  Punto 7 - Osorno                        AAC+  plays, names nothing
+      0 votes  Punto 7 - Puerto Montt                  AAC+  plays, names nothing
+      0 votes  Radio Mapuche Aukinko                   ?     plays, names nothing
