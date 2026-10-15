@@ -1,0 +1,819 @@
+Probed 2026-10-15 16:35 UTC from GitHub's network
+
+Radio Browser (https://de1.api.radio-browser.info): 805 stations filed under CO, ordered by votes
+  reachable now           734 (91%)
+    HLS playlists          41 (5%)   play, no title in the stream
+    ICY title             218 (27%)
+    status document         9 (1%)
+    plays, names nothing  466 (58%)
+  not reachable            71 (9%)
+
+codecs as filed: MP3 502, AAC+ 169, AAC 110, UNKNOWN 11, ? 10, OGG 2, FLV 1
+tags as filed: crossover 142, vallenato 134, salsa 118, popular 95, entretenimiento 94, music 92, noticias 87, tropical 74, pop 50, cumbia 45, merengue 44, latino 43, rock 40, reggaeton 38, radio hablada 38, cristiana 32, baladas en español 30, radio comunitaria 29, música variada 26, religious 26, musica romantica 25, deportes 25, baladas 21, 80s 21, information 21
+
+every station, most voted first:
+  21512 votes  Blu Radio, señal nacional (HJCK, 89.9   MP3   plays, names nothing
+  19921 votes  Caracol Radio Colombia (HJGL 100.9 / H  AAC+  plays, names nothing
+  14336 votes  W Radio Colombia, Bogotá (HJCZ 690 AM;  MP3   ICY: Sabrina Carpenter - Taste
+  11511 votes  La Kalle                                MP3   plays, names nothing
+   7772 votes  123 Vallenato                           AAC+  ICY: vallenato cobijas Jairo Serrano
+   7514 votes  Radiónica (HJYM 99.1 Bogotá) RTVC       AAC+  plays, names nothing
+   7326 votes  Tropicana Bogotá (HJRX 102.9) Caracol   MP3   plays, names nothing
+   7220 votes  Candela Estéreo Bogotá (HJPU 101.9)     MP3   ICY: Felipe Pelaez - El Amor Mas Grande Del Planeta
+   6885 votes  Salsa Clásica Éxitos                    MP3   no answer
+   6850 votes  Olímpica Stereo (Medellín) 104.9-FM     AAC+  plays, names nothing
+   6702 votes  La Mega (Medellín) 92.9 FM              AAC   ICY: MADISSON AVENUE - DONT CALL ME BABY
+   6646 votes  Baladas Románticas                      MP3   no answer
+   5802 votes  Super Clásica                           AAC+  ICY: Fey - Azucar amargo
+   5543 votes  Vibra Bogotá 104.9 FM                   AAC+  ICY: Vilma Palma e Vampiros - Voy A Vos
+   5421 votes  Bésame (Medellín) 94.9 FM               AAC+  plays, names nothing
+   4863 votes  Caracol Radio (Bogotá) - 100.9 FM / 81  AAC+  plays, names nothing
+   4830 votes  Mix (Medellín) 89.9 FM                  AAC+  plays, names nothing
+   3978 votes  Barranquilla Estereo                    AAC+  plays, names nothing
+   3969 votes  Abaco Libros y Cafe Jazz Radio          AAC+  ICY: Bill Evans - Waltz for Debby [Take 2]
+   3315 votes  LOS40 Colombia                          AAC+  plays, names nothing
+   3078 votes  Radioacktiva (Bogotá) - 97.9 FM - HJJK  AAC+  plays, names nothing
+   3075 votes  La Pachanguera FM                       MP3   ICY: Fruko - Los Charcos
+   2885 votes  Baladas Románticas                      MP3   no answer
+   2643 votes  Tropicana Cali 93.1 fm                  MP3   plays, names nothing
+   2483 votes  Paisa Estereo                           AAC+  ICY: tropical CONFUNDIDO El Combo De Las Estrellas EXITO
+   2358 votes  El Sol (Medellín) 107.9 FM              AAC   ICY: Jose Jose - NO ME ACOSTUMBRO
+   2314 votes  Super Clásica                           MP3   ICY: Jose Maria Bachelli - Y solo tu
+   2311 votes  Estrella Estéreo (HJTD 104.3 MHz, La E  MP3   ICY: TROPICAL VENEZOLANO -- Amor Callado - La Tremenda
+   2066 votes  Tropical Bailable                       MP3   no answer
+   2045 votes  Romántica Stereo 88.1 FM Pasto          MP3   plays, names nothing
+   1922 votes  ZonaSalsa                               AAC+  ICY: Jimmy Delgado - Bandera (2004)
+   1819 votes  Brutal (Medellín) 91.9 Fm               MP3   plays, names nothing
+   1788 votes  Radio Policía (Medellín) Nacional 96.4  MP3   plays, names nothing
+   1669 votes  40 Principales Colombia                 MP3   plays, names nothing
+   1535 votes  Mi%Vallenatísima                        MP3   plays, names nothing
+   1313 votes  Tropicana (Medellín) 98.9 FM            AAC+  plays, names nothing
+   1215 votes  La Voz de Jesús                         MP3   plays, names nothing
+   1149 votes  Ídolos Del Pueblo                       MP3   no answer
+   1121 votes  Mega St☆r Colombia                      AAC   plays, names nothing
+   1082 votes  Tropicanal 98.9 FM                      MP3   plays, names nothing
+   1062 votes  Colombia Salsa Dura                     AAC   ICY: Larry Harlow - Abran paso
+   1017 votes  Radio Ipiales Caracol (HJJJ, 1400 kHz   MP3   plays, names nothing
+    992 votes  La x Bogota                             MP3   plays, names nothing
+    979 votes  Olimpica Stereo 101.5 Fm Sincelejo      AAC+  plays, names nothing
+    935 votes  Balada FM Bogota                        MP3   plays, names nothing
+    924 votes  Radio Bolivariana FM (HJA94, 92.4 MHz   MP3   plays, names nothing
+    914 votes  Radio María Colombia                    AAC+  ICY: RADIO MARIA COLOMBIA
+    862 votes  Medellin 104.9 - Olimpica Stereo        AAC+  plays, names nothing
+    853 votes  Radioacktiva (Medellín) - 102.3 FM - P  AAC+  plays, names nothing
+    850 votes  La Ochentera Medellin Colombia          AAC+  plays, names nothing
+    821 votes  Caracol Radio Colombia (HJGL 100.9 / H  AAC+  plays, names nothing
+    777 votes  Radio Tiempo Barranquilla               UNKNOWN HLS, plays
+    746 votes  Madrigal Stereo                         AAC+  no answer
+    733 votes  Olímpica Stereo(Bogotá)                 AAC+  plays, names nothing
+    732 votes  W Radio                                 AAC+  plays, names nothing
+    727 votes  Viejoteca y algo más                    MP3   plays, names nothing
+    719 votes  Mi Ruta Mi Musica Retro                 AAC   plays, names nothing
+    714 votes  Blu Radio (Medellín) 97.9 FM            AAC+  plays, names nothing
+    687 votes  LA X 96.5 Cali                          MP3   plays, names nothing
+    678 votes  La voz de Jesús                         MP3   plays, names nothing
+    660 votes  La Voz De Dios                          MP3   no answer
+    648 votes  6.90 RADIO ROMANTICAS                   MP3   plays, names nothing
+    644 votes  WRadio Colombia                         AAC+  plays, names nothing
+    632 votes  Olímpica Stereo - Barranquilla          AAC+  plays, names nothing
+    625 votes  Fantástica Internacional (HJF92, 103.9  AAC+  no answer
+    576 votes  Mix Radio 103.9                         UNKNOWN HLS, plays
+    557 votes  La X Medellín 103.9 FM                  AAC+  plays, names nothing
+    541 votes  Radio Tiempo Cartagena Colombia         AAC+  plays, names nothing
+    528 votes  RadioActiva 97.9FM. El planeta Rock     AAC+  ICY: Good Charlotte - Lifestyles of the rich and famous
+    525 votes  Baladas Rs                              MP3   plays, names nothing
+    522 votes  Olímpica Stéreo 104.5 Cali              MP3   plays, names nothing
+    521 votes  Radio Centro Cristiano Bogotá           MP3   no answer
+    516 votes  Baladas Inglés... RDC Radio             MP3   plays, names nothing
+    482 votes  Tropicanal 98.9 FM                      MP3   plays, names nothing
+    438 votes  SOLO BALADAS RADIO                      MP3   plays, names nothing
+    432 votes  123vallenato                            AAC+  ICY: vallenato cobijas Jairo Serrano
+    431 votes  La 1070 de Radio Santa Fe (Q'Hubo Radi  AAC+  plays, names nothing
+    427 votes  Pingüino Estéreo                        MP3   plays, names nothing
+    415 votes  Radio Viva Fenix Ipiales (HJB29, 89.1   MP3   plays, names nothing
+    410 votes  Ecos del Combeima (HJNC, 790 kHz AM, I  MP3   no answer
+    396 votes  Colombia Pop Rock                       AAC   ICY: Mr Big - To be with you
+    390 votes  Fiesta Stereo 95.8 FM La Plata, Huila   AAC   no answer
+    382 votes  Olimpica Stereo 90.5 Fm Monteria        AAC+  plays, names nothing
+    375 votes  Blu Radio Bogotá 89.9                   MP3   plays, names nothing
+    375 votes  WOR FM Latin Pop                        MP3   plays, names nothing
+    361 votes  RCS. Cartagena Stereo                   AAC   plays, names nothing
+    356 votes  Guarne Estéreo 88.1 FM                  MP3   plays, names nothing
+    350 votes  MIX Cali 102.5 FM                       AAC+  no answer
+    349 votes  Colombia Crossover                      AAC+  ICY: El Clan Del Moro - Buscale un sentido a tu vida
+    346 votes  Tropicalisima FM Tunja                  MP3   plays, names nothing
+    335 votes  Bésame 106.5 FM Cali                    AAC+  plays, names nothing
+    322 votes  Guarida Hip Hop                         MP3   plays, names nothing
+    321 votes  Energia 102.5 FM                        MP3   ICY: mal sueNo - bobby valentin
+    320 votes  Cartago Stereo Colombia                 MP3   plays, names nothing
+    319 votes  Radio Nacional de Colombia              AAC+  ICY: RADIO NACIONAL
+    314 votes  La Kalle FM                             MP3   plays, names nothing
+    311 votes  Voz de la capilla                       MP3   ICY: JULIO RINCON.wmv
+    309 votes  Techno Record FM Tunja                  MP3   plays, names nothing
+    306 votes  La Jefa 1300 AM                         AAC+  ICY: Víctor Valverde / Jr Torres - El Mayor de los Ranas
+    305 votes  Baladas Rs                              MP3   plays, names nothing
+    304 votes  Radio Viva Fenix Pasto (HJFV, 780 kHz   MP3   plays, names nothing
+    303 votes  America Stereo Relax                    MP3   no answer
+    300 votes  CLÁSICOS REGGAETON 24_7                 MP3   plays, names nothing
+    296 votes  Radio Tiempo Medellín                   AAC+  plays, names nothing
+    291 votes  Fuego AM                                MP3   ICY: 14- ME ACERCO _ PENTECOSTÉS _ MIEL SAN MARCOS
+    289 votes  La Super Estación Online                MP3   plays, names nothing
+    285 votes  Blu Radio - Musica                      MP3   plays, names nothing
+    285 votes  Salsa y mas Cali                        MP3   plays, names nothing
+    282 votes  ZonaSalsa Radio                         AAC+  ICY: Jimmy Delgado - Bandera (2004)
+    281 votes  Abaco Libros y Café Radio               AAC+  ICY: Bill Evans - Waltz for Debby [Take 2]
+    281 votes  Radioaktiva                             MP3   plays, names nothing
+    276 votes  ALR Jazz Radio                          AAC+  ICY: Bill Evans - Waltz for Debby [Take 2]
+    268 votes  Colombia Lounge                         AAC   ICY: Lounge - Musica Lounge
+    263 votes  Colombia Urbana                         AAC   ICY: Bad Bunny - Vete
+    262 votes  La Rockola FM                           AAC   plays, names nothing
+    258 votes  Capital Salsa                           MP3   ICY: Desconocido - Rincón Caliente 109 B [TUv]
+    250 votes  EBENEZER STEREO                         MP3   ICY: PASTOR DAVID WILKERSON - CONOCES REALMENTE AL ESPRITU SANTO?
+    248 votes  Olimpica Stereo 90.5 fm Cartagena       AAC+  plays, names nothing
+    244 votes  Radio Cristiana Colombia                MP3   plays, names nothing
+    240 votes  Fuego AM 1130                           MP3   ICY: 14- ME ACERCO _ PENTECOSTÉS _ MIEL SAN MARCOS
+    223 votes  vallenata stereo                        MP3   plays, names nothing
+    221 votes  Mundo Retro - Rock & Pop en Español     AAC   plays, names nothing
+    219 votes  Aviva2                                  MP3   ICY: Renueva Mi Espíritu Pastores Ricardo Y Ma. Patricia Rodríguez - C
+    217 votes  Mas Baladas Stereo                      MP3   plays, names nothing
+    211 votes  La FM Bogotá                            AAC   HLS, plays
+    211 votes  sasagordaradio                          MP3   plays, names nothing
+    208 votes  La Reina Barranquilla                   AAC+  plays, names nothing
+    208 votes  WOR FM Retro Bogota                     MP3   plays, names nothing
+    207 votes  Radio Power Urbana                      MP3   plays, names nothing
+    207 votes  Viejitas Pero Bonitas Radio             AAC   plays, names nothing
+    205 votes  Metrópolis Stereo                       AAC+  plays, names nothing
+    194 votes  La Mega (Pereira) 105.2 FM              AAC   ICY: Ryan Castro, Peso Pluma, SOG - JORDAN
+    193 votes  Radio Rock Colombia                     AAC   plays, names nothing
+    192 votes  Radio Viva Fenix Ipiales (HJNM, 1220 k  MP3   plays, names nothing
+    181 votes  ROCK POP LATINO                         MP3   plays, names nothing
+    181 votes  Diciembre Radio Colombia                MP3   plays, names nothing
+    178 votes  CyC Radio (Instituto Caro y Cuervo)     MP3   no answer
+    175 votes  Global Hits                             MP3   no answer
+    173 votes  Super Estación 88.9                     MP3   ICY: LA INDICADA - FABIAN CORRALES feat JEAN CARLOS CENTENO y LUISK FA
+    172 votes  La O Latina                             MP3   no answer
+    168 votes  Global Estéreo 96.8 FM La Plata, Huila  MP3   ICY: Global Estéreo
+    158 votes  SALSA Y CHARANGA 24/7                   MP3   plays, names nothing
+    155 votes  Cristianas viejitas Isaías radio        MP3   plays, names nothing
+    149 votes  Radio Tiempo Cali 89.5 FM               AAC+  ICY: Carlos vives - Ella Es Mi Fiesta PN
+    148 votes  The Beatles Radio                       MP3   plays, names nothing
+    141 votes  Armenia Stereo 89.4 FM                  AAC   plays, names nothing
+    140 votes  Emisora Atlántico 1070 AM               UNKNOWN HLS, plays
+    137 votes  Bésame 90.7 FM Armenia                  AAC+  plays, names nothing
+    136 votes  Su Presencia Radio                      MP3   ICY: Su Presencia Radio
+    133 votes  ZonaSalsa                               AAC+  ICY: Jimmy Delgado - Bandera (2004)
+    133 votes  Radioacktiva (Medellín) 102.3 FM        AAC+  plays, names nothing
+    131 votes  Olimpica Stereo Bucaramanga 97.7 FM     AAC+  plays, names nothing
+    131 votes  La Reina Cartagena 95.5 FM              AAC+  plays, names nothing
+    122 votes  Radio Tango                             MP3   plays, names nothing
+    122 votes  RADIO INFORMATIVA DE COLOMBIA           MP3   plays, names nothing
+    120 votes  Cristalina Estéreo Neiva 101.3 FM       MP3   no answer
+    116 votes  WOR FM Croosover Bogota                 MP3   plays, names nothing
+    115 votes  Bésame 100.7 FM Cúcuta                  AAC+  plays, names nothing
+    112 votes  Inci Radio                              MP3   ICY: medved - Ciegos
+    112 votes  WOR FM Dance Bogota                     MP3   plays, names nothing
+    112 votes  Pechichon Radio Vallenato               MP3   plays, names nothing
+    109 votes  Ambiente Stereo 88.4 FM                 MP3   ICY: Mi Tesoro - Marco Barrientos
+    109 votes  La Radio Deportes                       MP3   ICY: amor del bueno
+    107 votes  Dosis Electrónica Radio                 MP3   plays, names nothing
+    107 votes  Durisima Radio Online                   MP3   plays, names nothing
+    106 votes  Musical Stereo                          MP3   plays, names nothing
+    103 votes  Viejitas pero Bonitas Radio             AAC   plays, names nothing
+    103 votes  Bésame 93.7 FM Pereira                  AAC+  plays, names nothing
+    101 votes  Ctb stereo                              MP3   plays, names nothing
+     99 votes  SALSA CRISTIANA                         MP3   plays, names nothing
+     98 votes  Bésame 104.7 FM Bucaramanga             AAC+  plays, names nothing
+     97 votes  Fiesta 106.2 FM                         AAC+  ICY: Mariano Civico - Tu Precio
+     96 votes  Emisora Atlantico                       MP3   plays, names nothing
+     95 votes  Amor Stereo                             MP3   plays, names nothing
+     94 votes  La Poderosa 104.1 FM                    MP3   plays, names nothing
+     92 votes  Acuario Estéreo 1010 AM                 AAC+  plays, names nothing
+     91 votes  Tropicanal Tropical 98.9 FM             MP3   plays, names nothing
+     90 votes  Radio Recuerdos 1230 AM                 AAC+  plays, names nothing
+     89 votes  Su Presencia radio                      OGG   plays, names nothing
+     89 votes  BLU Radio Bogotá                        AAC+  plays, names nothing
+     88 votes  Su Presencia                            MP3   ICY: Su Presencia Radio
+     86 votes  B Mor                                   MP3   plays, names nothing
+     85 votes  RADIO POLICÍA NACIONAL" "106.0 FM (CAR  MP3   plays, names nothing
+     85 votes  Clasica FM919                           AAC+  plays, names nothing
+     84 votes  Bésame 91.7 FM Manizales                AAC+  plays, names nothing
+     84 votes  RADIO UNO PEREIRA 94.7 FM               AAC   ICY: El Sol Pereira
+     82 votes  Alfa Stereo 106.3 FM                    MP3   no answer
+     82 votes  Toca Stereo 105.3 fm                    AAC+  plays, names nothing
+     81 votes  Radio Chipazaque Tunja                  MP3   plays, names nothing
+     81 votes  Sabor Boricua Radio                     MP3   ICY: El Vikingo de la Salsa, Somos Bestiarii, Ronald Gomez  - Soy El M
+     80 votes  Wilos Stereo Bogota                     MP3   plays, names nothing
+     80 votes  Musical Stereo                          MP3   plays, names nothing
+     79 votes  Cafe Stereo 96.7 FM                     OGG   status: Ojala que llueva cafe - Juan Luis Guerra
+     78 votes  Worproducer Radio Bogotá                MP3   plays, names nothing
+     78 votes  Exa FM                                  AAC+  plays, names nothing
+     77 votes  La Pachanguera FM                       MP3   plays, names nothing
+     77 votes  Cooservicios Stereo Tunja               MP3   plays, names nothing
+     77 votes  Radio Cristiano Bíblico                 MP3   plays, names nothing
+     77 votes  Mix Bogota                              AAC+  plays, names nothing
+     76 votes  Balada FM Bogotá                        MP3   plays, names nothing
+     75 votes  HJMO - La FM Bogotá 94.9 FM             AAC   plays, names nothing
+     73 votes  Café Estéreo 92.1 FM                    MP3   plays, names nothing
+     72 votes  Cool-D Radio                            MP3   ICY: Jossef;Jamby El Favo;Eix - Persia (Remix) [27o4]
+     71 votes  Javeriana Etéreo                        MP3   ICY: F Schubert; Acad S Martin-in-the-fields - D 417 Symphony 4 in C m
+     71 votes  La Voz del Tao 5                        MP3   plays, names nothing
+     70 votes  PASION CRISTIANA                        MP3   plays, names nothing
+     69 votes  CROSSOVER ESTEREO                       MP3   plays, names nothing
+     69 votes  Ciudad Stereo Tunja 94.7 FM             MP3   plays, names nothing
+     69 votes  Radio Tiempo 96.1 FM                    AAC+  plays, names nothing
+     68 votes  Radio Universidad Nacional              MP3   plays, names nothing
+     67 votes  salsa y mas Cali                        MP3   plays, names nothing
+     67 votes  HuilaGeek Radio                         MP3   plays, names nothing
+     66 votes  Bésame 106.9 FM Popayán                 AAC+  plays, names nothing
+     66 votes  Exitosa Stereo 107.8 FM                 MP3   plays, names nothing
+     65 votes  Emisora Vallenata Cristiana             MP3   plays, names nothing
+     65 votes  Armonias Boyacenses 950 AM              AAC+  plays, names nothing
+     63 votes  Bolche radio                            MP3   plays, names nothing
+     62 votes  Cactus FM Tunja                         MP3   plays, names nothing
+     61 votes  SupaJamz Radio                          MP3   ICY: Dj Online
+     61 votes  Musical Stereo                          MP3   plays, names nothing
+     60 votes  Champeta online                         MP3   plays, names nothing
+     60 votes  WOR FM Love Bogota                      MP3   plays, names nothing
+     60 votes  Candela Cali 102.5 FM                   FLV   plays, names nothing
+     59 votes  La Enamorada FM                         MP3   ICY: SENTIMIENTO DE AMOR - Grupo Venus
+     58 votes  La X 96.5                               MP3   plays, names nothing
+     58 votes  Radio Power                             MP3   plays, names nothing
+     57 votes  Alfa Stereo 107.8 FM                    MP3   ICY: THE LATIN BROTHERS - SOBRE LAS OLAS
+     57 votes  La Max Baladas Rock                     MP3   no answer
+     57 votes  Ecos Prensa Radio La Calera Cundinamar  MP3   plays, names nothing
+     57 votes  LA KALLE 96.9 FM                        AAC+  no answer
+     56 votes  ((La Reina Putumayo 106.3 Fm))          AAC+  ICY: Luna - Feid Ft Atl Jacob
+     55 votes  Durisima Radio Online                   MP3   plays, names nothing
+     55 votes  WOR FM Tunja Rock y Pop                 MP3   plays, names nothing
+     55 votes  Canela Estereo 99.4 FM                  AAC+  ICY: Canela Estereo - LIVE!
+     55 votes  HuilaGeek Radop                         MP3   plays, names nothing
+     54 votes  LA ESTACION VALLENATA FM                MP3   plays, names nothing
+     54 votes  WOR FM Bogotá ZM                        MP3   plays, names nothing
+     54 votes  Colmundo Radio 1040 AM                  MP3   plays, names nothing
+     53 votes  Frecuencia Arena                        AAC+  ICY: CARLOS VIVES - TE DEDICO
+     53 votes  WOR FM Pre Recording Sessions Bogotá    MP3   plays, names nothing
+     53 votes  Radio Guatapuri                         AAC+  ICY: RADIO GUATAPURI
+     53 votes  Radio Chipazaque Junín Cundinamarca     MP3   plays, names nothing
+     52 votes  Himnos Cristianos del ayer (Radio)      MP3   plays, names nothing
+     52 votes  Radio Tiempo                            AAC+  plays, names nothing
+     51 votes  LA CLÁSICA                              MP3   plays, names nothing
+     51 votes  La Discoteca Radio                      AAC+  ICY: Tito El Bambino - Flow Natural
+     51 votes  Conectando Estéreo 91.5 FM              MP3   ICY: 251111
+     51 votes  Salsa Latina                            AAC   ICY: Bun Bun Mezclao - Parte de mi vida
+     51 votes  R2 Audivisual Radio Tunja               MP3   plays, names nothing
+     50 votes  Romántica Radio Digital                 MP3   no answer
+     50 votes  Guarida Hip Hop                         MP3   plays, names nothing
+     49 votes  La FM Plus 96.9 - Medellín              AAC   ICY: Lonnie Gordon - GONNA CATCH YOU
+     49 votes  FIESTA ESTEREO DIGITAL                  MP3   plays, names nothing
+     49 votes  Cartago Stereo 89.0 FM                  MP3   plays, names nothing
+     48 votes  Tropicana Popayán  106.1                MP3   plays, names nothing
+     48 votes  Viejitas pero Bonitas Radio             AAC   plays, names nothing
+     47 votes  EMISORA TROPICAL DE ORO                 MP3   plays, names nothing
+     46 votes  Cristalina Estéreo La Mesa 102.3 FM     MP3   no answer
+     46 votes  CANUTAL ESTEREO                         MP3   plays, names nothing
+     45 votes  Cerros Estéreo 107.4 Fm                 AAC   plays, names nothing
+     44 votes  HJ Doble K Neiva 840AM                  MP3   no answer
+     43 votes  Radio Nacional de Colombia              AAC   HLS, plays
+     43 votes  La Costeña Stereo 91.0 FM               MP3   no answer
+     43 votes  Ambiente stereo 88.5 FM                 MP3   ICY: Que Lloro - Sin Bandera
+     42 votes  Armonías del Caquetá 970 AM             AAC   ICY: Armonías del Caquetá - 970 AM
+     42 votes  LA DESPECHADA STÉREO                    MP3   plays, names nothing
+     41 votes  Angular Stereo 97.2 FM                  MP3   ICY: angular 2 editado - WWWMAU2013JPOR 1
+     41 votes  Refrigerio para el Alma                 MP3   plays, names nothing
+     40 votes  Música Tropical... RDC Radio            AAC   plays, names nothing
+     40 votes  Radio Auténtica Cali 660 AM             MP3   plays, names nothing
+     40 votes  FIESTA ESTEREO VALLENATA                MP3   plays, names nothing
+     40 votes  Celeste Estéreo 105.4 FM                AAC+  ICY: Hi-Fi Internet Stream
+     39 votes  Radio Power Urbana                      MP3   plays, names nothing
+     39 votes  Radio Policia Nacional 96.4 FM Medellí  MP3   plays, names nothing
+     38 votes  Amor Stereo                             MP3   plays, names nothing
+     38 votes  BELEN STEREO 95.3 FM                    AAC   ICY: 188 SOLO A TI JESUS (BUENO) - Adoracion ~
+     38 votes  PENTECOSTES ESTEREO                     MP3   plays, names nothing
+     37 votes  Animecol Radio                          MP3   plays, names nothing
+     37 votes  La Voz de Jesús                         MP3   plays, names nothing
+     36 votes  Antena de los Andes 1520 AM             MP3   no answer
+     36 votes  MaximusRockFM                           MP3   plays, names nothing
+     36 votes  ACORD ANTIOQUIA RADIO                   MP3   ICY: A Una Sirena
+     36 votes  Musical Stereo                          MP3   plays, names nothing
+     35 votes  Bohemia RAVEL                           MP3   plays, names nothing
+     34 votes  La Exitosa Medellin 89.5 FM             MP3   plays, names nothing
+     33 votes  Emisora cultural de Pereira Remitió An  AAC+  status: 15 CinquiZme Concert
+     33 votes  Radio UNAL Bogota                       MP3   plays, names nothing
+     33 votes  Radio Chipazaque Junin Cundinamarca     MP3   plays, names nothing
+     33 votes  OLIMPICA ESTÉREO 89.5 GUAJIRA           MP3   plays, names nothing
+     32 votes  Frecuencia Bolivariana 1160 AM          MP3   plays, names nothing
+     32 votes  Champeta Cartagena Radio                MP3   plays, names nothing
+     32 votes  Universitaria Estéreo 88.2              AAC   plays, names nothing
+     32 votes  Apartadó Stereo 103.3 FM                AAC   ICY: Now Playing info goes here
+     32 votes  Idólos del Pueblo                       MP3   no answer
+     32 votes  Edward Ortega Radio - Mas + Popular     MP3   ICY: Yeison Jimenez ft Luis Alberto Posada - Me Tir al Alcohol Letra Y
+     31 votes  Olímpica Stéreo 92.1 Barranquilla       UNKNOWN plays, names nothing
+     31 votes  Fiesta 102.7 FM                         AAC+  ICY: Me Busco Otra - Diomedes Diaz - Me Busco Otra - Diomedes Diaz
+     31 votes  Balboa Stereo 88.4 FM                   MP3   ICY: EL COCO - GRUPO NICHE
+     31 votes  W Radio                                 MP3   ICY: Sabrina Carpenter - Taste
+     30 votes  La Max Vallenata                        MP3   plays, names nothing
+     30 votes  Verdad y Vida Radio 870AM               MP3   plays, names nothing
+     30 votes  Cerro Azul Stereo 107.4 FM              MP3   plays, names nothing
+     29 votes  Estrella FM                             AAC+  ICY: salsa - Apariencias - amilkar boscan
+     29 votes  Bacatá Stereo 94.4 FM                   MP3   plays, names nothing
+     29 votes  Constellations Radio                    MP3   ICY: AutoDJ Constellations Radio: Ain't no Sunshine - Bill Whiters
+     29 votes  Vida 890 a.m. crvradio                  MP3   no answer
+     29 votes  Champeta online                         MP3   plays, names nothing
+     28 votes  Radio tropical cristiano                MP3   plays, names nothing
+     28 votes  La Isla 89.5 Fm                         AAC   ICY: LA ISLA 88.1 - SUENA DURISIMO
+     28 votes  El Café del Mundo                       AAC+  ICY: ANGELINA
+     28 votes  RADIO EXPRESO LATINO                    MP3   plays, names nothing
+     28 votes  Impacto Radio                           MP3   plays, names nothing
+     27 votes  Pereira Stereo                          MP3   plays, names nothing
+     27 votes  Marandua Stereo                         MP3   no answer
+     27 votes  Fanática Stereo                         MP3   plays, names nothing
+     27 votes  BBC 80s                                 MP3   ICY: Daryl Hall & John Oates - Out of Touch
+     27 votes  VILMAR STEREO 91.4 FM                   MP3   plays, names nothing
+     27 votes  104.1 Emisora Comunitaria - La Radio d  UNKNOWN HLS, plays
+     27 votes  Radio Bolivariana AM 1110 kHz           MP3   ICY: Entrada de línea
+     26 votes  La X Más Música 03.9 Bogotá             AAC   ICY: David Hasselhoff - Looking for Freedom
+     26 votes  Cristalina Estéreo 101.1 FM             MP3   no answer
+     26 votes  Carbón Stereo 92.5  FM                  MP3   no answer
+     26 votes  Caribe Rumba                            MP3   plays, names nothing
+     26 votes  WOR FM Pre Recording Sessions Bogota    MP3   plays, names nothing
+     26 votes  Radio Voces del Pacífico (106.6 FM)     MP3   plays, names nothing
+     25 votes  Champeta Online                         MP3   plays, names nothing
+     25 votes  Charalá Estéreo 103.2 FM                MP3   plays, names nothing
+     25 votes  Fiesta Stereo 95.8 FM                   AAC   no answer
+     25 votes  Radio Capital 1250 AM                   MP3   no answer
+     25 votes  La Caqueteña 93.1 FM                    MP3   no answer
+     25 votes  Africa All Stars                        MP3   plays, names nothing
+     25 votes  Cardenal Stereo 94.7 FM                 MP3   no answer
+     25 votes  Brisas del San Juan 106.3               MP3   plays, names nothing
+     25 votes  Champeta Radio                          MP3   plays, names nothing
+     24 votes  Cacica Stereo 89.7 FM                   AAC+  ICY: CACICA STEREO - EN VIVO
+     24 votes  Fiesta Stereo 88.1 FM                   MP3   ICY: Moises Angulo - La vaca prieta
+     24 votes  La Mega                                 AAC   HLS, plays
+     24 votes  Andina Stereo 95.1 FM                   AAC+  ICY: Andina Stereo 95.1 FM
+     24 votes  Emisora nueva época                     MP3   plays, names nothing
+     24 votes  Radio Auténtica Bogotá 540 AM           MP3   plays, names nothing
+     24 votes  Alfa y Omega.                           MP3   plays, names nothing
+     24 votes  la Voz del Tao 6                        MP3   plays, names nothing
+     24 votes  HJ DOBLE K HUILA 840 AM                 MP3   no answer
+     23 votes  Omega Digital Sterio Hispania 107.4 FM  MP3   plays, names nothing
+     23 votes  WOR FM  Pre Recording Sessions Bogotá   MP3   plays, names nothing
+     23 votes  Anorí Estéreo 105.4 FM                  AAC   plays, names nothing
+     23 votes  Alfa Stereo 106.3 FM                    MP3   no answer
+     21 votes  Candela Casanare 94.7 Fm                MP3   ICY: Candela Casanare 94.7 Fm
+     21 votes  Champeta online                         MP3   plays, names nothing
+     21 votes  Verdad y Vida Radio 100.1 FM            MP3   plays, names nothing
+     21 votes  Vilmar Stereo                           MP3   plays, names nothing
+     21 votes  EMISORA FARALLONES DIGITAL FM STEREO 9  MP3   ICY: Phil Collins - I Wish It Would Rain Down (2016 Remaster) [3huZ]
+     20 votes  Cerinza FM 100.6                        MP3   ICY: Quiereme Ahora - Juan Carlos Zarabanda (Letra) (1)
+     20 votes  Radio Mas RocknPop                      AAC+  ICY: Blondie - Heart Of Glass (Remastered 2001)
+     20 votes  La Sonora 100.6 Valle de Tenza          AAC+  ICY: Rodolfo Aicardi - Boquita de Caramelo
+     20 votes  Emisora Mariana 1400 AM                 MP3   plays, names nothing
+     20 votes  Bésame Barranquilla                     MP3   plays, names nothing
+     20 votes  R2 Audiovisual - Radio Tunja            MP3   plays, names nothing
+     20 votes  Alerta Bogotá 104.4 fm                  UNKNOWN HLS, plays
+     20 votes  Musical Stereo                          MP3   plays, names nothing
+     19 votes  Eco Stereo                              MP3   ICY: Qué Voy A Hacer Sin El_
+     19 votes  La Voz de los Llaneros 106.3FM          MP3   no answer
+     19 votes  RADIO POLICÍA BUCARAMANGA 91.7 FM       AAC   plays, names nothing
+     19 votes  MIX 103.9 FM Barranquilla               AAC+  plays, names nothing
+     19 votes  La Máxima 89.1 FM                       AAC+  plays, names nothing
+     19 votes  Arenosa stereo                          MP3   no answer
+     19 votes  Emisora Nueva Época 1200 AM             MP3   plays, names nothing
+     18 votes  Brisa FM 93.1                           MP3   ICY: POR ESO NO DEBES - Pista  7
+     18 votes  La Rockola FM                           AAC   plays, names nothing
+     18 votes  Buenisima Stereo - Barranquilla         AAC+  ICY: Conjunto Libre - Vengo Sabroso
+     18 votes  Radio Power                             MP3   plays, names nothing
+     18 votes  Blu Radio Cali 91.5 FM                  AAC+  plays, names nothing
+     18 votes  Nueva Era Algeciras Sterio 107.8 FM     AAC   ICY: Nueva Era Stereo
+     18 votes  El Sol                                  AAC   HLS, plays
+     17 votes  la Voz del Tao 6                        MP3   plays, names nothing
+     17 votes  BB Radio Rock                           MP3   plays, names nothing
+     17 votes  Energía 102.5 FM                        MP3   ICY: mal sueNo - bobby valentin
+     17 votes  La voz de mi tierrita 94.1 FM           MP3   status: DIANA GUERRERO
+     17 votes  Barrancabermeja Virtual                 MP3   plays, names nothing
+     17 votes  Cascada Stereo 107.4 FM                 MP3   ICY: Cortina Parchaito
+     17 votes  Angelópolis Stereo 107.4 FM             AAC   plays, names nothing
+     17 votes  Tu 95.5 FM                              MP3   status: Su Presencia - Bailando
+     16 votes  CIELO CARTAGENA 103.0 FM                MP3   plays, names nothing
+     16 votes  Blu Radio, señal nacional (HJCK, 89.9   AAC+  plays, names nothing
+     16 votes  La Troja Radio                          AAC+  ICY: TIM POP (New Version) - Los Van Van CD VIRUS en la voz Mandy Cant
+     16 votes  La Mega Barranquilla                    AAC   plays, names nothing
+     16 votes  la Voz del Tao 4                        MP3   plays, names nothing
+     16 votes  La FM plus                              AAC   plays, names nothing
+     16 votes  Emisora Minuto de Dios Bogotá 107.9 FM  MP3   plays, names nothing
+     16 votes  Briceño Stereo 105.4 FM                 MP3   plays, names nothing
+     15 votes  Champeta Radio                          MP3   plays, names nothing
+     15 votes  Salsa Magistral                         MP3   ICY: Ivan Llanes,Gustavo Di Dalva,Gilmar Gomes - Cubahia
+     15 votes  Cristal Stereo Isnos 95.8 FM            MP3   no answer
+     15 votes  Impacto Stereo 98.2 FM                  MP3   plays, names nothing
+     15 votes  Latina Stereo                           MP3   plays, names nothing
+     15 votes  LOS40 Colombia                          MP3   plays, names nothing
+     15 votes  RADIO POLICIA NACIONAL 91.7 FM          AAC   plays, names nothing
+     15 votes  Betuliana Stereo 107.2 FM               MP3   plays, names nothing
+     15 votes  Emisora Fusaonline                      AAC   plays, names nothing
+     14 votes  Banana Stereo 88.5 FM                   MP3   plays, names nothing
+     14 votes  UNIAUTÓNOMA 94.1 FM                     AAC+  ICY: Wilfrido Vargas - 13 Años
+     14 votes  Betuliana Stereo 107.2 FM               MP3   plays, names nothing
+     14 votes  Madrigal Stereo 881 FM                  AAC+  ICY: Varios - 166. Naciste para mi
+     14 votes  Techno Live Sets                        MP3   ICY: 98bd4ec55e29df4b652f8ac2cf010bc5
+     14 votes  DiscoRumba 95.4 FM                      MP3   ICY: 11 - 08 -2026 pickotera radio
+     14 votes  Delfín Stereo 106.3 FM                  AAC+  plays, names nothing
+     14 votes  Parranda Vallenata                      MP3   plays, names nothing
+     14 votes  CARDENAL STEREO RIOHACHA 91.7 FM        MP3   no answer
+     13 votes  la Voz del Tao 4                        MP3   plays, names nothing
+     13 votes  Calidad Stereo 100.6 FM                 AAC+  plays, names nothing
+     13 votes  Coral FM Stereo 107.4                   MP3   plays, names nothing
+     13 votes  PUERTO ESTEREO 98.4 FM                  AAC   status: 006 - EL CHOCOLATE
+     13 votes  FRONTERA STEREO 89.1 FM                 AAC   plays, names nothing
+     13 votes  JuanKiss Radio                          AAC+  ICY: Dio - Sacred Heart
+     13 votes  Improvisando Radio                      MP3   ICY: MIKE FREUND - Sunset Highways
+     13 votes  Tres Fronteras FM 96.3                  MP3   plays, names nothing
+     13 votes  la Vos del Tao 4                        MP3   plays, names nothing
+     13 votes  Radio El Sol RCN                        AAC   HLS, plays
+     13 votes  La Capital Del Reggaeton Medellin       MP3   plays, names nothing
+     12 votes  La FM Noticias Medellín                 AAC   plays, names nothing
+     12 votes  Radio El Mundo Del Rock                 MP3   no answer
+     12 votes  Aires De Timbio FM 88.9 "La Gente con   MP3   plays, names nothing
+     12 votes  Veracruz stereo                         AAC   plays, names nothing
+     12 votes  HJUN - Radio UNAL Bogotá 98.5 FM        MP3   plays, names nothing
+     12 votes  la Voz del Tao 6                        MP3   plays, names nothing
+     12 votes  Olímpica Stereo (Barranquilla)          AAC+  plays, names nothing
+     12 votes  Vibra Radio 96.9                        MP3   plays, names nothing
+     12 votes  La Voz Del Cañaguate 860 AM             AAC+  ICY: BAILANDO (JERRY R)
+     12 votes  Buturama Stereo 101.7 FM                MP3   plays, names nothing
+     11 votes  Playa Blanca Estéreo 97.7 FM            AAC   plays, names nothing
+     11 votes  Nevermore Radio - Nevermore Network     MP3   ICY: 23. George Gershwin - 23_George Gershwin - Rhapsody
+     11 votes  Javeriana Estéreo 91.9 (Bogotá)         MP3   ICY: A Vivaldi; Angel Romero, Acad St Martin in the Fields - RV 540 Co
+     11 votes  Power Online                            MP3   plays, names nothing
+     11 votes  ABC La Emisora del Pueblo 1250AM        MP3   ICY: EMISORAS ABC 1250 AM - LA EMISORA DEL PUEBLO
+     11 votes  Radio Policia Nacional 95.7 FM          MP3   no answer
+     11 votes  Cisneros Stereo 105.4 FM                MP3   ICY: EL FELINO DEL DESPECHO-los peinilleros con el apachurrao
+     11 votes  Rosareña stereo 93.1 FM                 MP3   plays, names nothing
+     11 votes  Kalamary - Radio Cultural Online        MP3   plays, names nothing
+     11 votes  Colombia Mundo Estéreo                  MP3   ICY: Prime Records - Lisa M "Tu Pum Pum"
+     11 votes  Radio opita                             AAC   no answer
+     10 votes  Radio Caracol FM (Bogotá)               MP3   plays, names nothing
+     10 votes  Charalá Estéreo 103.2fm                 MP3   plays, names nothing
+     10 votes  Telemedellín Radio                      MP3   ICY: Emotion In Emotion - The Cars.
+     10 votes  Bésame FM (Bogotá)                      MP3   plays, names nothing
+     10 votes  Olimpica Stereo Cali                    AAC+  plays, names nothing
+     10 votes  Radio Online Fusagasuga                 MP3   no answer
+     10 votes  Aro Radio                               MP3   ICY: 03_como decirte te  quiero - los fantasmas del caribe
+     10 votes  radio tiempo 97.3 sincelejo             AAC+  plays, names nothing
+     10 votes  radio tiempo montería 104.5 montería    MP3   plays, names nothing
+     10 votes  Veracruz Estereo Medellín               AAC   plays, names nothing
+     10 votes  Radioacktiva 97.9 FM                    MP3   plays, names nothing
+     10 votes  elbaulsalsero                           MP3   plays, names nothing
+     10 votes  La Ciento 7 Digital - FM 107.8          MP3   ICY: Pastor López, El hijo ausente
+     10 votes  Blu Radio Barranquilla / Caribe         AAC+  plays, names nothing
+     10 votes  Walkman Radio                           MP3   ICY: Iio - Rapture [u78]
+     10 votes  Espiritu Rock                           AAC   ICY: Van Halen - Why Can't This Be Love
+     10 votes  Caracol Radio Barranquilla              MP3   plays, names nothing
+     10 votes  El Sol (Barranquilla)                   AAC   plays, names nothing
+     10 votes  Olímpica Stereo Pereira                 AAC+  plays, names nothing
+      9 votes  Radio Autentica Villavicencio 1080 AM   MP3   plays, names nothing
+      9 votes  Uninorte FM 103.1 Barranquilla          AAC+  plays, names nothing
+      9 votes  88.9 Super Estación                     MP3   plays, names nothing
+      9 votes  Yacopi Stereo 107.8 FM                  AAC+  no answer
+      9 votes  la Voz del Tao 4                        MP3   plays, names nothing
+      9 votes  La FM- Barranquilla                     AAC   plays, names nothing
+      9 votes  Tropicana Barranquilla                  MP3   plays, names nothing
+      9 votes  Radio Uno                               AAC   HLS, plays
+      9 votes  Contando Radio                          MP3   ICY: amilcar boscan - los olores del amor
+      9 votes  la costeña 91.0 montería                MP3   ICY: l l  Tan Alegre Como tu l l - La costeña 91.0 Fm
+      9 votes  Ecos 1360 Radio                         MP3   plays, names nothing
+      8 votes  La Sonora 89.1 Tunja                    MP3   plays, names nothing
+      8 votes  Radio Santa Barbara 1310 AM             MP3   plays, names nothing
+      8 votes  La Voz De Amagá 105.4 FM                AAC   plays, names nothing
+      8 votes  Radio 1040 (1040 AM)                    AAC+  plays, names nothing
+      8 votes  Arauquita Stereo 88.3fm                 MP3   plays, names nothing
+      8 votes  POPAYAN FM 105.1                        AAC   ICY: ISMAEL MIRANDA - Caretas OK
+      8 votes  Telemedellín Radio                      MP3   ICY: Emotion In Emotion - The Cars.
+      8 votes  Su Presencia Radio                      MP3   ICY: Su Presencia Radio
+      8 votes  la super estación latina 104.1 armenia  AAC+  plays, names nothing
+      8 votes  La mezcla FM 89.4                       MP3   no answer
+      8 votes  Afri Caribe Radio                       MP3   no answer
+      8 votes  La Voz del Rio Grande 910 AM            AAC+  plays, names nothing
+      8 votes  Colmundo Radio Bogota                   MP3   plays, names nothing
+      8 votes  JT 2                                    MP3   no answer
+      8 votes  Oyente Stereo                           MP3   ICY: DESPUES DEL ADIOS - 1
+      8 votes  Javeriana Estéreo 91,9                  MP3   ICY: A Vivaldi; Angel Romero, Acad St Martin in the Fields - RV 540 Co
+      8 votes  Final Fantasy Radio                     MP3   ICY: Angela Aki - Santa F�
+      8 votes  La Voz de Etashtitlan                   MP3   no answer
+      7 votes  La Voz de Etashtitlan                   MP3   no answer
+      7 votes  Toque Latino                            MP3   ICY: Desconocido - TORMENTA DE AMOR
+      7 votes  Abdulbasit Abdulsamad                   AAC   ICY: Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء
+      7 votes  la Voz del Tao 6                        MP3   plays, names nothing
+      7 votes  yumbo estereo                           AAC+  status: ESPY CORTINA mezcla.mp3
+      7 votes  Creativa Stereo 88.2 FM                 MP3   plays, names nothing
+      7 votes  la Voz del Tao 4                        MP3   plays, names nothing
+      7 votes  Ondas de Ibagué 1470 AM                 MP3   plays, names nothing
+      7 votes  La FM                                   UNKNOWN HLS, plays
+      7 votes  Melodía Stereo                          UNKNOWN HLS, plays
+      7 votes  La Capital Del Reggaeton                MP3   plays, names nothing
+      7 votes  La Voz del Tao 2                        MP3   plays, names nothing
+      7 votes  Violeta Stereo Casanare 89.7 FM         AAC   plays, names nothing
+      6 votes  Tropicana Estéreo FM (Bogotá)           MP3   plays, names nothing
+      6 votes  Super Estación FM (Bogotá)              MP3   plays, names nothing
+      6 votes  MaximusRockFM                           MP3   plays, names nothing
+      6 votes  Caracol Radio En Vivo                   AAC+  plays, names nothing
+      6 votes  Radiónica Bogotá                        AAC   HLS, plays
+      6 votes  Radio Eco Cali                          MP3   plays, names nothing
+      6 votes  La Radio Estación ZaS Radio             MP3   plays, names nothing
+      6 votes  Majuy Stereo                            MP3   ICY: enlace - bogota
+      6 votes  Azul Tricolrock                         AAC   HLS, plays
+      6 votes  juventud Stereo 101.9 FM                MP3   plays, names nothing
+      6 votes  Alegría y Gozo Radio Católica           AAC   plays, names nothing
+      6 votes  PaseitoRadio                            MP3   plays, names nothing
+      6 votes  ORIENTAL STEREO 105.6 FM (Santo Tomas)  MP3   plays, names nothing
+      6 votes  as radio                                AAC+  plays, names nothing
+      6 votes  TAME FM STEREO 88.3                     MP3   plays, names nothing
+      6 votes  La Rockola FM                           AAC   plays, names nothing
+      6 votes  olímpica stereo Valledupar 93.7 fm      AAC+  plays, names nothing
+      6 votes  Radio Power                             MP3   plays, names nothing
+      6 votes  Fiesta Stereo La Plata 95.8 FM          MP3   plays, names nothing
+      5 votes  Santa Barbara Stereo 106.6 FM           MP3   ICY: 41con nadie me compares - 41con nadie me compares
+      5 votes  YEIKON.DEMONIO                          MP3   plays, names nothing
+      5 votes  El Sol Cali                             AAC   HLS, plays
+      5 votes  Uniminuto radio 1430 AM Bogotá          AAC   ICY: Madonna - American Life
+      5 votes  Puerto Berrío Stereo 89.4 FM            MP3   no answer
+      5 votes  RENCORDRADIO                            MP3   ICY: Marisela - Sola Con Mi Soledad
+      5 votes  boom fm 99.1 cali                       AAC+  plays, names nothing
+      5 votes  LA VOZ DE LA LIBERACION IBAGUÉ          MP3   plays, names nothing
+      5 votes  Barranquilla AM                         MP3   plays, names nothing
+      5 votes  Universal Stereo FM                     MP3   plays, names nothing
+      5 votes  la Vos del Tao 6                        MP3   plays, names nothing
+      5 votes  LA SALSERA RADIO                        AAC+  ICY: Dimensión Latina - Taboga
+      5 votes  Mix 1039 Barranquilla                   MP3   plays, names nothing
+      5 votes  JT 1                                    MP3   no answer
+      5 votes  Salmistas Radio                         MP3   ICY: Delirious? - History Maker [1fpZ]
+      5 votes  BACANA 93.3 FM                          AAC   plays, names nothing
+      5 votes  Bésame                                  AAC+  plays, names nothing
+      5 votes  Romance Radio Cali                      MP3   ICY: Leo Dan; Vicente Fernández - Esa Pared (feat. Vicente Fernández)
+      4 votes  W Radio FM (Bogotá)                     MP3   plays, names nothing
+      4 votes  Diciebre Stereo                         AAC+  no answer
+      4 votes  Bandida                                 AAC   ICY: Sam Feldt - Mi Amor (Ft. JVKE & Anitta)
+      4 votes  Namuy Wam 92.2 FM                       MP3   no answer
+      4 votes  JT 2                                    MP3   no answer
+      4 votes  La voz del Norte 1040 AM                MP3   ICY: Demo Upbeat Motivational Business - Tomorrow
+      4 votes  Tolima Stereo 92.3 FM                   MP3   plays, names nothing
+      4 votes  Mega Fiesta                             MP3   ICY: Guillermo Buitrago - Dame Tu Mujer José
+      4 votes  Juan Kiss Radio                         AAC+  ICY: Dio - Sacred Heart
+      4 votes  La Reina Barranquilla                   AAC+  plays, names nothing
+      4 votes  Radio Tiempo Barranquilla               AAC+  plays, names nothing
+      4 votes  Marandua Stereo 100.7 FM                MP3   plays, names nothing
+      4 votes  Emisora Sarare Stereo 88.3 FM           MP3   no answer
+      4 votes  Son Latino Medellín                     MP3   plays, names nothing
+      4 votes  LOVE FM: All you need is Love / Amor e  AAC   HLS, plays
+      4 votes  Radio Ipuc                              MP3   status: YO COMPARTO RADIO IPUC - MATEO LOPEZ
+      4 votes  RADIO PALMIRA 1050 AM                   MP3   plays, names nothing
+      4 votes  La Sonora 89.6 Márquez                  MP3   ICY: Heredero - Marta
+      4 votes  La Sonora 100.6 Samacá                  AAC+  ICY: Víctor Valverde / Jr Torres - El Mayor de los Ranas
+      4 votes  JT 3                                    MP3   no answer
+      4 votes  Radio El Sol (Barranquilla)             AAC   HLS, plays
+      4 votes  fiesta stereo 107.7 fm Barrancas        AAC+  plays, names nothing
+      4 votes  Popular Stereo FM (Barranquilla)        AAC+  ICY: BABY WOW KAROL G FT JUDELINE RUSOWSKY
+      4 votes  Radio Emisora HJUT (Bogotá)             MP3   plays, names nothing
+      3 votes  auténtica radio 97.1 el copey cesar     MP3   ICY: Iv�n Villaz�n - Saul Lallemand - Solo me importas tu
+      3 votes  Candela Estéreo Cali En Vivo            MP3   plays, names nothing
+      3 votes  Javeriana Estéreo (Bogotá)              MP3   ICY: A Vivaldi; Angel Romero, Acad St Martin in the Fields - RV 540 Co
+      3 votes  Vibra (Bogotá)                          MP3   plays, names nothing
+      3 votes  La Voz del Cinaruco 1050 AM             MP3   plays, names nothing
+      3 votes  Radio Meridiano 70 1170 AM              MP3   plays, names nothing
+      3 votes  Unicórdoba Estéreo 90.0 FM              MP3   plays, names nothing
+      3 votes  Nevermore Radio - Nevermore Network     MP3   ICY: 23. George Gershwin - 23_George Gershwin - Rhapsody
+      3 votes  latina stereo 107.1 cicuco bolivar      MP3   plays, names nothing
+      3 votes  La Radio de mi Gente 93.5 FM            MP3   no answer
+      3 votes  Celestial stereo pereira                MP3   plays, names nothing
+      3 votes  Ambientarte Radio                       MP3   ICY: 13 Hermandad Fania - -Bobby Cruz
+      3 votes  Radio Uno (Barranquilla)                AAC   plays, names nothing
+      3 votes  Universal Stereo                        MP3   plays, names nothing
+      3 votes  RADIO SUPER FIESTA                      MP3   plays, names nothing
+      3 votes  Radio INEM Popayán                      MP3   plays, names nothing
+      3 votes  Caracol Radio En Vivo                   AAC+  plays, names nothing
+      3 votes  Los 40 Principales                      AAC+  plays, names nothing
+      3 votes  Radio Olímpica                          MP3   plays, names nothing
+      3 votes  La Sonora 94.1 Bajo Ricaurte            MP3   plays, names nothing
+      3 votes  mas radio pb                            MP3   plays, names nothing
+      3 votes  King                                    MP3   plays, names nothing
+      3 votes  UN Radio Bogotá                         MP3   plays, names nothing
+      3 votes  La Cariñosa                             AAC   HLS, plays
+      3 votes  Radio Planeta Cali                      AAC   ICY: Hi-Fi Internet Stream
+      3 votes  Rumbera Estéreo (Barranquilla)          AAC+  ICY: Yonky - GOLPE CANALLA
+      3 votes  Radio 1 FM (Bogotá)                     AAC   HLS, plays
+      3 votes  angrybabyarm.com                        MP3   ICY: jonny reverb - spilling her hair
+      2 votes  Candela Estéreo FM (Bogotá)             MP3   ICY: Felipe Pelaez - El Amor Mas Grande Del Planeta
+      2 votes  Caracol Radio En Vivo                   AAC+  plays, names nothing
+      2 votes  Vibra Radio                             MP3   status: Maná - Oye mi amor
+      2 votes  Villavo FM                              MP3   plays, names nothing
+      2 votes  EdMateo's Radio                         MP3   ICY: H-ico El Señor del Funk - Estilacho (feat. El Kalvo)
+      2 votes  campo serrano radio 96.7 aguachica      MP3   plays, names nothing
+      2 votes  radio uno Valledupar 100.7              AAC   HLS, plays
+      2 votes  Frecuencia U 940 AM                     MP3   plays, names nothing
+      2 votes  astreana stereo 94.2                    MP3   plays, names nothing
+      2 votes  Carnavalxsiempre                        AAC+  plays, names nothing
+      2 votes  VIDA STEREO 94.5 FM                     AAC+  plays, names nothing
+      2 votes  viva fm 88.2 villanueva la guajira      MP3   ICY: FONDO LARGO UNIGUAJIRA
+      2 votes  Radio Tiempo Cali 89.5 FM               AAC+  ICY: Alejandra Guzman - Yo Te Esperaba PN
+      2 votes  Vibra FM                                MP3   plays, names nothing
+      2 votes  Tropicana FM                            MP3   plays, names nothing
+      2 votes  La X                                    AAC   ICY: Nicki Minaj - Beez In The Trap
+      2 votes  Fuego y Sabor Radio                     MP3   ICY: Vicente Fernández - La Diferencia
+      2 votes  Calentura stereo                        MP3   ICY: RICO POLLO NUEVO 2026
+      2 votes  Paisa Estéreo                           AAC+  ICY: tropical CONFUNDIDO El Combo De Las Estrellas EXITO
+      2 votes  Caliente stereo 90.2                    AAC+  ICY: AL AIRE CALIENTE STEREO FM
+      2 votes  Latina Stereo                           MP3   plays, names nothing
+      2 votes  la cordobesa 96.0 link alterno          MP3   ICY: Kissinger - Agua [AUDIO ORIGINAL OFICIAL] - Kissinger [3WC]
+      2 votes  Radio Tiempo                            AAC+  plays, names nothing
+      2 votes  La Sonora 88.1 Sogamoso                 AAC+  ICY: Jerry Rivera - Que Hay De Malo
+      2 votes  Fuego y Sabor Radio Online              MP3   plays, names nothing
+      2 votes  Emisora Atlántico (Barranquilla)        MP3   plays, names nothing
+      2 votes  Radio Olímpica (Barranquilla)           MP3   plays, names nothing
+      2 votes  La crossover fm                         MP3   ICY: La Pinga Pará - Los Milindrinos
+      2 votes  La Voz de la Patria Celestial (Barranq  MP3   plays, names nothing
+      2 votes  Boyaca Radio Balada Pop                 MP3   ICY: Reconquistarte-Marcos Llunas
+      2 votes  caracol girardot 1230 am                MP3   plays, names nothing
+      2 votes  Madrigal Stereo (Barranquilla)          AAC+  ICY: Varios - 166. Naciste para mi
+      2 votes  Ya Radio Barranquilla Online            AAC   ICY: La Bilirrubina - Juan Luis Guerra 440
+      2 votes  40 principales FM (Bogotá)              AAC+  plays, names nothing
+      2 votes  Radio Fantástica FM (Bogotá)            AAC   HLS, plays
+      1 votes  la mía stereo 103.4 guamal magdalena    AAC   plays, names nothing
+      1 votes  Radio Acktiva FM (Bogotá)               MP3   plays, names nothing
+      1 votes  Super clasicos del rock                 MP3   plays, names nothing
+      1 votes  UdeC Radio                              AAC+  no answer
+      1 votes  Radio Laodicea                          MP3   plays, names nothing
+      1 votes  RENCORDRADIO                            MP3   ICY: BESO - ROSALÍA, Rauw Alejandro
+      1 votes  el gran lobo                            MP3   ICY: El Gran Lobo - Radio
+      1 votes  Radio Urantia                           MP3   ICY: CITAS EN AUDIO DEL LU YOUTUBE - Contribuir
+      1 votes  La Konsentida Moniquira                 AAC+  ICY: Héctor "El Father" - El Telefono
+      1 votes  El Sol Cali                             AAC   HLS, plays
+      1 votes  unisucre fm                             UNKNOWN plays, names nothing
+      1 votes  Radio Uno Tunja Boyaca                  AAC   HLS, plays
+      1 votes  villanueva mía 102.8 fm                 MP3   ICY: Mc Car - Me Voy - Mc Car, Dj Chawala (Video Oficial)
+      1 votes  Vos Online Radio                        MP3   plays, names nothing
+      1 votes  radioparallevar                         AAC+  ICY: SEBASTIAN YATRA - TACONES ROJOS
+      1 votes  Univalle Estereo                        MP3   plays, names nothing
+      1 votes  Caribe Sports Radio                     MP3   ICY: Jeysu la voz - Llegaste a mi vida
+      1 votes  vida abundante mompox 90.5 fm           MP3   ICY: Denicher Pol - Inexplicable (Cover)
+      1 votes  radio ipuc                              MP3   no answer
+      1 votes  mix 100.5 montería                      MP3   plays, names nothing
+      1 votes  la triple a 97.2 fm                     MP3   ICY: El sayayin - Paola
+      1 votes  Radio Chipazaque                        MP3   plays, names nothing
+      1 votes  RENCORDRADIO                            MP3   ICY: BESO - ROSALÍA, Rauw Alejandro
+      1 votes  candela stereo 104.7 ipiales            MP3   plays, names nothing
+      1 votes  Avance Estereo 99.2 FM                  AAC   plays, names nothing
+      1 votes  buenísima radio tv                      AAC   ICY: Sandy & Papo - Mueve mueve
+      1 votes  Y.M RADIO                               MP3   ICY: Cali Y El Dandee - Yo Te Esperaré
+      1 votes  Mix Radio Barranquilla                  AAC+  plays, names nothing
+      1 votes  radio nacional san jacinto 102.7 fm     AAC   HLS, plays
+      1 votes  REDENCIÓN STEREO                        MP3   ICY: incomparable jesús  jhon freddy ruiz
+      1 votes  RADO SUPER FIESTA                       MP3   plays, names nothing
+      1 votes  radio nacional convención 94.0 fm       AAC   HLS, plays
+      1 votes  Corazón1220 AM                          MP3   plays, names nothing
+      1 votes  radio nacional florida 92.0 fm          AAC   HLS, plays
+      1 votes  Radio Acktiva                           MP3   plays, names nothing
+      1 votes  mix 103.0 cereté                        MP3   plays, names nothing
+      1 votes  Candela Estéreo                         MP3   plays, names nothing
+      1 votes  Estrella Estéreo (Medellín)             MP3   ICY: NAVIDAD -- La Fiesta De Pilito - El Gran Combo De Puerto Rico
+      1 votes  Universitaria Estéreo                   AAC   plays, names nothing
+      1 votes  Mixradio En Línea Bogotá                MP3   plays, names nothing
+      1 votes  Ebenezer stereo 88.2 la Paz Cesar       MP3   plays, names nothing
+      1 votes  BMor Medellín En Vivo 91.9              MP3   plays, names nothing
+      1 votes  Vida                                    MP3   plays, names nothing
+      1 votes  la cordobesa 96.0 saagún                MP3   ICY: Kissinger - Agua [AUDIO ORIGINAL OFICIAL] - Kissinger [3WC]
+      1 votes  la voz de marquezote 103.9 la jagua de  AAC+  plays, names nothing
+      1 votes  La Voz Del Caribe                       AAC   plays, names nothing
+      1 votes  Boom FM                                 AAC+  plays, names nothing
+      1 votes  La Reina                                MP3   plays, names nothing
+      1 votes  omega stereo 105.0 saagún               MP3   ICY: Cortos de porros Oficial ? - La Rebuscona  Súper Banda De Colombo
+      1 votes  La Voz de Bogotá                        AAC+  plays, names nothing
+      1 votes  Internacional fm                        MP3   ICY: Dead Or Alive - In Too Deep
+      1 votes  Los 40 Principales (Barranquilla)       AAC+  plays, names nothing
+      1 votes  Radio Tiempo (Barranquilla)             AAC+  plays, names nothing
+      1 votes  Radio Uniautónoma FM 94.1 FM En Vivo    AAC+  ICY: Wilfrido Vargas - 13 Años
+      1 votes  radio buenaventura 1240 am              AAC   ICY: CATOLICO SOY - SON BY FOUR
+      1 votes  Barranquilla Estéreo (Barranquilla)     AAC+  plays, names nothing
+      1 votes  Radio 1 FM (Barranquilla)               AAC   HLS, plays
+      1 votes  Radio Fuente de Vida (Barranquilla)     MP3   plays, names nothing
+      1 votes  primavera stereo 88.3 sincelejo         MP3   plays, names nothing
+      1 votes  Unicauca stereo                         MP3   plays, names nothing
+      1 votes  roka stereo bogotá                      UNKNOWN HLS, plays
+      0 votes  La Carrangoza 90.6 FM                   MP3   plays, names nothing
+      0 votes  serrana stereo 104.7 pueblo bello cesa  AAC   ICY: 015 Rumba en Navidad - Celio Gonzalez - La Sonora Matancera
+      0 votes  Mix 101.5 FM Cali                       MP3   plays, names nothing
+      0 votes  Q hubo Radio                            MP3   plays, names nothing
+      0 votes  San Sebastián stereo 107.0 fm           MP3   no answer
+      0 votes  INCIRadio                               MP3   ICY: Led Zeppelin - Babe I'm Gonna Leave You
+      0 votes  Súper Clásicos del Rock                 ?     plays, names nothing
+      0 votes  angular stereo manizales 97.2 fm        MP3   plays, names nothing
+      0 votes  caracol radio guaviare 102.3 fm         MP3   plays, names nothing
+      0 votes  AkadiaTechRADIO                         MP3   no answer
+      0 votes  AFRI CARIBE RADIO                       MP3   ICY: The Other Side - Carlos Vives - Tuyo y Nada Más [2yW2]
+      0 votes  fuego stereo 101.9 santa marta          MP3   plays, names nothing
+      0 votes  caracol radio sevilla 1530 am           MP3   ICY: cautiverio - daniel santos
+      0 votes  Radio Bandida                           AAC   ICY: Sam Feldt - Mi Amor (Ft. JVKE & Anitta)
+      0 votes  guajira stereo 107.3 riohacha           MP3   ICY: undefined
+      0 votes  cardenal stereo 91.7 riohacha           MP3   plays, names nothing
+      0 votes  sonora stereo 96.7 cimitarra            MP3   ICY: Satelite - Caracol Radio
+      0 votes  la 99.3 cuna de la libertad tame        MP3   plays, names nothing
+      0 votes  la fm 99.3 cuna de la libertad          MP3   plays, names nothing
+      0 votes  Ecos Bellezanos                         AAC+  ICY: Hi-Fi Internet Stream
+      0 votes  uniguajira stereo 89.3 riohacha         AAC+  plays, names nothing
+      0 votes  linda stereo 95.1 el doncello caquetá   ?     ICY: Linda Stereo
+      0 votes  ELSYMAR GUACHETA                        AAC+  ICY: Ivn Villazn  Saul Lallemand 10. Soar Contigo El Gallo Fino
+      0 votes  el gran lobo link alterno               MP3   plays, names nothing
+      0 votes  mix 106.7 Valledupar                    AAC+  plays, names nothing
+      0 votes  Olímpica Stereo Barranquilla            AAC+  ICY: LA GRANDE DE MADRID - CORAZON EMBUSTERO--P
+      0 votes  Guaduas stereo                          ?     plays, names nothing
+      0 votes  Killera stereo                          MP3   ICY: COQUERO - SEXTETO NEW SWING [3sCD]
+      0 votes  m radio 106.3 corozal                   MP3   plays, names nothing
+      0 votes  colvalencia radio 97.7                  MP3   plays, names nothing
+      0 votes  sistema cardenal valledupar             MP3   plays, names nothing
+      0 votes  Donka Estereo                           MP3   plays, names nothing
+      0 votes  Radio Ipuc CreativeM                    MP3   status: YO COMPARTO RADIO IPUC - MATEO LOPEZ
+      0 votes  la que te gusta 100.5 becerril cesar    AAC   plays, names nothing
+      0 votes  la que te gusta 94.7 san juan del cesa  AAC+  no answer
+      0 votes  cristal boyacá 98.3 fm                  AAC+  ICY: Cristal Boyac� - en vivo
+      0 votes  la triple 8 88.8 floridablanca          MP3   plays, names nothing
+      0 votes  Celestial stereo link alterno           MP3   plays, names nothing
+      0 votes  lloró stereo 88.3                       MP3   ICY: CALIXTO OCHOA --------  LOS SABANALES
+      0 votes  la mía 104.4 dabeiba antioquia          AAC+  ICY: Flores en vida- Arelys henao
+      0 votes  lider stereo 106.4 pijiño del carmen m  AAC   plays, names nothing
+      0 votes  La X más música                         ?     plays, names nothing
+      0 votes  Radio Voltio                            MP3   ICY: Amor Escondido - Los Hermanos Zuleta
+      0 votes  Pedazo de Acordeón                      MP3   ICY: SILVESTRE DANGOND & ROLANDO OCHOA - LOS TENGO DE PAYASOS
+      0 votes  Hits Collections Station                MP3   no answer
+      0 votes  Radio Voltio                            MP3   ICY: Amor Escondido - Los Hermanos Zuleta
+      0 votes  planeta radio 106.1 el banco magdalena  AAC+  ICY: Pista 3
+      0 votes  dadena radial vida 890 am bogotá        AAC+  plays, names nothing
+      0 votes  la mía usme link alterno                MP3   ICY: OTRO LA MIA PISADOR NUEVO FOOLL.mp3
+      0 votes  crv radio 890 am bogotá                 AAC+  plays, names nothing
+      0 votes  crv radio Vida adoración                AAC+  plays, names nothing
+      0 votes  crv radio Vida gospel                   AAC+  plays, names nothing
+      0 votes  crv radio Vida latina                   AAC+  plays, names nothing
+      0 votes  crv radio Vida y palabra                AAC+  plays, names nothing
+      0 votes  crv radio Vida urbana                   AAC+  plays, names nothing
+      0 votes  radio las lajas 103.9 ipiales           ?     ICY: RADIO LAS LAJAS
+      0 votes  el esplendor de la verdad 88.7 Valledu  AAC   ICY: 6. YO TENGO UN NUEVO AMOR
+      0 votes  Redición Stereo                         MP3   ICY: incomparable jesús  jhon freddy ruiz
+      0 votes  radio nacional ituango 92.3 fm          AAC   HLS, plays
+      0 votes  radio nacional fonseca 92.2 fm          AAC   HLS, plays
+      0 votes  nicfel radio                            MP3   ICY: nicfel radio - nicfel radio
+      0 votes  radio nacional chaparral 103.5 fm       AAC   HLS, plays
+      0 votes  radio nacional arauquita 88.9 fm        AAC   HLS, plays
+      0 votes  radio nacional el tambo 96.7 fm         AAC   HLS, plays
+      0 votes  radio nacional bojayá 98.5 fm           AAC   HLS, plays
+      0 votes  la voz de sion 99.7 valledupar          ?     no answer
+      0 votes  radio nacional algeciras 92.6 fm        AAC   HLS, plays
+      0 votes  RENCORDRADIO                            MP3   ICY: BESO - ROSALÍA, Rauw Alejandro
+      0 votes  radio nacional puerto leguízamo 100.3   AAC   HLS, plays
+      0 votes  Adictiva FM                             AAC   ICY: Ñejo & Dalmata, Daddy Yankee, Arcángel - Algo Musical
+      0 votes  W Radio                                 MP3   plays, names nothing
+      0 votes  RENCORDRADIO                            MP3   ICY: BESO - ROSALÍA, Rauw Alejandro
+      0 votes  Cerro murillo stereo                    AAC+  ICY: 08-Sigue Tu Camino
+      0 votes  sistema Cardenal Valledupar 1050 am     MP3   no answer
+      0 votes  Minuto de Dios FM (Bogotá)              MP3   plays, names nothing
+      0 votes  PRECURSOR RADIO                         MP3   plays, names nothing
+      0 votes  arjona stereo 93.5                      MP3   plays, names nothing
+      0 votes  maravilla stereo 105.7 valledupar       UNKNOWN HLS, plays
+      0 votes  energía 103.7                           AAC   ICY: Morenita Cantinera
+      0 votes  La FM                                   ?     plays, names nothing
+      0 votes  Radio María (Bogotá)                    AAC+  ICY: RADIO MARIA COLOMBIA
+      0 votes  Radio Energía                           MP3   ICY: Salsa Fever - Tan Enamorada
+      0 votes  Barranquilla Estéreo                    AAC+  plays, names nothing
+      0 votes  Yolombo Estereo                         AAC   ICY: PISADOR - ESCUCHAS YOLOMBO-YOLOMBO STEREO 89.4 FM
+      0 votes  Verdad y Vida Radio AM 870 En Vivo Med  MP3   plays, names nothing
+      0 votes  Cacica Stereo (Valledupar)              AAC+  ICY: CACICA STEREO - EN VIVO
+      0 votes  La Pachanguera                          MP3   ICY: Fruko - Los Charcos
+      0 votes  la voz de yopal 105.3 fm                ?     ICY: La Voz de Yopal
+      0 votes  la sinuana 107.0 san carlos             MP3   no answer
+      0 votes  Colombia stereo 93.4 bogotá             MP3   plays, names nothing
+      0 votes  la nota 101.7 codazzi                   AAC+  ICY: miguel morales ft kaleth morales & juan david herrera - tu forma 
+      0 votes  la nueva 95.7 bosconia cesar            MP3   ICY: Fabian Corrales; Memo Rois - La Consentida
+      0 votes  la cometa 107.2 san gil                 MP3   plays, names nothing
+      0 votes  Internacional fm                        MP3   ICY: Dead Or Alive - In Too Deep
+      0 votes  AS radio 690 am                         AAC+  no answer
+      0 votes  Minuto de Dios (Barranquilla)           MP3   plays, names nothing
+      0 votes  Radio La Mega (Barranquilla)            AAC   HLS, plays
+      0 votes  La Voz De La Jagua 95.7 FM              MP3   plays, names nothing
+      0 votes  radio delfín 1060 am riohacha           MP3   plays, names nothing
+      0 votes  la mía usme 98.3 fm                     MP3   plays, names nothing
+      0 votes  Costa Radio Barranquilla En Vivo        MP3   plays, names nothing
+      0 votes  la 99.5 fm el poder que nos une cali    MP3   plays, names nothing
+      0 votes  LOS 40 Colombia                         ?     no answer
+      0 votes  LOS 40 Colombia                         ?     plays, names nothing
+      0 votes  Verdades Eternas Radio                  MP3   ICY: BLANCA - La Bondad de Dios
+      0 votes  Radio Vida Nueva (Barranquilla)         MP3   ICY: CNC SEGUNDA EMISION EN VIVO CORTINA
+      0 votes  Class FM                                MP3   plays, names nothing
+      0 votes  Uninorte Estéreo (Barranquilla)         AAC+  plays, names nothing
+      0 votes  Avance Estereo 99.2 FM                  AAC   plays, names nothing
+      0 votes  Carnaval X Siempre (Barranquilla)       AAC+  ICY: G.I.T. - Es por amor
+      0 votes  Unicauca stereo                         MP3   plays, names nothing
+      0 votes  radio uno villavicencio 98.3 fm         MP3   plays, names nothing
+      0 votes  rumba del café 92.1 armenia             MP3   plays, names nothing
+      0 votes  Cayena TV Fundación Magdalena           AAC   HLS, plays
+      0 votes  la más buena 100.1 aguadas caldas       MP3   ICY: DIVEANA - DE AMOR Y DE MIEL
+      0 votes  Cayena stereo 96.3 Fundación magdalena  MP3   ICY: y2mate.com - Vete Ya Salsa Romantica Exito Sonidero
+      0 votes  voces del corazón                       MP3   no answer
+      0 votes  la kzona stereo 88.7 san martín cesar   AAC+  no answer
+      0 votes  Radio Uno Cali 100.5 FM                 AAC   HLS, plays

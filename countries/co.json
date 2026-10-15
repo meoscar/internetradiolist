@@ -1,0 +1,4794 @@
+[
+ {
+  "name": "Blu Radio, señal nacional (HJCK, 89.9 MHz FM, Bogotá / HJN42, 96.3 MHz, San Martín, Meta / HJH87, 103.1 MHz, Paipa, Boyacá / HJOM, 1090 KHz, Cartagena de Indias / HJM47 103.1 MHz, Algeciras, Huila / HJQ43, 94.1 MHz, Bugalagrande, Valle del Cauca)",
+  "stream": "http://24493.live.streamtheworld.com:3690/BLURADIO_SC",
+  "homepage": "http://www.bluradio.com/",
+  "favicon": "",
+  "tags": [
+   "armenian",
+   "bogotá",
+   "caribbean music",
+   "live sports",
+   "neiva",
+   "news",
+   "news radio",
+   "pereira",
+   "sports news",
+   "sports talk",
+   "talk radio",
+   "tunja",
+   "villavicencio"
+  ],
+  "votes": 21512,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Caracol Radio Colombia (HJGL 100.9 / HJCY 810 AM, Bogotá) [AAC]",
+  "stream": "http://26683.live.streamtheworld.com:3690/CARACOL_RADIOAAC_SC",
+  "homepage": "http://www.caracol.com.co/",
+  "favicon": "",
+  "tags": [
+   "news",
+   "talk radio"
+  ],
+  "votes": 19921,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "W Radio Colombia, Bogotá (HJCZ 690 AM; HJLN 99.9 MHz FM) Caracol Estéreo / Caracol Radio",
+  "stream": "http://27403.live.streamtheworld.com:3690/WRADIO_SC",
+  "homepage": "http://wradio.com.co/",
+  "favicon": "",
+  "tags": [
+   "news",
+   "news and talk",
+   "talk radio"
+  ],
+  "votes": 14336,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Kalle",
+  "stream": "http://26683.live.streamtheworld.com:3690/LA_KALLE_SC",
+  "homepage": "http://lakalle.bluradio.com/",
+  "favicon": "",
+  "tags": [
+   "folk music",
+   "local music",
+   "popular",
+   "ranchera",
+   "urban"
+  ],
+  "votes": 11511,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "123 Vallenato",
+  "stream": "http://radiolatina.info:7087/;",
+  "homepage": "http://www.radios.com.co/vallenato/",
+  "favicon": "https://cdn.webrad.io/images/brand/icon_192x192.png",
+  "tags": [],
+  "votes": 7772,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radiónica (HJYM 99.1 Bogotá) RTVC",
+  "stream": "http://shoutcast.rtvc.gov.co:8010/;",
+  "homepage": "http://www.radionica.rocks/",
+  "favicon": "",
+  "tags": [
+   "electronic",
+   "metal",
+   "rock",
+   "spanish rock"
+  ],
+  "votes": 7514,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicana Bogotá (HJRX 102.9) Caracol Radio",
+  "stream": "http://26503.live.streamtheworld.com/TROPICANA_SC",
+  "homepage": "http://www.tropicanafm.com/",
+  "favicon": "https://www.tropicanafm.com/wp-content/uploads/2021/02/cropped-favicon_tropicana-180x180.png",
+  "tags": [
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 7326,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Candela Estéreo Bogotá (HJPU 101.9)",
+  "stream": "http://27583.live.streamtheworld.com/CANDELAESTEREO_SC",
+  "homepage": "http://www.candelaestereo.com/",
+  "favicon": "https://uploads.candelaestereo.com/1/2019/06/cropped-logo-candela-llama-100x100.png",
+  "tags": [
+   "bogota",
+   "latin",
+   "latino"
+  ],
+  "votes": 7220,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olímpica Stereo (Medellín) 104.9-FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_MEDELLINAAC.aac",
+  "homepage": "https://olimpicastereo.com.co/",
+  "favicon": "https://olimpicastereo.com.co/wp-content/uploads/2019/12/Logo_olimpica_stereologo.png",
+  "tags": [
+   "salsa",
+   "vallenato",
+   "various"
+  ],
+  "votes": 6850,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Mega (Medellín) 92.9 FM",
+  "stream": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632cb48f613bac0856b931ab",
+  "homepage": "http://www.lamega.com.co/medellin",
+  "favicon": "",
+  "tags": [
+   "entretenimiento",
+   "music",
+   "pop",
+   "reggaeton",
+   "urbano"
+  ],
+  "votes": 6702,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Super Clásica",
+  "stream": "http://sclasica-stream.sytes.net:8012/;",
+  "homepage": "http://www.superclasica.com/",
+  "favicon": "",
+  "tags": [
+   "baladas",
+   "love songs",
+   "spanish pop"
+  ],
+  "votes": 5802,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vibra Bogotá 104.9 FM",
+  "stream": "http://27443.live.streamtheworld.com/VIBRAAAC_SC",
+  "homepage": "https://www.vibra.fm/",
+  "favicon": "",
+  "tags": [
+   "colombian music",
+   "latin music",
+   "pop",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 5543,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame (Medellín) 94.9 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas",
+   "music",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 5421,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Caracol Radio (Bogotá) - 100.9 FM / 810 AM - HJGL / HJCY - PRISA Radio - Bogotá, Colombia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC.aac",
+  "homepage": "https://caracol.com.co/",
+  "favicon": "https://caracol.com.co/pf/resources/caracol-colombia/touch-icon-ipad.png?d=174",
+  "tags": [
+   "100.9 fm",
+   "810 am",
+   "am",
+   "bogotá",
+   "caracol radio",
+   "colombia",
+   "combo",
+   "entretenimiento",
+   "español",
+   "estación",
+   "fm",
+   "hablada",
+   "latinoamérica",
+   "local talk",
+   "moi merino",
+   "news talk",
+   "political talk",
+   "prisa radio",
+   "radio",
+   "radio hablada",
+   "suramérica",
+   "talk",
+   "talk radio",
+   "talk show"
+  ],
+  "votes": 4863,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mix (Medellín) 89.9 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIX_MEDELLINAAC.aac",
+  "homepage": "https://mixradio.co/",
+  "favicon": "https://mixradio.co/icon?b8748d2f62517688",
+  "tags": [
+   "merengue bachata",
+   "reggaeton",
+   "urbano"
+  ],
+  "votes": 4830,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Barranquilla Estereo",
+  "stream": "http://radio.yaservers.com:8197/;stream.mp3",
+  "homepage": "http://www.barranquillaestereo.com/",
+  "favicon": "",
+  "tags": [
+   "80s",
+   "cumbia",
+   "latin",
+   "latino",
+   "merengue",
+   "salsa"
+  ],
+  "votes": 3978,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Abaco Libros y Cafe Jazz Radio",
+  "stream": "http://195.154.79.204:8638/stream",
+  "homepage": "http://abacolibrosycaferadio.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "classic jazz",
+   "colombia",
+   "easy listening",
+   "jazz"
+  ],
+  "votes": 3969,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOS40 Colombia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC.aac",
+  "homepage": "https://los40.com.co/",
+  "favicon": "https://cdn-profiles.tunein.com/p1306541/images/logod.png",
+  "tags": [
+   "bogotá",
+   "colombia",
+   "español",
+   "estación",
+   "internet radio",
+   "juvenil",
+   "latin pop",
+   "latinoamérica",
+   "los40",
+   "moi merino",
+   "music",
+   "música",
+   "música en español",
+   "música pop",
+   "música urbana",
+   "online",
+   "online only",
+   "pop",
+   "pop music",
+   "pop rock",
+   "prisa radio",
+   "radio",
+   "radio online",
+   "top",
+   "top 40",
+   "top 40 hits",
+   "top charts",
+   "top hits"
+  ],
+  "votes": 3315,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radioacktiva (Bogotá) - 97.9 FM - HJJK - PRISA Radio - Bogotá, Colombia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVAAAC.aac",
+  "homepage": "https://www.radioacktiva.com/",
+  "favicon": "https://www.radioacktiva.com/wp-content/uploads/2024/12/cropped-favicon-new1-180x180.png",
+  "tags": [
+   "97.9 fm",
+   "bogotá",
+   "classic rock",
+   "classic rock oldies",
+   "classic rock; alternative rock",
+   "classic rock; alternative rock indie",
+   "colombia",
+   "entretenimiento",
+   "español",
+   "estación",
+   "juvenil",
+   "latinoamérica",
+   "moi merino",
+   "music",
+   "música",
+   "prisa radio",
+   "radio",
+   "real classic rock",
+   "rock",
+   "rock classics",
+   "rock en español",
+   "rock en ingles",
+   "rock international",
+   "rock latino",
+   "rock music",
+   "suramérica"
+  ],
+  "votes": 3078,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Pachanguera FM",
+  "stream": "http://radiolatina.info:8772/",
+  "homepage": "http://www.lapachanguerafm.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 3075,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicana Cali 93.1 fm",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/TR_CALI.mp3",
+  "homepage": "https://www.tropicanafm.com/",
+  "favicon": "https://www.radio.es/images/broadcasts/10/15/27769/1/c300.png",
+  "tags": [
+   "salsa"
+  ],
+  "votes": 2643,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Paisa Estereo",
+  "stream": "http://radiolatina.info:7094/",
+  "homepage": "http://rimixradio.com/audio/paisa.html",
+  "favicon": "",
+  "tags": [
+   "la arepa paisa",
+   "paisa estereo"
+  ],
+  "votes": 2483,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "El Sol (Medellín) 107.9 FM",
+  "stream": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632c9d30aa9ace684913b853",
+  "homepage": "https://elsol.rcnradio.com/?city=Medellin",
+  "favicon": "https://static.wordpress.rcnradio.com/elsol/favicon/apple-touch-icon.png",
+  "tags": [
+   "salsa"
+  ],
+  "votes": 2358,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Estrella Estéreo (HJTD 104.3 MHz, La Estrella/Medellín, Antioquia)",
+  "stream": "http://68.233.236.92:8006/;",
+  "homepage": "http://www.estrellacolombia.com/",
+  "favicon": "https://estrellacolombia.com/wp-content/uploads/2017/01/cropped-estrella_estereo-01-180x180.png",
+  "tags": [
+   "local news",
+   "medellin",
+   "music",
+   "news",
+   "talk radio"
+  ],
+  "votes": 2311,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Romántica Stereo 88.1 FM Pasto",
+  "stream": "http://radiolatina.info:7096/stream?type=http&nocache=24848",
+  "homepage": "https://romanticastereo.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 2045,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ZonaSalsa",
+  "stream": "http://s40.myradiostream.com:8520/listen.mp3?1507069161743",
+  "homepage": "",
+  "favicon": "",
+  "tags": [],
+  "votes": 1922,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Brutal (Medellín) 91.9 Fm",
+  "stream": "https://streamingmediaradio.live/8086/stream",
+  "homepage": "https://www.brutalfm.com.co/",
+  "favicon": "",
+  "tags": [
+   "pop",
+   "reggaeton",
+   "urbano"
+  ],
+  "votes": 1819,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Policía (Medellín) Nacional 96.4 FM",
+  "stream": "https://radio35.virtualtronics.com/proxy/radiopolicia964?mp=/stream",
+  "homepage": "https://www.policia.gov.co/",
+  "favicon": "",
+  "tags": [
+   "classic hits",
+   "cumbia",
+   "hits",
+   "popular",
+   "reggaeton",
+   "salsa",
+   "urbano"
+  ],
+  "votes": 1788,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "40 Principales Colombia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/%20LOS40_COLOMBIA.mp3",
+  "homepage": "https://los40.com.co/",
+  "favicon": "https://los40co00.epimg.net/iconos/v1.x/v1.0/promos/promo_og_los40.png",
+  "tags": [
+   "pop",
+   "reggaeton",
+   "urban"
+  ],
+  "votes": 1669,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mi%Vallenatísima",
+  "stream": "https://streaming.radiosenlinea.com.ar:10865/stream",
+  "homepage": "https://mivallenatisima.com/",
+  "favicon": "https://play-lh.googleusercontent.com/occPjKzfar8zpBBY5gz1SiZh55fVdL56fpyVQCWOoBYBF8xlE_JFP3o7YzdKkD3m2g=s360-rw",
+  "tags": [
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 1535,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicana (Medellín) 98.9 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TR_MEDELLINAAC.aac",
+  "homepage": "https://www.tropicanafm.com/",
+  "favicon": "https://www.tropicanafm.com/wp-content/uploads/2021/02/cropped-favicon_tropicana-32x32.png",
+  "tags": [
+   "salsa"
+  ],
+  "votes": 1313,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Voz de Jesús",
+  "stream": "http://stream-289.surfernetwork.com/phybdd3ph98uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJwaHliZGQzcGg5OHV2IiwiaG9zdCI6InN0cmVhbS0yODkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Im04Y3IwOWs4U0hpc2R3ZnR3djNNaGciLCJpYXQiOjE3OTE4MTE0ODYsImV4cCI6MTc5MTgxMTU0Nn0.7jvVavjo4v4vEOjcLxgShTtIWJCQx9GvaIIaC7cbZeQ",
+  "homepage": "https://zeno.fm/radio/lavozdejesus/",
+  "favicon": "https://zeno.fm/favicon.ico",
+  "tags": [],
+  "votes": 1215,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mega St☆r Colombia",
+  "stream": "http://stream.zeno.fm/h9x7hs6aqs8uv",
+  "homepage": "https://wwwradiocadenastereo.blogspot.com/",
+  "favicon": "https://i.ytimg.com/vi/s4rgiw1yd84/hqdefault.jpg",
+  "tags": [
+   "cumbia corridos baladas varios"
+  ],
+  "votes": 1121,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicanal 98.9 FM",
+  "stream": "http://stream.zeno.fm/kmnekh2929duv",
+  "homepage": "https://tropicanal989fm.wixsite.com/pasto",
+  "favicon": "https://www.wix.com/favicon.ico",
+  "tags": [],
+  "votes": 1082,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Colombia Salsa Dura",
+  "stream": "https://play10.tikast.com/proxy/colsalsadura?mp=/stream",
+  "homepage": "https://colombiacrossover.com/colombia-salsa-dura/",
+  "favicon": "https://colombiacrossover.com/wp-content/uploads/Logo-colombia-salsa-dura-png-1024x985.png",
+  "tags": [
+   "bomba",
+   "fania",
+   "plena",
+   "salsa",
+   "salsa dura",
+   "son montuno",
+   "timba"
+  ],
+  "votes": 1062,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Ipiales Caracol (HJJJ, 1400 kHz AM)",
+  "stream": "http://radiolatina.info:9456/;stream.nsv",
+  "homepage": "http://www.radioipiales.co/",
+  "favicon": "",
+  "tags": [
+   "culture",
+   "full service",
+   "ipiales",
+   "live sports",
+   "local news",
+   "local talk",
+   "news",
+   "sports news"
+  ],
+  "votes": 1017,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La x Bogota",
+  "stream": "https://www.laxmasmusica.com/static/web_dataNormal.mp3",
+  "homepage": "http://www.laxmasmusica.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 992,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olimpica Stereo 101.5 Fm Sincelejo",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_SINCELEJOAAC.aac?1715700010",
+  "homepage": "http://olimpicastereo.com.co/",
+  "favicon": "",
+  "tags": [
+   "latin music"
+  ],
+  "votes": 979,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Balada FM Bogota",
+  "stream": "http://stream.zeno.fm/4d2et4w314zuv",
+  "homepage": "https://baladafmradio.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 935,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Bolivariana FM (HJA94, 92.4 MHz FM, Medellín) Universidad Pontificia Bolivariana",
+  "stream": "http://streaming.radiobolivarianavirtual.com:7630/",
+  "homepage": "http://www.radiobolivarianavirtual.com/medellin-colombia",
+  "favicon": "",
+  "tags": [
+   "catholic",
+   "classical",
+   "college radio",
+   "jazz",
+   "medellín",
+   "university radio",
+   "world music"
+  ],
+  "votes": 924,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio María Colombia",
+  "stream": "http://dreamsiteradiocp.com:8076/",
+  "homepage": "http://www.radiomariacol.org/",
+  "favicon": "",
+  "tags": [
+   "aguachica",
+   "barranquilla",
+   "bogota",
+   "bucaramanga",
+   "cali",
+   "catholic",
+   "el socorro",
+   "fúquene",
+   "manizale",
+   "medellín",
+   "pereira",
+   "religion",
+   "turbo",
+   "urrao"
+  ],
+  "votes": 914,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Medellin 104.9 - Olimpica Stereo",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_MEDELLINAAC.aac?1707017722",
+  "homepage": "http://www.olimpicastereo.com.co/",
+  "favicon": "",
+  "tags": [],
+  "votes": 862,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radioacktiva (Medellín) - 102.3 FM - PRISA Radio - Medellín, Colombia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOACKTIVA_MEDAAC.aac",
+  "homepage": "https://www.radioacktiva.com/",
+  "favicon": "https://www.radioacktiva.com/wp-content/uploads/2024/12/favicon-200x200-1-150x100.png",
+  "tags": [
+   "102.3 fm",
+   "classic rock",
+   "classic rock oldies",
+   "classic rock; alternative rock",
+   "classic rock; alternative rock indie",
+   "colombia",
+   "entretenimiento",
+   "español",
+   "estación",
+   "juvenil",
+   "latinoamérica",
+   "medellín",
+   "moi merino",
+   "music",
+   "música",
+   "prisa radio",
+   "radio",
+   "real classic rock",
+   "rock",
+   "rock classics",
+   "rock en español",
+   "rock en ingles",
+   "rock international",
+   "rock latino",
+   "rock music",
+   "suramérica"
+  ],
+  "votes": 853,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Ochentera Medellin Colombia",
+  "stream": "https://tupanel.info/stream/emisora919fm",
+  "homepage": "https://onlineradiobox.com/co/laochentera/",
+  "favicon": "https://static-media.streema.com/media/cache/ba/61/ba61da8fd3b645ffccacb57227d3796c.jpg",
+  "tags": [],
+  "votes": 850,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tiempo Barranquilla",
+  "stream": "https://master.letio.com/io/?gs=9100&type=master.m3u8",
+  "homepage": "https://www.radiotiempo.co/",
+  "favicon": "https://www.radiotiempo.co/icon?b8748d2f62517688",
+  "tags": [],
+  "votes": 777,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Olímpica Stereo(Bogotá)",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_BOGOTAAAC.aac",
+  "homepage": "https://olimpicastereo.com.co/",
+  "favicon": "https://olimpicastereo.com.co/icon?b8748d2f62517688",
+  "tags": [],
+  "votes": 733,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "W Radio",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRADIOAAC.aac",
+  "homepage": "https://www.wradio.com.co/",
+  "favicon": "https://www.wradio.com.co/pf/resources/wradio-colombia/touch-icon-ipad.png?d=248",
+  "tags": [],
+  "votes": 732,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Viejoteca y algo más",
+  "stream": "https://stream-204.surfernetwork.com/mtfnuz2day8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtdGZudXoyZGF5OHV2IiwiaG9zdCI6InN0cmVhbS0yMDQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkxzQ2VqUkptUWJXa25yUngwaWtIYmciLCJpYXQiOjE3OTE3ODIwMzMsImV4cCI6MTc5MTc4MjA5M30.AaO8Jt871uMus8ZX4caT8FPGg8wlXaRAt1ONUSR8EVw",
+  "homepage": "https://zeno.fm/radio/viejoteca-y-algo-mas/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/yMsoy9A9GWgJn8qSiTH7rOtTyhew92zEWe1pyz_SG7M/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1EwYW1SaHdnTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ3c3dHpZMFFzTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTcxMzIxMjk3NTAwMA.webp",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "latino",
+   "merengue",
+   "music",
+   "música popular mexicana",
+   "popular",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 727,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mi Ruta Mi Musica Retro",
+  "stream": "http://stream.zeno.fm/whvx8sy8hv8uv",
+  "homepage": "http://www.facebook.com/mirutamimusica",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "dj sets",
+   "edm"
+  ],
+  "votes": 719,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Blu Radio (Medellín) 97.9 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLU_MEDELLIN_ADP.aac",
+  "homepage": "https://www.bluradio.com/",
+  "favicon": "",
+  "tags": [
+   "business news",
+   "cultural news",
+   "economic news",
+   "local news",
+   "news talk music",
+   "sports news",
+   "talk",
+   "world news"
+  ],
+  "votes": 714,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LA X 96.5 Cali",
+  "stream": "https://onlineradiobox.com/json/co/lax/play?platform=web",
+  "homepage": "https://www.laxcali.com/",
+  "favicon": "https://cdn-radiotime-logos.tunein.com/s86611d.png",
+  "tags": [
+   "rock"
+  ],
+  "votes": 687,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "6.90 RADIO ROMANTICAS",
+  "stream": "https://stream.zeno.fm/wdg5vb9hwy8uv",
+  "homepage": "https://zeno.fm/radio/r-6-90-radio-romanticas/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/5J_wBpDSaikw0Pnx7exAbgO6EBQ3kUwiB9zEWIVVz4I/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFE1X204bVFnTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ3d1WlRjMGdnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTczNTM2MDUwODAwMA.webp",
+  "tags": [
+   "amor",
+   "baladas en español",
+   "musica romantica",
+   "oldies"
+  ],
+  "votes": 648,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WRadio Colombia",
+  "stream": "https://27403.live.streamtheworld.com/WRADIOAAC.aac?csegid=2000&dist=wradio_co-web-playperm-live_str_play&tdsdk=js-2.9&swm=false&pname=TDSdk&pversion=2.9&banners=none&gdpr=0&burst-time=15&sbmid=a073ee70-7fed-4b4c-80d2-7a4d57fe52f6",
+  "homepage": "https://www.wradio.com.co/",
+  "favicon": "https://www.wradio.com.co/pf/resources/wradio-colombia/touch-icon-iphone-retina.png?d=204",
+  "tags": [
+   "baladas",
+   "clasicos",
+   "rock"
+  ],
+  "votes": 644,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olímpica Stereo - Barranquilla",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_BARRANQUILLAAAC.aac?dist=oro_web",
+  "homepage": "https://olimpicastereo.com.co/",
+  "favicon": "https://olimpicastereo.com.co/icon?b8748d2f62517688",
+  "tags": [],
+  "votes": 632,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mix Radio 103.9",
+  "stream": "https://master.letio.com/io/?gs=9156&type=master.m3u8",
+  "homepage": "http://mixradio.co/",
+  "favicon": "",
+  "tags": [
+   "champeta",
+   "reggaeton"
+  ],
+  "votes": 576,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "La X Medellín 103.9 FM",
+  "stream": "https://tupanel.info:8000/stream",
+  "homepage": "https://laxmedellin.com/",
+  "favicon": "https://laxmedellin.com/static/images/LogoXMedellinFinal.144d8af15298.png",
+  "tags": [
+   "dance",
+   "electro",
+   "electro house",
+   "electronic",
+   "house",
+   "music",
+   "trance"
+  ],
+  "votes": 557,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tiempo Cartagena Colombia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_CARTAGENAAAC.aac?dist=RtCarWeb",
+  "homepage": "https://radiotiempo.co/",
+  "favicon": "https://radiotiempo.co/icon?b8748d2f62517688",
+  "tags": [],
+  "votes": 541,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RadioActiva 97.9FM. El planeta Rock",
+  "stream": "http://14073.live.streamtheworld.com/RADIO_ACTIVAAAC_SC",
+  "homepage": "http://www.radioacktiva.com/rock-espanol",
+  "favicon": "https://www.radioacktiva.com/wp-content/uploads/2024/12/favicon-200x200-1-150x100.png",
+  "tags": [
+   "classic rock",
+   "español",
+   "guns n' roses",
+   "rock en español"
+  ],
+  "votes": 528,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Baladas Rs",
+  "stream": "https://stream.zeno.fm/7ans8mgv2ehvv",
+  "homepage": "https://zeno.fm/radio/baladas-rs/",
+  "favicon": "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2FTEHp6OtWMIpqhvfCxL9Q62i6kx8yA9FjznHCnNb0T2Q%2Frs%3Afit%3A1500%3A600%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSUNRdWVYcTJ3Z01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSUNRLVotOTZna01vZ0VFZW1WdWJ3L21pY3Jvc2l0ZS9iYWNrZ3JvdW5kX2ltYWdlLz91cGRhdGVkPTE2NjE4OTk0NjMwMDA.webp&w=1920&q=70",
+  "tags": [
+   "baladas en español",
+   "musica romantica"
+  ],
+  "votes": 525,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olímpica Stéreo 104.5 Cali",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_CALI.mp3",
+  "homepage": "https://olimpicastereo.com.co/",
+  "favicon": "https://olimpicastereo.com.co/_next/image?url=https%3A%2F%2Fstrapi-aws-s3-images-olimpica-stereo-bucket.s3.us-east-1.amazonaws.com%2Flogo_olimpica_stereo_179b80381a.webp&w=384&q=75",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "music",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 522,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Baladas Inglés... RDC Radio",
+  "stream": "https://stream-286.surfernetwork.com/a0zv4rck04gvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhMHp2NHJjazA0Z3Z2IiwiaG9zdCI6InN0cmVhbS0yODYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjEtYVBJRFpfUjFlYUZFSG9mM3ZFZEEiLCJpYXQiOjE3OTE4MDE4ODEsImV4cCI6MTc5MTgwMTk0MX0.lnNuFqhk2wtPg6a7Ye7Ow_eQO5_nzJZlsRIJ-yeKEFU",
+  "homepage": "https://rdc-radio.webnode.com.co/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/D9mFdm6xusntsz4FTOKyqEwqq119UFVcNv_Hjmp1aB0/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvODM2Mjg4YzEtYjlmNC00YjQzLTk0NDItYmM0YjM2ODg1OGU0L2ltYWdlLz91PTE3Mzc0OTc2NzAwMDA.webp",
+  "tags": [
+   "amor",
+   "baladas en ingles",
+   "love songs",
+   "music",
+   "musica romantica"
+  ],
+  "votes": 516,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "SOLO BALADAS RADIO",
+  "stream": "https://stream.zeno.fm/fnsco8ngeszvv",
+  "homepage": "https://zeno.fm/radio/solobaladas-radio/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/uiEX5f3riP9L3JBvMp8lOfxTBebRA78lMFfrjbQi0yk/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYjM3MDc5OTItNzY4Zi00MmU4LThiNjctMDYzY2I4YTE0M2YxL2ltYWdlLz91PTE2NjU1Mjg1MzIwMDA.webp",
+  "tags": [
+   "amor",
+   "baladas",
+   "baladas en español",
+   "musica romantica"
+  ],
+  "votes": 438,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La 1070 de Radio Santa Fe (Q'Hubo Radio, HJCG, 1070 kHz, Bogotá)",
+  "stream": "http://24403.live.streamtheworld.com:3690/QHUBO_BOGOTAAAC_SC",
+  "homepage": "http://www.radiosantafe1070am.com/",
+  "favicon": "",
+  "tags": [
+   "local music",
+   "news"
+  ],
+  "votes": 431,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pingüino Estéreo",
+  "stream": "http://radiolatina.info:9750/",
+  "homepage": "http://pinguinostereo1069.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "community radio"
+  ],
+  "votes": 427,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Viva Fenix Ipiales (HJB29, 89.1 MHz FM)",
+  "stream": "https://radiolatina.info/8170/stream",
+  "homepage": "https://www.radiovivafenix.com/891/",
+  "favicon": "https://www.radiovivafenix.com/cms/wp-content/uploads/2020/09/icon-2.png",
+  "tags": [
+   "culture",
+   "ipiales",
+   "live sports",
+   "local talk",
+   "music",
+   "news",
+   "regional music",
+   "sports news"
+  ],
+  "votes": 415,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Colombia Pop Rock",
+  "stream": "https://play10.tikast.com/proxy/colpoprock?mp=/stream",
+  "homepage": "https://colombiacrossover.com/colombia-pop-rock/",
+  "favicon": "https://colombiacrossover.com/wp-content/uploads/Logo-colombia-poprock-nueva-1024x1024.png",
+  "tags": [
+   "00s",
+   "80s",
+   "90s",
+   "classic pop",
+   "classic rock",
+   "classics",
+   "hard rock",
+   "lounge",
+   "metadata",
+   "pop",
+   "rock"
+  ],
+  "votes": 396,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olimpica Stereo 90.5 Fm Monteria",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_MONTERIAAAC_SC?1715699972",
+  "homepage": "http://olimpicastereo.com.co/",
+  "favicon": "",
+  "tags": [
+   "latin music"
+  ],
+  "votes": 382,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Blu Radio Bogotá 89.9",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLURADIO.mp3",
+  "homepage": "https://www.bluradio.com/",
+  "favicon": "https://caracoltv.brightspotcdn.com/dims4/default/7e7eadf/2147483647/strip/true/crop/44x44+0+0/resize/44x44!/quality/75/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2Fd8%2Fba%2F2f4320784bfe8c03586592092f12%2Flogo-bluradio-dk-blanco-44.png",
+  "tags": [
+   "deportes",
+   "entretenimiento",
+   "entrevistas",
+   "information",
+   "noticias",
+   "noticias y comentarios",
+   "radio hablada",
+   "sports",
+   "talk"
+  ],
+  "votes": 375,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Latin Pop",
+  "stream": "https://stream.zeno.fm/4z0tf23wm0hvv",
+  "homepage": "https://worfmlatinpop.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 375,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RCS. Cartagena Stereo",
+  "stream": "http://stream.zeno.fm/get7vdy9dchvv",
+  "homepage": "https://wwwradiocadenastereo.blogspot.com/",
+  "favicon": "https://i.ytimg.com/vi/s4rgiw1yd84/hqdefault.jpg",
+  "tags": [
+   "corridos cumbia 70 80 varios"
+  ],
+  "votes": 361,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Guarne Estéreo 88.1 FM",
+  "stream": "http://streamingmediaradio.live:8046/stream",
+  "homepage": "https://www.facebook.com/GuarneStereo/",
+  "favicon": "https://www.facebook.com/favicon.ico",
+  "tags": [
+   "community radio",
+   "music",
+   "música variada"
+  ],
+  "votes": 356,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Colombia Crossover",
+  "stream": "https://radio35.virtualtronics.com/proxy/colombiacrossover?mp=/;",
+  "homepage": "https://colombiacrossover.com/",
+  "favicon": "https://colombiacrossover.com/wp-content/uploads/Logo-colombia-crossover-png-1198x1198.png",
+  "tags": [
+   "bachata",
+   "caribe",
+   "caribeño",
+   "champeta",
+   "crossover",
+   "cumbia",
+   "merengue",
+   "metadata",
+   "reggaeton",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 349,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicalisima FM Tunja",
+  "stream": "http://stream.zeno.fm/vp6ab0schg8uv",
+  "homepage": "https://tropicalisimafmtunja.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 346,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame 106.5 FM Cali",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_CALIAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 335,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Guarida Hip Hop",
+  "stream": "http://stream.zeno.fm/sp1x3mye474tv",
+  "homepage": "https://www.guaridahiphop.net/p/emisora_30.html",
+  "favicon": "https://img.sedoparking.com/templates/logos/sedo_logo.png",
+  "tags": [
+   "hip hop",
+   "latinoamérica",
+   "música en español",
+   "rap"
+  ],
+  "votes": 322,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Energia 102.5 FM",
+  "stream": "https://audio1.energia1025.com/radio/8000/stream.mp3",
+  "homepage": "https://energia1025.com/",
+  "favicon": "https://energia1025.com/wp-content/uploads/2019/11/cropped-logoenergia-2-180x180.png",
+  "tags": [
+   "salsa"
+  ],
+  "votes": 321,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cartago Stereo Colombia",
+  "stream": "http://51.15.160.78:8584/stream",
+  "homepage": "http://cartagostereo.com/",
+  "favicon": "https://i0.wp.com/cartagostereo.com/wp-content/uploads/2020/08/cropped-Logo-PNG-cartago-st-1.png?fit=192%2C192&ssl=1",
+  "tags": [
+   "salsa",
+   "tropical; cross over"
+  ],
+  "votes": 320,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nacional de Colombia",
+  "stream": "http://shoutcast.rtvc.gov.co:8000/;",
+  "homepage": "",
+  "favicon": "",
+  "tags": [],
+  "votes": 319,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Kalle FM",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/LA_KALLE.mp3",
+  "homepage": "http://lakalle.co/",
+  "favicon": "",
+  "tags": [
+   "classical",
+   "hits",
+   "reggaetón",
+   "sudamericana"
+  ],
+  "votes": 314,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Voz de la capilla",
+  "stream": "https://sonic.paulatina.co/7446/stream",
+  "homepage": "https://www.vozdelacapilla.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 311,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Techno Record FM Tunja",
+  "stream": "http://stream.zeno.fm/r3d2u9pu87zuv",
+  "homepage": "https://technorecordfm.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 309,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Jefa 1300 AM",
+  "stream": "https://sonic.paulatina.co/7046/stream",
+  "homepage": "https://www.brsradio.co/",
+  "favicon": "https://www.brsradio.co/wp-content/uploads/2022/09/LOGO-LA-JEFA-1300-560x560.png",
+  "tags": [
+   "entretenimiento",
+   "music",
+   "musica",
+   "música popular mexicana",
+   "música variada",
+   "popular",
+   "radio hablada",
+   "ranchera",
+   "regional mexican"
+  ],
+  "votes": 306,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Viva Fenix Pasto (HJFV, 780 kHz AM)",
+  "stream": "https://radiolatina.info/8166/stream",
+  "homepage": "https://www.radiovivafenix.com/780/",
+  "favicon": "https://www.radiovivafenix.com/cms/wp-content/uploads/2020/09/icon.png",
+  "tags": [
+   "culture",
+   "live sports",
+   "local talk",
+   "music",
+   "news",
+   "pasto",
+   "regional music",
+   "sports news"
+  ],
+  "votes": 304,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "CLÁSICOS REGGAETON 24_7",
+  "stream": "https://stream.zeno.fm/2g1qkn4cbpeuv",
+  "homepage": "https://zeno.fm/radio/clasicos-reggaeton-24-7/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/jjnexd9Q7Pu1IeghXI97tyzdr-QXOIrPtMzc_8NBgWU/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJREEzSXp4LXdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0FnTURoaWdvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTcwNTAxMDA2ODAwMA.webp",
+  "tags": [
+   "hits",
+   "music",
+   "reggaeton",
+   "urbano"
+  ],
+  "votes": 300,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tiempo Medellín",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_MEDELLINAAC.aac",
+  "homepage": "https://www.radiotiempo.co/",
+  "favicon": "",
+  "tags": [
+   "clásica romántica"
+  ],
+  "votes": 296,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fuego AM",
+  "stream": "https://radio35.virtualtronics.com:20017/stream",
+  "homepage": "https://fuegoam.com.co/",
+  "favicon": "",
+  "tags": [],
+  "votes": 291,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Super Estación Online",
+  "stream": "https://stream-286.surfernetwork.com/udaw685yezzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1ZGF3Njg1eWV6enV2IiwiaG9zdCI6InN0cmVhbS0yODYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImM1NGJ1Y2piUzhXVkNvV3dLUHVxd3ciLCJpYXQiOjE3OTE3NTU2OTcsImV4cCI6MTc5MTc1NTc1N30.x94U2LY7iahTwxhtq_RWElR84JIjVVyKKe2UCXQkA2M",
+  "homepage": "https://zeno.fm/radio/lasuper-estacion/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/cAYAY4VWrAqxoDt13dalDUxHgLKiImf4Y2W1suTfTZE/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1FsTm5ZcGdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ1FpdGptM1FrTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MzEzMTc4NjAwMA.webp",
+  "tags": [
+   "2000s",
+   "80s",
+   "90s",
+   "música en inglés",
+   "pop",
+   "rock"
+  ],
+  "votes": 289,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Blu Radio - Musica",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MUSICABLU.mp3",
+  "homepage": "https://www.bluradio.com/",
+  "favicon": "https://caracoltv.brightspotcdn.com/dims4/default/be3d3b3/2147483647/strip/true/crop/315x314+0+0/resize/120x120!/quality/90/?url=http%3A%2F%2Fcaracol-brightspot.s3.amazonaws.com%2Fbf%2F7e%2F3970272b49a4b5fa943fc505a9d1%2Fblu-radio-logo-2019-rgb.png",
+  "tags": [
+   "2000s",
+   "80s",
+   "90s",
+   "classic hits",
+   "music",
+   "musica"
+  ],
+  "votes": 285,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Salsa y mas Cali",
+  "stream": "https://stream.zeno.fm/42w3pfn7pzzuv",
+  "homepage": "https://www.facebook.com/salsaymascali/?_rdc=1",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/YlhOoehrohBhfDGCefjS_yR_5GOAfXYHkcld-YID0mg/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1EtdGZCaXdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ1EtckN4bEFvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY4MzY5NzEwMzAwMA.webp",
+  "tags": [
+   "latino",
+   "music",
+   "reggaeton",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 285,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ZonaSalsa Radio",
+  "stream": "https://cast6.asurahosting.com/proxy/salsafou/stream",
+  "homepage": "http://zonsalsaradio.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 282,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Abaco Libros y Café Radio",
+  "stream": "http://radio30.virtualtronics.com:8638/;",
+  "homepage": "https://abacolibrosycaferadio.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7iv0aljc6IxjGOoAf1QvAEJSyrAW172NUY8x62COs4mTifEygivn13dvw3QxeAANosXg2P4yhiD86Aqto3zE-qRo1mbbMxS7mSfE1QIT-rK72pM2B6HZdWSawQ_zw0DEZsFyu0TiY0UkehV94e0eavfFbVJYAEvcgMGUI3KpU5-FmXnxBiQzTpTcjQ/s16000/LEAVEATIP_vectorized%20(2)azul12.png%20alt=",
+  "tags": [
+   "jazz"
+  ],
+  "votes": 281,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radioaktiva",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVA.mp3",
+  "homepage": "https://www.radioacktiva.com/",
+  "favicon": "https://www.radioacktiva.com/wp-content/uploads/2024/12/favicon-200x200-1-150x100.png",
+  "tags": [
+   "rock"
+  ],
+  "votes": 281,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ALR Jazz Radio",
+  "stream": "https://radio30.virtualtronics.com/proxy/abaco?mp=/stream/",
+  "homepage": "https://www.alrjazz.com/",
+  "favicon": "",
+  "tags": [
+   "jazz"
+  ],
+  "votes": 276,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Colombia Lounge",
+  "stream": "https://play10.tikast.com/proxy/collounge?mp=/stream",
+  "homepage": "https://colombiacrossover.com/colombia-lounge/",
+  "favicon": "https://colombiacrossover.com/wp-content/uploads/Logo-Colombia-Lounge-nueva-modified.png",
+  "tags": [
+   "chill",
+   "chillout",
+   "easy listening",
+   "electronic",
+   "house",
+   "lounge",
+   "metadata"
+  ],
+  "votes": 268,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Colombia Urbana",
+  "stream": "https://play10.tikast.com/proxy/colurbana?mp=/stream",
+  "homepage": "https://colombiacrossover.com/colombia-urbana/",
+  "favicon": "https://colombiacrossover.com/wp-content/uploads/Logo-Colombia-Urbana-1280x1280-redondo-1024x1024.png",
+  "tags": [
+   "hip hop",
+   "metadata",
+   "pop",
+   "reggaeton",
+   "trap",
+   "urban",
+   "urbana",
+   "urbano"
+  ],
+  "votes": 263,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Rockola FM",
+  "stream": "https://stream.zeno.fm/uz2idrgoqnduv",
+  "homepage": "https://stream.zeno.fm/uz2idrgoqnduv",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240320_152637143.jpg?alt=media&token=77e1aecc-1ad1-42f0-879e-0f43899f28ab",
+  "tags": [
+   "merengue",
+   "ranchera",
+   "rockola",
+   "soacha",
+   "vallenato"
+  ],
+  "votes": 262,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Capital Salsa",
+  "stream": "https://stream.integracionvirtual.com/proxy/capitalsalsa?mp=/stream",
+  "homepage": "https://capitalsalsa.com.co/",
+  "favicon": "",
+  "tags": [
+   "latin salsa",
+   "salsa",
+   "salsa colombiana"
+  ],
+  "votes": 258,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EBENEZER STEREO",
+  "stream": "http://s30.myradiostream.com:32622/listen.mp3",
+  "homepage": "https://ceasoacha.wixsite.com/ebenezerstereo",
+  "favicon": "https://www.wix.com/favicon.ico",
+  "tags": [],
+  "votes": 250,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olimpica Stereo 90.5 fm Cartagena",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_CARTAGENAAAC_SC?1715570345",
+  "homepage": "http://olimpicastereo.com.co/",
+  "favicon": "",
+  "tags": [
+   "latina"
+  ],
+  "votes": 248,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cristiana Colombia",
+  "stream": "https://stream.zeno.fm/a3y646rxcfhvv",
+  "homepage": "https://zeno.fm/radio/radio-cristiana-colombia-fm/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/jjGuFiSOPKuD2exvaIqaCwSHxdKJhvvHFI1jYLW6Z7A/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRHd0TDZaekFvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0kzTWVlc0FzTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY4Mzc2NzI1MjAwMA.webp",
+  "tags": [
+   "cristiana",
+   "evangelio",
+   "gospel"
+  ],
+  "votes": 244,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "vallenata stereo",
+  "stream": "https://stream.zeno.fm/08qxk717fd0uv",
+  "homepage": "https://vallenatastereocolombia.blogspot.com/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/MIOo_t6WrTnauOPI_z1jjT8b7Bn2w5r6SiQrmNsVHv8/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFF3cHEwOUFnTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFF3cWFZaXdrTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTcxNzE5OTQzNDAwMA.webp",
+  "tags": [
+   "music",
+   "vallenato"
+  ],
+  "votes": 223,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mundo Retro - Rock & Pop en Español",
+  "stream": "https://stream-280.surfernetwork.com/3y2q8paptqruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiIzeTJxOHBhcHRxcnV2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Imh5Q0I4dlp2UTMtLVluUjNabjkxT0EiLCJpYXQiOjE3OTE3NTIxMTAsImV4cCI6MTc5MTc1MjE3MH0.rXeGPVgBukucawcH-hjKL892aKCQ3P1hP4NOt5CXw48",
+  "homepage": "https://mundoretrorock.es.tl/ROCK-%26-POP-EN-ESPA%D1OL.htm",
+  "favicon": "https://static-media.streema.com/media/cache/42/d0/42d0507808ada10d44ce144a30dcd57f.jpg",
+  "tags": [
+   "2000s",
+   "80s",
+   "90s",
+   "music",
+   "rock en español"
+  ],
+  "votes": 221,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Aviva2",
+  "stream": "https://stream.avivamientoradio.net/radio/8000/radio.mp3",
+  "homepage": "https://aviva2.com/web/",
+  "favicon": "https://aviva2.com/web/wp-content/uploads/2019/07/cropped-avivamiento-192x192.png",
+  "tags": [],
+  "votes": 219,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mas Baladas Stereo",
+  "stream": "https://stream-280.surfernetwork.com/5mqdcrn07pkuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI1bXFkY3JuMDdwa3V2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Im00d1lxcUxWVGJlVjJTNW02dDh4RkEiLCJpYXQiOjE3OTE4MTU1NjgsImV4cCI6MTc5MTgxNTYyOH0.NGT_E61xf1KbgL5l5IaIH45FH6RFk_wWBhQhyMh3lq8",
+  "homepage": "https://www.masbaladasstereo.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/a/AVvXsEin9v2oVnnUGmMGRYHFjIxE5Pvjv3LeCObKb6EvycT1wGIgQnJ1VwLvvLJrhYeIar9vxgaChhQbyM-oRL_f_mknk4GKP6ucBJFuz-_dAymEViRjVkksj5wx2LqQgRoXzQHfl0pRCieMDX2XyOo-bHVCfpSsqpvv-La9JsnpT4Up7tih5ojOMKJfHSwQogVB=w800",
+  "tags": [
+   "amor",
+   "baladas en español",
+   "musica romantica",
+   "música en español",
+   "retro"
+  ],
+  "votes": 217,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La FM Bogotá",
+  "stream": "https://mdstrm.com/audio/632c9b23d1dcd7027f32f7fe/live.m3u8",
+  "homepage": "http://www.lafm.com.co/",
+  "favicon": "",
+  "tags": [],
+  "votes": 211,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "sasagordaradio",
+  "stream": "http://stream.zeno.fm/s4s85axxaseuv",
+  "homepage": "https://salsagordaradiosalsa.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "jazz",
+   "salsa",
+   "salsa colombiana",
+   "timba"
+  ],
+  "votes": 211,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Reina Barranquilla",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RNA_BARRANQUILLAAAC.aac?dist=oro_web",
+  "homepage": "https://lareinadelvallenato.co/",
+  "favicon": "https://lareinadelvallenato.co/favicon.ico",
+  "tags": [],
+  "votes": 208,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Retro Bogota",
+  "stream": "http://stream-282.surfernetwork.com/9r2umrrt97zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI5cjJ1bXJydDk3enV2IiwiaG9zdCI6InN0cmVhbS0yODIuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlV4RUdBaTB3UkdtdFd1Zk9ROHloTmciLCJpYXQiOjE3OTE3Nzc1MjMsImV4cCI6MTc5MTc3NzU4M30.WbvS1E3XxcnRFHLwg3XIqencBc2Flg9HQ0l1DYoi2WA",
+  "homepage": "https://worfmretro.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 208,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Power Urbana",
+  "stream": "https://stream.zeno.fm/cxf1r8zukyhuv",
+  "homepage": "https://radiopower-urbana.blogspot.com/",
+  "favicon": "https://i.imgur.com/871VHVI.png",
+  "tags": [],
+  "votes": 207,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Viejitas Pero Bonitas Radio",
+  "stream": "https://stream.zeno.fm/t4pj1qaktrwtv",
+  "homepage": "https://zeno.fm/radio/viejitas-pero-bonitass/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/6hRGTNI71WD1Kg-RhvPEetC1oLoN9cVEDRmQLekLJe4/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYjU4OTVhY2YtZmNlOC00MjYzLTk1OTktZjhmOGZhNzE4MTU4L2ltYWdlLz91PTE3MjYwMTI0NTcwMDA.webp",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "amor",
+   "baladas en español",
+   "musica romantica",
+   "oldies",
+   "retro"
+  ],
+  "votes": 207,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Metrópolis Stereo",
+  "stream": "https://streaming.radiosenlinea.com.ar:10898/stream",
+  "homepage": "https://metropolisfm.co/",
+  "favicon": "https://play-lh.googleusercontent.com/J_iNQrgaymhzOaLUVDcwKEPX3392dvkYwXnrZvlAsz4_phadxHFAniyx_ok_LRDPs7I=s360-rw",
+  "tags": [
+   "champeta",
+   "merengue",
+   "reggaeton",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 205,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Mega (Pereira) 105.2 FM",
+  "stream": "https://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio-aw/632ce0bf9234f869e9a522af",
+  "homepage": "https://www.lamega.com.co/pereira",
+  "favicon": "https://www.lamega.com.co/logo-lamega-30.svg",
+  "tags": [
+   "entretenimiento",
+   "latino",
+   "latinoamérica",
+   "music",
+   "música urbana",
+   "pop",
+   "pop latino",
+   "pop music",
+   "pop rock",
+   "reguetón",
+   "rock",
+   "urbano"
+  ],
+  "votes": 194,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Rock Colombia",
+  "stream": "https://stream-164.zeno.fm/cbw0z9hzy68uv",
+  "homepage": "https://radiorockclasicos.blogspot.com/",
+  "favicon": "https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/322852149_610856721040412_3669347393129850162_n.jpg?stp=c23.0.50.50a_cp0_dst-jpg_p50x50&_nc_cat=111&ccb=1-7&_nc_sid=aae68a&_nc_ohc=DDJmFTz_djIAX-rkaTd&_nc_ht=scontent-bog2-2.xx&oh=00_AfDqaRSeW7OnzZyRYIRit6XMKvIn0_biCh_MaWRyCgmmwQ&oe=65D7FAF5",
+  "tags": [],
+  "votes": 193,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Viva Fenix Ipiales (HJNM, 1220 kHz AM)",
+  "stream": "https://radiolatina.info/8172/stream",
+  "homepage": "https://www.radiovivafenix.com/1220/",
+  "favicon": "https://www.radiovivafenix.com/cms/wp-content/uploads/2020/09/icon-2.png",
+  "tags": [
+   "culture",
+   "ipiales",
+   "live sports",
+   "local talk",
+   "music",
+   "news",
+   "regional music",
+   "sports news"
+  ],
+  "votes": 192,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ROCK POP LATINO",
+  "stream": "https://stream.zeno.fm/6wna3u3m21zuv",
+  "homepage": "https://zeno.fm/radio/rock-pop-latino/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/4CiPHr2c1acizQQf0KzMwyzDYzsDHmAfxRtGdG4ZzLE/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1FyS2FJbWdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ1FycjZ2N3dvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MDg2MjczNDAwMA.webp",
+  "tags": [
+   "2000s",
+   "80s",
+   "90s",
+   "hits",
+   "latino",
+   "música en español",
+   "pop rock",
+   "rock"
+  ],
+  "votes": 181,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Diciembre Radio Colombia",
+  "stream": "https://stream.zeno.fm/8mklmefaucjuv",
+  "homepage": "https://diciembreradiocolombia.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/a/AVvXsEgc0jp3CjSw9WoppSoK6Pnz4zRqMJf3CWMdmzzbYOZj3FmXNc6sctr6sbqYyDSBTSa3U_9zfnq6unASIvFEwSwfGolGmXDKQkl3qcxg2qhcDiP7lw3NkO9G7wnGHVJK0NZgOa4RdwxfsSt0PN-kD5HCTxEklid1vUMb_zRnQOJuYejMHJrGtsgm6Wihfi0=s1235",
+  "tags": [
+   "christmas music",
+   "colombian music",
+   "latino",
+   "navidad",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 181,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Super Estación 88.9",
+  "stream": "https://emisorasdigitales2.com/8018/stream",
+  "homepage": "https://superestacion.fm/",
+  "favicon": "https://superestacion.fm/wp-content/uploads/2024/02/LOGO-1.png",
+  "tags": [
+   "80s en español",
+   "pop en español e inglés",
+   "rock",
+   "rock en español"
+  ],
+  "votes": 173,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Global Estéreo 96.8 FM La Plata, Huila",
+  "stream": "http://radiolatina.info/9840/stream",
+  "homepage": "https://www.emisoraglobalestereo.com/",
+  "favicon": "https://i2.wp.com/www.emisoraglobalestereo.com/wp-content/uploads/2021/10/logo-1.png",
+  "tags": [],
+  "votes": 168,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "SALSA Y CHARANGA 24/7",
+  "stream": "https://stream.zeno.fm/3wxfyaqc1rhvv",
+  "homepage": "https://zeno.fm/radio/salsa-y-charanga-24-7/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/Z8aNaCWm5HctUuwgiu5QLkvjiS3SCoTrNMhYPPV55RY/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ0lsLUc4X3dzTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0kxOXp4blFvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTgzMjQzMjAwMA.webp",
+  "tags": [
+   "caribbean music",
+   "latino",
+   "salsa"
+  ],
+  "votes": 158,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cristianas viejitas Isaías radio",
+  "stream": "https://stream-280.surfernetwork.com/x8k74kh1hwzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4OGs3NGtoMWh3enV2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImRZU05aYThCUy0tMXFtZUZnMkpQdFEiLCJpYXQiOjE3OTE4MDU1MTgsImV4cCI6MTc5MTgwNTU3OH0.y_eKaOhqsjsXKrrqOkufzulahmt1YbGc16oeyzMFxr4",
+  "homepage": "https://zeno.fm/radio/cristianas-viejitas-isaias-radio/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/8Lt4AeAsfArG2sUCUVAXKeF2P1Ahe2-wcGgDHg3VJUk/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1EySUdpOXdnTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ1FtS3ZjeEFrTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTc0NDQ3OTA1NjAwMA.webp",
+  "tags": [
+   "bible",
+   "biblia",
+   "cristiana",
+   "gospel",
+   "religious",
+   "retro"
+  ],
+  "votes": 155,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tiempo Cali 89.5 FM",
+  "stream": "https://26583.live.streamtheworld.com/RT_CALIAAC_SC",
+  "homepage": "https://radiotiempo.co/",
+  "favicon": "https://static-media.streema.com/media/cache/a9/be/a9bedc8728e2ce94959a49264504bbaa.jpg",
+  "tags": [],
+  "votes": 149,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "The Beatles Radio",
+  "stream": "http://stream.zenolive.com/g91u6ddb86duv",
+  "homepage": "https://www.thebeatlesradio.co/",
+  "favicon": "https://i.ibb.co/NWQd1jc/71517-v9.png",
+  "tags": [
+   "classic rock",
+   "the beatles"
+  ],
+  "votes": 148,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Armenia Stereo 89.4 FM",
+  "stream": "https://stream-288.surfernetwork.com/wz4hzqtkh5zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ3ejRoenF0a2g1enV2IiwiaG9zdCI6InN0cmVhbS0yODguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjFqSTQtSWpJVFVpU3hMWjAzOUVhOGciLCJpYXQiOjE3OTE4MTg1MjgsImV4cCI6MTc5MTgxODU4OH0.0OKWYrSDz7Qchd1YYUNCshTgluw3g_hZlqSkagM5jks",
+  "homepage": "https://zeno.fm/radio/armenia-estereo-armenia-mantequilla/",
+  "favicon": "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2FpWdY9nwMqgZcNiJWcinr87qaOevO1x1BCTusvV4tdC4%2Frs%3Afit%3A1500%3A600%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSUNBb0t5T21na01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSUNRMDRHMG93b01vZ0VFZW1WdWJ3L21pY3Jvc2l0ZS9iYWNrZ3JvdW5kX2ltYWdlLz91cGRhdGVkPTE2NjExMDE2NjEwMDA.webp&w=1920&q=70",
+  "tags": [
+   "crossover",
+   "musica",
+   "música variada",
+   "popular",
+   "radio comunitaria",
+   "vallenato"
+  ],
+  "votes": 141,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora Atlántico 1070 AM",
+  "stream": "https://master.letio.com/io/?gs=9104&type=live.m3u8",
+  "homepage": "https://emisoraatlantico.com.co/",
+  "favicon": "https://emisoraatlantico.com.co/wp-content/uploads/2016/02/logoEA.png",
+  "tags": [
+   "50s",
+   "60s",
+   "70s",
+   "cumbia",
+   "deportes",
+   "mambo",
+   "noticias",
+   "rumba",
+   "salsa",
+   "tropical",
+   "variety"
+  ],
+  "votes": 140,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Bésame 90.7 FM Armenia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_ARMENIAAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica",
+   "musica romantica"
+  ],
+  "votes": 137,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Su Presencia Radio",
+  "stream": "https://supresenciaradio.out.airtime.pro/supresenciaradio_a",
+  "homepage": "https://supresenciaradio.com/",
+  "favicon": "https://supresenciaradio.com/wp-content/uploads/2017/12/logo-spradio.png",
+  "tags": [
+   "cristiana",
+   "gospel",
+   "radio cristiana",
+   "religion"
+  ],
+  "votes": 136,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olimpica Stereo Bucaramanga 97.7 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_BUCARAMANGAAAC.aac",
+  "homepage": "https://olimpicastereo.com.co/",
+  "favicon": "https://olimpicastereo.com.co/_next/image?url=https%3A%2F%2Fstrapi-aws-s3-images-olimpica-stereo-bucket.s3.us-east-1.amazonaws.com%2Flogo_olimpica_stereo_179b80381a.webp&w=384&q=75",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "merengue",
+   "popular",
+   "vallenato"
+  ],
+  "votes": 131,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Reina Cartagena 95.5 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RNA_CARTAGENAAAC.aac",
+  "homepage": "https://lareinadelvallenato.co/",
+  "favicon": "https://lareinadelvallenato.co/_next/image?url=https%3A%2F%2Fstrapi-aws-s3-images-lareinadelvallenato-bucket.s3.us-east-1.amazonaws.com%2Flogo_la_reina_2826ff997c.webp&w=384&q=75",
+  "tags": [
+   "entretenimiento",
+   "music",
+   "vallenato"
+  ],
+  "votes": 131,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tango",
+  "stream": "https://stream.zeno.fm/uxxf2xaxdzzuv",
+  "homepage": "https://zeno.fm/radio/radio-tango/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/7s35xu1BsHOPd57HZI08npXVyzpnCAdBpcUA3HKyeOA/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1E4c0w3alFrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ1E4dnpYaHdrTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTM2MDc0MjAwMA.webp",
+  "tags": [
+   "latino",
+   "music",
+   "tango",
+   "tangos"
+  ],
+  "votes": 122,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO INFORMATIVA DE COLOMBIA",
+  "stream": "https://stream.zeno.fm/uhaugz8qk3rtv",
+  "homepage": "https://zeno.fm/radio/radio-informativa-de-colombia/",
+  "favicon": "https://zeno.fm/_ipx/q_85&fit_cover&s_144x144/https://images.zeno.fm/qTJCHEu3oeNWX2GxNcNCe7ydtPiElXbj8OX9kbftngw/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvM2Y4NjEwN2UtNWQ4ZC00MDlhLWIxM2EtYTBlMzZlODc4NDYwL2ltYWdlLz91PTE2OTE1NDczMjYwMDA.webp",
+  "tags": [
+   "deportes",
+   "información",
+   "information",
+   "noticias",
+   "radio hablada",
+   "talk"
+  ],
+  "votes": 122,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Croosover Bogota",
+  "stream": "http://stream.zeno.fm/um30vzk214zuv",
+  "homepage": "https://worfmcroosover.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 116,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame 100.7 FM Cúcuta",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_CUCUTAAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 115,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Inci Radio",
+  "stream": "https://radiolatina.live/8038/stream",
+  "homepage": "https://www.inci.gov.co/inciradio",
+  "favicon": "https://www.inci.gov.co/core/misc/favicon.ico",
+  "tags": [],
+  "votes": 112,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Dance Bogota",
+  "stream": "http://stream.zeno.fm/650pdt7z24zuv",
+  "homepage": "https://worfmdance.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 112,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pechichon Radio Vallenato",
+  "stream": "https://stream.zeno.fm/1h4etup3cveuv",
+  "homepage": "https://zeno.fm/radio/pechichon-radio-vallenato/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/I2rOY8XKExvPNsE713TXeRlj6n36mmzp-eelfE_qMVs/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJREFqb215aVFrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0FnTUMxbXdvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTUxMTAwMjAwMA.webp",
+  "tags": [
+   "music",
+   "vallenato"
+  ],
+  "votes": 112,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ambiente Stereo 88.4 FM",
+  "stream": "https://radio06.cehis.net:9036/stream",
+  "homepage": "https://ambientestereo.fm/sitio/",
+  "favicon": "https://ambientestereo.fm/sitio/wp-content/uploads/2022/11/ambiente_logo-blanco.png",
+  "tags": [
+   "biblia",
+   "cristiana",
+   "gospel",
+   "religious"
+  ],
+  "votes": 109,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Radio Deportes",
+  "stream": "https://samuel.i-radio.co:9000/radiodeportes",
+  "homepage": "https://www.radiocristianamanizales.com/",
+  "favicon": "https://www.radiocristianamanizales.com/favicon.ico",
+  "tags": [],
+  "votes": 109,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Dosis Electrónica Radio",
+  "stream": "https://stream.zeno.fm/1zc80p7dyzzuv",
+  "homepage": "https://dosiselectronicame.wixsite.com/website",
+  "favicon": "https://static.wixstatic.com/media/1294ef_cdd08763d78c45feafbf7f28f5833575~mv2.jpg/v1/fill/w_40,h_40,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/dosis%209.jpg",
+  "tags": [
+   "dance",
+   "electronic",
+   "house",
+   "music",
+   "trance"
+  ],
+  "votes": 107,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Durisima Radio Online",
+  "stream": "http://stream.laut.fm/durisimaradio",
+  "homepage": "https://durisima20.wixsite.com/misitio",
+  "favicon": "https://www.wix.com/favicon.ico",
+  "tags": [
+   "guagunco",
+   "latin",
+   "montuno",
+   "otros",
+   "romantica",
+   "salsa",
+   "timba"
+  ],
+  "votes": 107,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Musical Stereo",
+  "stream": "https://sonic.paulatina.co/8156/stream",
+  "homepage": "https://www.musicalstereo.com/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "80s",
+   "baladas",
+   "clasicos",
+   "música tropical"
+  ],
+  "votes": 106,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame 93.7 FM Pereira",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_PEREIRA_FMAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 103,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ctb stereo",
+  "stream": "http://stream.zeno.fm/r4t5dkavfzzuv",
+  "homepage": "https://ctbstereoradio.blogspot.com/",
+  "favicon": "https://ctbstereoradio.blogspot.com/favicon.ico",
+  "tags": [],
+  "votes": 101,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "SALSA CRISTIANA",
+  "stream": "https://stream.zeno.fm/131byu0uvmzuv",
+  "homepage": "https://zeno.fm/radio/salsa-cristiana/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/tpjU7T-2WjbpS5Lrp9GnSugiiXZxU45L4cW-vOOmtAM/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ2dpNEtyMkFrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRGdoWm1SMWdnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTY1NTUxMzAwMA.webp",
+  "tags": [
+   "cristiana",
+   "gospel",
+   "religious",
+   "salsa"
+  ],
+  "votes": 99,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame 104.7 FM Bucaramanga",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_BUCARAMANGAAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 98,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fiesta 106.2 FM",
+  "stream": "https://server1.intermediacolombia.com:8006/stream",
+  "homepage": "https://www.fiestafm.com.co/san-alberto/",
+  "favicon": "https://www.fiestafm.com.co/images/logo-repro.png",
+  "tags": [
+   "latino",
+   "music",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 97,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora Atlantico",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ATL_BARRANQUILLA.mp3",
+  "homepage": "https://emisoraatlantico.com.co/",
+  "favicon": "",
+  "tags": [],
+  "votes": 96,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Amor Stereo",
+  "stream": "https://stream.zeno.fm/aycnet07h0hvv",
+  "homepage": "https://amorstereopas.wixsite.com/amores",
+  "favicon": "https://static.wixstatic.com/media/67da2a_592955147c934717b1bb543a14fb60c3~mv2.png/v1/fill/w_571,h_478,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Amor%20Estereo2.png",
+  "tags": [],
+  "votes": 95,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Poderosa 104.1 FM",
+  "stream": "https://samuel.i-radio.co:8001/araunastereo",
+  "homepage": "https://lapoderosa1041.com/",
+  "favicon": "https://lapoderosa1041.com/wp-content/uploads/2022/11/log-la-poderosa-fm-300x300.png",
+  "tags": [
+   "adult contemporary",
+   "crossover",
+   "entretenimiento",
+   "local radio",
+   "noticias",
+   "radio hablada"
+  ],
+  "votes": 94,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Acuario Estéreo 1010 AM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ACUARIOAAC.aac",
+  "homepage": "https://acuarioestereo.com/",
+  "favicon": "https://acuarioestereo.com/wp-content/uploads/2018/12/cropped-logo-acuario-estereo-1010-am.png",
+  "tags": [
+   "baladas en español",
+   "musica romantica",
+   "música en español",
+   "retro"
+  ],
+  "votes": 92,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicanal Tropical 98.9 FM",
+  "stream": "https://stream.zeno.fm/kmnekh2929duv",
+  "homepage": "https://tropicanal989fm.wixsite.com/pasto",
+  "favicon": "https://static.wixstatic.com/media/79d78e_bd7c686a8d20430a8e485e89869095d2~mv2.png/v1/fill/w_291,h_225,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Tropicanal%20-%20Tropical%20final.png",
+  "tags": [],
+  "votes": 91,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Recuerdos 1230 AM",
+  "stream": "https://radio35.virtualtronics.com/proxy/radiorecuerdos?mp=/;",
+  "homepage": "https://radiorecuerdos1230.com/",
+  "favicon": "https://radiorecuerdos1230.com/images/radio%20recuerdos3.png",
+  "tags": [
+   "40s",
+   "50s",
+   "60s",
+   "70s",
+   "80s",
+   "entretenimiento",
+   "música popular mexicana",
+   "popular",
+   "ranchera",
+   "retro"
+  ],
+  "votes": 90,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "BLU Radio Bogotá",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLURADIO_ADP_SC",
+  "homepage": "https://www.bluradio.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 89,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Su Presencia",
+  "stream": "http://supresenciaradio.out.airtime.pro:8000/supresenciaradio_a",
+  "homepage": "https://supresenciaradio.com/",
+  "favicon": "https://supresenciaradio.com/wp-content/uploads/2017/01/apple-touch-icon-114x114.png",
+  "tags": [],
+  "votes": 88,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "B Mor",
+  "stream": "http://streamingmediaradio.live/8086/stream",
+  "homepage": "https://www.b-mor.co/",
+  "favicon": "https://www.b-mor.co/wp-content/uploads/2024/05/cropped-B_Mor-192x192.jpg",
+  "tags": [],
+  "votes": 86,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO POLICÍA NACIONAL\" \"106.0 FM (CARTAGENA)",
+  "stream": "https://stream.zeno.fm/7uec7b5ukm0uv",
+  "homepage": "https://zeno.fm/radio/radiopoliciacartagena/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/2YbylHXFvwMpbtT4U8EFYJUmTxIoR04MXtyKzAde7lA/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFF1Yk96cXdvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFEtWTZlblFzTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTYzNjMzNjAwMA.webp",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "government",
+   "latino",
+   "music",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 85,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Clasica FM919",
+  "stream": "http://tupanel.info:8018/stream/",
+  "homepage": "https://tupanel.info:2000/public/emisora919fm",
+  "favicon": "",
+  "tags": [
+   "rock"
+  ],
+  "votes": 85,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame 91.7 FM Manizales",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MANIZALESAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 84,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO UNO PEREIRA 94.7 FM",
+  "stream": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632ce1416197360894629aa6",
+  "homepage": "https://radiouno.rcnradio.com/ibague/pereira",
+  "favicon": "https://static.wordpress.rcnradio.com/radiouno/logo.webp",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "music",
+   "popular",
+   "vallenato"
+  ],
+  "votes": 84,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Toca Stereo 105.3 fm",
+  "stream": "https://colombiawebs.com.co/proxy/tocaestereo/stream/1/",
+  "homepage": "https://tocastereo.co/",
+  "favicon": "https://cdn.colombia.com/canales/toca-stereo-2314.jpg",
+  "tags": [],
+  "votes": 82,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Chipazaque Tunja",
+  "stream": "http://stream.zeno.fm/9k31xz9004zuv",
+  "homepage": "https://radiochipazaque.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 81,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Sabor Boricua Radio",
+  "stream": "http://usa19.fastcast4u.com:6170/live",
+  "homepage": "http://saborboricua.com/",
+  "favicon": "",
+  "tags": [
+   "cumbia",
+   "merengue",
+   "musica latina",
+   "salsa"
+  ],
+  "votes": 81,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Wilos Stereo Bogota",
+  "stream": "http://stream-286.surfernetwork.com/acbe04shgf9uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhY2JlMDRzaGdmOXV2IiwiaG9zdCI6InN0cmVhbS0yODYuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImdqMEZkZWVXUV95VGVQOHNlcmM4MnciLCJpYXQiOjE3OTE3Nzc5MjksImV4cCI6MTc5MTc3Nzk4OX0.0jipcTZhDKvfYZLRIV2HqQYR4blevaxYC1BBXzsT3hk",
+  "homepage": "https://wilosfm.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 80,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cafe Stereo 96.7 FM",
+  "stream": "https://stremo.decibeles.net:8443/CafeStereo",
+  "homepage": "http://stremo.decibeles.net:8001/CafeStereo",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/1/88821.v10.png",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "popular",
+   "radio comunitaria",
+   "vallenato",
+   "variety"
+  ],
+  "votes": 79,
+  "codec": "OGG",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Worproducer Radio Bogotá",
+  "stream": "http://stream.zeno.fm/d8mxhnset7zuv",
+  "homepage": "https://worproducerstation.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 78,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Exa FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+  "homepage": "https://www.exafm.com/veracruz/",
+  "favicon": "https://i.iheart.com/v3/re/new_assets/5f9883c7cde5eff19e6eabac",
+  "tags": [
+   "93.3 fm",
+   "entretenimiento",
+   "español",
+   "estación",
+   "exa",
+   "exa fm",
+   "fm",
+   "juvenil",
+   "la estación exacta",
+   "la estación naranja",
+   "moi merino",
+   "mvs",
+   "mvs noticias",
+   "mvs radio",
+   "música en español e inglés",
+   "música pop",
+   "ponte exa",
+   "pop",
+   "pop en español e inglés",
+   "pop music",
+   "pop rock",
+   "radio"
+  ],
+  "votes": 78,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cooservicios Stereo Tunja",
+  "stream": "http://stream.zeno.fm/27g88q2snd0uv",
+  "homepage": "https://cooserviciosfm.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 77,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cristiano Bíblico",
+  "stream": "https://stream-283.surfernetwork.com/jth8it4lbfmuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJqdGg4aXQ0bGJmbXV2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImY4MWUxNXBZUmttd1R0NVJfOEJwTFEiLCJpYXQiOjE3OTE3OTM3MzUsImV4cCI6MTc5MTc5Mzc5NX0.jwhYwQkIz95IFJ16dckQU5Rbju85DyDuNW7NszrRgkk",
+  "homepage": "https://www.cristianobiblico.org/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIbvbZ2uyNvjxtfbeZ2DxxxvWxM-39XN4sSIM9Nj34PwLPeteirg0HH-MuA4I8cDuetc0wrMcrmyzZhAVkVNIaCYMqRO-vL0jQoE-5RpM5pUM7Wkw-Id65neg6krv7NvP2EDmfpACbJLD4ziZZItroueDek_j7L8kgo2sEHpIi2rMiqZZwEGPYM1-j7K8/s16000/church.jpg",
+  "tags": [
+   "bible",
+   "cristiana",
+   "evangelio",
+   "religious"
+  ],
+  "votes": 77,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mix Bogota",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIX_BOGOTAAAC.aac",
+  "homepage": "https://mixradio.co/",
+  "favicon": "https://mixradio.co/_next/image?url=https%3A%2F%2Fstrapi-aws-s3-images-mix-bucket.s3.us-east-1.amazonaws.com%2Fmix_dark_mode_f4a68e80e8.webp&w=384&q=75",
+  "tags": [
+   "bachata",
+   "champeta",
+   "popular",
+   "reggaeton",
+   "salsa"
+  ],
+  "votes": 77,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Balada FM Bogotá",
+  "stream": "https://stream.zeno.fm/reqkn4w314zuv",
+  "homepage": "https://zeno.fm/radio/balada-fm/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/_XFdTQ-vk1CGLEK2PR9qWuNIvJlM72HoBh7rhq6yxLc/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ1FwZmJnNWdnTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ1E5WjZRc0FvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MDg2Mjc5OTAwMA.webp",
+  "tags": [
+   "amor",
+   "baladas",
+   "baladas en español",
+   "musica romantica"
+  ],
+  "votes": 76,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "HJMO - La FM Bogotá 94.9 FM",
+  "stream": "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio-aw/632c9b23d1dcd7027f32f7fe?aid=6271a4d5d206c3172f3c9a9c&pid=yWwXh4shusjR6uNPSAKMNWcqA3ufg6Kl&sid=NsaYovTLDq9Qt43PEya02hEbJOiXyAN6&uid=zOTA6yEJ3m5dGPu3RJQfkV2ESM8WgzHs&es=us-b4-p-e-qg12-audio.cdn.mdstrm.com&ote=1791908573203&ot=IVjnYX9ndj-I6Jiz2B_iAg&proto=https&pz=us&cP=128000&awCollectionId=6271a4d5d206c3172f3c9a9c&liveId=632c9b23d1dcd7027f32f7fe&listenerId=zOTA6yEJ3m5dGPu3RJQfkV2ESM8WgzHs",
+  "homepage": "https://www.lafm.com.co/la-fm-en-vivo-bogota",
+  "favicon": "https://www.lafm.com.co/themes/custom/rcnradio/logo.svg",
+  "tags": [
+   "deportes",
+   "entretenimiento",
+   "musica",
+   "noticias"
+  ],
+  "votes": 75,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Café Estéreo 92.1 FM",
+  "stream": "https://stream.zeno.fm/vwiypsezvanvv",
+  "homepage": "https://zeno.fm/radio/cafe-estereow8kz3gfedd0uv/",
+  "favicon": "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2FJHR1CF99DwKfzr3SWJZSnmiLWIFCO2NVJCEGnTIimNw%2Frs%3Afit%3A1500%3A600%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURneDhuM3Nnb01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURRd3FHQ3Znb01vZ0VFZW1WdWJ3L21pY3Jvc2l0ZS9iYWNrZ3JvdW5kX2ltYWdlLz91cGRhdGVkPTE2NjE1NDgzNzMwMDA.webp&w=1920&q=70",
+  "tags": [
+   "baladas en español",
+   "crossover",
+   "cumbia",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "vallenato"
+  ],
+  "votes": 73,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cool-D Radio",
+  "stream": "http://condor1760.startdedicated.com:8031/live",
+  "homepage": "https://coold-radio.co/",
+  "favicon": "",
+  "tags": [
+   "hiphop",
+   "hits",
+   "pop",
+   "rap"
+  ],
+  "votes": 72,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Javeriana Etéreo",
+  "stream": "https://radio06.cehis.net:9001/stream",
+  "homepage": "https://javerianaestereo.com/",
+  "favicon": "https://javerianaestereo.com/o/puj-portal-themeV2/images/favicon.ico",
+  "tags": [
+   "classical",
+   "eclectic programming",
+   "rock"
+  ],
+  "votes": 71,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Voz del Tao 5",
+  "stream": "http://mediacp15.rootservers.co:18070/stream",
+  "homepage": "http://taoporelmundo.org/",
+  "favicon": "",
+  "tags": [
+   "espiritual"
+  ],
+  "votes": 71,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "PASION CRISTIANA",
+  "stream": "https://stream.zeno.fm/ff5at146ctzuv",
+  "homepage": "https://zeno.fm/radio/pasion-cristiana/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/h0Zck_jWBky6fAZHHQptQLU_5mZFlZ8IqCiVq0MIddk/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ2dpNEtyMkFrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRGdoLUw3d0FnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MDg2NjQ0MDAwMA.webp",
+  "tags": [
+   "cristiana",
+   "gospel",
+   "music",
+   "religious"
+  ],
+  "votes": 70,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "CROSSOVER ESTEREO",
+  "stream": "https://stream.zeno.fm/9rxqd1fndkeuv",
+  "homepage": "https://zeno.fm/radio/crossover-estereo/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/W3FlAwGez-a4vXNwOx1r_gMK1Gm0GaP9qZW3p4O3iJ4/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJREEzSXp4LXdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0FnSUR5aUFvTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTc0ODI5NDAwMA.webp",
+  "tags": [
+   "baladas",
+   "crossover",
+   "cumbia",
+   "dance",
+   "hits",
+   "music",
+   "música en español e inglés",
+   "pop",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 69,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ciudad Stereo Tunja 94.7 FM",
+  "stream": "http://stream.zeno.fm/5g2k2a6wd5zuv",
+  "homepage": "https://ciudadstereotunja.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 69,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tiempo 96.1 FM",
+  "stream": "https://radio.garden/api/ara/content/listen/bQueuUi0/channel.mp3?1721304580410",
+  "homepage": "http://www.radiotiempo.co/",
+  "favicon": "https://static-media.streema.com/media/cache/69/a8/69a8ef2eda05a23db7ce4fe3b461c337.jpg",
+  "tags": [],
+  "votes": 69,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad Nacional",
+  "stream": "https://radio.unal.edu.co/streaming/bogota/stream.mp3",
+  "homepage": "https://radio.unal.edu.co/",
+  "favicon": "https://estadisticas.unal.edu.co/typo3conf/ext/estadistica_unal/Resources/Public/Images/Escudo_unal_2016.png",
+  "tags": [
+   "music",
+   "news"
+  ],
+  "votes": 68,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "HuilaGeek Radio",
+  "stream": "https://stream-50.zeno.fm/8smiwwvtfxxvv?zs=NsXtZkTESOS8WG3fMfF0hQ",
+  "homepage": "https://radio.huilageek.club/",
+  "favicon": "https://radio.huilageek.club/favicon.ico",
+  "tags": [
+   "heavy metal",
+   "rock"
+  ],
+  "votes": 67,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame 106.9 FM Popayán",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_POPAYANAAC.aac",
+  "homepage": "https://www.besame.fm/",
+  "favicon": "https://www.besame.fm/wp-content/uploads/2020/11/cropped-favicon-besame-32x32.png",
+  "tags": [
+   "baladas en español",
+   "entretenimiento",
+   "musica romantica",
+   "pop"
+  ],
+  "votes": 66,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Exitosa Stereo 107.8 FM",
+  "stream": "https://stream.zeno.fm/zx3zzt5vvjdtv",
+  "homepage": "https://www.exitosastereo.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/a/AVvXsEjz_uqpUraZmBxCPrGFwC6Tky8AaLwrchCiqi5ahLOAraDDU5P_7LPrgeH70n4MzA8F0iZ7INSAGIO04Fale1Svm1NQTxGvDBjGROrwS9mjX5W-tcfPjF2XwpEaZBOOVFdTKUK3-dMX2lR-tPWRPhuHhQ7PIGuUOD1kKs-iX1C63Vy8ArGeuytK82hfbhY=s1600",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "latino",
+   "merengue",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 66,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora Vallenata Cristiana",
+  "stream": "https://stream.zeno.fm/06ksznkhns8uv",
+  "homepage": "https://zeno.fm/radio/emisora-vallenata-cristiana/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/ZN_C7iQW3A0OXrY1Ogx6j8jke7-EvdciaPQsfvni5r8/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFFfNUtBcmdrTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ3c1TUdEbHdnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MDg2Mjg1NzAwMA.webp",
+  "tags": [
+   "evangelio",
+   "gospel",
+   "religious",
+   "vallenato"
+  ],
+  "votes": 65,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Armonias Boyacenses 950 AM",
+  "stream": "https://virtualtronics.net/proxy/armoniasboyacenses?mp=/;",
+  "homepage": "https://www.emisoraarmoniasboyacenses.com/",
+  "favicon": "https://www.emisoraarmoniasboyacenses.com/images/logo.png",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "local radio",
+   "música variada",
+   "popular"
+  ],
+  "votes": 65,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bolche radio",
+  "stream": "http://stream.zeno.fm/hn61akk9up8uv",
+  "homepage": "https://vozdigital.semanariovoz.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 63,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cactus FM Tunja",
+  "stream": "http://stream.zeno.fm/frz47rqv4f0uv",
+  "homepage": "https://cactusfmtunja.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 62,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "SupaJamz Radio",
+  "stream": "http://usa19.fastcast4u.com:6210/live",
+  "homepage": "http://supajamzradio.com/",
+  "favicon": "",
+  "tags": [
+   "cumbia",
+   "merengue",
+   "musica latina",
+   "salsa"
+  ],
+  "votes": 61,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Champeta online",
+  "stream": "https://stream.zeno.fm/ptqtr8urtfiuv",
+  "homepage": "https://champetaenlinea.blogspot.com/",
+  "favicon": "https://i.imgur.com/XPcpPTY.png",
+  "tags": [
+   "latina"
+  ],
+  "votes": 60,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Love Bogota",
+  "stream": "http://stream.zeno.fm/3zmse170p48uv",
+  "homepage": "https://worfmlove.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 60,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Candela Cali 102.5 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CANDELA_CALIAAC",
+  "homepage": "https://www.candelaestereo.com/",
+  "favicon": "https://uploads.candelaestereo.com/1/2023/11/logo-candela-header.webp",
+  "tags": [
+   "entretenimiento",
+   "latino",
+   "popular",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 60,
+  "codec": "FLV",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Enamorada FM",
+  "stream": "https://laenamoradafm.com/live/",
+  "homepage": "https://laenamoradafm.com/",
+  "favicon": "https://laenamoradafm.com/wp-content/uploads/2024/02/cropped-Logo-La-Enamorada-FM-2000x2000-1-1.jpg",
+  "tags": [
+   "amor",
+   "baladas",
+   "baladas en español",
+   "love songs",
+   "music",
+   "musica romantica"
+  ],
+  "votes": 59,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La X 96.5",
+  "stream": "https://tupanel.info/stream/2digitalradioHDsslLIVE040",
+  "homepage": "https://www.laxcali.com/",
+  "favicon": "https://www.laxcali.com/static/images/apple-icon-180x180.aab671daf60d.png",
+  "tags": [],
+  "votes": 58,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Power",
+  "stream": "https://stream.zeno.fm/dlvtl3hthyxvv.mp3",
+  "homepage": "https://radiopowercolombia.blogspot.com/",
+  "favicon": "https://i.imgur.com/MAeAaTL.png",
+  "tags": [],
+  "votes": 58,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Alfa Stereo 107.8 FM",
+  "stream": "http://stream.integracionvirtual.com:8114/autodj",
+  "homepage": "https://alfastereoneiva.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJELTBqnDLS1YpWisD2dio12wSYi9OTPT5ksUZKcEenZBiXMrEWzqdy7vk2U4gDfY9ueXLuH_3HwaF44nDSSWgGXKtwE9vhxOqPblge67XFWnVhiRq0MKrjU0a7VBBlgpcE6MzkzHO2w8/s1600/LOGO+ALFA+FINAL+OK+para+pagina.jpg",
+  "tags": [
+   "crossover",
+   "latin music",
+   "popular",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 57,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ecos Prensa Radio La Calera Cundinamarca",
+  "stream": "https://stream.zeno.fm/a8fgubmrv98uv",
+  "homepage": "https://ecosprensa.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 57,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "((La Reina Putumayo 106.3 Fm))",
+  "stream": "https://radio25.virtualtronics.com/proxy/reinaputumayo?mp=/stream",
+  "homepage": "https://www.facebook.com/lareinafm1063/",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/1/81111.v7.png",
+  "tags": [
+   "crossover",
+   "merengue",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 56,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Tunja Rock y Pop",
+  "stream": "http://stream.zeno.fm/5mss6vk214zuv",
+  "homepage": "https://worfmtunja.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 55,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Canela Estereo 99.4 FM",
+  "stream": "https://sv2.globalhostlive.com/proxy/canela/stream",
+  "homepage": "https://www.canelaestereo.com/",
+  "favicon": "https://www.canelaestereo.com/wp-content/uploads/2022/03/canela-660x330-2-110x75.jpg",
+  "tags": [
+   "boleros",
+   "colombian music",
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "popular",
+   "ranchera",
+   "regional mexican",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 55,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "HuilaGeek Radop",
+  "stream": "http://stream.zeno.fm/8smiwwvtfxxvv",
+  "homepage": "https://radio.huilageek.club/",
+  "favicon": "https://radio.huilageek.club/favicon.ico",
+  "tags": [],
+  "votes": 55,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LA ESTACION VALLENATA FM",
+  "stream": "https://stream.zeno.fm/zpm4h7k2znhvv",
+  "homepage": "https://www.facebook.com/profile.php?id=100043890041456",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/tfEPTEuihs83AOALTBEqxItnK6aJyygCipQXy6uX0mI/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ0l0WUxlZ3dzTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ0k5YmlJcndrTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTczMTg3NDUxMjAwMA.webp",
+  "tags": [
+   "music",
+   "vallenato"
+  ],
+  "votes": 54,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Bogotá ZM",
+  "stream": "http://stream-281.surfernetwork.com/zksuzty7z4zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6a3N1enR5N3o0enV2IiwiaG9zdCI6InN0cmVhbS0yODEuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InU5TElwYUFiUm9HV0s3TzJqdU1NNmciLCJpYXQiOjE3OTE4MDc5ODEsImV4cCI6MTc5MTgwODA0MX0.nuo0H5s7leGhG9syWvqP9bJ4acDv6H4rnpoZlXQWlvo",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 54,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Colmundo Radio 1040 AM",
+  "stream": "https://streaming.shoutcast.com/colmundo-radio-bogota",
+  "homepage": "https://colmundoradio.com.co/",
+  "favicon": "",
+  "tags": [
+   "deportes",
+   "entretenimiento",
+   "information",
+   "música variada",
+   "noticias",
+   "noticias y comentarios",
+   "radio hablada"
+  ],
+  "votes": 54,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Frecuencia Arena",
+  "stream": "http://88.198.9.174:8854/stream?icy=https",
+  "homepage": "https://frequencia-arena.com.co/",
+  "favicon": "",
+  "tags": [
+   "cumbia",
+   "latin salsa",
+   "musica latina",
+   "reggaetón"
+  ],
+  "votes": 53,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "WOR FM Pre Recording Sessions Bogotá",
+  "stream": "https://stream.zeno.fm/x5zfbbtt83ktv",
+  "homepage": "https://worprovoice.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 53,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Guatapuri",
+  "stream": "https://sonic.paulatina.co/7106/stream?1715700597",
+  "homepage": "https://www.radioguatapuri.com/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240514_113738125.jpg?alt=media&token=4b523e01-f1d9-4e40-befa-193d73f5accb",
+  "tags": [
+   "latin music"
+  ],
+  "votes": 53,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Chipazaque Junín Cundinamarca",
+  "stream": "https://stream.zeno.fm/ig1twwgxkiavv",
+  "homepage": "https://radiochipazaquejunin.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 53,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Himnos Cristianos del ayer (Radio)",
+  "stream": "https://stream.zeno.fm/vkancadp2v8uv",
+  "homepage": "https://zeno.fm/radio/himnos-cristianos-del-ayer",
+  "favicon": "",
+  "tags": [
+   "ayer",
+   "cristianismo",
+   "viejitas"
+  ],
+  "votes": 52,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tiempo",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_CARTAGENAAAC.aac?1715700626",
+  "homepage": "https://www.radiotiempo.com.co/",
+  "favicon": "https://firebasestorage.googleapis.com/v0/b/radiogalaxy-580f4.appspot.com/o/images%2FIMG_20240514_113926016.jpg?alt=media&token=39840063-eb0c-4a70-b5fc-56dba7e63fd9",
+  "tags": [
+   "romantic pop"
+  ],
+  "votes": 52,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LA CLÁSICA",
+  "stream": "https://stream-284.surfernetwork.com/vbp236a2qzzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2YnAyMzZhMnF6enV2IiwiaG9zdCI6InN0cmVhbS0yODQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IngxY0Y0a3NiVGdDbHY4cGpVUFAwTXciLCJpYXQiOjE3OTE3OTIwNzMsImV4cCI6MTc5MTc5MjEzM30.81rsGNWQUpAw5hKiElaHB3gcTr_J8jjPxEDvvBZuj5Y",
+  "homepage": "https://www.laclasicastereo.online/",
+  "favicon": "https://blogger.googleusercontent.com/img/a/AVvXsEi6xF6Rwknssj9nbpmEKolsJYub__amnZdhqMDddJDirjQRO0DouPdt1hoSx0ZgwpUwdZVjGP9GMUcQcF55UXsH04kNk40zKoOt2opr98BkvdPEhLscFYTONoJwTTkDlw6Du4JoUa4fMinmIj0xn9QTsjoCJUk_DqZSwytGX4XsFBBYaPZ9Yj__U1DjxZBZ=s668",
+  "tags": [
+   "60s",
+   "70s",
+   "80s",
+   "baladas en español",
+   "classic hits",
+   "musica romantica",
+   "retro"
+  ],
+  "votes": 51,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Discoteca Radio",
+  "stream": "https://streamingmediaradio.live:8002/stream",
+  "homepage": "https://ladiscotecaradio.com/",
+  "favicon": "https://ladiscotecaradio.com/wp-content/uploads/2023/03/1.png",
+  "tags": [
+   "latino",
+   "merengue",
+   "música urbana",
+   "reggaeton",
+   "urbano"
+  ],
+  "votes": 51,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Conectando Estéreo 91.5 FM",
+  "stream": "https://cloudstream2036.conectarhosting.com/8200/stream",
+  "homepage": "https://conectandoestereo.ga/",
+  "favicon": "",
+  "tags": [
+   "crossover"
+  ],
+  "votes": 51,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Salsa Latina",
+  "stream": "https://play10.tikast.com/proxy/zsalsalatina?mp=/stream",
+  "homepage": "https://www.emisorascolombianas.co/salsa-latina",
+  "favicon": "https://cdn.mytuner.mobi/static/ctr/images/country/co.png",
+  "tags": [
+   "big-band",
+   "latin jazz",
+   "latin music",
+   "salsa"
+  ],
+  "votes": 51,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "R2 Audivisual Radio Tunja",
+  "stream": "http://stream-280.surfernetwork.com/bufaptza04zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJidWZhcHR6YTA0enV2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlhNT1h6ZFMwUjktV3FfRFZILTRkX2ciLCJpYXQiOjE3OTE3NzAzMTcsImV4cCI6MTc5MTc3MDM3N30.gyGL1uimDMvBYXnb6IR00gr929-soi5B0EQ5jFPGnt0",
+  "homepage": "https://r2audiovisual.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "electronic"
+  ],
+  "votes": 51,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La FM Plus 96.9 - Medellín",
+  "stream": "https://co-e1-p-e-aa1-audio.cdn.mdstrm.com/live-audio-aw/632cb5dd08346a0889655d9d",
+  "homepage": "https://lafmplus.com/",
+  "favicon": "https://platform-static.cdn.mdstrm.com/player/multilive/690224a58252c73250037045_1761748133536.png",
+  "tags": [
+   "80's",
+   "90's",
+   "classic rock",
+   "dance",
+   "pop",
+   "rock"
+  ],
+  "votes": 49,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FIESTA ESTEREO DIGITAL",
+  "stream": "https://stream.zeno.fm/exccakv632quv",
+  "homepage": "https://fiestaestereo.es.tl/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/rlUOcsyjmpTtpaIrscJwnCFuFuMSK4qlJZLC0xjvF5Q/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ2c2cFRhcHdvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ2d1cXVzcFFzTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MTEwMTY2NzAwMA.webp",
+  "tags": [
+   "cumbia",
+   "latino",
+   "merengue",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 49,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cartago Stereo 89.0 FM",
+  "stream": "http://radio40.virtualtronics.com:8584/;",
+  "homepage": "https://cartagostereo.com/",
+  "favicon": "https://i0.wp.com/cartagostereo.com/wp-content/uploads/2020/08/cropped-logo-pagina-02.png?w=1920",
+  "tags": [
+   "baladas en español",
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "popular",
+   "radio comunitaria",
+   "vallenato"
+  ],
+  "votes": 49,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Tropicana Popayán  106.1",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TR_POPAYAN_SC",
+  "homepage": "https://www.tropicanafm.com/",
+  "favicon": "https://www.tropicanafm.com/wp-content/themes/nwp/src/Player/assets/images/player-logo.jpg",
+  "tags": [
+   "crossover",
+   "latino",
+   "merengue",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 48,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EMISORA TROPICAL DE ORO",
+  "stream": "https://stream.zeno.fm/b7tg0hqhnkhvv",
+  "homepage": "https://emisoratropicaldeoro.com/",
+  "favicon": "https://emisoratropicaldeoro.com/wp-content/uploads/2024/10/Logo-aplicado.webp",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "music",
+   "party",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 47,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "CANUTAL ESTEREO",
+  "stream": "https://stream.zeno.fm/ajgwsujd9eatv",
+  "homepage": "https://zeno.fm/radio/canutal-estereo-fm/",
+  "favicon": "https://static-media.streema.com/media/cache/cd/d0/cdd0a71a4224e4bbb98f84d6a4fd85bd.jpg",
+  "tags": [
+   "crossover",
+   "music",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 46,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cerros Estéreo 107.4 Fm",
+  "stream": "https://stream-285.surfernetwork.com/m543v7sds2zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtNTQzdjdzZHMyenV2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImdWMUMzRVJjUWxhc0loV3RvVllDbEEiLCJpYXQiOjE3OTE3ODAxMjksImV4cCI6MTc5MTc4MDE4OX0.QjyvMSwRcm5Fhm6g2BHlIsyg3gsPkpduc5UfwIjh7RM",
+  "homepage": "https://www.redecosura.org/nuestras-emisoras/cerros-estereo/",
+  "favicon": "https://www.redecosura.org/wp-content/uploads/elementor/thumbs/Logo-Cerros_St_23--q31kevvj92n9yd31up7fcddycjunhgcz79er1ypsps.jpg",
+  "tags": [
+   "baladas en español",
+   "crossover",
+   "entretenimiento",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "social",
+   "vallenato"
+  ],
+  "votes": 45,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ambiente stereo 88.5 FM",
+  "stream": "https://play8.tikast.com/proxy/ambiente?mp=/stream",
+  "homepage": "https://asenred.com/ambiente-estereo/",
+  "favicon": "https://www.asenred.com/wp-content/uploads/ambiente-estereo.jpg",
+  "tags": [
+   "entretenimiento",
+   "música variada",
+   "radio comunitaria",
+   "radio hablada"
+  ],
+  "votes": 43,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Armonías del Caquetá 970 AM",
+  "stream": "https://broadcasting.enlacestic.com/radio/8020/radio.mp3",
+  "homepage": "https://www.arquidiocesisdeflorencia.org/A",
+  "favicon": "https://static.wixstatic.com/media/644f1a_55e019df7d894c1c827d7cfd479e8c1e~mv2.png/v1/fill/w_221,h_540,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/644f1a_55e019df7d894c1c827d7cfd479e8c1e~mv2.png",
+  "tags": [
+   "cultural",
+   "entretenimiento",
+   "local radio",
+   "noticias",
+   "popular",
+   "radio hablada",
+   "religious",
+   "variety"
+  ],
+  "votes": 42,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LA DESPECHADA STÉREO",
+  "stream": "https://stream-285.surfernetwork.com/ul8iy0iedlauv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1bDhpeTBpZWRsYXV2IiwiaG9zdCI6InN0cmVhbS0yODUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImRrVGUtdE1ZUkdPTndPRjl5Ql9WSnciLCJpYXQiOjE3OTE3NzU2MDYsImV4cCI6MTc5MTc3NTY2Nn0.kb6tpTgEpvtRceF-2DQdRrfHUp2LZs7Euyvkv4wOuNk",
+  "homepage": "https://zeno.fm/radio/la-despechada-stereo-florencia/",
+  "favicon": "https://zeno.fm/_ipx/s_160x160/https://images.zeno.fm/zXWPiIyqKrltV3ysuXgfo360QTW27aOZVHsbG55gfYw/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYTRlMzVmYTctOWExZi00M2QzLThhMzItNjg3ZDU1NGViYWE3L2ltYWdlLz91PTE3MTczODExNDkwMDA.webp",
+  "tags": [
+   "crossover",
+   "popular",
+   "ranchera"
+  ],
+  "votes": 42,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Angular Stereo 97.2 FM",
+  "stream": "https://colombiawebs.com.co/proxy/juanpabl/stream",
+  "homepage": "https://www.angularstereo.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/a/AVvXsEh0LBP4U1ZUGEcf_lDuz7nsmHpCoH6JCIcH3i90nzzKR9a0aNB3deUE7wxgCNJhRvohC_USPbX0_-2tzggdjXjHLBc6AnoymI6oQFzA_AKZ4_Xf5VyVhhQI4S7pgQVFfzhFncNnOPOmOeG_wF1yzQVHzKJW485vDZPxJ0Gjv6d8uUYQ3K-VEmhf_TxTCQ=s222",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "baladas en español",
+   "musica romantica"
+  ],
+  "votes": 41,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Refrigerio para el Alma",
+  "stream": "https://stream.zeno.fm/ccpylahpmg4uv",
+  "homepage": "https://www.youtube.com/channel/UCY5xoMinEO6T0zBZ3_SGkbA",
+  "favicon": "",
+  "tags": [
+   "christian-gospel",
+   "musica cristiana",
+   "radiocristiana"
+  ],
+  "votes": 41,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Música Tropical... RDC Radio",
+  "stream": "https://stream-288.surfernetwork.com/4fcavsowcdvvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI0ZmNhdnNvd2NkdnZ2IiwiaG9zdCI6InN0cmVhbS0yODguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlpTaTRwRkhFVDRxQVdXTzVHbklGYlEiLCJpYXQiOjE3OTE3NjAyNjEsImV4cCI6MTc5MTc2MDMyMX0.YZ_m8ioooBSHSsMgrDtDEXgahAA1pEoi0rshrbwV-c4",
+  "homepage": "https://zeno.fm/radio/musica-tropical-rdc-radio/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/E5TfS-DftYePR2cO6-1CScA-MN4_pjkph4KuX20a7g4/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvNzlhMGViN2YtYjlhMi00M2NkLWIxODMtZjMxZTE5MTU4ODdkL2ltYWdlLz91PTE3NDM3MzQwMDQwMDA.webp",
+  "tags": [
+   "hits",
+   "music",
+   "popular",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 40,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Auténtica Cali 660 AM",
+  "stream": "https://play10.tikast.com:20113/stream",
+  "homepage": "https://autenticacali.com/",
+  "favicon": "https://autenticacali.com/wp-content/uploads/elementor/thumbs/Logo-CRA-Cali-Letra-Blanca-q7acbzlagxjk1v1o2mg9d3to9v02ob416irp0x7xdq.png",
+  "tags": [
+   "bible",
+   "cristiana",
+   "evangelio",
+   "gospel",
+   "radio hablada",
+   "religious"
+  ],
+  "votes": 40,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FIESTA ESTEREO VALLENATA",
+  "stream": "https://stream.zeno.fm/c9bc24nmp3quv",
+  "homepage": "https://zeno.fm/radio/fiestaestereovallenata/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/t0-jflE1hH5sP1ACypf_mslbPIusNoR5udtUrKyKjIg/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJQ0EzN0h2d1FzTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJQ2dudFhJcHdnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MDg2NjQ0ODAwMA.webp",
+  "tags": [
+   "amor",
+   "music",
+   "musica romantica",
+   "vallenato"
+  ],
+  "votes": 40,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Celeste Estéreo 105.4 FM",
+  "stream": "https://play8.tikast.com/proxy/celeste?mp=/stream",
+  "homepage": "https://www.celesteestereofm.com/",
+  "favicon": "https://www.celesteestereofm.com/wp-content/uploads/2021/06/Logo-Celeste-Estereo-3-e1624487052306.png",
+  "tags": [
+   "baladas en español",
+   "crossover",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "regional mexican",
+   "religious"
+  ],
+  "votes": 40,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "BELEN STEREO 95.3 FM",
+  "stream": "https://server2.ejeserver.com:9976/stream",
+  "homepage": "https://redcomunitariaejecafetero.blogspot.com/2012/07/belen-estereo.html",
+  "favicon": "https://lh3.googleusercontent.com/blogger_img_proxy/AJ0KDdWz4hieddwrA7_viSiLuR9R4tAFemmhDoIQAzZAYv3altP0wugLR7fH1mKazFCulIPs5EJXZhRag3x0k74Aec06S4YkKb_ra3UvrYuM1O5acWQoS7DYSm0yOIeGcygoVlrDvyOnIWFdg_XKGsOubEpyyhjm=s0",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "radio comunitaria",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 38,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "PENTECOSTES ESTEREO",
+  "stream": "https://stream.zeno.fm/7hmh4gwy9gltv",
+  "homepage": "https://radiobajolauncion.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 38,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Animecol Radio",
+  "stream": "https://stream.zeno.fm/6bfysacxc6quv",
+  "homepage": "https://www.radioexpresolatino.com/animecolradio.html",
+  "favicon": "https://i.ibb.co/m8LHZby/Logo-Redondo-radio-expreso-2025-fw.png",
+  "tags": [
+   "anime",
+   "music",
+   "soundtracks"
+  ],
+  "votes": 37,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "MaximusRockFM",
+  "stream": "http://stream.laut.fm/maximusrockfm",
+  "homepage": "http://maximusrockfm.000.pe/",
+  "favicon": "",
+  "tags": [
+   "alternative rock",
+   "metal",
+   "rock"
+  ],
+  "votes": 36,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ACORD ANTIOQUIA RADIO",
+  "stream": "https://radio25.virtualtronics.com:20061/;",
+  "homepage": "https://www.acordantioquia.com/",
+  "favicon": "https://www.acordantioquia.com/wp-content/uploads/2023/02/logo-acord-home-vertical-e1698932649397.png",
+  "tags": [
+   "crossover",
+   "deportes",
+   "information",
+   "popular",
+   "vallenato"
+  ],
+  "votes": 36,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bohemia RAVEL",
+  "stream": "https://stream.zeno.fm/qypbs4hv9p2tv",
+  "homepage": "https://bohemiaravel.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUoFycEEVoUCrToeWF9FbVmUYO1pqRSjlRdqCd1ZwBj9kM_q_nrG6EWiHZhYnTVmEhpQHdJ3dnNasDbCihI3u9VV2NzcRYX9Ww1gN1KVLEGYZ7DQUpYlnrs2iUeqEWq3YZtUp33lzh5Lc/s906/LETRERO+NEON+TITULO+BLOG.jpg",
+  "tags": [
+   "30s",
+   "40s",
+   "50s",
+   "60s",
+   "boleros",
+   "music",
+   "retro",
+   "tango"
+  ],
+  "votes": 35,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Exitosa Medellin 89.5 FM",
+  "stream": "https://stream.zeno.fm/h5u3b6unxk8uv",
+  "homepage": "https://zeno.fm/radio/la-exitosa-medellin/",
+  "favicon": "https://zeno.fm/_ipx/s_160x160/https://images.zeno.fm/t6PZPQ8YIEaaH14eu8f7zJxteQsVYe7YIKViPFBP2mg/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFF3OFRkcVFnTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFFtNkdsdWdnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTcwNDU1NTY2ODAwMA.webp",
+  "tags": [
+   "crossover",
+   "music",
+   "popular",
+   "vallenato"
+  ],
+  "votes": 34,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora cultural de Pereira Remitió Antonio Cañarte",
+  "stream": "http://167.114.153.222:8028/;?type=http&nocache=17",
+  "homepage": "https://emisoraculturaldepereira.com/",
+  "favicon": "",
+  "tags": [
+   "classic",
+   "musica tradicional",
+   "rock"
+  ],
+  "votes": 33,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio UNAL Bogota",
+  "stream": "https://radio.unal.edu.co/streaming/bogota/;stream.mp3",
+  "homepage": "https://radio.unal.edu.co/",
+  "favicon": "https://radio.unal.edu.co/typo3conf/ext/unal_skin_default/Resources/Public/images/favicon.ico",
+  "tags": [
+   "university"
+  ],
+  "votes": 33,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "OLIMPICA ESTÉREO 89.5 GUAJIRA",
+  "stream": "https://stream.zeno.fm/f4ese4m5prytv",
+  "homepage": "https://zeno.fm/radio/olimpica-stereo-guajira/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/I-KDRGnv2FAY9l5UtFjmM_vU1SUdZ2wPbc86qM_Uc4E/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYTVmZjA5YmUtNzExNy00OWE2LWE5MjEtNTVmZTRkYTk2OWVkL2ltYWdlLz91PTE2OTUyOTYwODYwMDA.webp",
+  "tags": [
+   "entretenimiento",
+   "music",
+   "vallenato"
+  ],
+  "votes": 33,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Frecuencia Bolivariana 1160 AM",
+  "stream": "https://radiolatina.info/9326/stream",
+  "homepage": "https://frecuenciabolivariana.com.co/",
+  "favicon": "https://i0.wp.com/frecuenciabolivariana.com.co/wp-content/uploads/2023/01/Logo-Frecuencia-Bolivariana-2023.png?fit=2642%2C1088&ssl=1",
+  "tags": [
+   "education",
+   "information",
+   "música variada",
+   "university radio",
+   "variety"
+  ],
+  "votes": 32,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Champeta Cartagena Radio",
+  "stream": "https://stream.zeno.fm/2rdvb6tuwchvv",
+  "homepage": "https://www.champetacartagena.com.co/?i=1",
+  "favicon": "https://www.champetacartagena.com.co/wp-content/uploads/2024/10/cropped-BANNERS.png",
+  "tags": [
+   "champeta",
+   "crossover",
+   "music"
+  ],
+  "votes": 32,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Universitaria Estéreo 88.2",
+  "stream": "https://www.utp.edu.co/stream/",
+  "homepage": "https://universitariaestereo.utp.edu.co/",
+  "favicon": "",
+  "tags": [
+   "cultural",
+   "hip-hop",
+   "latinoamérica",
+   "pop",
+   "rock"
+  ],
+  "votes": 32,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Apartadó Stereo 103.3 FM",
+  "stream": "https://radiohd.streaminghd.co:7226/live",
+  "homepage": "https://apartadostereofm.com/",
+  "favicon": "https://static.mytuner.mobi/media/tvos_radios/7ejhfjq7qbu7.png",
+  "tags": [
+   "entretenimiento",
+   "musica variada",
+   "noticias",
+   "radio comunitaria",
+   "radio hablada"
+  ],
+  "votes": 32,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Edward Ortega Radio - Mas + Popular",
+  "stream": "https://cloud11.vsgtech.co/proxy/maspopular/stream",
+  "homepage": "https://www.edwardortegaradio.com/",
+  "favicon": "https://edwardortegaradio.com/radio/m14/assets/img/logo.png",
+  "tags": [
+   "boleros",
+   "hits",
+   "mix",
+   "popular",
+   "rancheras",
+   "regional mexican",
+   "retro",
+   "tango",
+   "tropical"
+  ],
+  "votes": 32,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Olímpica Stéreo 92.1 Barranquilla",
+  "stream": "https://master.letio.com/io/?gs=9102&type=live.mp3",
+  "homepage": "https://olimpicastereo.com.co/",
+  "favicon": "https://olimpicastereo.com.co/_next/image?url=https%3A%2F%2Fstrapi-aws-s3-images-olimpica-stereo-bucket.s3.us-east-1.amazonaws.com%2Flogo_olimpica_stereo_179b80381a.webp&w=384&q=75",
+  "tags": [
+   "champeta",
+   "entretenimiento",
+   "music",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 31,
+  "codec": "UNKNOWN",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fiesta 102.7 FM",
+  "stream": "https://server1.intermediacolombia.com:8008/stream",
+  "homepage": "https://www.fiestafm.com.co/chiriguana/",
+  "favicon": "https://www.fiestafm.com.co/images/logo-repro.png",
+  "tags": [
+   "crossover",
+   "grupera",
+   "latino",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 31,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Balboa Stereo 88.4 FM",
+  "stream": "http://stream.integracionvirtual.com:8010/live",
+  "homepage": "https://www.facebook.com/fanpagebalboastereo",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/2/56382.v13.png",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "local radio",
+   "noticias",
+   "popular",
+   "radio hablada",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 31,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Max Vallenata",
+  "stream": "https://stream.zeno.fm/nbcpokz3q3wvv",
+  "homepage": "https://zeno.fm/radio/la-max-vallenata-cgu1/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/FwhMCIhoQeWwsUT8pygSdgfBtXQY5paB8hpPov8JxUg/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvNjhjNzUzNDYtZTllZS00MTIzLTkwNjktMTUxMDBjNzc2ZGJlL2ltYWdlLz91PTE3NDE5MTQxMjYwMDA.webp",
+  "tags": [
+   "music",
+   "vallenato"
+  ],
+  "votes": 30,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Verdad y Vida Radio 870AM",
+  "stream": "https://stream.zeno.fm/zznllllp06cuv",
+  "homepage": "https://radioverdadyvida.com/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/WKP3REpSyGmC9LW3Ef63jzVrkcUSKujUuzFGGKX9PqI/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvNWY0OTZlMzItNDEzYi00YjYyLThkNTEtMjA4NmE2YjRmYzQwL2ltYWdlLz91PTE3MjM1NjYwMzcwMDA.webp",
+  "tags": [
+   "bible",
+   "cristiana",
+   "evangelio",
+   "religious"
+  ],
+  "votes": 30,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cerro Azul Stereo 107.4 FM",
+  "stream": "http://radiolatina.info:9025/;",
+  "homepage": "https://cerroazulfm.com/",
+  "favicon": "https://cerroazulfm.com/wp/wp-content/uploads/2023/12/WhatsApp-Image-2023-12-13-at-2.47.51-PM.jpeg",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "latino",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "vallenato"
+  ],
+  "votes": 30,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Estrella FM",
+  "stream": "http://radiolatina.info:7084/;",
+  "homepage": "https://rimixradio.com/audio/estrella.html",
+  "favicon": "https://rimixradio.com/audio/img/LogoEstrellaFm.png",
+  "tags": [
+   "latino",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 29,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bacatá Stereo 94.4 FM",
+  "stream": "http://radio25.virtualtronics.com:8356/;",
+  "homepage": "https://bacatastereo.com/",
+  "favicon": "https://bacatastereo.com/wp-content/uploads/2021/12/LOGO-BACATA-ST_2-300x88.png",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "noticias",
+   "popular",
+   "radio hablada",
+   "vallenato"
+  ],
+  "votes": 29,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Constellations Radio",
+  "stream": "http://usa19.fastcast4u.com:6640/live",
+  "homepage": "https://constellationsradio.com/",
+  "favicon": "https://static.wixstatic.com/media/141759_6649e9e1f93248788ffb9cf974f15cec%7emv2.png/v1/fill/w_180%2ch_180%2clg_1%2cusm_0.66_1.00_0.01/141759_6649e9e1f93248788ffb9cf974f15cec%7emv2.png",
+  "tags": [
+   "hits",
+   "musica latina",
+   "top40"
+  ],
+  "votes": 29,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio tropical cristiano",
+  "stream": "https://stream.zeno.fm/vwqjwmcm8cfuv",
+  "homepage": "https://zeno.fm/radio/radio-tropical-cristiano/",
+  "favicon": "https://static-media.streema.com/media/cache/32/2c/322ca3fdd5965afdfca9136fd2e2b112.png",
+  "tags": [
+   "cristiana",
+   "gospel",
+   "music"
+  ],
+  "votes": 28,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Isla 89.5 Fm",
+  "stream": "https://radiohd.streaminghd.co:7238/stream?1708935217",
+  "homepage": "https://streaminghd.co/user/laislafm",
+  "favicon": "",
+  "tags": [],
+  "votes": 28,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "El Café del Mundo",
+  "stream": "https://cloudstream2030.conectarhosting.com/8184/stream",
+  "homepage": "https://elcafedelmundo.com/",
+  "favicon": "https://static-media.streema.com/media/cache/6b/11/6b11b6cd278f6b6b3a6f3a487cf5ab16.png",
+  "tags": [
+   "bossa nova",
+   "cuban music",
+   "flamenco",
+   "folk",
+   "jazz",
+   "lounge",
+   "music",
+   "salsa"
+  ],
+  "votes": 28,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO EXPRESO LATINO",
+  "stream": "https://stream.zenolive.com/qren9t8qd6quv.aac",
+  "homepage": "https://www.radioexpresolatino.com/",
+  "favicon": "https://i.ibb.co/m8LHZby/Logo-Redondo-radio-expreso-2025-fw.png",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "hits",
+   "latino",
+   "merengue",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 28,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Impacto Radio",
+  "stream": "https://radiolatina.info/8080/stream",
+  "homepage": "https://bethelradiocolombia.com/light2.html",
+  "favicon": "https://bethelradiocolombia.com/demo_files/capital1.jpg",
+  "tags": [],
+  "votes": 28,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pereira Stereo",
+  "stream": "https://stream.zeno.fm/anv472sq0wzuv?1745577773388",
+  "homepage": "https://pereirastereo.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBFosvcqT2wA0t9CyxUq60Go0PSZCi0xpBcgymBYG57TKIer6N-T70LyMCis3zpj7ofec2SdMQ9kAyy9dlRris2DU4kveyasmyYZfeio5yrWISd7l1wrnOFyIfdpxropxd-bmOVmjm/s1600/fondo+Pereira+Empieza+tu+dia.jpg",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "latino",
+   "music"
+  ],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Marandua Stereo",
+  "stream": "http://radiolatina.info/9430/stream",
+  "homepage": "https://marandua.com.co/",
+  "favicon": "",
+  "tags": [],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fanática Stereo",
+  "stream": "http://stream-179.surfernetwork.com/virlugnz0nmvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ2aXJsdWduejBubXZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkgyejVtZjdTU2I2V1IxYndIRG9zOGciLCJpYXQiOjE3OTE3OTcxMDYsImV4cCI6MTc5MTc5NzE2Nn0.kObpk3j9oGMn0hHJWbmN7-3G2NoR8pr6G7O0e1_fGSk",
+  "homepage": "https://zeno.fm/fanatica-stereo",
+  "favicon": "https://zeno.fm/favicon.ico",
+  "tags": [],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "BBC 80s",
+  "stream": "https://18093.live.streamtheworld.com/SAM03AAC226_SC?Bravo?Bogota?Colombia&80s",
+  "homepage": "https://zeno.fm/radio/bbc-80s-radio/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/rTrDI9FZXBDkjVGA2OLz-McEdq2qtJcuWWnXE6g9kSg/rs:fill:288:288/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFEtdkh6dlFvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFFwcWk0eFFzTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY2MDg0NTQxNzAwMA.webp",
+  "tags": [
+   "1980s",
+   "80s",
+   "decades",
+   "electronic",
+   "new wave",
+   "pop",
+   "rock",
+   "synth"
+  ],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "VILMAR STEREO 91.4 FM",
+  "stream": "https://stream.zeno.fm/pfrwo2fzcbktv",
+  "homepage": "https://vilmarfm.com/",
+  "favicon": "https://vilmarfm.com/wp-content/uploads/2024/11/cropped-NUEVO-3.png",
+  "tags": [
+   "baladas",
+   "comercială",
+   "crossover",
+   "cultural",
+   "entretenimiento",
+   "information",
+   "popular",
+   "ranchera",
+   "salsa",
+   "social"
+  ],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "104.1 Emisora Comunitaria - La Radio de Todos",
+  "stream": "https://streamyes.alsolnet.com/comunitariafm/live/chunklist_w7037173.m3u8",
+  "homepage": "https://104florencia.co/",
+  "favicon": "https://104florencia.co/wp-content/uploads/2021/09/104.1-sede-curiplaya-2048x996.jpg",
+  "tags": [
+   "community radio",
+   "crossover",
+   "variety"
+  ],
+  "votes": 27,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Radio Bolivariana AM 1110 kHz",
+  "stream": "https://streaming.codigoe-marketing.co:8620/test.mp3",
+  "homepage": "https://www.radiobolivarianavirtual.com/medellin-colombia/",
+  "favicon": "",
+  "tags": [
+   "bolero",
+   "clasica",
+   "tango"
+  ],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La X Más Música 03.9 Bogotá",
+  "stream": "https://s5.radio.co/s980fc5249/listen",
+  "homepage": "https://www.laxmasmusica.com/",
+  "favicon": "https://www.laxmasmusica.com/static/images/favicon.beee153e974f.ico",
+  "tags": [
+   "classic hits",
+   "hits"
+  ],
+  "votes": 26,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Caribe Rumba",
+  "stream": "https://stream.zeno.fm/gq47fz6ewg0uv",
+  "homepage": "https://zeno.fm/radio/cariberumba/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/SOmgduVxy8XvmcZwBJi7gEkFghGnxRz1vamCPUUf4TM/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvYWd4emZucGxibTh0YzNSaGRITnlNZ3NTQ2tGMWRHaERiR2xsYm5RWWdJRFEzb3ZpM2dvTUN4SU9VM1JoZEdsdmJsQnliMlpwYkdVWWdJRFFfcEhkaVFnTW9nRUVlbVZ1YncvaW1hZ2UvP3U9MTY3NjA2MTY1NjAwMA.webp",
+  "tags": [
+   "african music",
+   "champeta",
+   "rumba",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 26,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Voces del Pacífico (106.6 FM)",
+  "stream": "https://virtualtronics.net/proxy/pacifico?mp=/stream",
+  "homepage": "https://www.soydebuenaventura.com/radio/voces-del-pacifico",
+  "favicon": "https://www.soydebuenaventura.com/favicon.ico",
+  "tags": [],
+  "votes": 26,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Charalá Estéreo 103.2 FM",
+  "stream": "https://stream-287.surfernetwork.com/4ili1p9hiyktv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI0aWxpMXA5aGl5a3R2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImE0ZUd6bHROUUpXWDJMSVQ1ZE9MZEEiLCJpYXQiOjE3OTE3OTQwNTEsImV4cCI6MTc5MTc5NDExMX0.Raopr58P3Q6oCXHqcIjVzhTzQML8P7_0DDI-0UDeOZc",
+  "homepage": "https://www.charalaestereo.com/",
+  "favicon": "https://image.jimcdn.com/app/cms/image/transf/dimension=401x10000:format=jpg/path/s47a43802377b24a4/image/i2b278d0c2e6d1cb7/version/1672765249/image.jpg",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "merengue",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 25,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Africa All Stars",
+  "stream": "https://stream.zeno.fm/udhh2v1itqxtv",
+  "homepage": "https://africaradio.free.nf/?i=1",
+  "favicon": "https://africaradio.free.nf/img/logo_AfricaAS.png",
+  "tags": [
+   "africa",
+   "african",
+   "african music",
+   "music"
+  ],
+  "votes": 25,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Brisas del San Juan 106.3",
+  "stream": "https://virtualtronics.net/proxy/brisasdelsanjuan",
+  "homepage": "https://brisasdelsanjuan.com/",
+  "favicon": "https://brisasdelsanjuan.com/14018116_10154577941277494_1275974750_n.jpg?v=300x6o5yl9gq7vb",
+  "tags": [
+   "baladas música popular colombiana nacional varios",
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "música variada",
+   "noticias",
+   "radio hablada",
+   "reggaeton",
+   "vallenato"
+  ],
+  "votes": 25,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cacica Stereo 89.7 FM",
+  "stream": "http://sonic.paulatina.co:7062/;",
+  "homepage": "https://cacicastereo.com/",
+  "favicon": "https://cacicastereo.com/img/decor_1.png",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "musica",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 24,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fiesta Stereo 88.1 FM",
+  "stream": "https://streaming.radiosenlinea.com.ar/8800/stream",
+  "homepage": "https://www.fiestastereo881.com/",
+  "favicon": "",
+  "tags": [
+   "african music",
+   "crossover",
+   "entretenimiento",
+   "latino",
+   "noticias",
+   "tropical"
+  ],
+  "votes": 24,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Mega",
+  "stream": "https://mdstrm.com/audio/632c9ae6660fef03fe3855fe/live.m3u8",
+  "homepage": "https://emisorascolombianas.online/la-mega/",
+  "favicon": "https://emisorascolombianas.online/logos/la-mega.png",
+  "tags": [
+   "reggaeton"
+  ],
+  "votes": 24,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Andina Stereo 95.1 FM",
+  "stream": "https://impactodigitalcol.com/8018/stream",
+  "homepage": "https://andinastereo.com/",
+  "favicon": "https://andinastereo.com/images/logo.png",
+  "tags": [
+   "crossover",
+   "musica",
+   "popular",
+   "vallenato"
+  ],
+  "votes": 24,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora nueva época",
+  "stream": "https://stream-156.zeno.fm/c1knbfegny8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjMWtuYmZlZ255OHV2IiwiaG9zdCI6InN0cmVhbS0xNTYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6Ikx4b3RrbWszVGNLeVVsaWZVaFhUYWciLCJpYXQiOjE3MTg5NDY0NTcsImV4cCI6MTcxODk0NjUxN30.nYHJlP_XBqv_MAdINMhqgdWukUxGoKRsqlTTqCgAuUU",
+  "homepage": "https://emisoranuevaepoca.com.co/emisora-nueva-epoca/",
+  "favicon": "https://emisoranuevaepoca.com.co/wp-content/uploads/2024/12/cropped-1000074395-removebg-preview-1-180x180.png",
+  "tags": [
+   "salsa",
+   "tropical"
+  ],
+  "votes": 24,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Auténtica Bogotá 540 AM",
+  "stream": "https://radiolatina.info:10835/;",
+  "homepage": "https://crabogota.com/",
+  "favicon": "https://crabogota.com/images/logo2.png",
+  "tags": [
+   "biblia",
+   "cristiana",
+   "evangelio",
+   "evangélica",
+   "religious"
+  ],
+  "votes": 24,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Alfa y Omega.",
+  "stream": "https://stream.zeno.fm/ebsnme8phdovv",
+  "homepage": "https://zeno.fm/radio/alfa-y-omega-vpyg/",
+  "favicon": "https://zeno.fm/_ipx/q_100&fit_cover&s_160x160/https://images.zeno.fm/dmc7fw2cIV029Lt-ukhfNkv1YO2ROQ8s1AyHUiGF7Io/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvZGQ1ZTZmNmMtODA0MC00NDFhLWJhOGQtYmEzN2U1NDliZmZhL2ltYWdlLz91PTE2OTM2OTY0MDgwMDA.webp",
+  "tags": [
+   "cristiana",
+   "gospel",
+   "religious"
+  ],
+  "votes": 24,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "la Voz del Tao 6",
+  "stream": "http://mediacp15.rootservers.co:18136/stream",
+  "homepage": "http://taopoelmundo.org/",
+  "favicon": "",
+  "tags": [
+   "espiritual"
+  ],
+  "votes": 24,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Omega Digital Sterio Hispania 107.4 FM",
+  "stream": "https://stream.zeno.fm/bb7ctrzeyy8uv",
+  "homepage": "https://zeno.fm/radio/omegadigitalstereo/",
+  "favicon": "https://milemisoras.com/timthumb.php?src=/img/channel/b86b4290af18ea2d7ec5e40c4501f48a.jpg&h=100&w=100&zc=1",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "local radio",
+   "popular",
+   "vallenato"
+  ],
+  "votes": 23,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Anorí Estéreo 105.4 FM",
+  "stream": "https://stream-283.surfernetwork.com/x7bboxazwdytv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ4N2Jib3hhendkeXR2IiwiaG9zdCI6InN0cmVhbS0yODMuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IjBPMWtHYzBnVEJxTkJJT1pqMUY2SWciLCJpYXQiOjE3OTE3ODE0MTMsImV4cCI6MTc5MTc4MTQ3M30.kKagkpscMCVaSWyTWGCGhvN38jR_uaylc8Cq2ljZQv4",
+  "homepage": "https://anoriestereo.es.tl/",
+  "favicon": "https://img.webme.com/pic/a/anoriestereo/logo.jpg",
+  "tags": [
+   "crossover",
+   "cumbia",
+   "entretenimiento",
+   "information",
+   "latino",
+   "popular",
+   "ranchera",
+   "reggaeton",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 23,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Candela Casanare 94.7 Fm",
+  "stream": "https://cloudoledgo.com:8026/stream",
+  "homepage": "https://www.candelaestereo.com/",
+  "favicon": "https://uploads.candelaestereo.com/1/2023/11/logo-candela-header.webp",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "latino",
+   "merengue",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Verdad y Vida Radio 100.1 FM",
+  "stream": "https://stream.zeno.fm/vvon5xkmvhwvv",
+  "homepage": "https://radioverdadyvida.com/",
+  "favicon": "https://radioverdadyvida.com/images/logovyv.png",
+  "tags": [
+   "bible",
+   "evangelio",
+   "gospel",
+   "religious"
+  ],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vilmar Stereo",
+  "stream": "https://stream.zeno.fm/pfrwo2fzcbktv?zt=",
+  "homepage": "https://vilmarfm.com/",
+  "favicon": "https://vilmarfm.com/wp-content/uploads/2024/11/cropped-NUEVO-3.png",
+  "tags": [],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EMISORA FARALLONES DIGITAL FM STEREO 95.4",
+  "stream": "http://radio45.virtualtronics.com:8112/;",
+  "homepage": "https://farallonesdigital.jimdofree.com/",
+  "favicon": "https://image.jimcdn.com/app/cms/image/transf/dimension=997x10000:format=jpg/path/s7e3862eba0303db7/image/iec9cc7ee957118be/version/1679705615/image.jpg",
+  "tags": [
+   "information",
+   "música variada",
+   "popular",
+   "radio comunitaria",
+   "social",
+   "tango"
+  ],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cerinza FM 100.6",
+  "stream": "https://radio25.virtualtronics.com/proxy/cerinzafm?mp=/;",
+  "homepage": "https://acueductourbanocerinza.weebly.com/emisora.html",
+  "favicon": "https://www.weebly.com/uploads/3/2/0/3/32031771/imagen3.png",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "latino",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "reggaeton",
+   "vallenato"
+  ],
+  "votes": 20,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Mas RocknPop",
+  "stream": "https://streaming.masrocknpop.com/8188/stream",
+  "homepage": "https://www.masrocknpop.com/",
+  "favicon": "https://www.masrocknpop.com/img/logo.png",
+  "tags": [
+   "rock pop 80s 90s 00s"
+  ],
+  "votes": 20,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Sonora 100.6 Valle de Tenza",
+  "stream": "https://sonic.paulatina.co/8088/stream",
+  "homepage": "https://www.brsradio.co/",
+  "favicon": "https://www.brsradio.co/wp-content/uploads/2024/11/LA-SONORA-100.6A-560x560.jpg",
+  "tags": [
+   "crossover",
+   "entretenimiento",
+   "popular",
+   "salsa",
+   "vallenato"
+  ],
+  "votes": 20,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora Mariana 1400 AM",
+  "stream": "https://servidor24.brlogic.com:7654/live",
+  "homepage": "https://radios.com.co/emisora-mariana/",
+  "favicon": "https://cdn.onlineradiobox.com/img/l/5/25305.v6.png",
+  "tags": [
+   "bible",
+   "catolica",
+   "evangelio",
+   "gospel",
+   "religious"
+  ],
+  "votes": 20,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bésame Barranquilla",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_BARRANQUILLA_SC",
+  "homepage": "https://envivo.besame.fm/emisora/barranquilla/",
+  "favicon": "",
+  "tags": [],
+  "votes": 20,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "R2 Audiovisual - Radio Tunja",
+  "stream": "https://stream-280.surfernetwork.com/bufaptza04zuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJidWZhcHR6YTA0enV2IiwiaG9zdCI6InN0cmVhbS0yODAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkIzbGRwYlFSUmhleFpNVHZ1d05KUVEiLCJpYXQiOjE3OTE4MDkyNDksImV4cCI6MTc5MTgwOTMwOX0.1NldKcdJaAK7TWad1k9JU4xuNum6CApBr59Y1vd6J4o",
+  "homepage": "https://r2audiovisual.blogspot.com/",
+  "favicon": "",
+  "tags": [
+   "misc"
+  ],
+  "votes": 20,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Alerta Bogotá 104.4 fm",
+  "stream": "http://179.1.139.84:8000/play/a041/index.m3u8",
+  "homepage": "https://www.alertabogota.com/",
+  "favicon": "",
+  "tags": [
+   "baladas música popular colombiana nacional varios",
+   "debates y deportes",
+   "deporte",
+   "futbol",
+   "música y noticias",
+   "noticias locales",
+   "noticias nacionales e internacionales",
+   "noticias opinion",
+   "noticias y comentarios",
+   "noticias y deportes",
+   "servicio social"
+  ],
+  "votes": 20,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Eco Stereo",
+  "stream": "http://149.56.22.27:8022/stream",
+  "homepage": "https://www.ecostereo.com/",
+  "favicon": "https://www.ecostereo.com/wp-content/uploads/2023/05/eco-stereo-300x300.png",
+  "tags": [
+   "latina",
+   "popular",
+   "tropical"
+  ],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO POLICÍA BUCARAMANGA 91.7 FM",
+  "stream": "https://stream-284.surfernetwork.com/fzddg2ybssuuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJmemRkZzJ5YnNzdXV2IiwiaG9zdCI6InN0cmVhbS0yODQuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkFJbkd1SUJ6UWllaEtWZUpzUDE5bFEiLCJpYXQiOjE3OTE3NTQ3NTAsImV4cCI6MTc5MTc1NDgxMH0.neVzE8GvTiPaasZwJqpDNT8vvnWqPaJ1PKGuUmwIdiM",
+  "homepage": "https://zeno.fm/radio/radio-policia-bucaramanga-91-7-fm-08iu/",
+  "favicon": "https://zeno.fm/_ipx/_/https://images.zeno.fm/73OuWYPQ99ZEv6Ee_UA02DHxuPhynSkeFj6-rwq3kJk/rs:fill:256:256/g:ce:0:0/aHR0cHM6Ly9wcm94eS56ZW5vLmZtL2NvbnRlbnQvc3RhdGlvbnMvMDUxNDYzMTgtYmJkYi00NDY3LWI1ZWUtNzIwY2RjMzMyM2EwL2ltYWdlLz91PTE3NDYzOTU5MjMwMDA.webp",
+  "tags": [
+   "crossover",
+   "government",
+   "information",
+   "music",
+   "popular",
+   "social",
+   "vallenato"
+  ],
+  "votes": 19,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "MIX 103.9 FM Barranquilla",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIX_BARRANQUILLAAAC.aac?dist=oro_web",
+  "homepage": "https://mixradio.co/",
+  "favicon": "https://i1.sndcdn.com/artworks-otSyeTwhT8z9D4y8-WtZrbg-t500x500.jpg",
+  "tags": [
+   "actualidad",
+   "barranquilla",
+   "champeta",
+   "colombia",
+   "concursos",
+   "crossover",
+   "música",
+   "reggaetón",
+   "salsa",
+   "tropical",
+   "urbano"
+  ],
+  "votes": 19,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Máxima 89.1 FM",
+  "stream": "https://streamming.dobitsoluciones.com:7032/live",
+  "homepage": "https://lamaximaradio.com/",
+  "favicon": "https://lamaximaradio.com/wp-content/uploads/2018/12/cropped-logo_la_maxima_medio-4.png",
+  "tags": [
+   "latino",
+   "music",
+   "salsa",
+   "tropical"
+  ],
+  "votes": 19,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora Nueva Época 1200 AM",
+  "stream": "https://stream.zeno.fm/c1knbfegny8uv",
+  "homepage": "https://emisoranuevaepoca.com.co/",
+  "favicon": "https://emisoranuevaepoca.com.co/wp-content/uploads/2022/01/25306.v1.png",
+  "tags": [
+   "crossover",
+   "merengue",
+   "music",
+   "popular",
+   "salsa"
+  ],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Brisa FM 93.1",
+  "stream": "https://radio25.virtualtronics.com:20057/;",
+  "homepage": "https://brisafm.net/",
+  "favicon": "https://brisafm.net/wp-content/uploads/2023/04/Brisa-FM-93.1-300x127.jpg",
+  "tags": [
+   "baladas en español",
+   "crossover",
+   "popular",
+   "radio comunitaria",
+   "radio hablada",
+   "regional mexican",
+   "vallenato"
+  ],
+  "votes": 18,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Buenisima Stereo - Barranquilla",
+  "stream": "https://centova.hostingelectrica.net/proxy/buenisim?mp=/stream",
+  "homepage": "https://buenisimastereo.com/",
+  "favicon": "https://cdn-profiles.tunein.com/s282344/images/logod.jpg?t=637553924160000000",
+  "tags": [
+   "actualidad",
+   "barranquilla",
+   "cumbia",
+   "latina",
+   "local",
+   "merengue",
+   "noticias",
+   "salsa",
+   "tropical",
+   "vallenato"
+  ],
+  "votes": 18,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Blu Radio Cali 91.5 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLU_CALI_ADP_SC",
+  "homepage": "https://www.bluradio.com/",
+  "favicon": "https://caracoltv.brightspotcdn.com/dims4/default/7e7eadf/2147483647/strip/true/crop/44x44+0+0/resize/44x44!/quality/75/?url=http%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2Fd8%2Fba%2F2f4320784bfe8c03586592092f12%2Flogo-bluradio-dk-blanco-44.png",
+  "tags": [
+   "debate",
+   "deportes",
+   "entretenimiento",
+   "noticias",
+   "noticias en español",
+   "noticias nacionales e internacionales",
+   "noticias y comentarios",
+   "radio hablada"
+  ],
+  "votes": 18,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ }
+]
