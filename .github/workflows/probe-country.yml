@@ -51,12 +51,29 @@ jobs:
       - name: Commit the list
         env:
           CC: ${{ github.event.inputs.country }}
+          KEEP: ${{ github.event.inputs.keep }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           low=$(echo "$CC" | tr '[:upper:]' '[:lower:]')
+          # Six countries probed at once all add to countries.json, and the
+          # first push wins while the rebase of every other stops on a
+          # conflict in it. So the probe's own files are committed alone,
+          # and countries.json is rewritten from them on top of whatever
+          # main holds by then -- the list builder is pure, so writing it
+          # again is the merge -- as many times as the push is refused.
+          git checkout -- countries.json
           git add "probes/$low.txt" "probes/${low}_radio_browser.json" "probes/${low}_streams.json" \
-                  "countries/$low.json" countries.json
+                  "countries/$low.json"
           git commit -q -m "$CC: its stations, as a public directory knows them, measured and kept" || exit 0
-          git pull -q --rebase origin main
-          git push -q origin HEAD:main
+          for attempt in 1 2 3 4 5 6; do
+            git pull -q --rebase origin main
+            python3 country_list.py "$CC" --apply --keep "$KEEP" > /dev/null
+            git add countries.json "countries/$low.json"
+            git commit -q --amend --no-edit
+            if git push -q origin HEAD:main; then
+              echo "pushed on attempt $attempt"; exit 0
+            fi
+            sleep $((attempt * 7))
+          done
+          echo "::error::could not push after six attempts"; exit 1
