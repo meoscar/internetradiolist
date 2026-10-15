@@ -1,0 +1,6155 @@
+{
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIA.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://streaming.latina101.com.ar:9000/Repetidoras": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FM999_56.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio10.stweb.tv/radio10/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/BLUE_FM_100_7AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://ipanel.instream.audio/8004/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "1070 AM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server1.stweb.tv/rcvos/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad38": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://198.204.234.10:8580/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad39": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://turadioenvivo.com:8430/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Alan Parsons Project - Days Are Numbers (The Traveller)",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming1.locucionar.com/proxy/fmcumbiambera?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Salta Argentina",
+  "status": null,
+  "content_type": ""
+ },
+ "https://liveradio.mediainbox.net/radio3.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://ipanel.instream.audio:7000/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://vale.stweb.tv:1935/vale/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://albireo.shoutca.st:9740/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sting Featuring The Royal Philharmonic Concert Orchestra Conducted By Steven Mercurio - Russians",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://s8.stweb.tv/observador/live/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://popradio.stweb.tv/popradio/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://mdstrm.com/audio/5d9d019112cbbb45d6a50960/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://vmf.edge-apps.net/playlist/urbana.m3u8/play.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegurl; charset=utf-8"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/ASPEN.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicpanel.hostradios.com/8002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://liveradio.mediainbox.net/popular.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream4.suenas.net/pobrejohnny": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Unknown",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad37": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://dreamsiteradiocp.com:8004/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO MARIA ARGENTINA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://popradio.stweb.tv/popradio/live/chunks.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/METROAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://server.laradio.online:25224/live.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming.radiosenlinea.com.ar:9640/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio2.radio.rosario3.com:8000/prueba2": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://server.laradio.online:25223/live.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio//:9069//stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "http://mp3.ffh.de/radioffh/hqlivestream.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Justin Timberlake - Can't Stop The Feeling!",
+  "status": null,
+  "content_type": ""
+ },
+ "http://69.64.46.123:8015/stream?1571687077817,": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.radiojar.com/qkxht62hy8hvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.laradio.online/proxy/fm_la_patriada?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "-",
+  "status": null,
+  "content_type": ""
+ },
+ "http://fmplus.radio.rosario3.com:8006/fmplus": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_ADP.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://mega.stweb.tv/mega983/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/DSPORTSRADIOAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://cdn.instream.audio:9660/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://23.111.184.195:8030/m90.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC_SC?dist=triton-widget&pname=tdwidgets": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream4.suenas.net/shoppingclassics": {
+  "reachable": true,
+  "hls": false,
+  "icy": "-",
+  "status": null,
+  "content_type": ""
+ },
+ "https://27323.live.streamtheworld.com/FCLASICOS_56AAC.aac?": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://genexservicios.com:8098/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10217/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.laradio.online/proxy/laradio1047": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://01.solumedia.com.ar:7828/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DIONNE WARWICK - That's What Friends Are For",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radios.solumedia.com:6002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://149.202.235.235:8011/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Survivor - Eye Of The Tiger [1Gf]",
+  "status": null,
+  "content_type": ""
+ },
+ "http://turadioenvivo.com:8530/stream?1562165478826": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://27433.live.streamtheworld.com/AM750AAC.aac?dist=triton-widget&amp;tdsdk=js-2.9&amp;swm=false&amp;pname=tdwidgets&amp;pversion=2.9&amp;banners=none&amp;burst-time=15&amp;sbmid=00ed0060-c497-4bc2-c0b8-3c8bf91188ab": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://24483.live.streamtheworld.com/DSPORTSRADIO_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://dj91.hostingnuclear.com/9952/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Eduardo Guajardo - La guitarra",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BAAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://5cd577a3dd8ec.streamlock.net/radiofiesta/live_1/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://dreamsiteradiocp.com:8004/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO MARIA ARGENTINA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming450tb.locucionar.com/proxy/fmvida979?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://173.255.205.241:8200/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Classical Tunes - The Best Of Giuseppe Verdi | The Voice And Soul Of Italian Romantic Opera",
+  "status": null,
+  "content_type": ""
+ },
+ "https://mp3.ffh.de/ffhchannels/hqtop40.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Platz 28: Giant Rooks - Slow Dance (For A Minute)",
+  "status": null,
+  "content_type": ""
+ },
+ "http://turadioenvivo.com:11045/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AM 900 KHz",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.radiosenlinea.com.ar:9640/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO3_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://23.111.184.195:8020/mileniumrosario.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streamingraddios.online/proxy/bardeblues?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Robben Ford - Sweet Sixteen",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.fmutn.com.ar:8000/FMUTN#;.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio UTN online",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.lt8.com.ar:8080/lt8radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://icecast.hostingbahia.com.ar:8002/live?1475282235673": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO NORTE - TEMPORADA ALTA TODO EL A�O",
+  "status": null,
+  "content_type": ""
+ },
+ "http://fmplus.radio.rosario3.com:8006/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio01.ferozo.com/proxy/ra01000659?mp=/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7118//stream?type=http&nocache=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://01.solumedia.com.ar:8472/stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Starsailor - Four To The Floor",
+  "status": null,
+  "content_type": ""
+ },
+ "http://s8.stweb.tv:1935/observador/live/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://rr5100.globalhost1.com/8540/stream;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://rr5100.globalhost1.com/8540/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://173.255.205.241:9090/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://ssl.radiosnethosting.com/index.php?port=9072": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://163.10.186.70:8002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://01.solumedia.com.ar:8144/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO DINAMO PURO ROCK",
+  "status": null,
+  "content_type": ""
+ },
+ "http://cdn.instream.audio:8137/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Calvin Harris - Outside",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9056/stream?_=1680ada412b": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO 2 - AUBASA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://liveradio.mediainbox.net/fmcordoba.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.redboing.com/radio/8000/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.eduneu.eu:8040/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "EELT – Sep WEB 02",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streamall.alsolnet.com/latecno": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radios.solumedia.com/6396/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://one.stweb.tv/one/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://69.64.46.123:8132/stream?type=.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/AM990.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streamall.alsolnet.com:443/radiocielo": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://cdn.instream.audio:9140/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://01.solumedia.com.ar:8562/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CLASSIQUE #unaradiodeclasicos",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOP.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radios.agusticomunicacion.com:3000/LA100": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.latina101.com.ar:8080/RadioLatina": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/fdnbtq898a0uv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.radio.co/s2ed3bec0a/listen": {
+  "reachable": true,
+  "hls": false,
+  "icy": "-",
+  "status": null,
+  "content_type": ""
+ },
+ "https://fm.uncu.edu.ar/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sh4.radioonlinehd.com:8533/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://163.10.186.71:8001/broadwavehigh.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://media.radios.ar:9270/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://server.laradio.online:8202/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://frontend.radiohdvivo.com/continental/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://s1.radiosnethosting.com:9816/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ads - Block",
+  "status": null,
+  "content_type": ""
+ },
+ "http://23.111.184.195:8140/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streamingv2.shoutcast.com/NuevosAiresFM997_192.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamer.fmfutura.com.ar/vivo.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio.solumedia.com.ar:8462/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.radiosenlinea.com.ar:10763/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/MUCHA_RADIO.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://storage.googleapis.com/m-infra.appspot.com/public/webchat/sent.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mp3"
+ },
+ "https://stream-151.zeno.fm/7st5b8derm0uv?": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://23.111.184.195:8050/fmmeridiano.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://ea.mp3.icecast.magma.edge-access.net:7200/sc_rad44": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/lapopu.mp3?dist=c3-web": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9069/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "http://server.laradio.online:25311/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Unknown - Bloque 25 Foucault",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9110/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "https://streaming01.shockmedia.com.ar:10945/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://cdn.instream.audio/:9339/stream?in_device_id=WPU32ffbfaa3cd8ebaaa8f64ec868bf4b88XY177fdfd79a7": {
+  "reachable": true,
+  "hls": false,
+  "icy": "EN VIVO - UN DINAMO RADIO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio02.ferozo.com/proxy/ra01000409?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Babasonicos - Carismatico",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamingraddios.online/proxy/dora?mp=/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/colgados?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio02.ferozo.com:8704/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.lt8.com.ar:8443/lt8radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio13.servidorderadio.net:8110/api/v3/widgetsview?id=100&option=big&ssl=1&auto=0": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio02.ferozo.com/proxy/ra02001326?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Romeo Santos - Propuesta Indecente",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/cosquinrock.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://01.solumedia.com.ar:8238/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://statics-v2.streema.com/static/audios/sample.ea78c3d52389.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming01.shockmedia.com.ar:9332/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad7": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/aknjqpmy0xtuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio02.ferozo.com/proxy/ra02001328?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad34": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio02.ferozo.com/proxy/ra02000290?mp=/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/4r530f2a9f0uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://ipanel.instream.audio:7002/stream?_=18fea7232d5": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://streamconex.com:8118/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://us9.maindigitalstream.com/ssl/7192": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://s24.myradiostream.com/:14984/listen.mp3?nocache=1674464727": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10486/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://server6.hostradios.com/8390/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://chat-assets.frontapp.com/v1/149be82f568687535638c72a66facc34.ogg": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "http://streaming01.shockmedia.com.ar:9858/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "2 carol Curryb - Just the way you are",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio02.ferozo.com/proxy/ra02001330?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sonic.cloudstreaming.eu:9992/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad39": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://server.laradio.online:9188/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.ecolan.com:8443/stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio:9307/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "publicidad_Libreria_El_Cid",
+  "status": null,
+  "content_type": ""
+ },
+ "http://server.laradio.online:8018/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://redirector.dps.live/hls-audio/4e252a65837b69e349d5d8c1033152b4/hztear/playlist/manifest/gotardisz/audio/now/livestream1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://strcdn.klm99.com:10985/acquavillagesell": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.escuchanosonline.com:7101/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/radio3.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9202/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "http://audio.questreaming.com:27156/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/ujs4w68jh93uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://media.radios.ar:1110/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://01.solumedia.com.ar:7834/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "22 - Eruca Sativa - Armas Gemelas",
+  "content_type": "audio/aacp"
+ },
+ "http://cdn.instream.audio:9032/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9095/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad38": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streamall.alsolnet.com/radiolightfm": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radios.solumedia.com:6158/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Los 40 Santa Fe 97.7Mhz",
+  "content_type": "audio/aacp"
+ },
+ "https://sonic.cloudstreaming.eu:10986/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming1.locucionar.com/proxy/radiochascomus?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Chascomus AM 1520",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streamlky.alsolnet.com:443/republica99": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://01.solumedia.com.ar:7792/;stream/1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://01.solumedia.com.ar:7802/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "PROGRAMA MOV MONT 13-10-2026",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/radioverdad?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://27573.live.streamtheworld.com/ENAMORADOS_PYTAAC.aac?": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonicpanel.hostradios.com/8710/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Cop Centro GRC Feb 2012 - 10",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9288/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/BLACKIE_89_1.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stm14.xcast.com.br:8248/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio01.ferozo.com/proxy/ra01000666?mp=/stream;\\": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/lt9?mp=/stream?rand=718352759": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://server7.hostradios.com:8142/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://s28.myradiostream.com:28240/listen.m4a": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.provinciaradio.com.ar:7008/am": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9135/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp; charset=UTF-8"
+ },
+ "http://nvradios.com:9384/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIOMAS",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9069/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "http://argentina.republicahosting.com:8417/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM IMPERIO 98.7",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio13.servidorderadio.net:8110/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sc.host-live.com:10810/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://chino.republicahosting.com:2318/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://01.solumedia.com.ar:7870/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/radiochubut?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://cdn.instream.audio:9275/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/AM750AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream-164.zeno.fm/0m2cjioahwjuv?": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://ssl.radiosnethosting.com/index.php?port=9808": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://149.202.235.235:8133/live": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar/8170/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.redboing.com/radio/8070/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9032/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg; charset=UTF-8"
+ },
+ "http://173.255.205.241:9090/;stream.nsv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.radiosenlinea.com.ar:9058/stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://genexservicios.com:8310/;?1666493861674": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9061/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg; charset=UTF-8"
+ },
+ "https://stream-166.zeno.fm/oaqigxpfjzqvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvYXFpZ3hwZmp6cXZ2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjFnRWVwSWpIUXJXVElZSU1pLVlrenciLCJpYXQiOjE3NDgxMzU4OTUsImV4cCI6MTc0ODEzNTk1NX0.b4Llu6iAJk1NPa2U9OhIjm_3CZQyLuRJZWiNecQWBdY": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.zeno.fm/mbketaeaqhguv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://server.laradio.online:8599/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming1.locucionar.com/proxy/soyunclasico?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Present_Clasicos (21)",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/ke2bvwydmzzuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radio.eduneu.eu:8030/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "María Rosa Yorio - Quiero Ver, Quiero Ser, Quiero Entrar",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streamall.alsolnet.com/estaciondelsigloaudio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://server6.hostradios.com/8552/stream/;/;type=mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://27603.live.streamtheworld.com/90INTER_PYTAAC.aac?": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.fmutn.com.ar:8000/FMUTN": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio UTN online",
+  "status": null,
+  "content_type": ""
+ },
+ "http://server1.veemesoft.com.ar:10147/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streamlky.alsolnet.com/rockandpop_128k": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://emisora.zonasinergia.com/8068/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fm 106.1 Estacion 2",
+  "status": null,
+  "content_type": ""
+ },
+ "https://chino.republicahosting.com:2316/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stm2.livecastradio.com:9379/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO VALLE VIEJO 104.1",
+  "status": null,
+  "content_type": ""
+ },
+ "http://27323.live.streamtheworld.com/DISNEY_ARG_BA_ADP_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.escuchanosonline.com/8274/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "issue",
+  "status": null,
+  "content_type": ""
+ },
+ "https://strcdn.klm99.com:10991/planetmdp": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://01.solumedia.com.ar:8336/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "LRH 307 - FM 91.1Mhz",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio10.stweb.tv/radio10/live/chunks.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://radios.solumedia.com/6118/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Wamdue Project - King of My Castle",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.redboing.com/radio/8060/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming2.locucionar.com/proxy/radiobt?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.qualityradio.com.ar/qualityx": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Karol G, Judeline, Rusowsky - bbY WOW",
+  "content_type": "audio/aacp"
+ },
+ "http://cdn.instream.audio:8129/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.servidorm24.net:7004/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8592/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/mbketaeaqhguv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.evolucionstreaming.com/8040/stream?hash=16935913338https://streaming.evolucionstreaming.com/8040/stream?hash=1693591333817": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://argentina.republicahosting.com:8197/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Adrián Barba   El Poder Nuestro Es Full Latino",
+  "status": null,
+  "content_type": ""
+ },
+ "https://5cd577a3dd8ec.streamlock.net/radiocity/live_1/chunklist_w1831978817.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://radio.solumedia.com.ar:8004/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Cadena Alegria La Campeona Del Dial Whatsapp 351-349-2367",
+  "status": null,
+  "content_type": ""
+ },
+ "http://base.redenfoques.com.ar:8000/piuke": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://server.laradio.online:9033/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/vxqg94xspc9uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio13.servidorderadio.net:9648/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Richard Coleman - Phil Manzanera - Eternidad",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radiosenlinea.com.ar/8856/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com:10976/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.shockmedia.com.ar:10889/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://vps-2333016-x.dattaweb.com/listen/fm_galaxia_88.7_cadena_3_san_francisco/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Live Broadcast",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio01.ferozo.com/proxy/ra01000677/?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://stream.zeno.fm/20ddyt65hfhvv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamconex.com:8150/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://ice2.edge-apps.net/radio1_high-20057.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://icecast.unomedios.com.ar/ayer": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://masservidor.net/8616/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "http://149.202.235.235:8164/;stream/1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://27393.live.streamtheworld.com/GRANDESDELROCK_PYTAAC.aac?": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://23113.live.streamtheworld.com/AM750AAC": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://server1.veemesoft.com.ar:8064/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Antena 98",
+  "status": null,
+  "content_type": ""
+ },
+ "https://vale.stweb.tv/vale/live/chunks.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://streamingraddios.online/proxy/luradioe?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streamlky.alsolnet.com/radiofmq": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://01.solumedia.com.ar:8050/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Scorpions - Scorpions - Wind Of Change",
+  "status": null,
+  "content_type": ""
+ },
+ "https://27603.live.streamtheworld.com/PELICULAS_PYTAAC.aac?": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamserver-2.xyz/listen/lvdiez/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://181.177.20.20:8000/radiociudad": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.radiosenlinea.com.ar/8008/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://edge-st1-audio.masterhost.com.ar/listen/radio_republica_955/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/LOA_LaOpinionAustral": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOX_56AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming3.locucionar.com/proxy/ariesonline?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming.provinciaradio.com.ar:3352/fm": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://turadioenvivo.com:11027/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streamconex.com:8096/;?listening-from-radio-garden=1640125124": {
+  "reachable": true,
+  "hls": false,
+  "icy": "03 - La banda",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/radio5fm/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/dsvp0vvm9k8uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://173.255.205.241:1127/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming5.locucionar.com/proxy/radiojaja?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.radios.red/unaradio.ogg": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://icecasthd.net/proxy/blufm/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://www.fmfenix.com.ar:8000/fmfenix.ogg": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://argentina.republicahosting.com:8261/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Eric Prydz - Generate",
+  "status": null,
+  "content_type": ""
+ },
+ "https://27603.live.streamtheworld.com/POP_PYTAAC.aac?": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://tmbradio.radioca.st/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sting Featuring The Royal Philharmonic Concert Orchestra Conducted By Steven Mercurio - Russians",
+  "status": null,
+  "content_type": ""
+ },
+ "http://cdn.instream.audio:8111/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO NQP ONLINE - 24hs EN VIVO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-289.surfernetwork.com/qktzze7sb18uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxa3R6emU3c2IxOHV2IiwiaG9zdCI6InN0cmVhbS0yODkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlJwVUg5OThTU0N5UjJrb0lLSk5MWVEiLCJpYXQiOjE3OTE3OTkwOTcsImV4cCI6MTc5MTc5OTE1N30.uhaXTB54UA7ifki3U3gAlMTQ945sLv6ADh-yTn9txSU": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming.redboing.com/radio/8010/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.host-live.com:10853/stream?_=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.eduneu.eu:8000/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Jupiter Jones - Still",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.serviciowebdigital.com/8780/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sonido FM",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.ahijuna.fm/aire.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming2.locucionar.com/proxy/fmeclipse905?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming1.locucionar.com/proxy/libre935?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7298/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio:9714/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radios.solumedia.com/6348/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming3.locucionar.com/proxy/infopico999?mp=%2Fstream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sonicpanel.hostradios.com:8108/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio.forensedigital.gt:8090/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Marimba Sonora Ideal - Mi Secretaria",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9081/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://vivohd.fmradioconcierto.com.ar:8000/status-json.xsl//radio.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio02.ferozo.com/proxy/ra02001331?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.escuchanosonline.com/8268/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming6.locucionar.com:24028/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming01.shockmedia.com.ar:10801/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "FM Andina La Plata",
+  "content_type": "audio/aacp"
+ },
+ "https://radio.eduneu.eu/hls/radio4/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/x-mpegurl"
+ },
+ "http://streamlky.alsolnet.com:443/radiofmq": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://vivohd.fmradioconcierto.com.ar:8000/radio.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonicpanel.hostradios.com/8032/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM RIO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.streamingdha.com.ar/9826/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Xradio",
+  "status": null,
+  "content_type": ""
+ },
+ "https://14223.live.streamtheworld.com/SAM06AAC243_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://miestacion.turadioonline.com.ar/8158/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "http://centova.questreaming.com:4058/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.laut.fm/estacionmix": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://rr5100.globalhost1.com/8546/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://streaming01.shockmedia.com.ar/9716/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.arcast.net:1045/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://01.solumedia.com.ar:8324/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://audials.com/sslify/centova.radiosnethosting.com:9072": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://server.streamcasthd.com/8008/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "JAF - Todo mi Amor",
+  "status": null,
+  "content_type": ""
+ },
+ "https://strcdn.klm99.com:10987/planetbahia": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://chino.republicahosting.com:2282/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://01.solumedia.com.ar:7018/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Santo Rosario en extasis en Garabandal",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming1.locucionar.com:14835/stream/;stream/1": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9568/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/fmisla911?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DLI Medios - FM de la Isla 91.1 MHZ Choele Choel RN",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com:10818/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Antena Uno 92.3FM Posadas",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/cadenaheat.mp3?dist=c3-web": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.shockmedia.com.ar:8452/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "radio de clasicos",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9140/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "https://streamconex.com:8062/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.zeno.fm/9s7nnwmknkhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming6.locucionar.com:24228/stream?ver=492502": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://01.solumedia.com.ar:7054/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Programa especial  ANATO 2026",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10586/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La 97 Fm siempre tu musica",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audiopanel.com.ar:8010/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Paul McCartney; Wings - Silly Love Songs",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10404/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "EN VIVO - FM ESPERANZA 107.1 MHZ",
+  "content_type": "audio/mpeg"
+ },
+ "http://audio.questreaming.com:27902/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO BEAT",
+  "status": null,
+  "content_type": ""
+ },
+ "http://www.genexservicios.com:8068/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio En Vivo!",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiozero.fm/reproductor/proxy/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/7zb5ppzk0mruv.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://01.solumedia.com.ar:8494/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://01.solumedia.com.ar:7004/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://live.radiovague.com:8000/blurfm03": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Tokyo Police Club - New Blues",
+  "status": null,
+  "content_type": ""
+ },
+ "https://nl.digitalrm.pt:8052/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming5.locucionar.com/proxy/activafm?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "http://01.solumedia.com.ar:7139/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "EARTH WIND & FIRE - Fall In Love With Me",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.mundoradio.com.ar/9134/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "APERTURA-- OTRA VUELTA DE TUERCA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radiosenlinea.com.ar/8520/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://fm.unam.edu.ar/fm": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Desconocido",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FCLASICOS_56AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://178.32.146.184:5938/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Pink Floyd - Money",
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming5.locucionar.com:23184/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/AM750.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com/6268/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/hjb5if7bemvvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.zeno.fm/5rxr1mcdcxhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stm8.xcast.com.br:12502/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "32 - Damasio Esquivel - Polkas Y Chamam S - Virgen Querida",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar/8616/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Eric Carmen - Hungry Eyes",
+  "status": null,
+  "content_type": ""
+ },
+ "http://190.185.128.226:8001/AM940": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://vps-2333016-x.dattaweb.com/listen/am_1050_radio_san_francisco/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Live Broadcast",
+  "status": null,
+  "content_type": ""
+ },
+ "http://01.solumedia.com.ar:8562/;stream.nsv": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CLASSIQUE #unaradiodeclasicos",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com/6136/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream-149.zeno.fm/f2r6c55tfm8uv?zs=0bETJ17OROmPAcBC7sTCfA1z9tfAnkFPQOSUgpGNW9qLafhxs0GpRHxD0FFqGjax8Is9A-3D": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9366/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "https://radio.kinshasafm.xyz/listen/kinshasafm/mobile.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ashe/Suki Waterhouse - Pushing Daisies",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com:6276/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://transmision-lu14.santacruz.gob.ar/lu14.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/ogg"
+ },
+ "https://radio02.ferozo.com/proxy/ra02001228?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "PUBLICIDAD La Morocha",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/levelrock?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "NEW RADICALS - SOMEDAY WE`LL KNOW",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamall.alsolnet.com/cadenaexpress": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://radio01.ferozo.com:8928/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://vps-c0159cbc.vps.ovh.ca/10006/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com:6002/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.eduneu.eu:8050/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Nora Perlé y Andrea Estévez Mirson - Canciones Son Amores (Emisión del 07-09-2025)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com/6198/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "11. Bye Bye Baby",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cloudstream2030.conectarhosting.com/8184/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ANGELINA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming3.locucionar.com/proxy/fm1057?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Top100 - 013 B",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com/8410/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://server6.hostradios.com/8552/stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming.escuchanosonline.com/8780/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming3.locucionar.com/proxy/creativaonline?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AM1230 CREATIVA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8200/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.arcast.tv:8443/lidersanjuan/lidersanjuan.stream/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://radio.kinshasafm.xyz/listen/kinshasafm/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ashe/Suki Waterhouse - Pushing Daisies",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/60pqgs97f2zuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://icecast.zeclogiccloud.com.de/fmlatribu": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.streamcasthd.com/8022/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://genexservicios.com:8300/;?1733409881282": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Manantial De Vida",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sudaca.redenfoques.com.ar/sudaca": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiopanel.factory.com.ar/listen/factory_radio/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "White Town - Your Woman",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7011/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com:10815/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio:9566/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radio01.ferozo.com/proxy/ra01000983?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://server11.veemesoft.com.ar:28918/Stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO UNIVERSO 100.3",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/pewavgmncv8uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radios.solumedia.com:10805/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CADENA COOL 103.7 PONEMOS TU MUSICA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/radioamanecer?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.zeno.fm/zky9fvlfkootv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://www.genexservicios.com:8294/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Cadena Sol",
+  "status": null,
+  "content_type": ""
+ },
+ "https://usa13.fastcast4u.com/proxy/dnaradiofm?mp=/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Eelke Kleijn - DAYS like NIGHTS 347 - Guestmix by Nõpi",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radiosenlinea.com.ar:10637/live?_=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ariana Grande - Love Me Harder",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.streamingdha.com.ar/8004/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "xradio xradio",
+  "status": null,
+  "content_type": ""
+ },
+ "http://181.177.20.20:8000/radio2": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9051/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg; charset=UTF-8"
+ },
+ "https://ohradio.cc/8092/stream%22%20type=%22audio/mpeg": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonic.host-live.com/8120/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "102.1",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10891/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming1.locucionar.com/proxy/fmcielo931?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/maragata975?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "# LA ROTI PARRILA 05-10-2017~0",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/AM810_56AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://server1.veemesoft.com.ar:6340/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://stream.zeno.fm/xgyna51vrzzuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://chino.republicahosting.com:2311/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Eminem - Stan (ft. Dido)",
+  "content_type": "application/ogg"
+ },
+ "http://01.solumedia.com.ar:8176/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Phil Collins - Sussudio",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.host-live.com/8176/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10891/;?hash=1659583597942": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming1.locucionar.com/proxy/delacosta905?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://pulsedeck.org/listen/radiodj/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "shandr; Donner - Sail",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar/9536/;?1718973618118": {
+  "reachable": true,
+  "hls": false,
+  "icy": "El Kuelgue - Circunvalación",
+  "status": null,
+  "content_type": ""
+ },
+ "http://server1.veemesoft.com.ar:26511/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://streaming2.locucionar.com:8112/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Apuntes Fm 98.9 Mhz",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7035/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "LADY GAGA - Hold My Hand",
+  "status": null,
+  "content_type": ""
+ },
+ "https://turadioenvivo.com/proxy/fmdigital/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Digital 102.1",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8290/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.xweb.ar/8024/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Gravity Radio #entodoslados",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/fmatlantica?": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://radio.solumedia.com.ar:7009/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "﻿Pausa Comercial Pausa Comercial",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8112/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming2.locucionar.com/proxy/estacionurbana?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.radiosenlinea.com.ar:10934/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streamconex.com:8076/stream/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.wiz.com.ar/listen/rock_and_blues/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Black Crowes - Struttin' Blues",
+  "status": null,
+  "content_type": ""
+ },
+ "https://vps-c0159cbc.vps.ovh.ca/9682/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/61ux2pwbuuhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sc.host-live.com/8166/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://66.128.32.105:8006/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio01.ferozo.com:8976/;stream.nsv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonic.host-live.com/8268/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MOSCATO LUNA - Vieux Port",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamconex.com:8030/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://strcdn.klm99.com:10984/planetpinamar": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.shockmedia.com.ar:10598/stream/1/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.radiosenlinea.com.ar:10996/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Estas Escuchando Mediterraneo 98.3 Mhz",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio02.ferozo.com/proxy/ra02001342?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://centova1.veemesoft.com.ar:12378/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_CRI_SJ_ADP.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://170.210.74.75:8000/fm915.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamlky.alsolnet.com/larz": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radios.solumedia.com/6314/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Attaque 77 - Chicos Y Perros (Vivo)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad37": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/NIHUIL_AM680AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://sonic.host-live.com:8258/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.laradio.online/proxy/raul_benitez?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/b29cslbyte1vv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming3.locucionar.com/proxy/fmtiempo1035?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com/6426/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming2.locucionar.com:8269/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Sebastian Yatra - Tacones Rojos [Dj Caplay Bachata Remix]",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/2qfxz4z9hfhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com:10903/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio el buen samaritano",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios2.tecnosoul.com.ar:8001/bigbang": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Big Bang -  - SUNSET # 74 by fernando dinucci",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamserver-2.xyz:8000/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://server.radiostreaming.com.ar/8470/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming5.locucionar.com/proxy/fmdelacosta?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/c3rosario.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.eduneu.eu:8010/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DJ Johnson Somerset - Broadcast 11/09/2016",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.host-live.com/8192/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "INXS - Never Tear Us Apart",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FM921_56.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://proxy01.servidorenlinea.net/streaming1/8014/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamingraddios.online/proxy/valle?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://icecast.hostingbahia.com.ar:8002/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO NORTE - TEMPORADA ALTA TODO EL A�O",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming320tb.locucionar.com/proxy/radio2?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio06.cehis.net:9001/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "A Vivaldi; Angel Romero, Acad St Martin in the Fields - RV 540 Concerto in D min",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.eduneu.eu:8060/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Juan Carlos Del Missier - De La Noche A La Mañana (Emisión del 01-08-2025)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://st1-mpanel-icy.masterhost.com.ar:8100/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radiostreaming.rec.uba.ar:8000/LiveRadioUBA": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.tecnosoul.com.ar:8001/exporadio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Calvin Harris, Sam Smith, Jessie Reyez - Promises (with Sam Smith)",
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming2.locucionar.com:8312/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Estacion Quince Cincuenta",
+  "status": null,
+  "content_type": ""
+ },
+ "https://icecast.hostingbahia.com.ar:8002/live?90131": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO NORTE - TEMPORADA ALTA TODO EL A�O",
+  "status": null,
+  "content_type": ""
+ },
+ "https://fra-pioneer01.dedicateware.com:2140/;?type=http&nocache=1743200018": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "PreNicene Radio Live",
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming2.locucionar.com/proxy/porlavida102?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://chino.republicahosting.com:8243/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Nirvana - About A Girl - Mtv Unplugged (Anunciado) [VKO]",
+  "status": null,
+  "content_type": ""
+ },
+ "https://redirector.dps.live/observador/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.fmsur.pro:8125/mobile.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "con el Chino Amante - Mar Revuelto",
+  "status": null,
+  "content_type": ""
+ },
+ "https://https.nvradios.com/radio/9340/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "VICENTICO - Paisaje",
+  "status": null,
+  "content_type": ""
+ },
+ "https://masservidor.net:7163/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server6.hostradios.com:7232/;?1741613055764": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Exitos de todos los tiempos...",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio01.ferozo.com/proxy/ra01000872?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Elton John - Nikita",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.streamingdha.com.ar/8022/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "MILEY CYRUS, ft. LINDSEY BUCKINGHAM MICK FLEETWOOD - Secrets~0,10-5,48",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/glam963?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Travis - J. Smith",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.streamingdha.com.ar:9382/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://s3.conectarmedia.com:8016/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Julius Reid - Follow In My Footsteps",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8746/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.gostreaming.com.ar:10877/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9310/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Unknown",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/yqb6aauhtv8uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming6.locucionar.com:24248/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-152.zeno.fm/6v6wmf2sivevv?zs=n7o6R7wmQQmLfi8nD1ADNA": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming.radiosenlinea.com.ar:10635/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/uyd6h9w162quv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.radiostreaming.com.ar/8152/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://stream-179.surfernetwork.com/uotnxsvqdjnvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ1b3RueHN2cWRqbnZ2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InBUYURjTzc4U0lpWm5mbXItbGlXT1EiLCJpYXQiOjE3OTE4Mzc3ODQsImV4cCI6MTc5MTgzNzg0NH0.htnT4RqsRtmwQ4YbB8Lr1aof_R5QP3KzUDMPDHndzhs": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming6.locucionar.com:24060/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Audio",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9069/stream?in_device_id=wp-0bd8ae0e-61bb-4c85-8d42-818ab95f0da2": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "https://genexservicios.com:2000/stream/ciudadtotoras": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM CIUDAD DE TOTORAS",
+  "status": null,
+  "content_type": ""
+ },
+ "https://node-33.zeno.fm/urmfkad2em0uv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/:9548/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://host.serviceinfinito.com.ar:7006/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://masservidor.net:7176/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/0/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.solumedia.com.ar:8562/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9582/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://s3.netradiofm.com/p/9008/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Mensajes de whatsapp 2644427536",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7229/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sslstream.online:7091/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://redirector.dps.live/cnn-ar/aac/icecast.audio": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/solpehuajo?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streamconex.com:2000/stream/La106": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg; charset=UTF-8"
+ },
+ "https://radios.solumedia.com:6140/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/estacion95?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Audio Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonicpanel.hostradios.com:7160/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9116/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ads - Block",
+  "status": null,
+  "content_type": ""
+ },
+ "http://fmcarilo.ddns.net:8000/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming6.locucionar.com:24116/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "HI-FI Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming3.locucionar.com/proxy/lasermerlo?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://genexservicios.com:8134/;?1713795357814": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Influencia",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.mp3islam.com/listen/abdulbasit/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio13.servidorderadio.net:7034/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio02.ferozo.com/proxy/ra02001324?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio/stream/9612": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp; charset=UTF-8"
+ },
+ "https://server.laradio.online/proxy/lisandro_civit1?mp=/live.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com:10918/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ANTENA NUEVE",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-177.surfernetwork.com/n1f4vputgqbuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJuMWY0dnB1dGdxYnV2IiwiaG9zdCI6InN0cmVhbS0xNzcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik9NYjQxSkY2VE51cWU5bGdOcjQzQkEiLCJpYXQiOjE3OTE3OTUwMDYsImV4cCI6MTc5MTc5NTA2Nn0.DuNrQ5i8XkbxtHPRtEDvXSeot-8ULgvSvs72w-tYwsc": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server6.hostradios.com:7232/;?1775392057693": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Exitos de todos los tiempos...",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/zmfc8fg22yzuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://radio.solumedia.com.ar:8612/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://strcdn.klm99.com:10986/planetvillagesell": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7049/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "t40f-jueves06",
+  "status": null,
+  "content_type": ""
+ },
+ "https://node-35.zeno.fm/uyd6h9w162quv?rj-ttl=5&rj": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://01.solumedia.com.ar:7345/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Joe Satriani & Steve Vai - I Wanna Play My Guitar",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad35": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.escuchanosonline.com:7106/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://cloudstream2036.conectarhosting.com:8140/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "048COMO QUIEN PIERDE UNA ESTR - 048COMO QUIEN PIERDE UNA ESTR",
+  "status": null,
+  "content_type": ""
+ },
+ "https://vps-c0159cbc.vps.ovh.ca/8026/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio01.ferozo.com/proxy/ra01000982?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://edge04.radiohdvivo.com/radiofonica": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://stream.zeno.fm/7bs1rw5zw8quv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming2.locucionar.com/proxy/fmtiempo?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming5.locucionar.com/proxy/fmactivasegui?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://server.streamcasthd.com/8272/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://streaming.radiosenlinea.com.ar:8412/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM C onstelacion 98.1",
+  "status": null,
+  "content_type": ""
+ },
+ "https://tolkien.republicahosting.net:2374/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Dennis Rainey, Roberto Lepine - Vida en familia hoy",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server.laradio.online/proxy/abdel_ortega?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://ssl.radiosnethosting.com/index.php?port=8004": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://01.solumedia.com.ar:8178/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Kool & The Gang - Too Hot",
+  "status": null,
+  "content_type": ""
+ },
+ "https://edge03.radiohdvivo.com/radiofonica": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.host-live.com:10821/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://unlimited5-us.dps.live/berlin/aac/icecast.audio": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streamingraddios.online/proxy/cozzi?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://icecasthd.net:8112/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.host-live.com/8026/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/7bs1rw5zw8quv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad6": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://5cd577a3dd8ec.streamlock.net/radiomitre/live_2/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://streaming01.shockmedia.com.ar:10623/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.radiosenlinea.com.ar:10346/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://app.aloncast.com/api/stream/mikiradio-052055": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://01.solumedia.com.ar:8110/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "disney",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.radiosenlinea.com.ar:10961/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "13 Kim Wilde  You Came",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream-175.surfernetwork.com/bic7uvmhagruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJiaWM3dXZtaGFncnV2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImY3VFFTTnhUU0FTTmxYak5yb1BsbXciLCJpYXQiOjE3OTE4MjY3OTAsImV4cCI6MTc5MTgyNjg1MH0.7bag-HGADVhRlZD98KJoslrvdslXt-NJ4tPaYLDuQOk": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://serverssl.deradios.stream:7100/;type=mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://live-us.streann.tech/disneypanama/disneypanama/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad15": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radiosenlinea.com.ar:10648/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://vale.stweb.tv/vale/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://argentina.republicahosting.com:8244/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Robert Randolph & the Family Band - Looking Out My Window",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamconex.com:8038/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://server.laradio.online/proxy/delcia_karamoschon?mp=/stream&1692351094586": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://ohradio.cc:8084/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Prince Royce; Paloma Mami - Morfina (feat. Paloma Mami)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FM1003_56AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio01.ferozo.com/proxy/ra01000956?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://26573.live.streamtheworld.com/AM750AAC_SC": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/COLONIAAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://stream.zeno.fm/e1th9vchbvxuv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://live.radiovague.com:8443/blurfm04": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Tokyo Police Club - New Blues",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server.laradio.online/proxy/fmangel?mp=/stream&1726491295158": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming3.locucionar.com/proxy/fmtiempo925?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10158/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "She Drives Me Crazy (Radio Rap Version) Fine Young Cannibals",
+  "content_type": "audio/aacp"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad55": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server.radiostreaming.com.ar/8426/stream/;type=mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ariel Coronel #11 Oh Jehova - Salmo 57",
+  "status": null,
+  "content_type": ""
+ },
+ "https://s2.servicioderadio.com/8664/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Guasones - Reyes de la Noche",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9097/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Sandra Corizzo - Juan el Olmo",
+  "content_type": "audio/aacp"
+ },
+ "https://live-ar1.cdnrad.com/hls/radio-285/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://radios.solumedia.com:8998/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://giss.tv:8000/odpradio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "M�tley Cr�e - Take Me To The Top (Leath�r Records Version) (LANZAMIENTO 2026)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/radioeme?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://radio01.ferozo.com:9408/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.evolucionstreaming.com:10952/stream?icy=http": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.liberaturadio.org/Cuyum": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "PanteÃ³n RococÃ³ - La carencia",
+  "content_type": "audio/mpeg"
+ },
+ "https://ipanel.instream.audio:7001/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "1070 AM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8418/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Popular La Pampa",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamconex.com:8056/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server6.hostradios.com:7232/;?": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Exitos de todos los tiempos...",
+  "status": null,
+  "content_type": ""
+ },
+ "https://giss.tv:666/lcdpan.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/knmz0tf98e9uv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://innovatingthenet.com.ar:8001/energyai.mp3": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://icecast.gesatel.com.ar:8443/vivo": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Typical male � Tina Turner",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10636/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Esta Es Tu Onda!",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10262/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DNCE - Cake By The Ocean",
+  "status": null,
+  "content_type": ""
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/MALENAAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://transmision.cadenaeich.com:8000/RadioH-Maestra.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "senalMaestra",
+  "status": null,
+  "content_type": ""
+ },
+ "https://ipanel.instream.audio:7002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sonicpanel.hostradios.com/8060/stream%22%20streamType=%22mp3%22%20radioId=%22ar.cadena1470%22": {
+  "reachable": true,
+  "hls": false,
+  "icy": "CADENA AM 1470",
+  "status": null,
+  "content_type": ""
+ },
+ "https://audiopanel.com.ar:8000/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Divina Gloria - Desnudita Es Mejor",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming3.locucionar.com/proxy/infopico999?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server6.hostradios.com/8556/stream/;type=mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La Que Mejor Suena",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cp9.serverse.com/proxy/auraradio/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.radiosenlinea.com.ar:10961/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "13 Kim Wilde  You Came",
+  "status": null,
+  "content_type": ""
+ },
+ "http://69.64.46.123:8009/autodj": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7346/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/INFOBAE.mp3?dist=home": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com/6346/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fm Viamonte 94.5",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamall.alsolnet.com/fmplazahd": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.live.novotempo.com/radio/smil:radionuevotiempo.smil/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiosar.com:9346/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fm Armonia 105.1 - La Radio de Chovet",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server.laradio.online/proxy/marco_aravena02?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://live.lu5am.com:8443/LU5?type=.mp3&_=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming2.locucionar.com/proxy/amanecer?mp=/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stm17.xcast.com.br:7296/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sysmedia.com.ar:8100/blendradio_web": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://24223.live.streamtheworld.com/LENTOS_PYTAAC.aac?": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://109.169.15.21:37351/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/fm10?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "http://server.laradio.online:9262/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "http://janus.shoutca.st:9149/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.serviciowebdigital.com/8854/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "DONATO & ESTEFANO - ENTRE LA LINEA DEL BIEN Y DEL MAL",
+  "status": null,
+  "content_type": ""
+ },
+ "https://ssl.radiosnethosting.com/index.php?port=9358/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad34": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://panel.ispui.lat:1065/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://irrati.radio105.ar/1069.opus": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "application/ogg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad11": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad27": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://server.laradio.online:8741/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad44": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.host-live.com:10851/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.tucumanradio.com.ar:7066/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.tucumanradio.com.ar:7067/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://tolkien.republicahosting.net:2112/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad28": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad22": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://tolkien.republicahosting.net:2378/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.host-live.com/8092/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "text/html"
+ },
+ "https://stream-175.surfernetwork.com/zw7k9qzuweruv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJ6dzdrOXF6dXdlcnV2IiwiaG9zdCI6InN0cmVhbS0xNzUuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiJYUUJZMW1RYVJibWNEQmRaWUg4Y3VBIiwiaWF0IjoxNzg1NTk2OTA5LCJleHAiOjE3ODU1OTY5Njl9.vmJEanAHdM3RlnZS3x_cHVVqRm2ANnQVuwJaIDjyDrI": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/FM993_56AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://01.solumedia.com.ar:8936/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO DON 101.5Mhz",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamingradiolinks.xyz/8218/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.host-live.com:8032/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Track6",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9061/stream?in_device_id=wp-e80516ae-250e-4455-ac11-14ce5f370cc8": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg; charset=UTF-8"
+ },
+ "https://srv1.streamingradio.ar:7045/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://stream.zeno.fm/f7vpqramxrhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://srv1.streamingradio.ar:7133/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "https://api-distribucion-ln.lnapps.com.ar/audiofm1049": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonic.host-live.com:8140/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.escuchanosonline.com:7320/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streamconex.com:8062/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://01.solumedia.com.ar:8764/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM DEL VALLE",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:9125/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FITO PAEZ - Mariposa tecknicolor",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server6.hostradios.com:7108/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.radioinfo.ar/p/8092/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.tucumanradio.com.ar:7068/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://s11.myradiostream.com/24752/listen.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.shockmedia.com.ar:10517/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "CADENA POPULAR",
+  "content_type": "audio/aacp"
+ },
+ "https://centova.servidoraweb.net:9079/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Luis Damora - Luis Damora - Asteroids 024",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server.streamcasthd.com/8756/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://giss.tv:8000/fmsierras.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Hubert Sumlin - Sometimes I'm Right [-aRnzKDiIS0]",
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/63rxppwqpc9uv/;type=mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://01.solumedia.com.ar:8600/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://streaming.radiosenlinea.com.ar:8450/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://radio.fmdelestechajari.com.ar:8008/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Respect Yourself The Staple Singers",
+  "status": null,
+  "content_type": ""
+ },
+ "https://chino.republicahosting.com:2347/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://server.laradio.online:25492/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://s9.stweb.tv/observador/live/playlist.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radiosenlinea.com.ar:10383/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/g9purm3158quv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://server.laradio.online:9199/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://masservidor.net:7180/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Charly Garcia - Fanky",
+  "status": null,
+  "content_type": ""
+ },
+ "https://usa3.fastcast4u.com/proxy/amadeusradio?mp=/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FRANZ PETER SCHUBERT - Sinfonia Nº 8 En Si Menor Deutsch 759 \"Inconclusa\"",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com:6450/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "JUJUY FM 101.7",
+  "content_type": "audio/aacp"
+ },
+ "https://sonicpanel.hostradios.com:7000/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://ssl3.veemesoft.com.ar/578627b0704baf48c4e9": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Escobar",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamlky.alsolnet.com/radiofolclorisimohd": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://us-b4-p-e-qg12-audio.cdn.mdstrm.com/live-audio/5942a3a05fa68cca2efb4264/5d9d019112cbbb45d6a50960/chunks.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://ssl.radiosnethosting.com/index.php?port=9244": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream2.statsradio.com:8060/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.fmconcepto.com.ar/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.radiosenlinea.com.ar/8738/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "desireless - voyage voyage",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio.solumedia.com.ar:8984/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fm alpha 91.5",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/c8g4d755xuhvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://api.metalradio.com.ar/listen/metalradio/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Machine Head - SLAUGHTER THE MARTYR",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamconex.com:8104/stream?1722096115054": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio:9688/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://mdstrm.com/audio/66a01759c5aa2b85d66b5933/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "http://server9.veemesoft.com.ar:11010/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM LA CIMA",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad59": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streamserver-2.xyz:8010/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://server.laradio.online/proxy/radiokermes?mp=/stream&1706361379922": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad13": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://vivo.solumedia.com:19360/vorterixmdp/vorterixmdp.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad26": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad58": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad7": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://g2.vxral-slo.transport.edge-access.net/nx-beta/nx.hor.livetx.01/60a2b23eaf8c7e00145e64e0_240p/index.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://live2.tensila.com/2-1-1.power-tv/hls/live/mystream.m3u8": {
+  "reachable": false,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad43": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://srv10.streamingradio.ar/8062/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM UNO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad12": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.hego.com.ar/listen/radio_del_sol/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad31": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.tucumanradio.com.ar:7066/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad8": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.gostreaming.com.ar:10985/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad9": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad14": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad46": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad53": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/o0ldxypvrqwvv": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad30": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad2": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad72": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://server6.hostradios.com/8632/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_MDZ_FM941.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream-179.surfernetwork.com/cvyeydb04x8uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJjdnlleWRiMDR4OHV2IiwiaG9zdCI6InN0cmVhbS0xNzkuc3VyZmVybmV0d29yay5jb20iLCJydHRsIjo1LCJqdGkiOiI0UzFNaDVkTlNzdWxQcllET2MxcDlRIiwiaWF0IjoxNzg1NTk3NjQ2LCJleHAiOjE3ODU1OTc3MDZ9._fbbFbvRM-D2jdwY1ohmcHtpR_P1mAXDwbaYlkueLkA": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.lt8.com.ar:8443/laredrosario.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad102": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad49": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://megafonunla.ddns.net/stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.shockmedia.com.ar:10921/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio La Red MDQ",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad18": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.radiosmundiales.com:8006/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad24": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.godeano.vip/listen/pitusas/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Armando Cervantes - NBA On NBC Theme 1991-2002",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8564/stream/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "www.radiomagicadigital.com.ar",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio01.ferozo.com/proxy/ra01000756?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radiosar.com:8016/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio02.ferozo.com/proxy/ra02001485?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "http://sonicpanel.hostradios.com:8174/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio01.ferozo.com/proxy/ra01000904?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM IMPACTO 107.3",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radiosar.com:8126/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Fm Sol 106.7 MHz - En Vivo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamall.alsolnet.com/radioactivahd": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/UNOAAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming2.locucionar.com/proxy/fmfuturo931?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming.escuchanosonline.com/8132/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streamingradiolinks.xyz/9630": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Para No Olvidar - Andrés Calamaro, Manolo García, Vicente Amigo",
+  "status": null,
+  "content_type": ""
+ },
+ "https://srv1.streamingradio.ar:7136/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://01.solumedia.com.ar:9066/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Madonna - Papa Don't Preach",
+  "status": null,
+  "content_type": ""
+ },
+ "https://ssl.radiosnethosting.com/index.php?port=9122/;stream.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://laradiodelaciudad.com.ar/escuchar.php": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://g2.vxral-slo.transport.edge-access.net/nx-beta/nx.hor.livetx.01/60a2b24baf8c7e00145e64e1.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://streaming.radiosenlinea.com.ar/9026/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming3.locucionar.com/proxy/radiozarate?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://streaming2.locucionar.com/proxy/fmelportal965?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://edge02.radiohdvivo.com/librelima": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stm2.livecastradio.com:27404/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://node-25.zeno.fm/64h3nxg0rvduv?rj-ttl=5&amp;rj-tok=AAABczMYc1gAAwBvE1kddp5UjA": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streams.cloudcast.media/radio/8000/listen.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Afrojack,DLMT,Brandyn Burnette - Wish You Were Here (feat. Brandyn Burnette)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamconex.com:8116/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "7 - TODO UN PUEBLO VA A BAILAR - GATO DE CLAU",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8242/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "RADIO FIESTA BRAGADO",
+  "content_type": "audio/aacp"
+ },
+ "https://01.solumedia.com.ar:7022/radiolt23": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.zeno.fm/g1q0dpeco8wvv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio02.ferozo.com/proxy/ra02001598?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "i4U - Memories",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad29": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://01.solumedia.com.ar:9030/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ads - Block",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8574/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com/6446/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.dainusradio.com:9848/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "RADIOSUR90.1",
+  "content_type": "audio/aacp"
+ },
+ "https://cdn.instream.audio:9818/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO TOP EN VIVO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sonic.host-live.com:10921/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AM1330 Rosario",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.streamingdha.com.ar:8102/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad10": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com:6162/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://streamall.alsolnet.com:443/cadenaexpress": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://mediapanel.siglocero.net:8002/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.lu17.com:8400/rtn": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio:9125/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FITO PAEZ - Mariposa tecknicolor",
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.arcast.net:4443/radio7neuquen/ngrp:radio7neuquen_all/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://01.solumedia.com.ar:7193/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Campeones Radio",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9037/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://https.nvradios.com/radio/9372/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://audiopanel.com.ar:8020/radio.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La Zimbabwe - Verano de '57",
+  "status": null,
+  "content_type": ""
+ },
+ "https://st1-mpanel-icy.masterhost.com.ar:8140/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Red Hot Chili Peppers - Hump De Bump",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8298/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.arcast.com.ar/radio/sgodelestero.stream/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://argentina.republicahosting.com:2100/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Depeche Mode - Never Let Me Down Again",
+  "content_type": "audio/mpeg"
+ },
+ "https://stream-178.surfernetwork.com/md7f0a118vzuv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJtZDdmMGExMTh2enV2IiwiaG9zdCI6InN0cmVhbS0xNzguc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6InFFOFM4NXhNVGJxbnQwV0hiR0RkdkEiLCJpYXQiOjE3OTE3OTM0NTgsImV4cCI6MTc5MTc5MzUxOH0.UUiAoijn0K7B3yG90y_H9xscCz0N-RDSOB0-xJolXBg": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stm18.voxhd.com.br:9438/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://mdstrm.com/audio/5fada553978fe1080e3ac5ea/live.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://pungasradio.rebel.ar/pungasradio": {
+  "reachable": true,
+  "hls": false,
+  "icy": "﻿Mr. Ed - Hypnot-ICE  Neuromix",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.radiosenlinea.com.ar/9694/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10745/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://stream.arcast.tv:8443/popusanjuan/popusanjuan.stream/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://streaming01.shockmedia.com.ar:10543/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radiosar.com:10893/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "AsiCoe 105.9 Bella Vista",
+  "status": null,
+  "content_type": ""
+ },
+ "https://turadioenvivo.com/proxy/feelings/stream?t=1778252067321&r=0.8264044151127908&nocache=1": {
+  "reachable": true,
+  "hls": false,
+  "icy": "The Alan Parsons Project - Days Are Numbers (The Traveller)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server6.hostradios.com:7280/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio.arcast.cloud:1280/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Am630",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com:6380/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://cdn.instream.audio:9570/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Disco Eterno - Soda Stereo El �ltimo Conciert",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streamall.alsolnet.com/fmklimax": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://server1.veemesoft.com.ar:26629/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "http://01.solumedia.com.ar:8252/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Pino Europeo - Distancia",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10605/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radios.solumedia.com:6464/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10870/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "Hi-Fi Internet Stream",
+  "content_type": "audio/aacp"
+ },
+ "https://s9.stweb.tv/Radioo/live/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ },
+ "https://audio.questreaming.com:29308/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10977/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "ANDANDO DESCALZO - Aviador",
+  "status": null,
+  "content_type": ""
+ },
+ "https://panel.ispui.lat:1045/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio01.ferozo.com/proxy/ra01001060?mp=/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.solumedia.com:6076/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM 100.3",
+  "status": null,
+  "content_type": ""
+ },
+ "https://server4.hostradios.com:7231/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar/8440/stream/;": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://masservidor.net:7192/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/radiowall1?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO GENERAL BELGRANO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming2.locucionar.com/proxy/fmdimension1003?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radio.godeano.vip/listen/g/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": "El Quinto Elemento - El Quinto Elemento - LO QUE HARA MI BOCA (Oficial Audio)",
+  "status": null,
+  "content_type": ""
+ },
+ "https://radios.streamingdha.com.ar/8046/;/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "SIGNOS FM",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9542/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "http://streaming6.locucionar.com:24420/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad16": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad20": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.solumedia.com.ar:10984/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://stream.zeno.fm/th2othplrestv": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad47": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sonicpanel.hostradios.com:7278/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "http://streaming.sonando.online:8080/stream?type=http&nocache=7": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://sonicpanel.hostradios.com:7167/": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad17": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.radiosenlinea.com.ar/9020/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://srv1.streamingradio.ar:7134/live": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/ogg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad57": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad54": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:9068/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Ads - Block",
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad23": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radio.solumedia.com.ar:8384/;": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad5": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://lt15concordia.radioca.st/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming01.shockmedia.com.ar:10948/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "en vivo - Frecuencia Sundance 98.7 FM",
+  "content_type": "audio/aacp"
+ },
+ "https://sa.mp3.icecast.magma.edge-access.net/sc_rad21": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming320tb.locucionar.com/proxy/radio2?mp=/stream/1/": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://server4.hostradios.com:7028/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio/:8129/stream?_=1733d994fdc": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac; charset=UTF-8"
+ },
+ "https://playerservices.streamtheworld.com/api/livestream-redirect/LT3AAC.aac": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://streaming.radiosenlinea.com.ar:10673/": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8564/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "www.radiomagicadigital.com.ar",
+  "status": null,
+  "content_type": ""
+ },
+ "https://cdn.instream.audio:9560/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aac"
+ },
+ "https://radiosar.com:8074/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Radio Show Argentina  EN VIVO",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming.escuchanosonline.com:7224/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "La Radio Que Elegis Cada Dÿa",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming1.locucionar.com/proxy/laradiodechivilcoy?mp=/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "radio chivilcoy",
+  "status": null,
+  "content_type": ""
+ },
+ "https://01.solumedia.com.ar:8810/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "FM 101.5 - EN VIVO",
+  "content_type": "audio/aacp"
+ },
+ "https://cdn.instream.audio/stream/9526/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp; charset=UTF-8"
+ },
+ "https://radio.steadystateradio.com/listen/steady_state/radio.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": "SSR - Night Shift Open Piano 03",
+  "status": null,
+  "content_type": ""
+ },
+ "http://radio2.dev54.com:8500/radiofederal.mp3": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming.radiosenlinea.com.ar:10905/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/mpeg"
+ },
+ "https://radiosar.com:9330/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "RADIO LU 11 - AM 1280",
+  "status": null,
+  "content_type": ""
+ },
+ "https://proxy.turadioinfo.com/5842/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://radio.arcast.cloud:1300/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "FM Tr�pico 97.7",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming01.shockmedia.com.ar:10984/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "ESTAMOS EN VIVO - FM ILUSIONES 95.3 MHZ",
+  "content_type": "audio/aacp"
+ },
+ "https://streaming01.shockmedia.com.ar:10453/stream?icy=http": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": "You are listening to The Killers - Human - unknown artist",
+  "content_type": "audio/mpeg"
+ },
+ "https://streaming6.locucionar.com:24110/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": "Hi-Fi Internet Stream",
+  "status": null,
+  "content_type": ""
+ },
+ "https://streaming5.locucionar.com/proxy/lasermax1033?mp=/stream": {
+  "reachable": false,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": ""
+ },
+ "https://ohradio.cc:7010/stream": {
+  "reachable": true,
+  "hls": false,
+  "icy": null,
+  "status": null,
+  "content_type": "audio/aacp"
+ },
+ "https://5cd577a3dd8ec.streamlock.net/radiocity/live_1/playlist.m3u8": {
+  "reachable": true,
+  "hls": true,
+  "icy": null,
+  "status": null,
+  "content_type": "application/vnd.apple.mpegurl"
+ }
+}

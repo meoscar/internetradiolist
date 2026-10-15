@@ -1,0 +1,4257 @@
+[
+ {
+  "name": "Radio Rivadavia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIA.mp3",
+  "homepage": "",
+  "favicon": "",
+  "tags": [],
+  "votes": 6736,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rock And Pop FM 95.9 (Rock & Pop) Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC.aac",
+  "homepage": "https://fmrockandpop.com/",
+  "favicon": "https://fmrockandpop.com/pwa/ios_192x192.png",
+  "tags": [],
+  "votes": 6193,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mitre AM 790. AAC Alta. Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC.aac",
+  "homepage": "https://radiomitre.cienradios.com/",
+  "favicon": "https://cloudfront-arc.cienradios.com/radiomitre/favicons/apple-icon-120x120.png",
+  "tags": [],
+  "votes": 5091,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Rivadavia AM 630. Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC.aac",
+  "homepage": "https://rivadavia.com.ar/",
+  "favicon": "https://rivadavia.com.ar/apple-touch-icon.png",
+  "tags": [],
+  "votes": 4470,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La 100 - 99.9 FM - Grupo Clarín - Buenos Aires, Argentina",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM999_56.mp3",
+  "homepage": "https://la100.cienradios.com/",
+  "favicon": "",
+  "tags": [
+   "99.9 fm",
+   "argentina",
+   "buenos aires",
+   "entretenimiento",
+   "español",
+   "estación",
+   "fm",
+   "grupo clarín",
+   "la 100",
+   "latinoamérica",
+   "magazines",
+   "moi merino",
+   "música",
+   "radio",
+   "suramérica"
+  ],
+  "votes": 4368,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 10",
+  "stream": "https://radio10.stweb.tv/radio10/live/playlist.m3u8",
+  "homepage": "http://www.radio10.com.ar/",
+  "favicon": "https://www.radio10.com.ar/css-custom/220/favicons/apple-touch-icon-120x120.png",
+  "tags": [],
+  "votes": 3591,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Blue FM 100.7. Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLUE_FM_100_7AAC.aac",
+  "homepage": "https://bluefm.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 3478,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "El Destape Radio",
+  "stream": "https://ipanel.instream.audio/8004/stream",
+  "homepage": "https://www.eldestapeweb.com/eldestaperadio",
+  "favicon": "https://www.eldestapeweb.com/img/favicons/apple-icon-120x120.png",
+  "tags": [
+   "actualidad",
+   "debate",
+   "economia",
+   "noticias",
+   "politica"
+  ],
+  "votes": 3291,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Con Vos 89.9",
+  "stream": "https://server1.stweb.tv/rcvos/live/playlist.m3u8",
+  "homepage": "https://www.radioconvos.com.ar/",
+  "favicon": "",
+  "tags": [
+   "news",
+   "pop",
+   "rock"
+  ],
+  "votes": 3078,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Radio La Red AM 910. Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC.aac",
+  "homepage": "https://www.lared.am/",
+  "favicon": "",
+  "tags": [],
+  "votes": 2990,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Mitre",
+  "stream": "http://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC_SC",
+  "homepage": "https://radiomitre.cienradios.com/espectaculos/de-que-murio-rodrigo-ruiz-el-actor-que-perdio-la-vida-a-los-49-anos/",
+  "favicon": "https://cloudfront-arc.cienradios.com/radiomitre/favicons/apple-icon-120x120.png",
+  "tags": [
+   "news"
+  ],
+  "votes": 2686,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nacional Folklorica 98.7",
+  "stream": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad38",
+  "homepage": "http://www.nacionalfolklorica.com.ar/",
+  "favicon": "",
+  "tags": [
+   "buenos aires",
+   "folk",
+   "public radio"
+  ],
+  "votes": 2609,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nacional Rock 93.7",
+  "stream": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad39",
+  "homepage": "http://www.nacionalrock.com/",
+  "favicon": "",
+  "tags": [
+   "public",
+   "pública",
+   "rock"
+  ],
+  "votes": 1940,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Feeling 91.9 FM",
+  "stream": "http://turadioenvivo.com:8430/stream",
+  "homepage": "http://fmfeeling.com/",
+  "favicon": "",
+  "tags": [
+   "aor",
+   "classic hits",
+   "classic pop",
+   "classic rock"
+  ],
+  "votes": 1911,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio nacional AM 870",
+  "stream": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad1",
+  "homepage": "http://www.radionacional.com.ar/",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nacional_AM_870_2016.png",
+  "tags": [
+   "am",
+   "argentina",
+   "cultura",
+   "noticias"
+  ],
+  "votes": 1846,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fm Cumbiambera",
+  "stream": "https://streaming1.locucionar.com/proxy/fmcumbiambera?mp=/stream",
+  "homepage": "https://www.fmcumbiambera.com/",
+  "favicon": "https://www.fmcumbiambera.com/images/icono.png",
+  "tags": [
+   "cumbia"
+  ],
+  "votes": 1780,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena 3 Cordoba",
+  "stream": "https://liveradio.mediainbox.net/radio3.mp3",
+  "homepage": "https://www.cadena3.com/radio-en-vivo/cadena-3",
+  "favicon": "https://www.cadena3.com/img/logo.png",
+  "tags": [
+   "folk popular am noticias musica"
+  ],
+  "votes": 1771,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "AM 530 Somos radio",
+  "stream": "https://ipanel.instream.audio:7000/stream",
+  "homepage": "https://www.am530somosradio.com/",
+  "favicon": "https://static.wixstatic.com/media/bec174_ab44bc8dffdb479b8386959c7966916f%7Emv2.jpg/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/bec174_ab44bc8dffdb479b8386959c7966916f%7Emv2.jpg",
+  "tags": [],
+  "votes": 1732,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vale 97.1",
+  "stream": "http://vale.stweb.tv:1935/vale/live/playlist.m3u8",
+  "homepage": "https://www.minutouno.com/radio-vale",
+  "favicon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Vale975.png/225px-Vale975.png",
+  "tags": [
+   "pop"
+  ],
+  "votes": 1556,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "The Musical Box Radio",
+  "stream": "http://albireo.shoutca.st:9740/stream",
+  "homepage": "http://www.themusicalbox.com.ar/",
+  "favicon": "",
+  "tags": [
+   "progressive rock"
+  ],
+  "votes": 1525,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Disney Argentina 94.3. Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA.mp3",
+  "homepage": "http://radiodisney.disneylatino.com/argentina",
+  "favicon": "",
+  "tags": [],
+  "votes": 1500,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pop Radio 101.5",
+  "stream": "https://popradio.stweb.tv/popradio/live/playlist.m3u8",
+  "homepage": "https://www.radiopop.fm/",
+  "favicon": "",
+  "tags": [],
+  "votes": 1274,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "FutuRock",
+  "stream": "https://mdstrm.com/audio/5d9d019112cbbb45d6a50960/live.m3u8",
+  "homepage": "https://futurock.live/",
+  "favicon": "",
+  "tags": [
+   "feminist",
+   "local news",
+   "philosophy"
+  ],
+  "votes": 1235,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Urbana Play 104.3",
+  "stream": "https://vmf.edge-apps.net/playlist/urbana.m3u8/play.m3u8",
+  "homepage": "https://urbanaplayfm.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 1204,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Aspen 102.3",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ASPEN.mp3",
+  "homepage": "https://fmaspen.com/#",
+  "favicon": "https://fmaspen.com/wp-content/themes/aspen/images/logoaspen.png",
+  "tags": [],
+  "votes": 1178,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Millenium 106.7",
+  "stream": "https://sonicpanel.hostradios.com/8002/stream",
+  "homepage": "https://www.fmmilenium.com.ar/",
+  "favicon": "",
+  "tags": [
+   "magazine",
+   "music",
+   "news"
+  ],
+  "votes": 1124,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Metro 95.1",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO.mp3",
+  "homepage": "https://www.metro951.com/",
+  "favicon": "https://cdn-profiles.tunein.com/s25987/images/logog.jpg",
+  "tags": [
+   "95.1",
+   "95.1 fm",
+   "argentina",
+   "buenos aires",
+   "ciudad de buenos aires",
+   "dance",
+   "electronic",
+   "entertainment",
+   "estación",
+   "fm",
+   "metro",
+   "radio",
+   "talk",
+   "urbano"
+  ],
+  "votes": 1103,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Popu",
+  "stream": "https://liveradio.mediainbox.net/popular.mp3",
+  "homepage": "https://www.lapopu.com.ar/",
+  "favicon": "https://www.lapopu.com.ar/img/favicon.png",
+  "tags": [
+   "cuarteto",
+   "local news",
+   "music"
+  ],
+  "votes": 994,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pobre Johnny",
+  "stream": "https://stream4.suenas.net/pobrejohnny",
+  "homepage": "https://www.pobrejohnny.com.ar/",
+  "favicon": "https://static.wixstatic.com/media/3e84df_ec590205fae242a7b22feb981c2e1114%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/3e84df_ec590205fae242a7b22feb981c2e1114%7Emv2.png",
+  "tags": [
+   "rock argentino",
+   "rock en español"
+  ],
+  "votes": 989,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Nacional Clásica fm 96.7",
+  "stream": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad37",
+  "homepage": "http://www.radionacional.com.ar/nacional-clasica/",
+  "favicon": "",
+  "tags": [],
+  "votes": 901,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO MARIA ARGENTINA",
+  "stream": "http://dreamsiteradiocp.com:8004/stream",
+  "homepage": "https://radiomaria.org.ar/",
+  "favicon": "",
+  "tags": [
+   "catholic",
+   "religion",
+   "talk"
+  ],
+  "votes": 887,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Metro FM 95.1. Ciudad de Buenos Aires",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/METROAAC.aac",
+  "homepage": "https://www.metro951.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 825,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Argentina - AM 570",
+  "stream": "http://server.laradio.online:25224/live.mp3",
+  "homepage": "http://am570radioargentina.com.ar/",
+  "favicon": "https://belgrano570.com.ar/wp-content/uploads/2021/09/cropped-fav_ico-180x180.png",
+  "tags": [
+   "argentina",
+   "radio argentina"
+  ],
+  "votes": 811,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fm Latina 92.5 Salta",
+  "stream": "http://streaming.radiosenlinea.com.ar:9640/;",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 788,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 2 1230 AM",
+  "stream": "http://radio2.radio.rosario3.com:8000/prueba2",
+  "homepage": "https://www.rosario3.com/",
+  "favicon": "https://www.rosario3.com/__export/1559748440188/sites/rosario3/arte/v2/favicon.ico",
+  "tags": [
+   "news",
+   "rosario",
+   "talk"
+  ],
+  "votes": 778,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Belgrano - AM 650",
+  "stream": "http://server.laradio.online:25223/live.mp3",
+  "homepage": "http://am570radioargentina.com.ar/radio-belgrano-a650-2/",
+  "favicon": "",
+  "tags": [
+   "belgrano"
+  ],
+  "votes": 776,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Delta 90.3",
+  "stream": "https://cdn.instream.audio//:9069//stream",
+  "homepage": "https://fmdelta903.com/",
+  "favicon": "",
+  "tags": [
+   "argentina",
+   "dance",
+   "news",
+   "pop"
+  ],
+  "votes": 757,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "HIT RADIO FFH. 128K AAC. Argentina",
+  "stream": "http://mp3.ffh.de/radioffh/hqlivestream.aac",
+  "homepage": "http://ffh.de/",
+  "favicon": "https://www.ffh.de/android-icon.png",
+  "tags": [],
+  "votes": 689,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Rebelde AM 740",
+  "stream": "http://stream.radiojar.com/qkxht62hy8hvv",
+  "homepage": "https://radiorebelde.ar/",
+  "favicon": "",
+  "tags": [
+   "talk"
+  ],
+  "votes": 671,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM La Patriada",
+  "stream": "https://server.laradio.online/proxy/fm_la_patriada?mp=/stream",
+  "homepage": "https://www.fmlapatriada.com.ar/",
+  "favicon": "",
+  "tags": [
+   "actualidad",
+   "musica",
+   "noticias locales",
+   "política",
+   "reports",
+   "rock"
+  ],
+  "votes": 623,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Plus 93.1 FM",
+  "stream": "http://fmplus.radio.rosario3.com:8006/fmplus",
+  "homepage": "https://www.rosario3.com/",
+  "favicon": "https://www.rosario3.com/__export/1559748440188/sites/rosario3/arte/v2/favicon.ico",
+  "tags": [
+   "90s",
+   "classic hits",
+   "pop",
+   "rosario",
+   "spanish pop"
+  ],
+  "votes": 621,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Disney 94.3 - Buenos Aires, Argentina",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_ADP.aac",
+  "homepage": "https://ar.radiodisney.com/",
+  "favicon": "https://cdn-profiles.tunein.com/s13659/images/logog.png",
+  "tags": [
+   "94.3 fm",
+   "américa",
+   "argentina",
+   "buenos aires",
+   "disney",
+   "entretenimiento",
+   "español",
+   "estación",
+   "familia",
+   "family",
+   "fm",
+   "juvenil",
+   "latinoamérica",
+   "moi merino",
+   "música",
+   "música en español e inglés",
+   "música pop",
+   "pop",
+   "pop en español e inglés",
+   "pop music",
+   "pop rock",
+   "radio",
+   "radio disney",
+   "suramérica",
+   "top 40",
+   "top charts",
+   "top hits"
+  ],
+  "votes": 609,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "MEGA 98.3",
+  "stream": "https://mega.stweb.tv/mega983/live/playlist.m3u8",
+  "homepage": "https://www.radiomega.fm/",
+  "favicon": "",
+  "tags": [
+   "rock argentino",
+   "rock nacional"
+  ],
+  "votes": 602,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "d-Sports radio",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DSPORTSRADIOAAC.aac",
+  "homepage": "https://www.dsportsradio.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 597,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "M90 89.9 FM",
+  "stream": "http://23.111.184.195:8030/m90.mp3",
+  "homepage": "http://m90radio.com/",
+  "favicon": "https://cdn-radiotime-logos.tunein.com/s185502d.png",
+  "tags": [
+   "rock",
+   "rosario"
+  ],
+  "votes": 537,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Shopping",
+  "stream": "https://stream4.suenas.net/shoppingclassics",
+  "homepage": "https://www.radioshopping.com.ar/",
+  "favicon": "https://static.wixstatic.com/media/ec27f9_ea87259ccf5b5bb366eb07444d11ad6a.png/v1/fill/w_167,h_160,al_c,q_85,usm_0.66_1.00_0.01/ec27f9_ea87259ccf5b5bb366eb07444d11ad6a.webp",
+  "tags": [
+   "classic hits",
+   "classic rock",
+   "eighties",
+   "nineties",
+   "oldies"
+  ],
+  "votes": 505,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La 100 Clásicos - Disco Retro Clásicos",
+  "stream": "https://27323.live.streamtheworld.com/FCLASICOS_56AAC.aac?",
+  "homepage": "https://la100.cienradios.com/player/la100-4-clasicos/",
+  "favicon": "https://cloudfront-arc.cienradios.com/la100/favicons/android-icon-192x192.png",
+  "tags": [
+   "dance",
+   "disco hits"
+  ],
+  "votes": 504,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cristiana 95.7",
+  "stream": "http://genexservicios.com:8098/stream",
+  "homepage": "https://www.radiocristiana957.com.ar/",
+  "favicon": "https://www.radiocristiana957.com.ar/img/logo-web-xs.png",
+  "tags": [],
+  "votes": 500,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio del Plata",
+  "stream": "https://streaming01.shockmedia.com.ar:10217/stream",
+  "homepage": "https://amdelplata.com/",
+  "favicon": "https://amdelplata.com/wp-content/uploads/2023/08/cropped-favicon-180x180.png",
+  "tags": [],
+  "votes": 493,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Radio 104.7 FM. Resistencia Chaco. Julio Wajcman",
+  "stream": "https://server.laradio.online/proxy/laradio1047",
+  "homepage": "https://laradio1047.com.ar/",
+  "favicon": "",
+  "tags": [
+   "julio wajcman",
+   "la radio 104.7",
+   "resistencia chaco"
+  ],
+  "votes": 491,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Radio De Los Lentos",
+  "stream": "https://01.solumedia.com.ar:7828/stream",
+  "homepage": "https://www.laradiodeloslentos.com/",
+  "favicon": "",
+  "tags": [
+   "international"
+  ],
+  "votes": 419,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Concepto FM 95.5 MHz",
+  "stream": "http://radios.solumedia.com:6002/stream",
+  "homepage": "http://www.conceptofm.com.ar/",
+  "favicon": "https://www.conceptofm.com.ar/nuevaweb/wp-content/uploads/2022/06/logo.png",
+  "tags": [
+   "música",
+   "noticias"
+  ],
+  "votes": 414,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Onda | Tigre Argentina",
+  "stream": "http://149.202.235.235:8011/live",
+  "homepage": "http://www.radioonda.com.ar/",
+  "favicon": "",
+  "tags": [
+   "radio onda",
+   "rincon",
+   "rincon de mielberg"
+  ],
+  "votes": 406,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Sudamericana 100.5 - Corrientes Capital",
+  "stream": "http://turadioenvivo.com:8530/stream?1562165478826",
+  "homepage": "http://www.radiosudamericana.com/",
+  "favicon": "",
+  "tags": [
+   "argentina",
+   "corrientes",
+   "litoral",
+   "musica",
+   "news",
+   "noticias",
+   "radio",
+   "sudamericana"
+  ],
+  "votes": 398,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LRA1 Radio Nacional Argentina",
+  "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad1",
+  "homepage": "https://www.radionacional.com.ar/",
+  "favicon": "",
+  "tags": [
+   "argentina",
+   "buenos aires",
+   "ciudad de buenos aires",
+   "news",
+   "public radio",
+   "radio pública",
+   "talk"
+  ],
+  "votes": 366,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rincón Gaucho",
+  "stream": "https://dj91.hostingnuclear.com/9952/stream",
+  "homepage": "http://www.rincongauchofm.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 322,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Disney (Argentina) - 94.3 FM - LRL301 - Ciudad de Buenos Aires, Argentina",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BAAAC.aac",
+  "homepage": "https://ar.radiodisney.com/",
+  "favicon": "https://ar.radiodisney.com/favicon.ico",
+  "tags": [
+   "94.3 fm",
+   "américa",
+   "argentina",
+   "buenos aires",
+   "disney",
+   "entretenimiento",
+   "español",
+   "estación",
+   "familia",
+   "family",
+   "fm",
+   "hits",
+   "juvenil",
+   "latinoamérica",
+   "moi merino",
+   "música",
+   "música en español e inglés",
+   "música pop",
+   "pop",
+   "pop en español e inglés",
+   "pop music",
+   "pop rock",
+   "radio",
+   "radio disney",
+   "suramérica",
+   "top 100",
+   "top 40",
+   "top charts",
+   "top hits"
+  ],
+  "votes": 320,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Fiesta 97.1 Jujuy",
+  "stream": "https://5cd577a3dd8ec.streamlock.net/radiofiesta/live_1/playlist.m3u8",
+  "homepage": "https://www.radiofiestafm.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 313,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "María Argentina",
+  "stream": "http://dreamsiteradiocp.com:8004/",
+  "homepage": "http://radiomaria.org.ar/frecuencias/",
+  "favicon": "",
+  "tags": [
+   "catholic",
+   "music",
+   "news"
+  ],
+  "votes": 303,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM 97.9 Vida",
+  "stream": "https://streaming450tb.locucionar.com/proxy/fmvida979?mp=/stream",
+  "homepage": "https://www.fmvida.com.ar/",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 302,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Saint Germain",
+  "stream": "http://173.255.205.241:8200/",
+  "homepage": "http://www.radiosaintgermain.com/",
+  "favicon": "",
+  "tags": [
+   "cristo",
+   "curación",
+   "luz",
+   "meditación",
+   "saint germain",
+   "yo soy"
+  ],
+  "votes": 293,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "iTUNES TOP 40 FFH. 128K AAC. Argentina",
+  "stream": "https://mp3.ffh.de/ffhchannels/hqtop40.aac",
+  "homepage": "https://mp3.ffh.de/",
+  "favicon": "",
+  "tags": [],
+  "votes": 280,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LT7 Radio Provincia de Corrientes",
+  "stream": "http://turadioenvivo.com:11045/stream",
+  "homepage": "http://www.radiolt7.com/",
+  "favicon": "",
+  "tags": [
+   "local news"
+  ],
+  "votes": 268,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio DeeJay 92.5",
+  "stream": "http://streaming.radiosenlinea.com.ar:9640/",
+  "homepage": "https://www.fmlatina925.com.ar/",
+  "favicon": "",
+  "tags": [
+   "cumbia",
+   "dj",
+   "salta",
+   "variado"
+  ],
+  "votes": 268,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cadena 3",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO3_SC",
+  "homepage": "https://www.cadena3.com/",
+  "favicon": "https://imgs.search.brave.com/TPQbDA-qy7PFlxsdVDkyz8cyuG-fCpWAwAEEewJKI6M/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cmFkaW8ubmV0L2lt/YWdlcy9icm9hZGNh/c3RzL2IyL2Y4LzIw/NzI0LzEvYzMwMC5w/bmc",
+  "tags": [
+   "news"
+  ],
+  "votes": 263,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Milenium 94.1 FM",
+  "stream": "http://23.111.184.195:8020/mileniumrosario.mp3",
+  "homepage": "http://mileniumrosario.com.ar/",
+  "favicon": "",
+  "tags": [
+   "classic pop",
+   "classic rock",
+   "rosario"
+  ],
+  "votes": 262,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Bar de Blues Radio",
+  "stream": "https://streamingraddios.online/proxy/bardeblues?mp=/stream",
+  "homepage": "http://www.bardebluesradio.com/#!/-home/",
+  "favicon": "",
+  "tags": [],
+  "votes": 255,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM UTN Mendoza",
+  "stream": "http://streaming.fmutn.com.ar:8000/FMUTN#;.mp3",
+  "homepage": "http://www.fmutn.com.ar/",
+  "favicon": "",
+  "tags": [
+   "diversión",
+   "entretenimiento",
+   "internacional",
+   "local",
+   "música",
+   "nacional",
+   "noticias",
+   "periodístico"
+  ],
+  "votes": 251,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LT8 AM830",
+  "stream": "http://stream.lt8.com.ar:8080/lt8radio.mp3",
+  "homepage": "http://www.lt8.com.ar/",
+  "favicon": "https://i0.wp.com/www.lt8.com.ar/wp-content/uploads/2020/06/cropped-android-chrome-512x512-1.png?fit=180%2c180&#038;ssl=1",
+  "tags": [],
+  "votes": 246,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Norte Bahia",
+  "stream": "http://icecast.hostingbahia.com.ar:8002/live?1475282235673",
+  "homepage": "http://www.radionortefm.com/",
+  "favicon": "",
+  "tags": [
+   "entretenimiento",
+   "musica",
+   "noticias cortas"
+  ],
+  "votes": 233,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Plus 93.1 Rosario",
+  "stream": "http://fmplus.radio.rosario3.com:8006/",
+  "homepage": "https://www.fmvida.com.ar/FMPlus/",
+  "favicon": "",
+  "tags": [
+   "fm plus 93.1 rosario"
+  ],
+  "votes": 232,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio El Mundo - AM 1070",
+  "stream": "https://streaming.escuchanosonline.com:7118//stream?type=http&nocache=1",
+  "homepage": "https://www.radioelmundoam1070.com/",
+  "favicon": "",
+  "tags": [
+   "argentia",
+   "radio el mundo"
+  ],
+  "votes": 217,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Britannia",
+  "stream": "http://01.solumedia.com.ar:8472/stream/;",
+  "homepage": "http://radiobritannia.com/",
+  "favicon": "",
+  "tags": [
+   "british rock",
+   "britpop",
+   "folk",
+   "indie",
+   "musica britanica",
+   "pop rock",
+   "rock",
+   "uk rock"
+  ],
+  "votes": 216,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cristiana fm 88.3",
+  "stream": "https://rr5100.globalhost1.com/8540/stream;",
+  "homepage": "https://radiocristiana883.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 208,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio FM Gualamba 93.7. Resistencia Chaco",
+  "stream": "https://ssl.radiosnethosting.com/index.php?port=9072",
+  "homepage": "https://fmgualamba.com.ar/envivo/",
+  "favicon": "",
+  "tags": [],
+  "votes": 187,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad",
+  "stream": "http://163.10.186.70:8002/stream",
+  "homepage": "https://www.radiouniversidad.unlp.edu.ar/",
+  "favicon": "",
+  "tags": [
+   "la plata",
+   "radio universidad",
+   "unlp"
+  ],
+  "votes": 186,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Dinamo FM 100.9",
+  "stream": "http://01.solumedia.com.ar:8144/;",
+  "homepage": "http://www.radiodinamo.com.ar/",
+  "favicon": "",
+  "tags": [
+   "music",
+   "rock"
+  ],
+  "votes": 175,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Rocka RcK FM 107.3",
+  "stream": "http://cdn.instream.audio:8137/stream",
+  "homepage": "http://www.rckfm.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 173,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 2",
+  "stream": "https://cdn.instream.audio/:9056/stream?_=1680ada412b",
+  "homepage": "https://radio2.com.ar/",
+  "favicon": "https://radio2.com.ar/apple-icon-120x120.png",
+  "tags": [
+   "easy listening",
+   "news",
+   "roadtrip",
+   "services",
+   "tourism",
+   "traffic"
+  ],
+  "votes": 169,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena Heat",
+  "stream": "https://liveradio.mediainbox.net/fmcordoba.mp3",
+  "homepage": "https://www.cadenaheat.com/",
+  "favicon": "https://www.cadenaheat.com/img/logo-cadena-heat.png",
+  "tags": [
+   "entertainment",
+   "music"
+  ],
+  "votes": 168,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Boing 97.3 Rosario",
+  "stream": "https://streaming.redboing.com/radio/8000/radio.aac",
+  "homepage": "https://www.redboing.com/radio-boing-en-vivo-rosario/",
+  "favicon": "https://i0.wp.com/www.redboing.com/wp-content/uploads/2021/01/cropped-iso-4.png?fit=180%2c180&#038;ssl=1",
+  "tags": [],
+  "votes": 163,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 5: Mitre AM790",
+  "stream": "https://radio.eduneu.eu:8040/radio.mp3",
+  "homepage": "https://radio.eduneu.eu/public/radio5",
+  "favicon": "https://radio.eduneu.eu/static/uploads/radio5/album_art.1740739174.jpg",
+  "tags": [],
+  "votes": 161,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad - FM93.5 La Tecno (UTN Tierra del Fuego)",
+  "stream": "http://streamall.alsolnet.com/latecno",
+  "homepage": "https://www.radiouniversidad.com.ar/",
+  "favicon": "",
+  "tags": [
+   "magazines",
+   "radio universitaria"
+  ],
+  "votes": 158,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Dos Corrientes FM 99.3. Ciudad de Corrientes",
+  "stream": "https://radios.solumedia.com/6396/stream",
+  "homepage": "https://www.radiodos.com.ar/",
+  "favicon": "https://www.radiodos.com.ar/favicon.ico",
+  "tags": [],
+  "votes": 156,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio One 103.7",
+  "stream": "https://one.stweb.tv/one/live/playlist.m3u8",
+  "homepage": "https://www.radioone1037.fm/",
+  "favicon": "https://www.radioone1037.fm/favicon.png",
+  "tags": [
+   "dance",
+   "pop"
+  ],
+  "votes": 150,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Radio Splendid AM 900",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AM990.mp3",
+  "homepage": "https://splendidam990.com/",
+  "favicon": "https://ftp.la990.com.ar/images/share23.png",
+  "tags": [
+   "adult contemporary",
+   "entrevistas",
+   "música y noticias"
+  ],
+  "votes": 143,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Cielo - FM 106.9 mhz (Zarate)",
+  "stream": "http://streamall.alsolnet.com:443/radiocielo",
+  "homepage": "http://radiocielo.net/",
+  "favicon": "",
+  "tags": [
+   "argentina",
+   "radio cielo",
+   "zarate"
+  ],
+  "votes": 143,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "antena libre 89.1 argentina universidad conahue",
+  "stream": "http://cdn.instream.audio:9140/stream",
+  "homepage": "https://www.antena-libre.com.ar/radioenvivo",
+  "favicon": "",
+  "tags": [
+   "comunitaria",
+   "noticias",
+   "universitaria"
+  ],
+  "votes": 142,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Classique: Una radio de clásicos",
+  "stream": "https://01.solumedia.com.ar:8562/stream",
+  "homepage": "https://www.classique.com.ar/",
+  "favicon": "https://i.ibb.co/k2mrvXX/radio-classique.png",
+  "tags": [
+   "classic rock"
+  ],
+  "votes": 140,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rock & Pop 95.9 FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOP.mp3",
+  "homepage": "https://fmrockandpop.com/",
+  "favicon": "https://fmrockandpop.com/images/ryp/logo_2022.webp",
+  "tags": [
+   "classic hits",
+   "hits",
+   "music",
+   "pop",
+   "rock"
+  ],
+  "votes": 137,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LA NACION 104.9",
+  "stream": "https://stream.radio.co/s2ed3bec0a/listen",
+  "homepage": "https://masmusica.lanacion.com.ar/",
+  "favicon": "https://masmusica.lanacion.com.ar/assets/img/favicon.png",
+  "tags": [
+   "adult contemporary",
+   "old hits"
+  ],
+  "votes": 133,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad Mendoza",
+  "stream": "https://fm.uncu.edu.ar/",
+  "homepage": "https://www.unidiversidad.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 132,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radiactiva 100.7",
+  "stream": "http://sh4.radioonlinehd.com:8533/stream",
+  "homepage": "https://www.elterritorio.com.ar/radio.htm",
+  "favicon": "https://www.elterritorio.com.ar/images/custom/favicon/favicon-32x32.png?_v=282",
+  "tags": [],
+  "votes": 130,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Universidad 107.5 UNLP",
+  "stream": "http://163.10.186.71:8001/broadwavehigh.mp3",
+  "homepage": "https://www.radiouniversidad.unlp.edu.ar/",
+  "favicon": "https://www.radiouniversidad.unlp.edu.ar/favicon.ico",
+  "tags": [
+   "indie",
+   "rock"
+  ],
+  "votes": 125,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La 2x4",
+  "stream": "https://media.radios.ar:9270/",
+  "homepage": "https://buenosaires.gob.ar/la2x4",
+  "favicon": "https://buenosaires.gob.ar/sites/default/files/favicon.ico",
+  "tags": [
+   "tango"
+  ],
+  "votes": 125,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Si 98.9 FM",
+  "stream": "http://server.laradio.online:8202/;",
+  "homepage": "http://www.si989.com/",
+  "favicon": "",
+  "tags": [
+   "pop",
+   "rosario",
+   "spanish pop"
+  ],
+  "votes": 124,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Continental 590 AM. Bs. As. Version 3",
+  "stream": "https://frontend.radiohdvivo.com/continental/live",
+  "homepage": "https://www.continental.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 117,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fm 94.1 Onda Horizonte",
+  "stream": "http://s1.radiosnethosting.com:9816/;",
+  "homepage": "https://www.ondahorizonte941.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 115,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fisherton",
+  "stream": "http://23.111.184.195:8140/radio.mp3",
+  "homepage": "http://radiofisherton.com.ar/web/",
+  "favicon": "",
+  "tags": [
+   "classic rock"
+  ],
+  "votes": 114,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Futura - FM 90.5 mhz",
+  "stream": "https://streamer.fmfutura.com.ar/vivo.mp3",
+  "homepage": "https://fmfutura.com.ar/",
+  "favicon": "",
+  "tags": [
+   "argentina"
+  ],
+  "votes": 109,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Estación Fm 107.9 Salta",
+  "stream": "http://radio.solumedia.com.ar:8462/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 109,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "planeta cuarteto, Villa Carlos Paz 100.3 FM",
+  "stream": "https://streaming.radiosenlinea.com.ar:10763/live",
+  "homepage": "http://www.planetacuarteto.com.ar/",
+  "favicon": "",
+  "tags": [
+   "argentina",
+   "cordoba",
+   "cuarteto"
+  ],
+  "votes": 108,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Mucha Radio 94.7",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MUCHA_RADIO.mp3",
+  "homepage": "https://mucharadio.com.ar/",
+  "favicon": "https://mucharadio.com.ar/wp-content/uploads/2021/05/mucha_radio.png",
+  "tags": [
+   "clasicos",
+   "cumbia",
+   "latin pop",
+   "pop"
+  ],
+  "votes": 108,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Classic Hits - Éxitos que no pasan de moda",
+  "stream": "https://stream-151.zeno.fm/7st5b8derm0uv?",
+  "homepage": "https://zeno.fm/radio/Classic-Hits/",
+  "favicon": "https://zeno.fm/static/icons/apple-icon-512x512.png",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "hits oldies"
+  ],
+  "votes": 104,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Meridiano 107.1 FM",
+  "stream": "http://23.111.184.195:8050/fmmeridiano.mp3",
+  "homepage": "http://www.fmmeridiano.com.ar/",
+  "favicon": "",
+  "tags": [
+   "classic rock",
+   "pop",
+   "rosario"
+  ],
+  "votes": 103,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LT14 Nacional Gral. Urquiza AM 1260 - Paraná",
+  "stream": "http://ea.mp3.icecast.magma.edge-access.net:7200/sc_rad44",
+  "homepage": "http://www.lt14digital.com.ar/",
+  "favicon": "",
+  "tags": [
+   "noticias"
+  ],
+  "votes": 102,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Popu 92.3",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/lapopu.mp3?dist=c3-web",
+  "homepage": "https://www.lapopu.com.ar/",
+  "favicon": "https://www.lapopu.com.ar/img/favicon.png",
+  "tags": [],
+  "votes": 99,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Delta 90.3 Buenos Aires",
+  "stream": "https://cdn.instream.audio/:9069/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988",
+  "homepage": "https://fmdelta903.com/",
+  "favicon": "https://fmdelta903.com/favicon.ico",
+  "tags": [
+   "pop dance",
+   "techno"
+  ],
+  "votes": 98,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Lalala Radio La música de Luis Alberto Spinetta",
+  "stream": "http://server.laradio.online:25311/live",
+  "homepage": "https://lalalaradio.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 97,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM en Transito",
+  "stream": "https://cdn.instream.audio/:9110/stream",
+  "homepage": "https://comunicacionsocial.org.ar/",
+  "favicon": "https://comunicacionsocial.org.ar/wp-content/themes/comunicacionsocial-theme/assets/images/logo-fm-en-transito.png.webp",
+  "tags": [
+   "comunitaria cooperativa"
+  ],
+  "votes": 94,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Suquia",
+  "stream": "https://streaming01.shockmedia.com.ar:10945/",
+  "homepage": "https://suquia.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 93,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Undinamo",
+  "stream": "https://cdn.instream.audio/:9339/stream?in_device_id=WPU32ffbfaa3cd8ebaaa8f64ec868bf4b88XY177fdfd79a7",
+  "homepage": "https://undinamo.com/",
+  "favicon": "",
+  "tags": [
+   "rock"
+  ],
+  "votes": 92,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Soldados 87.5",
+  "stream": "https://radio02.ferozo.com/proxy/ra01000409?mp=/stream",
+  "homepage": "https://fmsoldados.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 91,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Bariloche",
+  "stream": "https://streaming1.locucionar.com/proxy/colgados?mp=/stream",
+  "homepage": "https://fmbariloche.com.ar/",
+  "favicon": "",
+  "tags": [
+   "actualidad",
+   "musica",
+   "noticias"
+  ],
+  "votes": 90,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "AM 830 LT8 Rosario",
+  "stream": "https://stream.lt8.com.ar:8443/lt8radio.mp3",
+  "homepage": "https://www.lt8.com.ar/",
+  "favicon": "https://i0.wp.com/www.lt8.com.ar/wp-content/uploads/2020/06/cropped-android-chrome-512x512-1.png?fit=180%2c180&#038;ssl=1",
+  "tags": [
+   "argentine football",
+   "local news",
+   "rosario",
+   "santa fe"
+  ],
+  "votes": 81,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Grafica",
+  "stream": "http://radio13.servidorderadio.net:8110/api/v3/widgetsview?id=100&option=big&ssl=1&auto=0",
+  "homepage": "https://radiografica.org.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 80,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Comunidad Fan FM 105.1 Rosario",
+  "stream": "https://radio02.ferozo.com/proxy/ra02001326?mp=/stream",
+  "homepage": "https://comunidad.fan/",
+  "favicon": "https://grupocristal.com.ar/images/Logo-Comunidad.png",
+  "tags": [
+   "hits",
+   "pop",
+   "talk"
+  ],
+  "votes": 77,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cosquín Rock 95.5",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/cosquinrock.mp3",
+  "homepage": "https://cosquinrock.net/cosquin-rock-radio/",
+  "favicon": "https://thumbs.apolomedia.com/2-30-14-VNV9UV1726675713.mp3.jpg?889234",
+  "tags": [
+   "rock"
+  ],
+  "votes": 77,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fm Dale 96.1",
+  "stream": "http://01.solumedia.com.ar:8238/",
+  "homepage": "http://www.fmdale96.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 77,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad - UNLP - AM 1390",
+  "stream": "https://statics-v2.streema.com/static/audios/sample.ea78c3d52389.mp3",
+  "homepage": "https://www.radiouniversidad.unlp.edu.ar/",
+  "favicon": "https://static-media.streema.com/media/cache/06/89/0689b2bcd6a6817744bc4fa7c3c36f37.jpg",
+  "tags": [
+   "argentina",
+   "la plata",
+   "provincia de buenos aires",
+   "universidad de la plata",
+   "unlp"
+  ],
+  "votes": 73,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Activa FM 96.9 - Ing. Mashwitz",
+  "stream": "http://streaming01.shockmedia.com.ar:9332/stream",
+  "homepage": "http://www.colectivo-cultural.com.ar/radioactiva-fm969/",
+  "favicon": "",
+  "tags": [
+   "bondi cultural",
+   "colectivo cultural",
+   "escobar",
+   "ingeniero mashwitz",
+   "mashwitz",
+   "provincia de buenos aires"
+  ],
+  "votes": 73,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nacional Córdoba - LRA7 AM750",
+  "stream": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad7",
+  "homepage": "https://www.radionacional.com.ar/category/lra-7-cordoba/",
+  "favicon": "https://external-content.duckduckgo.com/ip3/www.radionacional.com.ar.ico",
+  "tags": [
+   "noticias",
+   "radio hablada",
+   "radio publica"
+  ],
+  "votes": 69,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Forra",
+  "stream": "https://stream.zeno.fm/aknjqpmy0xtuv",
+  "homepage": "https://saborartesano.com.ar/radioforra/index.html",
+  "favicon": "",
+  "tags": [
+   "all genre on earth except trap",
+   "and things like trap",
+   "todos los géneros excepto trap y similares"
+  ],
+  "votes": 69,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Hollywood 101.3",
+  "stream": "https://radio02.ferozo.com/proxy/ra02001328?mp=/stream",
+  "homepage": "http://radiohollywood.com.ar/",
+  "favicon": "",
+  "tags": [
+   "60's",
+   "70's",
+   "80's",
+   "90's",
+   "classic",
+   "pop"
+  ],
+  "votes": 69,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Nacional Perito Moreno - LRA56 AM860",
+  "stream": "http://sa.mp3.icecast.magma.edge-access.net:7200/sc_rad34",
+  "homepage": "http://www.radionacional.com.ar/category/santa-cruz/",
+  "favicon": "",
+  "tags": [
+   "radio nacional"
+  ],
+  "votes": 69,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 10 Mar del Plata FM 105.5 / Miramar 101.7 / Balcarce",
+  "stream": "https://stream.zeno.fm/4r530f2a9f0uv",
+  "homepage": "https://radio10mardelplata.com.ar/",
+  "favicon": "https://radio10mardelplata.com.ar/wp-content/uploads/2025/03/logo-1-removebg-preview.png",
+  "tags": [
+   "debate",
+   "deportes",
+   "entretenimiento",
+   "information",
+   "noticias",
+   "noticias y comentarios",
+   "radio hablada"
+  ],
+  "votes": 67,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio NOW 97.9",
+  "stream": "https://ipanel.instream.audio:7002/stream?_=18fea7232d5",
+  "homepage": "https://979now.com/",
+  "favicon": "https://www.enlaradio.com.ar/wp-content/uploads/2024/06/elr_979now-1024x576.jpg",
+  "tags": [
+   "actualidad",
+   "hits 80s",
+   "hits 90s",
+   "pop rock popular"
+  ],
+  "votes": 67,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio de Clásicos 106.9 FM - Saladillo",
+  "stream": "http://streamconex.com:8118/stream",
+  "homepage": "https://www.la106.com/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "oldies"
+  ],
+  "votes": 67,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "AM Con Vos 1420. AM 1420",
+  "stream": "https://us9.maindigitalstream.com/ssl/7192",
+  "homepage": "https://www.la1420.com.ar/",
+  "favicon": "",
+  "tags": [
+   "am 1420",
+   "am con vos"
+  ],
+  "votes": 66,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM La Boca 90.1 Buenos Aires",
+  "stream": "https://s24.myradiostream.com/:14984/listen.mp3?nocache=1674464727",
+  "homepage": "https://www.fmlaboca.com.ar/",
+  "favicon": "https://www.fmlaboca.com.ar/favicon.ico",
+  "tags": [
+   "argentine rock",
+   "buenos aires",
+   "local news",
+   "radio comunitaria"
+  ],
+  "votes": 66,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM BAND NEWS 89.5",
+  "stream": "https://streaming01.shockmedia.com.ar:10486/",
+  "homepage": "https://bandnews895.esenvivo.com.ar/",
+  "favicon": "",
+  "tags": [
+   "entretenimiento",
+   "information",
+   "local radio",
+   "noticias",
+   "radio hablada",
+   "various"
+  ],
+  "votes": 65,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "92.5 FM Radio 2000",
+  "stream": "https://server6.hostradios.com/8390/stream",
+  "homepage": "https://radio2000camilo.com.ar/",
+  "favicon": "https://i0.wp.com/radio2000camilo.com.ar/wp-content/uploads/2023/09/Screenshot-2023-09-29-at-14-14-03-Radio2000-92.5Mhz.-CAMILO-ALDAO.png?w=319&ssl=1",
+  "tags": [
+   "cuarteto",
+   "entretenimiento",
+   "musica",
+   "popular",
+   "varios"
+  ],
+  "votes": 65,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "CVC La Voz Urbano",
+  "stream": "https://chat-assets.frontapp.com/v1/149be82f568687535638c72a66facc34.ogg",
+  "homepage": "https://cvclavoz.com/urbano/",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "votes": 65,
+  "codec": "OGG",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Monk",
+  "stream": "http://streaming01.shockmedia.com.ar:9858/;",
+  "homepage": "http://www.radiomonk.com.ar/",
+  "favicon": "",
+  "tags": [
+   "radio monk"
+  ],
+  "votes": 65,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cristal FM",
+  "stream": "https://radio02.ferozo.com/proxy/ra02001330?mp=/stream",
+  "homepage": "https://www.cristalfm.com.ar/",
+  "favicon": "",
+  "tags": [
+   "electronic",
+   "pop",
+   "rosario"
+  ],
+  "votes": 63,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Impacto Cordoba",
+  "stream": "http://sonic.cloudstreaming.eu:9992/;",
+  "homepage": "http://www.impactocordobaweb.com.ar/ri993/",
+  "favicon": "",
+  "tags": [],
+  "votes": 62,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Nacional Rock FM 93.7",
+  "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad39",
+  "homepage": "https://www.radionacional.com.ar/nacionalrock/",
+  "favicon": "",
+  "tags": [],
+  "votes": 62,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Frecuencia Patagonia FM 99.3",
+  "stream": "http://server.laradio.online:9188/live",
+  "homepage": "http://vocesyapuntes.com/radio/",
+  "favicon": "",
+  "tags": [],
+  "votes": 62,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Brisas 98.5",
+  "stream": "https://radio.ecolan.com:8443/stream.mp3",
+  "homepage": "https://infobrisas.com/streaming.php",
+  "favicon": "https://infobrisas.com/images/custom/favicon/apple-touch-icon.png?_v=63",
+  "tags": [],
+  "votes": 61,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RadioTV AN24",
+  "stream": "https://cdn.instream.audio:9307/stream",
+  "homepage": "https://www.radioan24.com.ar/",
+  "favicon": "",
+  "tags": [
+   "alerta nacional",
+   "alerta nacional 24hs",
+   "biondini",
+   "frent",
+   "política"
+  ],
+  "votes": 60,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cadena 3",
+  "stream": "http://server.laradio.online:8018/stream",
+  "homepage": "https://www.cadena3.com/",
+  "favicon": "https://www.cadena3.com/img/logo.png",
+  "tags": [
+   "deportes",
+   "entretenimiento",
+   "music",
+   "noticias",
+   "noticias y comentarios",
+   "radio hablada"
+  ],
+  "votes": 60,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Horizonte (revival 101.9)",
+  "stream": "https://redirector.dps.live/hls-audio/4e252a65837b69e349d5d8c1033152b4/hztear/playlist/manifest/gotardisz/audio/now/livestream1.m3u8",
+  "homepage": "https://horizonte.perfil.com/",
+  "favicon": "",
+  "tags": [
+   "adult contemporary",
+   "oldies",
+   "pop",
+   "rock"
+  ],
+  "votes": 60,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Acqua FM 100.1",
+  "stream": "https://strcdn.klm99.com:10985/acquavillagesell",
+  "homepage": "http://www.acqua.fm/acqua-villagesell.php",
+  "favicon": "",
+  "tags": [
+   "dance",
+   "hits",
+   "top100"
+  ],
+  "votes": 59,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad Rosario",
+  "stream": "https://cdn.instream.audio/:9202/stream",
+  "homepage": "https://radio.unr.edu.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 57,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "OK FM Arroyito",
+  "stream": "http://audio.questreaming.com:27156/",
+  "homepage": "http://okfmarroyito.com/",
+  "favicon": "",
+  "tags": [
+   "local news",
+   "music",
+   "regional news"
+  ],
+  "votes": 56,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Cristo Rey 105.1",
+  "stream": "https://stream.zeno.fm/ujs4w68jh93uv",
+  "homepage": "https://zeno.fm/radio/fm-cristo-rey/",
+  "favicon": "https://zenoimages.s3.us-west-001.backblazeb2.com/3d70f63c-5d98-4af5-b5ec-0654fc896e9f/cards/d8fe54c4-3ab8-4e97-b90a-8238d5a16287",
+  "tags": [
+   "bible",
+   "cristiana",
+   "evangelio",
+   "gospel",
+   "religious"
+  ],
+  "votes": 56,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Ciudad AM 1110",
+  "stream": "https://media.radios.ar:1110/",
+  "homepage": "https://buenosaires.gob.ar/radiociudad",
+  "favicon": "",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 56,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Orión",
+  "stream": "http://01.solumedia.com.ar:7834/stream?icy=http",
+  "homepage": "https://www.radioorion.com.ar/",
+  "favicon": "https://cdn.onlineradiobox.com/img/logo/8/86898.v4.png",
+  "tags": [
+   "news",
+   "pop",
+   "talk"
+  ],
+  "votes": 56,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Universidad Claf 103.7 Mhz",
+  "stream": "http://cdn.instream.audio:9032/stream",
+  "homepage": "https://universidadcalf.com/",
+  "favicon": "",
+  "tags": [
+   "musica",
+   "noticias",
+   "universidad"
+  ],
+  "votes": 55,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nacional Folklórica FM 98.7",
+  "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad38",
+  "homepage": "https://www.radionacional.com.ar/nacional-folklorica-1/",
+  "favicon": "https://www.radionacional.com.ar/reproductor/images/Logo_Folklorica.png",
+  "tags": [
+   "folklore"
+  ],
+  "votes": 54,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "88.9 FM Radio Light",
+  "stream": "http://streamall.alsolnet.com/radiolightfm",
+  "homepage": "http://www.radiolightfm.com.ar/",
+  "favicon": "",
+  "tags": [
+   "80s",
+   "90s",
+   "adult contemporary",
+   "oldies",
+   "variety"
+  ],
+  "votes": 53,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LOS 40 SANTA FE 97.7",
+  "stream": "https://radios.solumedia.com:6158/stream?icy=http",
+  "homepage": "https://www.conexion40santafe.com.ar/",
+  "favicon": "https://www.conexion40santafe.com.ar/wp-content/uploads/2024/04/LOGO-LOS-40-CUADRADO-BLANCO-.jpg",
+  "tags": [
+   "entretenimiento",
+   "hits",
+   "latino",
+   "music",
+   "música en español e inglés",
+   "pop",
+   "top 40"
+  ],
+  "votes": 52,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio UTN Bahia Blanca - FM 93.5",
+  "stream": "https://sonic.cloudstreaming.eu:10986/;",
+  "homepage": "https://www.frbb.utn.edu.ar/radio/",
+  "favicon": "",
+  "tags": [
+   "magazines",
+   "music",
+   "radio universitaria",
+   "universidad tecnologica nacional",
+   "utn"
+  ],
+  "votes": 50,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Chascomús AM 1520",
+  "stream": "https://streaming1.locucionar.com/proxy/radiochascomus?mp=/stream",
+  "homepage": "http://www.lavozregional.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 49,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio República",
+  "stream": "http://streamlky.alsolnet.com:443/republica99",
+  "homepage": "http://www.republica99.com.ar/",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 49,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Bicentenario Tucumán",
+  "stream": "http://01.solumedia.com.ar:7792/;stream/1",
+  "homepage": "http://www.radiobicentenario.com.ar/",
+  "favicon": "https://www.radiobicentenario.com.ar/img/favicon/radiobicentenario/apple-icon-120x120.png",
+  "tags": [
+   "music",
+   "news",
+   "talk"
+  ],
+  "votes": 48,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Espiritu Santo",
+  "stream": "http://01.solumedia.com.ar:7802/;",
+  "homepage": "https://espiritusanto.com.ar/",
+  "favicon": "",
+  "tags": [
+   "catholic"
+  ],
+  "votes": 48,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Verdad (Villa Dolores)",
+  "stream": "https://streaming1.locucionar.com/proxy/radioverdad?mp=/stream",
+  "homepage": "https://radioverdad.com.ar/",
+  "favicon": "",
+  "tags": [
+   "music",
+   "news",
+   "politics",
+   "sports"
+  ],
+  "votes": 48,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO CENTRO",
+  "stream": "https://sonicpanel.hostradios.com/8710/stream",
+  "homepage": "https://gruporadialcentro.com.ar/",
+  "favicon": "",
+  "tags": [
+   "culture",
+   "music",
+   "news",
+   "pop",
+   "sports"
+  ],
+  "votes": 47,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Somos Radio - AM 530 (Radio de las Madres de Plaza de Mayo)",
+  "stream": "https://cdn.instream.audio:9288/stream",
+  "homepage": "https://am530somosradio.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 47,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Blackie 89.1",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLACKIE_89_1.mp3",
+  "homepage": "https://fmblackie.com.ar/",
+  "favicon": "https://fmblackie.com.ar/wp-content/themes/blackie/images/logo.png",
+  "tags": [
+   "jazz",
+   "music"
+  ],
+  "votes": 46,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "AIRE",
+  "stream": "http://stm14.xcast.com.br:8248/",
+  "homepage": "https://airedesantafe.com/",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 46,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LT9 Radio Brigadier López La Líder",
+  "stream": "https://streaming1.locucionar.com/proxy/lt9?mp=/stream?rand=718352759",
+  "homepage": "http://www.lt9.com.ar/",
+  "favicon": "https://www.lt9.com.ar/img/favicon/apple-touch-icon.png",
+  "tags": [
+   "local news",
+   "pop music",
+   "sports news"
+  ],
+  "votes": 46,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Tecnoteca",
+  "stream": "https://server7.hostradios.com:8142/stream",
+  "homepage": "https://villamaria.gob.ar/radio-tecnoteca",
+  "favicon": "https://villamaria.gob.ar/img/radio-tecnoteca.png",
+  "tags": [],
+  "votes": 45,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cosmos Fm",
+  "stream": "http://s28.myradiostream.com:28240/listen.m4a",
+  "homepage": "https://fmcosmos.com/",
+  "favicon": "https://i0.wp.com/fmcosmos.com/wp-content/uploads/2024/03/cropped-favicon2024.png?fit=180%2c180&#038;ssl=1",
+  "tags": [
+   "música",
+   "noticias"
+  ],
+  "votes": 45,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Provincia - AM1270",
+  "stream": "https://streaming.provinciaradio.com.ar:7008/am",
+  "homepage": "https://radioprovincia.gba.gob.ar/am1270.php",
+  "favicon": "",
+  "tags": [
+   "magazines",
+   "noticias locales",
+   "variedades"
+  ],
+  "votes": 44,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 21 FM 90.1 - Caleta Olivia",
+  "stream": "https://cdn.instream.audio/:9135/stream",
+  "homepage": "http://www.radio21.com.ar/web/",
+  "favicon": "",
+  "tags": [
+   "caleta olivia"
+  ],
+  "votes": 44,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Más",
+  "stream": "http://nvradios.com:9384/;",
+  "homepage": "http://radiomascastex.com.ar/",
+  "favicon": "",
+  "tags": [
+   "information"
+  ],
+  "votes": 44,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Imperio",
+  "stream": "http://argentina.republicahosting.com:8417/stream",
+  "homepage": "http://fmimperio.com.ar/",
+  "favicon": "",
+  "tags": [
+   "hits"
+  ],
+  "votes": 44,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "radio Gráfica",
+  "stream": "http://radio13.servidorderadio.net:8110/",
+  "homepage": "https://radiografica.org.ar/",
+  "favicon": "",
+  "tags": [
+   "buenos aires",
+   "cultura",
+   "derechos humanos",
+   "sociedad"
+  ],
+  "votes": 43,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Mitre Patagonia - FM 90.5",
+  "stream": "https://sc.host-live.com:10810/stream",
+  "homepage": "https://radiomitrepatagonia.com/",
+  "favicon": "https://radiomitrepatagonia.com/sitepad-data/uploads/2023/07/Disen%CC%83o-sin-ti%CC%81tulo-1.png",
+  "tags": [],
+  "votes": 43,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Sensaciones 95.1",
+  "stream": "https://chino.republicahosting.com:2318/live",
+  "homepage": "https://www.fmsensaciones.com.ar/",
+  "favicon": "",
+  "tags": [
+   "general"
+  ],
+  "votes": 41,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LU20 Radio Chubut",
+  "stream": "https://streaming1.locucionar.com/proxy/radiochubut?mp=/stream",
+  "homepage": "https://radiochubut.com/",
+  "favicon": "",
+  "tags": [
+   "local talk"
+  ],
+  "votes": 40,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM La Uni 91.7",
+  "stream": "http://cdn.instream.audio:9275/stream",
+  "homepage": "https://www.ungs.edu.ar/fmlauni/radio",
+  "favicon": "",
+  "tags": [
+   "general",
+   "polvorines",
+   "san miguel",
+   "sarmiento",
+   "universidad"
+  ],
+  "votes": 39,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio AM 750",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AM750AAC.aac",
+  "homepage": "https://radioarg.net/am-750",
+  "favicon": "https://radioarg.net/storage/radios/8120/10242/conversions/AM-750-lg.webp",
+  "tags": [],
+  "votes": 39,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Retro",
+  "stream": "https://stream-164.zeno.fm/0m2cjioahwjuv?",
+  "homepage": "https://zeno.fm/radio/la_retro/",
+  "favicon": "",
+  "tags": [],
+  "votes": 38,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FMI TUCUMAN",
+  "stream": "https://ssl.radiosnethosting.com/index.php?port=9808",
+  "homepage": "https://radiofmi.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 38,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LU22 Radio Tandil AM1140",
+  "stream": "https://streaming01.shockmedia.com.ar/8170/live",
+  "homepage": "https://www.radiotandil.com/",
+  "favicon": "https://parking.cloudflareregistrar.com/favicon.ico",
+  "tags": [
+   "talk radio"
+  ],
+  "votes": 37,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rio FM 96.9 Rosario",
+  "stream": "https://streaming.redboing.com/radio/8070/radio.mp3",
+  "homepage": "https://www.redboing.com/",
+  "favicon": "https://rio969.com/_static/thumbnail.png",
+  "tags": [
+   "adult contemporary",
+   "aor",
+   "classic hits",
+   "classic pop",
+   "classic rock"
+  ],
+  "votes": 37,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad CALF Neuquén",
+  "stream": "https://cdn.instream.audio/:9032/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988",
+  "homepage": "https://universidadcalf.com/",
+  "favicon": "",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 37,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "DS Radio Horizonte 94.5 FM",
+  "stream": "http://streaming.radiosenlinea.com.ar:9058/stream/;",
+  "homepage": "https://dsradio.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 36,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radiovision Comodoro Rivadavia FM 99.5",
+  "stream": "https://cdn.instream.audio/:9061/stream?in_device_id=wp-5270c502-0535-444e-975b-d49592d1d988",
+  "homepage": "https://fmradiovision.com/",
+  "favicon": "",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 35,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "neverland",
+  "stream": "https://stream-166.zeno.fm/oaqigxpfjzqvv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJvYXFpZ3hwZmp6cXZ2IiwiaG9zdCI6InN0cmVhbS0xNjYuemVuby5mbSIsInJ0dGwiOjUsImp0aSI6IjFnRWVwSWpIUXJXVElZSU1pLVlrenciLCJpYXQiOjE3NDgxMzU4OTUsImV4cCI6MTc0ODEzNTk1NX0.b4Llu6iAJk1NPa2U9OhIjm_3CZQyLuRJZWiNecQWBdY",
+  "homepage": "https://www.facebook.com/NeverlandFandub/",
+  "favicon": "https://discord.do/wp-content/uploads/2023/08/Neverland-Fandub.jpg",
+  "tags": [
+   "anime",
+   "anime radio",
+   "jazz",
+   "lofi"
+  ],
+  "votes": 35,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rock RA",
+  "stream": "http://stream.zeno.fm/mbketaeaqhguv",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "rock"
+  ],
+  "votes": 35,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Kermés Comunitaria",
+  "stream": "http://server.laradio.online:8599/;",
+  "homepage": "https://www.radiokermes.com/",
+  "favicon": "",
+  "tags": [
+   "community radio"
+  ],
+  "votes": 34,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Soy un Clasico",
+  "stream": "https://streaming1.locucionar.com/proxy/soyunclasico?mp=/stream",
+  "homepage": "http://soyunclasico.com.ar/",
+  "favicon": "https://streaminglocucionar.com/portal/images/logos/soyunclasico.png",
+  "tags": [
+   "80s soft rock",
+   "soft music",
+   "soft pop"
+  ],
+  "votes": 34,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La voz de VCI",
+  "stream": "http://stream.zeno.fm/ke2bvwydmzzuv",
+  "homepage": "https://www.visionencristointernacional.com/",
+  "favicon": "",
+  "tags": [
+   "evangelical christian",
+   "radio evangelica",
+   "vcienseña"
+  ],
+  "votes": 34,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 4: Rock & Pop Argentino",
+  "stream": "https://radio.eduneu.eu:8030/radio.mp3",
+  "homepage": "https://radio.eduneu.eu/public/radio4",
+  "favicon": "https://www.eduneu.eu/logo_radio4.png",
+  "tags": [],
+  "votes": 34,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Estación Del Siglo Rio Grande FM 105.3",
+  "stream": "http://streamall.alsolnet.com/estaciondelsigloaudio",
+  "homepage": "https://estaciondelsiglo.net/",
+  "favicon": "",
+  "tags": [
+   "pop music"
+  ],
+  "votes": 34,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Rio Cuarto",
+  "stream": "https://server6.hostradios.com/8552/stream/;/;type=mp3",
+  "homepage": "https://www.lv16.com.ar/",
+  "favicon": "",
+  "tags": [
+   "hits",
+   "local news",
+   "musica latina",
+   "news",
+   "pop"
+  ],
+  "votes": 33,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio UTN Mendoza 94.5",
+  "stream": "http://streaming.fmutn.com.ar:8000/FMUTN",
+  "homepage": "http://www.fmutn.com.ar/",
+  "favicon": "",
+  "tags": [
+   "heavy",
+   "indie",
+   "punk",
+   "reggae",
+   "rock"
+  ],
+  "votes": 33,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Nuestra FM La Adela FM 107.5",
+  "stream": "http://server1.veemesoft.com.ar:10147/;",
+  "homepage": "http://www.nuestrafm.com/",
+  "favicon": "",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 33,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "rock and pop 89.7 FM",
+  "stream": "https://streamlky.alsolnet.com/rockandpop_128k",
+  "homepage": "https://www.rockandpopmdp.com.ar/",
+  "favicon": "https://www.rockandpopmdp.com.ar/img/rock-and-pop-mdp-logo-web.png",
+  "tags": [
+   "2000s",
+   "80s",
+   "90s",
+   "entretenimiento",
+   "music",
+   "pop",
+   "radio hablada",
+   "rock"
+  ],
+  "votes": 33,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fm 106.1 Estacion 2",
+  "stream": "https://emisora.zonasinergia.com/8068/stream",
+  "homepage": "https://estacion2palmira.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaSewJK0SPUoZbmeNE-IaGVLg4zUOFRyIVF4WjR7HnOoUrKJpHm1tJQptWA26iTg-jttCI5jNiYgRy8z08i5M34x3fw-rNj-w8bxcRpw-RELclNh7PBFlbTALSEg6ZwqWnzNL9R1m_SgDLg7T2f1t3Shn0Mz_x1nsOkNycbNYFYJBsy6HEG3xD5MXK/s320/1-logo%20top%20top%202023.jpg",
+  "tags": [
+   "bolero",
+   "cuarteto",
+   "cumbia",
+   "entretenimiento",
+   "musica romantica"
+  ],
+  "votes": 32,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM 90 Saladillo FM 90.7",
+  "stream": "https://chino.republicahosting.com:2316/live",
+  "homepage": "http://www.fm90saladillo.com.ar/",
+  "favicon": "",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 32,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Valle Viejo",
+  "stream": "https://stm2.livecastradio.com:9379/stream",
+  "homepage": "https://radio-tvvalleviejo.com/",
+  "favicon": "https://radio-tvvalleviejo.com/wp-content/uploads/2024/07/MOSCA-Radio-Tv-Valle-Viejo_-e1722129329959.png",
+  "tags": [],
+  "votes": 32,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Disney Argentina 94.3",
+  "stream": "http://27323.live.streamtheworld.com/DISNEY_ARG_BA_ADP_SC",
+  "homepage": "https://ar.radiodisney.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FLogoPlayer.217fc174.png&w=320&q=75",
+  "favicon": "https://ar.radiodisney.com/favicon.ico",
+  "tags": [],
+  "votes": 32,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Net80 Radio",
+  "stream": "https://streaming.escuchanosonline.com/8274/stream",
+  "homepage": "https://www.net80radio.com/",
+  "favicon": "",
+  "tags": [
+   "80's"
+  ],
+  "votes": 32,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Planet Music Mar del PLata 101.1",
+  "stream": "https://strcdn.klm99.com:10991/planetmdp",
+  "homepage": "https://www.planetmusic.fm/",
+  "favicon": "https://www.planetmusic.fm/favicon-16x16.png",
+  "tags": [
+   "music",
+   "talk"
+  ],
+  "votes": 31,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad - FM91.1 UTN Resistencia",
+  "stream": "http://01.solumedia.com.ar:8336/",
+  "homepage": "http://www.radiouniversidad911.com.ar/",
+  "favicon": "",
+  "tags": [
+   "magazines",
+   "radio universitaria",
+   "universidad tecnologica nacional",
+   "utn"
+  ],
+  "votes": 31,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RPM Oldies & Retro Hits",
+  "stream": "https://radios.solumedia.com/6118/stream",
+  "homepage": "https://rpmhitsradio.blogspot.com/",
+  "favicon": "https://rpmhitsradio.blogspot.com/favicon.ico",
+  "tags": [
+   "oldies and retro hits 70´s 80´s 90´s 00´s"
+  ],
+  "votes": 31,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Kiss FM 95.1 Rosario",
+  "stream": "https://streaming.redboing.com/radio/8060/radio.mp3",
+  "homepage": "https://www.redboing.com/",
+  "favicon": "https://fmkiss.com.ar/logo-kiss-t.png",
+  "tags": [
+   "hits",
+   "latin pop",
+   "pop"
+  ],
+  "votes": 31,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM 90.9 Rosario",
+  "stream": "https://streaming2.locucionar.com/proxy/radiobt?mp=/stream",
+  "homepage": "https://www.fm909rosario.com.ar/",
+  "favicon": "https://i.imgur.com/wcGFaC8.jpg",
+  "tags": [
+   "cumbia",
+   "pop",
+   "rock"
+  ],
+  "votes": 30,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Quality X - 89.7 FM",
+  "stream": "https://stream.qualityradio.com.ar/qualityx",
+  "homepage": "https://x.qualityradio.com.ar/",
+  "favicon": "https://cdn-profiles.tunein.com/s141326/images/logog.jpg?t=164425",
+  "tags": [],
+  "votes": 30,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Simphony San Isidro FM 91.3 Mhz",
+  "stream": "http://cdn.instream.audio:8129/stream",
+  "homepage": "https://www.fm913.info/",
+  "favicon": "https://static.wixstatic.com/media/f78d17_0805e3a796fb4757925e75d8b53e017d.png/v1/fill/w_261,h_133,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f78d17_0805e3a796fb4757925e75d8b53e017d.png",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 30,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Magic Kids FM",
+  "stream": "http://argentina.republicahosting.com:8197/stream",
+  "homepage": "http://magickidsfm.com.ar/",
+  "favicon": "",
+  "tags": [
+   "soundtrack"
+  ],
+  "votes": 28,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio City juy",
+  "stream": "https://5cd577a3dd8ec.streamlock.net/radiocity/live_1/chunklist_w1831978817.m3u8",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "pop"
+  ],
+  "votes": 28,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Alegría FM 99.7",
+  "stream": "http://radio.solumedia.com.ar:8004/;",
+  "homepage": "https://cadenaalegria.com.ar/",
+  "favicon": "https://cadenaalegria.com.ar///favicon.ico",
+  "tags": [
+   "cuarteto",
+   "cumbia",
+   "entretenimiento",
+   "popular"
+  ],
+  "votes": 28,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Red Pampeana",
+  "stream": "http://server.laradio.online:9033/live",
+  "homepage": "https://laredpampeana.com.ar/",
+  "favicon": "https://static-media.streema.com/media/cache/dd/fa/ddfa0dd637a90845d248a0f96a684ce3.jpg",
+  "tags": [
+   "argentina",
+   "general pico",
+   "la pampa",
+   "radios pampeanas"
+  ],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Remanente de efraim",
+  "stream": "https://stream.zeno.fm/vxqg94xspc9uv",
+  "homepage": "https://stream.zeno.fm/",
+  "favicon": "https://keilaremanentedeef.wixsite.com/httpswwwiglesiakei-1",
+  "tags": [],
+  "votes": 27,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "rc",
+  "stream": "http://radio13.servidorderadio.net:9648/",
+  "homepage": "https://radioconectividad.com.ar/",
+  "favicon": "https://radioconectividad.com.ar/favicon.ico",
+  "tags": [
+   "actualidad",
+   "deportes",
+   "música",
+   "noticias"
+  ],
+  "votes": 27,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Alegría 101.7 General Pico",
+  "stream": "https://streaming.radiosenlinea.com.ar/8856/stream/1/",
+  "homepage": "https://fmalegria.com.ar/",
+  "favicon": "https://fmalegria.com.ar/wp-content/uploads/2023/09/cropped-WhatsApp-Image-2023-09-23-at-14.42.55.jpeg",
+  "tags": [],
+  "votes": 26,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Universidad AM580",
+  "stream": "https://radios.solumedia.com:10976/stream",
+  "homepage": "https://www.cba24n.com.ar/programas-580am",
+  "favicon": "",
+  "tags": [
+   "radio hablada",
+   "university radio"
+  ],
+  "votes": 26,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LU24 Radio Tres Arroyos",
+  "stream": "https://streaming01.shockmedia.com.ar:10889/stream?icy=http",
+  "homepage": "https://www.lu24.com.ar/",
+  "favicon": "",
+  "tags": [
+   "news talk"
+  ],
+  "votes": 26,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Galaxia 88.7",
+  "stream": "https://vps-2333016-x.dattaweb.com/listen/fm_galaxia_88.7_cadena_3_san_francisco/radio.mp3",
+  "homepage": "https://www.lavozdesanjusto.com.ar/",
+  "favicon": "https://vps-2333016-x.dattaweb.com/static/uploads/fm_galaxia_88.7_cadena_3_san_francisco/album_art.1688512362.png",
+  "tags": [
+   "local news",
+   "local radio",
+   "music"
+  ],
+  "votes": 26,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Magic FM 100.9 Tigre",
+  "stream": "https://radio01.ferozo.com/proxy/ra01000677/?mp=/stream",
+  "homepage": "https://www.radiomagic1009.com.ar/",
+  "favicon": "",
+  "tags": [
+   "music",
+   "pop music"
+  ],
+  "votes": 26,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Exa FM",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPSFMAAC.aac",
+  "homepage": "https://www.exafm.com/veracruz/",
+  "favicon": "https://i.iheart.com/v3/re/new_assets/5f9883c7cde5eff19e6eabac",
+  "tags": [
+   "93.3 fm",
+   "estación",
+   "exa",
+   "exa fm",
+   "fm",
+   "juvenil",
+   "la estación exacta",
+   "la estación naranja",
+   "moi merino",
+   "mvs",
+   "mvs noticias",
+   "mvs radio",
+   "música pop",
+   "ponte exa",
+   "pop",
+   "pop en español e inglés",
+   "pop music",
+   "pop rock",
+   "radio"
+  ],
+  "votes": 26,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Latidos 95.1 - General Pico",
+  "stream": "https://streamconex.com:8150/stream",
+  "homepage": "https://latidosnoticias.com.ar/",
+  "favicon": "https://play-lh.googleusercontent.com/pi0zNBqKH8E-HykMkmCwXvx4TbQ3G2MaDS0frkSDqsKrzgayvkLiID_2ACv_ZJKf4A",
+  "tags": [
+   "argentina",
+   "general pico",
+   "la pampa",
+   "radios pampeanas"
+  ],
+  "votes": 26,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vorterix",
+  "stream": "https://ice2.edge-apps.net/radio1_high-20057.audio",
+  "homepage": "https://www.vorterix.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 25,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "cuarteto en la web",
+  "stream": "https://masservidor.net/8616/stream",
+  "homepage": "https://cuartetoenlaweb.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 25,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio De la Azotea",
+  "stream": "http://149.202.235.235:8164/;stream/1",
+  "homepage": "http://www.radiodelaazotea.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 25,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Antena 98.9",
+  "stream": "http://server1.veemesoft.com.ar:8064/live",
+  "homepage": "http://radioantena98.com.ar/",
+  "favicon": "https://statics-v2.streema.com/static/img/radios/profile_background_default_380.abf7abe7e86a.jpg",
+  "tags": [
+   "cumbia",
+   "musica",
+   "música variada",
+   "popular",
+   "variety"
+  ],
+  "votes": 24,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vale 97.5",
+  "stream": "https://vale.stweb.tv/vale/live/chunks.m3u8",
+  "homepage": "",
+  "favicon": "",
+  "tags": [],
+  "votes": 24,
+  "codec": "UNKNOWN",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Radio Latina 100.9 (General Roca)",
+  "stream": "https://streamingraddios.online/proxy/luradioe?mp=/stream",
+  "homepage": "http://radioelvalle.com/",
+  "favicon": "",
+  "tags": [
+   "international"
+  ],
+  "votes": 24,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FMQ",
+  "stream": "https://streamlky.alsolnet.com/radiofmq",
+  "homepage": "http://www.radiofmq.com/home.php",
+  "favicon": "",
+  "tags": [],
+  "votes": 23,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Centinela",
+  "stream": "https://01.solumedia.com.ar:8050/stream",
+  "homepage": "https://www.argentina.gob.ar/gendarmeria/radio-centinela",
+  "favicon": "https://www.argentina.gob.ar/sites/default/files/icon/icon-180x180.png",
+  "tags": [],
+  "votes": 23,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LV10 Radio De Cuyo",
+  "stream": "https://streamserver-2.xyz/listen/lvdiez/radio.aac",
+  "homepage": "https://radioarg.net/lv10-radio",
+  "favicon": "https://radioarg.net/storage/radios/7982/71141/conversions/Wv6fmjY06BqLhZj9l47PO7RGyq8KwH-metabHYxMC1yYWRpby1tZW5kb3phLmpwZWc=--lg.webp",
+  "tags": [],
+  "votes": 23,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Ciudad 88.1 - Jujuy",
+  "stream": "http://181.177.20.20:8000/radiociudad",
+  "homepage": "http://www.radiociudadjujuy.com.ar/",
+  "favicon": "https://static.mytuner.mobi/media/tvos_radios/xkpbjht4nuxt.jpg",
+  "tags": [
+   "latin music",
+   "local news",
+   "mp3",
+   "news",
+   "pop music"
+  ],
+  "votes": 23,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Emisora del Este 98.9 FM y 98.1 FM",
+  "stream": "https://streaming.radiosenlinea.com.ar/8008/;",
+  "homepage": "https://www.emisoradelestefm.com.ar/",
+  "favicon": "https://play-lh.googleusercontent.com/P_K9fzMJA0-vkOhC4_1DEa75SXyDfV6GVTl6W5Ey6MHnzcXf_2Shi7s7lIhyARsBrQ=w240-h480-rw",
+  "tags": [
+   "cumbia",
+   "entretenimiento",
+   "folclore",
+   "local radio",
+   "música variada",
+   "popular",
+   "variety"
+  ],
+  "votes": 23,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM 95.5 RADIO REPUBLICA",
+  "stream": "https://edge-st1-audio.masterhost.com.ar/listen/radio_republica_955/radio.mp3",
+  "homepage": "https://www.fmradiorepublica.com.ar/",
+  "favicon": "https://www.fmradiorepublica.com.ar/favicon.ico",
+  "tags": [],
+  "votes": 22,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LU12 La Radio De La Gente, Rio Gallegos",
+  "stream": "https://sa.mp3.icecast.magma.edge-access.net/LOA_LaOpinionAustral",
+  "homepage": "https://lu12.com.ar/",
+  "favicon": "https://lu12.com.ar/resources/logos/favicon.ico",
+  "tags": [],
+  "votes": 22,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Cienradios Radio X",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOX_56AAC.aac",
+  "homepage": "https://ar.cienradios.com/player/radio-x/",
+  "favicon": "https://cloudfront-arc.cienradios.com/ar/favicons/apple-icon-120x120.png",
+  "tags": [
+   "alternative rock",
+   "pop"
+  ],
+  "votes": 22,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Aries FM 91.1",
+  "stream": "https://streaming3.locucionar.com/proxy/ariesonline?mp=/stream",
+  "homepage": "https://ariesfmsalta.com.ar/es/",
+  "favicon": "https://ariesfmsalta.com.ar/es/wp-content/uploads/2021/04/logo_mic.png",
+  "tags": [
+   "cumbia",
+   "entretenimiento",
+   "musica",
+   "radio hablada",
+   "various"
+  ],
+  "votes": 22,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM 97.UNE - Provincia de Buenos Aires",
+  "stream": "https://streaming.provinciaradio.com.ar:3352/fm",
+  "homepage": "https://provinciaradio.com.ar/",
+  "favicon": "",
+  "tags": [
+   "radio"
+  ],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Nordeste FM 102.7. Resistencia. Chaco",
+  "stream": "http://turadioenvivo.com:11027/stream",
+  "homepage": "http://www.radionordeste.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Ndr Radio",
+  "stream": "https://streamconex.com:8096/;?listening-from-radio-garden=1640125124",
+  "homepage": "https://ndrradio.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio 5 100.5 - General Pico",
+  "stream": "https://streaming2.locucionar.com/proxy/radio5fm/stream",
+  "homepage": "https://www.radio5fm.com/",
+  "favicon": "https://www.radio5fm.com/img/logo_1695051485.png",
+  "tags": [
+   "argentina",
+   "general pico",
+   "la pampa",
+   "radios pampeanas"
+  ],
+  "votes": 21,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM América 99.7",
+  "stream": "https://stream.zeno.fm/dsvp0vvm9k8uv",
+  "homepage": "https://zeno.fm/radio/fm-america-99-7/",
+  "favicon": "https://zeno.fm/_next/image/?url=https%3A%2F%2Fimages.zeno.fm%2FT3A33qSiHXS_TsE4NEt42ODwI_AA2ocUOgLuemBWpJE%2Frs%3Afit%3A1500%3A600%2Fg%3Ace%3A0%3A0%2FaHR0cHM6Ly9zdHJlYW0tdG9vbHMuemVub21lZGlhLmNvbS9jb250ZW50L3N0YXRpb25zL2FneHpmbnBsYm04dGMzUmhkSE55TWdzU0NrRjFkR2hEYkdsbGJuUVlnSURRcDluMl9nb01DeElPVTNSaGRHbHZibEJ5YjJacGJHVVlnSURRbDgtNndnc01vZ0VFZW1WdWJ3L21pY3Jvc2l0ZS9iYWNrZ3JvdW5kX2ltYWdlLz91cGRhdGVkPTE2NjA4NTY3MjMwMDA_dT01NzUxNTI0.webp&w=1920&q=70",
+  "tags": [
+   "folclore",
+   "local radio",
+   "nacional",
+   "popular",
+   "various"
+  ],
+  "votes": 21,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Estación Vinilo 89.1",
+  "stream": "http://173.255.205.241:1127/;",
+  "homepage": "http://radiovinilo.com.ar/",
+  "favicon": "",
+  "tags": [
+   "music",
+   "news",
+   "talk"
+  ],
+  "votes": 21,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "jaja cba",
+  "stream": "https://streaming5.locucionar.com/proxy/radiojaja?mp=/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "classical"
+  ],
+  "votes": 21,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Enjoy Radio",
+  "stream": "http://argentina.republicahosting.com:8261/stream",
+  "homepage": "http://enjoyradio.com.ar/",
+  "favicon": "",
+  "tags": [
+   "dance"
+  ],
+  "votes": 20,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "TMB The Musical Box",
+  "stream": "https://tmbradio.radioca.st/stream",
+  "homepage": "https://www.themusicalbox.com.ar/tmbradio.htm",
+  "favicon": "",
+  "tags": [],
+  "votes": 20,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "NQP Radio",
+  "stream": "http://cdn.instream.audio:8111/stream",
+  "homepage": "https://www.nqponline.com/",
+  "favicon": "https://static.wixstatic.com/media/a439a4_f4401807cd0c446581af4c7ec799c806%7emv2.png/v1/fill/w_180%2ch_180%2clg_1%2cusm_0.66_1.00_0.01/a439a4_f4401807cd0c446581af4c7ec799c806%7emv2.png",
+  "tags": [
+   "latin pop"
+  ],
+  "votes": 20,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Jazz Cafè FM-Smooth & Jazzy",
+  "stream": "https://stream-289.surfernetwork.com/qktzze7sb18uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxa3R6emU3c2IxOHV2IiwiaG9zdCI6InN0cmVhbS0yODkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlJwVUg5OThTU0N5UjJrb0lLSk5MWVEiLCJpYXQiOjE3OTE3OTkwOTcsImV4cCI6MTc5MTc5OTE1N30.uhaXTB54UA7ifki3U3gAlMTQ945sLv6ADh-yTn9txSU",
+  "homepage": "https://radioarg.net/jazz-cafe-fm",
+  "favicon": "https://radioarg.net/storage/radios/8052/78645/conversions/2EIYdhWjd4ZfBzwuXGiKbQXhn8P1eO-metaU2NyZWVuc2hvdF82MS5wbmc=--lg.webp",
+  "tags": [],
+  "votes": 20,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Fahrenheit FM 88.7 Rosario",
+  "stream": "https://streaming.redboing.com/radio/8010/radio.aac",
+  "homepage": "https://www.redboing.com/",
+  "favicon": "https://radioboing.com/stream/logo2.png",
+  "tags": [
+   "cumbia",
+   "dance",
+   "hits"
+  ],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Las Palmas",
+  "stream": "https://sonic.host-live.com:10853/stream?_=1",
+  "homepage": "http://www.radiolaspalmas.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio1: ElectricCircus",
+  "stream": "https://radio.eduneu.eu:8000/radio.mp3",
+  "homepage": "https://radio.eduneu.eu/public/radio1",
+  "favicon": "https://www.eduneu.eu/logo_radio1.png",
+  "tags": [
+   "dance"
+  ],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Sonifo FM 103.5 - El clásico sonido de Buenos Aires",
+  "stream": "https://stream.serviciowebdigital.com/8780/stream",
+  "homepage": "https://sonidofm.com/",
+  "favicon": "https://sonidofm.com/favicon.ico",
+  "tags": [
+   "classics oldies hits"
+  ],
+  "votes": 19,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Ahijuna 94.7",
+  "stream": "http://stream.ahijuna.fm/aire.mp3",
+  "homepage": "https://ahijuna.fm/",
+  "favicon": "https://ahijuna.fm/wp-content/uploads/2023/05/cropped-Ahijuna-marca-color-violeta.png",
+  "tags": [
+   "comunitaria",
+   "información",
+   "music",
+   "musica",
+   "noticias",
+   "radio comunitaria",
+   "radio hablada",
+   "social"
+  ],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Eclipse 90.5",
+  "stream": "https://streaming2.locucionar.com/proxy/fmeclipse905?mp=/stream",
+  "homepage": "https://fmeclipse905.com.ar/",
+  "favicon": "https://streaminglocucionar.com/portal/images/logos/fmeclipse905.png",
+  "tags": [
+   "cumbia",
+   "music",
+   "tropical"
+  ],
+  "votes": 19,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Libre 93.5 General Pico",
+  "stream": "https://streaming1.locucionar.com/proxy/libre935?mp=/stream",
+  "homepage": "https://streaminglocucionar.com/portal/?p=14245",
+  "favicon": "https://streaminglocucionar.com/portal/images/logos/libre935.png",
+  "tags": [
+   "argentina",
+   "fm",
+   "general pico",
+   "la pampa",
+   "radios pampeanas"
+  ],
+  "votes": 19,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Estación Popular 101.1",
+  "stream": "https://streaming.escuchanosonline.com:7298/;",
+  "homepage": "https://www.fmestacionpopular.com/",
+  "favicon": "https://escuchanosonline.com//clientes/img/estacionpopular/0cdc98b9f58d3db458480648046c8c77.jpg",
+  "tags": [
+   "cuarteto",
+   "entretenimiento",
+   "music",
+   "popular"
+  ],
+  "votes": 19,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Urbana Play 103.1 Necochea",
+  "stream": "https://cdn.instream.audio:9714/stream",
+  "homepage": "https://radioarg.net/urbana-play-1031",
+  "favicon": "https://radioarg.net/storage/radios/27360/82776/conversions/PMZblyeYJzWZZ7ZvrP3iGvV9rlT9cj-metadXJiYW5hLXBsYXktMTAzMS5qcGc=--lg.webp",
+  "tags": [],
+  "votes": 18,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio La Plata 90.9",
+  "stream": "https://radios.solumedia.com/6348/stream",
+  "homepage": "https://radiolaplata.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 18,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "InfoPico Radio 99.9 - General Pico",
+  "stream": "https://streaming3.locucionar.com/proxy/infopico999?mp=%2Fstream",
+  "homepage": "https://www.infopico.com/radio/",
+  "favicon": "https://play-lh.googleusercontent.com/UVUAYYTmuoiVxEBXQuXgenelHFdScpeSFldgSl6uv0EHYFCqFaNO01OH55PhhoAN9FQ",
+  "tags": [
+   "argentina",
+   "general pico",
+   "la pampa",
+   "radios pampeanas"
+  ],
+  "votes": 18,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "90 Radio (FM 90.1)",
+  "stream": "http://sonicpanel.hostradios.com:8108/;",
+  "homepage": "https://www.noventaradio.com/",
+  "favicon": "https://www.noventaradio.com/assets/img/logo.png",
+  "tags": [
+   "hits",
+   "latino urbano",
+   "musica",
+   "pop en español e inglés"
+  ],
+  "votes": 18,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "EDI RADIO",
+  "stream": "https://radio.forensedigital.gt:8090/stream",
+  "homepage": "https://elderechoinformatico.com/",
+  "favicon": "https://www.forensedigital.gt/ediradio.png",
+  "tags": [
+   "community radio",
+   "educational",
+   "radio educación",
+   "world music"
+  ],
+  "votes": 18,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rivadavia Rosario FM 106.3 Rosario",
+  "stream": "https://radio02.ferozo.com/proxy/ra02001331?mp=/stream",
+  "homepage": "https://www.rivadaviarosario.com.ar/",
+  "favicon": "https://grupocristal.com.ar/images/Logo-Rivadavia-2-copia.png",
+  "tags": [
+   "news",
+   "pop",
+   "talk"
+  ],
+  "votes": 18,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Antena 1 radio",
+  "stream": "https://streaming.escuchanosonline.com/8268/stream",
+  "homepage": "https://antenaunoradio.blogspot.com/",
+  "favicon": "https://blogger.googleusercontent.com/img/a/AVvXsEiEJiojfdnn0hMwpGZQeEjUyiGfw-4pwxsR1nP2Q0615opaZ8nqvdBXOXN1oOIzw7zVuo2747FCbqIkTYmf7qorWs5tekAU0PQBGh18fp4q5GM9Tequ6viLpQRReOayRW_SLzbozSw0tnWpAcMgeger6ghP5uJQVvHRKhwNS9TGfGEkCNdBIq9HdUyKtQ=s752",
+  "tags": [
+   "music",
+   "musica",
+   "música variada",
+   "variado",
+   "various"
+  ],
+  "votes": 18,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM CIUDAD 94.7",
+  "stream": "https://streaming6.locucionar.com:24028/stream",
+  "homepage": "http://ciudad947.com/",
+  "favicon": "",
+  "tags": [
+   "entretenimiento",
+   "pop",
+   "pop en español e inglés",
+   "reggaeton",
+   "urbano",
+   "variety"
+  ],
+  "votes": 17,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Andina FM 92.9",
+  "stream": "https://streaming01.shockmedia.com.ar:10801/stream?icy=http",
+  "homepage": "https://fmandina929.com.ar/",
+  "favicon": "https://fmandina929.com.ar/imagenes/banner.png",
+  "tags": [
+   "folclore",
+   "música andina",
+   "popular"
+  ],
+  "votes": 17,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio EduNeu 4: Rock & Pop de Argentina",
+  "stream": "https://radio.eduneu.eu/hls/radio4/live.m3u8",
+  "homepage": "https://radio.eduneu.eu/public/radio4",
+  "favicon": "https://www.eduneu.eu/logo_radio4.png",
+  "tags": [],
+  "votes": 17,
+  "codec": "AAC",
+  "hls": true,
+  "site": ""
+ },
+ {
+  "name": "Rio FM 104.3 General Belgrano",
+  "stream": "https://sonicpanel.hostradios.com/8032/stream",
+  "homepage": "https://fmrio.com.ar/",
+  "favicon": "",
+  "tags": [
+   "news talk music"
+  ],
+  "votes": 17,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "XRADIO 99.1",
+  "stream": "https://radios.streamingdha.com.ar/9826/;",
+  "homepage": "https://xradio.ar/radiochannel/x-radio-la-costa-99-1/",
+  "favicon": "https://xradio.ar/wp-content/uploads/2021/11/cropped-cropped-logo-radio-bariloche-san-clemente-1-1-150x150-1-180x180.png",
+  "tags": [
+   "adult contemporary",
+   "pop",
+   "rock"
+  ],
+  "votes": 17,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Horizonte (historica 94.3)",
+  "stream": "https://14223.live.streamtheworld.com/SAM06AAC243_SC",
+  "homepage": "https://horizonte.fm/",
+  "favicon": "",
+  "tags": [
+   "adult contemporary",
+   "oldies",
+   "pop",
+   "rock"
+  ],
+  "votes": 17,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "BRH - Bahía Radio Hits",
+  "stream": "https://miestacion.turadioonline.com.ar/8158/stream",
+  "homepage": "https://bahiaradiohits.com.ar/",
+  "favicon": "",
+  "tags": [
+   "classic hits 80's 90's"
+  ],
+  "votes": 17,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Arco Iris FM 98.1",
+  "stream": "http://centova.questreaming.com:4058/;",
+  "homepage": "https://arcoirischaco.com.ar/",
+  "favicon": "https://arcoirischaco.com.ar/public/2019/03/Asset-2.png",
+  "tags": [
+   "deportes",
+   "musica",
+   "noticias",
+   "variety"
+  ],
+  "votes": 17,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Estación Mix",
+  "stream": "http://stream.laut.fm/estacionmix",
+  "homepage": "https://radioestacionmix.jimdofree.com/",
+  "favicon": "https://u.jimcdn.com/cms/o/sc40a039d49acf98a/img/favicon.ico?t=1625931321",
+  "tags": [],
+  "votes": 17,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Emanuel FM 88.9",
+  "stream": "https://rr5100.globalhost1.com/8546/;",
+  "homepage": "https://elkyrios.net/radio/",
+  "favicon": "https://elkyrios.net/radio/images/logo_th.png",
+  "tags": [
+   "bible",
+   "cristiana",
+   "evangelio",
+   "gospel",
+   "religious"
+  ],
+  "votes": 17,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Retro Fest",
+  "stream": "https://streaming01.shockmedia.com.ar/9716/stream",
+  "homepage": "https://openmusic.com.ar/",
+  "favicon": "https://openmusic.com.ar/wp-content/uploads/2023/09/Logo-Kiss-002.png",
+  "tags": [
+   "old hits",
+   "retro music"
+  ],
+  "votes": 17,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio La PLaza 94.7",
+  "stream": "https://radio.arcast.net:1045/stream",
+  "homepage": "https://plazaweb.com.ar/",
+  "favicon": "https://plazaweb.com.ar/wp-content/uploads/2023/07/favicon-pw.png",
+  "tags": [],
+  "votes": 16,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LU33 Emisora Pampeana AM 890 - Santa Rosa",
+  "stream": "http://01.solumedia.com.ar:8324/stream",
+  "homepage": "https://radiospampeanas.com.ar/escucha-2/",
+  "favicon": "https://www.solumedia.com.ar/radios/8324/img/logo.jpg",
+  "tags": [
+   "argentina",
+   "la pampa",
+   "radios pampeanas",
+   "santa rosa"
+  ],
+  "votes": 16,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO ZEN FM",
+  "stream": "https://server.streamcasthd.com/8008/stream",
+  "homepage": "https://www.radiozenfm.com.ar/",
+  "favicon": "",
+  "tags": [
+   "old hits",
+   "pop",
+   "rock"
+  ],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Planet Music Bahía Blanca",
+  "stream": "https://strcdn.klm99.com:10987/planetbahia",
+  "homepage": "https://www.planetmusic.fm/",
+  "favicon": "",
+  "tags": [
+   "music",
+   "talk"
+  ],
+  "votes": 16,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ESPACIAL 105.1 FM",
+  "stream": "https://chino.republicahosting.com:2282/live",
+  "homepage": "https://fmespacial.wixsite.com/my-site",
+  "favicon": "https://static.wixstatic.com/media/1a40ca_9de5c79ad03c4eb1a120e8214f6f00d5~mv2.png/v1/fill/w_600,h_600,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1a40ca_9de5c79ad03c4eb1a120e8214f6f00d5~mv2.png",
+  "tags": [
+   "dance",
+   "electronic",
+   "house",
+   "music"
+  ],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Pueblo de Maria",
+  "stream": "http://01.solumedia.com.ar:7018/;",
+  "homepage": "https://pueblodemaria.com.ar/",
+  "favicon": "",
+  "tags": [
+   "catholic"
+  ],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Pop Life 107.7",
+  "stream": "http://streaming1.locucionar.com:14835/stream/;stream/1",
+  "homepage": "http://www.fm107radio.com/#!/-inicio/",
+  "favicon": "https://ss-static-01.esmsv.com/id/95379/galeriaimagenes/obtenerimagen/?id=73&tipoEscala=stretch&width=438&height=312",
+  "tags": [
+   "world"
+  ],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM De la Isla 91.1 Mhz",
+  "stream": "https://streaming1.locucionar.com/proxy/fmisla911?mp=/stream",
+  "homepage": "http://www.fmdelaisla.com.ar/",
+  "favicon": "https://streaminglocucionar.com/portal/images/logos/fmisla911.png",
+  "tags": [],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Antena Uno 92.3FM Posadas",
+  "stream": "https://radios.solumedia.com:10818/;",
+  "homepage": "https://antenamisiones.com/",
+  "favicon": "https://antenamisiones.com/antena.jpg",
+  "tags": [
+   "entretenimiento",
+   "musica",
+   "noticias",
+   "radio hablada",
+   "variety"
+  ],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Coctel online",
+  "stream": "https://streaming01.shockmedia.com.ar:8452/stream",
+  "homepage": "https://cocteltodounclasico.com.ar/",
+  "favicon": "https://i.postimg.cc/X7VShdgT/Logo-Coctel-On-line-NEGRO-copia.jpg",
+  "tags": [
+   "funk",
+   "jazz fusion",
+   "pop",
+   "rock",
+   "synthpop"
+  ],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Antena Libre 89.1 FM",
+  "stream": "https://cdn.instream.audio/:9140/stream",
+  "homepage": "https://www.antena-libre.com.ar/",
+  "favicon": "https://i0.wp.com/www.antena-libre.com.ar/wp-content/uploads/2019/05/cropped-web2019-isolog-lite.jpg?w=888&ssl=1",
+  "tags": [
+   "alternative",
+   "noncomercial",
+   "radio comunitaria",
+   "radio hablada"
+  ],
+  "votes": 16,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Digital San Luis 101.1 FM",
+  "stream": "https://streamconex.com:8062/;",
+  "homepage": "https://www.digitalsanluis.com.ar/",
+  "favicon": "",
+  "tags": [
+   "70s",
+   "80s",
+   "90s",
+   "adult contemporary",
+   "music",
+   "oldies"
+  ],
+  "votes": 16,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Beat Digital Radio",
+  "stream": "http://stream.zeno.fm/9s7nnwmknkhvv",
+  "homepage": "http://rbdweb.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 16,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "LU2 Radio Bahía Blanca",
+  "stream": "https://streaming6.locucionar.com:24228/stream?ver=492502",
+  "homepage": "https://radioarg.net/radio-bahia-blanca-840-am",
+  "favicon": "https://radioarg.net/storage/radios/8111/10233/conversions/lu2-bahia-blanca-840-am-lg.webp",
+  "tags": [],
+  "votes": 16,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "ABC Mundial Radio",
+  "stream": "http://01.solumedia.com.ar:7054/;",
+  "homepage": "https://abcmundial.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 16,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La 97",
+  "stream": "https://streaming01.shockmedia.com.ar:10586/stream",
+  "homepage": "",
+  "favicon": "",
+  "tags": [],
+  "votes": 15,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Vinilo Mix",
+  "stream": "https://audiopanel.com.ar:8010/radio.aac",
+  "homepage": "https://www.radios-argentinas.org/vinilo",
+  "favicon": "",
+  "tags": [
+   "80s",
+   "90s",
+   "oldies"
+  ],
+  "votes": 15,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Rivadavia",
+  "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC_SC?dist=triton-widget&pname=tdwidgets",
+  "homepage": "",
+  "favicon": "",
+  "tags": [
+   "news"
+  ],
+  "votes": 15,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM ESPERANZA 107.1 MHZ",
+  "stream": "https://streaming01.shockmedia.com.ar:10404/stream?icy=http",
+  "homepage": "https://1071fmnuevaesperanza.com.ar/",
+  "favicon": "https://1071fmnuevaesperanza.com.ar/imagenes/banner.png",
+  "tags": [
+   "cuarteto",
+   "cumbia",
+   "popular",
+   "tropical"
+  ],
+  "votes": 15,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "RADIO BEAT 97.5 FM",
+  "stream": "http://audio.questreaming.com:27902/;",
+  "homepage": "http://www.radiobeat97.com.ar/beat/",
+  "favicon": "https://radiobeat97.com.ar/beat/wp-content/uploads/2021/09/cropped-logo-beat-2021b-1-180x180.png",
+  "tags": [
+   "charts",
+   "dance",
+   "entretenimiento",
+   "hits",
+   "music",
+   "pop dance",
+   "pop en inglés",
+   "top 40"
+  ],
+  "votes": 15,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Cosecha",
+  "stream": "http://www.genexservicios.com:8068/;",
+  "homepage": "http://fmcosecha.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 15,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Zero 91.1 MHz",
+  "stream": "https://radiozero.fm/reproductor/proxy/",
+  "homepage": "https://www.radiozero.fm/",
+  "favicon": "https://www.radiozero.fm/logo2.png",
+  "tags": [],
+  "votes": 15,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "radio La Nave",
+  "stream": "https://stream.zeno.fm/7zb5ppzk0mruv.aac",
+  "homepage": "http://naveargenta.blogspot.com/",
+  "favicon": "",
+  "tags": [],
+  "votes": 15,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "La Radio 93.5",
+  "stream": "https://01.solumedia.com.ar:8494/stream",
+  "homepage": "https://laradio.com.ar/",
+  "favicon": "",
+  "tags": [
+   "baladas en español",
+   "musica romantica",
+   "música en español",
+   "noticias",
+   "talk"
+  ],
+  "votes": 15,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Blur fm",
+  "stream": "http://live.radiovague.com:8000/blurfm03",
+  "homepage": "https://www.blurfm.com/es/",
+  "favicon": "",
+  "tags": [
+   "alternative",
+   "eclectic",
+   "pop",
+   "rock"
+  ],
+  "votes": 15,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Radio Buenos Aires LS6 AM 1350 khz",
+  "stream": "https://nl.digitalrm.pt:8052/stream",
+  "homepage": "https://www.radiobuenosaires.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 15,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Activa FM 93.5",
+  "stream": "https://streaming5.locucionar.com/proxy/activafm?mp=/stream",
+  "homepage": "https://activafmweb.com.ar/",
+  "favicon": "",
+  "tags": [
+   "entretenimiento",
+   "musica",
+   "música en español",
+   "noticias",
+   "pop",
+   "radio hablada",
+   "varios"
+  ],
+  "votes": 15,
+  "codec": "AAC",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Q103 Radio",
+  "stream": "http://01.solumedia.com.ar:7139/;",
+  "homepage": "https://q103.com.ar/",
+  "favicon": "",
+  "tags": [],
+  "votes": 15,
+  "codec": "AAC+",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "Achala",
+  "stream": "https://streaming2.mundoradio.com.ar/9134/stream",
+  "homepage": "https://achalafm.blogspot.com/",
+  "favicon": "https://www.farco.org.ar/radios/wp-content/uploads/sites/4/2023/03/radio-achala.jpg",
+  "tags": [
+   "radio comunitaria"
+  ],
+  "votes": 14,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ },
+ {
+  "name": "FM Universidad 98.7 - Universidad Nacional de Misiones",
+  "stream": "https://fm.unam.edu.ar/fm",
+  "homepage": "https://transmedia.unam.edu.ar/",
+  "favicon": "https://transmedia.unam.edu.ar/templates/yootheme/cache/42/logo_transmedia_home-4274af76.webp",
+  "tags": [
+   "misiones",
+   "radio unam",
+   "unam",
+   "universidad nacional de misiones"
+  ],
+  "votes": 14,
+  "codec": "MP3",
+  "hls": false,
+  "site": ""
+ }
+]

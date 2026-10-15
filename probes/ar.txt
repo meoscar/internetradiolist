@@ -1,0 +1,1014 @@
+Probed 2026-10-15 16:36 UTC from GitHub's network
+
+Radio Browser (https://de1.api.radio-browser.info): 1000 stations filed under AR, ordered by votes
+  reachable now           898 (90%)
+    HLS playlists          44 (4%)   play, no title in the stream
+    ICY title             280 (28%)
+    status document        25 (2%)
+    plays, names nothing  549 (55%)
+  not reachable           102 (10%)
+
+codecs as filed: MP3 467, AAC+ 309, AAC 193, UNKNOWN 15, OGG 13, FLV 1, AAC,H.264 1, ? 1
+tags as filed: music 91, pop 87, entretenimiento 73, rock 58, hits 58, noticias 53, radio hablada 37, 80s 35, 90s 35, adult contemporary 35, cumbia 34, news 32, classic hits 31, argentina 28, popular 24, talk 22, 2000s 22, deportes 21, musica 20, oldies 20, information 19, variety 19, various 18, música en español e inglés 17, local news 15
+
+every station, most voted first:
+   6736 votes  Radio Rivadavia                         MP3   plays, names nothing
+   6193 votes  Rock And Pop FM 95.9 (Rock & Pop) Ciud  AAC+  plays, names nothing
+   5091 votes  Mitre AM 790. AAC Alta. Ciudad de Buen  AAC+  plays, names nothing
+   5036 votes  Radio Latina FM 101.1                   MP3   no answer
+   4470 votes  Radio Rivadavia AM 630. Ciudad de Buen  AAC+  plays, names nothing
+   4368 votes  La 100 - 99.9 FM - Grupo Clarín - Buen  MP3   plays, names nothing
+   3591 votes  Radio 10                                AAC   HLS, plays
+   3478 votes  Blue FM 100.7. Ciudad de Buenos Aires   AAC+  plays, names nothing
+   3291 votes  El Destape Radio                        AAC   ICY: 1070 AM
+   3078 votes  Radio Con Vos 89.9                      AAC   HLS, plays
+   2990 votes  Radio La Red AM 910. Ciudad de Buenos   AAC+  plays, names nothing
+   2686 votes  Radio Mitre                             AAC+  plays, names nothing
+   2609 votes  Radio Nacional Folklorica 98.7          MP3   plays, names nothing
+   1993 votes  Radio Recuerdos 106.7                   AAC   no answer
+   1940 votes  Radio Nacional Rock 93.7                MP3   plays, names nothing
+   1911 votes  Feeling 91.9 FM                         MP3   ICY: Bill LaBounty - This Night Won't Last Forever
+   1846 votes  Radio nacional AM 870                   MP3   plays, names nothing
+   1780 votes  Fm Cumbiambera                          AAC+  ICY: Salta Argentina
+   1771 votes  Cadena 3 Cordoba                        MP3   plays, names nothing
+   1732 votes  AM 530 Somos radio                      AAC   plays, names nothing
+   1556 votes  Vale 97.1                               AAC   HLS, plays
+   1525 votes  The Musical Box Radio                   MP3   ICY: Sting Featuring The Royal Philharmonic Concert Orchestra Conducte
+   1500 votes  Radio Disney Argentina 94.3. Ciudad de  MP3   plays, names nothing
+   1445 votes  107.9 El Observador                     AAC   no answer
+   1274 votes  Pop Radio 101.5                         AAC   HLS, plays
+   1235 votes  FutuRock                                AAC   HLS, plays
+   1204 votes  Urbana Play 104.3                       UNKNOWN HLS, plays
+   1178 votes  Aspen 102.3                             MP3   plays, names nothing
+   1124 votes  FM Millenium 106.7                      AAC   ICY: Hi-Fi Internet Stream
+   1103 votes  Metro 95.1                              MP3   plays, names nothing
+    994 votes  La Popu                                 MP3   plays, names nothing
+    989 votes  Pobre Johnny                            AAC   ICY: Unknown
+    901 votes  Nacional Clásica fm 96.7                MP3   plays, names nothing
+    887 votes  RADIO MARIA ARGENTINA                   AAC+  ICY: RADIO MARIA ARGENTINA
+    833 votes  Pop Radio 101.5                         UNKNOWN HLS, plays
+    825 votes  Metro FM 95.1. Ciudad de Buenos Aires   AAC+  plays, names nothing
+    811 votes  Radio Argentina - AM 570                MP3   plays, names nothing
+    788 votes  Fm Latina 92.5 Salta                    MP3   plays, names nothing
+    778 votes  Radio 2 1230 AM                         AAC+  plays, names nothing
+    776 votes  Radio Belgrano - AM 650                 MP3   plays, names nothing
+    757 votes  Delta 90.3                              AAC   plays, names nothing
+    689 votes  HIT RADIO FFH. 128K AAC. Argentina      AAC+  ICY: Justin Timberlake - Can't Stop The Feeling!
+    678 votes  Tropibox FM 107.1                       MP3   no answer
+    677 votes  Blue 100.7 FM                           AAC+  plays, names nothing
+    671 votes  Radio Rebelde AM 740                    MP3   plays, names nothing
+    623 votes  FM La Patriada                          MP3   ICY: -
+    621 votes  Plus 93.1 FM                            AAC+  plays, names nothing
+    616 votes  Aspen 102.3                             MP3   plays, names nothing
+    609 votes  Radio Disney 94.3 - Buenos Aires, Arge  AAC+  plays, names nothing
+    602 votes  MEGA 98.3                               AAC   HLS, plays
+    597 votes  d-Sports radio                          AAC+  plays, names nothing
+    568 votes  Urbana Play 104.4                       AAC+  no answer
+    549 votes  Radio Con Vos 89.9 FM                   AAC   HLS, plays
+    537 votes  M90 89.9 FM                             MP3   plays, names nothing
+    512 votes  Radio Rivadavia                         AAC+  plays, names nothing
+    505 votes  Radio Shopping                          AAC   ICY: -
+    504 votes  La 100 Clásicos - Disco Retro Clásicos  AAC+  plays, names nothing
+    500 votes  Radio Cristiana 95.7                    AAC+  plays, names nothing
+    496 votes  El Destape                              AAC   ICY: 1070 AM
+    493 votes  Radio del Plata                         MP3   plays, names nothing
+    491 votes  La Radio 104.7 FM. Resistencia Chaco.   AAC+  plays, names nothing
+    484 votes  Feeling FM 97.1 - Corrientes, Argentin  MP3   ICY: Bill LaBounty - This Night Won't Last Forever
+    419 votes  La Radio De Los Lentos                  AAC   ICY: DIONNE WARWICK - That's What Friends Are For
+    414 votes  Concepto FM 95.5 MHz                    MP3   plays, names nothing
+    406 votes  Radio Onda | Tigre Argentina            MP3   ICY: Survivor - Eye Of The Tiger [1Gf]
+    406 votes  FutuRÖck                                AAC   HLS, plays
+    398 votes  Radio Sudamericana 100.5 - Corrientes   AAC+  plays, names nothing
+    380 votes  Radio AM 750 Objetivos, pero no imparc  AAC+  no answer
+    366 votes  LRA1 Radio Nacional Argentina           MP3   plays, names nothing
+    355 votes  D Sports Radio                          MP3   plays, names nothing
+    347 votes  el destape sin fin                      AAC   ICY: 1070 AM
+    340 votes  FM 103.1 DirecTV Sports Radio - Argent  AAC+  plays, names nothing
+    331 votes  Rivadavia AM 630 AAC Alta. Ciudad de B  AAC+  plays, names nothing
+    322 votes  Rincón Gaucho                           AAC+  ICY: Eduardo Guajardo - La guitarra
+    320 votes  Radio Disney (Argentina) - 94.3 FM - L  AAC+  plays, names nothing
+    313 votes  Radio Fiesta 97.1 Jujuy                 AAC   HLS, plays
+    303 votes  María Argentina                         AAC+  ICY: RADIO MARIA ARGENTINA
+    302 votes  FM 97.9 Vida                            AAC+  plays, names nothing
+    293 votes  Radio Saint Germain                     MP3   ICY: Classical Tunes - The Best Of Giuseppe Verdi | The Voice And Soul
+    280 votes  iTUNES TOP 40 FFH. 128K AAC. Argentina  AAC+  ICY: Platz 28: Giant Rooks - Slow Dance (For A Minute)
+    280 votes  Radio Disney - Argentina FM 94.3        AAC+  plays, names nothing
+    268 votes  LT7 Radio Provincia de Corrientes       AAC+  ICY: AM 900 KHz
+    268 votes  Radio DeeJay 92.5                       MP3   plays, names nothing
+    263 votes  Radio Cadena 3                          MP3   plays, names nothing
+    262 votes  Milenium 94.1 FM                        MP3   plays, names nothing
+    255 votes  Bar de Blues Radio                      MP3   ICY: Robben Ford - Sweet Sixteen
+    251 votes  FM UTN Mendoza                          MP3   ICY: Radio UTN online
+    246 votes  LT8 AM830                               MP3   plays, names nothing
+    244 votes  El Destape Radio                        AAC   ICY: 1070 AM
+    233 votes  Radio Norte Bahia                       AAC   ICY: RADIO NORTE - TEMPORADA ALTA TODO EL A�O
+    232 votes  FM Plus 93.1 Rosario                    AAC+  plays, names nothing
+    219 votes  FM La Tribu 88.5 Buenos Aires           MP3   no answer
+    217 votes  Radio El Mundo - AM 1070                MP3   plays, names nothing
+    216 votes  Radio Britannia                         AAC+  ICY: Starsailor - Four To The Floor
+    212 votes  107.9 El Observador version 2           AAC   no answer
+    208 votes  Radio Cristiana fm 88.3                 MP3   plays, names nothing
+    204 votes  Radio Cristiana FM 88.3                 MP3   plays, names nothing
+    198 votes  LU6 Radio Atlántica                     MP3   no answer
+    187 votes  Radio FM Gualamba 93.7. Resistencia Ch  MP3   plays, names nothing
+    186 votes  Radio Universidad                       AAC   plays, names nothing
+    177 votes  AM710 - Radio 10 (El sonido de la real  AAC   HLS, plays
+    175 votes  Milenium 106.7 FM                       AAC   ICY: Hi-Fi Internet Stream
+    175 votes  Dinamo FM 100.9                         AAC+  ICY: RADIO DINAMO PURO ROCK
+    173 votes  La Rocka RcK FM 107.3                   AAC+  ICY: Calvin Harris - Outside
+    169 votes  Radio 2                                 MP3   ICY: RADIO 2 - AUBASA
+    168 votes  Cadena Heat                             MP3   plays, names nothing
+    163 votes  Radio Boing 97.3 Rosario                MP3   plays, names nothing
+    161 votes  Radio 5: Mitre AM790                    MP3   ICY: EELT – Sep WEB 02
+    158 votes  Radio Universidad - FM93.5 La Tecno (U  AAC   plays, names nothing
+    156 votes  Radio Dos Corrientes FM 99.3. Ciudad d  MP3   plays, names nothing
+    150 votes  Radio One 103.7                         AAC   HLS, plays
+    145 votes  Radio Caput                             MP3   no answer
+    143 votes  Radio Splendid AM 900                   MP3   plays, names nothing
+    143 votes  Radio Cielo - FM 106.9 mhz (Zarate)     MP3   plays, names nothing
+    142 votes  antena libre 89.1 argentina universida  AAC   plays, names nothing
+    140 votes  Classique: Una radio de clásicos        MP3   ICY: CLASSIQUE #unaradiodeclasicos
+    137 votes  Rock & Pop 95.9 FM                      MP3   plays, names nothing
+    136 votes  89.5 La 100                             MP3   no answer
+    136 votes  Latina 101.1 Argentina                  MP3   no answer
+    135 votes  Club De Los Libros Libros Intocables -  MP3   no answer
+    133 votes  LA NACION 104.9                         MP3   ICY: -
+    132 votes  Radio Universidad Mendoza               MP3   plays, names nothing
+    130 votes  Radiactiva 100.7                        AAC   plays, names nothing
+    125 votes  FM Universidad 107.5 UNLP               MP3   plays, names nothing
+    125 votes  La 2x4                                  AAC+  plays, names nothing
+    124 votes  Si 98.9 FM                              MP3   plays, names nothing
+    120 votes  Radio 10                                AAC   HLS, plays
+    117 votes  Continental 590 AM. Bs. As. Version 3   MP3   plays, names nothing
+    115 votes  Fm 94.1 Onda Horizonte                  MP3   ICY: Ads - Block
+    114 votes  Fisherton                               MP3   plays, names nothing
+    113 votes  Nuevos Aires FM 99.7                    MP3   no answer
+    111 votes  D Sports Radio 103.1 FM                 AAC+  plays, names nothing
+    109 votes  Radio Futura - FM 90.5 mhz              MP3   plays, names nothing
+    109 votes  La Estación Fm 107.9 Salta              AAC+  plays, names nothing
+    108 votes  planeta cuarteto, Villa Carlos Paz 100  MP3   plays, names nothing
+    108 votes  Mucha Radio 94.7                        MP3   plays, names nothing
+    105 votes  La 2x4                                  MP3   plays, names nothing
+    104 votes  La Nacion Mas Musica 104.9              MP3   ICY: -
+    104 votes  Classic Hits - Éxitos que no pasan de   MP3   plays, names nothing
+    103 votes  Meridiano 107.1 FM                      MP3   plays, names nothing
+    102 votes  LT14 Nacional Gral. Urquiza AM 1260 -   MP3   plays, names nothing
+     99 votes  La Popu 92.3                            MP3   plays, names nothing
+     98 votes  Delta 90.3 Buenos Aires                 AAC   plays, names nothing
+     97 votes  Lalala Radio La música de Luis Alberto  MP3   ICY: Unknown - Bloque 25 Foucault
+     95 votes  FM 97.9 Vida                            AAC+  plays, names nothing
+     94 votes  FM en Transito                          AAC   plays, names nothing
+     93 votes  Radio Suquia                            AAC+  plays, names nothing
+     92 votes  Undinamo                                AAC   ICY: EN VIVO - UN DINAMO RADIO
+     91 votes  FM Soldados 87.5                        AAC+  ICY: Elton John - Who Wears These Shoes?
+     90 votes  Dorado FM 98.3                          MP3   no answer
+     90 votes  FM Bariloche                            AAC+  ICY: Hi-Fi Internet Stream
+     86 votes  Radio Natagalá FM 94.7. Resistencia Ch  AAC+  no answer
+     81 votes  AM 830 LT8 Rosario                      MP3   plays, names nothing
+     80 votes  Radio Grafica                           MP3   plays, names nothing
+     77 votes  Comunidad Fan FM 105.1 Rosario          MP3   ICY: Romeo Santos - Propuesta Indecente
+     77 votes  Cosquín Rock 95.5                       MP3   plays, names nothing
+     77 votes  Fm Dale 96.1                            AAC+  plays, names nothing
+     73 votes  Radio Universidad - UNLP - AM 1390      MP3   plays, names nothing
+     73 votes  Radio Activa FM 96.9 - Ing. Mashwitz    AAC+  ICY: Hi-Fi Internet Stream
+     69 votes  Radio Nacional Córdoba - LRA7 AM750     MP3   plays, names nothing
+     69 votes  Radio Forra                             MP3   plays, names nothing
+     69 votes  Hollywood 101.3                         MP3   plays, names nothing
+     69 votes  107.9 El Observador version 3           AAC   no answer
+     69 votes  Nacional Perito Moreno - LRA56 AM860    MP3   plays, names nothing
+     68 votes  FM Córdoba                              MP3   plays, names nothing
+     68 votes  Radiofonica 100.7                       MP3   no answer
+     67 votes  Radio 10 Mar del Plata FM 105.5 / Mira  AAC   plays, names nothing
+     67 votes  Radio NOW 97.9                          AAC   plays, names nothing
+     67 votes  Radio de Clásicos 106.9 FM - Saladillo  MP3   plays, names nothing
+     66 votes  AM Con Vos 1420. AM 1420                AAC+  plays, names nothing
+     66 votes  FM La Boca 90.1 Buenos Aires            AAC+  plays, names nothing
+     65 votes  FM BAND NEWS 89.5                       AAC+  plays, names nothing
+     65 votes  92.5 FM Radio 2000                      AAC+  plays, names nothing
+     65 votes  CVC La Voz Urbano                       OGG   plays, names nothing
+     65 votes  Radio Monk                              AAC+  ICY: 2 carol Curryb - Just the way you are
+     63 votes  Cristal FM                              MP3   plays, names nothing
+     62 votes  Radio Impacto Cordoba                   AAC+  ICY: Hi-Fi Internet Stream
+     62 votes  Nacional Rock FM 93.7                   MP3   plays, names nothing
+     62 votes  Frecuencia Patagonia FM 99.3            MP3   plays, names nothing
+     61 votes  Radio Brisas 98.5                       MP3   plays, names nothing
+     60 votes  RadioTV AN24                            AAC   ICY: publicidad_Libreria_El_Cid
+     60 votes  Cadena 3                                AAC+  plays, names nothing
+     60 votes  FM Horizonte (revival 101.9)            AAC   HLS, plays
+     60 votes  Somos Radio                             AAC   plays, names nothing
+     59 votes  Acqua FM 100.1                          MP3   plays, names nothing
+     58 votes  Cadena Alegría - Córdoba                MP3   no answer
+     58 votes  Cadena 3 Cordoba                        MP3   plays, names nothing
+     57 votes  Radio Universidad Rosario               AAC   plays, names nothing
+     56 votes  OK FM Arroyito                          AAC+  ICY: Hi-Fi Internet Stream
+     56 votes  FM Cristo Rey 105.1                     MP3   plays, names nothing
+     56 votes  Radio Ciudad AM 1110                    AAC+  plays, names nothing
+     56 votes  Radio Orión                             AAC+  status: 22 - Eruca Sativa - Armas Gemelas
+     55 votes  Universidad Claf 103.7 Mhz              MP3   plays, names nothing
+     55 votes  RADIO ARIAS FM 91.1 JUJUY               AAC+  no answer
+     54 votes  Radio Nacional Folklórica FM 98.7       MP3   plays, names nothing
+     53 votes  88.9 FM Radio Light                     AAC   plays, names nothing
+     52 votes  LOS 40 SANTA FE 97.7                    AAC+  status: Los 40 Santa Fe 97.7Mhz
+     52 votes  LaRadioDeLosLentos - Just Ballads       AAC   ICY: DIONNE WARWICK - That's What Friends Are For
+     50 votes  Radio UTN Bahia Blanca - FM 93.5        MP3   plays, names nothing
+     49 votes  Chascomús AM 1520                       AAC+  ICY: Radio Chascomus AM 1520
+     49 votes  Radio República                         AAC+  plays, names nothing
+     48 votes  Radio Bicentenario Tucumán              AAC+  plays, names nothing
+     48 votes  Radio Espiritu Santo                    MP3   ICY: PROGRAMA MOV MONT 13-10-2026
+     48 votes  Radio Verdad (Villa Dolores)            AAC+  plays, names nothing
+     47 votes  Cienradios - Enamorados                 AAC+  no answer
+     47 votes  RADIO CENTRO                            MP3   ICY: Cop Centro GRC Feb 2012 - 10
+     47 votes  Somos Radio - AM 530 (Radio de las Mad  AAC+  plays, names nothing
+     46 votes  FM Blackie 89.1                         MP3   plays, names nothing
+     46 votes  AIRE                                    AAC+  plays, names nothing
+     46 votes  Big FM 91.9 Rosario                     MP3   no answer
+     46 votes  LT9 Radio Brigadier López La Líder      AAC+  plays, names nothing
+     45 votes  Radio Tecnoteca                         AAC+  plays, names nothing
+     45 votes  Cosmos Fm                               AAC+  plays, names nothing
+     45 votes  Urbana Play 104.3                       UNKNOWN HLS, plays
+     44 votes  Radio Provincia - AM1270                MP3   plays, names nothing
+     44 votes  Radio UNR                               AAC   plays, names nothing
+     44 votes  Radio 21 FM 90.1 - Caleta Olivia        AAC+  plays, names nothing
+     44 votes  Radio Más                               MP3   ICY: RADIOMAS
+     44 votes  Delta 90.3                              AAC   plays, names nothing
+     44 votes  FM Imperio                              AAC+  ICY: FM IMPERIO 98.7
+     43 votes  radio Gráfica                           MP3   plays, names nothing
+     43 votes  Radio Mitre Patagonia - FM 90.5         MP3   plays, names nothing
+     43 votes  Radio chascomús La voz Regional AM 152  AAC+  ICY: Radio Chascomus AM 1520
+     42 votes  Hollywood FM 101.3 Rosario              MP3   plays, names nothing
+     41 votes  96.1 Shopping Classics                  AAC   ICY: -
+     41 votes  FM Sensaciones 95.1                     AAC   plays, names nothing
+     41 votes  LU6 Radio Atlántica Mar Del Plata AM 7  MP3   no answer
+     40 votes  Binaural Rock Radio                     AAC+  no answer
+     40 votes  LU20 Radio Chubut                       AAC+  plays, names nothing
+     39 votes  FM La Uni 91.7                          AAC   plays, names nothing
+     39 votes  Radio AM 750                            AAC+  plays, names nothing
+     38 votes  La Retro                                MP3   plays, names nothing
+     38 votes  FMI TUCUMAN                             MP3   plays, names nothing
+     37 votes  T&D Radio                               MP3   no answer
+     37 votes  LU22 Radio Tandil AM1140                MP3   plays, names nothing
+     37 votes  AM 1270 - Radio Provincia de Buenos Ai  MP3   plays, names nothing
+     37 votes  Rio FM 96.9 Rosario                     MP3   plays, names nothing
+     37 votes  Radio Universidad CALF Neuquén          MP3   plays, names nothing
+     37 votes  LU6 - Radio Atlantica  - Mar del Plata  MP3   no answer
+     36 votes  DS Radio Horizonte 94.5 FM              AAC+  plays, names nothing
+     36 votes  Radio Azul Tolhuin FM 100.9             AAC+  no answer
+     35 votes  Radiovision Comodoro Rivadavia FM 99.5  MP3   plays, names nothing
+     35 votes  Feeling FM 91.7                         MP3   ICY: The Alan Parsons Project - Days Are Numbers (The Traveller)
+     35 votes  neverland                               MP3   plays, names nothing
+     35 votes  Rock RA                                 MP3   plays, names nothing
+     34 votes  Radio Kermés Comunitaria                MP3   plays, names nothing
+     34 votes  Soy un Clasico                          AAC+  ICY: Present_Clasicos (21)
+     34 votes  La voz de VCI                           AAC   plays, names nothing
+     34 votes  Radio 4: Rock & Pop Argentino           MP3   ICY: María Rosa Yorio - Quiero Ver, Quiero Ser, Quiero Entrar
+     34 votes  Estación Del Siglo Rio Grande FM 105.3  AAC   plays, names nothing
+     33 votes  CVC La Voz Urbano                       OGG   plays, names nothing
+     33 votes  Radio Rio Cuarto                        MP3   plays, names nothing
+     33 votes  Cienradios - 90s Internacional          AAC+  no answer
+     33 votes  Radio UTN Mendoza 94.5                  MP3   ICY: Radio UTN online
+     33 votes  Nuestra FM La Adela FM 107.5            MP3   plays, names nothing
+     33 votes  rock and pop 89.7 FM                    AAC+  plays, names nothing
+     32 votes  Fm 106.1 Estacion 2                     AAC+  ICY: Fm 106.1 Estacion 2
+     32 votes  UnDinamo                                AAC   ICY: EN VIVO - UN DINAMO RADIO
+     32 votes  Radio FM UTN 94.5 - Regional Mendoza    MP3   ICY: Radio UTN online
+     32 votes  FM 90 Saladillo FM 90.7                 AAC   ICY: Hi-Fi Internet Stream
+     32 votes  Radio Valle Viejo                       AAC+  ICY: RADIO VALLE VIEJO 104.1
+     32 votes  Radio Disney Argentina 94.3             AAC+  plays, names nothing
+     32 votes  Net80 Radio                             AAC+  ICY: issue
+     31 votes  Planet Music Mar del PLata 101.1        MP3   plays, names nothing
+     31 votes  Radio Universidad - FM91.1 UTN Resiste  AAC+  ICY: LRH 307 - FM 91.1Mhz
+     31 votes  Radio 10                                UNKNOWN HLS, plays
+     31 votes  RPM Oldies & Retro Hits                 AAC+  ICY: Wamdue Project - King of My Castle
+     31 votes  Radio Tandil - LU22 AM140               MP3   plays, names nothing
+     31 votes  Kiss FM 95.1 Rosario                    MP3   plays, names nothing
+     30 votes  FM 90.9 Rosario                         AAC   plays, names nothing
+     30 votes  Quality X - 89.7 FM                     AAC+  status: Karol G, Judeline, Rusowsky - bbY WOW
+     30 votes  Simphony San Isidro FM 91.3 Mhz         AAC   plays, names nothing
+     30 votes  Radio Patagonia Puerto Madryn FM 105.5  AAC+  no answer
+     30 votes  FM 96.5 - Residencias                   AAC   no answer
+     29 votes  Rock ra                                 MP3   plays, names nothing
+     29 votes  LV11                                    AAC+  no answer
+     28 votes  Magic Kids FM                           AAC+  ICY: Adrián Barba   El Poder Nuestro Es Full Latino
+     28 votes  Radio City juy                          UNKNOWN HLS, plays
+     28 votes  Alegría FM 99.7                         MP3   ICY: Cadena Alegria La Campeona Del Dial Whatsapp 351-349-2367
+     28 votes  Radio Autonoma Piuke                    MP3   no answer
+     27 votes  La Red Pampeana                         MP3   plays, names nothing
+     27 votes  Remanente de efraim                     MP3   plays, names nothing
+     27 votes  rc                                      AAC+  ICY: Richard Coleman - Phil Manzanera - Eternidad
+     26 votes  FM Alegría 101.7 General Pico           AAC+  ICY: Hi-Fi Internet Stream
+     26 votes  Radio Universidad AM580                 MP3   plays, names nothing
+     26 votes  LU24 Radio Tres Arroyos                 AAC+  plays, names nothing
+     26 votes  FM Galaxia 88.7                         MP3   ICY: Live Broadcast
+     26 votes  Radio Magic FM 100.9 Tigre              AAC+  ICY: Hi-Fi Internet Stream
+     26 votes  Exa FM                                  AAC+  plays, names nothing
+     26 votes  Radio Universidad FM 93.5 Rio Grande    AAC   plays, names nothing
+     26 votes  edutecnica salta                        MP3   no answer
+     26 votes  FM Latidos 95.1 - General Pico          MP3   plays, names nothing
+     25 votes  Vorterix                                AAC+  plays, names nothing
+     25 votes  FM Ayer 98.1                            MP3   no answer
+     25 votes  M90 Vintage FM 94.1 Rosario             MP3   plays, names nothing
+     25 votes  cuarteto en la web                      AAC+  plays, names nothing
+     25 votes  Radio De la Azotea                      MP3   plays, names nothing
+     25 votes  Feeling 91.7                            MP3   ICY: The Alan Parsons Project - Days Are Numbers (The Traveller)
+     25 votes  CVC La Voz Urbano                       OGG   plays, names nothing
+     25 votes  Cienradios - Grandes del Rock           AAC+  no answer
+     24 votes  Radio AM 750 Objetivos, pero no imparc  FLV   no answer
+     24 votes  Antena 98.9                             AAC   ICY: Antena 98
+     24 votes  Vale 97.5                               UNKNOWN HLS, plays
+     24 votes  Radio Latina 100.9 (General Roca)       AAC+  plays, names nothing
+     23 votes  FMQ                                     AAC+  plays, names nothing
+     23 votes  Radio Centinela                         AAC+  ICY: Scorpions - Scorpions - Wind Of Change
+     23 votes  Cienradios - Música de Películas        AAC+  no answer
+     23 votes  LV10 Radio De Cuyo                      AAC   plays, names nothing
+     23 votes  Radio Ciudad 88.1 - Jujuy               MP3   plays, names nothing
+     23 votes  Emisora del Este 98.9 FM y 98.1 FM      MP3   plays, names nothing
+     22 votes  FM 95.5 RADIO REPUBLICA                 AAC   plays, names nothing
+     22 votes  Fm 95.5 Republica                       AAC   plays, names nothing
+     22 votes  LU12 La Radio De La Gente, Rio Gallego  MP3   plays, names nothing
+     22 votes  radio universidad de rosario            AAC   plays, names nothing
+     22 votes  Classique: Una radio de clásicos        MP3   ICY: CLASSIQUE #unaradiodeclasicos
+     22 votes  Cienradios Radio X                      AAC+  plays, names nothing
+     22 votes  Aries FM 91.1                           AAC   plays, names nothing
+     21 votes  FM 97.UNE - Provincia de Buenos Aires   MP3   plays, names nothing
+     21 votes  Radio Nordeste FM 102.7. Resistencia.   MP3   plays, names nothing
+     21 votes  Ndr Radio                               MP3   ICY: 03 - La banda
+     21 votes  Radio 5 100.5 - General Pico            AAC   ICY: Hi-Fi Internet Stream
+     21 votes  FM América 99.7                         AAC   plays, names nothing
+     21 votes  Estación Vinilo 89.1                    MP3   plays, names nothing
+     21 votes  jaja cba                                AAC   ICY: Hi-Fi Internet Stream
+     21 votes  Una Radio Muchas Voces                  OGG   no answer
+     21 votes  blu fm                                  AAC   no answer
+     20 votes  FM Fenix                                OGG   no answer
+     20 votes  Enjoy Radio                             MP3   ICY: Eric Prydz - Generate
+     20 votes  Cienradios - Pop                        AAC+  no answer
+     20 votes  TMB The Musical Box                     MP3   ICY: Sting Featuring The Royal Philharmonic Concert Orchestra Conducte
+     20 votes  NQP Radio                               AAC   ICY: RADIO NQP ONLINE - 24hs EN VIVO
+     20 votes  Radio Jazz Cafè FM-Smooth & Jazzy       AAC   plays, names nothing
+     19 votes  Fahrenheit FM 88.7 Rosario              MP3   plays, names nothing
+     19 votes  Radio Las Palmas                        MP3   plays, names nothing
+     19 votes  Radio1: ElectricCircus                  MP3   ICY: Jupiter Jones - Still
+     19 votes  Sonifo FM 103.5 - El clásico sonido de  AAC+  ICY: Sonido FM
+     19 votes  FM Ahijuna 94.7                         MP3   plays, names nothing
+     19 votes  FM Eclipse 90.5                         AAC   plays, names nothing
+     19 votes  Radio Libre 93.5 General Pico           AAC+  ICY: Hi-Fi Internet Stream
+     19 votes  FM Estación Popular 101.1               MP3   plays, names nothing
+     18 votes  Urbana Play 103.1 Necochea              AAC   plays, names nothing
+     18 votes  Radio La Plata 90.9                     MP3   plays, names nothing
+     18 votes  InfoPico Radio 99.9 - General Pico      MP3   plays, names nothing
+     18 votes  RadioOne                                AAC   HLS, plays
+     18 votes  90 Radio (FM 90.1)                      AAC+  plays, names nothing
+     18 votes  EDI RADIO                               AAC   ICY: Marimba Sonora Ideal - Mi Secretaria
+     18 votes  Lola                                    AAC+  no answer
+     18 votes  RADIO CONCIERTO 97.1 MHZ                MP3   no answer
+     18 votes  Rivadavia Rosario FM 106.3 Rosario      MP3   plays, names nothing
+     18 votes  FM Soldados 87.5                        AAC+  ICY: Elton John - Who Wears These Shoes?
+     18 votes  cuarteto en la web                      AAC+  plays, names nothing
+     18 votes  Antena 1 radio                          MP3   plays, names nothing
+     17 votes  FM CIUDAD 94.7                          AAC   plays, names nothing
+     17 votes  Andina FM 92.9                          AAC+  status: FM Andina La Plata
+     17 votes  Radio EduNeu 4: Rock & Pop de Argentin  AAC   HLS, plays
+     17 votes  FMQ                                     AAC+  plays, names nothing
+     17 votes  Radio Concierto 96.5 FM                 MP3   no answer
+     17 votes  Rio FM 104.3 General Belgrano           AAC+  ICY: FM RIO
+     17 votes  XRADIO 99.1                             AAC+  ICY: Xradio
+     17 votes  radio Gráfica                           MP3   plays, names nothing
+     17 votes  FM Horizonte (historica 94.3)           AAC+  plays, names nothing
+     17 votes  BRH - Bahía Radio Hits                  AAC+  plays, names nothing
+     17 votes  Arco Iris FM 98.1                       AAC+  ICY: Hi-Fi Internet Stream
+     17 votes  Estación Mix                            MP3   plays, names nothing
+     17 votes  Radio Emanuel FM 88.9                   MP3   plays, names nothing
+     17 votes  La Retro Fest                           MP3   plays, names nothing
+     16 votes  Radio La PLaza 94.7                     AAC   plays, names nothing
+     16 votes  LU33 Emisora Pampeana AM 890 - Santa R  MP3   plays, names nothing
+     16 votes  Radio FM Gualamba 93.7. Resistencia Ch  MP3   no answer
+     16 votes  CVC La Voz Urbano                       OGG   plays, names nothing
+     16 votes  RADIO ZEN FM                            AAC+  ICY: JAF - Todo mi Amor
+     16 votes  Planet Music Bahía Blanca               MP3   plays, names nothing
+     16 votes  ESPACIAL 105.1 FM                       AAC+  plays, names nothing
+     16 votes  Radio Pueblo de Maria                   AAC+  ICY: Santo Rosario en extasis en Garabandal
+     16 votes  Pop Life 107.7                          AAC+  ICY: Hi-Fi Internet Stream
+     16 votes  K2 RADIO 96.3 FM                        AAC   no answer
+     16 votes  FM De la Isla 91.1 Mhz                  AAC+  ICY: DLI Medios - FM de la Isla 91.1 MHZ Choele Choel RN
+     16 votes  Antena Uno 92.3FM Posadas               AAC+  ICY: Antena Uno 92.3FM Posadas
+     16 votes  Cadena Heat                             MP3   plays, names nothing
+     16 votes  Coctel online                           AAC+  ICY: radio de clasicos
+     16 votes  Antena Libre 89.1 FM                    AAC   plays, names nothing
+     16 votes  Radio Digital San Luis 101.1 FM         MP3   plays, names nothing
+     16 votes  RPM Oldies & Retro Hits                 AAC+  ICY: Wamdue Project - King of My Castle
+     16 votes  Beat Digital Radio                      AAC   plays, names nothing
+     16 votes  LU2 Radio Bahía Blanca                  AAC   plays, names nothing
+     16 votes  ABC Mundial Radio                       AAC+  ICY: Programa especial  ANATO 2026
+     15 votes  La 97                                   MP3   ICY: La 97 Fm siempre tu musica
+     15 votes  Vinilo Mix                              AAC   ICY: Paul McCartney; Wings - Silly Love Songs
+     15 votes  Rivadavia                               AAC+  plays, names nothing
+     15 votes  FM ESPERANZA 107.1 MHZ                  MP3   status: EN VIVO - FM ESPERANZA 107.1 MHZ
+     15 votes  RADIO BEAT 97.5 FM                      AAC+  ICY: RADIO BEAT
+     15 votes  FM Cosecha                              AAC+  ICY: Radio En Vivo!
+     15 votes  Radio Zero 91.1 MHz                     MP3   plays, names nothing
+     15 votes  radio La Nave                           MP3   plays, names nothing
+     15 votes  La Radio 93.5                           AAC   plays, names nothing
+     15 votes  Rio Negro Radio 91.9 (General Roca)     MP3   no answer
+     15 votes  Blur fm                                 MP3   ICY: Tokyo Police Club - New Blues
+     15 votes  Radio Buenos Aires LS6 AM 1350 khz      MP3   plays, names nothing
+     15 votes  Activa FM 93.5                          AAC   ICY: Hi-Fi Internet Stream
+     15 votes  Q103 Radio                              AAC+  ICY: EARTH WIND & FIRE - Fall In Love With Me
+     15 votes  Universidad AM 580                      MP3   plays, names nothing
+     14 votes  Achala                                  MP3   ICY: APERTURA-- OTRA VUELTA DE TUERCA
+     14 votes  FM CRISTAL 97.7                         MP3   no answer
+     14 votes  FM Universidad 98.7 - Universidad Naci  MP3   ICY: Desconocido
+     14 votes  La 100 Clásicos 80 y 90                 AAC+  plays, names nothing
+     14 votes  RetroMusic San Justo                    MP3   ICY: Pink Floyd - Money
+     14 votes  Radio Fan Castelli                      AAC+  plays, names nothing
+     14 votes  AM750                                   MP3   plays, names nothing
+     14 votes  Pontiac Rock                            AAC+  ICY: Hi-Fi Internet Stream
+     14 votes  LV7 Radio Tucumán                       MP3   plays, names nothing
+     14 votes  Radio Flow On                           MP3   plays, names nothing
+     14 votes  CVC La Voz Urbano                       OGG   plays, names nothing
+     14 votes  Radio Folklore 90                       AAC+  ICY: 32 - Damasio Esquivel - Polkas Y Chamam S - Virgen Querida
+     14 votes  Rock And More                           MP3   ICY: Eric Carmen - Hungry Eyes
+     14 votes  Chajarí al Día 940 AM                   MP3   plays, names nothing
+     14 votes  Am 1050 San Francisco                   MP3   ICY: Live Broadcast
+     14 votes  Classique                               MP3   ICY: CLASSIQUE #unaradiodeclasicos
+     13 votes  De la Nueva Bahía 106.1 FM              AAC+  plays, names nothing
+     13 votes  El Sol Sale Para Todos                  MP3   plays, names nothing
+     13 votes  AM CUMBRE 1400                          AAC   plays, names nothing
+     13 votes  Kinshasa FM (64 kbps)                   MP3   ICY: Ashe/Suki Waterhouse - Pushing Daisies
+     13 votes  FM 102.3                                MP3   plays, names nothing
+     13 votes  Radio Provincia de Santa Cruz AM 830 k  OGG   plays, names nothing
+     13 votes  NaranjoFM                               AAC+  ICY: PUBLICIDAD La Morocha
+     13 votes  Level Rock FM                           AAC+  ICY: NEW RADICALS - SOMEDAY WE`LL KNOW
+     12 votes  Cadena Express 88.1 FM                  AAC   plays, names nothing
+     12 votes  Concierto FM 90.5                       AAC+  plays, names nothing
+     12 votes  Radio FM Profesional 89.9               MP3   plays, names nothing
+     12 votes  Concepto FM 95.5                        MP3   plays, names nothing
+     12 votes  Radio 6: Canciones Son Amores           MP3   ICY: Nora Perlé y Andrea Estévez Mirson - Canciones Son Amores (Emisió
+     12 votes  La Colectiva                            MP3   ICY: 11. Bye Bye Baby
+     12 votes  El Cafe del Mundo                       AAC+  ICY: ANGELINA
+     12 votes  FM 105.7                                AAC+  ICY: Veterinaria Geminis
+     12 votes  FM CERES  98.7                          AAC+  plays, names nothing
+     12 votes  LV16                                    MP3   plays, names nothing
+     12 votes  Estación San Pedro 88.7 FM              AAC+  plays, names nothing
+     12 votes  AM 1230 Creativa                        AAC+  ICY: AM1230 CREATIVA
+     12 votes  Radio UTN FRC FM 94.3                   AAC   plays, names nothing
+     12 votes  Lider 104.3                             AAC   HLS, plays
+     12 votes  Kinshasa FM                             MP3   ICY: Ashe/Suki Waterhouse - Pushing Daisies
+     12 votes  Planeta Cumbia Latina                   MP3   plays, names nothing
+     12 votes  FM La Tribu 88.7                        MP3   plays, names nothing
+     12 votes  Radio Impacto                           MP3   plays, names nothing
+     12 votes  Radio Manantial De Vida                 AAC+  ICY: Radio Manantial De Vida
+     12 votes  Radio Flow On                           MP3   plays, names nothing
+     12 votes  Sudaca FM                               MP3   no answer
+     12 votes  LU20 Radio Chubut Trelew AM 580         AAC+  plays, names nothing
+     12 votes  Factory Radio                           MP3   ICY: White Town - Your Woman
+     11 votes  Fresh Radio FM 102.9FM                  MP3   plays, names nothing
+     11 votes  221Radio (FM 103.1)                     MP3   plays, names nothing
+     11 votes  Radio La Red 90.5 FM Necochea           AAC   plays, names nothing
+     11 votes  Radio Sudaca 103.3                      MP3   no answer
+     11 votes  FM del Bosque 104.1                     MP3   plays, names nothing
+     11 votes  Radio Universo FM100.3 Carhue           MP3   ICY: RADIO UNIVERSO 100.3
+     11 votes  DIGITAL FM 104.9                        AAC   plays, names nothing
+     11 votes  Radio Cool FM 103.7                     AAC+  ICY: CADENA COOL 103.7 PONEMOS TU MUSICA
+     11 votes  Radio Amanecer AM 1290 - FM 92.7        AAC+  plays, names nothing
+     11 votes  Radio Disney República Dominicana       MP3   plays, names nothing
+     11 votes  Radio Cadena Sol 106.5 FM               AAC+  ICY: Radio Cadena Sol
+     11 votes  DNA radio FM                            MP3   ICY: Eelke Kleijn - DAYS like NIGHTS 347 - Guestmix by Nõpi
+     11 votes  RBD Radio Multimedia                    MP3   ICY: Ariana Grande - Love Me Harder
+     11 votes  XRADIO Bariloche                        AAC+  ICY: xradio xradio
+     11 votes  Radio 2 Jujuy                           MP3   plays, names nothing
+     11 votes  Radio del Mar 98.7                      MP3   plays, names nothing
+     11 votes  Cristal FM 107.9                        MP3   plays, names nothing
+     11 votes  Gospel FM                               AAC+  plays, names nothing
+     11 votes  Elevate 102.1 FM Rosario                AAC   ICY: 102.1
+     11 votes  Dale FM 93.1                            AAC+  plays, names nothing
+     11 votes  FM Cielo 93.1                           AAC+  ICY: Hi-Fi Internet Stream
+     11 votes  MARAGATA FM 97.5                        AAC+  ICY: # LA ROTI PARRILA 05-10-2017~0
+     11 votes  Radio Mitre Córdoba                     AAC+  plays, names nothing
+     11 votes  Futura FM 90.5                          MP3   plays, names nothing
+     11 votes  FM 97.UNE - Provincia de Buenos Aires   MP3   plays, names nothing
+     11 votes  FM Caldén 99.9                          MP3   plays, names nothing
+     11 votes  Megadance Disco                         MP3   plays, names nothing
+     11 votes  Radio Rio Cuarto                        MP3   plays, names nothing
+     10 votes  Patagonia Dinámica 105.5 - General Pic  OGG   status: Eminem - Stan (ft. Dido)
+     10 votes  De La Costa Radio 103.3                 AAC+  ICY: Phil Collins - Sussudio
+     10 votes  FM Federal 99.5                         AAC+  plays, names nothing
+     10 votes  Dale FM 93.1                            AAC+  plays, names nothing
+     10 votes  Radio Amanecer                          AAC+  plays, names nothing
+     10 votes  FM de la Costa 90.5                     AAC+  plays, names nothing
+     10 votes  Radio Provincia AM 1270                 MP3   plays, names nothing
+     10 votes  RADIODJ                                 MP3   ICY: shandr; Donner - Sail
+     10 votes  Radio Con Aguante - Piezas de Realidad  MP3   ICY: El Kuelgue - Circunvalación
+     10 votes  FM Atlantic 105.9                       AAC+  plays, names nothing
+     10 votes  Apuntes Fm 98.9Mhz                      AAC   ICY: Apuntes Fm 98.9 Mhz
+     10 votes  Radio Cultura                           MP3   ICY: LADY GAGA - Hold My Hand
+     10 votes  Radio Rio Cuarto                        MP3   plays, names nothing
+     10 votes  Digital FM 102.1                        AAC   ICY: Digital 102.1
+     10 votes  FM La Redonda 100.3                     AAC   plays, names nothing
+     10 votes  Gravity Radio                           MP3   ICY: Gravity Radio #entodoslados
+     10 votes  FM atlántica 98.5                       AAC+  plays, names nothing
+     10 votes  Estacion XLW                            AAC+  ICY: ﻿Pausa Comercial Pausa Comercial
+     10 votes  Concierto FM 94.7                       AAC   plays, names nothing
+     10 votes  Estación Urbana 104.7 FM                AAC+  plays, names nothing
+     10 votes  RADIO DEL PARANA RAMALLO 99.3           AAC+  plays, names nothing
+     10 votes  FM Laser 98.5 - General Pico            MP3   plays, names nothing
+     10 votes  RADIO 2 105.5 FM - Jujuy                MP3   plays, names nothing
+     10 votes  FM105.7                                 AAC+  ICY: Veterinaria Geminis
+     10 votes  Rock And Blues                          MP3   ICY: AC/DC - Jailbreak
+     10 votes  Mega 98.3 FM                            AAC   HLS, plays
+     10 votes  FM 89.3 Santa María de las Misiones     MP3   plays, names nothing
+     10 votes  Panda NG                                MP3   plays, names nothing
+     10 votes  Tiempo 97.5 FM                          AAC   plays, names nothing
+     10 votes  FM Cielo 103.3                          MP3   plays, names nothing
+      9 votes  Radio Verdad Villa Dolores              AAC+  plays, names nothing
+      9 votes  Sensation Radio 107.5 Neuquén           AAC+  plays, names nothing
+      9 votes  Doble A                                 MP3   ICY: MOSCATO LUNA - Vieux Port
+      9 votes  FM Centro Basavilbaso 105.1             MP3   plays, names nothing
+      9 votes  Planet Music Pinamar 99.5               MP3   plays, names nothing
+      9 votes  Del Bosque Radio 89.1 FM                MP3   no answer
+      9 votes  Mediterraneo 98.3 Mhz                   AAC+  ICY: Estas Escuchando Mediterraneo 98.3 Mhz
+      9 votes  Cadena Rio FM 88.7                      MP3   plays, names nothing
+      9 votes  Radio Vos 88.7                          AAC+  no answer
+      9 votes  Radio Disney Costa Rica                 AAC+  HLS, plays
+      9 votes  Blackie 89.1                            MP3   plays, names nothing
+      9 votes  UNQRadio - FM 91.5                      MP3   no answer
+      9 votes  Larz                                    AAC+  plays, names nothing
+      9 votes  Elite FM 101.5                          AAC+  ICY: Attaque 77 - Chicos Y Perros (Vivo)
+      9 votes  Radio Nacional Clásica 96.7 FM          MP3   plays, names nothing
+      9 votes  Radio Nihuil                            AAC+  plays, names nothing
+      9 votes  FM Sur 88.9 Quilmes                     MP3   plays, names nothing
+      9 votes  FM Amistad 93.5 Mhz                     MP3   plays, names nothing
+      9 votes  TOXICAS HR [EVE07]                      MP3   plays, names nothing
+      9 votes  FM TIEMPO 103.5                         AAC   ICY: Hi-Fi Internet Stream
+      9 votes  Red 92                                  MP3   plays, names nothing
+      9 votes  Somos Radio AM530                       AAC+  plays, names nothing
+      9 votes  Exclusiva FM 97.7                       AAC   ICY: Sebastian Yatra - Tacones Rojos [Dj Caplay Bachata Remix]
+      9 votes  DINAMICA FM 88.3                        MP3   plays, names nothing
+      9 votes  Radio el buen samaritano 101.7 FM       AAC+  ICY: Radio el buen samaritano
+      9 votes  Big Bang Radio                          MP3   ICY: Big Bang -  - SUNSET # 74 by fernando dinucci
+      8 votes  LVDIEZ                                  AAC   plays, names nothing
+      8 votes  FM 98.1 Perez Millan                    MP3   plays, names nothing
+      8 votes  Radio U 96.5                            MP3   plays, names nothing
+      8 votes  FM de la Costa 99.9                     AAC   ICY: Hi-Fi Internet Stream
+      8 votes  FM Laser                                MP3   plays, names nothing
+      8 votes  Cadena 3 Rosario                        MP3   plays, names nothing
+      8 votes  Radio 2: The Monday Revolution          MP3   ICY: DJ Johnson Somerset - Broadcast 11/09/2016
+      8 votes  Radio Infinity Classic                  AAC   ICY: INXS - Never Tear Us Apart
+      8 votes  FM del Lago 92.1                        MP3   plays, names nothing
+      8 votes  Diamante Fm 95.7 MHz                    MP3   no answer
+      8 votes  LU18 AM 640 Radio del Valle (Rio Negro  MP3   plays, names nothing
+      8 votes  Radio Norte 105.5 FM Bahía Blanca       AAC   ICY: RADIO NORTE - TEMPORADA ALTA TODO EL A�O
+      8 votes  Radio 2 AM 1230                         AAC+  plays, names nothing
+      8 votes  FMQ 93.5                                AAC+  plays, names nothing
+      8 votes  Javeriana Estereo                       MP3   ICY: A Vivaldi; Angel Romero, Acad St Martin in the Fields - RV 540 Co
+      8 votes  Radio 7: De La Noche A La Mañana        MP3   ICY: Juan Carlos Del Missier - De La Noche A La Mañana (Emisión del 01
+      8 votes  Estación del Sol- Mendoza, 100.9        AAC   plays, names nothing
+      8 votes  Radio UBA 87.9                          MP3   plays, names nothing
+      8 votes  RADIO ZEN                               AAC+  ICY: JAF - Todo mi Amor
+      8 votes  Expo Radio FM 94.3                      MP3   status: Calvin Harris, Sam Smith, Jessie Reyez - Promises (with Sam Sm
+      8 votes  AM CUMBRE 1400                          AAC   plays, names nothing
+      8 votes  Red 92                                  MP3   plays, names nothing
+      8 votes  Estación Quince Cincuenta 1550 AM       AAC   ICY: Estacion Quince Cincuenta
+      8 votes  Radio Norte                             AAC   ICY: RADIO NORTE - TEMPORADA ALTA TODO EL A�O
+      8 votes  PreNicene Radio                         MP3   status: PreNicene Radio Live
+      8 votes  Radio De La Costa 101.9 FM              AAC   plays, names nothing
+      8 votes  Radio Bicentenario                      AAC+  plays, names nothing
+      8 votes  Radio Revival Hits- Radio de Clàsicos   MP3   ICY: Nirvana - About A Girl - Mtv Unplugged (Anunciado) [VKO]
+      8 votes  107.9 El Observador version 4           AAC+  plays, names nothing
+      8 votes  FMSUR                                   MP3   ICY: con el Chino Amante - Mar Revuelto
+      7 votes  Radio Centro 99.3 - General Pico        MP3   ICY: VICENTICO - Paisaje
+      7 votes  Pop Radio. FM 101.5. Ciudad de Bs. As.  AAC   HLS, plays
+      7 votes  Ecos de mis Cerros                      MP3   plays, names nothing
+      7 votes  Radio 6: Canciones Son Amores           MP3   ICY: Nora Perlé y Andrea Estévez Mirson - Canciones Son Amores (Emisió
+      7 votes  VIP Radio                               AAC+  ICY: Exitos de todos los tiempos...
+      7 votes  FM Club Patagonia 88.9                  MP3   ICY: Elton John - Nikita
+      7 votes  Radio 2: The Monday Revolution          MP3   ICY: DJ Johnson Somerset - Broadcast 11/09/2016
+      7 votes  Frecuencia Digital 99.1 FM              AAC+  ICY: MILEY CYRUS, ft. LINDSEY BUCKINGHAM MICK FLEETWOOD - Secrets~0,10
+      7 votes  GLAM FM                                 AAC   ICY: Kill Flora - A veces
+      7 votes  FM EL CHUBUT                            AAC+  plays, names nothing
+      7 votes  Lentos de Todos Los Tiempos             MP3   ICY: Julius Reid - Follow In My Footsteps
+      7 votes  Eclipse FM 101.5 MHz                    AAC   ICY: Hi-Fi Internet Stream
+      7 votes  FM del Sol 91.1                         MP3   plays, names nothing
+      7 votes  Malva FM - General Pico                 AAC   ICY: Unknown
+      7 votes  Always Hits Radio                       MP3   plays, names nothing
+      7 votes  AM 830 Radio del Pueblo                 AAC   ICY: Hi-Fi Internet Stream
+      7 votes  Radio Tiempo Villa Mercedes             AAC   plays, names nothing
+      7 votes  LA POCHA FM 98.1                        MP3   plays, names nothing
+      7 votes  Eco Medios 1220 AM                      MP3   plays, names nothing
+      7 votes  La 97                                   MP3   ICY: La 97 Fm siempre tu musica
+      7 votes  FM Barrancas 98.7                       AAC+  plays, names nothing
+      7 votes  Horizonte Radio Córdoba                 AAC   plays, names nothing
+      7 votes  Estacion X 93.5 FM                      AAC   ICY: Hi-Fi Internet Audio
+      7 votes  Delta 90.3                              AAC   plays, names nothing
+      7 votes  FM Ciudad 88.3                          AAC+  ICY: FM CIUDAD DE TOTORAS
+      7 votes  Mucha Radio                             MP3   plays, names nothing
+      7 votes  Romanticas Del Recuerdo                 MP3   plays, names nothing
+      7 votes  Radio Mocoví AM 800                     MP3   no answer
+      7 votes  RADIO CADENA VIDA 95.3 FM               AAC+  plays, names nothing
+      7 votes  Radio Saladillo                         AAC   ICY: Hi-Fi Internet Stream
+      7 votes  Radio Metropolitana 95.3                AAC+  plays, names nothing
+      7 votes  Latina 101.1 Argentina                  UNKNOWN no answer
+      7 votes  Classique FM 106.5 FM                   MP3   no answer
+      7 votes  R770, Radio Online                      MP3   no answer
+      7 votes  Antena 1 91.5 FM                        MP3   ICY: Mensajes de whatsapp 2644427536
+      7 votes  FM Emoción 98.1                         MP3   plays, names nothing
+      7 votes  Radio Semilla FM 106.5 - IMPA           MP3   plays, names nothing
+      7 votes  CNN Radio Argentina                     AAC+  no answer
+      7 votes  FM del Sol 100.5                        AAC   plays, names nothing
+      7 votes  La 106.1 FM - Siempre Una Canción       MP3   plays, names nothing
+      7 votes  Evolution FM 101.9                      AAC+  no answer
+      7 votes  LU14 Radio Provincia de Santa Cruz AM   OGG   plays, names nothing
+      6 votes  Estacion 95 91.5 FM                     AAC   ICY: Hi-Fi Internet Audio Stream
+      6 votes  Contacto 95.3 FM                        AAC+  no answer
+      6 votes  Mega 98.3 Trelew                        MP3   ICY: Ads - Block
+      6 votes  FM Cariló 104.3                         MP3   no answer
+      6 votes  Radio Zapping 104.3 Henderson 2         AAC   ICY: HI-FI Internet Stream
+      6 votes  Laser 106.7 Merlo                       AAC+  plays, names nothing
+      6 votes  Radio Influencia                        AAC+  ICY: Radio Influencia
+      6 votes  Abdulbasit Abdulsamad                   AAC   ICY: Abdulbasit Abdulsamad عبدالباسط عبدالصمد - Ash-Shu'ara' - الشعراء
+      6 votes  CNN Radio Mendoza 93.9 FM               AAC+  plays, names nothing
+      6 votes  CRISTAL FM Noetinger                    MP3   plays, names nothing
+      6 votes  UNLaM Radio 89.1 FM                     AAC+  plays, names nothing
+      6 votes  Radio Belgrano AM 570                   MP3   plays, names nothing
+      6 votes  Antena Nueve 94.3 FM                    AAC+  ICY: ANTENA NUEVE
+      6 votes  in.radio                                MP3   plays, names nothing
+      6 votes  VIP Radio Clásicos                      AAC+  ICY: Exitos de todos los tiempos...
+      6 votes  Radio Croma 87.5 FM Resistencia         AAC   plays, names nothing
+      6 votes  221 Radio 103.1 FM                      AAC+  plays, names nothing
+      6 votes  Planet Music Villa Gesell 91.9          MP3   no answer
+      6 votes  CIUDAD 88.5 FM                          AAC+  ICY: t40f-jueves06
+      6 votes  Cadena Eco AM 1220                      MP3   plays, names nothing
+      6 votes  Radio On The Route                      MP3   ICY: Joe Satriani & Steve Vai - I Wanna Play My Guitar
+      6 votes  Radio RAE Argentina al Mundo            MP3   plays, names nothing
+      6 votes  Radio Del Puerto 92.1. Barranqueras Ch  AAC+  no answer
+      6 votes  Radio Mega                              AAC   HLS, plays
+      6 votes  Radio Maxi FM                           AAC+  ICY: 048COMO QUIEN PIERDE UNA ESTR - 048COMO QUIEN PIERDE UNA ESTR
+      6 votes  FM ALEJANDRO 104.1                      AAC   no answer
+      6 votes  Radio 3 Andina AM 1200                  MP3   plays, names nothing
+      6 votes  Radiofonica 100.7                       MP3   no answer
+      6 votes  FM ALAS - Correa (Sta Fe)               AAC   plays, names nothing
+      6 votes  FM Tiempo 95.5 MHz                      AAC   ICY: Hi-Fi Internet Stream
+      6 votes  La Radio de la Gente LU12 AM 680 Rio G  MP3   plays, names nothing
+      6 votes  FM Activa 91.5                          AAC   plays, names nothing
+      6 votes  Mañana Intensa                          MP3   plays, names nothing
+      6 votes  FM Constelación 98.1                    AAC+  ICY: FM C onstelacion 98.1
+      6 votes  Radio El Faro                           MP3   ICY: Dennis Rainey, Roberto Lepine - Vida en familia hoy
+      6 votes  FM ABRIL Radio 90.9                     AAC+  plays, names nothing
+      6 votes  FM 10 Bolívar 106.1                     MP3   plays, names nothing
+      6 votes  FM EXITO 99.1                           AAC+  ICY: Kool & The Gang - Too Hot
+      6 votes  Radiofonica 100.7                       MP3   plays, names nothing
+      6 votes  FM Rock 103.3 - Zarate                  AAC+  plays, names nothing
+      6 votes  Berlin 107.7                            AAC+  plays, names nothing
+      6 votes  FM Color 99.3 (General Roca)            AAC+  plays, names nothing
+      6 votes  Radio 3 - Caseros 89.7 FM               AAC   no answer
+      6 votes  PLAY 94.3                               MP3   plays, names nothing
+      6 votes  Radio one                               AAC   HLS, plays
+      6 votes  FM Alas 106.9                           AAC   plays, names nothing
+      5 votes  LRA 6 Radio Nacional Mendoza            MP3   plays, names nothing
+      5 votes  Radio Mitre Jujuy 106.3 FM              AAC   HLS, plays
+      5 votes  Radio UTN Mendoza - FM 94.5             MP3   ICY: Radio UTN online
+      5 votes  Radio La Red La Rioja 88.3 FM           MP3   plays, names nothing
+      5 votes  FM Digital 100.1                        AAC+  plays, names nothing
+      5 votes  MikiRadio                               MP3   plays, names nothing
+      5 votes  La Mega Radio 94.1                      AAC+  ICY: disney
+      5 votes  GX Radio                                AAC+  ICY: 13 Kim Wilde  You Came
+      5 votes  RADIO CITY CORDOBA                      AAC   plays, names nothing
+      5 votes  90.1 MHz FM EL CHUBUT                   AAC+  plays, names nothing
+      5 votes  Radio Republica - FM 107.7 - Rio Tala   AAC+  plays, names nothing
+      5 votes  Radio Disney Panamá                     MP3   HLS, plays
+      5 votes  LRA 15 Radio Nacional Tucumán Mercedes  MP3   no answer
+      5 votes  Radio Deejay 92.5                       MP3   plays, names nothing
+      5 votes  Radio Vale 97.5                         AAC   HLS, plays
+      5 votes  Qacttus Radio                           MP3   ICY: Robert Randolph & the Family Band - Looking Out My Window
+      5 votes  FM Triac                                AAC+  plays, names nothing
+      5 votes  FMi 99.1                                MP3   plays, names nothing
+      5 votes  ROLDÁN FM 92 92.3                       AAC+  plays, names nothing
+      5 votes  Radio Revolucion - FM 104.1 - Savio     AAC+  ICY: Prince Royce; Paloma Mami - Morfina (feat. Paloma Mami)
+      5 votes  RADIO UNR                               AAC   plays, names nothing
+      5 votes  Radio Mitre Mendoza                     AAC+  plays, names nothing
+      5 votes  FM DEL ESTE 99.3                        MP3   plays, names nothing
+      5 votes  Radio750                                AAC+  plays, names nothing
+      5 votes  Radio Colonia AM 550                    AAC+  plays, names nothing
+      5 votes  Jaus90                                  MP3   plays, names nothing
+      5 votes  Blur Radio                              AAC+  ICY: Tokyo Police Club - New Blues
+      5 votes  FM ANGEL 94.3                           AAC+  plays, names nothing
+      5 votes  FM TIEMPO 92.5                          AAC+  plays, names nothing
+      4 votes  Cristal 100.3                           AAC+  status: She Drives Me Crazy (Radio Rap Version) Fine Young Cannibals
+      4 votes  LRA 55 Radio Nacional Alto Rio Senguer  MP3   plays, names nothing
+      4 votes  Sembradores Del Camino                  MP3   ICY: Ariel Coronel #11 Oh Jehova - Salmo 57
+      4 votes  Sonomix Radio                           MP3   ICY: Guasones - Reyes de la Noche
+      4 votes  Revuelto Radio                          AAC+  status: Sandra Corizzo - Juan el Olmo
+      4 votes  Urbana Play 104.3 (10-2026)             UNKNOWN HLS, plays
+      4 votes  FM Estudio Playa Pinamar 98.1           MP3   plays, names nothing
+      4 votes  Otro Día Perfecto                       MP3   ICY: Slash - Flying Blind (ft Myles Kennedy and The Conspirators) (LAN
+      4 votes  Radio M                                 AAC+  plays, names nothing
+      4 votes  Radio Totall 89.5                       AAC+  no answer
+      4 votes  Genesis FM 102.5                        AAC+  no answer
+      4 votes  Los 40 Santa Fe 97.7 FM                 AAC+  status: Los 40 Santa Fe 97.7Mhz
+      4 votes  Radio Comunitaria Cuyum                 MP3   status: PanteÃ³n RococÃ³ - La carencia
+      4 votes  ElDestape Radio                         AAC   ICY: 1070 AM
+      4 votes  Radio Popular La Pampa                  AAC   ICY: Radio Popular La Pampa
+      4 votes  Radio Universidad Nacional de Uncuyo F  MP3   plays, names nothing
+      4 votes  La Red San Luis 88.3 FM                 MP3   plays, names nothing
+      4 votes  VIP Radio                               AAC+  ICY: Exitos de todos los tiempos...
+      4 votes  la conquista del pan                    MP3   no answer
+      4 votes  FM Del Pueblo 100.7                     MP3   no answer
+      4 votes  Cadena Energy                           MP3   no answer
+      4 votes  Radio 10 710 AM                         UNKNOWN HLS, plays
+      4 votes  Radio Flow                              MP3   plays, names nothing
+      4 votes  FM HIT 97.3 Mar del Plata               MP3   ICY: La 97 Fm siempre tu musica
+      4 votes  FM DEL MAR 94.7                         MP3   ICY: Typical male � Tina Turner
+      4 votes  Radio Vox 102.9 FM                      AAC+  ICY: Esta Es Tu Onda!
+      4 votes  FM Trance 103.3                         MP3   ICY: DNCE - Cake By The Ocean
+      4 votes  Radio Malena                            AAC+  plays, names nothing
+      4 votes  Cadena Eich Tandil 93.1                 MP3   ICY: senalMaestra
+      4 votes  NOW 97.9                                AAC   plays, names nothing
+      4 votes  La Colectiva                            MP3   ICY: 11. Bye Bye Baby
+      4 votes  Cadena AM 1470                          AAC+  ICY: CADENA AM 1470
+      4 votes  La Rocka 80 Argentina                   AAC   ICY: Divina Gloria - Desnudita Es Mejor
+      4 votes  Radio Universidad Nacional de Cuyo FM   MP3   plays, names nothing
+      4 votes  InfoPico Radio 99.9                     MP3   plays, names nothing
+      4 votes  Ranquel FM                              AAC+  ICY: La Que Mejor Suena
+      4 votes  Aura Radio                              MP3   no answer
+      4 votes  Radio Meridiano                         MP3   plays, names nothing
+      4 votes  GX Radio                                AAC+  ICY: 13 Kim Wilde  You Came
+      4 votes  WAN Radio                               MP3   no answer
+      4 votes  Meridiano FM 98.5                       MP3   plays, names nothing
+      4 votes  Infobae FM 97.1                         MP3   no answer
+      4 votes  Radio Blu                               AAC+  ICY: Fm Viamonte 94.5
+      4 votes  FM Plaza Pilar - 92.1                   AAC   plays, names nothing
+      4 votes  Nuevo tiempo Argentina                  UNKNOWN no answer
+      4 votes  FM Armonía 105.1                        AAC+  ICY: Fm Armonia 105.1 - La Radio de Chovet
+      4 votes  NEUQUEN ROCK                            MP3   plays, names nothing
+      4 votes  LU5 AM600                               MP3   plays, names nothing
+      4 votes  FM Soldados 87.5                        AAC+  ICY: Babasonicos - Carismatico
+      4 votes  Glam Fm  96.3                           AAC   ICY: Travis - J. Smith
+      4 votes  Fm Amanecer 92.5Mhz                     AAC   no answer
+      4 votes  Radio de Folklore                       MP3   plays, names nothing
+      4 votes  Blend Radio                             AAC   plays, names nothing
+      4 votes  Achala                                  MP3   ICY: APERTURA-- OTRA VUELTA DE TUERCA
+      4 votes  Cienradios - Lentos                     AAC+  plays, names nothing
+      4 votes  Fenix FM Latino                         MP3   no answer
+      4 votes  FM 10 97.3                              AAC   ICY: Hi-Fi Internet Stream
+      4 votes  LA RADIO 104.7                          AAC+  plays, names nothing
+      4 votes  radio seis 103.1 FM                     MP3   plays, names nothing
+      4 votes  Mas que Musica                          MP3   plays, names nothing
+      4 votes  Frecuencia Arena 98.3                   AAC+  ICY: DONATO & ESTEFANO - ENTRE LA LINEA DEL BIEN Y DEL MAL
+      4 votes  Radio Argentina 89.3 FM                 MP3   plays, names nothing
+      3 votes  LRA 56 Radio Nacional Perito Moreno     MP3   plays, names nothing
+      3 votes  Radio Comunitaria Cuyum                 MP3   status: PanteÃ³n RococÃ³ - La carencia
+      3 votes  Radio Nueva Presidencia Roque Sáenz Pe  MP3   no answer
+      3 votes  Radio Claromecó FM 106.9                OGG   plays, names nothing
+      3 votes  LRA 11 Radio Nacional Comodoro Rivadav  MP3   plays, names nothing
+      3 votes  LRA 27 Radio Nacional Catamarca         MP3   plays, names nothing
+      3 votes  Radio Alas 101.7                        AAC   plays, names nothing
+      3 votes  LT 14 Radio Nacional Gral Urquiza Para  MP3   plays, names nothing
+      3 votes  AM 550 LA PRIMERA                       MP3   plays, names nothing
+      3 votes  Rock and Pop Tucumán 106.9 FM           MP3   plays, names nothing
+      3 votes  FM Milenium Tucumán                     MP3   plays, names nothing
+      3 votes  Rock & Pop 88.5 Mar del Plata           AAC   plays, names nothing
+      3 votes  LRA 28 Radio Nacional La Rioja          MP3   plays, names nothing
+      3 votes  LRA 22 Radio Nacional Jujuy AM 790      MP3   plays, names nothing
+      3 votes  FM Centro 100.7                         MP3   plays, names nothing
+      3 votes  Radio Beach Villa Gesell 91.5           AAC   plays, names nothing
+      3 votes  Radio Garin - FM 106.1                  MP3   plays, names nothing
+      3 votes  Radio Mitre Santa Fe 99.3 FM            AAC+  plays, names nothing
+      3 votes  RADIO DON                               AAC   ICY: RADIO DON 101.5Mhz
+      3 votes  Radio Studio UTN - FM 107.7 Campana     MP3   plays, names nothing
+      3 votes  La Red Villa Mercedes 99.1 FM           AAC   ICY: Track6
+      3 votes  Radiovision 99.5 fm                     MP3   plays, names nothing
+      3 votes  La 100 Bahía Blanca 101.9 FM            OGG   plays, names nothing
+      3 votes  El Hacedor Radio Online                 AAC   plays, names nothing
+      3 votes  Radio 10 Bahía Blanca 92.3 FM           AAC+  plays, names nothing
+      3 votes  LA NACION 104.9 Más Música              MP3   plays, names nothing
+      3 votes  La Simple - FM 97.3 Campana             MP3   plays, names nothing
+      3 votes  Aspen Mar del Plata 89.3                AAC+  plays, names nothing
+      3 votes  Radio Digital San Luis                  MP3   plays, names nothing
+      3 votes  FM DEL VALLE 99.9                       AAC   ICY: FM DEL VALLE
+      3 votes  FM del Viento 104.9                     MP3   ICY: FITO PAEZ - Mariposa tecknicolor
+      3 votes  FM Cielo 88.7                           MP3   plays, names nothing
+      3 votes  FM Anta 96.1                            MP3   plays, names nothing
+      3 votes  Radio Rivadavia Tucumán 97.7            MP3   plays, names nothing
+      3 votes  Radio Arul Online                       MP3   plays, names nothing
+      3 votes  FM HORIZONTE 106.3                      AAC+  status: CADENA POPULAR
+      3 votes  Golden Wings                            AAC+  ICY: Luis Damora - Luis Damora - Asteroids 024
+      3 votes  Aconcagua Radio                         MP3   plays, names nothing
+      3 votes  Fm Sierras 107.9                        MP3   status: Hubert Sumlin - Sometimes I'm Right [-aRnzKDiIS0]
+      3 votes  Radiostar 101.3                         AAC   plays, names nothing
+      3 votes  Radio Next FM 97.1                      AAC   plays, names nothing
+      3 votes  FM del Sur 103.7                        MP3   plays, names nothing
+      3 votes  FM del este 100.5                       MP3   ICY: Respect Yourself The Staple Singers
+      3 votes  LT39 Radio Victoria 90.3 FM             AAC   plays, names nothing
+      3 votes  WOX 88.3                                MP3   plays, names nothing
+      3 votes  El Observador 107.9                     AAC   no answer
+      3 votes  FM Libra 94.5                           MP3   plays, names nothing
+      3 votes  Solo Rock Nacional                      MP3   plays, names nothing
+      3 votes  GX Radio                                AAC+  ICY: 13 Kim Wilde  You Came
+      3 votes  ADN24Digital                            MP3   plays, names nothing
+      3 votes  XRADIO BARILOCHE                        AAC+  ICY: xradio xradio
+      3 votes  La Radio A 105.7                        AAC+  ICY: Charly Garcia - Fanky
+      3 votes  Radio Amadeus - Cultura Musical         MP3   ICY: FRANZ PETER SCHUBERT - Sinfonia Nº 8 En Si Menor Deutsch 759 "Inc
+      3 votes  Jujuy FM 101.7                          AAC+  status: JUJUY FM 101.7
+      3 votes  FM Milenium 106.7                       AAC   no answer
+      3 votes  Radio Escobar - FM 105.1                AAC+  ICY: Radio Escobar
+      3 votes  Radio Folclorisimo AM 1410              AAC+  plays, names nothing
+      3 votes  Futurock FM                             UNKNOWN HLS, plays
+      3 votes  FM105.7                                 AAC+  ICY: Top100 - 013 B
+      3 votes  Fm Ciudad                               AAC   plays, names nothing
+      3 votes  Fm Ciudad                               AAC   plays, names nothing
+      3 votes  Radio Láser 95.5 Piedrabuena            MP3   plays, names nothing
+      3 votes  Boreal 92.5                             MP3   plays, names nothing
+      3 votes  FM Concepto 98.1                        MP3   plays, names nothing
+      3 votes  FM Del Buen Ayre 105.3                  AAC+  ICY: desireless - voyage voyage
+      3 votes  Fm alpha 91.5                           AAC+  ICY: Fm alpha 91.5
+      3 votes  Mega 98.3 FM                            AAC   HLS, plays
+      3 votes  Americana FM                            AAC   plays, names nothing
+      3 votes  Fm ciudad                               AAC   plays, names nothing
+      3 votes  MetalRadio                              MP3   ICY: Machine Head - SLAUGHTER THE MARTYR
+      3 votes  KLA Radio 97.1                          MP3   plays, names nothing
+      3 votes  Fenix FM Oficial                        MP3   no answer
+      3 votes  FM Pasión                               MP3   plays, names nothing
+      3 votes  LOVE FM: Clásicos pop en español de lo  AAC   HLS, plays
+      3 votes  FM LA CIMA 94.5                         AAC+  ICY: FM LA CIMA
+      2 votes  LRA 59 Radio Nacional Gobernador Grego  MP3   plays, names nothing
+      2 votes  Andes Latina                            AAC   plays, names nothing
+      2 votes  Radio Kermes                            MP3   plays, names nothing
+      2 votes  LRA 13 Radio Nacional Bahía Blanca      MP3   plays, names nothing
+      2 votes  Vorterix Mar del Plata 104.5 FM         UNKNOWN no answer
+      2 votes  LRA 26 Radio Nacional Resistencia       MP3   plays, names nothing
+      2 votes  LRA 58 Radio Nacional Rio Mayo          MP3   plays, names nothing
+      2 votes  LRA 7 Radio Nacional Córdoba            MP3   plays, names nothing
+      2 votes  FM 97.9 VIDA                            UNKNOWN no answer
+      2 votes  Radio Power 100.3                       UNKNOWN no answer
+      2 votes  LT 12 Radio Nacional Paso de los Libre  MP3   plays, names nothing
+      2 votes  Fm Uno Corrientes                       AAC+  ICY: FM UNO
+      2 votes  LRA 12 Radio Nacional Santo Tomé        MP3   plays, names nothing
+      2 votes  Radio del Sol 93.7                      AAC   plays, names nothing
+      2 votes  LRA 42 Radio Nacional Gualeguaychú      MP3   plays, names nothing
+      2 votes  Radio Del Plata Tucumán 93.9 FM         MP3   plays, names nothing
+      2 votes  LRA 8 Radio Nacional Formosa            MP3   plays, names nothing
+      2 votes  Rock & Pop Córdoba FM 87.9              AAC   plays, names nothing
+      2 votes  Rock And Blues                          MP3   ICY: The Black Crowes - Struttin' Blues
+      2 votes  LRA 9 Radio Nacional Esquel             MP3   plays, names nothing
+      2 votes  FM ALAS - Correa (Sta Fe)               AAC   plays, names nothing
+      2 votes  LRA 14 Radio Nacional Santa Fe AM 540   MP3   plays, names nothing
+      2 votes  LV 4 Radio Nacional San Rafael          MP3   plays, names nothing
+      2 votes  LRA 53 Radio Nacional San Martín de lo  MP3   plays, names nothing
+      2 votes  Pop Bariloche 89.3 FM                   AAC   no answer
+      2 votes  LRA 30 Radio Nacional Bariloche         MP3   plays, names nothing
+      2 votes  LRA 2 Radio Nacional Viedma             MP3   plays, names nothing
+      2 votes  LRA 25 Radio Nacional Tartagal          MP3   plays, names nothing
+      2 votes  FM Swing 107.3 - Campana                AAC+  plays, names nothing
+      2 votes  Radio La Red Mendoza 94.1 FM            MP3   plays, names nothing
+      2 votes  Radio Scorpio - FM 98.9 Campana         MP3   plays, names nothing
+      2 votes  Radio La Red Rosario 98.3 FM            MP3   plays, names nothing
+      2 votes  LRA 51 Radio Nacional Jáchal            MP3   plays, names nothing
+      2 votes  LU23 Radio Nacional Calafate            MP3   plays, names nothing
+      2 votes  Radio UNLa                              MP3   plays, names nothing
+      2 votes  Radio La Red Mar del Plata 91.3 FM      AAC+  ICY: Radio La Red MDQ
+      2 votes  LRA 18 Radio Nacional Río Turbio        MP3   plays, names nothing
+      2 votes  Radio Rivadavia Villa Mercedes 90.1 FM  MP3   no answer
+      2 votes  LRA 24 Radio Nacional Río Grande        MP3   plays, names nothing
+      2 votes  radio pitusas                           MP3   ICY: Armando Cervantes - NBA On NBC Theme 1991-2002
+      2 votes  Radio Mágica Digital                    AAC+  ICY: www.radiomagicadigital.com.ar
+      2 votes  OK FM Radio                             AAC+  plays, names nothing
+      2 votes  Lider 93.7 Bella Vista ctes             MP3   plays, names nothing
+      2 votes  Radio Bella Vista Ctes 92.1             MP3   plays, names nothing
+      2 votes  Radio Alto Alegre 105.5 FM              AAC+  plays, names nothing
+      2 votes  FM Impacto 107.3 Bella Vista Ctes       AAC+  ICY: FM IMPACTO 107.3
+      2 votes  Sol FM 106.7 Bella Vista Ctes           AAC+  ICY: Fm Sol 106.7 MHz - En Vivo
+      2 votes  Radio Activa 91.3 FM                    AAC   plays, names nothing
+      2 votes  Radio Uno 103.1 FM                      AAC+  plays, names nothing
+      2 votes  FM Futuro - 93.1 Campana                AAC   plays, names nothing
+      2 votes  La Simple - FM 97.3 Campana             MP3   plays, names nothing
+      2 votes  FM Los Cardales 104.5                   AAC+  plays, names nothing
+      2 votes  FM Omega 96.3 - Zarate                  MP3   ICY: Para No Olvidar - Andrés Calamaro, Manolo García, Vicente Amigo
+      2 votes  Aspen 88.3 FM Bahía Blanca              AAC   plays, names nothing
+      2 votes  Radio 10 Resistencia FM 92.9            AAC+  ICY: Madonna - Papa Don't Preach
+      2 votes  FM Sapucai 89.5                         MP3   plays, names nothing
+      2 votes  Radio Satélite LRK 428 FM 90.7 MHz - S  AAC   plays, names nothing
+      2 votes  Radio Rosario 3                         UNKNOWN HLS, plays
+      2 votes  FM del Sol 91.1                         AAC+  ICY: Hi-Fi Internet Stream
+      2 votes  Radio Ciudad de Zarate - FM 93.9        AAC   plays, names nothing
+      2 votes  FM El Portal 89.1                       AAC   plays, names nothing
+      2 votes  FM Libre 103.9 - Lima                   MP3   plays, names nothing
+      2 votes  Radio Urbana                            AAC+  plays, names nothing
+      2 votes  TEC Radio                               MP3   plays, names nothing
+      2 votes  Sonic FM                                MP3   ICY: Afrojack,DLMT,Brandyn Burnette - Wish You Were Here (feat. Brandy
+      2 votes  Chacarereando Radio                     MP3   ICY: 7 - TODO UN PUEBLO VA A BAILAR - GATO DE CLAU
+      2 votes  Radio Fiesta Bragado 92.5               AAC+  status: RADIO FIESTA BRAGADO
+      2 votes  LT23 Radio Regional AM 1550             MP3   plays, names nothing
+      2 votes  Retroclasic                             MP3   plays, names nothing
+      2 votes  NJOY FM                                 MP3   ICY: i4U - Memories
+      2 votes  LRA 29 Radio Nacional San Luis          MP3   plays, names nothing
+      2 votes  Estación Zafiro 89.5 FM                 MP3   ICY: Ads - Block
+      2 votes  Radio Sonar 97.9                        MP3   plays, names nothing
+      2 votes  Radio Diario El Litoral Corrientes      MP3   plays, names nothing
+      2 votes  Radio Sur 90.1 FM                       AAC+  status: RADIOSUR90.1
+      2 votes  Radio Top 105.9                         AAC+  ICY: RADIO TOP EN VIVO
+      2 votes  AM 1330 Rosario                         AAC+  ICY: AM1330 Rosario
+      2 votes  Radio ONE FM 103.7                      AAC   HLS, plays
+      2 votes  Frecuencia Z                            AAC+  ICY: Hi-Fi Internet Stream
+      2 votes  LRA 10 Nacional Ushuaia e Islas Malvin  MP3   plays, names nothing
+      2 votes  OK RADIO                                AAC+  no answer
+      2 votes  Radio Express Posadas 88.1 FM           AAC   plays, names nothing
+      2 votes  Maxima FM 94.5                          MP3   plays, names nothing
+      2 votes  Rock & Pop 95.9 FM                      MP3   plays, names nothing
+      2 votes  Radio Trelew Noticias 96.9 FM           MP3   plays, names nothing
+      2 votes  FM del Viento 97.7                      MP3   ICY: FITO PAEZ - Mariposa tecknicolor
+      2 votes  RADIO 7 NEUQUÉN                         AAC,H.264 HLS, plays
+      2 votes  Campeones Radio                         AAC+  ICY: Campeones Radio
+      2 votes  Aire Libre FM 96.3                      MP3   plays, names nothing
+      2 votes  Eclipse FM 93.7                         AAC+  plays, names nothing
+      2 votes  La Rocka 90                             AAC   ICY: La Zimbabwe - Verano de '57
+      2 votes  Estación del Sol Rock                   MP3   ICY: Red Hot Chili Peppers - Hump De Bump
+      2 votes  Power FM 103.7                          MP3   plays, names nothing
+      2 votes  Radio Panorama                          AAC   HLS, plays
+      2 votes  Radio Municipal                         MP3   status: Depeche Mode - Never Let Me Down Again
+      2 votes  Radio Pasión y Deporte                  MP3   plays, names nothing
+      2 votes  Onda FM                                 AAC+  plays, names nothing
+      2 votes  Studio 92                               AAC   HLS, plays
+      2 votes  Pungas Radio                            AAC   ICY: ﻿Mr. Ed - Hypnot-ICE  Neuromix
+      2 votes  FM CENTENARIO 99.3                      AAC+  plays, names nothing
+      2 votes  FM Esperanza 107.1 - Maquinista Savio   MP3   status: EN VIVO - FM ESPERANZA 107.1 MHZ
+      2 votes  FM Imagen 107.5 - Radio Comunitaria Ga  MP3   plays, names nothing
+      2 votes  Radio La Popu San Juan                  AAC   HLS, plays
+      2 votes  FM Rio 107.5                            AAC+  plays, names nothing
+      2 votes  AsiCoE 105.9 Bella Viste Ctes           AAC   ICY: AsiCoe 105.9 Bella Vista
+      2 votes  Feeling FM 91.7                         MP3   ICY: The Alan Parsons Project - Days Are Numbers (The Traveller)
+      2 votes  UNRC Radio                              AAC+  plays, names nothing
+      2 votes  Lw8 Radio Jujuy                         MP3   ICY: Am630
+      2 votes  Radio Uno Chabas 99.1                   MP3   plays, names nothing
+      2 votes  Libertad Digital 99.1 FM                AAC+  ICY: Disco Eterno - Soda Stereo El �ltimo Conciert
+      2 votes  FM KLIMAX                               AAC   plays, names nothing
+      2 votes  FM Carolina 102.9                       AAC+  ICY: Hi-Fi Internet Stream
+      2 votes  Guajira Radio                           AAC+  ICY: Pino Europeo - Distancia
+      2 votes  Radio El Signo 106.5 FM                 MP3   plays, names nothing
+      2 votes  FM Santa María 106.1                    AAC+  plays, names nothing
+      2 votes  Ranquel FM                              AAC+  ICY: La Que Mejor Suena
+      2 votes  RADIO ACTIVA COMUNITARIA - FM 96.9 - M  AAC+  status: Hi-Fi Internet Stream
+      2 votes  Radio O Bariloche - FM 102.5            AAC   HLS, plays
+      2 votes  FM Directa 98.3                         MP3   no answer
+      2 votes  Alternativa Radiorock 107.9 FM          MP3   ICY: ANDANDO DESCALZO - Aviador
+      2 votes  Radio FM Nueva Era 102.5                MP3   no answer
+      2 votes  Marcos Kappes                           AAC+  no answer
+      2 votes  Radio La Colifata FM 100.3              AAC+  ICY: FM 100.3
+      2 votes  Pop Radui FM 101.5. Ciudad de Bs. As.   AAC   HLS, plays
+      2 votes  Radio Estación 102.5 FM                 AAC+  plays, names nothing
+      2 votes  Fenix FM Oficial 1.0                    MP3   no answer
+      2 votes  LN+ musica                              MP3   plays, names nothing
+      1 votes  Horizonte Radio 95.3                    AAC+  plays, names nothing
+      1 votes  Vorterix Bahía Blanca 99.1 FM           AAC+  no answer
+      1 votes  AM 840 Radio General Belgrano           AAC   ICY: RADIO GENERAL BELGRANO
+      1 votes  FM Dimension 100.3                      AAC   ICY: Hi-Fi Internet Stream
+      1 votes  radio godeano                           MP3   ICY: El Quinto Elemento - El Quinto Elemento - LO QUE HARA MI BOCA (Of
+      1 votes  Signos FM Allen                         AAC+  ICY: SIGNOS FM
+      1 votes  Radio Rivadavia Necochea 97.3 FM        AAC   plays, names nothing
+      1 votes  Fm urbana                               AAC   plays, names nothing
+      1 votes  LRA 16 Radio Nacional La Quiaca         MP3   plays, names nothing
+      1 votes  LRA 20 Radio Nacional Las Lomitas       MP3   no answer
+      1 votes  LRA 3 Radio Nacional Santa Rosa         MP3   plays, names nothing
+      1 votes  Radio A Aconquija 102.5                 ?     no answer
+      1 votes  En Vivo Radio 70                        MP3   plays, names nothing
+      1 votes  LV 19 Nacional Malargüe                 MP3   plays, names nothing
+      1 votes  Max Classic FM 103.9                    AAC+  no answer
+      1 votes  LU6 Emisora Atlantica Mar del Plata     AAC+  plays, names nothing
+      1 votes  Emociones 102.5 FM                      AAC+  no answer
+      1 votes  LRA 17 Radio Nacional Zapala            MP3   plays, names nothing
+      1 votes  ON Radio                                MP3   plays, names nothing
+      1 votes  Radio Mitre Bahía Blanca                OGG   plays, names nothing
+      1 votes  LRA 57 Radio Nacional El Bolsón         MP3   plays, names nothing
+      1 votes  LRA 54 Radio Nacional Ingeniero Jacoba  MP3   no answer
+      1 votes  Radio Mitre Resistencia 90.7 FM         AAC+  ICY: Ads - Block
+      1 votes  LRA 23 Radio Nacional San Juan          MP3   plays, names nothing
+      1 votes  FM CONDOR 98.7                          AAC+  no answer
+      1 votes  UNLaM Radio 89.1 FM                     AAC+  plays, names nothing
+      1 votes  LRA 5 Radio Nacional Rosario            MP3   plays, names nothing
+      1 votes  LT15-Radio del litoral                  MP3   plays, names nothing
+      1 votes  Frecuencia Sundance 98.7                AAC+  status: en vivo - Frecuencia Sundance 98.7 FM
+      1 votes  LRA 21 Radio Nacional Santiago del Est  MP3   plays, names nothing
+      1 votes  Radio 2 AM 1230 Rosario                 AAC+  plays, names nothing
+      1 votes  Radio 10 Rosario FM 89.7                AAC+  no answer
+      1 votes  Radio Simphony 91.3                     AAC   plays, names nothing
+      1 votes  LT3 AM 680                              AAC+  plays, names nothing
+      1 votes  Radio Guía                              AAC+  ICY: Hi-Fi Internet Stream
+      1 votes  Radio Mágica Digital                    AAC+  ICY: www.radiomagicadigital.com.ar
+      1 votes  La 100 Necochea                         AAC   plays, names nothing
+      1 votes  Radio Show FM 98.5                      AAC+  ICY: Radio Show Argentina  EN VIVO
+      1 votes  Radio Estudio 97 ½ - Pehuajó            AAC+  ICY: La Radio Que Elegis Cada Dÿa
+      1 votes  LT32 Radio Chivilcoy                    AAC+  ICY: radio chivilcoy
+      1 votes  La 100 Carlos Casares 101.5 FM          AAC+  status: FM 101.5 - EN VIVO
+      1 votes  Radio Ciudad 99.5 FM                    AAC+  plays, names nothing
+      1 votes  Steady State Radio                      MP3   ICY: SSR - Night Shift Open Piano 03
+      1 votes  Radio Federal Bolivar                   MP3   plays, names nothing
+      1 votes  FM Aries 103.7                          MP3   plays, names nothing
+      1 votes  LU 11 Radio Trenque Lauquen - AM 1280   AAC+  ICY: RADIO LU 11 - AM 1280
+      1 votes  Radio 10 Mar del Plata FM 105.5         AAC   plays, names nothing
+      1 votes  Radio City Campana  - FM 91.7           AAC+  plays, names nothing
+      1 votes  Fm ciudad                               AAC   plays, names nothing
+      1 votes  FM Trópico 97.7                         MP3   ICY: FM Tr�pico 97.7
+      1 votes  Fm Ilusiones 95.3 Tres Arroyos          AAC+  status: ESTAMOS EN VIVO - FM ILUSIONES 95.3 MHZ
+      1 votes  FM 102.9 Music Station                  MP3   status: You are listening to The Killers - Human - unknown artist
+      1 votes  MDZ Radio                               AAC   ICY: Hi-Fi Internet Stream
+      1 votes  Otro Día Perfecto                       MP3   ICY: M�tley Cr�e - Take Me To The Top (Leath�r Records Version) (LANZA
+      1 votes  Laser Max 103.3                         AAC   no answer
+      1 votes  Radio Contacto 104.1 FM                 AAC+  plays, names nothing
+      1 votes  Radio City FM 107.1                     AAC   HLS, plays
