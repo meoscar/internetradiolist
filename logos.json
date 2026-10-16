@@ -4344,6 +4344,11 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/streamingbysecurenetsystemscirrusr.webp",
   "name": "Streaming by Securenet Systems Cirrus(R)"
  },
+ "http://ice37.fluidstream.net:80/rgw.aac": {
+  "from": "http://www.gruen-weiss.at/logo192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radiogrnwei.webp",
+  "name": "Radio Grün Weiß"
+ },
  "http://ice37.fluidstream.net:80/ria60_pa.aac": {
   "from": "https://www.ria60.it/wp-content/uploads/2025/05/RIA60quad.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioitaliaanni60pa.webp",
@@ -7804,6 +7809,11 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/freetalklive64k.webp",
   "name": "Free Talk Live - 64k"
  },
+ "http://s5.voscast.com:8216/stream": {
+  "from": "http://voscast.com/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/nonstophindi.webp",
+  "name": "Non Stop Hindi"
+ },
  "http://s5.voscast.com:9018/": {
   "from": "https://static.wixstatic.com/media/90a441_6be1fb15f9124ae2816c46f0653d9af1%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/90a441_6be1fb15f9124ae2816c46f0653d9af1%7Emv2.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/cliffrichardradio.webp",
@@ -8648,6 +8658,11 @@
   "from": "radio-browser favicon (by name): https://revolution6.org/favicon-revolution-6.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/revolution6.webp",
   "name": "Revolution 6"
+ },
+ "http://streamssl.chilltrax.com:80/live": {
+  "from": "https://www.chilltrax.com/images/android-icon-192x192.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/chilltraxtheworldschilloutchannel.webp",
+  "name": "Chilltrax - The World's Chillout Channel"
  },
  "http://streamssl.radiodanz.com:80/live": {
   "from": "https://www.radiodanz.com/images/android-icon-192x192.png",
