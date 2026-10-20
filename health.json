@@ -40,8 +40,8 @@
   "last": "audio/mpeg"
  },
  "http://100.12.199.144:55500/digitalmix128": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://103.246.18.3:4096/;": {
   "consecutive_failures": 0,
@@ -300,12 +300,12 @@
   "last": "audio/mpeg"
  },
  "http://144.126.151.19:8000/ballermann_mp3_2": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "URLError: <urlopen error timed out>"
  },
  "http://144.126.151.19:8000/mp3": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "URLError: <urlopen error timed out>"
  },
  "http://144.217.158.59:5000/stream": {
   "consecutive_failures": 0,
@@ -412,8 +412,8 @@
   "last": "audio/mpeg"
  },
  "http://149.56.155.73:8020/stream": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error [Errno 111] Connection refused>"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://149.56.155.73:8068/stream": {
   "consecutive_failures": 0,
@@ -576,8 +576,8 @@
   "last": "audio/mpeg"
  },
  "http://157.90.133.87:8080/stream": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://157.90.133.87:8470/stream": {
   "consecutive_failures": 0,
@@ -804,16 +804,16 @@
   "last": "audio/mpeg"
  },
  "http://164.132.158.45:8010/radio.mp3": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://164.132.158.45:8020/radio.mp3": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "http://164.132.158.45:8030/radio.mp3": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://164.132.158.45:8040/radio.mp3": {
   "consecutive_failures": 0,
@@ -1488,8 +1488,8 @@
   "last": "audio/mpeg"
  },
  "http://192.99.170.8:5684/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://192.99.4.210:3012/stream": {
   "consecutive_failures": 0,
@@ -2200,8 +2200,8 @@
   "last": "audio/mpeg"
  },
  "http://37.59.37.173:41036/;": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://37.59.40.90:16150/;": {
   "consecutive_failures": 0,
@@ -2470,10 +2470,6 @@
  "http://5.39.82.219:8138/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
- },
- "http://5.9.65.9:8028/sanvicente": {
-  "consecutive_failures": 4,
-  "last": "URLError: <urlopen error [Errno 111] Connection refused>"
  },
  "http://5.9.65.9:8030/stream.aac": {
   "consecutive_failures": 0,
@@ -2956,8 +2952,8 @@
   "last": "audio/mpeg"
  },
  "http://60.250.148.112:8000/live": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 403: Forbidden"
  },
  "http://61.218.61.251:8080/": {
   "consecutive_failures": 0,
@@ -3267,14 +3263,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://69.162.124.26:8000/stream": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
- "http://69.162.124.26:8004/stream": {
-  "consecutive_failures": 3,
-  "last": "URLError: <urlopen error timed out>"
- },
  "http://69.197.169.178:14472/;": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -3340,7 +3328,7 @@
   "last": "audio/mpeg"
  },
  "http://74.91.125.187:8082/stream": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://77.168.71.111:9005/;": {
@@ -4080,15 +4068,15 @@
   "last": "audio/mpeg"
  },
  "http://archi-us.digitalproserver.com/marcelafm.aac": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://argentina.republicahosting.com:8197/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
  },
  "http://argentina.republicahosting.com:8261/stream": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://argentina.republicahosting.com:8417/stream": {
@@ -5092,7 +5080,7 @@
   "last": "audio/aac"
  },
  "http://listen.nekonetwork.moe:8400/anime.mp3": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://listen.nolife-radio.com:80/stream": {
@@ -5652,7 +5640,7 @@
   "last": "audio/mpeg"
  },
  "http://player.reggaeneracija.me:8000/autodj": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 4,
   "last": "URLError: <urlopen error [Errno 111] Connection refused>"
  },
  "http://playerservices.streamtheworld.com/api/livestream-redirect/AM790_56AAC_SC": {
@@ -5748,16 +5736,16 @@
   "last": "audio/mpeg"
  },
  "http://queens11369v.softether.net:30016/digitalmix48": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://queens11369v.softether.net:30016/djspinnercee128": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://queens11369v.softether.net:30016/djspinnercee48": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://quincy.torontocast.com:2020/;": {
   "consecutive_failures": 0,
@@ -6376,8 +6364,8 @@
   "last": "audio/mpeg"
  },
  "http://s1.slotex.pl:7424/;": {
-  "consecutive_failures": 2,
-  "last": "TimeoutError: timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://s1.slotex.pl:7488/;": {
   "consecutive_failures": 0,
@@ -6512,8 +6500,8 @@
   "last": "audio/mpeg"
  },
  "http://s2.stationplaylist.com:7052/listen.aac": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Available"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://s2.stationplaylist.com:7056/listen.aac": {
   "consecutive_failures": 0,
@@ -6884,8 +6872,8 @@
   "last": "audio/aacp"
  },
  "http://s42.myradiostream.com:34540/vibeibiza": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "http://s43.myradiostream.com:23828/;": {
   "consecutive_failures": 0,
@@ -7024,8 +7012,8 @@
   "last": "audio/mpeg"
  },
  "http://s7.voscast.com:9138/live": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://s7.voscast.com:9928/stream": {
   "consecutive_failures": 0,
@@ -7148,8 +7136,8 @@
   "last": "audio/mpeg"
  },
  "http://server-23.stream-server.nl:8926/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 503: Server limit reached"
  },
  "http://server-27.stream-server.nl:8326/stream": {
   "consecutive_failures": 0,
@@ -7188,8 +7176,8 @@
   "last": "audio/aacp"
  },
  "http://server.laradio.online:8202/;": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "http://server.laradio.online:8599/;": {
   "consecutive_failures": 0,
@@ -7392,8 +7380,8 @@
   "last": "audio/aacp"
  },
  "http://sonic.portalfoxmix.cl:8424/;": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://sonic.portalfoxmix.cl:9986/;": {
   "consecutive_failures": 0,
@@ -8028,8 +8016,8 @@
   "last": "audio/mpeg"
  },
  "http://streaming.comunicacioneschile.net:9358/;": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://streaming.edmradio.online:8025/nhk41left": {
   "consecutive_failures": 0,
@@ -8100,8 +8088,8 @@
   "last": "audio/mpeg"
  },
  "http://streaming01.shockmedia.com.ar:9332/stream": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "http://streaming01.shockmedia.com.ar:9858/;": {
   "consecutive_failures": 0,
@@ -8136,8 +8124,8 @@
   "last": "audio/aacp"
  },
  "http://streaming5.elitecomunicacion.es:8128/caravaca?type=.mp3": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Available"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://streamingcwsradio10.com:9302/;stream.mp3": {
   "consecutive_failures": 0,
@@ -9039,14 +9027,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "http://wecast07-o-cloud.flumotion.com/copesedes/cartagena.mp3": {
-  "consecutive_failures": 4,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
- },
- "http://wecast13-h-cloud.flumotion.com/copesedes/sevilla.mp3": {
-  "consecutive_failures": 4,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
- },
  "http://wwfm.streamguys1.com:80/live": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
@@ -9112,16 +9092,16 @@
   "last": "audio/mpeg"
  },
  "http://www.partyviberadio.com:8046/stream": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "http://www.partyviberadio.com:8056/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "http://www.radiopego.com:8000/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "URLError: <urlopen error timed out>"
  },
  "http://www.radiozilvervos.com:8200/;": {
   "consecutive_failures": 0,
@@ -9524,8 +9504,8 @@
   "last": "audio/aac"
  },
  "https://audio1.energia1025.com/radio/8000/stream.mp3": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 502: Bad Gateway"
  },
  "https://audio1.tustreaming.cl/9020/stream": {
   "consecutive_failures": 0,
@@ -9672,8 +9652,8 @@
   "last": "audio/mpeg"
  },
  "https://cast.zuperdns.net/8022/stream/": {
-  "consecutive_failures": 2,
-  "last": "only 212 bytes"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://cast.zuperdns.net/8024/stream/": {
   "consecutive_failures": 0,
@@ -9752,8 +9732,8 @@
   "last": "audio/aac; charset=UTF-8"
  },
  "https://cdn.instream.audio:9288/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/aacp"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: Not Available"
  },
  "https://cdn.instream.audio:9307/stream": {
   "consecutive_failures": 0,
@@ -9852,12 +9832,12 @@
   "last": "audio/aacp"
  },
  "https://conectapp.misradios.cl/radio/fmplus.mp3": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/aac"
  },
  "https://conexion.radioeuroextasis.com/": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/aac"
  },
  "https://control.streaming-pro.com:8000/ibizaglobalclassics.mp3": {
   "consecutive_failures": 0,
@@ -10016,7 +9996,7 @@
   "last": "hls playlist"
  },
  "https://fm.unam.edu.ar/fm": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "URLError: <urlopen error timed out>"
  },
  "https://fm.uncu.edu.ar/": {
@@ -10072,7 +10052,7 @@
   "last": "audio/mpeg"
  },
  "https://frontend.radiohdvivo.com/continental/live": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "URLError: <urlopen error timed out>"
  },
  "https://funkydiscoradio.stream.laut.fm/funkydiscoradio": {
@@ -10212,16 +10192,12 @@
   "last": "audio/mpeg"
  },
  "https://ipanel.instream.audio/8004/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/aac"
- },
- "https://ipanel.instream.audio:7000/stream": {
-  "consecutive_failures": 4,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 502: Bad Gateway"
  },
  "https://ipanel.instream.audio:7002/stream?_=18fea7232d5": {
-  "consecutive_failures": 0,
-  "last": "audio/aac"
+  "consecutive_failures": 2,
+  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "https://italia1.stream.laut.fm/italia1": {
   "consecutive_failures": 0,
@@ -11604,8 +11580,8 @@
   "last": "audio/mpeg"
  },
  "https://popnonstop.stream.laut.fm/popnonstop": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://popradio.stweb.tv/popradio/live/playlist.m3u8": {
   "consecutive_failures": 0,
@@ -11620,8 +11596,8 @@
   "last": "audio/mpeg"
  },
  "https://punkirratia.net:8443/punk": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://pureibizaradio.clubbingradios.com:9518/PureIbizaRadio": {
   "consecutive_failures": 0,
@@ -11657,7 +11633,7 @@
  },
  "https://radio.arcast.net:1045/stream": {
   "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "last": "audio/aac"
  },
  "https://radio.dcealopez.es/live": {
   "consecutive_failures": 0,
@@ -11756,7 +11732,7 @@
   "last": "audio/aac"
  },
  "https://radio.nitro-server.uk/listen/1940sshanghaioldtimesmusicradio/radio.mp3": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>"
  },
  "https://radio.radiobot.org/listen/rvk/rvk.mp3": {
@@ -11872,8 +11848,8 @@
   "last": "audio/mpeg"
  },
  "https://radioalexfm.stream.laut.fm/radioalexfm": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://radiobot.radioslibres.info/listen/radio_cadenazo_libre/cadenazo.mp3": {
   "consecutive_failures": 0,
@@ -11936,11 +11912,11 @@
   "last": "audio/mpeg"
  },
  "https://radiolatina.info/8170/stream": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://radiolatina.info/8172/stream": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 503: Service Temporarily Unavailable"
  },
  "https://radiolatina.info/9326/stream": {
@@ -11976,8 +11952,8 @@
   "last": "audio/mpeg"
  },
  "https://radioretromix.stream.laut.fm/radioretromix": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://radiorheinland.stream.laut.fm/radiorheinland": {
   "consecutive_failures": 0,
@@ -12044,12 +12020,12 @@
   "last": "audio/aacp"
  },
  "https://rap.stream.laut.fm/rap": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://redirector.dps.live/hls-audio/4e252a65837b69e349d5d8c1033152b4/hztear/playlist/manifest/gotardisz/audio/now/livestream1.m3u8": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "hls playlist"
  },
  "https://relay.rainwave.cc/all.mp3?1:MF0d8GHw2d": {
   "consecutive_failures": 0,
@@ -12363,10 +12339,6 @@
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
- "https://salamanca-copesedes-rrcast.flumotion.com/copesedes/salamanca-low.mp3": {
-  "consecutive_failures": 4,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
- },
  "https://samuel.i-radio.co:8001/araunastereo": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
@@ -12620,8 +12592,8 @@
   "last": "audio/mpeg"
  },
  "https://sonic.portalfoxmix.club/8042/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "only 212 bytes"
  },
  "https://sonic.portalfoxmix.club/8046/stream": {
   "consecutive_failures": 0,
@@ -12676,12 +12648,12 @@
   "last": "audio/mpeg"
  },
  "https://sonicpanel.chileservidores.cl/8004/stream": {
-  "consecutive_failures": 1,
-  "last": "only 212 bytes"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://sonicpanel.chileservidores.cl/8032/stream": {
-  "consecutive_failures": 1,
-  "last": "only 212 bytes"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "https://sonicpanel.hostradios.com/8002/stream": {
   "consecutive_failures": 0,
@@ -12772,8 +12744,8 @@
   "last": "application/ogg"
  },
  "https://stationitaly.stream.laut.fm/stationitaly": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stereo.stream.laut.fm/stereo": {
   "consecutive_failures": 0,
@@ -12920,8 +12892,8 @@
   "last": "audio/mpeg"
  },
  "https://stream-287.surfernetwork.com/4ili1p9hiyktv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiI0aWxpMXA5aGl5a3R2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6ImE0ZUd6bHROUUpXWDJMSVQ1ZE9MZEEiLCJpYXQiOjE3OTE3OTQwNTEsImV4cCI6MTc5MTc5NDExMX0.Raopr58P3Q6oCXHqcIjVzhTzQML8P7_0DDI-0UDeOZc": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 503: Service Unavailable"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream-287.surfernetwork.com/ssmz1n5vmd0uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJzc216MW41dm1kMHV2IiwiaG9zdCI6InN0cmVhbS0yODcuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IkFQWTlZdE9RUnAyaGJfMi1adHlOd3ciLCJpYXQiOjE3OTE3OTYwMTgsImV4cCI6MTc5MTc5NjA3OH0.ViKbyfRyNZtQZXLF3Zz4lv_FuLpKniy-KbKkexmLcy0": {
   "consecutive_failures": 0,
@@ -12937,7 +12909,7 @@
  },
  "https://stream-289.surfernetwork.com/qktzze7sb18uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJxa3R6emU3c2IxOHV2IiwiaG9zdCI6InN0cmVhbS0yODkuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6IlJwVUg5OThTU0N5UjJrb0lLSk5MWVEiLCJpYXQiOjE3OTE3OTkwOTcsImV4cCI6MTc5MTc5OTE1N30.uhaXTB54UA7ifki3U3gAlMTQ945sLv6ADh-yTn9txSU": {
   "consecutive_failures": 0,
-  "last": "audio/aac"
+  "last": "audio/mpeg"
  },
  "https://stream-290.surfernetwork.com/aaxwtg4w6x1uv?zt=eyJhbGciOiJIUzI1NiJ9.eyJzdHJlYW0iOiJhYXh3dGc0dzZ4MXV2IiwiaG9zdCI6InN0cmVhbS0yOTAuc3VyZmVybmV0d29yay5jb20iLCJ0bSI6ZmFsc2UsInJ0dGwiOjUsImp0aSI6Ik1tUTNRV21kUTBXem1VTWEyOU1DbkEiLCJpYXQiOjE3OTE4MzAwMDksImV4cCI6MTc5MTgzMDA2OX0.n4E80B9Vd4X9H_vD124vc-Elt8zUfLRPDOMlWNe5fug": {
   "consecutive_failures": 0,
@@ -13056,16 +13028,16 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/100080er": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/100090er": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000christmashits": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000countryhits": {
   "consecutive_failures": 0,
@@ -13076,24 +13048,24 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000discohits": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000goldies": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000goldschlager": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000hiphop": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000indie": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000italohits": {
   "consecutive_failures": 0,
@@ -13108,20 +13080,20 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000oldies": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000radiohits": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000rockhits": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000schlager": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/1000smoothhits": {
   "consecutive_failures": 0,
@@ -13152,8 +13124,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/centrlradio": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/chilloutzone": {
   "consecutive_failures": 0,
@@ -13188,12 +13160,12 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/deutschrock": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 429: Too Many Requests"
  },
  "https://stream.laut.fm/flashradio": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/forever70": {
   "consecutive_failures": 0,
@@ -13228,12 +13200,12 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/funkydiscoradio": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/ganorium-radio": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/halloween-hit-radio": {
   "consecutive_failures": 0,
@@ -13288,8 +13260,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/livezwei": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: The read operation timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/lounge-radio-ibiza": {
   "consecutive_failures": 0,
@@ -13304,8 +13276,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/motoforpeaceradio": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/myhitradio24": {
   "consecutive_failures": 0,
@@ -13324,8 +13296,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/operating-generating": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/poploungecafe": {
   "consecutive_failures": 0,
@@ -13360,8 +13332,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/radiodigitalia-ricordi": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/radiomodena": {
   "consecutive_failures": 0,
@@ -13376,12 +13348,12 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/radiosassuolo": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/radiosummernight": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/radioteam2000": {
   "consecutive_failures": 0,
@@ -13392,8 +13364,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/repubblicrockradio": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/riviera-lounge-radio": {
   "consecutive_failures": 0,
@@ -13420,8 +13392,8 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/rtvsellingen": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/saxnwelle": {
   "consecutive_failures": 0,
@@ -13432,28 +13404,28 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/schwendermarkt": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: The read operation timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/shout_fm": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/stationitaly": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: The read operation timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/stereo": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/studiodance": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/swingtime": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/technobeat": {
   "consecutive_failures": 0,
@@ -13472,12 +13444,12 @@
   "last": "audio/mpeg"
  },
  "https://stream.laut.fm/trap": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/tugafm": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://stream.laut.fm/vinyl-maxi-fm": {
   "consecutive_failures": 0,
@@ -13560,8 +13532,8 @@
   "last": "audio/ogg"
  },
  "https://stream.radiohumorfm.com/stream": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 2,
+  "last": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>"
  },
  "https://stream.radiojar.com/332kkh84xp8uv": {
   "consecutive_failures": 0,
@@ -13628,7 +13600,7 @@
   "last": "audio/aacp"
  },
  "https://stream.shmupradio.com/320": {
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "last": "TimeoutError: The read operation timed out"
  },
  "https://stream.technolovers.fm/edm?ref=radiobrowser": {
@@ -13861,7 +13833,7 @@
  },
  "https://stream.zeno.fm/dsvp0vvm9k8uv": {
   "consecutive_failures": 0,
-  "last": "audio/aac"
+  "last": "audio/mpeg"
  },
  "https://stream.zeno.fm/dzvavezs85ouv": {
   "consecutive_failures": 0,
@@ -14172,8 +14144,8 @@
   "last": "audio/mpeg"
  },
  "https://streaming.audiplay.cl/listen/venus_radio_fm_chile/radio.mp3": {
-  "consecutive_failures": 0,
-  "last": "audio/mpeg"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 502: Bad Gateway"
  },
  "https://streaming.chiloestreaming.com/9626/;": {
   "consecutive_failures": 0,
@@ -14256,12 +14228,12 @@
   "last": "audio/mpeg"
  },
  "https://streaming.radiosenlinea.com.ar/8800/stream": {
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "https://streaming.radiosenlinea.com.ar/8856/stream/1/": {
-  "consecutive_failures": 0,
-  "last": "audio/aacp"
+  "consecutive_failures": 1,
+  "last": "HTTPError: HTTP Error 401: Unauthorized"
  },
  "https://streaming.radiosenlinea.com.ar:10763/live": {
   "consecutive_failures": 0,
@@ -14304,12 +14276,12 @@
   "last": "audio/mpeg"
  },
  "https://streaming.shoutcast.com/colmundo-radio-bogota": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: The read operation timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://streaming.shoutcast.com/gozadera": {
-  "consecutive_failures": 1,
-  "last": "TimeoutError: The read operation timed out"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://streaming.viphosting.cl/8012/stream": {
   "consecutive_failures": 0,
@@ -14336,16 +14308,16 @@
   "last": "audio/mpeg"
  },
  "https://streaming01.shockmedia.com.ar:10404/stream?icy=http": {
-  "consecutive_failures": 1,
-  "last": "RemoteDisconnected: Remote end closed connection without response"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://streaming01.shockmedia.com.ar:10586/stream": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://streaming01.shockmedia.com.ar:10801/stream?icy=http": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "https://streaming01.shockmedia.com.ar:10889/stream?icy=http": {
   "consecutive_failures": 0,
@@ -14402,10 +14374,6 @@
  "https://streaming2.locucionar.com/proxy/poderpentecostal?mp=/stream": {
   "consecutive_failures": 0,
   "last": "audio/aacp"
- },
- "https://streaming2.locucionar.com/proxy/radio5fm/stream": {
-  "consecutive_failures": 4,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
  },
  "https://streaming2.locucionar.com/proxy/radiobt?mp=/stream": {
   "consecutive_failures": 0,
@@ -14520,8 +14488,8 @@
   "last": "audio/mpeg"
  },
  "https://streams.radiomast.io/aff8c0f0-5d0c-41d6-83b2-71daff574701": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 503: Service Unavailable"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://streams.radiomast.io/radioblues-flac": {
   "consecutive_failures": 0,
@@ -14568,8 +14536,8 @@
   "last": "audio/mpeg"
  },
  "https://theartist.stream.laut.fm/theartist": {
-  "consecutive_failures": 1,
-  "last": "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://tilderadio.org/listen": {
   "consecutive_failures": 0,
@@ -14792,8 +14760,8 @@
   "last": "audio/mpeg"
  },
  "https://vivo.miradio.in:8036/stream": {
-  "consecutive_failures": 1,
-  "last": "HTTPError: HTTP Error 401: Unauthorized"
+  "consecutive_failures": 0,
+  "last": "audio/aacp"
  },
  "https://vmf.edge-apps.net/playlist/urbana.m3u8/play.m3u8": {
   "consecutive_failures": 0,
@@ -14828,8 +14796,8 @@
   "last": "audio/mpeg"
  },
  "https://wecast02-o-cloud.flumotion.com/copesedes/albacete.mp3": {
-  "consecutive_failures": 2,
-  "last": "HTTPError: HTTP Error 404: File Not Found"
+  "consecutive_failures": 0,
+  "last": "audio/mpeg"
  },
  "https://wecast07-o-cloud.flumotion.com/copesedes/tenerife-mas.mp3": {
   "consecutive_failures": 0,
@@ -14887,20 +14855,16 @@
   "consecutive_failures": 0,
   "last": "audio/aac"
  },
- "https://www.utp.edu.co/stream/": {
-  "consecutive_failures": 3,
-  "last": "only 0 bytes"
- },
  "https://xeu.centrocibernetico.com/": {
   "consecutive_failures": 0,
   "last": "audio/mpeg"
  },
  "https://zeus.miradio.pro/hls/favorita/live.m3u8": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "hls playlist"
  },
  "https://zeus.miradio.pro/radio/8090/stream": {
-  "consecutive_failures": 2,
-  "last": "URLError: <urlopen error timed out>"
+  "consecutive_failures": 0,
+  "last": "audio/aac"
  }
 }
