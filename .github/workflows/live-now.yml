@@ -145,6 +145,15 @@ jobs:
             # Who each station plays, over a month; the app reads the second.
             [ -s artists_tally.json ] && git add -f artists_tally.json
             [ -s station_artists.json ] && git add -f station_artists.json
+            # The chart as it is on the branch NOW, not as it was when this
+            # run began. The daily chart job publishes while this run is in
+            # the middle of its five hours, and every pass after that was
+            # pushing the chart it had read at the start back over the new
+            # one: the app's weekly chart stood still from 3 September to
+            # 1 November. Fetched fresh before each pass, the newest chart
+            # survives whichever job pushed last.
+            git fetch -q origin live --depth 1 2>/dev/null \
+              && git show origin/live:charts.json > charts.json 2>/dev/null || true
             # Only if it is there: the first passes run before any chart exists.
             [ -s charts.json ] && git add -f charts.json
             git commit -q -m "Live at $(date -u '+%Y-%m-%d %H:%M UTC')"
