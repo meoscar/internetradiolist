@@ -8009,11 +8009,6 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/lradiobaltija.webp",
   "name": "LRADIO BALTIJA"
  },
- "http://radio.mcu.edu.tw:8080/radio?1747274117052": {
-  "from": "http://radio.mcu.edu.tw/favicon.ico",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mcbs.webp",
-  "name": "MCBS 銘傳廣播電台"
- },
  "http://radio.metalmusic.net:80/stream": {
   "from": "site from stream headers: https://metalmusicradio.com/wp-content/uploads/2025/04/mETaL.512.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/metalmusicradio.webp",
@@ -10635,17 +10630,17 @@
   "name": "Foroactivo Polymarchs Radio"
  },
  "http://test.taiwan-radio.tw:8000/HC.FM99.3": {
-  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/878145548_122257263020101335_6061569635548855455_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yWbWOEdAyzwQ7kNvwHaYc2i&_nc_oc=Adrpni6pFaum1a3bHhz4pAHZU5QULSbifWlaGlJRWkVLGCQci3FPDnawAG3NzXDrBvc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=67OSiwOh9H9jk9ulf5Thjg&_nc_ss=7b20f&oh=00_AQRc-N_xDukeTwfFVXmU32ZeEOQFqP8vviRI5esUU4leTg&oe=6B028028",
+  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/878145548_122257263020101335_6061569635548855455_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yWbWOEdAyzwQ7kNvwFhcHM4&_nc_oc=AdrQiFyY15Qr1PUa9FVTLd3KC-T94YayoVHUd20xIIPNpPWkoEotpjGajDuOaaMcvXg&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=ZvY24u2wJlr3vdq96EaAgw&_nc_ss=7b20f&oh=00_AQQk0qNVXqwAcnwAzsAGvKogiKzvJ-oJtF3hx8v-twBnLA&oe=6B028028",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm993.webp",
   "name": "新聲廣播FM99.3"
  },
  "http://test.taiwan-radio.tw:8000/ML.AM1215": {
-  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibtvSOecAgwQ7kNvwFM4aMs&_nc_oc=AdqWCb27njLXN29mNJ0a8vLOmFic5zoTG83QS5-4ccHhhcSlg0v1Ix5YT_b1C9xne1w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=av48uu7NYuSErc7fPw94AA&_nc_ss=7b20f&oh=00_AQQ-9F6kvfmea2vkmT3-5diJhakqYtq-u9W8k8P0j_aA2A&oe=6B0276A5",
+  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibtvSOecAgwQ7kNvwGjDL-h&_nc_oc=AdqDOWaY5toO1yLWA_2qtHZdbIGkxmUDUQ6ON2nSm9qYbgiBAFboSAA_NYHAtMqTnfA&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=CXadTJredZpGGjJ_ACpZ7Q&_nc_ss=7b20f&oh=00_AQTv--q8nOB5AgIDA34rgnVfoEMN5vCXeok0EN5LGEiFVg&oe=6B0276A5",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1215.webp",
   "name": "天聲AM1215"
  },
  "http://test.taiwan-radio.tw:8000/ML.AM1314": {
-  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibtvSOecAgwQ7kNvwFM4aMs&_nc_oc=AdqWCb27njLXN29mNJ0a8vLOmFic5zoTG83QS5-4ccHhhcSlg0v1Ix5YT_b1C9xne1w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=BKIlWCiR7sYukUCaI8n-fg&_nc_ss=7b20f&oh=00_AQQfq2ZuojETlfsNkvM07R4RZwctLvbulMa49YUyDMB2kw&oe=6B0276A5",
+  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibtvSOecAgwQ7kNvwGjDL-h&_nc_oc=AdqDOWaY5toO1yLWA_2qtHZdbIGkxmUDUQ6ON2nSm9qYbgiBAFboSAA_NYHAtMqTnfA&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=KTGrn58KKY9RjGluDFoSqg&_nc_ss=7b20f&oh=00_AQS2iYEsbvD5qthBIqiiEVi9ulUNhdffeeFULdD365SYuw&oe=6B0276A5",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1314.webp",
   "name": "天聲AM1314"
  },
@@ -10665,7 +10660,7 @@
   "name": "都會聲音FM99.7"
  },
  "http://test.taiwan-radio.tw:8000/TY.AM774": {
-  "from": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/911053255_1740103748124811_8276475218398846422_n.avif?stp=dst-jpg_tt6&cstp=mx773x773&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J7I1ua6cPnAQ7kNvwGxTxLu&_nc_oc=AdpcGnR2WXZke9Cdz1pJKv23kbQ6zRTfg9pgscDoyyGD998LaUz9gW7VLBzvKHFDXNY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=HLd_C0gmu89fS2rGYLpFmw&_nc_ss=7b20f&oh=00_AQRq6ijse7IINnDKhKgpBBL2fL9U5pZuoWBEGBrhGpXQJQ&oe=6B0294F6",
+  "from": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/911053255_1740103748124811_8276475218398846422_n.avif?stp=dst-jpg_tt6&cstp=mx773x773&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J7I1ua6cPnAQ7kNvwHv8e0R&_nc_oc=AdpuPOnQAIUuWiB6T7fYbNYUFzT1bgtN2hcW187o0-RFwY9UO1_wag3i3QkblMVF160&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=vsykOZNpL_pHkWYpqExlpA&_nc_ss=7b20f&oh=00_AQS3rinDgipUB0d1e34SA0ucU2L8kdjPC3pp4cHs1aOPHQ&oe=6B0294F6",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am774.webp",
   "name": "桃園先聲廣播AM774"
  },
@@ -13108,11 +13103,6 @@
   "from": "radio-browser favicon (by stream): https://i.pinimg.com/564x/3a/a1/a1/3aa1a107c9434ca52b42b2dd0ffc896f.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/radioquran.webp",
   "name": "#Radio Quran"
- },
- "https://n0b.radiojar.com/ehzvurp9tv8uv?rj-ttl=5&rj-tok=AAABnhLAJhsA5_MD50tsg_xfJQ": {
-  "from": "radio-browser favicon (by stream): https://cdn.onlineradiobox.com/img/l/7/107307.v1.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/bossbossradio.webp",
-  "name": "Boss Boss Radio"
  },
  "https://n10.rcs.revma.com/h4ta80hbqwuvv": {
   "from": "https://cdn.airadiotaiwan.com/metadata_logo.png",
