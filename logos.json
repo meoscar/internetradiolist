@@ -8009,6 +8009,11 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/lradiobaltija.webp",
   "name": "LRADIO BALTIJA"
  },
+ "http://radio.mcu.edu.tw:8080/radio?1747274117052": {
+  "from": "http://radio.mcu.edu.tw/favicon.ico",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/mcbs.webp",
+  "name": "MCBS 銘傳廣播電台"
+ },
  "http://radio.metalmusic.net:80/stream": {
   "from": "site from stream headers: https://metalmusicradio.com/wp-content/uploads/2025/04/mETaL.512.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/metalmusicradio.webp",
@@ -10630,17 +10635,17 @@
   "name": "Foroactivo Polymarchs Radio"
  },
  "http://test.taiwan-radio.tw:8000/HC.FM99.3": {
-  "from": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/878145548_122257263020101335_6061569635548855455_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-ip5zUKUA9EQ7kNvwHxSHnK&_nc_oc=AdogWvMVAFf9ocXEvht9mQgDwoRvYdmo1ZbaM52krZaw83mUukmS1-kvCzfubexiJPc&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=1ZNlHPybdFOQZMeeBxi2FQ&_nc_ss=7b20f&oh=00_AQS5_7cDNSa7r7yrL0LFGFjfPkMpeiUFOCVzmZNC6bpKog&oe=6AF945A8",
+  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/878145548_122257263020101335_6061569635548855455_n.jpg?stp=dst-jpg_tt6&cstp=mx1254x1254&ctp=s720x720&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=yWbWOEdAyzwQ7kNvwHaYc2i&_nc_oc=Adrpni6pFaum1a3bHhz4pAHZU5QULSbifWlaGlJRWkVLGCQci3FPDnawAG3NzXDrBvc&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=67OSiwOh9H9jk9ulf5Thjg&_nc_ss=7b20f&oh=00_AQRc-N_xDukeTwfFVXmU32ZeEOQFqP8vviRI5esUU4leTg&oe=6B028028",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm993.webp",
   "name": "新聲廣播FM99.3"
  },
  "http://test.taiwan-radio.tw:8000/ML.AM1215": {
-  "from": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ttTru45ea7EQ7kNvwHdKXMB&_nc_oc=AdpHxfil1ldyPvTwGb36GAUv5zrJi4MSgTeOkiqNmHTX0AX5bXpJuHSCqM6gyNAjquY&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=UL4yhFFBbZqg7xUUasRhJA&_nc_ss=7b20f&oh=00_AQSZG-mqbRW4aao5OF2ekOR_vl9YADhcjqvJFKVQuFWcIw&oe=6AF93C25",
+  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibtvSOecAgwQ7kNvwFM4aMs&_nc_oc=AdqWCb27njLXN29mNJ0a8vLOmFic5zoTG83QS5-4ccHhhcSlg0v1Ix5YT_b1C9xne1w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=av48uu7NYuSErc7fPw94AA&_nc_ss=7b20f&oh=00_AQQ-9F6kvfmea2vkmT3-5diJhakqYtq-u9W8k8P0j_aA2A&oe=6B0276A5",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1215.webp",
   "name": "天聲AM1215"
  },
  "http://test.taiwan-radio.tw:8000/ML.AM1314": {
-  "from": "radio-browser favicon (by stream): http://www.taiwanradio.org.tw/cache/com_zoo/images/me28_a49a4c4148abd7a413284e1be1999bc5.png",
+  "from": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/225013424_214222490709000_2606353824434619316_n.jpg?stp=dst-jpg_tt6&cstp=mx510x510&ctp=s510x510&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ibtvSOecAgwQ7kNvwFM4aMs&_nc_oc=AdqWCb27njLXN29mNJ0a8vLOmFic5zoTG83QS5-4ccHhhcSlg0v1Ix5YT_b1C9xne1w&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=BKIlWCiR7sYukUCaI8n-fg&_nc_ss=7b20f&oh=00_AQQfq2ZuojETlfsNkvM07R4RZwctLvbulMa49YUyDMB2kw&oe=6B0276A5",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1314.webp",
   "name": "天聲AM1314"
  },
@@ -10659,13 +10664,8 @@
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm997.webp",
   "name": "都會聲音FM99.7"
  },
- "http://test.taiwan-radio.tw:8000/TP.AM819": {
-  "from": "radio-browser favicon (by stream): http://www.taiwan-radio.tw/Images/Logo/TP.AM819.png",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am819.webp",
-  "name": "正聲台北調幅台 AM819"
- },
  "http://test.taiwan-radio.tw:8000/TY.AM774": {
-  "from": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-1/306087615_479697670832098_4582192855647832750_n.jpg?stp=dst-jpg_tt6&cstp=mx773x773&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JNGJaqxylv4Q7kNvwEQEcp7&_nc_oc=Adr6ZB-v3bAHlVs9ViI51tz2h5Z8VKaHM7Dce_sRjj-Dmz-Tb-SP36Dbu5uTc2tQII8&_nc_zt=24&_nc_ht=scontent-dfw6-1.xx&_nc_gid=bCnswID0M3wBvLXrm4Zcaw&_nc_ss=7b20f&oh=00_AQSpmAspZWAYVyv9uBzmLJ7i0ep89L3b7YOaxJPTtdEhUQ&oe=6AF923E5",
+  "from": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/911053255_1740103748124811_8276475218398846422_n.avif?stp=dst-jpg_tt6&cstp=mx773x773&ctp=s720x720&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J7I1ua6cPnAQ7kNvwGxTxLu&_nc_oc=AdpcGnR2WXZke9Cdz1pJKv23kbQ6zRTfg9pgscDoyyGD998LaUz9gW7VLBzvKHFDXNY&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=HLd_C0gmu89fS2rGYLpFmw&_nc_ss=7b20f&oh=00_AQRq6ijse7IINnDKhKgpBBL2fL9U5pZuoWBEGBrhGpXQJQ&oe=6B0294F6",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am774.webp",
   "name": "桃園先聲廣播AM774"
  },
@@ -12458,11 +12458,6 @@
   "from": "https://flashradio.es/recursos/presentacion.jpg",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/flashradio.webp",
   "name": "Flash Radio"
- },
- "https://flv.ccdntech.com/live/_definst_/mp4:vod117_Live/live1/chunklist_w872521607.m3u8": {
-  "from": "site, radio-browser's homepage: https://www.csbc.com.tw/wp-content/uploads/2024/07/6044e1b77e91b4fe89b487-scaled.jpg",
-  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm104.webp",
-  "name": "正聲廣播電台FM104"
  },
  "https://fm.uncu.edu.ar/": {
   "from": "site, the stream headers' site: https://www.uncuyo.edu.ar/images/og-imagen.jpg",
@@ -15565,42 +15560,47 @@
   "name": "PalMundo FM"
  },
  "https://stream.pbs.gov.tw/live/ELS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm1013.webp",
   "name": "警察廣播電臺 - 宜蘭分臺 FM 101.3"
  },
  "https://stream.pbs.gov.tw/live/HLS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm943.webp",
   "name": "警察廣播電臺 - 花蓮分臺 FM 94.3"
  },
  "https://stream.pbs.gov.tw/live/KSS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm931.webp",
   "name": "警察廣播電臺 - 高雄分臺 FM 93.1"
  },
  "https://stream.pbs.gov.tw/live/PBS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm1049.webp",
   "name": "警察廣播電臺 - 全國治安交通網 FM 104.9"
  },
  "https://stream.pbs.gov.tw/live/SCS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1512.webp",
   "name": "警察廣播電臺 - 新竹分臺 AM 1512"
  },
+ "https://stream.pbs.gov.tw/live/TCS/playlist.m3u8": {
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
+  "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm945.webp",
+  "name": "警察廣播電臺 - 臺中分臺 FM 94.5"
+ },
  "https://stream.pbs.gov.tw/live/TNS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/am1314.webp",
   "name": "警察廣播電臺 - 臺南分臺 AM 1314"
  },
  "https://stream.pbs.gov.tw/live/TPS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm943.webp",
   "name": "警察廣播電臺 - 臺北分臺 FM 94.3"
  },
  "https://stream.pbs.gov.tw/live/TTS/playlist.m3u8": {
-  "from": "radio-browser favicon (by stream): https://www.pbs.npa.gov.tw/static/images/favicon.ico",
+  "from": "https://www.pbs.npa.gov.tw/static/images/template/logo.png",
   "logo": "https://raw.githubusercontent.com/meoscar/internetradiolist/main/logos/fm943.webp",
   "name": "警察廣播電臺 - 臺東分臺 FM 94.3"
  },
